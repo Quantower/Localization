@@ -1,0 +1,1 @@
+# Quantower localization
