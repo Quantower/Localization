@@ -1,0 +1,2330 @@
+# Language fr-FR translations for PACKAGE package.
+# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-04 15:58+0200\n"
+"PO-Revision-Date: 2018-12-04 15:59+0200\n"
+"Last-Translator: <EMAIL@ADDRESS>\n"
+"Language-Team: Language fr-FR\n"
+"Language: fr-FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Limit"
+msgstr "Limite"
+
+msgid "Price"
+msgstr "Prix"
+
+msgid "Stop loss price should be less then limit price"
+msgstr "Stop loss prix devrait être moins que le prix limite"
+
+msgid "Take profit price should be more then limit price"
+msgstr "Prendre le prix du profit devrait être plus que le prix limite"
+
+msgid "Stop loss price should be more then limit price"
+msgstr "Stop loss prix devrait être plus que le prix limite"
+
+msgid "Take profit price should be less then limit price"
+msgstr "Le prix du profit doit être inférieur au prix limite"
+
+msgid "Market"
+msgstr "Marché"
+
+msgid "Stop loss price should be less then market ask price"
+msgstr "Stop loss le prix devrait être moins que le prix demandé du marché"
+
+msgid "Take profit price should be more then market ask price"
+msgstr "Prendre le prix du profit devrait être plus que le prix demandé du marché"
+
+msgid "Stop loss price should be more then market bid price"
+msgstr "Stop loss prix devrait être plus que le prix du marché"
+
+msgid "Take profit price should be less then market bid price"
+msgstr "Le prix de prise de profit devrait être inférieur au prix de l'offre du marché"
+
+msgid "Stop limit"
+msgstr "Limite stop"
+
+msgid "Trigger price"
+msgstr "Prix déclencheur"
+
+msgid "Stop"
+msgstr "Arrêter"
+
+msgid "Stop loss price should be less then stop price"
+msgstr "Stop loss prix devrait être moins, puis arrêter le prix"
+
+msgid "Take profit price should be more then stop price"
+msgstr "Prendre le prix du profit devrait être plus puis arrêter le prix"
+
+msgid "Stop loss price should be more then stop price"
+msgstr "Stop loss prix devrait être plus puis arrêter le prix"
+
+msgid "Take profit price should be less then stop price"
+msgstr "Prendre le prix de profit devrait être moins que le prix d'arrêt"
+
+msgid "Tr. stop"
+msgstr "TR. Stop"
+
+msgid "Trailing offset"
+msgstr "Décalage de fuite"
+
+msgid "Unspecified"
+msgstr "Non spécifié"
+
+msgid "Pending"
+msgstr "En attente"
+
+msgid "Opened"
+msgstr "Ouvert"
+
+msgid "Partially Filled"
+msgstr "Partiellement rempli"
+
+msgid "Filled"
+msgstr "Remplie"
+
+msgid "Canceled"
+msgstr "Annulé"
+
+msgid "Refused"
+msgstr "Refusé"
+
+msgid "Modified"
+msgstr "Modifié"
+
+msgid "Inactive"
+msgstr "Inactif"
+
+msgid "Working"
+msgstr "Travail"
+
+msgid "Multiple positions"
+msgstr "Positions multiples"
+
+msgid "Multiple positions per side"
+msgstr "Plusieurs positions par côté"
+
+msgid "One position"
+msgstr "Une position"
+
+msgid "Undefined"
+msgstr "Indéfini"
+
+msgid "Box size"
+msgstr "Taille de la case"
+
+msgid "Reversal"
+msgstr "Inversion"
+
+msgid "Style"
+msgstr "Style"
+
+msgid "ticks"
+msgstr "tiques"
+
+msgid "s"
+msgstr "s"
+
+msgid "m"
+msgstr "m"
+
+msgid "H"
+msgstr "H"
+
+msgid "D"
+msgstr "J"
+
+msgid "W"
+msgstr "S"
+
+msgid "M"
+msgstr "M"
+
+msgid "Y"
+msgstr "A"
+
+msgid "User"
+msgstr "Utilisateur"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+#, csharp-format
+msgid "Data series #{0}"
+msgstr "Série de données # {0}"
+
+#, csharp-format
+msgid "'{0}' data series"
+msgstr "série de données' {0} '"
+
+#, csharp-format
+msgid "Level data series #{0}"
+msgstr "Série de données de niveau # {0}"
+
+msgid "Solid"
+msgstr "Solide"
+
+msgid "Dash"
+msgstr "Tiret"
+
+msgid "Dot"
+msgstr "Point"
+
+msgid "Dash dot"
+msgstr "Point de tiret"
+
+msgid "Histogramm"
+msgstr "Histogramme"
+
+msgid "Input parameters"
+msgstr "Paramètres d'entrée"
+
+msgid "Bid"
+msgstr "Offre"
+
+msgid "Ask"
+msgstr "Demande"
+
+msgid "Bid/Ask average"
+msgstr "Moyenne d'offre/de demande"
+
+msgid "Last"
+msgstr "Dernier"
+
+msgid "Exception"
+msgstr "Exception"
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "Compare to previous"
+msgstr "Comparer aux précédents"
+
+msgid "By sign"
+msgstr "Par signe"
+
+msgid "="
+msgstr "="
+
+msgid "!="
+msgstr "! ="
+
+msgid "Contains"
+msgstr "Contient"
+
+msgid "Not contains"
+msgstr "Ne contient pas"
+
+msgid ">"
+msgstr "\\u003e"
+
+msgid ">="
+msgstr "\\u003e ="
+
+msgid "<"
+msgstr "\\u003c"
+
+msgid "<="
+msgstr "\\u003c="
+
+msgid "Maximize"
+msgstr "Maximiser"
+
+msgid "Restore"
+msgstr "Restaurer"
+
+msgid "Custom title"
+msgstr "Titre personnalisé"
+
+#, csharp-format
+msgid "{0} has not supported {1} event"
+msgstr "{0} n'a pas pris en charge l'événement {1}"
+
+#, csharp-format
+msgid "{0} has not supported {1} shared property"
+msgstr "{0} n'a pas pris en charge la propriété partagée {1}"
+
+msgid "Link"
+msgstr "Lien"
+
+msgid "Red"
+msgstr "Rouge"
+
+msgid "Yellow"
+msgstr "Jaune"
+
+msgid "Green"
+msgstr "Vert"
+
+msgid "Blue"
+msgstr "Bleu"
+
+msgid "Purple"
+msgstr "Violet"
+
+msgid "Unlink"
+msgstr "Séparer"
+
+msgid "Create bind"
+msgstr "Créer une liaison"
+
+msgid "Duplicate panel"
+msgstr "Dupliquer le panneau"
+
+msgid "Save as template"
+msgstr "Enregistrer en tant que modèle"
+
+msgid "Set as default"
+msgstr "Définir par défaut"
+
+msgid "Setup Actions"
+msgstr "Actions d'installation"
+
+msgid "Export Data"
+msgstr "Exporter des données"
+
+msgid "Help"
+msgstr "Aide"
+
+msgid "Settings"
+msgstr "Paramètres"
+
+msgid "Always On Top"
+msgstr "Toujours au top"
+
+msgid "Do you really want to reset to default settings?"
+msgstr "Voulez-vous vraiment rétablir les paramètres par défaut?"
+
+msgid "Actions"
+msgstr "actes"
+
+msgid "Filter"
+msgstr "Filtre"
+
+msgid "HISTORICAL SYMBOL"
+msgstr "Symbole historique"
+
+msgid "EMULATOR"
+msgstr "Émulateur"
+
+msgid "SIMULATOR"
+msgstr "Simulateur"
+
+msgid "PLAYER"
+msgstr "JOUEUR"
+
+msgid "BACKTESTER"
+msgstr "CONTRE-TESTeur"
+
+msgid "Hotkeys"
+msgstr "Raccourcis"
+
+msgid "View"
+msgstr "Visualiser"
+
+msgid "Columns"
+msgstr "Colonnes"
+
+msgid "Over chart"
+msgstr "Sur le graphique"
+
+msgid "On chart background"
+msgstr "Sur le fond de graphique"
+
+#, csharp-format
+msgid "Sub window {0}"
+msgstr "Sous-fenêtre {0}"
+
+msgid "New sub window"
+msgstr "Nouvelle sous-fenêtre"
+
+msgid "Position on chart"
+msgstr "Position sur le graphique"
+
+msgid "Bar"
+msgstr "Barre"
+
+msgid "Date"
+msgstr "Rendez-vous amoureux"
+
+msgid "Time"
+msgstr "Heure"
+
+msgid "Open"
+msgstr "Ouvert"
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "High"
+msgstr "Haut"
+
+msgid "Low"
+msgstr "Bas"
+
+msgid "Change, %"
+msgstr "Changement, %"
+
+msgid "Ticks"
+msgstr "Tiques"
+
+msgid "Volume"
+msgstr "Le volume"
+
+msgid "Hide"
+msgstr "Cacher"
+
+msgid "Show in short mode"
+msgstr "Afficher en mode court"
+
+msgid "Separate window"
+msgstr "Séparer la fenêtre"
+
+msgid "Hidden"
+msgstr "Caché"
+
+msgid "Display mode"
+msgstr "Mode d'affichage"
+
+msgid "Info window"
+msgstr "Fenêtre d'infos"
+
+msgid "Settlement"
+msgstr "Règlement"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Auto centered"
+msgstr "Centré automatiquement"
+
+msgid "Manual"
+msgstr "Manuel"
+
+msgid "Fit indicators"
+msgstr "Ajuster les indicateurs"
+
+msgid "Fit orders/positions"
+msgstr "Ajuster les ordres/positions"
+
+msgid "Fit drawings"
+msgstr "Ajuster les dessins"
+
+msgid "Absolute"
+msgstr "Absolu"
+
+msgid "Relative"
+msgstr "Relatif"
+
+msgid "Logarithmic"
+msgstr "Logarithmique"
+
+msgid "Switch to manual price scale"
+msgstr "Passer à l'échelle de prix manuelle"
+
+msgid "Switch to auto price scale"
+msgstr "Passer à l'échelle de prix automatique"
+
+msgid "Grid"
+msgstr "Grille"
+
+msgid "Price (horizontal)"
+msgstr "Prix (horizontal)"
+
+msgid "Appearance"
+msgstr "Apparence"
+
+msgid "Font"
+msgstr "Police"
+
+msgid "Text color"
+msgstr "Couleur du texte"
+
+msgid "Axis"
+msgstr "Axe"
+
+msgid "Axis background"
+msgstr "Fonds de l'axe"
+
+msgid "Day"
+msgstr "Jour"
+
+msgid "Week"
+msgstr "Semaine"
+
+msgid "Month"
+msgstr "Mois"
+
+msgid "Year"
+msgstr "Année"
+
+msgid "Show days separator"
+msgstr "Visualiser les séparateurs de jours"
+
+msgid "Show weeks separator"
+msgstr "Visualiser les séparateurs de semaines"
+
+msgid "Show months separator"
+msgstr "Visualiser les séparateurs de mois"
+
+msgid "Show years separator"
+msgstr "Visualiser les séparateurs d'années"
+
+msgid "Important dates font"
+msgstr "Police de dates importantes"
+
+msgid "Font color"
+msgstr "Couleur de police"
+
+msgid "Highlight date"
+msgstr "Mettre en avant la date"
+
+msgid "Day separators"
+msgstr "Séparateurs de jour"
+
+msgid "Week separators"
+msgstr "Séparateurs de semaine"
+
+msgid "Month separators"
+msgstr "Séparateurs de mois"
+
+msgid "Year separators"
+msgstr "Séparateurs d'années"
+
+msgid "Time (vertical)"
+msgstr "Date (vertical)"
+
+msgid "Time scale"
+msgstr "Échelle temporelle"
+
+msgid "Stroke color"
+msgstr "Couleur de la course"
+
+msgid "Top color"
+msgstr "Couleur supérieure"
+
+msgid "Bottom color"
+msgstr "Couleur inférieure"
+
+msgid "Fill color"
+msgstr "La couleur de remplissage"
+
+msgid "Line type"
+msgstr "Type de ligne"
+
+msgid "Line size"
+msgstr "La taille de la ligne"
+
+msgid "Move to background"
+msgstr "Est le fonds d'écran"
+
+msgid "Clone mode"
+msgstr "Cloner le mode"
+
+msgid "Remove"
+msgstr "Retirer"
+
+msgid "Lock location"
+msgstr "Verrouiller l'emplacement"
+
+msgid "Font size"
+msgstr "Taille de police"
+
+#, csharp-format
+msgid "Buy {0}"
+msgstr "Acheter {0}"
+
+#, csharp-format
+msgid "Sell {0}"
+msgstr "Vendre {0}"
+
+msgid "Modify"
+msgstr "Modifier"
+
+msgid "Modify SL to breakeven"
+msgstr "Modifier SL à rentabilité"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Change to Market"
+msgstr "Changement vers le marché"
+
+msgid "Show positions"
+msgstr "Visualiser les positions"
+
+msgid "Show orders"
+msgstr "Visualiser les ordres"
+
+msgid "Show filled orders"
+msgstr "Visualiser les ordres complétés"
+
+msgid "Trade through Order entry"
+msgstr "Trader par l'entrée d'une commande"
+
+#, csharp-format
+msgid "{0} color"
+msgstr "{0} couleur"
+
+msgid "Back"
+msgstr "Précédent"
+
+msgid "Delta colors"
+msgstr "Couleurs Delta"
+
+msgid "Width of histogram, %"
+msgstr "Largeur de l'histogramme,%"
+
+msgid "Data type"
+msgstr "Type de données"
+
+msgid "Highlight maximum value"
+msgstr "Mettre en évidence la valeur maximale"
+
+msgid "Maximum value color"
+msgstr "Couleur de la valeur maximale"
+
+msgid "Text"
+msgstr "Texte"
+
+msgid "Value label"
+msgstr "Étiquette de valeur"
+
+msgid "Periods"
+msgstr "Périodes"
+
+msgid "Buy"
+msgstr "Acheter"
+
+msgid "Sell"
+msgstr "Vendre"
+
+msgid "Step period"
+msgstr "Période d'étape"
+
+msgid "Step coefficient"
+msgstr "Coefficient d'étape"
+
+msgid "Minute"
+msgstr "Minute"
+
+msgid "Hour"
+msgstr "Heure"
+
+msgid "Height of histogram, %"
+msgstr "Hauteur de l'histogramme,%"
+
+msgid "Volume color"
+msgstr "Couleur du volume"
+
+msgid "Trades color"
+msgstr "Couleur de métiers"
+
+msgid "Coloring by volume"
+msgstr "Coloration par volume"
+
+msgid "Coloring by ticks"
+msgstr "Coloriage par tiques"
+
+msgid "Coloring by delta"
+msgstr "Coloriage par Delta"
+
+msgid "Coloring by trades"
+msgstr "Coloriage par métiers"
+
+msgid "Histogram"
+msgstr "Histogramme"
+
+#, csharp-format
+msgid "Enable {0} view"
+msgstr "Activer la vue {0}"
+
+msgid "Data type #1"
+msgstr "Type de données #1"
+
+msgid "Data type #2"
+msgstr "Type de données #2"
+
+msgid "Cluster visualization"
+msgstr "Visualisation de cluster"
+
+msgid "Enabled"
+msgstr "Activé"
+
+msgid "General"
+msgstr "Général"
+
+msgid "Cluster"
+msgstr "Grappe"
+
+msgid "Step profile"
+msgstr "Profil de l'étape"
+
+msgid "Left profile"
+msgstr "Profil gauche"
+
+msgid "Right profile"
+msgstr "Profil droit"
+
+msgid "Time statistics"
+msgstr "Statistiques de temps"
+
+msgid "Time histogram"
+msgstr "Histogramme de temps"
+
+msgid "Filtered volume"
+msgstr "Volume filtré"
+
+msgid "Custom step (ticks)"
+msgstr "Étape personnalisée (tiques)"
+
+msgid "Delta calculation type"
+msgstr "Type de calcul Delta"
+
+msgid "Aggressor flag"
+msgstr "Drapeau de l'agresseur"
+
+msgid "Tick direction"
+msgstr "Direction des tiques"
+
+msgid "Default"
+msgstr "Par défaut"
+
+msgid "Histogram position"
+msgstr "Position de l'histogramme"
+
+msgid "Histogram label position"
+msgstr "Position d'étiquette d'histogramme"
+
+msgid "Trade color"
+msgstr "Couleur de commerce"
+
+msgid "Show Totals"
+msgstr "Afficher les totaux"
+
+msgid "Crosshair"
+msgstr "Pointeur"
+
+msgid "Visible"
+msgstr "Visible"
+
+msgid "Highlight prices"
+msgstr "Mettre en avant les prix"
+
+msgid "Day High/Low"
+msgstr "Lignes hautes/basses quotidiennes"
+
+msgid "Previous close"
+msgstr "Fermeture précédente"
+
+msgid "Up"
+msgstr "Haut"
+
+msgid "Down"
+msgstr "Bas"
+
+msgid "Body color"
+msgstr "Couleur du corps"
+
+msgid "Border color"
+msgstr "Couleur de la bordure"
+
+msgid "Wick color"
+msgstr "Couleur de mèche"
+
+msgid "Doji"
+msgstr "Doji"
+
+msgid "Line"
+msgstr "Ligne"
+
+msgid "Area"
+msgstr "Zone"
+
+msgid "Data style"
+msgstr "Style de données"
+
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+msgid "Edit"
+msgstr "Éditer"
+
+msgid "Set active"
+msgstr "Activé"
+
+msgid "Additional"
+msgstr "Additionnel"
+
+msgid "Show scrollbar chart preview"
+msgstr "Afficher l'aperçu du graphique déroulant"
+
+msgid "Scale marker"
+msgstr "Marqueur d'échelle"
+
+msgid "Scale marker with line"
+msgstr "Marqueur d'échelle avec ligne"
+
+msgid "Price indicator"
+msgstr "Indicateur de prix"
+
+msgid "Line with price"
+msgstr "Lignes avec prix"
+
+msgid "Label"
+msgstr "Étiquette"
+
+msgid "Spread type"
+msgstr "Type de spread"
+
+msgid "Spread area color"
+msgstr "Couleur de la zone des spreads"
+
+msgid "Time to next bar"
+msgstr "Temps jusqu'à la prochaine barre"
+
+msgid "Height, %"
+msgstr "Hauteur, %"
+
+msgid "By bar"
+msgstr "Par barre"
+
+msgid "By Difference"
+msgstr "Par différence"
+
+msgid "Fixed"
+msgstr "Fixe"
+
+msgid "Above/below the moving average"
+msgstr "Au-dessus / en dessous de la moyenne mobile"
+
+msgid "Size coloring scheme"
+msgstr "Schéma de coloration de la taille"
+
+msgid "Equal"
+msgstr "Égal"
+
+msgid "Positive"
+msgstr "Positif"
+
+msgid "Negative"
+msgstr "Négatif"
+
+msgid "Show value marker on scale"
+msgstr "Visualiser le marqueur de valeur sur l'échelle"
+
+msgid "Show moving average"
+msgstr "Afficher la moyenne mobile"
+
+msgid "Line color"
+msgstr "Couleur de la ligne"
+
+msgid "MA period"
+msgstr "Période MA"
+
+msgid "Zoom in"
+msgstr "Zoomer"
+
+msgid "Zoom out"
+msgstr "Dézoomer"
+
+msgid "Label colors"
+msgstr "Couleurs des étiquettes"
+
+msgid "Ray style"
+msgstr "Style de rayon"
+
+msgid "Ray"
+msgstr "Rayon"
+
+msgid "Level options"
+msgstr "Options de niveau"
+
+msgid "Fibonacci levels"
+msgstr "Niveaux de Fibonacci"
+
+msgid "Color"
+msgstr "Couleur"
+
+msgid "Profile controllers style"
+msgstr "Style contrôleurs de profil"
+
+msgid "Show full arc"
+msgstr "Visualiser l'arc entier"
+
+msgid "Data format"
+msgstr "Format de données"
+
+msgid "Percent"
+msgstr "Pourcentage"
+
+msgid "Fixed top"
+msgstr "Haut fixe"
+
+msgid "Fixed bottom"
+msgstr "Fond fixe"
+
+msgid "Floating top"
+msgstr "Haut flottant"
+
+msgid "Floating bottom"
+msgstr "Fond flottant"
+
+msgid "Label location"
+msgstr "Emplacement de l'étiquette"
+
+msgid "Degree"
+msgstr "Degré"
+
+msgid "Left ray"
+msgstr "Left ray"
+
+msgid "Right ray"
+msgstr "Droite ray"
+
+msgid "Fixed left"
+msgstr "Fixe à gauche"
+
+msgid "Fixed right"
+msgstr "Corrigé à droite"
+
+msgid "Floating left"
+msgstr "Flottant à gauche"
+
+msgid "Floating right"
+msgstr "Flottant à droite"
+
+msgid "Background"
+msgstr "Contexte"
+
+msgid "Angles"
+msgstr "Angles"
+
+msgid "Mirrored"
+msgstr "En miroir"
+
+msgid "Custom text"
+msgstr "Texte personnalisé"
+
+msgid "Tool colors"
+msgstr "Couleurs d'outil"
+
+msgid "Tool color"
+msgstr "Couleur de l'outil"
+
+msgid "TP"
+msgstr "TP"
+
+msgid "SL"
+msgstr "Stop Loss"
+
+msgid "Area colors"
+msgstr "Couleurs de zone"
+
+msgid "Long"
+msgstr "Longue"
+
+msgid "Short"
+msgstr "Court"
+
+msgid "Tool mode"
+msgstr "Mode outil"
+
+msgid "Regression Line"
+msgstr "Ligne de régression"
+
+msgid "Upper deviation"
+msgstr "Déviation supérieure"
+
+msgid "Lower deviation"
+msgstr "Déviation inférieure"
+
+msgid "Typical"
+msgstr "Typique"
+
+msgid "Medium"
+msgstr "Moyen"
+
+msgid "Weighted"
+msgstr "Pondéré"
+
+msgid "Price type"
+msgstr "Type de prix"
+
+msgid "Top line"
+msgstr "Ligne du haut"
+
+msgid "Bottom line"
+msgstr "Ligne du bas"
+
+msgid "Top area"
+msgstr "Zone supérieure"
+
+msgid "Bottom area"
+msgstr "Zone inférieure"
+
+msgid "Marker color"
+msgstr "Couleur du marqueur"
+
+msgid "Add custom text"
+msgstr "Ajouter un texte personnalisé"
+
+msgid "Fix text area"
+msgstr "Correction de la zone de texte"
+
+msgid "Text location"
+msgstr "Emplacement du texte"
+
+msgid "Text area"
+msgstr "Zone de texte"
+
+msgid "Value"
+msgstr "Valeur"
+
+msgid "Font style"
+msgstr "Style de police"
+
+msgid "Border"
+msgstr "Frontière"
+
+msgid "Trading tool"
+msgstr "Outil de trading"
+
+msgid "Horizontal line"
+msgstr "Ligne horizontale"
+
+msgid "Vertical line"
+msgstr "Ligne verticale"
+
+msgid "Rectangle"
+msgstr "Rectangle"
+
+msgid "Triangle"
+msgstr "Triangle"
+
+msgid "Poligon"
+msgstr "Poligon"
+
+msgid "Circle"
+msgstr "Cercle"
+
+msgid "Ellipse"
+msgstr "Ellipse"
+
+msgid "Andrew's pitchfork"
+msgstr "Fourche d'Andrew"
+
+msgid "Price channel"
+msgstr "Chaîne de prix"
+
+msgid "Fibonacci retracement"
+msgstr "Retracement de Fibonacci"
+
+msgid "Fibonacci expansion"
+msgstr "Expansion de Fibonacci"
+
+msgid "Fibonacci arc"
+msgstr "Arc de Fibonacci"
+
+msgid "Fibonacci spiral"
+msgstr "Spirale de Fibonacci"
+
+msgid "Fibonacci ellipse"
+msgstr "Ellipse de Fibonacci"
+
+msgid "Fibonacci fans"
+msgstr "Fanions de Fibonacci"
+
+msgid "Fibonacci phi-channel"
+msgstr "Canal phi de Fibonacci"
+
+msgid "Fibonacci time goal"
+msgstr "Objectif de temps de Fibonacci"
+
+msgid "Fibonacci time zone"
+msgstr "Zone temporelle de Fibonacci"
+
+msgid "Gann line"
+msgstr "Ligne de Gann"
+
+msgid "Gann fan"
+msgstr "Fanion de Gann"
+
+msgid "Gann grid"
+msgstr "Grille de Gann"
+
+msgid "Ruler"
+msgstr "Règle"
+
+msgid "Symbol"
+msgstr "Symbole"
+
+msgid "Up arrow"
+msgstr "Flèche vers le haut"
+
+msgid "Down arrow"
+msgstr "Flèche vers le bas"
+
+msgid "Uncpecified"
+msgstr "Non spécifié"
+
+msgid "Line by angle"
+msgstr "Ligne par angle"
+
+msgid "Regression channel"
+msgstr "Canal de régression"
+
+msgid "ABC Pattern"
+msgstr "Modèle ABC"
+
+msgid "PPZ"
+msgstr "PPZ"
+
+msgid "Top bottom pattern"
+msgstr "Motif du haut du bas"
+
+msgid "Gartley Butterfly"
+msgstr "Gartley Butterfly"
+
+msgid "Custom profile"
+msgstr "Profil personnalisé"
+
+msgid "Line arrow"
+msgstr "Flèche de ligne"
+
+msgid "Head&Shoulders"
+msgstr "Tête épaules"
+
+msgid "Gann box"
+msgstr "Gann boîte"
+
+msgid "Price targets"
+msgstr "Cibles de prix"
+
+msgid "Flag marker"
+msgstr "Marqueur de drapeau"
+
+msgid "Price marker"
+msgstr "Marqueur de prix"
+
+msgid "Note"
+msgstr "Note"
+
+msgid "Comment"
+msgstr "Faire un commentaire"
+
+msgid "Angled line"
+msgstr "Ligne inclinée"
+
+msgid "Invalid price"
+msgstr "Prix invalide"
+
+msgid "LMT"
+msgstr "LMT"
+
+msgid "STP"
+msgstr "STP"
+
+msgid "Tr-S"
+msgstr "Tr-S"
+
+msgid "STL"
+msgstr "Stl"
+
+msgid "MKT"
+msgstr "MKT"
+
+#, csharp-format
+msgid "TP price: {0}"
+msgstr "Prix ​​de TP: {0}"
+
+msgid "Tr.Stop"
+msgstr "Tr.Stop"
+
+msgid "SL price"
+msgstr "Prix SL"
+
+#, csharp-format
+msgid "{0} TP price: {1}"
+msgstr "{0} prix TP: {1}"
+
+msgid "Overlay"
+msgstr "Superposition"
+
+msgid "Empty symbol"
+msgstr "Symbole vide"
+
+msgid "Candle"
+msgstr "Bougie"
+
+msgid "Dotes"
+msgstr "Dotes"
+
+msgid "Dotted line"
+msgstr "Ligne pointillée"
+
+msgid "P&F"
+msgstr "Point et Figure"
+
+msgid "Kagi line"
+msgstr "Kagi"
+
+msgid "Lines break"
+msgstr "Les lignes se brisent"
+
+msgid "Renko"
+msgstr "Renko"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Data is loading..."
+msgstr "Les données sont en cours de chargement..."
+
+#, csharp-format
+msgid "Please wait, it can{0} take some time."
+msgstr "Veuillez patienter, cela peut {0} prendre du temps."
+
+#, csharp-format
+msgid "No data for {0}"
+msgstr "Aucune donnée pour {0}"
+
+#, csharp-format
+msgid "Your current connection{0}does not provide such data"
+msgstr "Votre connexion actuelle {0} ne fournit pas de telles données"
+
+msgid "No data to display on chart"
+msgstr "Aucune donnée à afficher sur le graphique"
+
+#, csharp-format
+msgid "Please check your connection{0} or symbol availability"
+msgstr "Veuillez vérifier votre connexion {0} ou la disponibilité des symboles"
+
+msgid "Window colors"
+msgstr "Couleurs de la fenêtre"
+
+msgid "Back top color"
+msgstr "Couleur du fonds en haut"
+
+msgid "Back bottom color"
+msgstr "Couleur du fonds en bas"
+
+msgid "Mouse wheel action"
+msgstr "Action de la molette"
+
+msgid "Scale type"
+msgstr "Type d'échelle"
+
+msgid "Begin of the data"
+msgstr "Début des données"
+
+msgid "Begin of the day"
+msgstr "Début de la journée"
+
+msgid "Begin of the screen"
+msgstr "Début de l'écran"
+
+msgid "Start price"
+msgstr "Prix de départ"
+
+msgid "Log base"
+msgstr "Journal de base"
+
+msgid "Zoom"
+msgstr "Zoom"
+
+msgid "Auto scale"
+msgstr "Échelle automatique"
+
+msgid "Manual scale"
+msgstr "Échelle manuelle"
+
+msgid "Fit Indicators"
+msgstr "Ajuster les indicateurs"
+
+msgid "Symbols lookup"
+msgstr "Recherche de symboles"
+
+msgid "Object manager"
+msgstr "Gestionnaire d'objet"
+
+msgid "Aggregation"
+msgstr "Agrégation"
+
+msgid "Range"
+msgstr "Portée"
+
+msgid "Add overlay…"
+msgstr "Ajouter une superposition..."
+
+msgid "Remove all"
+msgstr "Tout retirer"
+
+msgid "Indicators"
+msgstr "Indicateurs"
+
+msgid "Add indicator…"
+msgstr "Ajouter un indicateur..."
+
+msgid "Drawing tools"
+msgstr "Outils de dessin"
+
+msgid "Trend"
+msgstr "Tendance"
+
+msgid "Arrow"
+msgstr "Flèche"
+
+msgid "Geometry"
+msgstr "Géométrie"
+
+msgid "Polygon"
+msgstr "Polygone"
+
+msgid "Fibonacci"
+msgstr "Fibonacci"
+
+msgid "Gann"
+msgstr "Gann"
+
+msgid "Gann Box"
+msgstr "Gann Box"
+
+msgid "Patterns"
+msgstr "Patterns"
+
+msgid "Head & Shoulders"
+msgstr "Tête épaules"
+
+msgid "Other"
+msgstr "Autre"
+
+msgid "Remove selected"
+msgstr "Retirer la sélection"
+
+msgid "Volume Analysis"
+msgstr "Analyse de volume"
+
+msgid "Show toolbar"
+msgstr "Afficher la barre d'outils"
+
+msgid "Step Profile"
+msgstr "Profil de l'étape"
+
+msgid "Left Profile"
+msgstr "Profil gauche"
+
+msgid "Right Profile"
+msgstr "Profil droit"
+
+msgid "Time Statistics"
+msgstr "Statistiques de temps"
+
+msgid "Time Histogram"
+msgstr "Histogramme de temps"
+
+msgid "Time & Sales"
+msgstr "Heure et ventes"
+
+msgid "Custom Profile"
+msgstr "Profil personnalisé"
+
+msgid "Day high/low"
+msgstr "Jour haut/bas"
+
+msgid "Grid time"
+msgstr "Temps de la grille"
+
+msgid "Grid price"
+msgstr "Prix de la grille"
+
+msgid "Refresh"
+msgstr "Rafraîchir"
+
+#, csharp-format
+msgid "{0} settings"
+msgstr "{0} paramètres"
+
+msgid "Modification will affect the position closing. Are you sure?"
+msgstr "La modification affectera la fermeture de la position."
+
+msgid "Are you sure you want to execute order at market price?"
+msgstr "Etes-vous sûr que vous voulez exécuter l'ordre au prix du marché?"
+
+msgid "Default by symbol (Last)"
+msgstr "Par défaut par symbole (Dernier)"
+
+msgid "Default by symbol (Bid/Ask)"
+msgstr "Par défaut par symbole (Bid / Ask)"
+
+#, csharp-format
+msgid "Default by symbol ({0})"
+msgstr "Par défaut par symbole ({0})"
+
+msgid "Bid/Ask"
+msgstr "Offre/demande"
+
+msgid "1 hour"
+msgstr "1 heure"
+
+msgid "3 hours"
+msgstr "3 heures"
+
+msgid "6 hours"
+msgstr "6 heures"
+
+msgid "12 hours"
+msgstr "12 heures"
+
+msgid "1 day"
+msgstr "1 jour"
+
+msgid "3 days"
+msgstr "3 jours"
+
+msgid "5 days"
+msgstr "5 jours"
+
+msgid "10 days"
+msgstr "10 jours"
+
+msgid "20 days"
+msgstr "20 jours"
+
+msgid "1 month"
+msgstr "1 mois"
+
+msgid "3 month"
+msgstr "3 mois"
+
+msgid "6 month"
+msgstr "6 mois"
+
+msgid "1 year"
+msgstr "1 an"
+
+msgid "3 years"
+msgstr "3 années"
+
+msgid "5 years"
+msgstr "5 années"
+
+msgid "10 years"
+msgstr "10 années"
+
+msgid "20 years"
+msgstr "20 ans"
+
+msgid "50 years"
+msgstr "50 ans"
+
+msgid "Show"
+msgstr "Visualiser"
+
+msgid "Main scale"
+msgstr "Échelle principale"
+
+msgid "Separate scale"
+msgstr "Échelle séparée"
+
+msgid "Price scaling"
+msgstr "Échelonnage de prix"
+
+msgid "Show price marker"
+msgstr "Visualiser le marqueur de prix"
+
+msgid "Time value: "
+msgstr "Valeur de temps: "
+
+msgid "Inner value: "
+msgstr "Valeur intérieure: "
+
+msgid "Delta: "
+msgstr "Delta: "
+
+msgid "Gamma: "
+msgstr "Gamma: "
+
+msgid "Theta: "
+msgstr "Theta: "
+
+msgid "Vega: "
+msgstr "Vega: "
+
+msgid "Rho: "
+msgstr "Rho: "
+
+msgid "Scroll"
+msgstr "Défiler"
+
+msgid "No data to display"
+msgstr "Aucune donnée à visualiser"
+
+msgid "Please check your connection or symbol availability"
+msgstr "Veuillez vérifier votre connexion ou la disponibilité des symboles"
+
+msgid "Table"
+msgstr "Tableau"
+
+msgid "General Settings"
+msgstr "Définitions"
+
+msgid "Model settings"
+msgstr "Paramètres du modèle"
+
+msgid "Order side"
+msgstr "Côté commande"
+
+msgid "Default row"
+msgstr "Ligne par défaut"
+
+msgid "Tier"
+msgstr "Étage"
+
+msgid "value"
+msgstr "valeur"
+
+msgid "Most saturated Ask color"
+msgstr "Couleur de demande la plus saturée"
+
+msgid "Most saturated Bid color"
+msgstr "Couleur d'offre la plus saturée"
+
+msgid "Max volume"
+msgstr "Volume max"
+
+msgid "Aggregate size by price"
+msgstr "Taille agrégée par prix"
+
+msgid "Coloring method"
+msgstr "Méthode de coloriage"
+
+msgid "Auto center"
+msgstr "Centre-auto"
+
+msgid "Auto center type"
+msgstr "Type de centre automatique"
+
+msgid "Collapse spread"
+msgstr "Réduire la propagation"
+
+msgid "Cancellation priority"
+msgstr "Priorité d'annulation"
+
+msgid "Day high"
+msgstr "Haut de la journée"
+
+msgid "Day low"
+msgstr "Jour bas"
+
+msgid "Ask price"
+msgstr "Demander le prix"
+
+msgid "Bid price"
+msgstr "Prix ​​de l'offre"
+
+msgid "Ask size"
+msgstr "Taille de la demande"
+
+msgid "Bid size"
+msgstr "Taille de l'offre"
+
+msgid "Time ask"
+msgstr "Demande de temps"
+
+msgid "Time bid"
+msgstr "Offre d'heure"
+
+msgid "Last updated ask time"
+msgstr "Dernière mise à jour demander l'heure"
+
+msgid "Last updated bid time"
+msgstr "Dernière mise à jour du délai d'offre"
+
+msgid "Cumulative size ask"
+msgstr "Demande de taille cumulée"
+
+msgid "Cumulative size bid"
+msgstr "Enchère de taille cumulée"
+
+msgid "Cumulative size of every ask price level"
+msgstr "Taille cumulée de chaque niveau de prix demandé"
+
+msgid "Cumulative size of every bid price level"
+msgstr "Taille cumulée de chaque niveau de prix de l'offre"
+
+msgid "VWAP ask"
+msgstr "VWAP demande"
+
+msgid "VWAP bid"
+msgstr "Enchère VWAP"
+
+msgid "Volume weighted average ask price"
+msgstr "Prix ​​moyen pondéré en fonction du volume"
+
+msgid "Volume weighted average bid price"
+msgstr "Prix ​​moyen pondéré en fonction du volume"
+
+msgid "Net Profit / Loss"
+msgstr "Bénéfice net / perte nette"
+
+msgid "Average open price"
+msgstr "Prix moyen à l'ouverture"
+
+msgid "Quantity"
+msgstr "Quantité"
+
+msgid "Break even level"
+msgstr "Seuil de rentabilité"
+
+msgid "Quantity long"
+msgstr "Quantité longue"
+
+msgid "Quantity short"
+msgstr "Quantité courte"
+
+msgid "N/A"
+msgstr "N / A"
+
+msgid "Currency"
+msgstr "Devise"
+
+msgid "Show position bar"
+msgstr "Afficher la barre de position"
+
+msgid "Net Profit"
+msgstr "Bénéfice net"
+
+msgid "Net Loss"
+msgstr "Perte nette"
+
+msgid "Grid color"
+msgstr "Couleur de la grille"
+
+msgid "Vertical"
+msgstr "Verticale"
+
+msgid "Horizontal"
+msgstr "Horizontal"
+
+msgid "All"
+msgstr "Tout"
+
+msgid "Show day map"
+msgstr "Afficher la carte de la journée"
+
+msgid "Show high/low"
+msgstr "Afficher haut / bas"
+
+msgid "Show last trade indicator"
+msgstr "Afficher le dernier indicateur de commerce"
+
+msgid "Size"
+msgstr "Taille"
+
+msgid "Relative by volume"
+msgstr "Relative par volume"
+
+msgid "Relative by max volume"
+msgstr "Relatif au volume maximum"
+
+msgid "Full-size cells"
+msgstr "Cellules pleine grandeur"
+
+msgid "Antagonistic size bars"
+msgstr "Barres de taille antagoniste"
+
+msgid "LIFO"
+msgstr "DEPS"
+
+msgid "FIFO"
+msgstr "PEPS"
+
+msgid "By price level"
+msgstr "Par niveau de prix"
+
+msgid "Relative to volume"
+msgstr "Relatif au volume"
+
+msgid "Step to max volume"
+msgstr "Étape vers le volume maximum"
+
+msgid "Center"
+msgstr "Centre"
+
+msgid "PRESENT"
+msgstr "PRÉSENT"
+
+msgid "NOT PRESENT"
+msgstr "PAS PRÉSENT"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Sound"
+msgstr "Son"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Coloring cell"
+msgstr "Cellule à colorier"
+
+msgid "Hiding"
+msgstr "Cache"
+
+msgid "Order"
+msgstr "Ordre"
+
+msgid "Cancel order"
+msgstr "Annuler l'ordre"
+
+msgid "Close position"
+msgstr "Fermer la position"
+
+msgid "Coloring row"
+msgstr "Rangée de coloriage"
+
+msgid "Sort order"
+msgstr "Ordre de tri"
+
+msgid "Autosize of columns"
+msgstr "Auto-ajustement"
+
+msgid "Auto re-sorting"
+msgstr "Réassortiment automatique"
+
+msgid "Group by"
+msgstr "Groupe par"
+
+msgid "Columns visibility"
+msgstr "La visibilité des colonnes"
+
+msgid "Header text"
+msgstr "Texte d'en-tête"
+
+msgid "Header font"
+msgstr "Police d'en-tête"
+
+msgid "Header alignment"
+msgstr "Alignement d'en-tête"
+
+msgid "Column font"
+msgstr "Police de colonne"
+
+msgid "Column alignment"
+msgstr "Alignement de la colonne"
+
+msgid "Column color"
+msgstr "Colonne de couleur"
+
+msgid "Coloring mode"
+msgstr "Mode de coloration"
+
+msgid "Value up color"
+msgstr "Valeur de la couleur"
+
+msgid "Value down color"
+msgstr "Valeur en baisse de couleur"
+
+msgid "Add selected symbols"
+msgstr "Ajouter les symboles sélectionnés"
+
+msgid "Unpin from toolbar"
+msgstr "Détacher de la barre d'outils"
+
+msgid "Pin on toolbar"
+msgstr "Épingle sur la barre d'outils"
+
+msgid "Rename"
+msgstr "Renommer"
+
+msgid "Add new level"
+msgstr "Ajouter un nouveau niveau"
+
+#, csharp-format
+msgid "Level {0}"
+msgstr "Niveau {0}"
+
+msgid "Remove level"
+msgstr "Supprimer le niveau"
+
+msgid "Are you sure want to remove this level?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce niveau?"
+
+msgid "This Hotkey is reserved by the Core. Please use another one."
+msgstr "Cette touche de raccourci est réservée par le noyau."
+
+#, csharp-format
+msgid "This Hotkey combination is already used for \"{0}\". Please use another one."
+msgstr "Cette combinaison de touches de raccourci est déjà utilisée pour \\"
+
+#, csharp-format
+msgid "{0}None{1}"
+msgstr "{0} Aucun {1}"
+
+msgid "Build from"
+msgstr "Construire à partir de"
+
+msgid "Point coordinates"
+msgstr "Coordonnées ponctuelles"
+
+msgid "Point"
+msgstr "Point"
+
+#, csharp-format
+msgid "Are you sure want to remove {0}?"
+msgstr "Voulez-vous vraiment supprimer {0}?"
+
+msgid "Reset to default"
+msgstr "Réinitialiser aux paramètres par défaut"
+
+msgid "Select sound file"
+msgstr "Sélectionnez le fichier son"
+
+msgid "Play sound"
+msgstr "Émettre un son"
+
+msgid "Remove task"
+msgstr "Supprimer la tâche"
+
+msgid "Add new task"
+msgstr "Ajouter une nouvelle tâche"
+
+msgid "Collapse tasks"
+msgstr "Réduire les tâches"
+
+msgid "Add task"
+msgstr "Ajouter une tâche"
+
+msgid "No tasks yet. "
+msgstr "Aucune tâche pour le moment."
+
+#, csharp-format
+msgid "Add new '{0}' condition"
+msgstr "Ajouter une nouvelle condition \\"
+
+msgid "AND"
+msgstr "ET"
+
+msgid "Remove condition"
+msgstr "Supprimer la condition"
+
+msgid "Add 'OR'"
+msgstr "Ajouter 'OU'"
+
+msgid "OR"
+msgstr "OU"
+
+msgid "Collapse conditions"
+msgstr "Conditions de collapse"
+
+msgid "Add condition"
+msgstr "Ajouter une condition"
+
+msgid "Enable filtering"
+msgstr "Activer le filtrage"
+
+msgid "none"
+msgstr "aucun"
+
+msgid "Enable action"
+msgstr "Activer l'action"
+
+msgid "Enable filter"
+msgstr "Activer le filtre"
+
+msgid "Enable / disable action"
+msgstr "Activer / désactiver l'action"
+
+msgid "You need to add at least one condition and one task to enable action"
+msgstr "Vous devez ajouter au moins une condition et une tâche pour activer l'action"
+
+msgid "Enable / disable filter"
+msgstr "Activer / désactiver le filtre"
+
+msgid "To enable filter add task"
+msgstr "Pour activer la tâche d'ajout de filtre"
+
+msgid "Select account"
+msgstr "Sélectionner un compte"
+
+msgid "Disconnect"
+msgstr "Déconnecter"
+
+msgid "Connect"
+msgstr "Connecter"
+
+msgid "Hide from toolbar"
+msgstr "Masquer dans la barre d'outils"
+
+msgid "Connecting..."
+msgstr "Connexion..."
+
+msgid "Connecting error"
+msgstr "Erreur de connexion"
+
+msgid "Disconnected"
+msgstr "Débranché"
+
+msgid "Save password"
+msgstr "Retenir le mot de passe"
+
+msgid "Select symbol"
+msgstr "Sélectionner un symbole"
+
+msgid "Margin"
+msgstr "Marge"
+
+msgid "Account activity"
+msgstr "L'activité du compte"
+
+msgid "Info"
+msgstr "Informations"
+
+msgid "Trading info"
+msgstr "Informations de trading"
+
+msgid "Status"
+msgstr "Statut"
+
+msgid "Orders"
+msgstr "Ordres"
+
+msgid "Allowed order types"
+msgstr "Types de commande autorisés"
+
+msgid "Max price"
+msgstr "Prix ​​max"
+
+msgid "Min notional"
+msgstr "Min notionnel"
+
+msgid "Iceberg allowed"
+msgstr "Iceberg autorisé"
+
+msgid "Allow margin trading"
+msgstr "Autoriser le trading de marge"
+
+msgid "Initial margin"
+msgstr "Marge initiale"
+
+msgid "Minimum margin"
+msgstr "Marge minimale"
+
+msgid "FX Majors"
+msgstr "FX majors"
+
+msgid "FX Minors"
+msgstr "FX mineurs"
+
+msgid "FX Crosses"
+msgstr "Croix FX"
+
+msgid "FX Exotic"
+msgstr "FX exotique"
+
+msgid "Metals"
+msgstr "Les métaux"
+
+msgid "Oil"
+msgstr "Huile"
+
+msgid "Indices"
+msgstr "Indices"
+
+msgid "Futures"
+msgstr "Contrats à terme"
+
+msgid "Unknown"
+msgstr "Inconnu"
+
+msgid "Equity"
+msgstr "Capital"
+
+msgid "Free margin"
+msgstr "Marge libre"
+
+msgid "Net P/L"
+msgstr "Profit/Perte net"
+
+msgid "Gross P/L"
+msgstr "Perte/profit bruts"
+
+msgid "Open orders"
+msgstr "Commandes ouvertes"
+
+msgid "Open positions"
+msgstr "Positions ouvertes"
+
+msgid "Account number"
+msgstr "Numéro de compte"
+
+msgid "Account type"
+msgstr "Type de compte"
+
+msgid "Broker"
+msgstr "Courtier"
+
+msgid "Leverage"
+msgstr "Levier"
+
+msgid "Swap free"
+msgstr "Swap gratuit"
+
+msgid "Account status"
+msgstr "État du compte"
+
+msgid "Trader account type"
+msgstr "Type de compte Trader"
+
+msgid "Account registration date"
+msgstr "Date d'enregistrement du compte"
+
+msgid "Three days Swaps"
+msgstr "Swaps de trois jours"
+
+msgid "Swap long"
+msgstr "Swap long"
+
+msgid "Swap short"
+msgstr "Swap court"
+
+msgid "Trading is enabled"
+msgstr "Le trading est activé"
+
+msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
+msgstr "Le montant des fonds sur le compte, y compris les profits et les pertes de toutes les positions ouvertes (le solde flottant du compte)."
+
+msgid "Used margin"
+msgstr "Marge utilisée"
+
+msgid "The amount of funds used to maintain all open positions on the account."
+msgstr "Le montant des fonds utilisés pour maintenir toutes les positions ouvertes sur le compte."
+
+msgid "Usable margin"
+msgstr "Marge utilisable"
+
+msgid "The amount of funds available to open new positions or to absorb losses of the existing positions."
+msgstr "Le montant des fonds disponibles pour ouvrir de nouvelles positions ou pour absorber les pertes des positions existantes."
+
+msgid "Usable margin,%"
+msgstr "Marge utilisable,%"
+
+msgid "Three level Used margin"
+msgstr "Marge utilisée à trois niveaux"
+
+msgid "Three level Usable margin"
+msgstr "Marge utilisable à trois niveaux"
+
+msgid "Three level Usable margin, %"
+msgstr "Marge utilisable à trois niveaux,%"
+
+msgid "Margin call status"
+msgstr "État de l'appel de marge"
+
+msgid "Day P/L"
+msgstr "Jour P / L"
+
+msgid "# Positions"
+msgstr "Nbre de positions"
+
+msgid "# Orders"
+msgstr "Nbre d'ordres"
+
+msgid "Hedging type"
+msgstr "Type de couverture"
+
+msgid "Value date"
+msgstr "Date valeur"
+
+msgid "The simulated delivery date. The date and time when the position opened in the instrument could be automatically closed."
+msgstr "La date de livraison simulée."
+
+msgid "Allow to sell"
+msgstr "Permettre de vendre"
+
+msgid "The usage of the sell price. It defines whether the sell price of the instrument is available for trading or not."
+msgstr "L'utilisation du prix de vente."
+
+msgid "Allow to buy"
+msgstr "Permettre d'acheter"
+
+msgid "The usage of the buy price. It defines whether the buy price of the instrument is available for trading or not"
+msgstr "L'utilisation du prix d'achat."
+
+msgid "Long swap"
+msgstr "Swap long"
+
+msgid "The interest amount added to the account balance for holding a one lot long (buy) position overnight. "
+msgstr "Le montant d'intérêt ajouté au solde du compte pour tenir une position d'achat d'un lot pendant la nuit."
+
+msgid "Short swap"
+msgstr "Swap court"
+
+msgid "The interest amount added to the account balance for holding a one lot short (sell) position overnight. "
+msgstr "Le montant d'intérêt ajouté au solde du compte pour la détention d'une position à court terme (vente) d'un lot durant la nuit."
+
+msgid "Maintenance margin level"
+msgstr "Niveau de marge de maintenance"
+
+msgid "Entry margin level"
+msgstr "Niveau de la marge d'entrée"
+
+msgid "Limitation margin level"
+msgstr "Niveau de marge de limitation"
+
+msgid "Currencies"
+msgstr "Devises"
+
+msgid "FX Indices"
+msgstr "Indices de change"
+
+msgid "Commodities"
+msgstr "Marchandises"
+
+msgid "Treasuries"
+msgstr "Trésors"
+
+msgid "Shares"
+msgstr "Parts"
+
+msgid "Bullions"
+msgstr "Bullions"
+
+msgid "Take liquidity rate"
+msgstr "Prendre le taux de liquidité"
+
+msgid "Provide liquidity rate"
+msgstr "Fournir le taux de liquidité"
+
+msgid "Fee currency"
+msgstr "Devise de frais"
+
+msgid "Margin call"
+msgstr "Appel de marge"
+
+msgid "Margin stop"
+msgstr "Arrêt de marge"
+
+msgid "Fee volume currency"
+msgstr "Volume des frais devise"
+
+msgid "Leverage buy"
+msgstr "Levier acheter"
+
+msgid "Leverage sell"
+msgstr "Levier de vente"
+
+msgid "Margin requirements"
+msgstr "Exigences de marge"
+
+msgid "Fees"
+msgstr "Frais"
+
+msgid "Session info"
+msgstr "Informations sur la session"
+
+msgid "Today results"
+msgstr "Résultats d'aujourd'hui"
+
+msgid "Available to trade"
+msgstr "Disponible au commerce"
+
+msgid "P/L"
+msgstr "Profit/Perte"
+
+msgid "Today's volume"
+msgstr "Volume du jour"
+
+msgid "# Today's trades"
+msgstr "Nb de trades du jour"
+
+msgid "Trading days"
+msgstr "Jours de négoce"
+
+msgid "Volatility band"
+msgstr "Volatilité"
+
+msgid "Margin req."
+msgstr "Marge requise"
+
+msgid "Minimum commission"
+msgstr "Commission minimum"
+
+msgid "Long financing rate"
+msgstr "Taux de financement long"
+
+msgid "Short financing rate"
+msgstr "Taux de financement court"
+
+msgid "Long swap points"
+msgstr "Longs points d'échange"
+
+msgid "Short swap points"
+msgstr "Points d'échange courts"
+
+msgid "Commission"
+msgstr "Commission"
+
+msgid "Crypto"
+msgstr "Crypto"
+
+msgid "Net asset value"
+msgstr "Valeur nette d'inventaire"
+
+msgid "The net asset value of the Account. Equal to Account Balance + Unrealized P/L"
+msgstr "La valeur nette d'inventaire du compte."
+
+msgid "Withdrawal limit"
+msgstr "Limite de retrait"
+
+msgid "The current Withdrawal Limit for the account which will be zero or a positive value indicating how much can be withdrawn from the account"
+msgstr "La limite de retrait actuelle pour le compte qui sera zéro ou une valeur positive indiquant combien peut être retiré du compte"
+
+msgid "Position value"
+msgstr "Valeur de position"
+
+msgid "The value of the Account’s open positions"
+msgstr "La valeur des positions ouvertes du compte"
+
+msgid "Margin used"
+msgstr "Marge utilisée"
+
+msgid "Margin currently used for the Account"
+msgstr "Marge actuellement utilisée pour le compte"
+
+msgid "Margin available"
+msgstr "Marge disponible"
+
+msgid "Margin available for the Account"
+msgstr "Marge disponible pour le compte"
+
+msgid "Margin closeout value"
+msgstr "Valeur de clôture de la marge"
+
+msgid "The Account’s margin closeout NAV"
+msgstr "La liquidation de la marge du compte NAV"
+
+msgid "Margin closeout percent"
+msgstr "Taux de clôture de la marge"
+
+msgid "The Account’s margin closeout percentage. When this value is 100% or above the Account is in a margin closeout situation"
+msgstr "Le pourcentage de clôture de la marge du compte."
+
+msgid "Unrealised P/L"
+msgstr "P / L non réalisé"
+
+msgid "The total unrealized profit/loss for all positions currently open in the Account"
+msgstr "Le total des profits / pertes non réalisés pour toutes les positions actuellement ouvertes dans le compte"
+
+msgid "Unrealised P/L,%"
+msgstr "P / L non réalisé,%"
+
+msgid "Unrealised P/L shown as a percentage of the balance"
+msgstr "P / L non réalisé indiqué en pourcentage du solde"
+
+msgid "Realised P/L"
+msgstr "Réalisé P / L"
+
+msgid "The total profit/loss realized over the lifetime of the Account"
+msgstr "Le total des profits / pertes réalisés sur la durée de vie du compte"
+
+msgid "The number of positions currently open in the Account"
+msgstr "Le nombre de postes actuellement ouverts dans le compte"
+
+msgid "The number of orders currently pending in the Account"
+msgstr "Le nombre de commandes actuellement en attente dans le compte"
+
+msgid "The total amount of commission paid over the lifetime of the Account"
+msgstr "Le montant total de la commission payée sur la durée de vie du compte"
+
+msgid "Financing"
+msgstr "Financement"
+
+msgid "Financing is paid/charged for open positions in the Account"
+msgstr "Le financement est payé / imputé pour les positions ouvertes dans le compte"
+
+msgid "Tick size"
+msgstr "Taille du tick"
+
+msgid "Max. tr.stop distance"
+msgstr "Max."
+
+msgid "Min. tr.stop distance"
+msgstr "Min."
+
+#, csharp-format
+msgid "Per {0}"
+msgstr "Per {0}"
+
+msgid "Minimum comission"
+msgstr "Commission minimum"
+
+msgid "Bonds"
+msgstr "Obligations"
+
+msgid "Balances"
+msgstr "Soldes"
+
+msgid "Fee info"
+msgstr "Info frais"
+
+msgid "Maker fee"
+msgstr "Frais de fabricant"
+
+msgid "Taker fee"
+msgstr "Frais de preneur"
+
+msgid "Thirty day volume"
+msgstr "Volume de trente jours"
+
+msgid "Next tier"
+msgstr "Niveau suivant"
+
+msgid "Open gross P/L"
+msgstr "Profit/perte bruts ouverts"
+
+msgid "Positions"
+msgstr "Positions"
+
+msgid "Total Margin Value"
+msgstr "Valeur totale de la marge"
+
+msgid "Unrealized P/L"
+msgstr "Profits/pertes irréalisés"
+
+msgid "Unrealized Lending Fees"
+msgstr "Frais de prêt non-réalisables"
+
+msgid "Net Value"
+msgstr "Valeur nette"
+
+msgid "Total Borrowed Value"
+msgstr "Valeur totale empruntée"
+
+msgid "Current margin"
+msgstr "Marge actuelle"
+
+msgid "Equity. Equal to Account Balance + Unrealized P/L"
+msgstr "Équité."
+
+msgid "Open positions count"
+msgstr "Nombre de positions ouvertes"
+
+msgid "Open orders count"
+msgstr "Nombre de commandes ouvertes"
+
+msgid "Realized P/L"
+msgstr "Profit/perte réalisés"
+
+msgid "Fee"
+msgstr "Frais"
