@@ -17,40 +17,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Limit"
-msgstr "الحدود"
+msgstr " شراء بسعر محدد"
 
 msgid "Price"
 msgstr "السعر"
 
 msgid "Stop loss price should be less then limit price"
-msgstr "يجب أن يكون سعر إيقاف الخسارة أقل من سعر الحد"
+msgstr "يجب أن يكون سعر إيقاف الخسارة أقل من سعر امر الشراء بسعر محدد"
 
 msgid "Take profit price should be more then limit price"
-msgstr "يجب أن يكون سعر أخذ سعر أكثر من سعر الحد"
+msgstr "يجب أن يكون سعر أخذ الربح أكثر من سعر امر الشراء بسعر محدد"
 
 msgid "Stop loss price should be more then limit price"
 msgstr "يجب أن يكون سعر إيقاف الخسارة أكثر من السعر المحدد"
 
 msgid "Take profit price should be less then limit price"
-msgstr "يجب أن يكون سعر أخذ سعر أقل من سعر الحد"
+msgstr "يجب أن يكون سعر أخذ الربح أقل من سعر امر الشراء بسعر محدد"
 
 msgid "Market"
-msgstr "السوق"
+msgstr "شراء بسعر السوق"
 
 msgid "Stop loss price should be less then market ask price"
 msgstr "يجب أن يكون سعر إيقاف الخسارة أقل من سعر الطلب بالسوق"
 
 msgid "Take profit price should be more then market ask price"
-msgstr "يجب أن يكون سعر أخذ سعر أكثر من سعر السوق"
+msgstr "يجب أن يكون سعر أخذ الربح أكثر من سعر السوق"
 
 msgid "Stop loss price should be more then market bid price"
 msgstr "يجب أن يكون سعر إيقاف الخسارة أكثر من سعر عرض السوق"
 
 msgid "Take profit price should be less then market bid price"
-msgstr "يجب أن يكون سعر أخذ سعر أقل من سعر عرض السوق"
+msgstr "يجب أن يكون سعر أخذ الربح أقل من سعر عرض السوق"
 
 msgid "Stop limit"
-msgstr "حد الإيقاف"
+msgstr "حد التفعيل"
 
 msgid "Trigger price"
 msgstr "سعر التحفيز"
@@ -62,13 +62,13 @@ msgid "Stop loss price should be less then stop price"
 msgstr "يجب أن يكون سعر إيقاف الخسارة أقل من سعر التوقف"
 
 msgid "Take profit price should be more then stop price"
-msgstr "يجب أن يكون سعر أخذ سعر أكثر من سعر التوقف"
+msgstr "يجب أن يكون سعر أخذ الربح أكثر من سعر التوقف"
 
 msgid "Stop loss price should be more then stop price"
 msgstr "يجب أن يكون سعر إيقاف الخسارة أكثر من سعر التوقف"
 
 msgid "Take profit price should be less then stop price"
-msgstr "يجب أن يكون سعر أخذ سعر أقل من سعر التوقف"
+msgstr "يجب أن يكون سعر أخذ الربح أقل من سعر التوقف"
 
 msgid "Tr. stop"
 msgstr "التحرك، إيقاف"
@@ -86,13 +86,13 @@ msgid "Opened"
 msgstr "افتتح"
 
 msgid "Partially Filled"
-msgstr "مملوء جزئيا"
+msgstr "منفذ جزئيا"
 
 msgid "Filled"
-msgstr "ممتلئ"
+msgstr "منفذ"
 
 msgid "Canceled"
-msgstr "ألغيت"
+msgstr "ملغى"
 
 msgid "Refused"
 msgstr "تم رفضه"
@@ -104,28 +104,28 @@ msgid "Inactive"
 msgstr "غير نشط"
 
 msgid "Working"
-msgstr "العمل"
+msgstr "جاري العمل عليه"
 
 msgid "Multiple positions"
-msgstr "مواقف متعددة"
+msgstr "صفقات متعددة"
 
 msgid "Multiple positions per side"
-msgstr "مواقف متعددة لكل جانب"
+msgstr "صفقات متعددة لكل جانب"
 
 msgid "One position"
-msgstr "وظيفة واحده"
+msgstr "صفقة واحده"
 
 msgid "Undefined"
 msgstr "غير محدد"
 
 msgid "Box size"
-msgstr "حجم المربع"
+msgstr "حجم الصندوق"
 
 msgid "Reversal"
 msgstr "عكسي"
 
 msgid "Style"
-msgstr "النمط"
+msgstr "التصميم"
 
 msgid "ticks"
 msgstr "حركات الأسعار"
@@ -152,7 +152,7 @@ msgid "Y"
 msgstr "سن"
 
 msgid "User"
-msgstr "المستخدم"
+msgstr "اسم المستخدم"
 
 msgid "Password"
 msgstr "كلمة المرور"
@@ -179,16 +179,16 @@ msgid "Dot"
 msgstr "نقطة"
 
 msgid "Dash dot"
-msgstr "اندفاعة نقطة"
+msgstr "خط و نقطة"
 
 msgid "Histogramm"
 msgstr "مدرج تكراري"
 
 msgid "Input parameters"
-msgstr "معلمات الإدخال"
+msgstr "اعدادات الإدخال"
 
 msgid "Bid"
-msgstr "عرض"
+msgstr "العرض"
 
 msgid "Ask"
 msgstr "الطلب"
@@ -246,7 +246,7 @@ msgstr "عنوان مخصص"
 
 #, csharp-format
 msgid "{0} has not supported {1} event"
-msgstr "{0} لم يدعم حدث {1}"
+msgstr "{0} لم يدعم الحدث {1}"
 
 #, csharp-format
 msgid "{0} has not supported {1} shared property"
@@ -289,7 +289,7 @@ msgid "Setup Actions"
 msgstr "إجراءات الإعداد"
 
 msgid "Export Data"
-msgstr "تصدير البيانات"
+msgstr "استخراج البيانات"
 
 msgid "Help"
 msgstr "مساعدة"
@@ -298,7 +298,7 @@ msgid "Settings"
 msgstr "الخيارات"
 
 msgid "Always On Top"
-msgstr "دائما في القمة"
+msgstr "دائما في الواجهة"
 
 msgid "Do you really want to reset to default settings?"
 msgstr "هل تريد حقًا إعادة التعيين على الإعدادات الافتراضية؟"
@@ -334,10 +334,10 @@ msgid "Columns"
 msgstr "أعمدة"
 
 msgid "Over chart"
-msgstr "أكثر من الرسم البياني"
+msgstr "فوق الرسم البياني"
 
 msgid "On chart background"
-msgstr "علي خلفيه المخطط"
+msgstr "علي خلفيه الرسم البياني"
 
 #, csharp-format
 msgid "Sub window {0}"
@@ -347,7 +347,7 @@ msgid "New sub window"
 msgstr "نافذه فرعيه جديده"
 
 msgid "Position on chart"
-msgstr "الموضع علي الرسم البياني"
+msgstr "الصفقات علي الرسم البياني"
 
 msgid "Bar"
 msgstr "شريط"
@@ -377,13 +377,13 @@ msgid "Ticks"
 msgstr "حركات الأسعار"
 
 msgid "Volume"
-msgstr "الحجم"
+msgstr "السيولة"
 
 msgid "Hide"
 msgstr "اخفاء"
 
 msgid "Show in short mode"
-msgstr "اظهر في الوضع القصير"
+msgstr "اظهر في الوضع المختصر"
 
 msgid "Separate window"
 msgstr "نافذة منفصلة"
@@ -398,25 +398,25 @@ msgid "Info window"
 msgstr "نافذة المعلومات"
 
 msgid "Settlement"
-msgstr "مستوطنة"
+msgstr "تصفية"
 
 msgid "Auto"
 msgstr "تلقائي"
 
 msgid "Auto centered"
-msgstr "تتمحور حول السيارة"
+msgstr "متمركزة تلقائياً"
 
 msgid "Manual"
 msgstr "يدوي"
 
 msgid "Fit indicators"
-msgstr "مؤشرات فيت"
+msgstr "اظهر المؤشرات "
 
 msgid "Fit orders/positions"
-msgstr "وضعيات فيت"
+msgstr "اظهر الطلبات/الصفقات "
 
 msgid "Fit drawings"
-msgstr "رسوم فيت"
+msgstr "اظهر الرسوم"
 
 msgid "Absolute"
 msgstr "مطلق"
@@ -467,16 +467,16 @@ msgid "Year"
 msgstr "سنة"
 
 msgid "Show days separator"
-msgstr "إظهار فاصل الأيام"
+msgstr "إظهار فواصل بين الأيام"
 
 msgid "Show weeks separator"
-msgstr "إظهار فاصل الأسابيع"
+msgstr "إظهار فواصل بين الأسابيع"
 
 msgid "Show months separator"
 msgstr "إظهار فاصل الشهور"
 
 msgid "Show years separator"
-msgstr "إظهار فاصل السنوات"
+msgstr "إظهار فواصل بين السنوات"
 
 msgid "Important dates font"
 msgstr "خط التواريخ الهامة"
@@ -509,10 +509,10 @@ msgid "Stroke color"
 msgstr "حلقه ملونه"
 
 msgid "Top color"
-msgstr "اللون الأعلى"
+msgstr "اللون العلوي"
 
 msgid "Bottom color"
-msgstr "لون القاع"
+msgstr "اللون السفلي"
 
 msgid "Fill color"
 msgstr "ملء اللون"
@@ -524,7 +524,7 @@ msgid "Line size"
 msgstr "حجم الخط"
 
 msgid "Move to background"
-msgstr "الخلفية"
+msgstr "انقل للخلفية"
 
 msgid "Clone mode"
 msgstr "وضع النسخ"
@@ -550,7 +550,7 @@ msgid "Modify"
 msgstr "تعديل"
 
 msgid "Modify SL to breakeven"
-msgstr "تعديل SL إلى تعادل"
+msgstr "تعديل وقف الخسارة لنقطة التعادل"
 
 msgid "Cancel"
 msgstr "إلغاء"
@@ -559,16 +559,16 @@ msgid "Change to Market"
 msgstr "التغير إلى السوق"
 
 msgid "Show positions"
-msgstr "إظهار الوضعيات"
+msgstr "إظهار الصفقات"
 
 msgid "Show orders"
 msgstr "إظهار الأوامر"
 
 msgid "Show filled orders"
-msgstr "إظهار الأوامر الممتلئة"
+msgstr "إظهار الأوامر المنفذة"
 
 msgid "Trade through Order entry"
-msgstr "التجارة من خلال دخول الطلب"
+msgstr "  الشراء من خلال  نافذة التداول"
 
 #, csharp-format
 msgid "{0} color"
@@ -578,7 +578,7 @@ msgid "Back"
 msgstr "الرجوع"
 
 msgid "Delta colors"
-msgstr "ألوان دلتا"
+msgstr "ألوان الدلتا"
 
 msgid "Width of histogram, %"
 msgstr "عرض الرسم البياني ، ٪"
@@ -623,29 +623,29 @@ msgid "Height of histogram, %"
 msgstr "ارتفاع الرسم البياني ، ٪"
 
 msgid "Volume color"
-msgstr "لون الصوت"
+msgstr "لون السيولة"
 
 msgid "Trades color"
-msgstr "الحرف اللون"
+msgstr "لون الصفقات"
 
 msgid "Coloring by volume"
-msgstr "التلوين حسب الحجم"
+msgstr "التلوين حسب السيولة"
 
 msgid "Coloring by ticks"
-msgstr "التلوين بواسطة القراد"
+msgstr "التلوين بواسطة اللحظات"
 
 msgid "Coloring by delta"
-msgstr "التلوين بواسطة دلتا"
+msgstr "التلوين بواسطة الدلتا"
 
 msgid "Coloring by trades"
-msgstr "التلوين بالحرف"
+msgstr "التلوين بحسب الصفقات"
 
 msgid "Histogram"
 msgstr "المدرج الإحصائي"
 
 #, csharp-format
 msgid "Enable {0} view"
-msgstr "تمكين عرض {0}"
+msgstr "تمكين العرض {0}"
 
 msgid "Data type #1"
 msgstr "نوع البيانات #1"
@@ -654,25 +654,25 @@ msgid "Data type #2"
 msgstr "نوع البيانات #2"
 
 msgid "Cluster visualization"
-msgstr "تصور الكتلة"
+msgstr "Cluster visualization"
 
 msgid "Enabled"
-msgstr "يعمل"
+msgstr "مفعّل"
 
 msgid "General"
 msgstr "عام"
 
 msgid "Cluster"
-msgstr "كتلة"
+msgstr "Cluster"
 
 msgid "Step profile"
-msgstr "الخطوة الشخصية"
+msgstr "Step profile"
 
 msgid "Left profile"
-msgstr "الملف الأيسر"
+msgstr "Left profile"
 
 msgid "Right profile"
-msgstr "الملف الشخصي الصحيح"
+msgstr "Right profile"
 
 msgid "Time statistics"
 msgstr "إحصائيات الوقت"
@@ -681,10 +681,10 @@ msgid "Time histogram"
 msgstr "الرسم البياني للوقت"
 
 msgid "Filtered volume"
-msgstr "وحده التخزين المصفاة"
+msgstr "السيولة المصفّاة "
 
 msgid "Custom step (ticks)"
-msgstr "الخطوة المخصصة (علامات التجزئة)"
+msgstr ""Custom step (ticks)"
 
 msgid "Delta calculation type"
 msgstr "نوع حساب دلتا"
@@ -693,7 +693,7 @@ msgid "Aggressor flag"
 msgstr "علم المعتدي"
 
 msgid "Tick direction"
-msgstr "اتجاه القراد"
+msgstr "اتجاه اللحظة"
 
 msgid "Default"
 msgstr "افتراضي"
@@ -705,7 +705,7 @@ msgid "Histogram label position"
 msgstr "موضع تسميه الرسم البياني"
 
 msgid "Trade color"
-msgstr "اللون التجاري"
+msgstr "لون الصفقة"
 
 msgid "Show Totals"
 msgstr "إظهار الإجماليات"
@@ -714,22 +714,22 @@ msgid "Crosshair"
 msgstr "التقاطع"
 
 msgid "Visible"
-msgstr "اظهار"
+msgstr "ظاهر"
 
 msgid "Highlight prices"
 msgstr "تظليل الأسعار"
 
 msgid "Day High/Low"
-msgstr "خطوط ارتفاعات/انخفاضات اليوم"
+msgstr " ارتفاعات/انخفاضات اليوم"
 
 msgid "Previous close"
 msgstr "الإغلاق السابق"
 
 msgid "Up"
-msgstr "عالي"
+msgstr "ارتفاع"
 
 msgid "Down"
-msgstr "هابط"
+msgstr "هبوط"
 
 msgid "Body color"
 msgstr "لون الجسم"
@@ -738,13 +738,13 @@ msgid "Border color"
 msgstr "لون الحدود"
 
 msgid "Wick color"
-msgstr "لون الفتيل"
+msgstr "لون الذيل"
 
 msgid "Doji"
 msgstr "دوجي"
 
 msgid "Line"
-msgstr "سطر"
+msgstr "الخط"
 
 msgid "Area"
 msgstr "المنطقة"
@@ -759,7 +759,7 @@ msgid "Edit"
 msgstr "تعديل"
 
 msgid "Set active"
-msgstr "تعيين نشط"
+msgstr "تعيين كفعّال"
 
 msgid "Additional"
 msgstr "إضافي"
@@ -768,10 +768,10 @@ msgid "Show scrollbar chart preview"
 msgstr "إظهار معاينة مخطط التمرير"
 
 msgid "Scale marker"
-msgstr "صانع المقياس"
+msgstr "مظلل المقياس"
 
 msgid "Scale marker with line"
-msgstr "صانع المقياس مع الخط"
+msgstr "مظلل المقياس مع الخط"
 
 msgid "Price indicator"
 msgstr "مؤشر السعر"
@@ -789,13 +789,13 @@ msgid "Spread area color"
 msgstr "لون منطقة فرق السعر"
 
 msgid "Time to next bar"
-msgstr "الوقت بجانب الشريط"
+msgstr "الوقت بجانب الشمعة"
 
 msgid "Height, %"
 msgstr "الارتفاع، %"
 
 msgid "By bar"
-msgstr "حسب الشريط"
+msgstr "حسب الشمعة"
 
 msgid "By Difference"
 msgstr "بحسب الاختلاف"
@@ -837,13 +837,13 @@ msgid "Zoom out"
 msgstr "تصغير"
 
 msgid "Label colors"
-msgstr "ألوان العلامة"
+msgstr "ألوان الفراغات"
 
 msgid "Ray style"
-msgstr "نمط راي"
+msgstr "نمط الاشعاع"
 
 msgid "Ray"
-msgstr "راي"
+msgstr "اشعاع"
 
 msgid "Level options"
 msgstr "خيارات المستوى"
@@ -855,7 +855,7 @@ msgid "Color"
 msgstr "اللون"
 
 msgid "Profile controllers style"
-msgstr "نمط وحدات تحكم التشكيل الجانبي"
+msgstr "Profile controllers style"
 
 msgid "Show full arc"
 msgstr "إظهار القوس كاملاً"
@@ -882,19 +882,19 @@ msgid "Label location"
 msgstr "موقع التسمية"
 
 msgid "Degree"
-msgstr "الدرجة العلمية"
+msgstr "الدرجة "
 
 msgid "Left ray"
 msgstr "شعاع يسار"
 
 msgid "Right ray"
-msgstr "راي الصحيح"
+msgstr "شعاع يمين"
 
 msgid "Fixed left"
-msgstr "ثابت اليسار"
+msgstr " يسارثابت "
 
 msgid "Fixed right"
-msgstr "حق ثابت"
+msgstr "يمين ثابت"
 
 msgid "Floating left"
 msgstr "عائم اليسار"
@@ -990,7 +990,7 @@ msgid "Value"
 msgstr "القيمة"
 
 msgid "Font style"
-msgstr "نمط الخط"
+msgstr "تصميم الخط"
 
 msgid "Border"
 msgstr "الحدود"
@@ -1074,7 +1074,7 @@ msgid "Down arrow"
 msgstr "السهم"
 
 msgid "Uncpecified"
-msgstr "Uncpecified"
+msgstr "غير محدد"
 
 msgid "Line by angle"
 msgstr "خط بزاوية"
@@ -1110,10 +1110,10 @@ msgid "Price targets"
 msgstr "أهداف السعر"
 
 msgid "Flag marker"
-msgstr "علامة العلم"
+msgstr "مظلل العلم"
 
 msgid "Price marker"
-msgstr "علامة السعر"
+msgstr "مظلل السعر"
 
 msgid "Note"
 msgstr "ملحوظة"
@@ -1712,7 +1712,7 @@ msgid "Header text"
 msgstr "نص العنوان"
 
 msgid "Header font"
-msgstr "خط رأس"
+msgstr "خط الرأس"
 
 msgid "Header alignment"
 msgstr "محاذاة رأسية"
@@ -1761,11 +1761,11 @@ msgid "Are you sure want to remove this level?"
 msgstr "هل أنت متأكد من حذف هذا المستوى؟"
 
 msgid "This Hotkey is reserved by the Core. Please use another one."
-msgstr "هذا هوتكي محجوز من قبل كور."
+msgstr "هذا الاختصار محجوز من قبل.  يرجى استخدام اختصار اخر."
 
 #, csharp-format
 msgid "This Hotkey combination is already used for \"{0}\". Please use another one."
-msgstr "يتم استخدام مجموعة Hotkey هذه بالفعل \\"
+msgstr "يتم استخدامه من مجموعة اخرى يرجى استخدام اختصار اخر Hotkey هذه ال \\"
 
 #, csharp-format
 msgid "{0}None{1}"
@@ -1921,28 +1921,28 @@ msgid "Minimum margin"
 msgstr "الحد الأدنى للهامش"
 
 msgid "FX Majors"
-msgstr "العملات الاجنبيه"
+msgstr "العملات الاساسية"
 
 msgid "FX Minors"
-msgstr "الفوركس القصر"
+msgstr "العملات الثانوية "
 
 msgid "FX Crosses"
-msgstr "الفوركس الصلبان"
+msgstr "تعارض و تقابل العملات"
 
 msgid "FX Exotic"
-msgstr "FX الغريبة"
+msgstr "FX النادرة"
 
 msgid "Metals"
 msgstr "المعادن"
 
 msgid "Oil"
-msgstr "مي."
+msgstr "النفط."
 
 msgid "Indices"
 msgstr "المؤشرات"
 
 msgid "Futures"
-msgstr "المستقبلية"
+msgstr "العقود المستقبلية"
 
 msgid "Unknown"
 msgstr "غير معروف"
