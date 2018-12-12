@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit"
 
 msgid "OHLC"
-msgstr "OHLC"
+msgstr "Цены OHLC"
 
 msgid "Open"
 msgstr "Цена открытия"
@@ -29,7 +29,7 @@ msgid "Modelling scheme"
 msgstr "Схема моделирования"
 
 msgid "General"
-msgstr "Основное"
+msgstr "Общие"
 
 msgid "Multiple per side"
 msgstr "Несколько на каждую сторону"
@@ -41,22 +41,22 @@ msgid "One Position"
 msgstr "Одна позиция"
 
 msgid "Fee per side, quoting currency"
-msgstr "Плата за сторону, котируемая валюта"
+msgstr "Комиссия за сторону, в валюте котирования"
 
 msgid "Margin"
 msgstr "Маржа"
 
 msgid "Netting type"
-msgstr "Тип сетки"
+msgstr "Тип неттирования"
 
 msgid "Initial balance"
-msgstr "Баланс инициализации"
+msgstr "Начальный баланс"
 
 msgid "None"
-msgstr "Нет"
+msgstr "Не задано"
 
 msgid "Fixed"
-msgstr "Фиксированное"
+msgstr "Зафиксированно"
 
 msgid "Range"
 msgstr "Диапазон"
@@ -65,19 +65,19 @@ msgid "Execution delay"
 msgstr "Задержка исполнения"
 
 msgid "Min (ms)"
-msgstr "Мин. (Мс)"
+msgstr "Минимальное (мс)"
 
 msgid "Max (ms)"
-msgstr "Макс. (Мс)"
+msgstr "Максимальное (мс)"
 
 msgid "Value (ms)"
 msgstr "Значение (мс)"
 
 msgid "Remove symbol"
-msgstr "Удалить инструмент"
+msgstr "Удалить символ"
 
 msgid "Open panel"
-msgstr "Открытая панель"
+msgstr "Открыть панель"
 
 msgid "Tick"
 msgstr "Тик"
@@ -92,55 +92,55 @@ msgid "Bid/Ask/Last"
 msgstr "Бид/Аск/Ласт"
 
 msgid "Last"
-msgstr "Последние"
+msgstr "Ласт"
 
 msgid "Order entry"
-msgstr "Панель ввода ордера"
+msgstr "Панель cоздания ордера"
 
 msgid "Market Depth"
-msgstr "Глубина рынка"
+msgstr "Глубина Рынка"
 
 msgid "DOM Trader"
-msgstr "DOM Trader"
+msgstr "DOM Трейдер"
 
 msgid "Time & Sales"
-msgstr "Лента сделок"
+msgstr "Лента Сделок"
 
 msgid "Account performance"
-msgstr "Производительность счета"
+msgstr "Производительность Счета"
 
 msgid "Chart"
 msgstr "График"
 
 msgid "History Player"
-msgstr "История игрока"
+msgstr "Исторический Плеер"
 
 msgid "Maximal limit is reached."
 msgstr "Достигнут максимальный лимит."
 
 msgid "Add symbol"
-msgstr "Добавить инструмент"
+msgstr "Добавить символ"
 
 msgid "Symbols"
-msgstr "Инструменты"
+msgstr "Символы"
 
 msgid "One step forward"
 msgstr "Один шаг вперед"
 
 msgid "Pause simulation"
-msgstr "Пауза симуляции"
+msgstr "Пауза"
 
 msgid "Ready to start simulation"
-msgstr "Можно начать симуляцию"
+msgstr "Готов к запуску моделирования"
 
 msgid "Start simulation with selected symbols"
-msgstr "Начать симуляцию с выбранными символами"
+msgstr "Начать моделирование с выбранными символами"
 
 msgid "No symbols to simulate"
 msgstr "Символы отсутствуют"
 
 msgid "You need select symbols to start simulation"
-msgstr "Вам нужно выбрать символы для начала моделирования"
+msgstr "Для запуска моделирования необходимо выбрать символы"
 
 msgid "START"
 msgstr "НАЧАТЬ"
@@ -152,49 +152,49 @@ msgid "STOP"
 msgstr "СТОП"
 
 msgid "Stop simulation"
-msgstr "Остановка моделирования"
+msgstr "Остановить моделирование"
 
 msgid "Simulation is active"
-msgstr "Симуляция активна"
+msgstr "Моделирование активно"
 
 msgid "Switch between full/short mode"
 msgstr "Переключение между полным / коротким режимом"
 
 msgid "Specify History Player advanced settings"
-msgstr "Укажите дополнительные параметры истории игрока"
+msgstr "Дополнительные параметры Исторического Плеера"
 
 msgid "Add"
 msgstr "Добавить"
 
 msgid "Left border of history range"
-msgstr "Левая граница исторического диапазона"
+msgstr "Стартовая точка исторического диапазона"
 
 msgid "Right border of history range"
-msgstr "Правая граница исторического диапазона"
+msgstr "Конечная точка исторического диапазона"
 
 msgid "Range of replay:"
-msgstr "Диапазон воспроизведения:"
+msgstr "Диапазон:"
 
 msgid "Symbol"
-msgstr "Инструмент"
+msgstr "Символ"
 
 msgid "Build from"
-msgstr "Строить из"
+msgstr "Построить из"
 
 msgid "Executing type"
-msgstr "Тип выполнения"
+msgstr "Тип исполнения"
 
 msgid "Please specify correct dates."
 msgstr "Укажите правильные даты."
 
 msgid "Do you really want to stop History Player? This action will delete all test results."
-msgstr "Вы действительно хотите остановить Player истории? Это действие удалит все результаты теста."
+msgstr "Вы действительно хотите остановить Истроический Плеер? Это действие удалит все результаты тестирования."
 
 msgid "Please select symbols from one connection"
 msgstr "Выберите символы из одного соединения."
 
 msgid "Caching history: "
-msgstr "История кеширования:"
+msgstr "Кеширование истории:"
 
 msgid "Max Speed"
 msgstr "Максимальная скорость"
@@ -212,19 +212,19 @@ msgid "Speed 1"
 msgstr "Скорость 1"
 
 msgid "Step by step"
-msgstr "Шаг за шагом"
+msgstr "Пошагово"
 
 msgid "Trading Simulator"
-msgstr "Торговый симулятор"
+msgstr "Торговый Симулятор"
 
 msgid "add"
 msgstr "Добавить"
 
 msgid "Specify Trading Simulator advanced settings"
-msgstr "Укажите расширенные настройки торгового симулятора"
+msgstr "Расширенные настройки Торгового Симулятора"
 
 msgid "Add symbol for simulation"
 msgstr "Добавить символ для моделирования"
 
 msgid "Trading Simulator current state"
-msgstr "Текущее состояние торгового симулятора"
+msgstr "Текущее состояние Торгового Симулятора"
