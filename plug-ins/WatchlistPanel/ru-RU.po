@@ -23,7 +23,7 @@ msgid "Show toolbar"
 msgstr "Показать панель инструментов"
 
 msgid "Add symbols"
-msgstr "Добавить инструменты"
+msgstr "Добавить символы"
 
 msgid "Remove selected"
 msgstr "Удалить выбранные"
@@ -32,31 +32,31 @@ msgid "Clear all"
 msgstr "Очистить все"
 
 msgid "No symbols to show"
-msgstr "Нет инструментов  для показа"
+msgstr "Нет символов для отображения"
 
 msgid "Add some symbols to watch them"
-msgstr "Добавьте некоторые инструменты, чтобы посмотреть их"
+msgstr "Добавить несколько символов"
 
 msgid "Saved lists"
 msgstr "Сохраненные списки"
 
 msgid "Add new symbol"
-msgstr "Добавить новый инструмент"
+msgstr "Добавить новый символ"
 
 msgid "Save symbol list"
 msgstr "Сохранить список символов"
 
 msgid "Add symbol"
-msgstr "Добавить инструмент"
+msgstr "Добавить символ"
 
 msgid "Clear table"
 msgstr "Очистить таблицу"
 
 msgid "Symbol"
-msgstr "Инструмент"
+msgstr "Символ"
 
 msgid "Symbol name"
-msgstr "Имя инструмента"
+msgstr "Название символа"
 
 msgid "Description"
 msgstr "Описание"
@@ -65,16 +65,16 @@ msgid "The description of the symbol"
 msgstr "Описание символа"
 
 msgid "Symbol type"
-msgstr "Тип инструмента"
+msgstr "Тип символа"
 
 msgid "Symbol’s asset class"
-msgstr "Класс активов символа"
+msgstr "Класс актива для указанного символа"
 
 msgid "Expiration date"
 msgstr "Дата экспирации"
 
 msgid "Expiration date of derivative symbol"
-msgstr "Дата окончания действия производного символа"
+msgstr "Срок действия производного финансового инструмента"
 
 msgid "Strike price"
 msgstr "Цена страйка"
@@ -86,55 +86,55 @@ msgid "Exchange"
 msgstr "Биржа"
 
 msgid "The exchange of the symbol"
-msgstr "Обмен символом"
+msgstr "Биржа, на которой торгуется инструмент"
 
 msgid "Last"
-msgstr "Последние"
+msgstr "Ласт"
 
 msgid "The last tradable price"
-msgstr "Последняя торгуемая цена"
+msgstr "Цена последней сделки"
 
 msgid "Last size"
-msgstr "Последний объем"
+msgstr "Объем Ласта"
 
 msgid "The last tradable size"
-msgstr "Последний продаваемый размер"
+msgstr "Объем последней сделки"
 
 msgid "Last date/time"
-msgstr "Последняя дата / время"
+msgstr "Дата/время Ласта"
 
 msgid " Date/Time of the last trade"
-msgstr " Дата / время последней сделки"
+msgstr " Дата/время последней сделки"
 
 msgid "Bid"
 msgstr "Бид"
 
 msgid "Current bid price"
-msgstr "Текущая цена предложения"
+msgstr "Текущая цена Бид"
 
 msgid "Bid size"
-msgstr "Размер Бид"
+msgstr "Объем Бид"
 
 msgid "Current bid size"
-msgstr "Текущий размер ставки"
+msgstr "Текущий объем Бид"
 
 msgid "Ask"
 msgstr "Аск"
 
 msgid "Current ask price"
-msgstr "Текущая цена запроса"
+msgstr "Текущая цена Аск"
 
 msgid "Ask size"
-msgstr "Размер Аск"
+msgstr "Объем Аск"
 
 msgid "Current ask size"
-msgstr "Текущий размер запроса"
+msgstr "Текущий объем Аск"
 
 msgid "Spread"
 msgstr "Спред"
 
 msgid "The current difference between ask and bid prices"
-msgstr "Текущее различие между ценой спроса и предложения"
+msgstr "Текущая разница между ценой Аск и Бид"
 
 msgid "Spread, %"
 msgstr "Спред, %"
@@ -143,16 +143,16 @@ msgid "The percentage value of spread"
 msgstr "Процентное значение спреда"
 
 msgid "Change"
-msgstr "Изменить"
+msgstr "Изменение"
 
 msgid "The difference between current price and previous close/settlement price"
-msgstr "Разница между текущей ценой и предыдущей закрытой / расчетной ценой"
+msgstr "Разница между текущей ценой и предыдущей ценой закрытия/расчета"
 
 msgid "Change, %"
 msgstr "Изменение, %"
 
 msgid "The percentage value of difference between current price and previous close/settlement price"
-msgstr "Процентное значение разницы между текущей ценой и предыдущей закрытой / расчетной ценой"
+msgstr "Процентное значение разницы между текущей ценой и предыдущей ценой закрытия/расчета"
 
 msgid "Open"
 msgstr "Открытие"
@@ -161,28 +161,28 @@ msgid "Current day open price"
 msgstr "Цена открытия текущего дня"
 
 msgid "High"
-msgstr "Высокий"
+msgstr "Максимум"
 
 msgid "Current day high price"
-msgstr "Текущая цена дня"
+msgstr "Максимальная цена текущего дня"
 
 msgid "Low"
 msgstr "Минимум"
 
 msgid "Current day low price"
-msgstr "Низкая цена на текущий день"
+msgstr "Минимальная цена цена текущего дня"
 
 msgid "Prev. close"
-msgstr "Цена закрытия"
+msgstr "Пред. закрытие"
 
 msgid "Previous day close price"
-msgstr "Цена закрытия предыдущего дня"
+msgstr "Цена закрытия за предыдущий день"
 
 msgid "Prev. settlement"
-msgstr "Пред."
+msgstr "Пред. расчет"
 
 msgid "Previous day settlement price, applicable for derivatives"
-msgstr "Расчетная цена предыдущего дня, применимая к производным инструментам"
+msgstr "Расчетная цена за предыдущий день, применимая к производным финансовым инструментам"
 
 msgid "Volume"
 msgstr "Объем"
@@ -194,22 +194,22 @@ msgid "Trades"
 msgstr "Сделки"
 
 msgid "Current day number of trades"
-msgstr "Текущий день количество сделок"
+msgstr "Количество сделок текущего дня"
 
 msgid "Ticks"
 msgstr "Тики"
 
 msgid "Current day number of price changes, applicable for asset classes that do not have real volume"
-msgstr "Текущий день изменения цен, применимый для классов активов, которые не имеют реального объема"
+msgstr "Количество изменений цен на текущий день. Применимо к классам активов, не имеющим реального объема"
 
 msgid "Comment"
-msgstr "Комментировать"
+msgstr "Комментарий"
 
 msgid "User’s comment"
 msgstr "Комментарий пользователя"
 
 msgid "Connection name"
-msgstr "Название соединения"
+msgstr "Название подключения"
 
 msgid "The name of symbol’s connection"
-msgstr "Имя соединения символа"
+msgstr "Название подключения для указанного символа"
