@@ -53,7 +53,7 @@ msgid "Stop limit"
 msgstr "Стоп лимит"
 
 msgid "Trigger price"
-msgstr "Цена триггера"
+msgstr "Триггер цена"
 
 msgid "Stop"
 msgstr "Стоп"
@@ -110,7 +110,7 @@ msgid "Multiple positions"
 msgstr "Несколько позиций"
 
 msgid "Multiple positions per side"
-msgstr "Несколько позиций на сторону"
+msgstr "Несколько на каждую сторону"
 
 msgid "One position"
 msgstr "Одна позиция"
@@ -253,7 +253,7 @@ msgid "{0} has not supported {1} shared property"
 msgstr "{0} не поддерживает {1} совместное свойство"
 
 msgid "Link"
-msgstr "Связь"
+msgstr "Связь по цвету"
 
 msgid "Red"
 msgstr "Красный"
@@ -304,7 +304,7 @@ msgid "Do you really want to reset to default settings?"
 msgstr "Вы действительно хотите сбросить настройки по умолчанию?"
 
 msgid "Actions"
-msgstr "Действия"
+msgstr "Алерты"
 
 msgid "Filter"
 msgstr "Фильтр"
@@ -328,7 +328,7 @@ msgid "Hotkeys"
 msgstr "Горячие клавиши"
 
 msgid "View"
-msgstr "Вид"
+msgstr "Вид 1 (тест)"
 
 msgid "Columns"
 msgstr "Колонки"
@@ -389,7 +389,7 @@ msgid "Separate window"
 msgstr "Отдельное окно"
 
 msgid "Hidden"
-msgstr "Скрыто"
+msgstr "Скрыть"
 
 msgid "Display mode"
 msgstr "Режим отображения"
@@ -401,7 +401,7 @@ msgid "Settlement"
 msgstr "Расчет"
 
 msgid "Auto"
-msgstr "Авто масштаб"
+msgstr "Авто"
 
 msgid "Auto centered"
 msgstr "Автоцентр"
@@ -550,7 +550,7 @@ msgid "Modify"
 msgstr "Изменить"
 
 msgid "Modify SL to breakeven"
-msgstr "Передвинуть С/Л в безубыток"
+msgstr "Установить С/Л в безубыток"
 
 msgid "Cancel"
 msgstr "Отмена"
@@ -562,13 +562,13 @@ msgid "Show positions"
 msgstr "Показать позиции"
 
 msgid "Show orders"
-msgstr "Показать ордера"
+msgstr "Показать рабочие ордера"
 
 msgid "Show filled orders"
 msgstr "Показать исполненные ордера"
 
 msgid "Trade through Order entry"
-msgstr "Торговля через панель Создать ордер"
+msgstr "Торговля через панель Создать Ордер"
 
 #, csharp-format
 msgid "{0} color"
@@ -1837,16 +1837,16 @@ msgid "none"
 msgstr "Не задано"
 
 msgid "Enable action"
-msgstr "Включить действие"
+msgstr "Включить алерт"
 
 msgid "Enable filter"
 msgstr "Включить фильтр"
 
 msgid "Enable / disable action"
-msgstr "Включить/отключить действие"
+msgstr "Включить/отключить алерт"
 
 msgid "You need to add at least one condition and one task to enable action"
-msgstr "Для активации действия, добавьте хотя бы одно условие и одну задачу"
+msgstr "Для активации алерта, добавьте хотя бы одно условие и одну задачу"
 
 msgid "Enable / disable filter"
 msgstr "Включить/отключить фильтр"
