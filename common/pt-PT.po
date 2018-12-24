@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:58+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2018-12-24 16:03+0200\n"
 "PO-Revision-Date: 2018-12-04 15:59+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language pt-PT\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: pt-PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -186,6 +186,30 @@ msgstr "Histograma"
 
 msgid "Input parameters"
 msgstr "Parâmetros de entrada"
+
+msgid "Connection finished"
+msgstr "Conexão foi encerrada"
+
+msgid "Connection lost"
+msgstr "A conexão foi perdida"
+
+msgid "Order created/canceled/replaced"
+msgstr "Ordem criada/cancelada/substituída"
+
+msgid "Order filled"
+msgstr "A ordem executada"
+
+msgid "Order rejected"
+msgstr "Ordem rejeitada"
+
+msgid "Position closed"
+msgstr "Posição fechada"
+
+msgid "Default alert"
+msgstr "Alerta padrão"
+
+msgid "Update Available"
+msgstr "Atualização disponível"
 
 msgid "Bid"
 msgstr "Lance"
@@ -791,6 +815,9 @@ msgstr "Cor da área de 'Spread'"
 msgid "Time to next bar"
 msgstr "Tempo para próxima barra"
 
+msgid "Color"
+msgstr "Cor"
+
 msgid "Height, %"
 msgstr "Altura, %"
 
@@ -806,8 +833,8 @@ msgstr "Fixo"
 msgid "Above/below the moving average"
 msgstr "Acima/abaixo da média móvel"
 
-msgid "Size coloring scheme"
-msgstr "Esquema de coloração de tamanho"
+msgid "Volume coloring scheme"
+msgstr "Esquema de coloração do volume"
 
 msgid "Equal"
 msgstr "Igual"
@@ -850,9 +877,6 @@ msgstr "Opções de nível"
 
 msgid "Fibonacci levels"
 msgstr "Níveis de Fibonacci"
-
-msgid "Color"
-msgstr "Cor"
 
 msgid "Profile controllers style"
 msgstr "Estilo de controladores de perfil"
@@ -1246,6 +1270,9 @@ msgstr "Escala automática"
 
 msgid "Manual scale"
 msgstr "Escala manual"
+
+msgid "Scale behavior"
+msgstr "Comportamento de escala"
 
 msgid "Fit Indicators"
 msgstr "Indicadores de ajuste"
@@ -1642,6 +1669,9 @@ msgstr "Células em tamanho real"
 msgid "Antagonistic size bars"
 msgstr "Barras de tamanho antagônico"
 
+msgid "Size coloring scheme"
+msgstr "Esquema de coloração de tamanho"
+
 msgid "LIFO"
 msgstr "LIFO"
 
@@ -1784,6 +1814,9 @@ msgstr "Ponto"
 msgid "Are you sure want to remove {0}?"
 msgstr "Tem certeza de que deseja remover {0}?"
 
+msgid "Enable sounds"
+msgstr "Habilitar sons"
+
 msgid "Reset to default"
 msgstr "Redefinir para o padrão"
 
@@ -1869,7 +1902,7 @@ msgstr "Ocultar da barra de ferramentas"
 msgid "Connecting..."
 msgstr "Conectando..."
 
-msgid "Connecting error"
+msgid "Connection error"
 msgstr "Erro de conexão"
 
 msgid "Disconnected"
@@ -1880,6 +1913,119 @@ msgstr "Salvar"
 
 msgid "Select symbol"
 msgstr "Selecinar Ativo"
+
+msgid "Workspace name can not be empty"
+msgstr "Nome do espaço de trabalho não pode ser vazio"
+
+#, csharp-format
+msgid "Workspace name could contains: {0}"
+msgstr "O nome da área de trabalho pode conter: {0}"
+
+msgid "Same workspace name already exist"
+msgstr "O mesmo nome de espaço de trabalho já existe"
+
+msgid "is locked"
+msgstr "está bloqueado"
+
+#, csharp-format
+msgid "Are you sure you want to delete {0}?"
+msgstr "Tem certeza de que deseja excluir {0}?"
+
+msgid "is unlocked"
+msgstr "é desbloqueado"
+
+msgid "locked"
+msgstr "Trancada"
+
+msgid "Sounds"
+msgstr "Sons"
+
+msgid "Control center"
+msgstr "Centro de controle"
+
+msgid "Trading defaults"
+msgstr "Padrões de negociação"
+
+msgid "Confirmations & Warnings"
+msgstr "Confirmações e advertências"
+
+msgid "Mail server"
+msgstr "Servidor de e-mail"
+
+msgid "Synthetic"
+msgstr "Sintetizado"
+
+msgid "Licence settings"
+msgstr "Definições de licença"
+
+msgid "Telemetry settings"
+msgstr "Configurações de telemetria"
+
+msgid "General settings"
+msgstr "Configurações gerais"
+
+msgid "Connection settings"
+msgstr "Configurações de conexão"
+
+msgid "Plugin settings"
+msgstr "Configurações do plugin"
+
+msgid "Time zone settings"
+msgstr "Configurações de fuso horário"
+
+msgid "Symbols lists"
+msgstr "Listas de símbolos"
+
+msgid "Templates"
+msgstr "Modelos"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Language (Beta)"
+msgstr "Idioma (beta)"
+
+msgid "Autosave settings (every 5 minutes)"
+msgstr "Configurações de salvamento automático (a cada 5 minutos)"
+
+msgid "Display quantity in lots"
+msgstr "Exibir quantidades em lotes"
+
+msgid "Abbreviate volume & ticks"
+msgstr "Abreviar volume & Ticks"
+
+msgid "Slippage, ticks"
+msgstr "Deslizamento, 'Ticks'"
+
+msgid "Confirm order placement"
+msgstr "Confirmar colocação da ordem"
+
+msgid "Confirm order cancellation"
+msgstr "Confirmar cancelamento da ordem"
+
+msgid "Confirm order/position modification"
+msgstr "Confirmar modificação da ordem/posição"
+
+msgid "Confirm position reversing"
+msgstr "Confirmar inversão de posição"
+
+msgid "Confirm application close"
+msgstr "Confirme o encerramento do aplicativo"
+
+msgid "Confirm bind close"
+msgstr "Confirme o fechamento da ligação"
+
+msgid "Warn if close TSL with active strategies"
+msgstr "Alertar se TSL for fechado com estratégias ativas"
+
+msgid "Warn if order quantity exceeds"
+msgstr "Se quantitade ordem exceder"
+
+msgid "Show deal tickets"
+msgstr "Exibir 'Tickets' da transação"
+
+msgid "Confirm hotbutton action"
+msgstr "Confirme a ação do hotbutton"
 
 msgid "Margin"
 msgstr "Margem"
@@ -2328,3 +2474,6 @@ msgstr "L/P realizado"
 
 msgid "Fee"
 msgstr "Taxa"
+
+msgid "Maximal deviation from mid price"
+msgstr "Desvio máximo do preço médio"

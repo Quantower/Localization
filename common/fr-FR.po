@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:58+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2018-12-24 16:03+0200\n"
 "PO-Revision-Date: 2018-12-04 15:59+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language fr-FR\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: fr-FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -186,6 +186,30 @@ msgstr "Histogramme"
 
 msgid "Input parameters"
 msgstr "Paramètres d'entrée"
+
+msgid "Connection finished"
+msgstr "Connexion terminée"
+
+msgid "Connection lost"
+msgstr "Connexion perdue"
+
+msgid "Order created/canceled/replaced"
+msgstr "Ordre créé/annulé/remplacé"
+
+msgid "Order filled"
+msgstr "Ordre complété"
+
+msgid "Order rejected"
+msgstr "Ordre refusé"
+
+msgid "Position closed"
+msgstr "Position fermée"
+
+msgid "Default alert"
+msgstr "Alerte par défaut"
+
+msgid "Update Available"
+msgstr "Mise à jour disponible"
 
 msgid "Bid"
 msgstr "Offre"
@@ -791,6 +815,9 @@ msgstr "Couleur de la zone des spreads"
 msgid "Time to next bar"
 msgstr "Temps jusqu'à la prochaine barre"
 
+msgid "Color"
+msgstr "Couleur"
+
 msgid "Height, %"
 msgstr "Hauteur, %"
 
@@ -806,8 +833,8 @@ msgstr "Fixe"
 msgid "Above/below the moving average"
 msgstr "Au-dessus / en dessous de la moyenne mobile"
 
-msgid "Size coloring scheme"
-msgstr "Schéma de coloration de la taille"
+msgid "Volume coloring scheme"
+msgstr "Schéma de coloration de volume"
 
 msgid "Equal"
 msgstr "Égal"
@@ -850,9 +877,6 @@ msgstr "Options de niveau"
 
 msgid "Fibonacci levels"
 msgstr "Niveaux de Fibonacci"
-
-msgid "Color"
-msgstr "Couleur"
 
 msgid "Profile controllers style"
 msgstr "Style contrôleurs de profil"
@@ -1246,6 +1270,9 @@ msgstr "Échelle automatique"
 
 msgid "Manual scale"
 msgstr "Échelle manuelle"
+
+msgid "Scale behavior"
+msgstr "Comportement de l'échelle"
 
 msgid "Fit Indicators"
 msgstr "Ajuster les indicateurs"
@@ -1642,6 +1669,9 @@ msgstr "Cellules pleine grandeur"
 msgid "Antagonistic size bars"
 msgstr "Barres de taille antagoniste"
 
+msgid "Size coloring scheme"
+msgstr "Schéma de coloration de la taille"
+
 msgid "LIFO"
 msgstr "DEPS"
 
@@ -1784,6 +1814,9 @@ msgstr "Point"
 msgid "Are you sure want to remove {0}?"
 msgstr "Voulez-vous vraiment supprimer {0}?"
 
+msgid "Enable sounds"
+msgstr "Activer le son"
+
 msgid "Reset to default"
 msgstr "Réinitialiser aux paramètres par défaut"
 
@@ -1869,7 +1902,7 @@ msgstr "Masquer dans la barre d'outils"
 msgid "Connecting..."
 msgstr "Connexion..."
 
-msgid "Connecting error"
+msgid "Connection error"
 msgstr "Erreur de connexion"
 
 msgid "Disconnected"
@@ -1880,6 +1913,119 @@ msgstr "Retenir le mot de passe"
 
 msgid "Select symbol"
 msgstr "Sélectionner un symbole"
+
+msgid "Workspace name can not be empty"
+msgstr "Le nom de l'espace de travail ne peut pas être vide"
+
+#, csharp-format
+msgid "Workspace name could contains: {0}"
+msgstr "Le nom de l'espace de travail peut contenir: {0}"
+
+msgid "Same workspace name already exist"
+msgstr "Le même nom d'espace de travail existe déjà"
+
+msgid "is locked"
+msgstr "est verrouillé"
+
+#, csharp-format
+msgid "Are you sure you want to delete {0}?"
+msgstr "Êtes-vous sûr de vouloir supprimer {0}?"
+
+msgid "is unlocked"
+msgstr "est déverrouillé"
+
+msgid "locked"
+msgstr "Verrouillé"
+
+msgid "Sounds"
+msgstr "Sons"
+
+msgid "Control center"
+msgstr "Centre de contrôle"
+
+msgid "Trading defaults"
+msgstr "Paramètres de trading par défaut"
+
+msgid "Confirmations & Warnings"
+msgstr "Confirmations et avertissements"
+
+msgid "Mail server"
+msgstr "Serveur de messagerie"
+
+msgid "Synthetic"
+msgstr "Portefeuille"
+
+msgid "Licence settings"
+msgstr "Paramètres de licence"
+
+msgid "Telemetry settings"
+msgstr "Paramètres de télémétrie"
+
+msgid "General settings"
+msgstr "Paramètres généraux"
+
+msgid "Connection settings"
+msgstr "Paramètres"
+
+msgid "Plugin settings"
+msgstr "Paramètres du plugin"
+
+msgid "Time zone settings"
+msgstr "Paramètres de fuseau horaire"
+
+msgid "Symbols lists"
+msgstr "Listes de symboles"
+
+msgid "Templates"
+msgstr "Modèles"
+
+msgid "Theme"
+msgstr "Thème"
+
+msgid "Language (Beta)"
+msgstr "Langue (bêta)"
+
+msgid "Autosave settings (every 5 minutes)"
+msgstr "Paramètres d'enregistrement automatique (toutes les 5 minutes)"
+
+msgid "Display quantity in lots"
+msgstr "Visualiser la quantité en lots"
+
+msgid "Abbreviate volume & ticks"
+msgstr "Abrégés volume & Ticks"
+
+msgid "Slippage, ticks"
+msgstr "Glissement"
+
+msgid "Confirm order placement"
+msgstr "Confirmer le placement de l'ordre"
+
+msgid "Confirm order cancellation"
+msgstr "Confirmer l'annulation de l'ordre"
+
+msgid "Confirm order/position modification"
+msgstr "Confirmer la modification de l'ordre/la position"
+
+msgid "Confirm position reversing"
+msgstr "Confirmer l'inversion de la position"
+
+msgid "Confirm application close"
+msgstr "Confirmer la fermeture de l'application"
+
+msgid "Confirm bind close"
+msgstr "Confirmer la fermeture de la liaison"
+
+msgid "Warn if close TSL with active strategies"
+msgstr "Avertir si TSL à la fermeture avec des stratégies actives"
+
+msgid "Warn if order quantity exceeds"
+msgstr "Avertir si la quantité de l'ordre excède"
+
+msgid "Show deal tickets"
+msgstr "Visualiser les tickets de transaction"
+
+msgid "Confirm hotbutton action"
+msgstr "Confirmez l'action du prise"
 
 msgid "Margin"
 msgstr "Marge"
@@ -2328,3 +2474,6 @@ msgstr "Profit/perte réalisés"
 
 msgid "Fee"
 msgstr "Frais"
+
+msgid "Maximal deviation from mid price"
+msgstr "Déviation maximale par rapport au prix moyen"

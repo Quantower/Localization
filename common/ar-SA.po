@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:58+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2018-12-24 16:03+0200\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language ar-SA\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: ar-SA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -186,6 +186,30 @@ msgstr "مدرج تكراري"
 
 msgid "Input parameters"
 msgstr "اعدادات الإدخال"
+
+msgid "Connection finished"
+msgstr "انتهاء الاتصال"
+
+msgid "Connection lost"
+msgstr "انقطاع الاتصال"
+
+msgid "Order created/canceled/replaced"
+msgstr "طلب إنشاء/إلغاء/استبدال"
+
+msgid "Order filled"
+msgstr "تم ملئ الأمر"
+
+msgid "Order rejected"
+msgstr "تم رفض الطلب"
+
+msgid "Position closed"
+msgstr "الوضعية مغلقة"
+
+msgid "Default alert"
+msgstr "التنبيه الافتراضي"
+
+msgid "Update Available"
+msgstr "يتوفر التحديث"
 
 msgid "Bid"
 msgstr "العرض"
@@ -791,6 +815,9 @@ msgstr "لون منطقة فرق السعر"
 msgid "Time to next bar"
 msgstr "الوقت بجانب الشمعة"
 
+msgid "Color"
+msgstr "اللون"
+
 msgid "Height, %"
 msgstr "الارتفاع، %"
 
@@ -806,8 +833,8 @@ msgstr "ثابت"
 msgid "Above/below the moving average"
 msgstr "فوق / تحت المتوسط ​​المتحرك"
 
-msgid "Size coloring scheme"
-msgstr "نظام تلوين الحجم"
+msgid "Volume coloring scheme"
+msgstr "حجم نظام التلوين"
 
 msgid "Equal"
 msgstr "يساوي"
@@ -850,9 +877,6 @@ msgstr "خيارات المستوى"
 
 msgid "Fibonacci levels"
 msgstr "مستويات فيبوناتشي"
-
-msgid "Color"
-msgstr "اللون"
 
 msgid "Profile controllers style"
 msgstr "Profile controllers style"
@@ -1246,6 +1270,9 @@ msgstr "مقياس تلقائي"
 
 msgid "Manual scale"
 msgstr "مقياس يدوي"
+
+msgid "Scale behavior"
+msgstr "مقياس السلوك"
 
 msgid "Fit Indicators"
 msgstr "مؤشرات فيت"
@@ -1642,6 +1669,9 @@ msgstr "خلايا كاملة الحجم"
 msgid "Antagonistic size bars"
 msgstr "أشرطة الحجم المضادة"
 
+msgid "Size coloring scheme"
+msgstr "نظام تلوين الحجم"
+
 msgid "LIFO"
 msgstr "الوارد أخيراً"
 
@@ -1784,6 +1814,9 @@ msgstr "نقطة"
 msgid "Are you sure want to remove {0}?"
 msgstr "هل تريد بالتأكيد إزالة {0}؟"
 
+msgid "Enable sounds"
+msgstr "تشغيل الأصوات"
+
 msgid "Reset to default"
 msgstr "إعادة الضبط إلى الافتراضي"
 
@@ -1869,8 +1902,8 @@ msgstr "إخفاء من شريط الأدوات"
 msgid "Connecting..."
 msgstr "...الاتصال"
 
-msgid "Connecting error"
-msgstr "خطا في الاتصال"
+msgid "Connection error"
+msgstr "خطأ بالاتصال"
 
 msgid "Disconnected"
 msgstr "انقطع الاتصال"
@@ -1880,6 +1913,119 @@ msgstr "حفظ كلمة المرور"
 
 msgid "Select symbol"
 msgstr "اختار رمز"
+
+msgid "Workspace name can not be empty"
+msgstr "لا يمكن ان يكون اسم مساحة العمل فارغا"
+
+#, csharp-format
+msgid "Workspace name could contains: {0}"
+msgstr "قد يحتوي اسم مساحة العمل علي: {0}"
+
+msgid "Same workspace name already exist"
+msgstr "اسم مساحة العمل نفسه موجود مسبقا"
+
+msgid "is locked"
+msgstr "مؤمن"
+
+#, csharp-format
+msgid "Are you sure you want to delete {0}?"
+msgstr "هل تريد بالتاكيد حذف {0} ؟"
+
+msgid "is unlocked"
+msgstr "غير مقفله"
+
+msgid "locked"
+msgstr "تامين"
+
+msgid "Sounds"
+msgstr "الأصوات"
+
+msgid "Control center"
+msgstr "مركز التحكم"
+
+msgid "Trading defaults"
+msgstr "افتراضيات التداول"
+
+msgid "Confirmations & Warnings"
+msgstr "التاكيدات والتحذيرات"
+
+msgid "Mail server"
+msgstr "سيرفر البريد"
+
+msgid "Synthetic"
+msgstr "المحفظة"
+
+msgid "Licence settings"
+msgstr "إعدادات الترخيص"
+
+msgid "Telemetry settings"
+msgstr "إعدادات القياس عن بعد"
+
+msgid "General settings"
+msgstr "الإعدادات العامة"
+
+msgid "Connection settings"
+msgstr "إعدادات الاتصال"
+
+msgid "Plugin settings"
+msgstr "إعدادات المكون المساعد"
+
+msgid "Time zone settings"
+msgstr "إعدادات المنطقة الزمنيه"
+
+msgid "Symbols lists"
+msgstr "قوائم الرموز"
+
+msgid "Templates"
+msgstr "قوالب"
+
+msgid "Theme"
+msgstr "موضوع"
+
+msgid "Language (Beta)"
+msgstr "اللغة (بيتا)"
+
+msgid "Autosave settings (every 5 minutes)"
+msgstr "إعدادات الحفظ التلقائي (كل 5 دقائق)"
+
+msgid "Display quantity in lots"
+msgstr "عرض العدد بالحصص"
+
+msgid "Abbreviate volume & ticks"
+msgstr "اختصار الحجم والقراد"
+
+msgid "Slippage, ticks"
+msgstr "فرق السعر"
+
+msgid "Confirm order placement"
+msgstr "تأكيد تنفيذ الامر"
+
+msgid "Confirm order cancellation"
+msgstr "تاكيد إلغاء الطلب"
+
+msgid "Confirm order/position modification"
+msgstr "تأكيد تعديل الأمر/الوضعية"
+
+msgid "Confirm position reversing"
+msgstr "تأكيد عكس المركز"
+
+msgid "Confirm application close"
+msgstr "تاكيد إغلاق التطبيق"
+
+msgid "Confirm bind close"
+msgstr "تاكيد إغلاق الربط"
+
+msgid "Warn if close TSL with active strategies"
+msgstr "أصدر تحذير في حال TSL مغلق مع إستراتيجيات فاعلة"
+
+msgid "Warn if order quantity exceeds"
+msgstr "التحذير إذا كان عدد الأمر يتعدى"
+
+msgid "Show deal tickets"
+msgstr "إظهار تذاكر الصفقة"
+
+msgid "Confirm hotbutton action"
+msgstr "تاكيد اجراء زر الاختصار"
 
 msgid "Margin"
 msgstr "الهامش"
@@ -2328,3 +2474,6 @@ msgstr "Realize PnL"
 
 msgid "Fee"
 msgstr "الرسوم"
+
+msgid "Maximal deviation from mid price"
+msgstr "الانحراف الأقصى من منتصف السعر"

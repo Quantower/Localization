@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:58+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2018-12-24 16:03+0200\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language ja-JP\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: ja-JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -186,6 +186,30 @@ msgstr "ヒストグラム"
 
 msgid "Input parameters"
 msgstr "パラメーターを入力する"
+
+msgid "Connection finished"
+msgstr "接続完了"
+
+msgid "Connection lost"
+msgstr "コネクション切断"
+
+msgid "Order created/canceled/replaced"
+msgstr "注文の作成/キャンセル/交換"
+
+msgid "Order filled"
+msgstr "成立した注文"
+
+msgid "Order rejected"
+msgstr "拒否された注文"
+
+msgid "Position closed"
+msgstr "決済済みポジション"
+
+msgid "Default alert"
+msgstr "既定のアラート"
+
+msgid "Update Available"
+msgstr "利用可能な更新"
 
 msgid "Bid"
 msgstr "入札"
@@ -791,6 +815,9 @@ msgstr "スプレッド・エリアの色"
 msgid "Time to next bar"
 msgstr "次のバーまでの時間"
 
+msgid "Color"
+msgstr "色"
+
 msgid "Height, %"
 msgstr "高さ（％）"
 
@@ -806,8 +833,8 @@ msgstr "固定"
 msgid "Above/below the moving average"
 msgstr "移動平均を上回る/下回る"
 
-msgid "Size coloring scheme"
-msgstr "サイズの色付け方法"
+msgid "Volume coloring scheme"
+msgstr "ボリュームカラーリングスキーム"
 
 msgid "Equal"
 msgstr "イコール"
@@ -850,9 +877,6 @@ msgstr "レベルオプション"
 
 msgid "Fibonacci levels"
 msgstr "フィボナッチレベル"
-
-msgid "Color"
-msgstr "色"
 
 msgid "Profile controllers style"
 msgstr "プロファイルコントローラのスタイル"
@@ -1246,6 +1270,9 @@ msgstr "自動スケール"
 
 msgid "Manual scale"
 msgstr "手動スケール"
+
+msgid "Scale behavior"
+msgstr "スケールの動作"
 
 msgid "Fit Indicators"
 msgstr "インジケーターをフィットさせる"
@@ -1642,6 +1669,9 @@ msgstr "フルサイズのセル"
 msgid "Antagonistic size bars"
 msgstr "拮抗するサイズのバー"
 
+msgid "Size coloring scheme"
+msgstr "サイズの色付け方法"
+
 msgid "LIFO"
 msgstr "後入先出法"
 
@@ -1784,6 +1814,9 @@ msgstr "点"
 msgid "Are you sure want to remove {0}?"
 msgstr "{0}を削除してもよろしいですか？"
 
+msgid "Enable sounds"
+msgstr "使用可能音声"
+
 msgid "Reset to default"
 msgstr "デフォルトにリセットする"
 
@@ -1869,7 +1902,7 @@ msgstr "ツールバーから非表示"
 msgid "Connecting..."
 msgstr "接続しています..."
 
-msgid "Connecting error"
+msgid "Connection error"
 msgstr "接続エラー"
 
 msgid "Disconnected"
@@ -1880,6 +1913,119 @@ msgstr "パスワードを保存"
 
 msgid "Select symbol"
 msgstr "シンボルを選択する"
+
+msgid "Workspace name can not be empty"
+msgstr "ワークスペース名を空にすることはできません"
+
+#, csharp-format
+msgid "Workspace name could contains: {0}"
+msgstr "ワークスペース名: {0} が含まれています"
+
+msgid "Same workspace name already exist"
+msgstr "同じワークスペース名が既に存在します"
+
+msgid "is locked"
+msgstr "がロックされ"
+
+#, csharp-format
+msgid "Are you sure you want to delete {0}?"
+msgstr "{0} を削除してもよろしいですか?"
+
+msgid "is unlocked"
+msgstr "がロック解除"
+
+msgid "locked"
+msgstr "ロック"
+
+msgid "Sounds"
+msgstr "サウンド"
+
+msgid "Control center"
+msgstr "コントロールセンター"
+
+msgid "Trading defaults"
+msgstr "デフォルトの取引"
+
+msgid "Confirmations & Warnings"
+msgstr "確認と警告"
+
+msgid "Mail server"
+msgstr "メールサーバー"
+
+msgid "Synthetic"
+msgstr "ポートフォリオ"
+
+msgid "Licence settings"
+msgstr "ライセンスの設定"
+
+msgid "Telemetry settings"
+msgstr "テレメトリの設定"
+
+msgid "General settings"
+msgstr "一般設定"
+
+msgid "Connection settings"
+msgstr "接続の設定"
+
+msgid "Plugin settings"
+msgstr "プラグインの設定"
+
+msgid "Time zone settings"
+msgstr "タイムゾーンの設定"
+
+msgid "Symbols lists"
+msgstr "シンボルリスト"
+
+msgid "Templates"
+msgstr "テンプレート"
+
+msgid "Theme"
+msgstr "テーマ"
+
+msgid "Language (Beta)"
+msgstr "言語 (ベータ版)"
+
+msgid "Autosave settings (every 5 minutes)"
+msgstr "自動保存の設定 (5 分ごと)"
+
+msgid "Display quantity in lots"
+msgstr "数量をロットで表示する"
+
+msgid "Abbreviate volume & ticks"
+msgstr "ボリュームとティックの省略"
+
+msgid "Slippage, ticks"
+msgstr "スリッページ"
+
+msgid "Confirm order placement"
+msgstr "発注を確認"
+
+msgid "Confirm order cancellation"
+msgstr "注文のキャンセルを確認する"
+
+msgid "Confirm order/position modification"
+msgstr "オーダー/ポジションの変更を確認する"
+
+msgid "Confirm position reversing"
+msgstr "ポジションのリバースを確認する"
+
+msgid "Confirm application close"
+msgstr "アプリケーションの終了の確認"
+
+msgid "Confirm bind close"
+msgstr "バインドクローズの確認"
+
+msgid "Warn if close TSL with active strategies"
+msgstr "アクティブなストラテジーとともにTSLをクローズする場合に警告する"
+
+msgid "Warn if order quantity exceeds"
+msgstr "注文の量が超過する場合、警告する"
+
+msgid "Show deal tickets"
+msgstr "取引チケットを表示する"
+
+msgid "Confirm hotbutton action"
+msgstr "hotbutton アクションの確認"
 
 msgid "Margin"
 msgstr "マージン"
@@ -2328,3 +2474,6 @@ msgstr "損益を現金化する"
 
 msgid "Fee"
 msgstr "手数料"
+
+msgid "Maximal deviation from mid price"
+msgstr "中間価格からの最大偏差"

@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Quantower LLC
+# This file is distributed under the same license as the Quantower package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:58+0200\n"
+"Project-Id-Version: Quantower\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2018-12-24 16:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,6 +186,30 @@ msgid "Histogramm"
 msgstr ""
 
 msgid "Input parameters"
+msgstr ""
+
+msgid "Connection finished"
+msgstr ""
+
+msgid "Connection lost"
+msgstr ""
+
+msgid "Order created/canceled/replaced"
+msgstr ""
+
+msgid "Order filled"
+msgstr ""
+
+msgid "Order rejected"
+msgstr ""
+
+msgid "Position closed"
+msgstr ""
+
+msgid "Default alert"
+msgstr ""
+
+msgid "Update Available"
 msgstr ""
 
 msgid "Bid"
@@ -792,6 +816,9 @@ msgstr ""
 msgid "Time to next bar"
 msgstr ""
 
+msgid "Color"
+msgstr ""
+
 msgid "Height, %"
 msgstr ""
 
@@ -807,7 +834,7 @@ msgstr ""
 msgid "Above/below the moving average"
 msgstr ""
 
-msgid "Size coloring scheme"
+msgid "Volume coloring scheme"
 msgstr ""
 
 msgid "Equal"
@@ -850,9 +877,6 @@ msgid "Level options"
 msgstr ""
 
 msgid "Fibonacci levels"
-msgstr ""
-
-msgid "Color"
 msgstr ""
 
 msgid "Profile controllers style"
@@ -1246,6 +1270,9 @@ msgid "Auto scale"
 msgstr ""
 
 msgid "Manual scale"
+msgstr ""
+
+msgid "Scale behavior"
 msgstr ""
 
 msgid "Fit Indicators"
@@ -1643,6 +1670,9 @@ msgstr ""
 msgid "Antagonistic size bars"
 msgstr ""
 
+msgid "Size coloring scheme"
+msgstr ""
+
 msgid "LIFO"
 msgstr ""
 
@@ -1786,6 +1816,9 @@ msgstr ""
 msgid "Are you sure want to remove {0}?"
 msgstr ""
 
+msgid "Enable sounds"
+msgstr ""
+
 msgid "Reset to default"
 msgstr ""
 
@@ -1871,7 +1904,7 @@ msgstr ""
 msgid "Connecting..."
 msgstr ""
 
-msgid "Connecting error"
+msgid "Connection error"
 msgstr ""
 
 msgid "Disconnected"
@@ -1881,6 +1914,119 @@ msgid "Save password"
 msgstr ""
 
 msgid "Select symbol"
+msgstr ""
+
+msgid "Workspace name can not be empty"
+msgstr ""
+
+#, csharp-format
+msgid "Workspace name could contains: {0}"
+msgstr ""
+
+msgid "Same workspace name already exist"
+msgstr ""
+
+msgid "is locked"
+msgstr ""
+
+#, csharp-format
+msgid "Are you sure you want to delete {0}?"
+msgstr ""
+
+msgid "is unlocked"
+msgstr ""
+
+msgid "locked"
+msgstr ""
+
+msgid "Sounds"
+msgstr ""
+
+msgid "Control center"
+msgstr ""
+
+msgid "Trading defaults"
+msgstr ""
+
+msgid "Confirmations & Warnings"
+msgstr ""
+
+msgid "Mail server"
+msgstr ""
+
+msgid "Synthetic"
+msgstr ""
+
+msgid "Licence settings"
+msgstr ""
+
+msgid "Telemetry settings"
+msgstr ""
+
+msgid "General settings"
+msgstr ""
+
+msgid "Connection settings"
+msgstr ""
+
+msgid "Plugin settings"
+msgstr ""
+
+msgid "Time zone settings"
+msgstr ""
+
+msgid "Symbols lists"
+msgstr ""
+
+msgid "Templates"
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Language (Beta)"
+msgstr ""
+
+msgid "Autosave settings (every 5 minutes)"
+msgstr ""
+
+msgid "Display quantity in lots"
+msgstr ""
+
+msgid "Abbreviate volume & ticks"
+msgstr ""
+
+msgid "Slippage, ticks"
+msgstr ""
+
+msgid "Confirm order placement"
+msgstr ""
+
+msgid "Confirm order cancellation"
+msgstr ""
+
+msgid "Confirm order/position modification"
+msgstr ""
+
+msgid "Confirm position reversing"
+msgstr ""
+
+msgid "Confirm application close"
+msgstr ""
+
+msgid "Confirm bind close"
+msgstr ""
+
+msgid "Warn if close TSL with active strategies"
+msgstr ""
+
+msgid "Warn if order quantity exceeds"
+msgstr ""
+
+msgid "Show deal tickets"
+msgstr ""
+
+msgid "Confirm hotbutton action"
 msgstr ""
 
 msgid "Margin"
@@ -2350,4 +2496,7 @@ msgid "Realized P/L"
 msgstr ""
 
 msgid "Fee"
+msgstr ""
+
+msgid "Maximal deviation from mid price"
 msgstr ""

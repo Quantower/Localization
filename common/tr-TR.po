@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:58+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2018-12-24 16:03+0200\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language tr-TR\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: tr-TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -186,6 +186,30 @@ msgstr "Histogramm"
 
 msgid "Input parameters"
 msgstr "Parametreleri gir"
+
+msgid "Connection finished"
+msgstr "Bağlantı sonlandırıldı"
+
+msgid "Connection lost"
+msgstr "Bağlantı kaybedildi"
+
+msgid "Order created/canceled/replaced"
+msgstr "Sipariş oluşturuldu/iptal edildi/değiştirildi"
+
+msgid "Order filled"
+msgstr "Emir gerçekleştirildi"
+
+msgid "Order rejected"
+msgstr "Emir reddedildi"
+
+msgid "Position closed"
+msgstr "Pozisyon kapatıldı"
+
+msgid "Default alert"
+msgstr "Varsayılan uyarı"
+
+msgid "Update Available"
+msgstr "Güncelleme mevcut"
 
 msgid "Bid"
 msgstr "Alış"
@@ -791,6 +815,9 @@ msgstr "Dağılım alanı rengi"
 msgid "Time to next bar"
 msgstr "Bir sonraki çubuğa kalan süre"
 
+msgid "Color"
+msgstr "Renk"
+
 msgid "Height, %"
 msgstr "Yükseklik, %"
 
@@ -806,8 +833,8 @@ msgstr "Sabit"
 msgid "Above/below the moving average"
 msgstr "Hareketli ortalamanın üstünde / altında"
 
-msgid "Size coloring scheme"
-msgstr "Büyüklük renklendirme şeması"
+msgid "Volume coloring scheme"
+msgstr "Hacim boyama düzeni"
 
 msgid "Equal"
 msgstr "Denk"
@@ -850,9 +877,6 @@ msgstr "Seviye seçenekleri"
 
 msgid "Fibonacci levels"
 msgstr "Fibonacci seviyeleri"
-
-msgid "Color"
-msgstr "Renk"
 
 msgid "Profile controllers style"
 msgstr "Profil denetleyicileri stili"
@@ -1246,6 +1270,9 @@ msgstr "Otomatik ölçeklendirme"
 
 msgid "Manual scale"
 msgstr "Manuel ölçeklendirme"
+
+msgid "Scale behavior"
+msgstr "Ölçek davranışı"
 
 msgid "Fit Indicators"
 msgstr "Göstergeleri sığdır"
@@ -1642,6 +1669,9 @@ msgstr "Tam boyutlu hücreler"
 msgid "Antagonistic size bars"
 msgstr "Antagonistik boyut çubukları"
 
+msgid "Size coloring scheme"
+msgstr "Büyüklük renklendirme şeması"
+
 msgid "LIFO"
 msgstr "LIFO"
 
@@ -1784,6 +1814,9 @@ msgstr "Nokta"
 msgid "Are you sure want to remove {0}?"
 msgstr "{0} öğesini kaldırmak istediğinizden emin misiniz?"
 
+msgid "Enable sounds"
+msgstr "Sesleri etkinleştir"
+
 msgid "Reset to default"
 msgstr "Varsayılana sıfırla"
 
@@ -1869,7 +1902,7 @@ msgstr "Araç çubuğundan gizle"
 msgid "Connecting..."
 msgstr "Bağlanıyor..."
 
-msgid "Connecting error"
+msgid "Connection error"
 msgstr "Bağlantı hatası"
 
 msgid "Disconnected"
@@ -1880,6 +1913,119 @@ msgstr "Şifreyi kaydet"
 
 msgid "Select symbol"
 msgstr "Sembol seç"
+
+msgid "Workspace name can not be empty"
+msgstr "Çalışma alanı adı boş olamaz"
+
+#, csharp-format
+msgid "Workspace name could contains: {0}"
+msgstr "Çalışma alanı adı içerir: {0}"
+
+msgid "Same workspace name already exist"
+msgstr "Aynı çalışma alanı adı zaten var"
+
+msgid "is locked"
+msgstr "kilitli"
+
+#, csharp-format
+msgid "Are you sure you want to delete {0}?"
+msgstr "{0} öğesini silmek istediğinizden emin misiniz?"
+
+msgid "is unlocked"
+msgstr "kilitli değil"
+
+msgid "locked"
+msgstr "Kilitli"
+
+msgid "Sounds"
+msgstr "Sesler"
+
+msgid "Control center"
+msgstr "Kontrol merkezi"
+
+msgid "Trading defaults"
+msgstr "İşlem varsayılan ayarları"
+
+msgid "Confirmations & Warnings"
+msgstr "Teyitleri ve uyarıları"
+
+msgid "Mail server"
+msgstr "Posta sunucusu"
+
+msgid "Synthetic"
+msgstr "Portföy"
+
+msgid "Licence settings"
+msgstr "Lisans ayarları"
+
+msgid "Telemetry settings"
+msgstr "Telemetri ayarları"
+
+msgid "General settings"
+msgstr "Genel ayarlar"
+
+msgid "Connection settings"
+msgstr "Oluştur"
+
+msgid "Plugin settings"
+msgstr "Eklenti ayarları"
+
+msgid "Time zone settings"
+msgstr "Saat dilimi ayarları"
+
+msgid "Symbols lists"
+msgstr "Semboller listeleri"
+
+msgid "Templates"
+msgstr "Şablon"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Language (Beta)"
+msgstr "Dil (Beta)"
+
+msgid "Autosave settings (every 5 minutes)"
+msgstr "Otomatik kaydetme ayarları (her 5 dakikada bir)"
+
+msgid "Display quantity in lots"
+msgstr "Miktarı lot olarak göster"
+
+msgid "Abbreviate volume & ticks"
+msgstr "Hacim ve Ticks kısaltmak"
+
+msgid "Slippage, ticks"
+msgstr "Kayma"
+
+msgid "Confirm order placement"
+msgstr "Emir verme işlemini onayla"
+
+msgid "Confirm order cancellation"
+msgstr "Emir iptalini onayla"
+
+msgid "Confirm order/position modification"
+msgstr "EMir/pozisyon modifikasyonunu onayla"
+
+msgid "Confirm position reversing"
+msgstr "Pozisyonun tersine çevrilmesini onayla"
+
+msgid "Confirm application close"
+msgstr "Uygulamayı kapat Onayla"
+
+msgid "Confirm bind close"
+msgstr "Bağın kapanacağını Onayla"
+
+msgid "Warn if close TSL with active strategies"
+msgstr "Aktif stratejileri olan TSL kapanışlarında uyar"
+
+msgid "Warn if order quantity exceeds"
+msgstr "Emir miktarı aşarsa uyar"
+
+msgid "Show deal tickets"
+msgstr "İşlem fişlerini göster"
+
+msgid "Confirm hotbutton action"
+msgstr "Hotbutton eylemini Onayla"
 
 msgid "Margin"
 msgstr "Marj"
@@ -2328,3 +2474,6 @@ msgstr "Gerçekleşen K/Z"
 
 msgid "Fee"
 msgstr "Ücret"
+
+msgid "Maximal deviation from mid price"
+msgstr "Orta fiyata maksimal sapma"
