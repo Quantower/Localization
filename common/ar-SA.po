@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2018-12-26 13:15+0200\n"
+"POT-Creation-Date: 2018-12-27 12:42+0200\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -168,6 +168,12 @@ msgstr "اسم المستخدم"
 
 msgid "Password"
 msgstr "كلمة المرور"
+
+msgid "Demo"
+msgstr "تجريبي"
+
+msgid "Real"
+msgstr "حقيقي"
 
 #, csharp-format
 msgid "Data series #{0}"
@@ -1929,6 +1935,9 @@ msgstr "انقطع الاتصال"
 msgid "Save password"
 msgstr "حفظ كلمة المرور"
 
+msgid "Recover"
+msgstr "استعادة"
+
 msgid "Select symbol"
 msgstr "اختار رمز"
 
@@ -2060,6 +2069,24 @@ msgstr "معلومات التداول"
 msgid "Status"
 msgstr "الحالة"
 
+msgid "History Server URL"
+msgstr "عنوان URL لخادم المحفوظات"
+
+msgid "API key"
+msgstr "مفتاح API"
+
+msgid "Secret key"
+msgstr "مفتاح سري"
+
+msgid "Network does not available"
+msgstr "الشبكة غير متوفرة"
+
+msgid "API key is empty"
+msgstr "مفتاح API فارغ"
+
+msgid "Secret key is empty"
+msgstr "المفتاح السري فارغ"
+
 msgid "Orders"
 msgstr "الأوامر"
 
@@ -2074,6 +2101,12 @@ msgstr "دقيقة عادية"
 
 msgid "Iceberg allowed"
 msgstr "جبل الجليد مسموح به"
+
+msgid "Market data connection. Trading coming soon."
+msgstr "اتصال بيانات السوق. التداول قادم قريبا."
+
+msgid "Can't connect via socket"
+msgstr "لا يمكن الاتصال عبر ماخذ التوصيل"
 
 msgid "Allow margin trading"
 msgstr "السماح بتداول الهامش"
@@ -2110,6 +2143,9 @@ msgstr "العقود المستقبلية"
 
 msgid "Unknown"
 msgstr "غير معروف"
+
+msgid "Connecting was cancelled"
+msgstr "تم إلغاء الاتصال"
 
 msgid "Equity"
 msgstr "الأسهم"
@@ -2246,6 +2282,12 @@ msgstr "مستوى هامش الدخول"
 msgid "Limitation margin level"
 msgstr "مستوى هامش التقادم"
 
+msgid "Token"
+msgstr "الرمز المميز"
+
+msgid "Access token is empty."
+msgstr "الرمز المميز للوصول فارغ."
+
 msgid "Currencies"
 msgstr "العملات"
 
@@ -2264,6 +2306,9 @@ msgstr "الحصص"
 msgid "Bullions"
 msgstr "السبائك"
 
+msgid "Can't find connection parameters"
+msgstr "تعذر العثور علي معلمات الاتصال"
+
 msgid "Take liquidity rate"
 msgstr "أخذ معدل السيولة"
 
@@ -2272,6 +2317,18 @@ msgstr "توفير معدل السيولة"
 
 msgid "Fee currency"
 msgstr "عمله الرسوم"
+
+msgid "IQFeed connection manager path"
+msgstr "مسار أداره الاتصال iqfeed"
+
+msgid "Login is empty"
+msgstr "تسجيل الدخول فارغ"
+
+msgid "Password is empty"
+msgstr "كلمه المرور فارغه"
+
+msgid "Wrong connection configuration"
+msgstr "تكوين اتصال غير صحيح"
 
 msgid "Margin call"
 msgstr "نداء الهامش"
@@ -2299,6 +2356,15 @@ msgstr "معلومات الجلسة"
 
 msgid "Today results"
 msgstr "نتائج اليوم"
+
+msgid "Data source type"
+msgstr "نوع مصدر البيانات"
+
+msgid "User is empty."
+msgstr "المستخدم فارغ."
+
+msgid "Password is empty."
+msgstr "كلمه المرور فارغه."
 
 msgid "Available to trade"
 msgstr "متاح للتداول"
@@ -2417,6 +2483,9 @@ msgstr "تمويل"
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr "يتم دفع / تحميل التمويل للصفقات المفتوحة في الحساب"
 
+msgid "Token is empty"
+msgstr "الرمز المميز فارغ"
+
 msgid "Tick size"
 msgstr "حجم حركة السعر"
 
@@ -2441,6 +2510,9 @@ msgstr "الارصده"
 
 msgid "Fee info"
 msgstr "معلومات الرسوم"
+
+msgid "Secret"
+msgstr "السريه"
 
 msgid "Maker fee"
 msgstr "رسم صانع"
@@ -2478,6 +2550,24 @@ msgstr "إجمالي القيمة المقترضة"
 msgid "Current margin"
 msgstr "الهامش الحالي"
 
+msgid "Unknown error while connect"
+msgstr "خطا غير معروف اثناء الاتصال"
+
+msgid "Login"
+msgstr "اسم المستخدم"
+
+msgid "Gateway endpoint"
+msgstr "نقطه نهاية العبارة"
+
+msgid "Access Token"
+msgstr "رمز الوصول"
+
+msgid "Access token is not valid combination is not valid."
+msgstr "الرمز المميز للوصول ليس تركيبه صحيحه."
+
+msgid "Invalid client key"
+msgstr "مفتاح عميل غير صالح"
+
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "القيمة المالية."
 
@@ -2492,6 +2582,9 @@ msgstr "Realize PnL"
 
 msgid "Fee"
 msgstr "الرسوم"
+
+msgid "Provides simulated data, allowing to test platform’s functionality"
+msgstr "يوفر محاكاة البيانات ، والسماح لاختبار وظيفة النظام الأساسي"
 
 msgid "Maximal deviation from mid price"
 msgstr "الانحراف الأقصى من منتصف السعر"

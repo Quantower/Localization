@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2018-12-26 13:15+0200\n"
+"POT-Creation-Date: 2018-12-27 12:42+0200\n"
 "PO-Revision-Date: 2018-12-04 16:01+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -168,6 +168,12 @@ msgstr "用户"
 
 msgid "Password"
 msgstr "密码"
+
+msgid "Demo"
+msgstr "模拟账户"
+
+msgid "Real"
+msgstr "实际"
 
 #, csharp-format
 msgid "Data series #{0}"
@@ -1929,6 +1935,9 @@ msgstr "断开的"
 msgid "Save password"
 msgstr "记住"
 
+msgid "Recover"
+msgstr "忘记?"
+
 msgid "Select symbol"
 msgstr "选择产品"
 
@@ -2060,6 +2069,24 @@ msgstr "交易信息"
 msgid "Status"
 msgstr "状态"
 
+msgid "History Server URL"
+msgstr "历史记录服务器网址"
+
+msgid "API key"
+msgstr "api 密钥"
+
+msgid "Secret key"
+msgstr "秘密钥匙"
+
+msgid "Network does not available"
+msgstr "网络不可用"
+
+msgid "API key is empty"
+msgstr "api 密钥为空"
+
+msgid "Secret key is empty"
+msgstr "密钥为空"
+
 msgid "Orders"
 msgstr "挂单"
 
@@ -2074,6 +2101,12 @@ msgstr "最小名义"
 
 msgid "Iceberg allowed"
 msgstr "允许冰山"
+
+msgid "Market data connection. Trading coming soon."
+msgstr "市场数据连接。交易即将到来。"
+
+msgid "Can't connect via socket"
+msgstr "无法通过插座连接"
 
 msgid "Allow margin trading"
 msgstr "允许保证金交易"
@@ -2110,6 +2143,9 @@ msgstr "期货"
 
 msgid "Unknown"
 msgstr "未知"
+
+msgid "Connecting was cancelled"
+msgstr "连接已取消"
 
 msgid "Equity"
 msgstr "等于"
@@ -2246,6 +2282,12 @@ msgstr "进入保证金水平"
 msgid "Limitation margin level"
 msgstr "限制保证金水平"
 
+msgid "Token"
+msgstr "令 牌"
+
+msgid "Access token is empty."
+msgstr "访问令牌为空。"
+
 msgid "Currencies"
 msgstr "货币"
 
@@ -2264,6 +2306,9 @@ msgstr "股"
 msgid "Bullions"
 msgstr "元宝"
 
+msgid "Can't find connection parameters"
+msgstr "找不到连接参数"
+
 msgid "Take liquidity rate"
 msgstr "采取流动性率"
 
@@ -2272,6 +2317,18 @@ msgstr "提供流动资金率"
 
 msgid "Fee currency"
 msgstr "费用币种"
+
+msgid "IQFeed connection manager path"
+msgstr "连接管理器路径"
+
+msgid "Login is empty"
+msgstr "登录为空"
+
+msgid "Password is empty"
+msgstr "密码为空"
+
+msgid "Wrong connection configuration"
+msgstr "错误的连接配置"
 
 msgid "Margin call"
 msgstr "保证金追缴"
@@ -2299,6 +2356,15 @@ msgstr "会话信息"
 
 msgid "Today results"
 msgstr "今日状况"
+
+msgid "Data source type"
+msgstr "数据源类型"
+
+msgid "User is empty."
+msgstr "用户为空。"
+
+msgid "Password is empty."
+msgstr "密码为空。"
 
 msgid "Available to trade"
 msgstr "可供交易"
@@ -2417,6 +2483,9 @@ msgstr "融资"
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr "账户中的未平仓头寸支付/收取融资"
 
+msgid "Token is empty"
+msgstr "令牌为空"
+
 msgid "Tick size"
 msgstr "最小价位"
 
@@ -2441,6 +2510,9 @@ msgstr "平衡"
 
 msgid "Fee info"
 msgstr "费用信息"
+
+msgid "Secret"
+msgstr "秘密"
 
 msgid "Maker fee"
 msgstr "制造商费用"
@@ -2478,6 +2550,24 @@ msgstr "总借款价值"
 msgid "Current margin"
 msgstr "当前保证金"
 
+msgid "Unknown error while connect"
+msgstr "连接时出现未知错误"
+
+msgid "Login"
+msgstr "登录:"
+
+msgid "Gateway endpoint"
+msgstr "网关终结点"
+
+msgid "Access Token"
+msgstr "访问令牌"
+
+msgid "Access token is not valid combination is not valid."
+msgstr "访问令牌不是有效的组合无效。"
+
+msgid "Invalid client key"
+msgstr "无效的客户端密钥"
+
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "公平。"
 
@@ -2492,6 +2582,9 @@ msgstr "平仓盈亏"
 
 msgid "Fee"
 msgstr "费用"
+
+msgid "Provides simulated data, allowing to test platform’s functionality"
+msgstr "提供模拟数据, 允许测试平台的功能"
 
 msgid "Maximal deviation from mid price"
 msgstr "与中价的最大偏差"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2018-12-26 13:15+0200\n"
+"POT-Creation-Date: 2018-12-27 12:42+0200\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -168,6 +168,12 @@ msgstr "Kullanıcı"
 
 msgid "Password"
 msgstr "Şifre"
+
+msgid "Demo"
+msgstr "Demo"
+
+msgid "Real"
+msgstr "Gerçek"
 
 #, csharp-format
 msgid "Data series #{0}"
@@ -1929,6 +1935,9 @@ msgstr "Bağlantı kesildi"
 msgid "Save password"
 msgstr "Şifreyi kaydet"
 
+msgid "Recover"
+msgstr "Kurtar"
+
 msgid "Select symbol"
 msgstr "Sembol seç"
 
@@ -2060,6 +2069,24 @@ msgstr "İşlem bilgisi"
 msgid "Status"
 msgstr "Durum"
 
+msgid "History Server URL"
+msgstr "Geçmiş sunucusu URL 'si"
+
+msgid "API key"
+msgstr "API anahtar"
+
+msgid "Secret key"
+msgstr "Gizli anahtar"
+
+msgid "Network does not available"
+msgstr "Ağ kullanılamıyor"
+
+msgid "API key is empty"
+msgstr "API anahtarı boş"
+
+msgid "Secret key is empty"
+msgstr "Gizli anahtar boştur"
+
 msgid "Orders"
 msgstr "Emirler"
 
@@ -2074,6 +2101,12 @@ msgstr "Minik yanlı"
 
 msgid "Iceberg allowed"
 msgstr "Buzdağı izin verilir"
+
+msgid "Market data connection. Trading coming soon."
+msgstr "Pazar veri bağlantısı. Ticaret yakında geliyor."
+
+msgid "Can't connect via socket"
+msgstr "Soket üzerinden bağlanamıyor"
 
 msgid "Allow margin trading"
 msgstr "Kenar boşluğu ticaretine izin ver"
@@ -2110,6 +2143,9 @@ msgstr "Vadeli işlemler"
 
 msgid "Unknown"
 msgstr "Bilinmiyor"
+
+msgid "Connecting was cancelled"
+msgstr "Bağlanma iptal edildi"
 
 msgid "Equity"
 msgstr "Özsermaye"
@@ -2246,6 +2282,12 @@ msgstr "Giriş marjı seviyesi"
 msgid "Limitation margin level"
 msgstr "Sınırlama marjı seviyesi"
 
+msgid "Token"
+msgstr "Belirte -ci"
+
+msgid "Access token is empty."
+msgstr "Erişim belirteci boştur."
+
 msgid "Currencies"
 msgstr "Kurlar"
 
@@ -2264,6 +2306,9 @@ msgstr "Hisse senetleri"
 msgid "Bullions"
 msgstr "Bullions"
 
+msgid "Can't find connection parameters"
+msgstr "Bağlantı parametreleri bulunamıyor"
+
 msgid "Take liquidity rate"
 msgstr "Likidite oranı alın"
 
@@ -2272,6 +2317,18 @@ msgstr "Likidite oranı sağlayın"
 
 msgid "Fee currency"
 msgstr "Ücret para birimi"
+
+msgid "IQFeed connection manager path"
+msgstr "Iqfeed bağlantı Yöneticisi yolu"
+
+msgid "Login is empty"
+msgstr "Oturum açma boş"
+
+msgid "Password is empty"
+msgstr "Parola boş"
+
+msgid "Wrong connection configuration"
+msgstr "Yanlış bağlantı yapılandırması"
 
 msgid "Margin call"
 msgstr "Marj çağrısı"
@@ -2299,6 +2356,15 @@ msgstr "Oturum bilgisi"
 
 msgid "Today results"
 msgstr "Bugünkü sonuçlar"
+
+msgid "Data source type"
+msgstr "Veri kaynağı türü"
+
+msgid "User is empty."
+msgstr "Kullanıcı boştur."
+
+msgid "Password is empty."
+msgstr "Parola boştur."
 
 msgid "Available to trade"
 msgstr "Ticaret için kullanılabilir"
@@ -2417,6 +2483,9 @@ msgstr "Finansman"
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr "Finansman, Hesaptaki açık pozisyonlar için ödenir / tahsil edilir"
 
+msgid "Token is empty"
+msgstr "Token boş"
+
 msgid "Tick size"
 msgstr "Aralık büyüklüğü"
 
@@ -2441,6 +2510,9 @@ msgstr "Bakiye"
 
 msgid "Fee info"
 msgstr "Ücret bilgileri"
+
+msgid "Secret"
+msgstr "Gizli"
 
 msgid "Maker fee"
 msgstr "Maker ücreti"
@@ -2478,6 +2550,24 @@ msgstr "Toplam borç değeri"
 msgid "Current margin"
 msgstr "Mevcut marj"
 
+msgid "Unknown error while connect"
+msgstr "Bağlantı sırasında bilinmeyen hata"
+
+msgid "Login"
+msgstr "Kullanıcı adı"
+
+msgid "Gateway endpoint"
+msgstr "Ağ Geçidi bitiş noktası"
+
+msgid "Access Token"
+msgstr "Erişim belirteci"
+
+msgid "Access token is not valid combination is not valid."
+msgstr "Erişim belirteci geçerli değil birleştirme geçerli değil."
+
+msgid "Invalid client key"
+msgstr "Geçersiz istemci anahtarı"
+
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "Eşitlik."
 
@@ -2492,6 +2582,9 @@ msgstr "Gerçekleşen K/Z"
 
 msgid "Fee"
 msgstr "Ücret"
+
+msgid "Provides simulated data, allowing to test platform’s functionality"
+msgstr "Platformun işlevselliğini test etmeye izin veren benzetimli veriler sağlar"
 
 msgid "Maximal deviation from mid price"
 msgstr "Orta fiyata maksimal sapma"

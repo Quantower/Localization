@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2018-12-26 13:15+0200\n"
+"POT-Creation-Date: 2018-12-27 12:42+0200\n"
 "PO-Revision-Date: 2018-12-04 15:57+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -168,6 +168,12 @@ msgstr "Usuario"
 
 msgid "Password"
 msgstr "Contraseña"
+
+msgid "Demo"
+msgstr "Demo"
+
+msgid "Real"
+msgstr "Real"
 
 #, csharp-format
 msgid "Data series #{0}"
@@ -1929,6 +1935,9 @@ msgstr "Desconectado"
 msgid "Save password"
 msgstr "Guardar contraseña"
 
+msgid "Recover"
+msgstr "Recuperar"
+
 msgid "Select symbol"
 msgstr "Seleccionar símbolo"
 
@@ -2060,6 +2069,24 @@ msgstr "Información de trading"
 msgid "Status"
 msgstr "Estado"
 
+msgid "History Server URL"
+msgstr "URL del servidor de historial"
+
+msgid "API key"
+msgstr "Clave de API"
+
+msgid "Secret key"
+msgstr "Llave secreta"
+
+msgid "Network does not available"
+msgstr "La red no está disponible"
+
+msgid "API key is empty"
+msgstr "La clave de API está vacía"
+
+msgid "Secret key is empty"
+msgstr "La clave secreta está vacía"
+
 msgid "Orders"
 msgstr "Pedidos"
 
@@ -2074,6 +2101,12 @@ msgstr "Min. Nocional"
 
 msgid "Iceberg allowed"
 msgstr "Iceberg permitido"
+
+msgid "Market data connection. Trading coming soon."
+msgstr "Conexión de datos de mercado. Trading próximamente."
+
+msgid "Can't connect via socket"
+msgstr "No se puede conectar a través de socket"
 
 msgid "Allow margin trading"
 msgstr "Permitir el comercio de márgenes"
@@ -2110,6 +2143,9 @@ msgstr "Futuros"
 
 msgid "Unknown"
 msgstr "Desconocido"
+
+msgid "Connecting was cancelled"
+msgstr "Se canceló la conexión"
 
 msgid "Equity"
 msgstr "Capital"
@@ -2246,6 +2282,12 @@ msgstr "Nivel de margen de entrada"
 msgid "Limitation margin level"
 msgstr "Nivel de margen de limitación"
 
+msgid "Token"
+msgstr "Token"
+
+msgid "Access token is empty."
+msgstr "El token de acceso está vacío."
+
 msgid "Currencies"
 msgstr "Monedas"
 
@@ -2264,6 +2306,9 @@ msgstr "Acciones"
 msgid "Bullions"
 msgstr "Lingotes"
 
+msgid "Can't find connection parameters"
+msgstr "No se pueden encontrar parámetros de conexión"
+
 msgid "Take liquidity rate"
 msgstr "Tomar la tasa de liquidez"
 
@@ -2272,6 +2317,18 @@ msgstr "Proporcione la tarifa de la liquidez"
 
 msgid "Fee currency"
 msgstr "Divisa de honorarios"
+
+msgid "IQFeed connection manager path"
+msgstr "Ruta del administrador de conexiones IQFeed"
+
+msgid "Login is empty"
+msgstr "El inicio de sesión está vacío"
+
+msgid "Password is empty"
+msgstr "La contraseña está vacía"
+
+msgid "Wrong connection configuration"
+msgstr "Configuración de conexión incorrecta"
 
 msgid "Margin call"
 msgstr "Ajuste de márjenes"
@@ -2299,6 +2356,15 @@ msgstr "Información de sesión"
 
 msgid "Today results"
 msgstr "Resultados de hoy"
+
+msgid "Data source type"
+msgstr "Tipo de origen de datos"
+
+msgid "User is empty."
+msgstr "El usuario está vacío."
+
+msgid "Password is empty."
+msgstr "La contraseña está vacía."
 
 msgid "Available to trade"
 msgstr "Disponible para negociar"
@@ -2417,6 +2483,9 @@ msgstr "Financiación"
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr "El financiamiento se paga / cobra por los puestos vacantes en la Cuenta"
 
+msgid "Token is empty"
+msgstr "El token está vacío"
+
 msgid "Tick size"
 msgstr "Tamaño del tick"
 
@@ -2441,6 +2510,9 @@ msgstr "Saldos"
 
 msgid "Fee info"
 msgstr "Información de tarifas"
+
+msgid "Secret"
+msgstr "Secreto"
 
 msgid "Maker fee"
 msgstr "Honorario del fabricante"
@@ -2478,6 +2550,24 @@ msgstr "Valor total prestado"
 msgid "Current margin"
 msgstr "Margen actual"
 
+msgid "Unknown error while connect"
+msgstr "Error desconocido mientras se conecta"
+
+msgid "Login"
+msgstr "Usuario"
+
+msgid "Gateway endpoint"
+msgstr "Punto de conexión de puerta de enlace"
+
+msgid "Access Token"
+msgstr "Token de acceso"
+
+msgid "Access token is not valid combination is not valid."
+msgstr "El token de acceso no es una combinación válida."
+
+msgid "Invalid client key"
+msgstr "Clave de cliente no válida"
+
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "Equidad."
 
@@ -2492,6 +2582,9 @@ msgstr "P/L realizado"
 
 msgid "Fee"
 msgstr "Tarifa"
+
+msgid "Provides simulated data, allowing to test platform’s functionality"
+msgstr "Proporciona datos simulados, lo que permite probar la funcionalidad de la plataforma"
 
 msgid "Maximal deviation from mid price"
 msgstr "Desviación máxima del precio medio"

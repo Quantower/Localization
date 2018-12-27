@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2018-12-26 13:15+0200\n"
+"POT-Creation-Date: 2018-12-27 12:42+0200\n"
 "PO-Revision-Date: 2018-12-04 16:04+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -168,6 +168,12 @@ msgstr "User"
 
 msgid "Password"
 msgstr "Password"
+
+msgid "Demo"
+msgstr "Demo"
+
+msgid "Real"
+msgstr "Real"
 
 #, csharp-format
 msgid "Data series #{0}"
@@ -1929,6 +1935,9 @@ msgstr "Disconnected"
 msgid "Save password"
 msgstr "Save password"
 
+msgid "Recover"
+msgstr "Recover"
+
 msgid "Select symbol"
 msgstr "Select symbol"
 
@@ -2060,6 +2069,24 @@ msgstr "Trading info"
 msgid "Status"
 msgstr "Status"
 
+msgid "History Server URL"
+msgstr "History Server URL"
+
+msgid "API key"
+msgstr "API key"
+
+msgid "Secret key"
+msgstr "Secret key"
+
+msgid "Network does not available"
+msgstr "Network does not available"
+
+msgid "API key is empty"
+msgstr "API key is empty"
+
+msgid "Secret key is empty"
+msgstr "Secret key is empty"
+
 msgid "Orders"
 msgstr "Orders"
 
@@ -2074,6 +2101,12 @@ msgstr "Min notional"
 
 msgid "Iceberg allowed"
 msgstr "Iceberg allowed"
+
+msgid "Market data connection. Trading coming soon."
+msgstr "Market data connection. Trading coming soon."
+
+msgid "Can't connect via socket"
+msgstr "Can't connect via socket"
 
 msgid "Allow margin trading"
 msgstr "Allow margin trading"
@@ -2110,6 +2143,9 @@ msgstr "Futures"
 
 msgid "Unknown"
 msgstr "Unknown"
+
+msgid "Connecting was cancelled"
+msgstr "Connecting was cancelled"
 
 msgid "Equity"
 msgstr "Equity"
@@ -2246,6 +2282,12 @@ msgstr "Entry margin level"
 msgid "Limitation margin level"
 msgstr "Limitation margin level"
 
+msgid "Token"
+msgstr "Token"
+
+msgid "Access token is empty."
+msgstr "Access token is empty."
+
 msgid "Currencies"
 msgstr "Currencies"
 
@@ -2264,6 +2306,9 @@ msgstr "Shares"
 msgid "Bullions"
 msgstr "Bullions"
 
+msgid "Can't find connection parameters"
+msgstr "Can't find connection parameters"
+
 msgid "Take liquidity rate"
 msgstr "Take liquidity rate"
 
@@ -2272,6 +2317,18 @@ msgstr "Provide liquidity rate"
 
 msgid "Fee currency"
 msgstr "Fee currency"
+
+msgid "IQFeed connection manager path"
+msgstr "IQFeed connection manager path"
+
+msgid "Login is empty"
+msgstr "Login is empty"
+
+msgid "Password is empty"
+msgstr "Password is empty"
+
+msgid "Wrong connection configuration"
+msgstr "Wrong connection configuration"
 
 msgid "Margin call"
 msgstr "Margin call"
@@ -2299,6 +2356,15 @@ msgstr "Session info"
 
 msgid "Today results"
 msgstr "Today results"
+
+msgid "Data source type"
+msgstr "Data source type"
+
+msgid "User is empty."
+msgstr "User is empty."
+
+msgid "Password is empty."
+msgstr "Password is empty."
 
 msgid "Available to trade"
 msgstr "Available to trade"
@@ -2417,6 +2483,9 @@ msgstr "Financing"
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr "Financing is paid/charged for open positions in the Account"
 
+msgid "Token is empty"
+msgstr "Token is empty"
+
 msgid "Tick size"
 msgstr "Tick size"
 
@@ -2441,6 +2510,9 @@ msgstr "Balances"
 
 msgid "Fee info"
 msgstr "Fee info"
+
+msgid "Secret"
+msgstr "Secret"
 
 msgid "Maker fee"
 msgstr "Maker fee"
@@ -2478,6 +2550,24 @@ msgstr "Total Borrowed Value"
 msgid "Current margin"
 msgstr "Current margin"
 
+msgid "Unknown error while connect"
+msgstr "Unknown error while connect"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Gateway endpoint"
+msgstr "Gateway endpoint"
+
+msgid "Access Token"
+msgstr "Access Token"
+
+msgid "Access token is not valid combination is not valid."
+msgstr "Access token is not valid combination is not valid."
+
+msgid "Invalid client key"
+msgstr "Invalid client key"
+
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "Equity. Equal to Account Balance + Unrealized P/L"
 
@@ -2492,6 +2582,9 @@ msgstr "Realized P/L"
 
 msgid "Fee"
 msgstr "Fee"
+
+msgid "Provides simulated data, allowing to test platform’s functionality"
+msgstr "Provides simulated data, allowing to test platform’s functionality"
 
 msgid "Maximal deviation from mid price"
 msgstr "Maximal deviation from mid price"

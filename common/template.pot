@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2018-12-26 13:15+0200\n"
+"POT-Creation-Date: 2018-12-27 12:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,6 +168,12 @@ msgid "User"
 msgstr ""
 
 msgid "Password"
+msgstr ""
+
+msgid "Demo"
+msgstr ""
+
+msgid "Real"
 msgstr ""
 
 #, csharp-format
@@ -1931,6 +1937,9 @@ msgstr ""
 msgid "Save password"
 msgstr ""
 
+msgid "Recover"
+msgstr ""
+
 msgid "Select symbol"
 msgstr ""
 
@@ -2062,6 +2071,24 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
+msgid "History Server URL"
+msgstr ""
+
+msgid "API key"
+msgstr ""
+
+msgid "Secret key"
+msgstr ""
+
+msgid "Network does not available"
+msgstr ""
+
+msgid "API key is empty"
+msgstr ""
+
+msgid "Secret key is empty"
+msgstr ""
+
 msgid "Orders"
 msgstr ""
 
@@ -2075,6 +2102,12 @@ msgid "Min notional"
 msgstr ""
 
 msgid "Iceberg allowed"
+msgstr ""
+
+msgid "Market data connection. Trading coming soon."
+msgstr ""
+
+msgid "Can't connect via socket"
 msgstr ""
 
 msgid "Allow margin trading"
@@ -2111,6 +2144,9 @@ msgid "Futures"
 msgstr ""
 
 msgid "Unknown"
+msgstr ""
+
+msgid "Connecting was cancelled"
 msgstr ""
 
 msgid "Equity"
@@ -2262,6 +2298,12 @@ msgstr ""
 msgid "Limitation margin level"
 msgstr ""
 
+msgid "Token"
+msgstr ""
+
+msgid "Access token is empty."
+msgstr ""
+
 msgid "Currencies"
 msgstr ""
 
@@ -2280,6 +2322,9 @@ msgstr ""
 msgid "Bullions"
 msgstr ""
 
+msgid "Can't find connection parameters"
+msgstr ""
+
 msgid "Take liquidity rate"
 msgstr ""
 
@@ -2287,6 +2332,18 @@ msgid "Provide liquidity rate"
 msgstr ""
 
 msgid "Fee currency"
+msgstr ""
+
+msgid "IQFeed connection manager path"
+msgstr ""
+
+msgid "Login is empty"
+msgstr ""
+
+msgid "Password is empty"
+msgstr ""
+
+msgid "Wrong connection configuration"
 msgstr ""
 
 msgid "Margin call"
@@ -2314,6 +2371,15 @@ msgid "Session info"
 msgstr ""
 
 msgid "Today results"
+msgstr ""
+
+msgid "Data source type"
+msgstr ""
+
+msgid "User is empty."
+msgstr ""
+
+msgid "Password is empty."
 msgstr ""
 
 msgid "Available to trade"
@@ -2440,6 +2506,9 @@ msgstr ""
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr ""
 
+msgid "Token is empty"
+msgstr ""
+
 msgid "Tick size"
 msgstr ""
 
@@ -2463,6 +2532,9 @@ msgid "Balances"
 msgstr ""
 
 msgid "Fee info"
+msgstr ""
+
+msgid "Secret"
 msgstr ""
 
 msgid "Maker fee"
@@ -2501,6 +2573,24 @@ msgstr ""
 msgid "Current margin"
 msgstr ""
 
+msgid "Unknown error while connect"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Gateway endpoint"
+msgstr ""
+
+msgid "Access Token"
+msgstr ""
+
+msgid "Access token is not valid combination is not valid."
+msgstr ""
+
+msgid "Invalid client key"
+msgstr ""
+
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr ""
 
@@ -2514,6 +2604,9 @@ msgid "Realized P/L"
 msgstr ""
 
 msgid "Fee"
+msgstr ""
+
+msgid "Provides simulated data, allowing to test platform’s functionality"
 msgstr ""
 
 msgid "Maximal deviation from mid price"

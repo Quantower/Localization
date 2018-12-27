@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2018-12-26 13:15+0200\n"
+"POT-Creation-Date: 2018-12-27 12:42+0200\n"
 "PO-Revision-Date: 2018-12-04 16:03+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -168,6 +168,12 @@ msgstr "Користувач"
 
 msgid "Password"
 msgstr "Пароль"
+
+msgid "Demo"
+msgstr "Демо"
+
+msgid "Real"
+msgstr "Реальні"
 
 #, csharp-format
 msgid "Data series #{0}"
@@ -1929,6 +1935,9 @@ msgstr "Відключено"
 msgid "Save password"
 msgstr "Зберегти пароль"
 
+msgid "Recover"
+msgstr "Відновити"
+
 msgid "Select symbol"
 msgstr "Виберіть символ"
 
@@ -2060,6 +2069,24 @@ msgstr "Торгова інформація"
 msgid "Status"
 msgstr "Статус"
 
+msgid "History Server URL"
+msgstr "URL-адреса сервера журналу"
+
+msgid "API key"
+msgstr "Ключ API"
+
+msgid "Secret key"
+msgstr "Секретний ключ"
+
+msgid "Network does not available"
+msgstr "Мережа недоступна"
+
+msgid "API key is empty"
+msgstr "Ключ API пустий"
+
+msgid "Secret key is empty"
+msgstr "Секретний ключ пустий"
+
 msgid "Orders"
 msgstr "Ордера"
 
@@ -2074,6 +2101,12 @@ msgstr "Мінімальний умовний"
 
 msgid "Iceberg allowed"
 msgstr "Айсберг дозволено"
+
+msgid "Market data connection. Trading coming soon."
+msgstr "Підключення до ринкових даних. Торгівля найближчим часом."
+
+msgid "Can't connect via socket"
+msgstr "Не вдається підключитися через розетку"
 
 msgid "Allow margin trading"
 msgstr "Дозволити торгівлі полями"
@@ -2110,6 +2143,9 @@ msgstr "Ф'ючерси"
 
 msgid "Unknown"
 msgstr "Невідомий"
+
+msgid "Connecting was cancelled"
+msgstr "Підключення було скасовано"
 
 msgid "Equity"
 msgstr "Власний капітал"
@@ -2246,6 +2282,12 @@ msgstr "Вступний рівень маржі"
 msgid "Limitation margin level"
 msgstr "Граничний рівень маржі"
 
+msgid "Token"
+msgstr "Маркер"
+
+msgid "Access token is empty."
+msgstr "Маркер доступу пустий."
+
 msgid "Currencies"
 msgstr "Валюти"
 
@@ -2264,6 +2306,9 @@ msgstr "Акції"
 msgid "Bullions"
 msgstr "Збитки"
 
+msgid "Can't find connection parameters"
+msgstr "Не вдалося знайти параметри підключення"
+
 msgid "Take liquidity rate"
 msgstr "Рівень ліквідності"
 
@@ -2272,6 +2317,18 @@ msgstr "Забезпечити рівень ліквідності"
 
 msgid "Fee currency"
 msgstr "Валюта платежу"
+
+msgid "IQFeed connection manager path"
+msgstr "Iігfeed підключення менеджера шляху"
+
+msgid "Login is empty"
+msgstr "Логін пустий"
+
+msgid "Password is empty"
+msgstr "Пароль пустий"
+
+msgid "Wrong connection configuration"
+msgstr "Неправильна конфігурація підключення"
 
 msgid "Margin call"
 msgstr "Маржа виклику"
@@ -2299,6 +2356,15 @@ msgstr "Інформація про сеанс"
 
 msgid "Today results"
 msgstr "Сьогодні результати"
+
+msgid "Data source type"
+msgstr "Тип джерела даних"
+
+msgid "User is empty."
+msgstr "Користувач пустий."
+
+msgid "Password is empty."
+msgstr "Пароль пустий."
 
 msgid "Available to trade"
 msgstr "Доступно для торгівлі"
@@ -2417,6 +2483,9 @@ msgstr "Фінансування"
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr "Фінансування сплачується / стягується за відкриті позиції в Рахунку"
 
+msgid "Token is empty"
+msgstr "Маркер пустий"
+
 msgid "Tick size"
 msgstr "Розмір тіку"
 
@@ -2441,6 +2510,9 @@ msgstr "Залишки"
 
 msgid "Fee info"
 msgstr "Інформація про оплату"
+
+msgid "Secret"
+msgstr "Секретний"
 
 msgid "Maker fee"
 msgstr "Чайник плата"
@@ -2478,6 +2550,24 @@ msgstr "Всього запозичене значення"
 msgid "Current margin"
 msgstr "Поточне поле"
 
+msgid "Unknown error while connect"
+msgstr "Невідома помилка під час підключення"
+
+msgid "Login"
+msgstr "Логін"
+
+msgid "Gateway endpoint"
+msgstr "Кінцева точка шлюзу"
+
+msgid "Access Token"
+msgstr "Маркер доступу"
+
+msgid "Access token is not valid combination is not valid."
+msgstr "Неприпустима комбінація маркера доступу."
+
+msgid "Invalid client key"
+msgstr "Неприпустимий ключ клієнта"
+
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "Власний капітал."
 
@@ -2492,6 +2582,9 @@ msgstr "Realize PnL"
 
 msgid "Fee"
 msgstr "Комісія"
+
+msgid "Provides simulated data, allowing to test platform’s functionality"
+msgstr "Забезпечує змодельовані дані, що дозволяють перевірити функціональність платформи"
 
 msgid "Maximal deviation from mid price"
 msgstr "Максимальне відхилення від середньої ціни"

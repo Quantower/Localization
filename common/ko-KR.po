@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2018-12-26 13:15+0200\n"
+"POT-Creation-Date: 2018-12-27 12:42+0200\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -168,6 +168,12 @@ msgstr "사용자"
 
 msgid "Password"
 msgstr "암호"
+
+msgid "Demo"
+msgstr "데모"
+
+msgid "Real"
+msgstr "진짜"
 
 #, csharp-format
 msgid "Data series #{0}"
@@ -1929,6 +1935,9 @@ msgstr "연결이 끊어짐"
 msgid "Save password"
 msgstr "암호 저장"
 
+msgid "Recover"
+msgstr "복구"
+
 msgid "Select symbol"
 msgstr "기호 선택"
 
@@ -2060,6 +2069,24 @@ msgstr "거래 정보"
 msgid "Status"
 msgstr "지위"
 
+msgid "History Server URL"
+msgstr "히스토리 서버 URL"
+
+msgid "API key"
+msgstr "API 키"
+
+msgid "Secret key"
+msgstr "비밀 키"
+
+msgid "Network does not available"
+msgstr "네트워크를 사용할 수 없음"
+
+msgid "API key is empty"
+msgstr "API 키가 비어 있습니다."
+
+msgid "Secret key is empty"
+msgstr "비밀 키가 비어 있습니다."
+
 msgid "Orders"
 msgstr "주문"
 
@@ -2074,6 +2101,12 @@ msgstr "명목상의 최소값"
 
 msgid "Iceberg allowed"
 msgstr "빙산 허용"
+
+msgid "Market data connection. Trading coming soon."
+msgstr "시장 데이터 연결. 거래는 곧 온다."
+
+msgid "Can't connect via socket"
+msgstr "소켓을 통해 연결할 수 없음"
 
 msgid "Allow margin trading"
 msgstr "마진 트레이딩 허용"
@@ -2110,6 +2143,9 @@ msgstr "선물"
 
 msgid "Unknown"
 msgstr "알려지지 않은"
+
+msgid "Connecting was cancelled"
+msgstr "연결이 취소 되었습니다."
 
 msgid "Equity"
 msgstr "공평"
@@ -2246,6 +2282,12 @@ msgstr "엔트리 마진 레벨"
 msgid "Limitation margin level"
 msgstr "한계 여백 수준"
 
+msgid "Token"
+msgstr "토큰"
+
+msgid "Access token is empty."
+msgstr "액세스 토큰이 비어 있습니다."
+
 msgid "Currencies"
 msgstr "통화"
 
@@ -2264,6 +2306,9 @@ msgstr "주식"
 msgid "Bullions"
 msgstr "덩어리"
 
+msgid "Can't find connection parameters"
+msgstr "연결 매개 변수를 찾을 수 없습니다."
+
 msgid "Take liquidity rate"
 msgstr "유동성 비율을가지고 가십시오"
 
@@ -2272,6 +2317,18 @@ msgstr "유동성 비율을 제공 하십시오"
 
 msgid "Fee currency"
 msgstr "요금 통화"
+
+msgid "IQFeed connection manager path"
+msgstr "이 크 피드 연결 관리자 경로"
+
+msgid "Login is empty"
+msgstr "로그인이 비어 있습니다."
+
+msgid "Password is empty"
+msgstr "암호가 비어 있습니다."
+
+msgid "Wrong connection configuration"
+msgstr "잘못 된 연결 구성"
 
 msgid "Margin call"
 msgstr "마진 콜"
@@ -2299,6 +2356,15 @@ msgstr "세션 정보"
 
 msgid "Today results"
 msgstr "오늘 결과"
+
+msgid "Data source type"
+msgstr "데이터 원본 유형"
+
+msgid "User is empty."
+msgstr "사용자가 비어 있습니다."
+
+msgid "Password is empty."
+msgstr "암호가 비어 있습니다."
 
 msgid "Available to trade"
 msgstr "거래 가능"
@@ -2417,6 +2483,9 @@ msgstr "파이낸싱"
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr "Financing은 계정의 미결제에 대해 지불 / 부과됩니다."
 
+msgid "Token is empty"
+msgstr "토큰이 비어 있습니다."
+
 msgid "Tick size"
 msgstr "눈금 크기"
 
@@ -2441,6 +2510,9 @@ msgstr "균형"
 
 msgid "Fee info"
 msgstr "요금 정보"
+
+msgid "Secret"
+msgstr "비밀"
 
 msgid "Maker fee"
 msgstr "메이커 요금"
@@ -2478,6 +2550,24 @@ msgstr "총 차용한 값"
 msgid "Current margin"
 msgstr "현재증거금"
 
+msgid "Unknown error while connect"
+msgstr "연결 하는 동안 알 수 없는 오류"
+
+msgid "Login"
+msgstr "로그인"
+
+msgid "Gateway endpoint"
+msgstr "게이트웨이 엔드포인트"
+
+msgid "Access Token"
+msgstr "액세스 토큰"
+
+msgid "Access token is not valid combination is not valid."
+msgstr "액세스 토큰이 잘못 된 조합이 잘못 되었습니다."
+
+msgid "Invalid client key"
+msgstr "잘못 된 클라이언트 키"
+
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "공평."
 
@@ -2492,6 +2582,9 @@ msgstr "실현이익"
 
 msgid "Fee"
 msgstr "수수료"
+
+msgid "Provides simulated data, allowing to test platform’s functionality"
+msgstr "시뮬레이션 된 데이터를 제공 하 여 플랫폼의 기능을 테스트할 수 있습니다."
 
 msgid "Maximal deviation from mid price"
 msgstr "중간 가격에서 최대 편차"
