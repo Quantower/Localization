@@ -173,7 +173,7 @@ msgid "Demo"
 msgstr "Демо"
 
 msgid "Real"
-msgstr "Реальные данные"
+msgstr "Реал"
 
 #, csharp-format
 msgid "Data series #{0}"
@@ -370,19 +370,19 @@ msgid "Templates"
 msgstr "Шаблоны"
 
 msgid "Analytics"
-msgstr "Аналитики"
+msgstr "Аналитические"
 
 msgid "Trading"
-msgstr "Торговля"
+msgstr "Торговые"
 
 msgid "Portfolio"
 msgstr "Портфолио"
 
 msgid "Informational"
-msgstr "Информационных"
+msgstr "Информационные"
 
 msgid "Misc"
-msgstr "Разное"
+msgstr "Прочие"
 
 msgid "Hidden"
 msgstr "Скрыть"
@@ -705,7 +705,7 @@ msgstr "Гистограмма"
 
 #, csharp-format
 msgid "Enable {0} view"
-msgstr "Включить {0} отображение"
+msgstr "Включить {0}"
 
 msgid "Data type #1"
 msgstr "Тип данных #1"
@@ -1269,7 +1269,7 @@ msgstr "Нет данных для отображения на графике"
 
 #, csharp-format
 msgid "Please check your connection{0} or symbol availability"
-msgstr "Проверьте подключение {0} или наличие символа"
+msgstr "Проверьте наличие подключения {0} или символа"
 
 msgid "Window colors"
 msgstr "Цвет окна"
@@ -1535,7 +1535,7 @@ msgid "No data to display"
 msgstr "Нет данных для отображения"
 
 msgid "Please check your connection or symbol availability"
-msgstr "Проверьте наличие соединения или символа."
+msgstr "Проверьте наличие подключения или символа."
 
 msgid "Table"
 msgstr "Таблица"
@@ -1881,7 +1881,7 @@ msgid "Add task"
 msgstr "Добавить задачу"
 
 msgid "No tasks yet. "
-msgstr "Задач еще нет."
+msgstr "Нет задач"
 
 #, csharp-format
 msgid "Add new '{0}' condition"
@@ -1989,7 +1989,7 @@ msgid "Control center"
 msgstr "Центр управления"
 
 msgid "Trading defaults"
-msgstr "Торговые"
+msgstr "Торговые настройки по умолчанию"
 
 msgid "Confirmations & Warnings"
 msgstr "Подтверждения"
@@ -1998,7 +1998,7 @@ msgid "Mail server"
 msgstr "Почтовый сервер"
 
 msgid "Synthetic"
-msgstr "Портфолио"
+msgstr "Синтетики"
 
 msgid "Licence settings"
 msgstr "Настройки лицензии"
@@ -2031,7 +2031,7 @@ msgid "Autosave settings (every 5 minutes)"
 msgstr "Автосохранение (каждые 5 минут)"
 
 msgid "Display quantity in lots"
-msgstr "Отображать объем в лотах"
+msgstr "Показывать объем в лотах"
 
 msgid "Abbreviate volume & ticks"
 msgstr "Сокращение объема и тиков"
@@ -2061,7 +2061,7 @@ msgid "Warn if close TSL with active strategies"
 msgstr "При закрытии Торговых систем с активными стратегиями"
 
 msgid "Warn if order quantity exceeds"
-msgstr "Если объем ордера выше"
+msgstr "Предупреждать если объем ордера превышен"
 
 msgid "Show deal tickets"
 msgstr "Показывать торговые уведомления"
@@ -2097,10 +2097,10 @@ msgid "Network does not available"
 msgstr "Сеть не доступна"
 
 msgid "API key is empty"
-msgstr "Ключ API пуст"
+msgstr "Ключ API не указан"
 
 msgid "Secret key is empty"
-msgstr "Секретный ключ пуст"
+msgstr "Секретный ключ не указан"
 
 msgid "Orders"
 msgstr "Ордера"
@@ -2118,10 +2118,10 @@ msgid "Iceberg allowed"
 msgstr "Айсберг разрешен"
 
 msgid "Market data connection. Trading coming soon."
-msgstr "Подключение к рыночным данным. Торги скоро."
+msgstr "Подключение к рыночным данным. Торговля не доступна."
 
 msgid "Can't connect via socket"
-msgstr "Не удается подключиться через гнездо"
+msgstr "Не удается подключиться через сокет"
 
 msgid "Allow margin trading"
 msgstr "Разрешить маржинальную торговлю"
@@ -2298,10 +2298,10 @@ msgid "Limitation margin level"
 msgstr "Уровень предельной маржи"
 
 msgid "Token"
-msgstr "Маркер"
+msgstr "Токен"
 
 msgid "Access token is empty."
-msgstr "Маркер доступа пуст."
+msgstr "Токен доступа не указан"
 
 msgid "Currencies"
 msgstr "Валюты"
@@ -2334,13 +2334,13 @@ msgid "Fee currency"
 msgstr "Валюта комиссии"
 
 msgid "IQFeed connection manager path"
-msgstr "Путь к диспетчеру соединений IQFeed"
+msgstr "Путь к менеджеру подключений IQFeed"
 
 msgid "Login is empty"
-msgstr "Логин пуст"
+msgstr "Логин не указан"
 
 msgid "Password is empty"
-msgstr "Пароль пуст"
+msgstr "Пароль не указан"
 
 msgid "Wrong connection configuration"
 msgstr "Неправильная конфигурация подключения"
@@ -2376,10 +2376,10 @@ msgid "Data source type"
 msgstr "Тип источника данных"
 
 msgid "User is empty."
-msgstr "Пользователь пуст."
+msgstr "Пользователь не указан"
 
 msgid "Password is empty."
-msgstr "Пароль пуст."
+msgstr "Пароль не указан"
 
 msgid "Available to trade"
 msgstr "Доступно для торговли"
@@ -2499,7 +2499,7 @@ msgid "Financing is paid/charged for open positions in the Account"
 msgstr "Финансирование оплачивается/списывается за открытые позиции на счете"
 
 msgid "Token is empty"
-msgstr "Токен пуст"
+msgstr "Токен не указан"
 
 msgid "Tick size"
 msgstr "Размер тика"
@@ -2566,7 +2566,7 @@ msgid "Current margin"
 msgstr "Текущая маржа"
 
 msgid "Unknown error while connect"
-msgstr "НеИзвестная ошибка при подключении"
+msgstr "Неизвестная ошибка подключения"
 
 msgid "Login"
 msgstr "Логин"
@@ -2575,10 +2575,10 @@ msgid "Gateway endpoint"
 msgstr "Конечная точка шлюза"
 
 msgid "Access Token"
-msgstr "Маркер доступа"
+msgstr "Токен доступа"
 
 msgid "Access token is not valid combination is not valid."
-msgstr "Недопустимое сочетание токена доступа."
+msgstr "Токен доступа недействителен"
 
 msgid "Invalid client key"
 msgstr "Неверный ключ клиента"
@@ -2599,7 +2599,7 @@ msgid "Fee"
 msgstr "Комиссия"
 
 msgid "Provides simulated data, allowing to test platform’s functionality"
-msgstr "Предоставляет смоделированные данные, позволяющие тестировать функциональность платформы"
+msgstr "Предоставляет смоделированные данные, для тестирования функционала платформы"
 
 msgid "Maximal deviation from mid price"
 msgstr "Максимальное отклонение от средней цены"
