@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-01-16 14:34+0200\n"
+"POT-Creation-Date: 2019-03-04 18:38+0200\n"
 "PO-Revision-Date: 2018-12-04 16:03+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -130,6 +130,12 @@ msgstr "Одну позицію"
 msgid "Undefined"
 msgstr "Невизначено"
 
+msgid "Aggressor flag"
+msgstr "Прапор агресора"
+
+msgid "Tick direction"
+msgstr "Відзначте напрямок"
+
 msgid "Box size"
 msgstr "Розмір поля"
 
@@ -138,6 +144,12 @@ msgstr "Розвороту"
 
 msgid "Style"
 msgstr "Стиль"
+
+msgid "Classic"
+msgstr "Класичний"
+
+msgid "High/Low"
+msgstr "Високий/Низький"
 
 msgid "ticks"
 msgstr "кліщі"
@@ -202,6 +214,12 @@ msgstr "Даш точка"
 msgid "Histogramm"
 msgstr "Гістограма"
 
+msgid "Default"
+msgstr "За промовчанням"
+
+msgid "Custom"
+msgstr "Користувача"
+
 msgid "Input parameters"
 msgstr "Вхідні параметри"
 
@@ -241,11 +259,29 @@ msgstr "Ставка / Запит середній"
 msgid "Last"
 msgstr "Останній"
 
+msgid "Bid/Ask"
+msgstr "Пропозиція / Запит"
+
 msgid "Exception"
 msgstr "Коментувати"
 
 msgid "None"
 msgstr "Немає"
+
+msgid "Buy"
+msgstr "Купити"
+
+msgid "Sell"
+msgstr "Продати"
+
+msgid "Not set"
+msgstr "Не встановлено"
+
+msgid "Up"
+msgstr "Вгору"
+
+msgid "Down"
+msgstr "Вниз"
 
 msgid "Compare to previous"
 msgstr "Порівняти з попереднім"
@@ -661,12 +697,6 @@ msgstr "Підпис значення"
 msgid "Periods"
 msgstr "Періоди"
 
-msgid "Buy"
-msgstr "Купити"
-
-msgid "Sell"
-msgstr "Продати"
-
 msgid "Step period"
 msgstr "Крок період"
 
@@ -749,20 +779,26 @@ msgstr "Настроюваний крок (кліщі)"
 msgid "Delta calculation type"
 msgstr "Тип обчислення \"Дельта\""
 
-msgid "Aggressor flag"
-msgstr "Прапор агресора"
-
-msgid "Tick direction"
-msgstr "Відзначте напрямок"
-
-msgid "Default"
-msgstr "За промовчанням"
-
 msgid "Histogram position"
 msgstr "Положення гістограми"
 
 msgid "Histogram label position"
 msgstr "Позиція етикетки на гістограмі"
+
+msgid "Show Value area"
+msgstr "Показати область значень"
+
+msgid "Value area height, %"
+msgstr "Висота площі значення,%"
+
+msgid "Value area color"
+msgstr "Колір області значень"
+
+msgid "Show Value area borders"
+msgstr "Відображати межі області значень"
+
+msgid "Show POC ray"
+msgstr "Показати POC Ray"
 
 msgid "Trade color"
 msgstr "Торговий колір"
@@ -779,6 +815,9 @@ msgstr "Видимість"
 msgid "PrevSettlement"
 msgstr "Прерозрахункове"
 
+msgid "Price limit"
+msgstr "Ціна обмеження"
+
 msgid "Highlight prices"
 msgstr "Виділіть ціни"
 
@@ -788,11 +827,8 @@ msgstr "День високий / низький"
 msgid "Previous close"
 msgstr "Попередня близька"
 
-msgid "Up"
-msgstr "Вгору"
-
-msgid "Down"
-msgstr "Вниз"
+msgid "Price limits"
+msgstr "Ціна межі"
 
 msgid "Body color"
 msgstr "Колір кузова"
@@ -917,8 +953,14 @@ msgstr "Параметри рівня"
 msgid "Fibonacci levels"
 msgstr "Рівні Фібоначчі"
 
+msgid "Show total"
+msgstr "Показати підсумок"
+
 msgid "Profile controllers style"
 msgstr "Стиль контролерів профілів"
+
+msgid "Selection area"
+msgstr "Область виділення"
 
 msgid "Show full arc"
 msgstr "Показати повну дугу"
@@ -1190,21 +1232,6 @@ msgstr "Кутові лінії"
 msgid "Invalid price"
 msgstr "Недійсна ціна"
 
-msgid "LMT"
-msgstr "LMT"
-
-msgid "STP"
-msgstr "STP"
-
-msgid "Tr-S"
-msgstr "Тр-С"
-
-msgid "STL"
-msgstr "Stl"
-
-msgid "MKT"
-msgstr "МКТ"
-
 #, csharp-format
 msgid "TP price: {0}"
 msgstr "Ціна ТП: {0}"
@@ -1218,6 +1245,16 @@ msgstr "Ціна SL"
 #, csharp-format
 msgid "{0} TP price: {1}"
 msgstr "{0} ціна TP: {1}"
+
+msgid "VA"
+msgstr "Вірджинія"
+
+msgid "POC ray"
+msgstr "POC Ray"
+
+#, csharp-format
+msgid "{0} ticks"
+msgstr "{0} поділок"
 
 msgid "Overlay"
 msgstr "Накладання"
@@ -1379,8 +1416,8 @@ msgstr "Видалити вибране"
 msgid "Volume Analysis"
 msgstr "Об'ємний аналіз"
 
-msgid "Toolbar"
-msgstr "Панелі інструментів"
+msgid "Show toolbar"
+msgstr "Показати панель інструментів"
 
 msgid "Step Profile"
 msgstr "Покроковий профіль"
@@ -1406,14 +1443,17 @@ msgstr "Користувацький профіль"
 msgid "Day high/low"
 msgstr "День високий / низький"
 
+msgid "Price range"
+msgstr "Ціновому діапазоні"
+
 msgid "Grid time"
 msgstr "Час сітки"
 
 msgid "Grid price"
 msgstr "Сітка ціна"
 
-msgid "Show toolbar"
-msgstr "Показати панель інструментів"
+msgid "Toolbar"
+msgstr "Панелі інструментів"
 
 msgid "Refresh"
 msgstr "Оновити"
@@ -1428,18 +1468,9 @@ msgstr "Модифікація вплине на закриття позиції
 msgid "Are you sure you want to execute order at market price?"
 msgstr "Ви впевнені, що хочете виконати ордер за ринковою ціною?"
 
-msgid "Default by symbol (Last)"
-msgstr "За замовчуванням символ (Ласт)"
-
-msgid "Default by symbol (Bid/Ask)"
-msgstr "За замовчуванням символ (Бід/Аск)"
-
 #, csharp-format
 msgid "Default by symbol ({0})"
 msgstr "За замовчуванням символ ({0})"
-
-msgid "Bid/Ask"
-msgstr "Пропозиція / Запит"
 
 msgid "1 hour"
 msgstr "1 година"
@@ -1880,6 +1911,9 @@ msgstr "Видалити завдання"
 msgid "Add new task"
 msgstr "Додати нове завдання"
 
+msgid "To to"
+msgstr "Для того, щоб"
+
 msgid "Collapse tasks"
 msgstr "Згорнути задачі"
 
@@ -1905,17 +1939,23 @@ msgstr "Додати \\"
 msgid "OR"
 msgstr "АБО"
 
+msgid "Conditions"
+msgstr "Умови"
+
 msgid "Collapse conditions"
 msgstr "Згорнути умови"
 
 msgid "Add condition"
 msgstr "Додати умову"
 
+msgid "No conditions yet."
+msgstr "Немає умов."
+
 msgid "Enable filtering"
 msgstr "Увімкнути фільтрування"
 
-msgid "none"
-msgstr "ніхто"
+msgid "Action name"
+msgstr "Ім'я дії"
 
 msgid "Enable action"
 msgstr "Увімкнути дію"
@@ -2075,6 +2115,18 @@ msgstr "Показати авіаквитки"
 msgid "Confirm hotbutton action"
 msgstr "Підтвердіть дію hotbutton"
 
+msgid "Network does not available"
+msgstr "Мережа недоступна"
+
+msgid "Login is empty"
+msgstr "Логін пустий"
+
+msgid "Password is empty"
+msgstr "Пароль пустий"
+
+msgid "Incorrect Login or Password"
+msgstr "Неправильний Логін або пароль"
+
 msgid "Margin"
 msgstr "Маржа"
 
@@ -2098,9 +2150,6 @@ msgstr "Ключ API"
 
 msgid "Secret key"
 msgstr "Секретний ключ"
-
-msgid "Network does not available"
-msgstr "Мережа недоступна"
 
 msgid "API key is empty"
 msgstr "Ключ API пустий"
@@ -2339,14 +2388,146 @@ msgstr "Забезпечити рівень ліквідності"
 msgid "Fee currency"
 msgstr "Валюта платежу"
 
+msgid "Trader Workstation"
+msgstr "Трейдер робочої станції"
+
+msgid "IB Gateway"
+msgstr "Шлюз IB"
+
+msgid "Host"
+msgstr "Приймаючої"
+
+msgid "Connection port type"
+msgstr "Тип порту підключення"
+
+msgid "Custom port value"
+msgstr "Настроюване значення порту"
+
+msgid "Net liquidation value"
+msgstr "Чиста ліквідаційна вартість"
+
+msgid "The basis for determining the price of the assets in your account. Total cash value + stock value + options value + bond value"
+msgstr "Підставою для визначення ціни на активи на вашому рахунку. Загальна вартість грошової вартості + вартість опціонів + значення параметра + значення облігацій"
+
+msgid "Net liquidation value uncertainty"
+msgstr "Непевність ліквідаційної цінності"
+
+msgid "Equity with loan"
+msgstr "Строгий з позикою"
+
+msgid "Forms the basis for determining whether a client has the necessary assets to either initiate or maintain security positions. Cash + stocks + bonds + mutual funds"
+msgstr "Формує основу для визначення того, чи клієнт має необхідні активи або ініціювати або підтримувати безпені позиції. Готівкові + акції + облігації + взаємні фонди"
+
+msgid "Prev. day equity with loan"
+msgstr "Попередня. день справедливості з кредитом"
+
+msgid "Reg T equity with loan"
+msgstr "Рег Т акції з кредитом"
+
+msgid "Regulation T equity for universal account"
+msgstr "Положення та справедливість для універсального рахунку"
+
+msgid "Security gross position value"
+msgstr "Значення безпеки брутто позиція"
+
+msgid "The sum of the absolute value of all stock and equity option positions"
+msgstr "Сума абсолютної вартості всіх позицій акцій і опціонів"
+
+msgid "Cash"
+msgstr "Готівкою"
+
+msgid "Total cash balance recognized at the time of trade + futures PNL"
+msgstr "Загальний баланс готівки визнається на момент торгівлі + ф'ючерсний PNL"
+
+msgid "Available  funds"
+msgstr "Наявні кошти"
+
+msgid "This value tells what you have available for trading"
+msgstr "Це значення говорить, що у вас є для торгівлі"
+
+msgid "Excess liquidity"
+msgstr "Надмірна ліквідність"
+
+msgid "This value shows your margin cushion, before liquidation"
+msgstr "Це значення показує ваше поле подушки, перш ніж ліквідація"
+
+msgid "Post-expiry excess (predicted)"
+msgstr "Перевищення терміну дії (передбачене)"
+
+msgid "Special memorandum account"
+msgstr "Спеціальний обліковий запис Меморандуму"
+
+msgid "Look ahead available funds"
+msgstr "Дивитися вперед доступні кошти"
+
+msgid "This value reflects your available funds at the next margin change"
+msgstr "Це значення відображає наявні кошти на наступній зміні поля"
+
+msgid "Look ahead excess liquidity"
+msgstr "Дивитися вперед надлишкової ліквідності"
+
+msgid "This value reflects your excess liquidity at the next margin change"
+msgstr "Це значення відображає зайву ліквідність при наступному зміні різниці"
+
+msgid "Buying power"
+msgstr "Купівельна енергетика"
+
+msgid "Buying power serves as a measurement of the dollar value of securities that one may purchase in a securities account without depositing additional funds"
+msgstr "Купівля електроенергії служить вимірюванням вартості доларових цінних паперів, які можна придбати на рахунку в цінних паперах без внесення додаткових коштів"
+
+msgid "Securities leverage"
+msgstr "Важелі цінних паперів"
+
+msgid "GrossPositionValue / NetLiquidation"
+msgstr "Значення або Неліквідація"
+
+msgid "Look ahead next change"
+msgstr "Дивитися вперед наступна зміна"
+
+msgid "Time when look-ahead values take effect"
+msgstr "Час, коли значення, що випереджають, мають ефект"
+
+msgid "Day trades left (T..T+4)"
+msgstr "День торгів лівий (T.. T + 4)"
+
+msgid "The Number of Open/Close trades a user could put on before Pattern Day Trading is detected. A value of \"-1\" means that the user can put on unlimited day trades."
+msgstr "Кількість відкритих/близьких торгів користувач може покласти на до шаблону торгового дня виявлено. Значення \"-1\" означає, що користувач може поставити на необмежений день торгів."
+
+msgid "Month to date interest"
+msgstr "Місяць на сьогоднішній день відсотки"
+
+msgid "Total accrued cash value of stock, commodities and securities"
+msgstr "Загальна сума нарахованої грошової вартості акцій, товарів та цінних паперів"
+
+msgid "Accrued dividends"
+msgstr "Нараховані дивіденди"
+
+msgid "Initial Margin requirement of whole portfolio"
+msgstr "Початкова вимога на маржі всього портфеля"
+
+msgid "Maintenance margin"
+msgstr "Обслуговування маржі"
+
+msgid "Maintenance Margin requirement of whole portfolio"
+msgstr "Обслуговування маржа вимога всього портфеля"
+
+msgid "Reg T margin"
+msgstr "Поле \"T\""
+
+msgid "Regulation T margin for universal account"
+msgstr "Положення та поля для універсального облікового запису"
+
+msgid "Post-expiry margin (predicted)"
+msgstr "Поле після закінчення строку (передбачене)"
+
+msgid "Pending debit card charges"
+msgstr "Відкладені платежі дебетової картки"
+
+msgid "Identifies the IB account structure"
+msgstr "Визначає структуру облікового запису IB"
+
 msgid "IQFeed connection manager path"
 msgstr "Iігfeed підключення менеджера шляху"
-
-msgid "Login is empty"
-msgstr "Логін пустий"
-
-msgid "Password is empty"
-msgstr "Пароль пустий"
 
 msgid "Wrong connection configuration"
 msgstr "Неправильна конфігурація підключення"
@@ -2504,6 +2685,9 @@ msgstr "Фінансування"
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr "Фінансування сплачується / стягується за відкриті позиції в Рахунку"
 
+msgid "Smooth candlesticks"
+msgstr "Підсвічники гладкі"
+
 msgid "Token is empty"
 msgstr "Маркер пустий"
 
@@ -2525,6 +2709,12 @@ msgstr "Мінімальна комісія"
 
 msgid "Bonds"
 msgstr "Облігації"
+
+msgid "Deposit"
+msgstr "Депозит"
+
+msgid "Widthrawal"
+msgstr "Widthrawal"
 
 msgid "Balances"
 msgstr "Залишки"
@@ -2607,5 +2797,59 @@ msgstr "Комісія"
 msgid "Provides simulated data, allowing to test platform’s functionality"
 msgstr "Забезпечує змодельовані дані, що дозволяють перевірити функціональність платформи"
 
+msgid "Spot"
+msgstr "Місце"
+
+msgid "Index"
+msgstr "Індекс"
+
+msgid "Xena Listed Perpetuals"
+msgstr "Xena перераховані, що закріплює"
+
+msgid "Positions and orders"
+msgstr "Позиції і накази"
+
 msgid "Maximal deviation from mid price"
 msgstr "Максимальне відхилення від середньої ціни"
+
+msgid "Settlement currency"
+msgstr "Валюта розрахунку"
+
+msgid "Max position volume"
+msgstr "Максимальний обсяг позиції"
+
+msgid "Contract value"
+msgstr "Контрактне значення"
+
+msgid "Contract currency"
+msgstr "Контрактна валюта"
+
+msgid "Netting"
+msgstr "Сітка"
+
+msgid "Rates:"
+msgstr "Ставки:"
+
+msgid "Distance"
+msgstr "Відстань"
+
+msgid "Moving boundary"
+msgstr "Рухомої межі"
+
+msgid "Moving time"
+msgstr "Час переміщення"
+
+msgid "Low index"
+msgstr "Низький індекс"
+
+msgid "High index"
+msgstr "Високий індекс"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Maint. margin"
+msgstr "Maint. Полі"
+
+msgid "Margin level"
+msgstr "Рівень маржі"

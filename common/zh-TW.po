@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-01-16 14:34+0200\n"
+"POT-Creation-Date: 2019-03-04 18:38+0200\n"
 "PO-Revision-Date: 2018-12-04 16:01+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -130,6 +130,12 @@ msgstr "一個位置"
 msgid "Undefined"
 msgstr "未定義"
 
+msgid "Aggressor flag"
+msgstr "侵略者旗子"
+
+msgid "Tick direction"
+msgstr "刻度方向"
+
 msgid "Box size"
 msgstr "盒子尺寸"
 
@@ -138,6 +144,12 @@ msgstr "逆轉"
 
 msgid "Style"
 msgstr "樣式"
+
+msgid "Classic"
+msgstr "傳統樣式"
+
+msgid "High/Low"
+msgstr "高低"
 
 msgid "ticks"
 msgstr "蜱"
@@ -202,6 +214,12 @@ msgstr "短劃線"
 msgid "Histogramm"
 msgstr "直方圖"
 
+msgid "Default"
+msgstr "預設"
+
+msgid "Custom"
+msgstr "自訂"
+
 msgid "Input parameters"
 msgstr "輸入參數"
 
@@ -241,11 +259,29 @@ msgstr "買賣均價"
 msgid "Last"
 msgstr "按交易"
 
+msgid "Bid/Ask"
+msgstr "買/賣"
+
 msgid "Exception"
 msgstr "異常"
 
 msgid "None"
 msgstr "沒有"
+
+msgid "Buy"
+msgstr "買入"
+
+msgid "Sell"
+msgstr "賣出"
+
+msgid "Not set"
+msgstr "未設置"
+
+msgid "Up"
+msgstr "上漲"
+
+msgid "Down"
+msgstr "下跌"
 
 msgid "Compare to previous"
 msgstr "與之前相比"
@@ -661,12 +697,6 @@ msgstr "值標籤"
 msgid "Periods"
 msgstr "週期"
 
-msgid "Buy"
-msgstr "買入"
-
-msgid "Sell"
-msgstr "賣出"
-
 msgid "Step period"
 msgstr "步驟期間"
 
@@ -749,20 +779,26 @@ msgstr "自訂步驟 (刻度)"
 msgid "Delta calculation type"
 msgstr "增量計算類型"
 
-msgid "Aggressor flag"
-msgstr "侵略者旗子"
-
-msgid "Tick direction"
-msgstr "刻度方向"
-
-msgid "Default"
-msgstr "預設"
-
 msgid "Histogram position"
 msgstr "長條圖位置"
 
 msgid "Histogram label position"
 msgstr "長條圖標籤位置"
+
+msgid "Show Value area"
+msgstr "顯示值區域"
+
+msgid "Value area height, %"
+msgstr "值區域高度,%"
+
+msgid "Value area color"
+msgstr "值區域顏色"
+
+msgid "Show Value area borders"
+msgstr "顯示 \"值\" 區域邊框"
+
+msgid "Show POC ray"
+msgstr "顯示 poc 射線"
 
 msgid "Trade color"
 msgstr "貿易顏色"
@@ -779,6 +815,9 @@ msgstr "可見"
 msgid "PrevSettlement"
 msgstr "解決方案"
 
+msgid "Price limit"
+msgstr "價格限制"
+
 msgid "Highlight prices"
 msgstr "高亮價格"
 
@@ -788,11 +827,8 @@ msgstr "日最高/最低"
 msgid "Previous close"
 msgstr "前收"
 
-msgid "Up"
-msgstr "上漲"
-
-msgid "Down"
-msgstr "下跌"
+msgid "Price limits"
+msgstr "價格限制"
 
 msgid "Body color"
 msgstr "車身顏色"
@@ -917,8 +953,14 @@ msgstr "等級選項"
 msgid "Fibonacci levels"
 msgstr "斐波那契水平"
 
+msgid "Show total"
+msgstr "顯示總量"
+
 msgid "Profile controllers style"
 msgstr "設定檔控制器樣式"
+
+msgid "Selection area"
+msgstr "選擇區域"
 
 msgid "Show full arc"
 msgstr "全部弧"
@@ -1190,21 +1232,6 @@ msgstr "角度線"
 msgid "Invalid price"
 msgstr "無效價格"
 
-msgid "LMT"
-msgstr "LMT"
-
-msgid "STP"
-msgstr "STP"
-
-msgid "Tr-S"
-msgstr "TR-S"
-
-msgid "STL"
-msgstr "Stl"
-
-msgid "MKT"
-msgstr "MKT"
-
 #, csharp-format
 msgid "TP price: {0}"
 msgstr "TP價格：{0}"
@@ -1218,6 +1245,16 @@ msgstr "停損"
 #, csharp-format
 msgid "{0} TP price: {1}"
 msgstr "{0} TP價格：{1}"
+
+msgid "VA"
+msgstr "Va"
+
+msgid "POC ray"
+msgstr "poc 射線"
+
+#, csharp-format
+msgid "{0} ticks"
+msgstr "{0} 刻度"
 
 msgid "Overlay"
 msgstr "覆蓋"
@@ -1379,8 +1416,8 @@ msgstr "刪除選定"
 msgid "Volume Analysis"
 msgstr "容積分析"
 
-msgid "Toolbar"
-msgstr "工具欄"
+msgid "Show toolbar"
+msgstr "顯示工具列"
 
 msgid "Step Profile"
 msgstr "步驟設定檔"
@@ -1406,14 +1443,17 @@ msgstr "自訂設定檔"
 msgid "Day high/low"
 msgstr "日最高/低"
 
+msgid "Price range"
+msgstr "價格範圍"
+
 msgid "Grid time"
 msgstr "時間格線"
 
 msgid "Grid price"
 msgstr "價格格線"
 
-msgid "Show toolbar"
-msgstr "顯示工具列"
+msgid "Toolbar"
+msgstr "工具欄"
 
 msgid "Refresh"
 msgstr "刷新"
@@ -1428,18 +1468,9 @@ msgstr "修改將影響頭寸平倉。"
 msgid "Are you sure you want to execute order at market price?"
 msgstr "你確定希望以市價執行此訂單嗎？"
 
-msgid "Default by symbol (Last)"
-msgstr "默認符號（最後）"
-
-msgid "Default by symbol (Bid/Ask)"
-msgstr "默認為符號（買/賣）"
-
 #, csharp-format
 msgid "Default by symbol ({0})"
 msgstr "默認為符號（{0}）"
-
-msgid "Bid/Ask"
-msgstr "買/賣"
 
 msgid "1 hour"
 msgstr "1小時"
@@ -1880,6 +1911,9 @@ msgstr "刪除任務"
 msgid "Add new task"
 msgstr "添加新任務"
 
+msgid "To to"
+msgstr "到"
+
 msgid "Collapse tasks"
 msgstr "折疊任務"
 
@@ -1905,17 +1939,23 @@ msgstr "添加'或'"
 msgid "OR"
 msgstr "或"
 
+msgid "Conditions"
+msgstr "條件"
+
 msgid "Collapse conditions"
 msgstr "崩潰的條件"
 
 msgid "Add condition"
 msgstr "新增條件"
 
+msgid "No conditions yet."
+msgstr "還沒有條件。"
+
 msgid "Enable filtering"
 msgstr "啟用過濾"
 
-msgid "none"
-msgstr "沒有"
+msgid "Action name"
+msgstr "動作名稱"
 
 msgid "Enable action"
 msgstr "啟用操作"
@@ -2075,6 +2115,18 @@ msgstr "顯示倉位詳情"
 msgid "Confirm hotbutton action"
 msgstr "確認熱鍵操作"
 
+msgid "Network does not available"
+msgstr "網路不可用"
+
+msgid "Login is empty"
+msgstr "登錄為空"
+
+msgid "Password is empty"
+msgstr "密碼為空"
+
+msgid "Incorrect Login or Password"
+msgstr "登錄或密碼不正確"
+
 msgid "Margin"
 msgstr "保證金"
 
@@ -2098,9 +2150,6 @@ msgstr "api 金鑰"
 
 msgid "Secret key"
 msgstr "秘密鑰匙"
-
-msgid "Network does not available"
-msgstr "網路不可用"
 
 msgid "API key is empty"
 msgstr "api 金鑰為空"
@@ -2339,14 +2388,146 @@ msgstr "提供流動資金率"
 msgid "Fee currency"
 msgstr "費用幣種"
 
+msgid "Trader Workstation"
+msgstr "交易者工作站"
+
+msgid "IB Gateway"
+msgstr "ib 閘道"
+
+msgid "Host"
+msgstr "主機"
+
+msgid "Connection port type"
+msgstr "連接埠類型"
+
+msgid "Custom port value"
+msgstr "自訂埠值"
+
+msgid "Net liquidation value"
+msgstr "淨清算價值"
+
+msgid "The basis for determining the price of the assets in your account. Total cash value + stock value + options value + bond value"
+msgstr "確定您帳戶中資產價格的基礎。總現金價值 + 股票價值 + 期權價值 + 債券價值"
+
+msgid "Net liquidation value uncertainty"
+msgstr "淨清算價值不確定性"
+
+msgid "Equity with loan"
+msgstr "有貸款的股權"
+
+msgid "Forms the basis for determining whether a client has the necessary assets to either initiate or maintain security positions. Cash + stocks + bonds + mutual funds"
+msgstr "形成確定用戶端是否具有啟動或維護安全職位所需資產的基礎。現金 + 股票 + 債券 + 共同基金"
+
+msgid "Prev. day equity with loan"
+msgstr "有貸款的前一天股權"
+
+msgid "Reg T equity with loan"
+msgstr "有貸款的註冊 t 股權"
+
+msgid "Regulation T equity for universal account"
+msgstr "通用帳戶的條例 t 權益"
+
+msgid "Security gross position value"
+msgstr "證券總倉位價值"
+
+msgid "The sum of the absolute value of all stock and equity option positions"
+msgstr "所有股票和股票期權頭寸絕對值之和"
+
+msgid "Cash"
+msgstr "現金"
+
+msgid "Total cash balance recognized at the time of trade + futures PNL"
+msgstr "交易 + 期貨 pnl 時確認的現金結餘總額"
+
+msgid "Available  funds"
+msgstr "可動用資金"
+
+msgid "This value tells what you have available for trading"
+msgstr "此值顯示您可用於交易的內容"
+
+msgid "Excess liquidity"
+msgstr "流動性過剩"
+
+msgid "This value shows your margin cushion, before liquidation"
+msgstr "此值顯示您的保證金緩衝, 在清算前"
+
+msgid "Post-expiry excess (predicted)"
+msgstr "到期後過剩 (預測)"
+
+msgid "Special memorandum account"
+msgstr "特別備忘錄帳戶"
+
+msgid "Look ahead available funds"
+msgstr "展望現有資金"
+
+msgid "This value reflects your available funds at the next margin change"
+msgstr "此值反映您在下一次保證金變動時的可用資金"
+
+msgid "Look ahead excess liquidity"
+msgstr "展望未來流動性過剩"
+
+msgid "This value reflects your excess liquidity at the next margin change"
+msgstr "此值反映了您在下一次保證金變動時的流動性過剩"
+
+msgid "Buying power"
+msgstr "購買電源"
+
+msgid "Buying power serves as a measurement of the dollar value of securities that one may purchase in a securities account without depositing additional funds"
+msgstr "購買權是衡量一個人可以在證券帳戶中購買的證券的美元價值的指標, 而無需存入額外資金"
+
+msgid "Securities leverage"
+msgstr "證券杠杆"
+
+msgid "GrossPositionValue / NetLiquidation"
+msgstr "價值/網路清算"
+
+msgid "Look ahead next change"
+msgstr "展望未來的變化"
+
+msgid "Time when look-ahead values take effect"
+msgstr "提前看值生效的時間"
+
+msgid "Day trades left (T..T+4)"
+msgstr "剩下的日間交易 (t。T+4)"
+
+msgid "The Number of Open/Close trades a user could put on before Pattern Day Trading is detected. A value of \"-1\" means that the user can put on unlimited day trades."
+msgstr "在檢測到模式日交易之前, 使用者可以進行的 open/關閉交易的數量。值為 \"-1\" 表示使用者可以進行無限制的日間交易。"
+
+msgid "Month to date interest"
+msgstr "到目前為止的月份利息"
+
+msgid "Total accrued cash value of stock, commodities and securities"
+msgstr "股票、商品和證券應計現金價值共計"
+
+msgid "Accrued dividends"
+msgstr "應計股息"
+
+msgid "Initial Margin requirement of whole portfolio"
+msgstr "整個投資組合的初始保證金要求"
+
+msgid "Maintenance margin"
+msgstr "維持保證金"
+
+msgid "Maintenance Margin requirement of whole portfolio"
+msgstr "整個投資組合的維持保證金要求"
+
+msgid "Reg T margin"
+msgstr "註冊 t 保證金"
+
+msgid "Regulation T margin for universal account"
+msgstr "通用帳戶的條例 t 保證金"
+
+msgid "Post-expiry margin (predicted)"
+msgstr "到期後保證金 (預測)"
+
+msgid "Pending debit card charges"
+msgstr "待付轉帳卡費用"
+
+msgid "Identifies the IB account structure"
+msgstr "標識 ib 帳戶結構"
+
 msgid "IQFeed connection manager path"
 msgstr "連線管理員路徑"
-
-msgid "Login is empty"
-msgstr "登錄為空"
-
-msgid "Password is empty"
-msgstr "密碼為空"
 
 msgid "Wrong connection configuration"
 msgstr "錯誤的連接配置"
@@ -2504,6 +2685,9 @@ msgstr "融資"
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr "賬戶中的未平倉頭寸支付/收取融資"
 
+msgid "Smooth candlesticks"
+msgstr "平滑的燭臺"
+
 msgid "Token is empty"
 msgstr "權杖為空"
 
@@ -2525,6 +2709,12 @@ msgstr "最小的委託"
 
 msgid "Bonds"
 msgstr "債券"
+
+msgid "Deposit"
+msgstr "入金"
+
+msgid "Widthrawal"
+msgstr "widthrawal"
 
 msgid "Balances"
 msgstr "平衡"
@@ -2607,5 +2797,59 @@ msgstr "費用"
 msgid "Provides simulated data, allowing to test platform’s functionality"
 msgstr "提供類比資料, 允許測試平臺的功能"
 
+msgid "Spot"
+msgstr "現貨"
+
+msgid "Index"
+msgstr "指數"
+
+msgid "Xena Listed Perpetuals"
+msgstr "xena 上市的永久"
+
+msgid "Positions and orders"
+msgstr "職位和訂單"
+
 msgid "Maximal deviation from mid price"
 msgstr "與中價的最大偏差"
+
+msgid "Settlement currency"
+msgstr "結算貨幣"
+
+msgid "Max position volume"
+msgstr "最大位置音量"
+
+msgid "Contract value"
+msgstr "合同價值"
+
+msgid "Contract currency"
+msgstr "合同貨幣"
+
+msgid "Netting"
+msgstr "網"
+
+msgid "Rates:"
+msgstr "率："
+
+msgid "Distance"
+msgstr "距離"
+
+msgid "Moving boundary"
+msgstr "移動邊界"
+
+msgid "Moving time"
+msgstr "移動時間"
+
+msgid "Low index"
+msgstr "低指數"
+
+msgid "High index"
+msgstr "高索引"
+
+msgid "Type"
+msgstr "類型"
+
+msgid "Maint. margin"
+msgstr "緬因州。邊緣"
+
+msgid "Margin level"
+msgstr "保證金水準"

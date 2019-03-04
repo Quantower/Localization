@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-01-16 14:34+0200\n"
+"POT-Creation-Date: 2019-03-04 18:38+0200\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -130,6 +130,12 @@ msgstr "한 위치"
 msgid "Undefined"
 msgstr "정의되지 않음"
 
+msgid "Aggressor flag"
+msgstr "침략자 깃발"
+
+msgid "Tick direction"
+msgstr "눈금 방향"
+
 msgid "Box size"
 msgstr "상자 크기"
 
@@ -138,6 +144,12 @@ msgstr "반전"
 
 msgid "Style"
 msgstr "스타일"
+
+msgid "Classic"
+msgstr "고전적인"
+
+msgid "High/Low"
+msgstr "높음/낮음"
 
 msgid "ticks"
 msgstr "틱"
@@ -202,6 +214,12 @@ msgstr "대시 점"
 msgid "Histogramm"
 msgstr "히스토그램"
 
+msgid "Default"
+msgstr "기본"
+
+msgid "Custom"
+msgstr "주문."
+
 msgid "Input parameters"
 msgstr "입력 매개 변수"
 
@@ -241,11 +259,29 @@ msgstr "호가(매입)/호가(상대방) 평균"
 msgid "Last"
 msgstr "마지막"
 
+msgid "Bid/Ask"
+msgstr "입찰 / 질문"
+
 msgid "Exception"
 msgstr "예외"
 
 msgid "None"
 msgstr "없음"
+
+msgid "Buy"
+msgstr "사다"
+
+msgid "Sell"
+msgstr "팔다"
+
+msgid "Not set"
+msgstr "설정 되지"
+
+msgid "Up"
+msgstr "쪽으로"
+
+msgid "Down"
+msgstr "하위"
 
 msgid "Compare to previous"
 msgstr "이전과 비교"
@@ -661,12 +697,6 @@ msgstr "값 레이블"
 msgid "Periods"
 msgstr "기간"
 
-msgid "Buy"
-msgstr "사다"
-
-msgid "Sell"
-msgstr "팔다"
-
 msgid "Step period"
 msgstr "단계 기간"
 
@@ -749,20 +779,26 @@ msgstr "사용자 지정 단계 (틱)"
 msgid "Delta calculation type"
 msgstr "델타 계산 유형"
 
-msgid "Aggressor flag"
-msgstr "침략자 깃발"
-
-msgid "Tick direction"
-msgstr "눈금 방향"
-
-msgid "Default"
-msgstr "기본"
-
 msgid "Histogram position"
 msgstr "히스토그램 위치"
 
 msgid "Histogram label position"
 msgstr "히스토그램 레이블 위치"
+
+msgid "Show Value area"
+msgstr "값 영역 표시"
+
+msgid "Value area height, %"
+msgstr "값 영역 높이,%"
+
+msgid "Value area color"
+msgstr "값 영역 색상"
+
+msgid "Show Value area borders"
+msgstr "값 영역 테두리 표시"
+
+msgid "Show POC ray"
+msgstr "POC 레이 표시"
 
 msgid "Trade color"
 msgstr "무역 색상"
@@ -779,6 +815,9 @@ msgstr "명백한"
 msgid "PrevSettlement"
 msgstr "PrevSettlement"
 
+msgid "Price limit"
+msgstr "가격 제한"
+
 msgid "Highlight prices"
 msgstr "가격 강조 표시"
 
@@ -788,11 +827,8 @@ msgstr "Day High/Low lines"
 msgid "Previous close"
 msgstr "Previous close line"
 
-msgid "Up"
-msgstr "쪽으로"
-
-msgid "Down"
-msgstr "하위"
+msgid "Price limits"
+msgstr "가격 제한"
 
 msgid "Body color"
 msgstr "바디 컬러"
@@ -917,8 +953,14 @@ msgstr "레벨 옵션"
 msgid "Fibonacci levels"
 msgstr "피보나치 수준"
 
+msgid "Show total"
+msgstr "총 표시"
+
 msgid "Profile controllers style"
 msgstr "프로 파일 제어기 스타일"
+
+msgid "Selection area"
+msgstr "선택 영역"
 
 msgid "Show full arc"
 msgstr "완전한 원호 표시"
@@ -1190,21 +1232,6 @@ msgstr "각 진 선"
 msgid "Invalid price"
 msgstr "잘못된 가격"
 
-msgid "LMT"
-msgstr "LMT"
-
-msgid "STP"
-msgstr "STP"
-
-msgid "Tr-S"
-msgstr "Tr-S"
-
-msgid "STL"
-msgstr "Stl"
-
-msgid "MKT"
-msgstr "MKT"
-
 #, csharp-format
 msgid "TP price: {0}"
 msgstr "TP 가격 : {0}"
@@ -1218,6 +1245,16 @@ msgstr "SL price/risk"
 #, csharp-format
 msgid "{0} TP price: {1}"
 msgstr "{0} TP 가격 : {1}"
+
+msgid "VA"
+msgstr "버지니아"
+
+msgid "POC ray"
+msgstr "POC 레이"
+
+#, csharp-format
+msgid "{0} ticks"
+msgstr "{0} 틱"
 
 msgid "Overlay"
 msgstr "위에 까는 것"
@@ -1379,8 +1416,8 @@ msgstr "선택된 것을 지우다"
 msgid "Volume Analysis"
 msgstr "볼륨 분석"
 
-msgid "Toolbar"
-msgstr "툴바"
+msgid "Show toolbar"
+msgstr "도구 모음 표시"
 
 msgid "Step Profile"
 msgstr "단계 프로 파일"
@@ -1406,14 +1443,17 @@ msgstr "사용자 지정 프로필"
 msgid "Day high/low"
 msgstr "낮 / 밤"
 
+msgid "Price range"
+msgstr "가격대"
+
 msgid "Grid time"
 msgstr "그리드 시간"
 
 msgid "Grid price"
 msgstr "그리드 가격"
 
-msgid "Show toolbar"
-msgstr "도구 모음 표시"
+msgid "Toolbar"
+msgstr "툴바"
 
 msgid "Refresh"
 msgstr "새롭게 하다"
@@ -1428,18 +1468,9 @@ msgstr "변경은 위치 폐쇄에 영향을 미칩니다."
 msgid "Are you sure you want to execute order at market price?"
 msgstr "시장가격에 거래를 체결하길 원하십니까??"
 
-msgid "Default by symbol (Last)"
-msgstr "기호 별 기본값 (마지막)"
-
-msgid "Default by symbol (Bid/Ask)"
-msgstr "기호 별 기본값 (입찰 / 요청)"
-
 #, csharp-format
 msgid "Default by symbol ({0})"
 msgstr "기호 ({0})로 기본값"
-
-msgid "Bid/Ask"
-msgstr "입찰 / 질문"
 
 msgid "1 hour"
 msgstr "1 시간"
@@ -1880,6 +1911,9 @@ msgstr "작업 제거"
 msgid "Add new task"
 msgstr "새 작업 추가"
 
+msgid "To to"
+msgstr "에 게"
+
 msgid "Collapse tasks"
 msgstr "축소 작업"
 
@@ -1905,17 +1939,23 @@ msgstr "'OR'추가"
 msgid "OR"
 msgstr "또는"
 
+msgid "Conditions"
+msgstr "조건"
+
 msgid "Collapse conditions"
 msgstr "접기 조건"
 
 msgid "Add condition"
 msgstr "조건 추가"
 
+msgid "No conditions yet."
+msgstr "아직 조건이 없습니다."
+
 msgid "Enable filtering"
 msgstr "필터링 사용"
 
-msgid "none"
-msgstr "없음"
+msgid "Action name"
+msgstr "작업 이름"
 
 msgid "Enable action"
 msgstr "액션 사용"
@@ -2075,6 +2115,18 @@ msgstr "거래 티켓 보기"
 msgid "Confirm hotbutton action"
 msgstr "핫 버튼 동작 확인"
 
+msgid "Network does not available"
+msgstr "네트워크를 사용할 수 없음"
+
+msgid "Login is empty"
+msgstr "로그인이 비어 있습니다."
+
+msgid "Password is empty"
+msgstr "암호가 비어 있습니다."
+
+msgid "Incorrect Login or Password"
+msgstr "잘못 된 로그인 또는 암호"
+
 msgid "Margin"
 msgstr "여유"
 
@@ -2098,9 +2150,6 @@ msgstr "API 키"
 
 msgid "Secret key"
 msgstr "비밀 키"
-
-msgid "Network does not available"
-msgstr "네트워크를 사용할 수 없음"
 
 msgid "API key is empty"
 msgstr "API 키가 비어 있습니다."
@@ -2339,14 +2388,146 @@ msgstr "유동성 비율을 제공 하십시오"
 msgid "Fee currency"
 msgstr "요금 통화"
 
+msgid "Trader Workstation"
+msgstr "상인 워크스테이션"
+
+msgid "IB Gateway"
+msgstr "IB 게이트웨이"
+
+msgid "Host"
+msgstr "호스트"
+
+msgid "Connection port type"
+msgstr "연결 포트 유형"
+
+msgid "Custom port value"
+msgstr "사용자 지정 포트 값"
+
+msgid "Net liquidation value"
+msgstr "순 청산 값"
+
+msgid "The basis for determining the price of the assets in your account. Total cash value + stock value + options value + bond value"
+msgstr "계정에서 자산의 가격을 결정 하는 기준입니다. 총 현금 가치 + 재고 값 + 옵션 값 + 본드 가치"
+
+msgid "Net liquidation value uncertainty"
+msgstr "순 청산 가치 불확실성"
+
+msgid "Equity with loan"
+msgstr "대출을 통한 자본"
+
+msgid "Forms the basis for determining whether a client has the necessary assets to either initiate or maintain security positions. Cash + stocks + bonds + mutual funds"
+msgstr "클라이언트가 보안 위치를 시작 하거나 유지 하는 데 필요한 자산이 있는지 여부를 결정 하는 기초를 형성 합니다. 현금 + 주식 + 채권 + 뮤추얼 펀드"
+
+msgid "Prev. day equity with loan"
+msgstr "전일 종가 대출"
+
+msgid "Reg T equity with loan"
+msgstr "대출을 통한 Reg T 지분"
+
+msgid "Regulation T equity for universal account"
+msgstr "유니버설 계정에 대 한 규정 T 지분"
+
+msgid "Security gross position value"
+msgstr "보안 총 위치 값"
+
+msgid "The sum of the absolute value of all stock and equity option positions"
+msgstr "모든 주식 및 주식 옵션 위치의 절대값의 합"
+
+msgid "Cash"
+msgstr "현금"
+
+msgid "Total cash balance recognized at the time of trade + futures PNL"
+msgstr "무역 + 선물 pnl 시점에서 인정 된 총 현금 잔고"
+
+msgid "Available  funds"
+msgstr "사용 가능한 펀드"
+
+msgid "This value tells what you have available for trading"
+msgstr "이 값은 거래에 사용할 수 있는 것을 알려줍니다."
+
+msgid "Excess liquidity"
+msgstr "과잉 유동성"
+
+msgid "This value shows your margin cushion, before liquidation"
+msgstr "이 값은 청산 전에 마진 쿠션을 보여줍니다"
+
+msgid "Post-expiry excess (predicted)"
+msgstr "만료 후 초과 (예측)"
+
+msgid "Special memorandum account"
+msgstr "특별 각 서 계정"
+
+msgid "Look ahead available funds"
+msgstr "사용 가능한 자금 미리 보기"
+
+msgid "This value reflects your available funds at the next margin change"
+msgstr "이 값은 다음 마진 변경 시 사용 가능한 자금을 반영 합니다."
+
+msgid "Look ahead excess liquidity"
+msgstr "과잉 유동성을 미리 봐"
+
+msgid "This value reflects your excess liquidity at the next margin change"
+msgstr "이 값은 다음 마진 변화에 대 한 과도 한 유동성을 반영 합니다."
+
+msgid "Buying power"
+msgstr "구매력"
+
+msgid "Buying power serves as a measurement of the dollar value of securities that one may purchase in a securities account without depositing additional funds"
+msgstr "구매력은 추가 자금을 예치 하지 않고 증권 계좌에서 구매할 수 있는 유가 증권의 달러 가치를 측정 하는 역할을 합니다."
+
+msgid "Securities leverage"
+msgstr "증권 레 버리지"
+
+msgid "GrossPositionValue / NetLiquidation"
+msgstr "매출 가치/네트워크 청산"
+
+msgid "Look ahead next change"
+msgstr "다음 변경 내용 미리 보기"
+
+msgid "Time when look-ahead values take effect"
+msgstr "미리 보기 값이 적용 되는 시간"
+
+msgid "Day trades left (T..T+4)"
+msgstr "하루 거래 왼쪽 (t. .. T + 4)"
+
+msgid "The Number of Open/Close trades a user could put on before Pattern Day Trading is detected. A value of \"-1\" means that the user can put on unlimited day trades."
+msgstr "패턴 데이 거래가 감지 되기 전에 사용자가 넣을 수 있는 개폐 거래 수입니다. \"-1\"의 값은 사용자가 무제한 일 거래에 넣을 수 있음을 의미 한다."
+
+msgid "Month to date interest"
+msgstr "월 관심 분야"
+
+msgid "Total accrued cash value of stock, commodities and securities"
+msgstr "주식, 상품 및 유가 증권의 총 미지급 현금 가치"
+
+msgid "Accrued dividends"
+msgstr "미지급 배당금"
+
+msgid "Initial Margin requirement of whole portfolio"
+msgstr "전체 포트폴리오의 초기 마진 요구 사항"
+
+msgid "Maintenance margin"
+msgstr "유지 보수 마진"
+
+msgid "Maintenance Margin requirement of whole portfolio"
+msgstr "전체 포트폴리오의 유지 보수 마진 요구 사항"
+
+msgid "Reg T margin"
+msgstr "Reg T 여백"
+
+msgid "Regulation T margin for universal account"
+msgstr "범용 계정에 대 한 규정 T 마진"
+
+msgid "Post-expiry margin (predicted)"
+msgstr "만료 후 마진 (예측)"
+
+msgid "Pending debit card charges"
+msgstr "보류 중인 직불 카드 요금"
+
+msgid "Identifies the IB account structure"
+msgstr "IB 계정 구조를 식별 합니다."
+
 msgid "IQFeed connection manager path"
 msgstr "이 크 피드 연결 관리자 경로"
-
-msgid "Login is empty"
-msgstr "로그인이 비어 있습니다."
-
-msgid "Password is empty"
-msgstr "암호가 비어 있습니다."
 
 msgid "Wrong connection configuration"
 msgstr "잘못 된 연결 구성"
@@ -2504,6 +2685,9 @@ msgstr "파이낸싱"
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr "Financing은 계정의 미결제에 대해 지불 / 부과됩니다."
 
+msgid "Smooth candlesticks"
+msgstr "부드러운 촛대"
+
 msgid "Token is empty"
 msgstr "토큰이 비어 있습니다."
 
@@ -2525,6 +2709,12 @@ msgstr "최소 임무"
 
 msgid "Bonds"
 msgstr "채권"
+
+msgid "Deposit"
+msgstr "예금"
+
+msgid "Widthrawal"
+msgstr "폭 rawal"
 
 msgid "Balances"
 msgstr "균형"
@@ -2607,5 +2797,59 @@ msgstr "수수료"
 msgid "Provides simulated data, allowing to test platform’s functionality"
 msgstr "시뮬레이션 된 데이터를 제공 하 여 플랫폼의 기능을 테스트할 수 있습니다."
 
+msgid "Spot"
+msgstr "자리"
+
+msgid "Index"
+msgstr "인덱스"
+
+msgid "Xena Listed Perpetuals"
+msgstr "xena 나열 된 지속"
+
+msgid "Positions and orders"
+msgstr "포지션 및 오더"
+
 msgid "Maximal deviation from mid price"
 msgstr "중간 가격에서 최대 편차"
+
+msgid "Settlement currency"
+msgstr "정산 통화"
+
+msgid "Max position volume"
+msgstr "최대 위치 볼륨"
+
+msgid "Contract value"
+msgstr "계약 값"
+
+msgid "Contract currency"
+msgstr "계약 통화"
+
+msgid "Netting"
+msgstr "그물 세공"
+
+msgid "Rates:"
+msgstr "제공:"
+
+msgid "Distance"
+msgstr "거리"
+
+msgid "Moving boundary"
+msgstr "이동 경계"
+
+msgid "Moving time"
+msgstr "이동 시간"
+
+msgid "Low index"
+msgstr "낮은 인덱스"
+
+msgid "High index"
+msgstr "높은 색인"
+
+msgid "Type"
+msgstr "종류"
+
+msgid "Maint. margin"
+msgstr "휴게소. 여백"
+
+msgid "Margin level"
+msgstr "마진 레벨"

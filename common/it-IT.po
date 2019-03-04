@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-01-16 14:34+0200\n"
+"POT-Creation-Date: 2019-03-04 18:38+0200\n"
 "PO-Revision-Date: 2018-12-04 15:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -130,6 +130,12 @@ msgstr "Una posizione"
 msgid "Undefined"
 msgstr "Non definito"
 
+msgid "Aggressor flag"
+msgstr "Bandierina del aggressor"
+
+msgid "Tick direction"
+msgstr "Direzione tick"
+
 msgid "Box size"
 msgstr "Formato della scatola"
 
@@ -138,6 +144,12 @@ msgstr "Inversione"
 
 msgid "Style"
 msgstr "Stile"
+
+msgid "Classic"
+msgstr "Classico"
+
+msgid "High/Low"
+msgstr "Alta/bassa"
 
 msgid "ticks"
 msgstr "zecche"
@@ -202,6 +214,12 @@ msgstr "Dash dot"
 msgid "Histogramm"
 msgstr "Histogramm"
 
+msgid "Default"
+msgstr "Predefinito"
+
+msgid "Custom"
+msgstr "Personalizzato"
+
 msgid "Input parameters"
 msgstr "Parametri di input"
 
@@ -241,11 +259,29 @@ msgstr "Bid / Ask average"
 msgid "Last"
 msgstr "Ultimo"
 
+msgid "Bid/Ask"
+msgstr "Bid / Ask"
+
 msgid "Exception"
 msgstr "Eccezione"
 
 msgid "None"
 msgstr "Nessuna"
+
+msgid "Buy"
+msgstr "Acquistare"
+
+msgid "Sell"
+msgstr "Vendere"
+
+msgid "Not set"
+msgstr "Non impostato"
+
+msgid "Up"
+msgstr "Su"
+
+msgid "Down"
+msgstr "Giù"
 
 msgid "Compare to previous"
 msgstr "Confronta con precedente"
@@ -661,12 +697,6 @@ msgstr "Etichetta di valore"
 msgid "Periods"
 msgstr "Periodi"
 
-msgid "Buy"
-msgstr "Acquistare"
-
-msgid "Sell"
-msgstr "Vendere"
-
 msgid "Step period"
 msgstr "Passo periodo"
 
@@ -749,20 +779,26 @@ msgstr "Passaggio personalizzato (tick)"
 msgid "Delta calculation type"
 msgstr "Tipo di calcolo delta"
 
-msgid "Aggressor flag"
-msgstr "Bandierina del aggressor"
-
-msgid "Tick direction"
-msgstr "Direzione tick"
-
-msgid "Default"
-msgstr "Predefinito"
-
 msgid "Histogram position"
 msgstr "Posizione istogramma"
 
 msgid "Histogram label position"
 msgstr "Posizione dell'etichetta dell'istogramma"
+
+msgid "Show Value area"
+msgstr "Mostra area valore"
+
+msgid "Value area height, %"
+msgstr "Altezza area di valore,%"
+
+msgid "Value area color"
+msgstr "Colore area di valore"
+
+msgid "Show Value area borders"
+msgstr "Mostra bordi area valore"
+
+msgid "Show POC ray"
+msgstr "Mostra raggio POC"
 
 msgid "Trade color"
 msgstr "Colore di commercio"
@@ -779,6 +815,9 @@ msgstr "Visibile"
 msgid "PrevSettlement"
 msgstr "PrevSettlement"
 
+msgid "Price limit"
+msgstr "Limite di prezzo"
+
 msgid "Highlight prices"
 msgstr "Evidenzia i prezzi"
 
@@ -788,11 +827,8 @@ msgstr "Giorno massimo / minimo"
 msgid "Previous close"
 msgstr "Chiusura precedente"
 
-msgid "Up"
-msgstr "Su"
-
-msgid "Down"
-msgstr "Giù"
+msgid "Price limits"
+msgstr "Limiti di prezzo"
 
 msgid "Body color"
 msgstr "Colore del corpo"
@@ -917,8 +953,14 @@ msgstr "Opzioni di livello"
 msgid "Fibonacci levels"
 msgstr "Livelli di Fibonacci"
 
+msgid "Show total"
+msgstr "Mostra totale"
+
 msgid "Profile controllers style"
 msgstr "Stile controller profilo"
+
+msgid "Selection area"
+msgstr "Area di selezione"
 
 msgid "Show full arc"
 msgstr "Mostra l'arco completo"
@@ -1190,21 +1232,6 @@ msgstr "Linea angolata"
 msgid "Invalid price"
 msgstr "Prezzo non valido"
 
-msgid "LMT"
-msgstr "LMT"
-
-msgid "STP"
-msgstr "STP"
-
-msgid "Tr-S"
-msgstr "Tr-S"
-
-msgid "STL"
-msgstr "Stl"
-
-msgid "MKT"
-msgstr "MKT"
-
 #, csharp-format
 msgid "TP price: {0}"
 msgstr "Prezzo TP: {0}"
@@ -1218,6 +1245,16 @@ msgstr "Prezzo SL"
 #, csharp-format
 msgid "{0} TP price: {1}"
 msgstr "{0} prezzo TP: {1}"
+
+msgid "VA"
+msgstr "Virginia"
+
+msgid "POC ray"
+msgstr "Raggio POC"
+
+#, csharp-format
+msgid "{0} ticks"
+msgstr "{0} tick"
 
 msgid "Overlay"
 msgstr "copertura"
@@ -1379,8 +1416,8 @@ msgstr "Rimuovi i selezionati"
 msgid "Volume Analysis"
 msgstr "Analisi del volume"
 
-msgid "Toolbar"
-msgstr "Barra degli strumenti"
+msgid "Show toolbar"
+msgstr "Mostra barra degli strumenti"
 
 msgid "Step Profile"
 msgstr "Profilo Step"
@@ -1406,14 +1443,17 @@ msgstr "Profilo personalizzato"
 msgid "Day high/low"
 msgstr "Giorno alto / basso"
 
+msgid "Price range"
+msgstr "Fascia di prezzo"
+
 msgid "Grid time"
 msgstr "Tempo di griglia"
 
 msgid "Grid price"
 msgstr "Prezzo della griglia"
 
-msgid "Show toolbar"
-msgstr "Mostra barra degli strumenti"
+msgid "Toolbar"
+msgstr "Barra degli strumenti"
 
 msgid "Refresh"
 msgstr "ricaricare"
@@ -1428,18 +1468,9 @@ msgstr "La modifica influirà sulla chiusura della posizione."
 msgid "Are you sure you want to execute order at market price?"
 msgstr "Sei sicuro di voler eseguire l'ordine al prezzo di mercato?"
 
-msgid "Default by symbol (Last)"
-msgstr "Predefinito per simbolo (ultimo)"
-
-msgid "Default by symbol (Bid/Ask)"
-msgstr "Predefinito per simbolo (Bid / Ask)"
-
 #, csharp-format
 msgid "Default by symbol ({0})"
 msgstr "Predefinito per simbolo ({0})"
-
-msgid "Bid/Ask"
-msgstr "Bid / Ask"
 
 msgid "1 hour"
 msgstr "1 ora"
@@ -1880,6 +1911,9 @@ msgstr "Rimuovi attività"
 msgid "Add new task"
 msgstr "Aggiungi nuova attività"
 
+msgid "To to"
+msgstr "Per"
+
 msgid "Collapse tasks"
 msgstr "Comprimi attività"
 
@@ -1905,17 +1939,23 @@ msgstr "Aggiungi \\"
 msgid "OR"
 msgstr "O"
 
+msgid "Conditions"
+msgstr "Condizioni"
+
 msgid "Collapse conditions"
 msgstr "Condizioni di collasso"
 
 msgid "Add condition"
 msgstr "Aggiungi condizione"
 
+msgid "No conditions yet."
+msgstr "Nessuna condizione ancora."
+
 msgid "Enable filtering"
 msgstr "Abilita il filtraggio"
 
-msgid "none"
-msgstr "nessuna"
+msgid "Action name"
+msgstr "Nome azione"
 
 msgid "Enable action"
 msgstr "Abilita azione"
@@ -2075,6 +2115,18 @@ msgstr "Mostra biglietti Deal"
 msgid "Confirm hotbutton action"
 msgstr "Confermare l'azione hotbutton"
 
+msgid "Network does not available"
+msgstr "Rete non disponibile"
+
+msgid "Login is empty"
+msgstr "Login è vuoto"
+
+msgid "Password is empty"
+msgstr "Password è vuota"
+
+msgid "Incorrect Login or Password"
+msgstr "Login o password errati"
+
 msgid "Margin"
 msgstr "Margine"
 
@@ -2098,9 +2150,6 @@ msgstr "Chiave API"
 
 msgid "Secret key"
 msgstr "Chiave segreta"
-
-msgid "Network does not available"
-msgstr "Rete non disponibile"
 
 msgid "API key is empty"
 msgstr "Chiave API è vuota"
@@ -2339,14 +2388,146 @@ msgstr "Fornire il tasso di liquidità"
 msgid "Fee currency"
 msgstr "Valuta di Fee"
 
+msgid "Trader Workstation"
+msgstr "Trader workstation"
+
+msgid "IB Gateway"
+msgstr "Gateway IB"
+
+msgid "Host"
+msgstr "Host"
+
+msgid "Connection port type"
+msgstr "Tipo di porta di connessione"
+
+msgid "Custom port value"
+msgstr "Valore della porta personalizzata"
+
+msgid "Net liquidation value"
+msgstr "Valore di liquidazione netta"
+
+msgid "The basis for determining the price of the assets in your account. Total cash value + stock value + options value + bond value"
+msgstr "La base per determinare il prezzo delle attività nel tuo conto. Valore totale in contanti + valore azionario + valore delle opzioni + valore obbligazionario"
+
+msgid "Net liquidation value uncertainty"
+msgstr "Incertezza del valore di liquidazione netta"
+
+msgid "Equity with loan"
+msgstr "Patrimonio netto con prestito"
+
+msgid "Forms the basis for determining whether a client has the necessary assets to either initiate or maintain security positions. Cash + stocks + bonds + mutual funds"
+msgstr "Costituisce la base per determinare se un cliente dispone delle risorse necessarie per avviare o mantenere le posizioni di sicurezza. Cash + azioni + obbligazioni + fondi comuni di investimento"
+
+msgid "Prev. day equity with loan"
+msgstr "Patrimonio netto di giorno precedente con prestito"
+
+msgid "Reg T equity with loan"
+msgstr "Reg T equity con prestito"
+
+msgid "Regulation T equity for universal account"
+msgstr "Regolamento T equity per conto universale"
+
+msgid "Security gross position value"
+msgstr "Valore della posizione lorda di sicurezza"
+
+msgid "The sum of the absolute value of all stock and equity option positions"
+msgstr "La somma del valore assoluto di tutte le posizioni delle opzioni azionari e"
+
+msgid "Cash"
+msgstr "Contanti"
+
+msgid "Total cash balance recognized at the time of trade + futures PNL"
+msgstr "Saldo totale di cassa riconosciuto al momento del commercio + futures PNL"
+
+msgid "Available  funds"
+msgstr "Fondi disponibili"
+
+msgid "This value tells what you have available for trading"
+msgstr "Questo valore indica ciò che hai a disposizione per la negoziazione"
+
+msgid "Excess liquidity"
+msgstr "Liquidità in eccesso"
+
+msgid "This value shows your margin cushion, before liquidation"
+msgstr "Questo valore Mostra il vostro cuscino di margine, prima della liquidazione"
+
+msgid "Post-expiry excess (predicted)"
+msgstr "Eccesso di post-scadenza (previsto)"
+
+msgid "Special memorandum account"
+msgstr "Conto per memorandum speciale"
+
+msgid "Look ahead available funds"
+msgstr "Guarda avanti i fondi disponibili"
+
+msgid "This value reflects your available funds at the next margin change"
+msgstr "Questo valore riflette i fondi disponibili al successivo cambiamento di margine"
+
+msgid "Look ahead excess liquidity"
+msgstr "Guardare avanti liquidità in eccesso"
+
+msgid "This value reflects your excess liquidity at the next margin change"
+msgstr "Questo valore riflette la liquidità in eccesso al successivo cambiamento di margine"
+
+msgid "Buying power"
+msgstr "Potere d'acquisto"
+
+msgid "Buying power serves as a measurement of the dollar value of securities that one may purchase in a securities account without depositing additional funds"
+msgstr "Il potere d'acquisto funge da misura del valore in dollari dei titoli che si possono acquistare in un conto titoli senza depositare fondi aggiuntivi"
+
+msgid "Securities leverage"
+msgstr "Leva finanziaria"
+
+msgid "GrossPositionValue / NetLiquidation"
+msgstr "GrossPositionValue/NetLiquidation"
+
+msgid "Look ahead next change"
+msgstr "Guarda avanti prossimo cambiamento"
+
+msgid "Time when look-ahead values take effect"
+msgstr "Tempo in cui i valori di look-ahead hanno effetto"
+
+msgid "Day trades left (T..T+4)"
+msgstr "Giorno mestieri a sinistra (T.. T + 4)"
+
+msgid "The Number of Open/Close trades a user could put on before Pattern Day Trading is detected. A value of \"-1\" means that the user can put on unlimited day trades."
+msgstr "Il numero di operazioni di apertura/chiusura un utente potrebbe mettere su prima pattern Day trading viene rilevato. Un valore di \"-1\" significa che l'utente può mettere su transazioni giornaliere illimitate."
+
+msgid "Month to date interest"
+msgstr "Interessi da mese a oggi"
+
+msgid "Total accrued cash value of stock, commodities and securities"
+msgstr "Totale valore in denaro maturato di azioni, materie prime e titoli"
+
+msgid "Accrued dividends"
+msgstr "Dividendi maturati"
+
+msgid "Initial Margin requirement of whole portfolio"
+msgstr "Requisito di margine iniziale dell'intero portafoglio"
+
+msgid "Maintenance margin"
+msgstr "Margine di manutenzione"
+
+msgid "Maintenance Margin requirement of whole portfolio"
+msgstr "Requisito di margine di manutenzione dell'intero portafoglio"
+
+msgid "Reg T margin"
+msgstr "Margine reg T"
+
+msgid "Regulation T margin for universal account"
+msgstr "Margine di regolazione T per conto universale"
+
+msgid "Post-expiry margin (predicted)"
+msgstr "Margine post-scadenza (previsto)"
+
+msgid "Pending debit card charges"
+msgstr "Addebiti per carte di debito in sospeso"
+
+msgid "Identifies the IB account structure"
+msgstr "Identifica la struttura dei conti IB"
+
 msgid "IQFeed connection manager path"
 msgstr "Percorso gestione connessione IQFeed"
-
-msgid "Login is empty"
-msgstr "Login è vuoto"
-
-msgid "Password is empty"
-msgstr "Password è vuota"
 
 msgid "Wrong connection configuration"
 msgstr "Configurazione errata della connessione"
@@ -2504,6 +2685,9 @@ msgstr "Finanziamento"
 msgid "Financing is paid/charged for open positions in the Account"
 msgstr "Il finanziamento viene pagato / addebitato per le posizioni aperte nell'Account"
 
+msgid "Smooth candlesticks"
+msgstr "Candelabri lisci"
+
 msgid "Token is empty"
 msgstr "Token è vuoto"
 
@@ -2525,6 +2709,12 @@ msgstr "Commissione minima"
 
 msgid "Bonds"
 msgstr "Obbligazioni"
+
+msgid "Deposit"
+msgstr "Deposito"
+
+msgid "Widthrawal"
+msgstr "Di widthrawal"
 
 msgid "Balances"
 msgstr "Saldi"
@@ -2607,5 +2797,59 @@ msgstr "tassa"
 msgid "Provides simulated data, allowing to test platform’s functionality"
 msgstr "Fornisce dati simulati, consentendo di testare la funzionalità della piattaforma"
 
+msgid "Spot"
+msgstr "Posto"
+
+msgid "Index"
+msgstr "Indice"
+
+msgid "Xena Listed Perpetuals"
+msgstr "Xena elencato perpetuals"
+
+msgid "Positions and orders"
+msgstr "Posizioni e ordini"
+
 msgid "Maximal deviation from mid price"
 msgstr "Deviazione massima da metà prezzo"
+
+msgid "Settlement currency"
+msgstr "Valuta di liquidazione"
+
+msgid "Max position volume"
+msgstr "Volume di posizione max."
+
+msgid "Contract value"
+msgstr "Valore del contratto"
+
+msgid "Contract currency"
+msgstr "Valuta contrattuale"
+
+msgid "Netting"
+msgstr "Compensazione"
+
+msgid "Rates:"
+msgstr "Tariffe:"
+
+msgid "Distance"
+msgstr "Distanza"
+
+msgid "Moving boundary"
+msgstr "Spostamento del contorno"
+
+msgid "Moving time"
+msgstr "Tempo di spostamento"
+
+msgid "Low index"
+msgstr "Indice basso"
+
+msgid "High index"
+msgstr "Indice elevato"
+
+msgid "Type"
+msgstr "digitare"
+
+msgid "Maint. margin"
+msgstr "Maint. Margine"
+
+msgid "Margin level"
+msgstr "Livello di margine"
