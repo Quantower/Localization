@@ -6,33 +6,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:37+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2019-04-02 16:31+0300\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language ja-JP\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: ja-JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Show toolbar"
 msgstr "ツールバーを表示する"
-
-msgid "TP"
-msgstr "利益確定"
-
-msgid "SL"
-msgstr "ストップロス"
-
-msgid "ticks"
-msgstr "ティック"
 
 msgid "Remove SL"
 msgstr "ストップロスを削除する"
 
 msgid "Remove TP"
 msgstr "利益確定を削除する"
+
+msgid "Working orders"
+msgstr "アクティブ受注"
+
+msgid "Margin"
+msgstr "マージン"
 
 msgid "Cancel"
 msgstr "キャンセル"
@@ -64,20 +61,17 @@ msgstr "注文をキャンセルする"
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "すべての注文を市場価格で実行してもよろしいですか？"
 
-msgid "Close selected orders"
-msgstr "選択した注文を閉じる"
+msgid "Cancel selected orders"
+msgstr "選択された注文をキャンセルする"
 
-msgid "Close all orders"
-msgstr "すべての注文を決済する"
+msgid "Cancel all orders"
+msgstr "すべての注文をキャンセルする"
 
 msgid "Modify order"
 msgstr "注文の修正"
 
 msgid "Change to market"
 msgstr "市場への変更"
-
-msgid "Cancel all orders"
-msgstr "すべての注文をキャンセルする"
 
 msgid "Cancel buy"
 msgstr "買いをキャンセルする"
@@ -118,9 +112,6 @@ msgstr "GTC注文をキャンセルする"
 msgid "Cancel selected"
 msgstr "選択された注文のキャンセル"
 
-msgid "Cancel selected orders"
-msgstr "選択された注文をキャンセルする"
-
 msgid "Cancel all orders by selected (symbol + account)"
 msgstr "（シンボル＋口座）ごとにすべての注文をキャンセルする"
 
@@ -129,9 +120,6 @@ msgstr "選択された注文を変更する"
 
 msgid "Modify selected orders type to Market"
 msgstr "選択された注文の種類をマーケットに修正する"
-
-msgid "Working orders"
-msgstr "アクティブ受注"
 
 msgid "Account"
 msgstr "口座"
@@ -223,6 +211,12 @@ msgstr "状況"
 msgid "The status of the order"
 msgstr "注文のステータス"
 
+msgid "Original status"
+msgstr "元の状態"
+
+msgid "Original order status from vendor"
+msgstr "仕入先からの元の注文ステータス"
+
 msgid "Current price"
 msgstr "現在価格"
 
@@ -265,6 +259,24 @@ msgstr "接続名"
 msgid "The name of connection"
 msgstr "接続の名前"
 
+msgid "Positions"
+msgstr "決済注文/ポジション一覧"
+
+msgid "Settlement price"
+msgstr "清算価格"
+
+msgid "Unsettled VM"
+msgstr "未確定の VM"
+
+msgid "Init. margin"
+msgstr "初期マージン"
+
+msgid "Maintenance"
+msgstr "メンテナンス"
+
+msgid "Maint. margin"
+msgstr "メンテナンス・マージン"
+
 msgid "Close"
 msgstr "閉じる"
 
@@ -295,6 +307,24 @@ msgstr "選択された口座のすべてをリバース"
 msgid "Reverse all positions..."
 msgstr "すべてのポジションをリバース…"
 
+msgid "Are you sure want to close positions by {symbol.Name}?"
+msgstr "{記号で位置を閉じてもよろしいですか?名前}?"
+
+msgid "Are you sure want to close positions by {account}?"
+msgstr "{Account} でポジションをクローズしますか?"
+
+msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
+msgstr "{SelectedPositions () を逆にしてもよろしいですか?Id}?"
+
+msgid "Are you sure want to reverse positions by {symbol.Name}?"
+msgstr "位置を {記号で反転しますか?名前}?"
+
+msgid "Are you sure want to reverse positions by {account}?"
+msgstr "ポジションを {account} で逆にしますか?"
+
+msgid "Modify position #{position.Id} {position.Symbol} {OrderType.GetSLTPComfirmMessage(modifyOrderParameters)} for {position.Account}? "
+msgstr "位置を変更します。Id} {位置。{OrderType の位置を表す記号} {GetSLTPComfirmMessage (modifyOrderParameters)} を使用します。アカウント}?"
+
 msgid "Close selected positions"
 msgstr "選択されたポジションをクローズする"
 
@@ -303,9 +333,6 @@ msgstr "すべてのポジションをクローズする"
 
 msgid "Modify position"
 msgstr "決済指定注文の設定・変更・取消"
-
-msgid "Reverse selected positions"
-msgstr "選択したポジションをリバース"
 
 msgid "Modification will affect the position closing. Are you sure?"
 msgstr "変更はポジション終了に影響します。"
@@ -360,9 +387,6 @@ msgstr "CLX選択"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "選択した（シンボル＋口座）に対して、すべてのポジションをクローズして、すべての注文をキャンセルする"
-
-msgid "Positions"
-msgstr "決済注文/ポジション一覧"
 
 msgid "The direction of the position"
 msgstr "位置の方向"

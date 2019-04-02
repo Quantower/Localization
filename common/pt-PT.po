@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-03-12 12:43+0200\n"
+"POT-Creation-Date: 2019-04-02 11:25+0300\n"
 "PO-Revision-Date: 2018-12-04 15:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -312,6 +312,12 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
+
+msgid "VP status: loading..."
+msgstr "VP status: carregando..."
+
+msgid "VP status: no areas."
+msgstr "Status VP: sem áreas."
 
 msgid "Black Whale"
 msgstr "Baleia Negra"
@@ -794,6 +800,48 @@ msgstr "Etapa personalizada (tiques)"
 msgid "Delta calculation type"
 msgstr "Tipo de cálculo Delta"
 
+msgid "Enable"
+msgstr "Habilitado"
+
+msgid "Min trade volume"
+msgstr "Volume de comércio mínimo"
+
+msgid "Max trade volume"
+msgstr "Volume de comércio máximo"
+
+msgid "Total volume"
+msgstr "Volume total"
+
+msgid "Time interval, sec"
+msgstr "Intervalo de tempo, seg"
+
+msgid "Basis volume interval, sec"
+msgstr "Intervalo de volume de base, SEC"
+
+msgid "Zone height, ticks"
+msgstr "Altura da zona, carrapatos"
+
+msgid "Filter by Delta, %"
+msgstr "Filtrar por Delta,%"
+
+msgid "Play alert sound"
+msgstr "Reproduzir som de alerta"
+
+msgid "Area color"
+msgstr "Cor da área"
+
+msgid "Highlight area color"
+msgstr "Realçar a cor da área"
+
+msgid "Show Market depth"
+msgstr "Mostrar a profundidade do mercado"
+
+msgid "Coloring style"
+msgstr "Estilo de coloração"
+
+msgid "Level2 level count"
+msgstr "Contagem de níveis de nível de nivel"
+
 msgid "Histogram position"
 msgstr "Posição do histograma"
 
@@ -952,6 +1000,9 @@ msgstr "Mais zoom"
 
 msgid "Zoom out"
 msgstr "(-) zoom"
+
+msgid "Volume path"
+msgstr "Caminho do volume"
 
 msgid "Label colors"
 msgstr "Cores dos rótulos"
@@ -2166,6 +2217,9 @@ msgstr "Situação"
 msgid "History Server URL"
 msgstr "URL do servidor de histórico"
 
+msgid "Load user trades history"
+msgstr "Carregar o histórico de negociações do usuário"
+
 msgid "API key"
 msgstr "Chave de API"
 
@@ -2790,6 +2844,9 @@ msgstr "Login do Usuário"
 
 msgid "Gateway endpoint"
 msgstr "Ponto de extremidade de gateway"
+
+msgid "Fail to connect"
+msgstr "Falha ao conectar"
 
 msgid "Access Token"
 msgstr "Token de acesso"

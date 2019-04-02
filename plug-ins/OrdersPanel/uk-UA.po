@@ -6,33 +6,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:37+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2019-04-02 16:31+0300\n"
 "PO-Revision-Date: 2018-12-04 15:38+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language uk-UA\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: uk-UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Show toolbar"
 msgstr "Показати панель інструментів"
-
-msgid "TP"
-msgstr "ТП"
-
-msgid "SL"
-msgstr "SL"
-
-msgid "ticks"
-msgstr "кліщі"
 
 msgid "Remove SL"
 msgstr "Видалити SL"
 
 msgid "Remove TP"
 msgstr "Видалити ТП"
+
+msgid "Working orders"
+msgstr "Робочі ордера"
+
+msgid "Margin"
+msgstr "Полі"
 
 msgid "Cancel"
 msgstr "Скасувати"
@@ -64,20 +61,17 @@ msgstr "Відмінити ордер"
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "Ви впевнені, що хочете виконати всі ордера за ринковою ціною?"
 
-msgid "Close selected orders"
-msgstr "Закрити вибрані ордера "
+msgid "Cancel selected orders"
+msgstr "Скасувати вибрані замовлення"
 
-msgid "Close all orders"
-msgstr "Закрити всі ордера "
+msgid "Cancel all orders"
+msgstr "Закрити всі ордера"
 
 msgid "Modify order"
 msgstr "Змінити порядок"
 
 msgid "Change to market"
 msgstr "Перехід на ринок"
-
-msgid "Cancel all orders"
-msgstr "Закрити всі ордера"
 
 msgid "Cancel buy"
 msgstr "Скасувати покупку"
@@ -118,9 +112,6 @@ msgstr "Скасувати замовлення GTC"
 msgid "Cancel selected"
 msgstr "Скасувати вибране"
 
-msgid "Cancel selected orders"
-msgstr "Скасувати вибрані замовлення"
-
 msgid "Cancel all orders by selected (symbol + account)"
 msgstr "Cancel all orders by selected symbol"
 
@@ -129,9 +120,6 @@ msgstr "Редагувати вибраний ордер"
 
 msgid "Modify selected orders type to Market"
 msgstr "Змінити тип вибраних замовлень на Market"
-
-msgid "Working orders"
-msgstr "Робочі ордера"
 
 msgid "Account"
 msgstr "Рахунок"
@@ -223,6 +211,12 @@ msgstr "Статус"
 msgid "The status of the order"
 msgstr "Статус замовлення"
 
+msgid "Original status"
+msgstr "Початковий стан"
+
+msgid "Original order status from vendor"
+msgstr "Початковий стан замовлення від виробника"
+
 msgid "Current price"
 msgstr "Поточна ціна"
 
@@ -265,6 +259,24 @@ msgstr "Назва з'єднання"
 msgid "The name of connection"
 msgstr "Назва з'єднання"
 
+msgid "Positions"
+msgstr "Позиції"
+
+msgid "Settlement price"
+msgstr "Розрахункове співвідношення"
+
+msgid "Unsettled VM"
+msgstr "Неврегульовані VM"
+
+msgid "Init. margin"
+msgstr "Init. Полі"
+
+msgid "Maintenance"
+msgstr "Обслуговування"
+
+msgid "Maint. margin"
+msgstr "Maint. Полі"
+
 msgid "Close"
 msgstr "Закрити"
 
@@ -295,6 +307,24 @@ msgstr "Зворотне все для вибраного облікового �
 msgid "Reverse all positions..."
 msgstr "Повернути всі позиції..."
 
+msgid "Are you sure want to close positions by {symbol.Name}?"
+msgstr "Ви дійсно бажаєте закрити розташування за {символ. Ім'я}?"
+
+msgid "Are you sure want to close positions by {account}?"
+msgstr "Ви дійсно бажаєте закрити розташування за {Account}?"
+
+msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
+msgstr "Ви дійсно бажаєте скасувати {selectedPositions. Single (). ID}?"
+
+msgid "Are you sure want to reverse positions by {symbol.Name}?"
+msgstr "Ви дійсно бажаєте скасувати позиції за {символом. Ім'я}?"
+
+msgid "Are you sure want to reverse positions by {account}?"
+msgstr "Ви дійсно бажаєте скасувати розташування за {обліковий запис}?"
+
+msgid "Modify position #{position.Id} {position.Symbol} {OrderType.GetSLTPComfirmMessage(modifyOrderParameters)} for {position.Account}? "
+msgstr "Змінити розташування # {позиція. ID} {позиція. Символ} {тип замовлення. Getsltpcomfirmessage (для змінення параметрів)} {позиція. Обліковий запис}? "
+
 msgid "Close selected positions"
 msgstr "Закрити вибрані позиції"
 
@@ -303,9 +333,6 @@ msgstr "Закрити всі позиції"
 
 msgid "Modify position"
 msgstr "Змінити позицію"
-
-msgid "Reverse selected positions"
-msgstr "Зворотні вибрані позиції"
 
 msgid "Modification will affect the position closing. Are you sure?"
 msgstr "Модифікація вплине на закриття позиції."
@@ -360,9 +387,6 @@ msgstr "CLX"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "Закрити всі позиції та скасувати всі замовлення за обраним (символ + рахунок)"
-
-msgid "Positions"
-msgstr "Позиції"
 
 msgid "The direction of the position"
 msgstr "Напрямок положення"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-03-12 12:43+0200\n"
+"POT-Creation-Date: 2019-04-02 11:25+0300\n"
 "PO-Revision-Date: 2019-02-26 13:28+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -313,6 +313,12 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
+
+msgid "VP status: loading..."
+msgstr "Статус VP: Загрузка..."
+
+msgid "VP status: no areas."
+msgstr "Статус VP: нет областей."
 
 msgid "Black Whale"
 msgstr "Черный Кит"
@@ -795,6 +801,48 @@ msgstr "Пользовательский шаг (в тиках)"
 msgid "Delta calculation type"
 msgstr "Тип расчета дельты"
 
+msgid "Enable"
+msgstr "Разрешить"
+
+msgid "Min trade volume"
+msgstr "Минимальный объем торговли"
+
+msgid "Max trade volume"
+msgstr "Максимальный объем торговли"
+
+msgid "Total volume"
+msgstr "Суммарный объем"
+
+msgid "Time interval, sec"
+msgstr "Временной интервал, сек"
+
+msgid "Basis volume interval, sec"
+msgstr "Интервал базисного объема, сек"
+
+msgid "Zone height, ticks"
+msgstr "Высота зоны, тики"
+
+msgid "Filter by Delta, %"
+msgstr "Фильтр по Дельта,%"
+
+msgid "Play alert sound"
+msgstr "Воспроизвести звуковой сигнал"
+
+msgid "Area color"
+msgstr "Цвет области"
+
+msgid "Highlight area color"
+msgstr "Цвет области выделения"
+
+msgid "Show Market depth"
+msgstr "Показать глубину рынка"
+
+msgid "Coloring style"
+msgstr "Стиль окраски"
+
+msgid "Level2 level count"
+msgstr "Количество уровней level2"
+
 msgid "Histogram position"
 msgstr "Положение гистограммы"
 
@@ -953,6 +1001,9 @@ msgstr "Увеличить"
 
 msgid "Zoom out"
 msgstr "Уменьшить"
+
+msgid "Volume path"
+msgstr "Путь тома"
 
 msgid "Label colors"
 msgstr "Цвета значений"
@@ -2167,6 +2218,9 @@ msgstr "Статус"
 msgid "History Server URL"
 msgstr "URL-адрес сервера истории"
 
+msgid "Load user trades history"
+msgstr "Загрузка истории сделок пользователей"
+
 msgid "API key"
 msgstr "Ключ API"
 
@@ -2791,6 +2845,9 @@ msgstr "Логин"
 
 msgid "Gateway endpoint"
 msgstr "Конечная точка шлюза"
+
+msgid "Fail to connect"
+msgstr "Не удается подключиться"
 
 msgid "Access Token"
 msgstr "Токен доступа"

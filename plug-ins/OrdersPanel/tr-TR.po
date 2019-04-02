@@ -6,33 +6,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:37+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2019-04-02 16:31+0300\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language tr-TR\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: tr-TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Show toolbar"
 msgstr "Araç çubuğunu göster"
-
-msgid "TP"
-msgstr "TP"
-
-msgid "SL"
-msgstr "SL"
-
-msgid "ticks"
-msgstr "tikler"
 
 msgid "Remove SL"
 msgstr "SL'i sil"
 
 msgid "Remove TP"
 msgstr "TP'yi sil"
+
+msgid "Working orders"
+msgstr "Çalışma emir"
+
+msgid "Margin"
+msgstr "Marj"
 
 msgid "Cancel"
 msgstr "İptal et"
@@ -64,20 +61,17 @@ msgstr "Emri iptal et"
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "Tüm siparişleri piyasa fiyatından gerçekleştirmek istediğinizden emin misiniz?"
 
-msgid "Close selected orders"
-msgstr "Seçilen siparişleri kapat"
+msgid "Cancel selected orders"
+msgstr "Seçili emirleri iptal et"
 
-msgid "Close all orders"
-msgstr "Tüm emirleri kapat"
+msgid "Cancel all orders"
+msgstr "Tüm emirleri iptel et"
 
 msgid "Modify order"
 msgstr "Emri değiştir"
 
 msgid "Change to market"
 msgstr "Piyasaya geç"
-
-msgid "Cancel all orders"
-msgstr "Tüm emirleri iptel et"
 
 msgid "Cancel buy"
 msgstr "Satın alma emrini iptal et"
@@ -118,9 +112,6 @@ msgstr "GTC emirlerini iptal et"
 msgid "Cancel selected"
 msgstr "Seçili emri iptal et"
 
-msgid "Cancel selected orders"
-msgstr "Seçili emirleri iptal et"
-
 msgid "Cancel all orders by selected (symbol + account)"
 msgstr "Seçilen sembole göre tüm emirleri iptal et"
 
@@ -129,9 +120,6 @@ msgstr "Seçili emri değiştir"
 
 msgid "Modify selected orders type to Market"
 msgstr "Piyasaya göre seçilen emir türünü değiştir"
-
-msgid "Working orders"
-msgstr "Çalışma emir"
 
 msgid "Account"
 msgstr "Hesap"
@@ -223,6 +211,12 @@ msgstr "Durum"
 msgid "The status of the order"
 msgstr "Siparişin durumu"
 
+msgid "Original status"
+msgstr "Orijinal durum"
+
+msgid "Original order status from vendor"
+msgstr "Satıcıdan orijinal sipariş durumu"
+
 msgid "Current price"
 msgstr "Cari fiyat"
 
@@ -265,6 +259,24 @@ msgstr "Bağlantı adı"
 msgid "The name of connection"
 msgstr "Bağlantı adı"
 
+msgid "Positions"
+msgstr "Pozisyonlar"
+
+msgid "Settlement price"
+msgstr "Uzlaşma fiyatı"
+
+msgid "Unsettled VM"
+msgstr "Kapatılmamış VM"
+
+msgid "Init. margin"
+msgstr "İlk marj"
+
+msgid "Maintenance"
+msgstr "Bakım"
+
+msgid "Maint. margin"
+msgstr "Sürdürme marjı"
+
 msgid "Close"
 msgstr "Kapat"
 
@@ -295,6 +307,24 @@ msgstr "Hesap bazında tümünü ters çevir"
 msgid "Reverse all positions..."
 msgstr "Tüm pozisyonları ters çevir"
 
+msgid "Are you sure want to close positions by {symbol.Name}?"
+msgstr "Pozisyonları {symbol ile kapatmak istediğinizden emin misiniz? Isim mi?"
+
+msgid "Are you sure want to close positions by {account}?"
+msgstr "{Account} tarafından pozisyonları kapatmak istediğinizden emin misiniz?"
+
+msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
+msgstr "Emin olmak istiyorsanız ters {selectedPositions. Single (). Kimliği?"
+
+msgid "Are you sure want to reverse positions by {symbol.Name}?"
+msgstr "Pozisyonları ters çevirmek istediğinizden emin misiniz {symbol. Isim mi?"
+
+msgid "Are you sure want to reverse positions by {account}?"
+msgstr "Konumu {account} ile tersine çevirmek istediğinizden emin misiniz?"
+
+msgid "Modify position #{position.Id} {position.Symbol} {OrderType.GetSLTPComfirmMessage(modifyOrderParameters)} for {position.Account}? "
+msgstr "Konumu Değiştir # {Position. ID} {pozisyon. Symbol} {OrderType. GetSLTPComfirmMessage (modifyOrderParameters)} için {Position. Hesap}? "
+
 msgid "Close selected positions"
 msgstr "Seçili pozisyonları kapat"
 
@@ -303,9 +333,6 @@ msgstr "Tüm pozisyonları kapat"
 
 msgid "Modify position"
 msgstr "Pozisyonu değiştir"
-
-msgid "Reverse selected positions"
-msgstr "Seçili pozisyonları tersine çevir"
 
 msgid "Modification will affect the position closing. Are you sure?"
 msgstr "Modifikasyon pozisyon kapamasını etkileyecektir."
@@ -360,9 +387,6 @@ msgstr "CLX"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "Seçili (sembol ve hesap) ile tüm pozisyonları kapat ve tüm emirleri iptal et"
-
-msgid "Positions"
-msgstr "Pozisyonlar"
 
 msgid "The direction of the position"
 msgstr "Pozisyonun yönü"

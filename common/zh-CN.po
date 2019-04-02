@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-03-12 12:43+0200\n"
+"POT-Creation-Date: 2019-04-02 11:25+0300\n"
 "PO-Revision-Date: 2018-12-04 16:01+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -312,6 +312,12 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
+
+msgid "VP status: loading..."
+msgstr "VP 状态: 加载..。"
+
+msgid "VP status: no areas."
+msgstr "VP 状态: 没有区域。"
 
 msgid "Black Whale"
 msgstr "黑鲸"
@@ -794,6 +800,48 @@ msgstr "自定义步骤 (刻度)"
 msgid "Delta calculation type"
 msgstr "增量计算类型"
 
+msgid "Enable"
+msgstr "使"
+
+msgid "Min trade volume"
+msgstr "最小交易量"
+
+msgid "Max trade volume"
+msgstr "最大交易量"
+
+msgid "Total volume"
+msgstr "总量"
+
+msgid "Time interval, sec"
+msgstr "时间间隔, 秒"
+
+msgid "Basis volume interval, sec"
+msgstr "基础体积间隔, 秒"
+
+msgid "Zone height, ticks"
+msgstr "区域高度, 刻度"
+
+msgid "Filter by Delta, %"
+msgstr "按增量筛选,%"
+
+msgid "Play alert sound"
+msgstr "播放警报声音"
+
+msgid "Area color"
+msgstr "区域颜色"
+
+msgid "Highlight area color"
+msgstr "突出显示区域颜色"
+
+msgid "Show Market depth"
+msgstr "显示市场深度"
+
+msgid "Coloring style"
+msgstr "着色风格"
+
+msgid "Level2 level count"
+msgstr "2级计数"
+
 msgid "Histogram position"
 msgstr "直方图位置"
 
@@ -952,6 +1000,9 @@ msgstr "放大"
 
 msgid "Zoom out"
 msgstr "缩小"
+
+msgid "Volume path"
+msgstr "卷路径"
 
 msgid "Label colors"
 msgstr "标签颜色"
@@ -2166,6 +2217,9 @@ msgstr "状态"
 msgid "History Server URL"
 msgstr "历史记录服务器网址"
 
+msgid "Load user trades history"
+msgstr "加载用户交易历史记录"
+
 msgid "API key"
 msgstr "api 密钥"
 
@@ -2790,6 +2844,9 @@ msgstr "登录:"
 
 msgid "Gateway endpoint"
 msgstr "网关终结点"
+
+msgid "Fail to connect"
+msgstr "无法连接"
 
 msgid "Access Token"
 msgstr "访问令牌"

@@ -6,33 +6,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:37+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2019-04-02 16:31+0300\n"
 "PO-Revision-Date: 2018-12-04 15:38+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language en-US\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: en-US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Show toolbar"
 msgstr "Show toolbar"
-
-msgid "TP"
-msgstr "TP"
-
-msgid "SL"
-msgstr "SL"
-
-msgid "ticks"
-msgstr "ticks"
 
 msgid "Remove SL"
 msgstr "Remove SL"
 
 msgid "Remove TP"
 msgstr "Remove TP"
+
+msgid "Working orders"
+msgstr "Working orders"
+
+msgid "Margin"
+msgstr "Margin"
 
 msgid "Cancel"
 msgstr "Cancel"
@@ -64,20 +61,17 @@ msgstr "Cancel order"
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "Are you sure you want to execute all orders at market price?"
 
-msgid "Close selected orders"
-msgstr "Close selected orders"
+msgid "Cancel selected orders"
+msgstr "Cancel selected orders"
 
-msgid "Close all orders"
-msgstr "Close all orders"
+msgid "Cancel all orders"
+msgstr "Cancel all orders"
 
 msgid "Modify order"
 msgstr "Modify order"
 
 msgid "Change to market"
 msgstr "Change to market"
-
-msgid "Cancel all orders"
-msgstr "Cancel all orders"
 
 msgid "Cancel buy"
 msgstr "Cancel buy"
@@ -118,9 +112,6 @@ msgstr "Cancel GTC orders"
 msgid "Cancel selected"
 msgstr "Cancel selected"
 
-msgid "Cancel selected orders"
-msgstr "Cancel selected orders"
-
 msgid "Cancel all orders by selected (symbol + account)"
 msgstr "Cancel all orders by selected (symbol + account)"
 
@@ -129,9 +120,6 @@ msgstr "Modify selected order"
 
 msgid "Modify selected orders type to Market"
 msgstr "Modify selected orders type to Market"
-
-msgid "Working orders"
-msgstr "Working orders"
 
 msgid "Account"
 msgstr "Account"
@@ -223,6 +211,12 @@ msgstr "Status"
 msgid "The status of the order"
 msgstr "The status of the order"
 
+msgid "Original status"
+msgstr "Original status"
+
+msgid "Original order status from vendor"
+msgstr "Original order status from vendor"
+
 msgid "Current price"
 msgstr "Current price"
 
@@ -265,6 +259,24 @@ msgstr "Connection name"
 msgid "The name of connection"
 msgstr "The name of connection"
 
+msgid "Positions"
+msgstr "Positions"
+
+msgid "Settlement price"
+msgstr "Settlement price"
+
+msgid "Unsettled VM"
+msgstr "Unsettled VM"
+
+msgid "Init. margin"
+msgstr "Init. margin"
+
+msgid "Maintenance"
+msgstr "Maintenance"
+
+msgid "Maint. margin"
+msgstr "Maint. margin"
+
 msgid "Close"
 msgstr "Close"
 
@@ -295,6 +307,24 @@ msgstr "Reverse all for selected account"
 msgid "Reverse all positions..."
 msgstr "Reverse all positions..."
 
+msgid "Are you sure want to close positions by {symbol.Name}?"
+msgstr "Are you sure want to close positions by {symbol.Name}?"
+
+msgid "Are you sure want to close positions by {account}?"
+msgstr "Are you sure want to close positions by {account}?"
+
+msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
+msgstr "Are you sure want to reverse {selectedPositions.Single().Id}?"
+
+msgid "Are you sure want to reverse positions by {symbol.Name}?"
+msgstr "Are you sure want to reverse positions by {symbol.Name}?"
+
+msgid "Are you sure want to reverse positions by {account}?"
+msgstr "Are you sure want to reverse positions by {account}?"
+
+msgid "Modify position #{position.Id} {position.Symbol} {OrderType.GetSLTPComfirmMessage(modifyOrderParameters)} for {position.Account}? "
+msgstr "Modify position #{position.Id} {position.Symbol} {OrderType.GetSLTPComfirmMessage(modifyOrderParameters)} for {position.Account}? "
+
 msgid "Close selected positions"
 msgstr "Close selected positions"
 
@@ -303,9 +333,6 @@ msgstr "Close all positions"
 
 msgid "Modify position"
 msgstr "Modify position"
-
-msgid "Reverse selected positions"
-msgstr "Reverse selected positions"
 
 msgid "Modification will affect the position closing. Are you sure?"
 msgstr "Modification will affect the position closing. Are you sure?"
@@ -360,9 +387,6 @@ msgstr "CLX"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "Close all positions and cancel all orders by selected (symbol + account)"
-
-msgid "Positions"
-msgstr "Positions"
 
 msgid "The direction of the position"
 msgstr "The direction of the position"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-03-12 12:43+0200\n"
+"POT-Creation-Date: 2019-04-02 11:25+0300\n"
 "PO-Revision-Date: 2018-12-04 16:03+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -312,6 +312,12 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
+
+msgid "VP status: loading..."
+msgstr "Status VP: wczytywanie..."
+
+msgid "VP status: no areas."
+msgstr "Status VP: brak obszarów."
 
 msgid "Black Whale"
 msgstr "Wieloryb czarny"
@@ -794,6 +800,48 @@ msgstr "Niestandardowy krok (kleszcze)"
 msgid "Delta calculation type"
 msgstr "Typ kalkulacji Delta"
 
+msgid "Enable"
+msgstr "Włącz"
+
+msgid "Min trade volume"
+msgstr "Minimalna wielkość transakcji"
+
+msgid "Max trade volume"
+msgstr "Maksymalna wielkość transakcji"
+
+msgid "Total volume"
+msgstr "Całkowita objętość"
+
+msgid "Time interval, sec"
+msgstr "Przedział czasowy, s"
+
+msgid "Basis volume interval, sec"
+msgstr "Przedział objętości podstawy, s"
+
+msgid "Zone height, ticks"
+msgstr "Wysokość strefy, kleszcze"
+
+msgid "Filter by Delta, %"
+msgstr "Filtruj według Delta,%"
+
+msgid "Play alert sound"
+msgstr "Odtwórz dźwięk alarmu"
+
+msgid "Area color"
+msgstr "Kolor obszaru"
+
+msgid "Highlight area color"
+msgstr "Kolor obszaru podświetlenia"
+
+msgid "Show Market depth"
+msgstr "Pokaż głębokość rynku"
+
+msgid "Coloring style"
+msgstr "Styl kolorowania"
+
+msgid "Level2 level count"
+msgstr "Liczba poziomów Level2"
+
 msgid "Histogram position"
 msgstr "Pozycja histogramu"
 
@@ -952,6 +1000,9 @@ msgstr "Powiększenie"
 
 msgid "Zoom out"
 msgstr "Pomniejsz"
+
+msgid "Volume path"
+msgstr "Ścieżka woluminu"
 
 msgid "Label colors"
 msgstr "Oznacz kolory"
@@ -2166,6 +2217,9 @@ msgstr "Status"
 msgid "History Server URL"
 msgstr "ADRES URL serwera historii"
 
+msgid "Load user trades history"
+msgstr "Załaduj historię transakcji użytkownika"
+
 msgid "API key"
 msgstr "Klucz API"
 
@@ -2790,6 +2844,9 @@ msgstr "Logowania"
 
 msgid "Gateway endpoint"
 msgstr "Punktu końcowego bramy"
+
+msgid "Fail to connect"
+msgstr "Nie uda się nawiązać połączenia"
 
 msgid "Access Token"
 msgstr "Token dostępu"

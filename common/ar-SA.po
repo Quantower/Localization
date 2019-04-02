@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-03-12 12:43+0200\n"
+"POT-Creation-Date: 2019-04-02 11:25+0300\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -312,6 +312,12 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
+
+msgid "VP status: loading..."
+msgstr "حاله نائب الرئيس: التحميل..."
+
+msgid "VP status: no areas."
+msgstr "حاله نائب الرئيس: لا مجالات."
 
 msgid "Black Whale"
 msgstr "الحوت الأسود"
@@ -794,6 +800,48 @@ msgstr "Custom step (ticks)"
 msgid "Delta calculation type"
 msgstr "نوع حساب دلتا"
 
+msgid "Enable"
+msgstr "تشغيل"
+
+msgid "Min trade volume"
+msgstr "حجم التداول الأدنى"
+
+msgid "Max trade volume"
+msgstr "ماكس حجم التجارة"
+
+msgid "Total volume"
+msgstr "الحجم الإجمالي"
+
+msgid "Time interval, sec"
+msgstr "الفاصل الزمني ، ثانيه"
+
+msgid "Basis volume interval, sec"
+msgstr "الفاصل الزمني لحجم الأساس ، الثانية"
+
+msgid "Zone height, ticks"
+msgstr "ارتفاع المنطقة ، القراد"
+
+msgid "Filter by Delta, %"
+msgstr "تصفيه بواسطة دلتا ،%"
+
+msgid "Play alert sound"
+msgstr "تشغيل صوت تنبيه"
+
+msgid "Area color"
+msgstr "لون المنطقة"
+
+msgid "Highlight area color"
+msgstr "لون منطقه التمييز"
+
+msgid "Show Market depth"
+msgstr "إظهار عمق السوق"
+
+msgid "Coloring style"
+msgstr "نمط التلوين"
+
+msgid "Level2 level count"
+msgstr "Level2 مستوي العد"
+
 msgid "Histogram position"
 msgstr "موضع الرسم البياني"
 
@@ -952,6 +1000,9 @@ msgstr "تكبير"
 
 msgid "Zoom out"
 msgstr "تصغير"
+
+msgid "Volume path"
+msgstr "مسار وحده التخزين"
 
 msgid "Label colors"
 msgstr "ألوان الفراغات"
@@ -2166,6 +2217,9 @@ msgstr "الحالة"
 msgid "History Server URL"
 msgstr "عنوان URL لخادم المحفوظات"
 
+msgid "Load user trades history"
+msgstr "تحميل تاريخ صفقات المستخدم"
+
 msgid "API key"
 msgstr "مفتاح API"
 
@@ -2790,6 +2844,9 @@ msgstr "اسم المستخدم"
 
 msgid "Gateway endpoint"
 msgstr "نقطه نهاية العبارة"
+
+msgid "Fail to connect"
+msgstr "فشل في الاتصال"
 
 msgid "Access Token"
 msgstr "رمز الوصول"

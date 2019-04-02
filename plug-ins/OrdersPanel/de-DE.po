@@ -6,33 +6,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:37+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2019-04-02 16:31+0300\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language de-DE\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: de-DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Show toolbar"
 msgstr "Werkzeugleiste anzeigen"
-
-msgid "TP"
-msgstr "TP"
-
-msgid "SL"
-msgstr "SL"
-
-msgid "ticks"
-msgstr "Zecken"
 
 msgid "Remove SL"
 msgstr "Entferne SL"
 
 msgid "Remove TP"
 msgstr "Entferne TP"
+
+msgid "Working orders"
+msgstr "Arbeitsaufträge"
+
+msgid "Margin"
+msgstr "Rand"
 
 msgid "Cancel"
 msgstr "Stornieren"
@@ -64,20 +61,17 @@ msgstr "Bestellung stornieren"
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "Sind Sie sicher, dass Sie alle Aufträge zum Marktpreis ausführen möchten?"
 
-msgid "Close selected orders"
-msgstr "Schließen Sie ausgewählte Aufträge"
+msgid "Cancel selected orders"
+msgstr "Brechen Sie ausgewählte Aufträge ab"
 
-msgid "Close all orders"
-msgstr "Schließen Sie alle Bestellungen"
+msgid "Cancel all orders"
+msgstr "Storniere alle Bestellungen"
 
 msgid "Modify order"
 msgstr "Bestellung ändern"
 
 msgid "Change to market"
 msgstr "Wechsel zum Markt"
-
-msgid "Cancel all orders"
-msgstr "Storniere alle Bestellungen"
 
 msgid "Cancel buy"
 msgstr "Kauf abbrechen"
@@ -118,9 +112,6 @@ msgstr "Stornieren Sie AGB-Bestellungen"
 msgid "Cancel selected"
 msgstr "Abbrechen ausgewählt"
 
-msgid "Cancel selected orders"
-msgstr "Brechen Sie ausgewählte Aufträge ab"
-
 msgid "Cancel all orders by selected (symbol + account)"
 msgstr "Alle Bestellungen stornieren nach ausgewählt (Symbol + Konto)"
 
@@ -129,9 +120,6 @@ msgstr "Ändern Sie die ausgewählte Reihenfolge"
 
 msgid "Modify selected orders type to Market"
 msgstr "Ändern Sie den ausgewählten Auftragstyp in Market"
-
-msgid "Working orders"
-msgstr "Arbeitsaufträge"
 
 msgid "Account"
 msgstr "Konto"
@@ -223,6 +211,12 @@ msgstr "Status"
 msgid "The status of the order"
 msgstr "Der Status der Bestellung"
 
+msgid "Original status"
+msgstr "Originalstatus"
+
+msgid "Original order status from vendor"
+msgstr "Originalbestellstatus vom Verkäufer"
+
 msgid "Current price"
 msgstr "Derzeitiger Preis"
 
@@ -265,6 +259,24 @@ msgstr "Verbindungsname"
 msgid "The name of connection"
 msgstr "Der Name der Verbindung"
 
+msgid "Positions"
+msgstr "Positionen"
+
+msgid "Settlement price"
+msgstr "Abrechnungspreis"
+
+msgid "Unsettled VM"
+msgstr "Uneinigte VM"
+
+msgid "Init. margin"
+msgstr "Init. Rand"
+
+msgid "Maintenance"
+msgstr "Wartung"
+
+msgid "Maint. margin"
+msgstr "Maint. Rand"
+
 msgid "Close"
 msgstr "Schließen"
 
@@ -295,6 +307,24 @@ msgstr "Alle für das ausgewählte Konto stornieren"
 msgid "Reverse all positions..."
 msgstr "Alle Positionen umkehren..."
 
+msgid "Are you sure want to close positions by {symbol.Name}?"
+msgstr "Sind Sie sicher, dass Sie Positionen mit {-Symbol schließen wollen. Name}?"
+
+msgid "Are you sure want to close positions by {account}?"
+msgstr "Sind Sie sicher, dass Sie die Positionen per {Account} schließen wollen?"
+
+msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
+msgstr "Sind Sie sicher, dass Sie {selectedPositions.Single () rückgängig machen wollen. Id}?"
+
+msgid "Are you sure want to reverse positions by {symbol.Name}?"
+msgstr "Sind Sie sicher, dass Sie die Positionen mit {-Symbol umkehren wollen. Name}?"
+
+msgid "Are you sure want to reverse positions by {account}?"
+msgstr "Sind Sie sicher, dass Sie die Positionen per {account} umkehren wollen?"
+
+msgid "Modify position #{position.Id} {position.Symbol} {OrderType.GetSLTPComfirmMessage(modifyOrderParameters)} for {position.Account}? "
+msgstr "Position # {position ändern. Id} {position. Symbol} {OrderType.GetSLTPComfirmMessage (modifyOrderParameters) für {Position. Konto}? "
+
 msgid "Close selected positions"
 msgstr "Schließen Sie ausgewählte Positionen"
 
@@ -303,9 +333,6 @@ msgstr "Schließen Sie alle Positionen"
 
 msgid "Modify position"
 msgstr "Position ändern"
-
-msgid "Reverse selected positions"
-msgstr "Ausgewählte Positionen umkehren"
 
 msgid "Modification will affect the position closing. Are you sure?"
 msgstr "Die Änderung wirkt sich auf das Schließen der Position aus."
@@ -360,9 +387,6 @@ msgstr "CLX"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "Schließen Sie alle Positionen und stornieren Sie alle ausgewählten Aufträge (Symbol + Konto)"
-
-msgid "Positions"
-msgstr "Positionen"
 
 msgid "The direction of the position"
 msgstr "Die Richtung der Position"

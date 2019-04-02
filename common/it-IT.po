@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-03-12 12:43+0200\n"
+"POT-Creation-Date: 2019-04-02 11:25+0300\n"
 "PO-Revision-Date: 2018-12-04 15:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -312,6 +312,12 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
+
+msgid "VP status: loading..."
+msgstr "Stato VP: caricamento..."
+
+msgid "VP status: no areas."
+msgstr "Stato VP: nessuna area."
 
 msgid "Black Whale"
 msgstr "Balena nera"
@@ -794,6 +800,48 @@ msgstr "Passaggio personalizzato (tick)"
 msgid "Delta calculation type"
 msgstr "Tipo di calcolo delta"
 
+msgid "Enable"
+msgstr "Attivare"
+
+msgid "Min trade volume"
+msgstr "Volume minimo di scambi"
+
+msgid "Max trade volume"
+msgstr "Volume massimo di scambi"
+
+msgid "Total volume"
+msgstr "Volume totale"
+
+msgid "Time interval, sec"
+msgstr "Intervallo di tempo, sec"
+
+msgid "Basis volume interval, sec"
+msgstr "Intervallo di volume base, sec"
+
+msgid "Zone height, ticks"
+msgstr "Altezza della zona, zecche"
+
+msgid "Filter by Delta, %"
+msgstr "Filtra per Delta,%"
+
+msgid "Play alert sound"
+msgstr "Riproduci suono di avviso"
+
+msgid "Area color"
+msgstr "Colore area"
+
+msgid "Highlight area color"
+msgstr "Colore area di evidenziazione"
+
+msgid "Show Market depth"
+msgstr "Mostra la profondità del mercato"
+
+msgid "Coloring style"
+msgstr "Stile da colorare"
+
+msgid "Level2 level count"
+msgstr "Conteggio livello Level2"
+
 msgid "Histogram position"
 msgstr "Posizione istogramma"
 
@@ -952,6 +1000,9 @@ msgstr "Ingrandire"
 
 msgid "Zoom out"
 msgstr "Zoom indietro"
+
+msgid "Volume path"
+msgstr "Percorso del volume"
 
 msgid "Label colors"
 msgstr "Etichetta i colori"
@@ -2166,6 +2217,9 @@ msgstr "Stato"
 msgid "History Server URL"
 msgstr "URL del server di cronologia"
 
+msgid "Load user trades history"
+msgstr "Caricare la cronologia delle transazioni utente"
+
 msgid "API key"
 msgstr "Chiave API"
 
@@ -2790,6 +2844,9 @@ msgstr "Login"
 
 msgid "Gateway endpoint"
 msgstr "Endpoint gateway"
+
+msgid "Fail to connect"
+msgstr "Mancata connessione"
 
 msgid "Access Token"
 msgstr "Token di accesso"

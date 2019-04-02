@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-03-12 12:43+0200\n"
+"POT-Creation-Date: 2019-04-02 11:25+0300\n"
 "PO-Revision-Date: 2018-12-04 16:03+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -312,6 +312,12 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
+
+msgid "VP status: loading..."
+msgstr "VP статус: завантаження..."
+
+msgid "VP status: no areas."
+msgstr "VP статус: немає областей."
 
 msgid "Black Whale"
 msgstr "Чорний кит"
@@ -794,6 +800,48 @@ msgstr "Настроюваний крок (кліщі)"
 msgid "Delta calculation type"
 msgstr "Тип обчислення \"Дельта\""
 
+msgid "Enable"
+msgstr "Увімкнути"
+
+msgid "Min trade volume"
+msgstr "Min обсяг торгівлі"
+
+msgid "Max trade volume"
+msgstr "Максимальний обсяг торгівлі"
+
+msgid "Total volume"
+msgstr "Загальний обсяг"
+
+msgid "Time interval, sec"
+msgstr "Інтервал часу, сек"
+
+msgid "Basis volume interval, sec"
+msgstr "Базиальний інтервал, сек"
+
+msgid "Zone height, ticks"
+msgstr "Висота зони, кліщі"
+
+msgid "Filter by Delta, %"
+msgstr "Фільтрувати за дельтою,%"
+
+msgid "Play alert sound"
+msgstr "Відтворювати звуковий сигнал"
+
+msgid "Area color"
+msgstr "Колір області"
+
+msgid "Highlight area color"
+msgstr "Колір області Підсвіти"
+
+msgid "Show Market depth"
+msgstr "Показати глибину ринку"
+
+msgid "Coloring style"
+msgstr "Розмальовка стиль"
+
+msgid "Level2 level count"
+msgstr "Level2 рівня"
+
 msgid "Histogram position"
 msgstr "Положення гістограми"
 
@@ -952,6 +1000,9 @@ msgstr "Збільшувати"
 
 msgid "Zoom out"
 msgstr "Зменшення"
+
+msgid "Volume path"
+msgstr "Об'ємний контур"
 
 msgid "Label colors"
 msgstr "Наклейки кольорів"
@@ -2166,6 +2217,9 @@ msgstr "Статус"
 msgid "History Server URL"
 msgstr "URL-адреса сервера журналу"
 
+msgid "Load user trades history"
+msgstr "Завантажити історію торгів користувач"
+
 msgid "API key"
 msgstr "Ключ API"
 
@@ -2790,6 +2844,9 @@ msgstr "Логін"
 
 msgid "Gateway endpoint"
 msgstr "Кінцева точка шлюзу"
+
+msgid "Fail to connect"
+msgstr "Не вдалося підключитися"
 
 msgid "Access Token"
 msgstr "Маркер доступу"

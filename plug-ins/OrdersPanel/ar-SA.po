@@ -6,33 +6,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:37+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2019-04-02 16:31+0300\n"
 "PO-Revision-Date: 2018-12-04 15:38+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language ar-SA\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: ar-SA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Show toolbar"
 msgstr "إظهار شريط الأدوات"
-
-msgid "TP"
-msgstr "أخذ الربح"
-
-msgid "SL"
-msgstr "إيقاف الخسارة"
-
-msgid "ticks"
-msgstr "حركات الأسعار"
 
 msgid "Remove SL"
 msgstr "حذف إ.خ"
 
 msgid "Remove TP"
 msgstr "حذف أ.ر"
+
+msgid "Working orders"
+msgstr "أوامر العمل"
+
+msgid "Margin"
+msgstr "الهامش"
 
 msgid "Cancel"
 msgstr "إلغاء"
@@ -64,20 +61,17 @@ msgstr "إلغاء الأمر"
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "هل أنت متأكد من أنك تريد تنفيذ جميع الطلبات بسعر السوق؟"
 
-msgid "Close selected orders"
-msgstr "إغلاق الطلبات المحددة"
+msgid "Cancel selected orders"
+msgstr "إلغاء الأوامر المحددة"
 
-msgid "Close all orders"
-msgstr "إغلاق جمع الأوامر"
+msgid "Cancel all orders"
+msgstr "إلغاء جميع الأوامر"
 
 msgid "Modify order"
 msgstr "تعديل الأمر"
 
 msgid "Change to market"
 msgstr "التغيير إلى السوق"
-
-msgid "Cancel all orders"
-msgstr "إلغاء جميع الأوامر"
 
 msgid "Cancel buy"
 msgstr "إلغاء الشراء"
@@ -118,9 +112,6 @@ msgstr "GTC إلغاء أوامر"
 msgid "Cancel selected"
 msgstr "إلغاء المحدد"
 
-msgid "Cancel selected orders"
-msgstr "إلغاء الأوامر المحددة"
-
 msgid "Cancel all orders by selected (symbol + account)"
 msgstr "Cancel all orders by selected symbol"
 
@@ -129,9 +120,6 @@ msgstr "تعديل الأمر المحدد"
 
 msgid "Modify selected orders type to Market"
 msgstr "تعديل أنواع الأوامر المحددة إلى السوق"
-
-msgid "Working orders"
-msgstr "أوامر العمل"
 
 msgid "Account"
 msgstr "الحساب"
@@ -223,6 +211,12 @@ msgstr "الحالة"
 msgid "The status of the order"
 msgstr "حالة الطلب"
 
+msgid "Original status"
+msgstr "الحالة الاصليه"
+
+msgid "Original order status from vendor"
+msgstr "حاله الطلب الاصليه من المورد"
+
 msgid "Current price"
 msgstr "السعر الحالي"
 
@@ -265,6 +259,24 @@ msgstr "اسم الاتصال"
 msgid "The name of connection"
 msgstr "اسم الاتصال"
 
+msgid "Positions"
+msgstr "المراكز"
+
+msgid "Settlement price"
+msgstr "سعر التسوية"
+
+msgid "Unsettled VM"
+msgstr "VM غير مستقر"
+
+msgid "Init. margin"
+msgstr "الهامش المبدئي"
+
+msgid "Maintenance"
+msgstr "صيانه"
+
+msgid "Maint. margin"
+msgstr "هامش الوقاية"
+
 msgid "Close"
 msgstr "إغلاق"
 
@@ -295,6 +307,24 @@ msgstr "عكس الكل للحساب المحدد"
 msgid "Reverse all positions..."
 msgstr "...عكس جميع الوضعيات"
 
+msgid "Are you sure want to close positions by {symbol.Name}?"
+msgstr "هل تريد بالتاكيد إغلاق المواضع بواسطة {الرمز. الاسم ؟"
+
+msgid "Are you sure want to close positions by {account}?"
+msgstr "هل تريد بالتاكيد إغلاق المواضع بواسطة {الحساب} ؟"
+
+msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
+msgstr "هل تريد بالتاكيد عكس {المواضع المختارة. Single (). الهوية ؟"
+
+msgid "Are you sure want to reverse positions by {symbol.Name}?"
+msgstr "هل تريد بالتاكيد عكس المواضع بواسطة {الرمز. الاسم ؟"
+
+msgid "Are you sure want to reverse positions by {account}?"
+msgstr "هل تريد بالتاكيد عكس المواضع بواسطة {الحساب} ؟"
+
+msgid "Modify position #{position.Id} {position.Symbol} {OrderType.GetSLTPComfirmMessage(modifyOrderParameters)} for {position.Account}? "
+msgstr "تعديل الموضع # {الموضع. Id} {الموضع. الرمز} {نوع الاستدعاء. Getsltpcomفيرميكوميرميشن (موديفيورديرمعلمات)} ل {موضع. الحساب} ؟ "
+
 msgid "Close selected positions"
 msgstr "إغلاق الوضعيات المحددة"
 
@@ -303,9 +333,6 @@ msgstr "إغلاق جميع الوضعيات"
 
 msgid "Modify position"
 msgstr "تعديل المركز"
-
-msgid "Reverse selected positions"
-msgstr "عكس الوضعيات المحددة"
 
 msgid "Modification will affect the position closing. Are you sure?"
 msgstr "سوف يؤثر التعديل على إغلاق الموقع."
@@ -360,9 +387,6 @@ msgstr "إغلاق"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "إغلاق جميع الوضعيات وإلغاء جميع الأوامر من (الرمز + الحساب) المحدد"
-
-msgid "Positions"
-msgstr "المراكز"
 
 msgid "The direction of the position"
 msgstr "اتجاه الموقف"

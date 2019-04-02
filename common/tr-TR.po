@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-03-12 12:43+0200\n"
+"POT-Creation-Date: 2019-04-02 11:25+0300\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -312,6 +312,12 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
+
+msgid "VP status: loading..."
+msgstr "VP durumu: yükleme..."
+
+msgid "VP status: no areas."
+msgstr "VP durumu: alan yok."
 
 msgid "Black Whale"
 msgstr "Siyah balina"
@@ -794,6 +800,48 @@ msgstr "Özel adım (Ticks)"
 msgid "Delta calculation type"
 msgstr "Delta hesaplama türü"
 
+msgid "Enable"
+msgstr "Etkinleştir"
+
+msgid "Min trade volume"
+msgstr "Min ticaret hacmi"
+
+msgid "Max trade volume"
+msgstr "Maksimum ticaret hacmi"
+
+msgid "Total volume"
+msgstr "Toplam hacim"
+
+msgid "Time interval, sec"
+msgstr "Zaman aralığı, sn"
+
+msgid "Basis volume interval, sec"
+msgstr "Temel hacim aralığı, sn"
+
+msgid "Zone height, ticks"
+msgstr "Bölge yüksekliği, ticks"
+
+msgid "Filter by Delta, %"
+msgstr "Delta tarafından filtre,%"
+
+msgid "Play alert sound"
+msgstr "Uyarı sesini oynatma"
+
+msgid "Area color"
+msgstr "Alan rengi"
+
+msgid "Highlight area color"
+msgstr "Vurgulu alan rengi"
+
+msgid "Show Market depth"
+msgstr "Piyasa derinliğini göster"
+
+msgid "Coloring style"
+msgstr "Boyama tarzı"
+
+msgid "Level2 level count"
+msgstr "Level2 düzey sayısı"
+
 msgid "Histogram position"
 msgstr "Histogram konumu"
 
@@ -952,6 +1000,9 @@ msgstr "Yakınlaştır"
 
 msgid "Zoom out"
 msgstr "Uzaklaştır"
+
+msgid "Volume path"
+msgstr "Ses düzeyi yolu"
 
 msgid "Label colors"
 msgstr "Etiket renkleri"
@@ -2166,6 +2217,9 @@ msgstr "Durum"
 msgid "History Server URL"
 msgstr "Geçmiş sunucusu URL 'si"
 
+msgid "Load user trades history"
+msgstr "Kullanıcı ticareti geçmişini yükleme"
+
 msgid "API key"
 msgstr "API anahtar"
 
@@ -2790,6 +2844,9 @@ msgstr "Kullanıcı adı"
 
 msgid "Gateway endpoint"
 msgstr "Ağ Geçidi bitiş noktası"
+
+msgid "Fail to connect"
+msgstr "Bağlanma başarısız"
 
 msgid "Access Token"
 msgstr "Erişim belirteci"

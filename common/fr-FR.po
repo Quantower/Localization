@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-03-12 12:43+0200\n"
+"POT-Creation-Date: 2019-04-02 11:25+0300\n"
 "PO-Revision-Date: 2018-12-04 15:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -312,6 +312,12 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
+
+msgid "VP status: loading..."
+msgstr "État VP: chargement..."
+
+msgid "VP status: no areas."
+msgstr "Statut VP: pas de zones."
 
 msgid "Black Whale"
 msgstr "Baleine noire"
@@ -794,6 +800,48 @@ msgstr "Étape personnalisée (tiques)"
 msgid "Delta calculation type"
 msgstr "Type de calcul Delta"
 
+msgid "Enable"
+msgstr "Activer"
+
+msgid "Min trade volume"
+msgstr "Volume de commerce min"
+
+msgid "Max trade volume"
+msgstr "Volume de commerce max."
+
+msgid "Total volume"
+msgstr "Volume total"
+
+msgid "Time interval, sec"
+msgstr "Intervalle de temps, sec"
+
+msgid "Basis volume interval, sec"
+msgstr "Intervalle de volume de base, sec"
+
+msgid "Zone height, ticks"
+msgstr "Hauteur de zone, graduations"
+
+msgid "Filter by Delta, %"
+msgstr "Filtrer par Delta,%"
+
+msgid "Play alert sound"
+msgstr "Écouter le son d’alerte"
+
+msgid "Area color"
+msgstr "Couleur de la zone"
+
+msgid "Highlight area color"
+msgstr "Couleur de la zone de surbrillance"
+
+msgid "Show Market depth"
+msgstr "Afficher la profondeur du marché"
+
+msgid "Coloring style"
+msgstr "Style de coloration"
+
+msgid "Level2 level count"
+msgstr "Nombre de niveaux Level2"
+
 msgid "Histogram position"
 msgstr "Position de l'histogramme"
 
@@ -952,6 +1000,9 @@ msgstr "Zoomer"
 
 msgid "Zoom out"
 msgstr "Dézoomer"
+
+msgid "Volume path"
+msgstr "Chemin de volume"
 
 msgid "Label colors"
 msgstr "Couleurs des étiquettes"
@@ -2166,6 +2217,9 @@ msgstr "Statut"
 msgid "History Server URL"
 msgstr "URL du serveur d'historique"
 
+msgid "Load user trades history"
+msgstr "Charger l’historique des transactions utilisateur"
+
 msgid "API key"
 msgstr "Clé API"
 
@@ -2790,6 +2844,9 @@ msgstr "Connexion"
 
 msgid "Gateway endpoint"
 msgstr "Point de terminaison de passerelle"
+
+msgid "Fail to connect"
+msgstr "Échec de la connexion"
 
 msgid "Access Token"
 msgstr "Jeton d'accès"

@@ -6,33 +6,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:37+0200\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2019-04-02 16:31+0300\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
-"Last-Translator: <EMAIL@ADDRESS>\n"
-"Language-Team: Language zh-TW\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
 "Language: zh-TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit"
 
 msgid "Show toolbar"
 msgstr "顯示工具列"
-
-msgid "TP"
-msgstr "停利"
-
-msgid "SL"
-msgstr "停損"
-
-msgid "ticks"
-msgstr "蜱"
 
 msgid "Remove SL"
 msgstr "刪除SL"
 
 msgid "Remove TP"
 msgstr "刪除TP"
+
+msgid "Working orders"
+msgstr "有效訂單"
+
+msgid "Margin"
+msgstr "保證金"
 
 msgid "Cancel"
 msgstr "取消"
@@ -64,20 +61,17 @@ msgstr "取消訂單"
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "您確定要以市場價格執行所有訂單嗎？"
 
-msgid "Close selected orders"
-msgstr "關閉選定的訂單"
+msgid "Cancel selected orders"
+msgstr "取消所選訂單"
 
-msgid "Close all orders"
-msgstr "關閉所有訂單"
+msgid "Cancel all orders"
+msgstr "取消全部訂單"
 
 msgid "Modify order"
 msgstr "修改訂單"
 
 msgid "Change to market"
 msgstr "轉向市場"
-
-msgid "Cancel all orders"
-msgstr "取消全部訂單"
 
 msgid "Cancel buy"
 msgstr "取消買單"
@@ -118,9 +112,6 @@ msgstr "取消 GTC 訂單"
 msgid "Cancel selected"
 msgstr "取消所選"
 
-msgid "Cancel selected orders"
-msgstr "取消所選訂單"
-
 msgid "Cancel all orders by selected (symbol + account)"
 msgstr "依 (產品+ 帳戶) 取消全部訂單"
 
@@ -129,9 +120,6 @@ msgstr "修改選定的訂單"
 
 msgid "Modify selected orders type to Market"
 msgstr "將所選訂單類型修改為市場"
-
-msgid "Working orders"
-msgstr "有效訂單"
 
 msgid "Account"
 msgstr "帳戶"
@@ -223,6 +211,12 @@ msgstr "狀態"
 msgid "The status of the order"
 msgstr "訂單的狀態"
 
+msgid "Original status"
+msgstr "原始狀態"
+
+msgid "Original order status from vendor"
+msgstr "供應商的原始訂單狀態"
+
 msgid "Current price"
 msgstr "市價"
 
@@ -265,6 +259,24 @@ msgstr "連接名稱"
 msgid "The name of connection"
 msgstr "連接的名稱"
 
+msgid "Positions"
+msgstr "倉位"
+
+msgid "Settlement price"
+msgstr "結算價格"
+
+msgid "Unsettled VM"
+msgstr "未結算的虛擬機器"
+
+msgid "Init. margin"
+msgstr "初始保證金"
+
+msgid "Maintenance"
+msgstr "維護"
+
+msgid "Maint. margin"
+msgstr "緬因州。邊緣"
+
 msgid "Close"
 msgstr "關"
 
@@ -295,6 +307,24 @@ msgstr "按帳戶全部反轉"
 msgid "Reverse all positions..."
 msgstr "反轉全部倉位..."
 
+msgid "Are you sure want to close positions by {symbol.Name}?"
+msgstr "確實要通過 {符號關閉倉位嗎？姓名}？"
+
+msgid "Are you sure want to close positions by {account}?"
+msgstr "確實要通過 {帳戶} 平倉嗎？"
+
+msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
+msgstr "確實要反轉 {選擇的位置。我在嗎？"
+
+msgid "Are you sure want to reverse positions by {symbol.Name}?"
+msgstr "確實要通過 {符號反轉倉位嗎？姓名}？"
+
+msgid "Are you sure want to reverse positions by {account}?"
+msgstr "確實要通過 {帳戶} 來沖銷倉位嗎？"
+
+msgid "Modify position #{position.Id} {position.Symbol} {OrderType.GetSLTPComfirmMessage(modifyOrderParameters)} for {position.Account}? "
+msgstr "修改位置 # {位置。{位置。符號} {訂單類型。帳戶}？"
+
 msgid "Close selected positions"
 msgstr "平掉所選倉位"
 
@@ -303,9 +333,6 @@ msgstr "全部平倉"
 
 msgid "Modify position"
 msgstr "修改位置"
-
-msgid "Reverse selected positions"
-msgstr "反轉所選倉位"
 
 msgid "Modification will affect the position closing. Are you sure?"
 msgstr "修改將影響頭寸平倉。"
@@ -360,9 +387,6 @@ msgstr "徹底產品"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "Close all positions and cancel all orders by selected (symbol and account)"
-
-msgid "Positions"
-msgstr "倉位"
 
 msgid "The direction of the position"
 msgstr "位置的方向"

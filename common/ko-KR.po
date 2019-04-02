@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-03-12 12:43+0200\n"
+"POT-Creation-Date: 2019-04-02 11:25+0300\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -312,6 +312,12 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
+
+msgid "VP status: loading..."
+msgstr "VP 상태: 로드 중 ..."
+
+msgid "VP status: no areas."
+msgstr "VP 상태: 영역 없음."
 
 msgid "Black Whale"
 msgstr "흑 고래"
@@ -794,6 +800,48 @@ msgstr "사용자 지정 단계 (틱)"
 msgid "Delta calculation type"
 msgstr "델타 계산 유형"
 
+msgid "Enable"
+msgstr "사용"
+
+msgid "Min trade volume"
+msgstr "최소 거래 수량"
+
+msgid "Max trade volume"
+msgstr "최대 거래량"
+
+msgid "Total volume"
+msgstr "총 부피"
+
+msgid "Time interval, sec"
+msgstr "시간 간격, 초"
+
+msgid "Basis volume interval, sec"
+msgstr "단위 볼륨 간격, 초"
+
+msgid "Zone height, ticks"
+msgstr "영역 높이, 눈금"
+
+msgid "Filter by Delta, %"
+msgstr "델타 별 필터링,%"
+
+msgid "Play alert sound"
+msgstr "경고음 재생"
+
+msgid "Area color"
+msgstr "영역 색상"
+
+msgid "Highlight area color"
+msgstr "영역 색상 강조"
+
+msgid "Show Market depth"
+msgstr "시장 심도 표시"
+
+msgid "Coloring style"
+msgstr "색상 스타일"
+
+msgid "Level2 level count"
+msgstr "Level2 수준 카운트"
+
 msgid "Histogram position"
 msgstr "히스토그램 위치"
 
@@ -952,6 +1000,9 @@ msgstr "줌인"
 
 msgid "Zoom out"
 msgstr "줌아웃"
+
+msgid "Volume path"
+msgstr "볼륨 경로"
 
 msgid "Label colors"
 msgstr "라벨 색상"
@@ -2166,6 +2217,9 @@ msgstr "지위"
 msgid "History Server URL"
 msgstr "히스토리 서버 URL"
 
+msgid "Load user trades history"
+msgstr "사용자 거래 내역 로드"
+
 msgid "API key"
 msgstr "API 키"
 
@@ -2790,6 +2844,9 @@ msgstr "로그인"
 
 msgid "Gateway endpoint"
 msgstr "게이트웨이 엔드포인트"
+
+msgid "Fail to connect"
+msgstr "연결에 실패"
 
 msgid "Access Token"
 msgstr "액세스 토큰"

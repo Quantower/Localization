@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Quantower LLC
+# This file is distributed under the same license as the Quantower package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 15:37+0200\n"
+"Project-Id-Version: Quantower\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2019-04-02 16:31+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,19 +20,16 @@ msgstr ""
 msgid "Show toolbar"
 msgstr ""
 
-msgid "TP"
-msgstr ""
-
-msgid "SL"
-msgstr ""
-
-msgid "ticks"
-msgstr ""
-
 msgid "Remove SL"
 msgstr ""
 
 msgid "Remove TP"
+msgstr ""
+
+msgid "Working orders"
+msgstr ""
+
+msgid "Margin"
 msgstr ""
 
 msgid "Cancel"
@@ -65,19 +62,16 @@ msgstr ""
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr ""
 
-msgid "Close selected orders"
+msgid "Cancel selected orders"
 msgstr ""
 
-msgid "Close all orders"
+msgid "Cancel all orders"
 msgstr ""
 
 msgid "Modify order"
 msgstr ""
 
 msgid "Change to market"
-msgstr ""
-
-msgid "Cancel all orders"
 msgstr ""
 
 msgid "Cancel buy"
@@ -119,9 +113,6 @@ msgstr ""
 msgid "Cancel selected"
 msgstr ""
 
-msgid "Cancel selected orders"
-msgstr ""
-
 msgid "Cancel all orders by selected (symbol + account)"
 msgstr ""
 
@@ -129,9 +120,6 @@ msgid "Modify selected order"
 msgstr ""
 
 msgid "Modify selected orders type to Market"
-msgstr ""
-
-msgid "Working orders"
 msgstr ""
 
 msgid "Account"
@@ -224,6 +212,12 @@ msgstr ""
 msgid "The status of the order"
 msgstr ""
 
+msgid "Original status"
+msgstr ""
+
+msgid "Original order status from vendor"
+msgstr ""
+
 msgid "Current price"
 msgstr ""
 
@@ -266,6 +260,24 @@ msgstr ""
 msgid "The name of connection"
 msgstr ""
 
+msgid "Positions"
+msgstr ""
+
+msgid "Settlement price"
+msgstr ""
+
+msgid "Unsettled VM"
+msgstr ""
+
+msgid "Init. margin"
+msgstr ""
+
+msgid "Maintenance"
+msgstr ""
+
+msgid "Maint. margin"
+msgstr ""
+
 msgid "Close"
 msgstr ""
 
@@ -296,6 +308,26 @@ msgstr ""
 msgid "Reverse all positions..."
 msgstr ""
 
+msgid "Are you sure want to close positions by {symbol.Name}?"
+msgstr ""
+
+msgid "Are you sure want to close positions by {account}?"
+msgstr ""
+
+msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
+msgstr ""
+
+msgid "Are you sure want to reverse positions by {symbol.Name}?"
+msgstr ""
+
+msgid "Are you sure want to reverse positions by {account}?"
+msgstr ""
+
+msgid ""
+"Modify position #{position.Id} {position.Symbol} {OrderType."
+"GetSLTPComfirmMessage(modifyOrderParameters)} for {position.Account}? "
+msgstr ""
+
 msgid "Close selected positions"
 msgstr ""
 
@@ -303,9 +335,6 @@ msgid "Close all positions"
 msgstr ""
 
 msgid "Modify position"
-msgstr ""
-
-msgid "Reverse selected positions"
 msgstr ""
 
 msgid "Modification will affect the position closing. Are you sure?"
@@ -361,9 +390,6 @@ msgstr ""
 
 msgid ""
 "Close all positions and cancel all orders by selected (symbol + account)"
-msgstr ""
-
-msgid "Positions"
 msgstr ""
 
 msgid "The direction of the position"

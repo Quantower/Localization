@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-03-12 12:43+0200\n"
+"POT-Creation-Date: 2019-04-02 11:25+0300\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -312,6 +312,12 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
+
+msgid "VP status: loading..."
+msgstr "VP ステータス: 読み込み中..."
+
+msgid "VP status: no areas."
+msgstr "VP ステータス: エリアなし。"
 
 msgid "Black Whale"
 msgstr "黒鯨"
@@ -794,6 +800,48 @@ msgstr "カスタムステップ (ティック)"
 msgid "Delta calculation type"
 msgstr "デルタ計算タイプ"
 
+msgid "Enable"
+msgstr "有効"
+
+msgid "Min trade volume"
+msgstr "最小取引量"
+
+msgid "Max trade volume"
+msgstr "最大取引量"
+
+msgid "Total volume"
+msgstr "合計出来高"
+
+msgid "Time interval, sec"
+msgstr "時間間隔、秒"
+
+msgid "Basis volume interval, sec"
+msgstr "ベーシス・ボリューム間隔、秒"
+
+msgid "Zone height, ticks"
+msgstr "ゾーンの高さ、ティック"
+
+msgid "Filter by Delta, %"
+msgstr "デルタによるフィルタ,%"
+
+msgid "Play alert sound"
+msgstr "警告音を鳴らす"
+
+msgid "Area color"
+msgstr "エリアの色"
+
+msgid "Highlight area color"
+msgstr "ハイライトエリアの色"
+
+msgid "Show Market depth"
+msgstr "市場の深さを表示"
+
+msgid "Coloring style"
+msgstr "ぬりえスタイル"
+
+msgid "Level2 level count"
+msgstr "レベル2レベルカウント"
+
 msgid "Histogram position"
 msgstr "ヒストグラムの位置"
 
@@ -952,6 +1000,9 @@ msgstr "ズームイン"
 
 msgid "Zoom out"
 msgstr "ズームアウト"
+
+msgid "Volume path"
+msgstr "ボリュームパス"
 
 msgid "Label colors"
 msgstr "ラベル色"
@@ -2166,6 +2217,9 @@ msgstr "状況"
 msgid "History Server URL"
 msgstr "履歴サーバーの URL"
 
+msgid "Load user trades history"
+msgstr "ユーザー取引履歴の読み込み"
+
 msgid "API key"
 msgstr "API キー"
 
@@ -2790,6 +2844,9 @@ msgstr "ログイン"
 
 msgid "Gateway endpoint"
 msgstr "ゲートウェイエンドポイント"
+
+msgid "Fail to connect"
+msgstr "接続できない"
 
 msgid "Access Token"
 msgstr "アクセストークン"
