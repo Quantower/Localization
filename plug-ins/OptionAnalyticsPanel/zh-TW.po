@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 16:11+0300\n"
+"POT-Creation-Date: 2019-06-25 13:06+0300\n"
 "PO-Revision-Date: 2018-12-04 16:21+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: zh-TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Overlay type:"
 msgstr "疊加類型:"
@@ -298,49 +298,6 @@ msgstr "分時交易明細"
 msgid "Symbol info"
 msgstr "商品訊息"
 
-msgid "Overlay"
-msgstr "覆蓋"
-
-msgid "Empty positions list"
-msgstr "空倉位清單"
-
-msgid ""
-"You need to have paper positions\r\n"
-"to see Analyser Chart"
-msgstr ""
-"你需要有紙的位置\r\n"
-"查看分析圖表"
-
-msgid "What if"
-msgstr "如果"
-
-msgid "Line colors"
-msgstr "線條顏色"
-
-msgid "Time value"
-msgstr "時間值"
-
-msgid "Inner value"
-msgstr "內部值"
-
-msgid "Delta"
-msgstr "三角洲"
-
-msgid "Gamma"
-msgstr "伽 瑪"
-
-msgid "Theta"
-msgstr "Θ"
-
-msgid "Vega"
-msgstr "織女星"
-
-msgid "Rho"
-msgstr "Rho"
-
-msgid "Real positions"
-msgstr "真實位置"
-
 msgid "Place"
 msgstr "下單"
 
@@ -349,6 +306,15 @@ msgstr "移除"
 
 msgid "Paper  positions"
 msgstr "紙張位置"
+
+msgid "Long"
+msgstr "做多"
+
+msgid "Short"
+msgstr "短"
+
+msgid "Real positions"
+msgstr "真實位置"
 
 msgid "Account"
 msgstr "帳戶"
@@ -488,11 +454,51 @@ msgstr "時效"
 msgid "IV"
 msgstr "四"
 
+msgid "Delta"
+msgstr "三角洲"
+
+msgid "Gamma"
+msgstr "伽 瑪"
+
+msgid "Theta"
+msgstr "Θ"
+
+msgid "Vega"
+msgstr "織女星"
+
+msgid "Rho"
+msgstr "Rho"
+
 msgid "Days to expire"
 msgstr "過期日期"
 
 msgid "Analyse"
 msgstr "分析"
+
+msgid "Overlay"
+msgstr "覆蓋"
+
+msgid "Empty positions list"
+msgstr "空倉位清單"
+
+msgid ""
+"You need to have paper positions\r\n"
+"to see Analyser Chart"
+msgstr ""
+"你需要有紙的位置\r\n"
+"查看分析圖表"
+
+msgid "What if"
+msgstr "如果"
+
+msgid "Line colors"
+msgstr "線條顏色"
+
+msgid "Time value"
+msgstr "時間值"
+
+msgid "Inner value"
+msgstr "內部值"
 
 #, csharp-format
 msgid "{0}/{1} Series, {2}"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:25+0300\n"
+"POT-Creation-Date: 2019-06-25 11:24+0300\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -187,6 +187,12 @@ msgstr "デモ"
 msgid "Real"
 msgstr "現実"
 
+msgid "SL"
+msgstr "ストップロス"
+
+msgid "TP"
+msgstr "利益確定"
+
 #, csharp-format
 msgid "Data series #{0}"
 msgstr "データ系列 # {0}"
@@ -312,15 +318,6 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
-
-msgid "VP status: loading..."
-msgstr "VP ステータス: 読み込み中..."
-
-msgid "VP status: no areas."
-msgstr "VP ステータス: エリアなし。"
-
-msgid "Black Whale"
-msgstr "黒鯨"
 
 msgid "Volume Impact"
 msgstr "ボリュームへの影響"
@@ -818,8 +815,11 @@ msgstr "時間間隔、秒"
 msgid "Basis volume interval, sec"
 msgstr "ベーシス・ボリューム間隔、秒"
 
-msgid "Zone height, ticks"
-msgstr "ゾーンの高さ、ティック"
+msgid "Max zone height, ticks"
+msgstr "最大ゾーンの高さ、ティック"
+
+msgid "Min zone height, ticks"
+msgstr "分ゾーンの高さ、ティック"
 
 msgid "Filter by Delta, %"
 msgstr "デルタによるフィルタ,%"
@@ -929,6 +929,12 @@ msgstr "追加的"
 msgid "Show scrollbar chart preview"
 msgstr "スクロールバーチャートのプレビューを表示する"
 
+msgid "BUY"
+msgstr "買い"
+
+msgid "SELL"
+msgstr "売り"
+
 msgid "Scale marker"
 msgstr "スケールマーカー"
 
@@ -1001,11 +1007,32 @@ msgstr "ズームイン"
 msgid "Zoom out"
 msgstr "ズームアウト"
 
-msgid "Volume path"
-msgstr "ボリュームパス"
+msgid "Power trades"
+msgstr "電力取引"
 
 msgid "Label colors"
 msgstr "ラベル色"
+
+msgid "Cross"
+msgstr "交差する"
+
+msgid "Cross Above"
+msgstr "上を横切る"
+
+msgid "Cross Below"
+msgstr "下を横切る"
+
+msgid "Cross type"
+msgstr "クロスの種類"
+
+msgid "Disable"
+msgstr "無効"
+
+msgid "After execution"
+msgstr "実行後"
+
+msgid "Alert text"
+msgstr "警告テキスト"
 
 msgid "Ray style"
 msgstr "レイのスタイル"
@@ -1090,12 +1117,6 @@ msgstr "ツールの色"
 
 msgid "Tool color"
 msgstr "ツールの色"
-
-msgid "TP"
-msgstr "利益確定"
-
-msgid "SL"
-msgstr "ストップロス"
 
 msgid "Area colors"
 msgstr "エリアの色"
@@ -1294,6 +1315,9 @@ msgstr "コメント"
 
 msgid "Angled line"
 msgstr "斜め線"
+
+msgid "Alert"
+msgstr "アラート"
 
 msgid "Invalid price"
 msgstr "無効な価格"
@@ -1520,6 +1544,9 @@ msgstr "グリッド価格"
 
 msgid "Toolbar"
 msgstr "ツールバー"
+
+msgid "Quick OE"
+msgstr "注文のクイック・エントリー"
 
 msgid "Refresh"
 msgstr "更新"
@@ -1880,6 +1907,9 @@ msgstr "でグループ化する"
 msgid "Columns visibility"
 msgstr "列の可視性"
 
+msgid "Create panel"
+msgstr "パネルの作成"
+
 msgid "Header text"
 msgstr "ヘッダー・テキスト"
 
@@ -2154,6 +2184,9 @@ msgstr "数量をロットで表示する"
 msgid "Abbreviate volume & ticks"
 msgstr "ボリュームとティックの省略"
 
+msgid "Abbreviate crypto prices"
+msgstr "暗号価格の略称"
+
 msgid "Slippage, ticks"
 msgstr "スリッページ"
 
@@ -2262,56 +2295,20 @@ msgstr "イニシャル・マージン"
 msgid "Minimum margin"
 msgstr "最小マージン"
 
-msgid "FX Majors"
-msgstr "FX 専攻"
+msgid "User name is empty."
+msgstr "ユーザー名が空です。"
 
-msgid "FX Minors"
-msgstr "FX の未成年者"
-
-msgid "FX Crosses"
-msgstr "FX クロス"
-
-msgid "FX Exotic"
-msgstr "FX のエキゾチックな"
-
-msgid "Metals"
-msgstr "金属"
-
-msgid "Oil"
-msgstr "油"
-
-msgid "Indices"
-msgstr "インデックス"
-
-msgid "Futures"
-msgstr "先物"
-
-msgid "Unknown"
-msgstr "不明"
+msgid "Password is empty."
+msgstr "パスワードが空です。"
 
 msgid "Connecting was cancelled"
 msgstr "接続が取り消されました"
-
-msgid "Equity"
-msgstr "エクイティ"
-
-msgid "Free margin"
-msgstr "自由マージン"
-
-msgid "Net P/L"
-msgstr "ネット損益"
-
-msgid "Gross P/L"
-msgstr "グロス損益"
 
 msgid "Open orders"
 msgstr "未処理の注文"
 
 msgid "Open positions"
 msgstr "ポジションをオープンする"
-
-msgid "Account number"
-msgstr "口座番号："
 
 msgid "Account type"
 msgstr "勘定タイプ"
@@ -2324,9 +2321,6 @@ msgstr "レバレッジ"
 
 msgid "Swap free"
 msgstr "スワップ無料"
-
-msgid "Account status"
-msgstr "アカウントの状態"
 
 msgid "Trader account type"
 msgstr "トレーダー勘定タイプ"
@@ -2345,6 +2339,9 @@ msgstr "ショートをスワップする"
 
 msgid "Trading is enabled"
 msgstr "トレーディングが有効"
+
+msgid "Equity"
+msgstr "エクイティ"
 
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "すべての未払いポジションの利益および損失（口座の変動残高）を含む、口座の資金量。"
@@ -2375,6 +2372,9 @@ msgstr "3つのレベル使用可能マージン％"
 
 msgid "Margin call status"
 msgstr "マージンコールステータス"
+
+msgid "Gross P/L"
+msgstr "グロス損益"
 
 msgid "Day P/L"
 msgstr "日P / L"
@@ -2438,6 +2438,9 @@ msgstr "通貨"
 
 msgid "FX Indices"
 msgstr "FX指数"
+
+msgid "Indices"
+msgstr "インデックス"
 
 msgid "Commodities"
 msgstr "コモディティ"
@@ -2640,9 +2643,6 @@ msgstr "データソースの種類"
 msgid "User is empty."
 msgstr "ユーザーが空です。"
 
-msgid "Password is empty."
-msgstr "パスワードが空です。"
-
 msgid "Available to trade"
 msgstr "取引可能"
 
@@ -2785,6 +2785,9 @@ msgstr "最小コミッション"
 msgid "Bonds"
 msgstr "債券"
 
+msgid "Metals"
+msgstr "金属"
+
 msgid "Deposit"
 msgstr "入金"
 
@@ -2838,12 +2841,6 @@ msgstr "現在のマージン"
 
 msgid "Unknown error while connect"
 msgstr "接続中に不明なエラー"
-
-msgid "Login"
-msgstr "ログイン"
-
-msgid "Gateway endpoint"
-msgstr "ゲートウェイエンドポイント"
 
 msgid "Fail to connect"
 msgstr "接続できない"
@@ -2925,6 +2922,9 @@ msgstr "高指数"
 
 msgid "Type"
 msgstr "タイプ"
+
+msgid "Free margin"
+msgstr "自由マージン"
 
 msgid "Maint. margin"
 msgstr "メンテナンス・マージン"

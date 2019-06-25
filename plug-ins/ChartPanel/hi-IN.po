@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:54+0300\n"
+"POT-Creation-Date: 2019-06-25 12:52+0300\n"
 "PO-Revision-Date: 2019-04-02 11:57+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: hi-IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Export to file"
 msgstr "फ़ाइल में निर्यात करें"
@@ -109,6 +109,9 @@ msgstr "ट्रेडों द्वारा रंग"
 msgid "Histogram"
 msgstr "हिस्टोग्राम"
 
+msgid "Enabled"
+msgstr "सक्षम"
+
 msgid "Bids"
 msgstr "बोली"
 
@@ -120,6 +123,57 @@ msgstr "स्तर 2"
 
 msgid "Level changed color"
 msgstr "तर बदला रंग"
+
+msgid "No data to show"
+msgstr "दिखाने के लिए कोई डेटा नहीं"
+
+msgid "Please change the Power Trades settings"
+msgstr "कृपया पावर ट्रेड्स सेटिंग्स परिवर्तित करें"
+
+msgid "Start time"
+msgstr "प्रारंभ समय"
+
+msgid "End time"
+msgstr "समाप्ति समय"
+
+msgid "Total volume"
+msgstr "कुल मात्रा"
+
+msgid "Delta, %"
+msgstr "डेल्टा,%"
+
+msgid "Delta"
+msgstr "डेल्टा"
+
+msgid "Basis ratio, %"
+msgstr "आधार अनुपात,%"
+
+msgid "Basis ratio"
+msgstr "आधार अनुपात"
+
+msgid "Level2 ratio, %"
+msgstr "Level2 अनुपात,%"
+
+msgid "Level2 ratio"
+msgstr "Level2 अनुपात"
+
+msgid "Size bar"
+msgstr "आकार बार"
+
+msgid "Size"
+msgstr "आकार"
+
+msgid "Price"
+msgstr "मूल्य"
+
+msgid "Imbalance"
+msgstr "असंतुलन"
+
+msgid "Imb. bar"
+msgstr "इम्ब. छड़"
+
+msgid "Imbalance bar"
+msgstr "असंतुलन बार"
 
 msgid "Chart"
 msgstr "चार्ट"
@@ -135,6 +189,9 @@ msgstr "इतिहास की गहराई"
 
 msgid "Mouse trading"
 msgstr "माउस ट्रेडिंग"
+
+msgid "Show/Hide Quick OE"
+msgstr "त्वरित OE दिखाएँ/छुपाएँ"
 
 msgid "Mouse trading settings: TIF, Amount"
 msgstr "माउस ट्रेडिंग सेटिंग्स: TIF, राशि"
@@ -162,6 +219,9 @@ msgstr "त्वरित व्यापार टूलबार दिखा
 
 msgid "Show volume analysis toolbar"
 msgstr "वॉल्यूम विश्लेषण उपकरण पट्टी दिखाएं"
+
+msgid "Show Quick OE"
+msgstr "त्वरित OE दिखाएँ"
 
 msgid "Visibility"
 msgstr "दृश्यता"
@@ -370,15 +430,6 @@ msgstr "स्क्रीनशॉट बनाएं"
 msgid "Volume Analysis settings"
 msgstr "वॉल्यूम विश्लेषण सेटिंग्स"
 
-msgid "Size"
-msgstr "आकार"
-
-msgid "Price"
-msgstr "मूल्य"
-
-msgid "Imbalance"
-msgstr "असंतुलन"
-
 msgid "Order Flow Surface"
 msgstr "क्रम प्रवाह पृष् ठ"
 
@@ -387,6 +438,9 @@ msgstr "अंतिम रंग"
 
 msgid "Drawings library"
 msgstr "आरेखण लायब्रेरी"
+
+msgid "Add alert"
+msgstr "चेतावनी जोड़ें"
 
 msgid "Add overlay"
 msgstr "ओवरले जोड़ें"
@@ -418,9 +472,6 @@ msgstr "T&S"
 msgid "Custom profile"
 msgstr "कस्टम प्रोफ़ाइल"
 
-msgid "Volume path"
-msgstr "आयतन पथ"
-
 msgid "Volume Analysis Settings"
 msgstr "वॉल्यूम विश्लेषण सेटिंग्स"
 
@@ -432,42 +483,3 @@ msgstr "समय और बिक्री"
 
 msgid "Custom profile tool"
 msgstr "कस्टम प्रोफ़ाइल उपकरण"
-
-msgid "No data to show"
-msgstr "दिखाने के लिए कोई डेटा नहीं"
-
-msgid "Please change the 'Volume Path' settings"
-msgstr "कृपया ' वॉल्यूम पथ ' सेटिंग्स परिवर्तित करें"
-
-msgid "Start time"
-msgstr "प्रारंभ समय"
-
-msgid "End time"
-msgstr "समाप्ति समय"
-
-msgid "Total volume"
-msgstr "कुल मात्रा"
-
-msgid "Delta, %"
-msgstr "डेल्टा,%"
-
-msgid "Delta"
-msgstr "डेल्टा"
-
-msgid "Basis ratio, %"
-msgstr "आधार अनुपात,%"
-
-msgid "Basis ratio"
-msgstr "आधार अनुपात"
-
-msgid "Level2 ratio, %"
-msgstr "Level2 अनुपात,%"
-
-msgid "Level2 ratio"
-msgstr "Level2 अनुपात"
-
-msgid "Ask/Bid ratio, %"
-msgstr "पूछो/बोली अनुपात,%"
-
-msgid "Ask/Bid ratio"
-msgstr "बोली अनुपात पूछें/"

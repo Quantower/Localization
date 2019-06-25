@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 17:12+0300\n"
+"POT-Creation-Date: 2019-06-25 13:41+0300\n"
 "PO-Revision-Date: 2018-12-05 11:36+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: ru-RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "You should setup at least one leg to create"
 msgstr "Для создания синтетика добавьте хотя бы одну ногу"
@@ -22,17 +22,23 @@ msgstr "Для создания синтетика добавьте хотя б�
 msgid "Coefficient cannot be zero"
 msgstr "Коэффициент не может быть равен нулю"
 
+msgid "Trade ratio cannot be zero"
+msgstr "Коэффициент торговли не может быть нулевым"
+
 msgid "Symbols must be unique"
 msgstr "Символы должны быть уникальными"
 
 msgid "No changes made"
 msgstr "Никаких изменений не было сделано"
 
+msgid "Trade ratio"
+msgstr "Коэффициент торговли"
+
 msgid "Symbol"
 msgstr "Символ"
 
-msgid "Coefficient"
-msgstr "Коэффициент"
+msgid "Price multiplier"
+msgstr "Множитель цен"
 
 msgid "Bid"
 msgstr "Бид"

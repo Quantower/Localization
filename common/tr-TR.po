@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:25+0300\n"
+"POT-Creation-Date: 2019-06-25 11:24+0300\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -187,6 +187,12 @@ msgstr "Demo"
 msgid "Real"
 msgstr "Gerçek"
 
+msgid "SL"
+msgstr "SL"
+
+msgid "TP"
+msgstr "TP"
+
 #, csharp-format
 msgid "Data series #{0}"
 msgstr "Veri serisi # {0}"
@@ -312,15 +318,6 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
-
-msgid "VP status: loading..."
-msgstr "VP durumu: yükleme..."
-
-msgid "VP status: no areas."
-msgstr "VP durumu: alan yok."
-
-msgid "Black Whale"
-msgstr "Siyah balina"
 
 msgid "Volume Impact"
 msgstr "Hacim etkisi"
@@ -818,8 +815,11 @@ msgstr "Zaman aralığı, sn"
 msgid "Basis volume interval, sec"
 msgstr "Temel hacim aralığı, sn"
 
-msgid "Zone height, ticks"
-msgstr "Bölge yüksekliği, ticks"
+msgid "Max zone height, ticks"
+msgstr "Maksimum bölge yüksekliği, ticks"
+
+msgid "Min zone height, ticks"
+msgstr "Min bölge yüksekliği, ticks"
 
 msgid "Filter by Delta, %"
 msgstr "Delta tarafından filtre,%"
@@ -929,6 +929,12 @@ msgstr "Ek"
 msgid "Show scrollbar chart preview"
 msgstr "Scrollbar grafik önizlemesini göster"
 
+msgid "BUY"
+msgstr "SATIN AL"
+
+msgid "SELL"
+msgstr "SAT"
+
 msgid "Scale marker"
 msgstr "Ölçek işaretçisi"
 
@@ -1001,11 +1007,32 @@ msgstr "Yakınlaştır"
 msgid "Zoom out"
 msgstr "Uzaklaştır"
 
-msgid "Volume path"
-msgstr "Ses düzeyi yolu"
+msgid "Power trades"
+msgstr "Güç ticareti"
 
 msgid "Label colors"
 msgstr "Etiket renkleri"
+
+msgid "Cross"
+msgstr "Çapraz"
+
+msgid "Cross Above"
+msgstr "Yukarıda Cross"
+
+msgid "Cross Below"
+msgstr "Aşağıda Cross"
+
+msgid "Cross type"
+msgstr "Çapraz türü"
+
+msgid "Disable"
+msgstr "Devre dışı bırak"
+
+msgid "After execution"
+msgstr "Yürütmeden sonra"
+
+msgid "Alert text"
+msgstr "Uyarı metni"
 
 msgid "Ray style"
 msgstr "Doğru stili"
@@ -1090,12 +1117,6 @@ msgstr "Takım renkleri"
 
 msgid "Tool color"
 msgstr "Takım rengi"
-
-msgid "TP"
-msgstr "TP"
-
-msgid "SL"
-msgstr "SL"
 
 msgid "Area colors"
 msgstr "Alan renkleri"
@@ -1294,6 +1315,9 @@ msgstr "Yorum"
 
 msgid "Angled line"
 msgstr "Açılı çizgi"
+
+msgid "Alert"
+msgstr "Uyarı"
 
 msgid "Invalid price"
 msgstr "Geçersiz fiyat"
@@ -1520,6 +1544,9 @@ msgstr "Grid fiyatı"
 
 msgid "Toolbar"
 msgstr "Araç çubuğu"
+
+msgid "Quick OE"
+msgstr "Hızlı OE"
 
 msgid "Refresh"
 msgstr "Yenile"
@@ -1880,6 +1907,9 @@ msgstr "Grupla"
 msgid "Columns visibility"
 msgstr "Sütun görünürlüğü"
 
+msgid "Create panel"
+msgstr "Panel oluştur"
+
 msgid "Header text"
 msgstr "Başlık metni"
 
@@ -2154,6 +2184,9 @@ msgstr "Miktarı lot olarak göster"
 msgid "Abbreviate volume & ticks"
 msgstr "Hacim ve Ticks kısaltmak"
 
+msgid "Abbreviate crypto prices"
+msgstr "Kripto fiyatlarını kısaltmak"
+
 msgid "Slippage, ticks"
 msgstr "Kayma"
 
@@ -2262,56 +2295,20 @@ msgstr "Başlangıç marjı"
 msgid "Minimum margin"
 msgstr "Minimum kenar boşluğu"
 
-msgid "FX Majors"
-msgstr "FX Majors"
+msgid "User name is empty."
+msgstr "Kullanıcı adı boştur."
 
-msgid "FX Minors"
-msgstr "FX reşit olmayanlar"
-
-msgid "FX Crosses"
-msgstr "FX haç"
-
-msgid "FX Exotic"
-msgstr "FX egzotik"
-
-msgid "Metals"
-msgstr "madenler"
-
-msgid "Oil"
-msgstr "Mi."
-
-msgid "Indices"
-msgstr "Endeksler"
-
-msgid "Futures"
-msgstr "Vadeli işlemler"
-
-msgid "Unknown"
-msgstr "Bilinmiyor"
+msgid "Password is empty."
+msgstr "Parola boştur."
 
 msgid "Connecting was cancelled"
 msgstr "Bağlanma iptal edildi"
-
-msgid "Equity"
-msgstr "Özsermaye"
-
-msgid "Free margin"
-msgstr "Ücretsiz kenar boşluğu"
-
-msgid "Net P/L"
-msgstr "Net K/Z"
-
-msgid "Gross P/L"
-msgstr "Brüt K/Z"
 
 msgid "Open orders"
 msgstr "Siparişleri Aç"
 
 msgid "Open positions"
 msgstr "Açık pozisyonlar"
-
-msgid "Account number"
-msgstr "Hesap No:"
 
 msgid "Account type"
 msgstr "Hesap türü"
@@ -2324,9 +2321,6 @@ msgstr "Kaldıraç"
 
 msgid "Swap free"
 msgstr "Swap ücretsiz"
-
-msgid "Account status"
-msgstr "Hesap durumu"
 
 msgid "Trader account type"
 msgstr "Trader hesap türü"
@@ -2345,6 +2339,9 @@ msgstr "Kısa pozisyon takası"
 
 msgid "Trading is enabled"
 msgstr "Ticaret etkindir"
+
+msgid "Equity"
+msgstr "Özsermaye"
 
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "Tüm açık pozisyonların karı ve zararı dahil olmak üzere hesaptaki fon tutarı (hesabın kayan bakiyesi)."
@@ -2375,6 +2372,9 @@ msgstr "Üç seviye Kullanılabilir marjı,%"
 
 msgid "Margin call status"
 msgstr "Marj çağrı durumu"
+
+msgid "Gross P/L"
+msgstr "Brüt K/Z"
 
 msgid "Day P/L"
 msgstr "Gün P / L"
@@ -2438,6 +2438,9 @@ msgstr "Kurlar"
 
 msgid "FX Indices"
 msgstr "Döviz Endeksleri"
+
+msgid "Indices"
+msgstr "Endeksler"
 
 msgid "Commodities"
 msgstr "Emtia"
@@ -2640,9 +2643,6 @@ msgstr "Veri kaynağı türü"
 msgid "User is empty."
 msgstr "Kullanıcı boştur."
 
-msgid "Password is empty."
-msgstr "Parola boştur."
-
 msgid "Available to trade"
 msgstr "Ticaret için kullanılabilir"
 
@@ -2785,6 +2785,9 @@ msgstr "Minimum komisyon"
 msgid "Bonds"
 msgstr "tahviller"
 
+msgid "Metals"
+msgstr "madenler"
+
 msgid "Deposit"
 msgstr "Yatır"
 
@@ -2838,12 +2841,6 @@ msgstr "Mevcut marj"
 
 msgid "Unknown error while connect"
 msgstr "Bağlantı sırasında bilinmeyen hata"
-
-msgid "Login"
-msgstr "Kullanıcı adı"
-
-msgid "Gateway endpoint"
-msgstr "Ağ Geçidi bitiş noktası"
 
 msgid "Fail to connect"
 msgstr "Bağlanma başarısız"
@@ -2925,6 +2922,9 @@ msgstr "Yüksek endeks"
 
 msgid "Type"
 msgstr "Tür"
+
+msgid "Free margin"
+msgstr "Ücretsiz kenar boşluğu"
 
 msgid "Maint. margin"
 msgstr "Sürdürme marjı"

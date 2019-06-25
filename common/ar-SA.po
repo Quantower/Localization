@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:25+0300\n"
+"POT-Creation-Date: 2019-06-25 11:24+0300\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -187,6 +187,12 @@ msgstr "تجريبي"
 msgid "Real"
 msgstr "حقيقي"
 
+msgid "SL"
+msgstr "إيقاف الخسارة"
+
+msgid "TP"
+msgstr "أخذ الربح"
+
 #, csharp-format
 msgid "Data series #{0}"
 msgstr "سلسله البيانات # {0}"
@@ -312,15 +318,6 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
-
-msgid "VP status: loading..."
-msgstr "حاله نائب الرئيس: التحميل..."
-
-msgid "VP status: no areas."
-msgstr "حاله نائب الرئيس: لا مجالات."
-
-msgid "Black Whale"
-msgstr "الحوت الأسود"
 
 msgid "Volume Impact"
 msgstr "تاثير الصوت"
@@ -818,8 +815,11 @@ msgstr "الفاصل الزمني ، ثانيه"
 msgid "Basis volume interval, sec"
 msgstr "الفاصل الزمني لحجم الأساس ، الثانية"
 
-msgid "Zone height, ticks"
-msgstr "ارتفاع المنطقة ، القراد"
+msgid "Max zone height, ticks"
+msgstr "أقصى ارتفاع المنطقة، القراد"
+
+msgid "Min zone height, ticks"
+msgstr "ارتفاع منطقة الحد الأدنى، القراد"
 
 msgid "Filter by Delta, %"
 msgstr "تصفيه بواسطة دلتا ،%"
@@ -929,6 +929,12 @@ msgstr "إضافي"
 msgid "Show scrollbar chart preview"
 msgstr "إظهار معاينة مخطط التمرير"
 
+msgid "BUY"
+msgstr "شراء"
+
+msgid "SELL"
+msgstr "بيع"
+
 msgid "Scale marker"
 msgstr "مظلل المقياس"
 
@@ -1001,11 +1007,32 @@ msgstr "تكبير"
 msgid "Zoom out"
 msgstr "تصغير"
 
-msgid "Volume path"
-msgstr "مسار وحده التخزين"
+msgid "Power trades"
+msgstr "صفقات الطاقة"
 
 msgid "Label colors"
 msgstr "ألوان الفراغات"
+
+msgid "Cross"
+msgstr "تقاطع"
+
+msgid "Cross Above"
+msgstr "الصليب أعلاه"
+
+msgid "Cross Below"
+msgstr "عبر أدناه"
+
+msgid "Cross type"
+msgstr "نوع التقاطع"
+
+msgid "Disable"
+msgstr "تعطيل"
+
+msgid "After execution"
+msgstr "بعد التنفيذ"
+
+msgid "Alert text"
+msgstr "نص التنبيه"
 
 msgid "Ray style"
 msgstr "نمط الاشعاع"
@@ -1090,12 +1117,6 @@ msgstr "أداه ألوان"
 
 msgid "Tool color"
 msgstr "لون الأداة"
-
-msgid "TP"
-msgstr "أخذ الربح"
-
-msgid "SL"
-msgstr "إيقاف الخسارة"
 
 msgid "Area colors"
 msgstr "ألوان المنطقة"
@@ -1294,6 +1315,9 @@ msgstr "تعليق"
 
 msgid "Angled line"
 msgstr "خط زاوية"
+
+msgid "Alert"
+msgstr "تنبيه"
 
 msgid "Invalid price"
 msgstr "سعر غير صحيح"
@@ -1520,6 +1544,9 @@ msgstr "شبكة السعر"
 
 msgid "Toolbar"
 msgstr "شريط الأدوات"
+
+msgid "Quick OE"
+msgstr "مدخل أوامر سريع"
 
 msgid "Refresh"
 msgstr "تحديث"
@@ -1880,6 +1907,9 @@ msgstr "جمع بحسب"
 msgid "Columns visibility"
 msgstr "رؤية الأعمدة"
 
+msgid "Create panel"
+msgstr "إنشاء لوحة"
+
 msgid "Header text"
 msgstr "نص العنوان"
 
@@ -2154,6 +2184,9 @@ msgstr "عرض العدد بالحصص"
 msgid "Abbreviate volume & ticks"
 msgstr "اختصار الحجم والقراد"
 
+msgid "Abbreviate crypto prices"
+msgstr "أسعار التشفير المختصرة"
+
 msgid "Slippage, ticks"
 msgstr "فرق السعر"
 
@@ -2262,56 +2295,20 @@ msgstr "الهامش المبدئي"
 msgid "Minimum margin"
 msgstr "الحد الأدنى للهامش"
 
-msgid "FX Majors"
-msgstr "العملات الاساسية"
+msgid "User name is empty."
+msgstr "اسم المستخدم فارغ."
 
-msgid "FX Minors"
-msgstr "العملات الثانوية "
-
-msgid "FX Crosses"
-msgstr "تعارض و تقابل العملات"
-
-msgid "FX Exotic"
-msgstr "FX النادرة"
-
-msgid "Metals"
-msgstr "المعادن"
-
-msgid "Oil"
-msgstr "النفط."
-
-msgid "Indices"
-msgstr "المؤشرات"
-
-msgid "Futures"
-msgstr "العقود المستقبلية"
-
-msgid "Unknown"
-msgstr "غير معروف"
+msgid "Password is empty."
+msgstr "كلمه المرور فارغه."
 
 msgid "Connecting was cancelled"
 msgstr "تم إلغاء الاتصال"
-
-msgid "Equity"
-msgstr "الأسهم"
-
-msgid "Free margin"
-msgstr "هامش حر"
-
-msgid "Net P/L"
-msgstr "صافي ر/خ"
-
-msgid "Gross P/L"
-msgstr "إجمالي ر/خ"
 
 msgid "Open orders"
 msgstr "أوامر مفتوحة"
 
 msgid "Open positions"
 msgstr "المراكز المفتوحة"
-
-msgid "Account number"
-msgstr "Account number:"
 
 msgid "Account type"
 msgstr "نوع الحساب"
@@ -2324,9 +2321,6 @@ msgstr "قوة الرفع"
 
 msgid "Swap free"
 msgstr "مبادله مجانا"
-
-msgid "Account status"
-msgstr "حاله الحساب"
 
 msgid "Trader account type"
 msgstr "نوع حساب المتداول"
@@ -2345,6 +2339,9 @@ msgstr "مبادلة قصيرة"
 
 msgid "Trading is enabled"
 msgstr "يتم تمكين التداول"
+
+msgid "Equity"
+msgstr "الأسهم"
 
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "مبلغ الأموال في الحساب ، بما في ذلك الأرباح والخسائر لجميع المراكز المفتوحة (الرصيد العائم للحساب)."
@@ -2375,6 +2372,9 @@ msgstr "ثلاثة مستويات هامش قابل للاستخدام ،٪"
 
 msgid "Margin call status"
 msgstr "حالة نداء الهامش"
+
+msgid "Gross P/L"
+msgstr "إجمالي ر/خ"
 
 msgid "Day P/L"
 msgstr "يوم P / L"
@@ -2438,6 +2438,9 @@ msgstr "العملات"
 
 msgid "FX Indices"
 msgstr "مؤشرات الفوركس"
+
+msgid "Indices"
+msgstr "المؤشرات"
 
 msgid "Commodities"
 msgstr "السلع"
@@ -2640,9 +2643,6 @@ msgstr "نوع مصدر البيانات"
 msgid "User is empty."
 msgstr "المستخدم فارغ."
 
-msgid "Password is empty."
-msgstr "كلمه المرور فارغه."
-
 msgid "Available to trade"
 msgstr "متاح للتداول"
 
@@ -2785,6 +2785,9 @@ msgstr "الحد الأدنى من comission"
 msgid "Bonds"
 msgstr "الربط"
 
+msgid "Metals"
+msgstr "المعادن"
+
 msgid "Deposit"
 msgstr "الإيداع"
 
@@ -2838,12 +2841,6 @@ msgstr "الهامش الحالي"
 
 msgid "Unknown error while connect"
 msgstr "خطا غير معروف اثناء الاتصال"
-
-msgid "Login"
-msgstr "اسم المستخدم"
-
-msgid "Gateway endpoint"
-msgstr "نقطه نهاية العبارة"
 
 msgid "Fail to connect"
 msgstr "فشل في الاتصال"
@@ -2925,6 +2922,9 @@ msgstr "المؤشر العالي"
 
 msgid "Type"
 msgstr "النوع"
+
+msgid "Free margin"
+msgstr "هامش حر"
 
 msgid "Maint. margin"
 msgstr "هامش الوقاية"

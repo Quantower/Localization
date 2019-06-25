@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:54+0300\n"
+"POT-Creation-Date: 2019-06-25 12:52+0300\n"
 "PO-Revision-Date: 2018-12-04 15:06+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -109,6 +109,9 @@ msgstr "トレードで着色"
 msgid "Histogram"
 msgstr "ヒストグラム"
 
+msgid "Enabled"
+msgstr "有効"
+
 msgid "Bids"
 msgstr "Bid"
 
@@ -120,6 +123,57 @@ msgstr "レベル2"
 
 msgid "Level changed color"
 msgstr "レベル変更色"
+
+msgid "No data to show"
+msgstr "表示するデータがありません"
+
+msgid "Please change the Power Trades settings"
+msgstr "電源取引の設定を変更してください"
+
+msgid "Start time"
+msgstr "開始時間"
+
+msgid "End time"
+msgstr "終了時間"
+
+msgid "Total volume"
+msgstr "合計出来高"
+
+msgid "Delta, %"
+msgstr "デルタ（％）"
+
+msgid "Delta"
+msgstr "デルタ"
+
+msgid "Basis ratio, %"
+msgstr "基準率、%"
+
+msgid "Basis ratio"
+msgstr "基準比率"
+
+msgid "Level2 ratio, %"
+msgstr "レベル2率、%"
+
+msgid "Level2 ratio"
+msgstr "レベル2比"
+
+msgid "Size bar"
+msgstr "サイズバー"
+
+msgid "Size"
+msgstr "サイズ"
+
+msgid "Price"
+msgstr "価格"
+
+msgid "Imbalance"
+msgstr "不均衡"
+
+msgid "Imb. bar"
+msgstr "Imb。バー"
+
+msgid "Imbalance bar"
+msgstr "不均衡バー"
 
 msgid "Chart"
 msgstr "チャート"
@@ -135,6 +189,9 @@ msgstr "歴史の深さ"
 
 msgid "Mouse trading"
 msgstr "マウス取引"
+
+msgid "Show/Hide Quick OE"
+msgstr "クイック OE の表示/非表示"
 
 msgid "Mouse trading settings: TIF, Amount"
 msgstr "マウストレーディング設定: TIF、金額"
@@ -162,6 +219,9 @@ msgstr "クイックトレードツールバーを表示する"
 
 msgid "Show volume analysis toolbar"
 msgstr "[ボリューム分析] ツールバーの表示"
+
+msgid "Show Quick OE"
+msgstr "クイック OE を表示"
 
 msgid "Visibility"
 msgstr "可視性"
@@ -370,15 +430,6 @@ msgstr "画面を保存する"
 msgid "Volume Analysis settings"
 msgstr "ボリューム分析の設定"
 
-msgid "Size"
-msgstr "サイズ"
-
-msgid "Price"
-msgstr "価格"
-
-msgid "Imbalance"
-msgstr "不均衡"
-
 msgid "Order Flow Surface"
 msgstr "オーダフローサーフェス"
 
@@ -387,6 +438,9 @@ msgstr "最後の色"
 
 msgid "Drawings library"
 msgstr "図面ライブラリ"
+
+msgid "Add alert"
+msgstr "アラートの追加"
 
 msgid "Add overlay"
 msgstr "オーバーレイを追加する"
@@ -418,9 +472,6 @@ msgstr "T&S"
 msgid "Custom profile"
 msgstr "カスタムプロファイル"
 
-msgid "Volume path"
-msgstr "ボリュームパス"
-
 msgid "Volume Analysis Settings"
 msgstr "ボリューム分析の設定"
 
@@ -432,42 +483,3 @@ msgstr "時間と売上"
 
 msgid "Custom profile tool"
 msgstr "カスタムプロファイルツール"
-
-msgid "No data to show"
-msgstr "表示するデータがありません"
-
-msgid "Please change the 'Volume Path' settings"
-msgstr "' ボリュームパス ' の設定を変更してください"
-
-msgid "Start time"
-msgstr "開始時間"
-
-msgid "End time"
-msgstr "終了時間"
-
-msgid "Total volume"
-msgstr "合計出来高"
-
-msgid "Delta, %"
-msgstr "デルタ（％）"
-
-msgid "Delta"
-msgstr "デルタ"
-
-msgid "Basis ratio, %"
-msgstr "基準率、%"
-
-msgid "Basis ratio"
-msgstr "基準比率"
-
-msgid "Level2 ratio, %"
-msgstr "レベル2率、%"
-
-msgid "Level2 ratio"
-msgstr "レベル2比"
-
-msgid "Ask/Bid ratio, %"
-msgstr "アスク/ビッド率、%"
-
-msgid "Ask/Bid ratio"
-msgstr "Ask/ビッドレシオ"

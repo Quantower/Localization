@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:25+0300\n"
+"POT-Creation-Date: 2019-06-25 11:24+0300\n"
 "PO-Revision-Date: 2018-12-04 16:03+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -187,6 +187,12 @@ msgstr "Демо"
 msgid "Real"
 msgstr "Реальні"
 
+msgid "SL"
+msgstr "SL"
+
+msgid "TP"
+msgstr "ТП"
+
 #, csharp-format
 msgid "Data series #{0}"
 msgstr "Серія даних # {0}"
@@ -312,15 +318,6 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
-
-msgid "VP status: loading..."
-msgstr "VP статус: завантаження..."
-
-msgid "VP status: no areas."
-msgstr "VP статус: немає областей."
-
-msgid "Black Whale"
-msgstr "Чорний кит"
 
 msgid "Volume Impact"
 msgstr "Об'ємний вплив"
@@ -818,8 +815,11 @@ msgstr "Інтервал часу, сек"
 msgid "Basis volume interval, sec"
 msgstr "Базиальний інтервал, сек"
 
-msgid "Zone height, ticks"
-msgstr "Висота зони, кліщі"
+msgid "Max zone height, ticks"
+msgstr "Максимальна висота зони, кліщі"
+
+msgid "Min zone height, ticks"
+msgstr "Мінімальна висота зони, кліщі"
 
 msgid "Filter by Delta, %"
 msgstr "Фільтрувати за дельтою,%"
@@ -929,6 +929,12 @@ msgstr "Додатково"
 msgid "Show scrollbar chart preview"
 msgstr "Показує діаграму лінії прокрутки"
 
+msgid "BUY"
+msgstr "Купити"
+
+msgid "SELL"
+msgstr "Продаємо"
+
 msgid "Scale marker"
 msgstr "Маркер масштабу"
 
@@ -1001,11 +1007,32 @@ msgstr "Збільшувати"
 msgid "Zoom out"
 msgstr "Зменшення"
 
-msgid "Volume path"
-msgstr "Об'ємний контур"
+msgid "Power trades"
+msgstr "Влади торгів"
 
 msgid "Label colors"
 msgstr "Наклейки кольорів"
+
+msgid "Cross"
+msgstr "Хрест"
+
+msgid "Cross Above"
+msgstr "Хрест над"
+
+msgid "Cross Below"
+msgstr "Хреста нижче"
+
+msgid "Cross type"
+msgstr "Тип Хреста"
+
+msgid "Disable"
+msgstr "Вимкнути"
+
+msgid "After execution"
+msgstr "Після виконання"
+
+msgid "Alert text"
+msgstr "Оповіщати текст"
 
 msgid "Ray style"
 msgstr "Ray стиль"
@@ -1090,12 +1117,6 @@ msgstr "Кольори інструментів"
 
 msgid "Tool color"
 msgstr "Колір інструменту"
-
-msgid "TP"
-msgstr "ТП"
-
-msgid "SL"
-msgstr "SL"
 
 msgid "Area colors"
 msgstr "Площа кольорів"
@@ -1294,6 +1315,9 @@ msgstr "Коментар"
 
 msgid "Angled line"
 msgstr "Кутові лінії"
+
+msgid "Alert"
+msgstr "Оповіщення"
 
 msgid "Invalid price"
 msgstr "Недійсна ціна"
@@ -1520,6 +1544,9 @@ msgstr "Сітка ціна"
 
 msgid "Toolbar"
 msgstr "Панелі інструментів"
+
+msgid "Quick OE"
+msgstr "Швидкий е"
 
 msgid "Refresh"
 msgstr "Оновити"
@@ -1880,6 +1907,9 @@ msgstr "Згрупувати по"
 msgid "Columns visibility"
 msgstr "Видимість стовпців"
 
+msgid "Create panel"
+msgstr "Панель \"створити\""
+
 msgid "Header text"
 msgstr "Текст заголовка"
 
@@ -2154,6 +2184,9 @@ msgstr "Відображення кількості у великій кільк
 msgid "Abbreviate volume & ticks"
 msgstr "Скорочувати гучність & кліщі"
 
+msgid "Abbreviate crypto prices"
+msgstr "Скорочувати криптографічного ціни"
+
 msgid "Slippage, ticks"
 msgstr "Прослизання, кліщі"
 
@@ -2262,56 +2295,20 @@ msgstr "Початкове поле"
 msgid "Minimum margin"
 msgstr "Мінімальне поле"
 
-msgid "FX Majors"
-msgstr "FX спеціальності"
+msgid "User name is empty."
+msgstr "Ім'я користувача пусте."
 
-msgid "FX Minors"
-msgstr "FX неповнолітніх"
-
-msgid "FX Crosses"
-msgstr "FX хрести"
-
-msgid "FX Exotic"
-msgstr "FX екзотичні"
-
-msgid "Metals"
-msgstr "Метали"
-
-msgid "Oil"
-msgstr "Олія"
-
-msgid "Indices"
-msgstr "Індекси"
-
-msgid "Futures"
-msgstr "Ф'ючерси"
-
-msgid "Unknown"
-msgstr "Невідомий"
+msgid "Password is empty."
+msgstr "Пароль пустий."
 
 msgid "Connecting was cancelled"
 msgstr "Підключення було скасовано"
-
-msgid "Equity"
-msgstr "Власний капітал"
-
-msgid "Free margin"
-msgstr "Вільні різниці"
-
-msgid "Net P/L"
-msgstr "Net P/L"
-
-msgid "Gross P/L"
-msgstr "Валовий П/З"
 
 msgid "Open orders"
 msgstr "Відкриті замовлення"
 
 msgid "Open positions"
 msgstr "Відкриті пости"
-
-msgid "Account number"
-msgstr "Кількість рахунків:"
 
 msgid "Account type"
 msgstr "Тип облікового запису"
@@ -2324,9 +2321,6 @@ msgstr "Використовувати"
 
 msgid "Swap free"
 msgstr "Своп безкоштовні"
-
-msgid "Account status"
-msgstr "Стан рахунку"
 
 msgid "Trader account type"
 msgstr "Тип рахунку трейдера"
@@ -2345,6 +2339,9 @@ msgstr "Своп коротких"
 
 msgid "Trading is enabled"
 msgstr "Торгівля включена"
+
+msgid "Equity"
+msgstr "Власний капітал"
 
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "Розмір коштів на рахунку, включаючи прибутки та збитки всіх відкритих позицій (плаваючий баланс рахунку)."
@@ -2375,6 +2372,9 @@ msgstr "Придатна трирівнева маржа,%"
 
 msgid "Margin call status"
 msgstr "Статус маржин-колл"
+
+msgid "Gross P/L"
+msgstr "Валовий П/З"
 
 msgid "Day P/L"
 msgstr "П/З за день"
@@ -2438,6 +2438,9 @@ msgstr "Валюти"
 
 msgid "FX Indices"
 msgstr "Індекси FX"
+
+msgid "Indices"
+msgstr "Індекси"
 
 msgid "Commodities"
 msgstr "Товари"
@@ -2640,9 +2643,6 @@ msgstr "Тип джерела даних"
 msgid "User is empty."
 msgstr "Користувач пустий."
 
-msgid "Password is empty."
-msgstr "Пароль пустий."
-
 msgid "Available to trade"
 msgstr "Доступно для торгівлі"
 
@@ -2785,6 +2785,9 @@ msgstr "Мінімальна комісія"
 msgid "Bonds"
 msgstr "Облігації"
 
+msgid "Metals"
+msgstr "Метали"
+
 msgid "Deposit"
 msgstr "Депозит"
 
@@ -2838,12 +2841,6 @@ msgstr "Поточне поле"
 
 msgid "Unknown error while connect"
 msgstr "Невідома помилка під час підключення"
-
-msgid "Login"
-msgstr "Логін"
-
-msgid "Gateway endpoint"
-msgstr "Кінцева точка шлюзу"
 
 msgid "Fail to connect"
 msgstr "Не вдалося підключитися"
@@ -2925,6 +2922,9 @@ msgstr "Високий індекс"
 
 msgid "Type"
 msgstr "Тип"
+
+msgid "Free margin"
+msgstr "Вільні різниці"
 
 msgid "Maint. margin"
 msgstr "Maint. Полі"

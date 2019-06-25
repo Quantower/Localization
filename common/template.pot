@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:25+0300\n"
+"POT-Creation-Date: 2019-06-25 11:41+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -188,6 +188,12 @@ msgstr ""
 msgid "Real"
 msgstr ""
 
+msgid "SL"
+msgstr ""
+
+msgid "TP"
+msgstr ""
+
 #, csharp-format
 msgid "Data series #{0}"
 msgstr ""
@@ -312,15 +318,6 @@ msgid "<"
 msgstr ""
 
 msgid "<="
-msgstr ""
-
-msgid "VP status: loading..."
-msgstr ""
-
-msgid "VP status: no areas."
-msgstr ""
-
-msgid "Black Whale"
 msgstr ""
 
 msgid "Volume Impact"
@@ -819,7 +816,10 @@ msgstr ""
 msgid "Basis volume interval, sec"
 msgstr ""
 
-msgid "Zone height, ticks"
+msgid "Max zone height, ticks"
+msgstr ""
+
+msgid "Min zone height, ticks"
 msgstr ""
 
 msgid "Filter by Delta, %"
@@ -930,6 +930,12 @@ msgstr ""
 msgid "Show scrollbar chart preview"
 msgstr ""
 
+msgid "BUY"
+msgstr ""
+
+msgid "SELL"
+msgstr ""
+
 msgid "Scale marker"
 msgstr ""
 
@@ -1002,10 +1008,31 @@ msgstr ""
 msgid "Zoom out"
 msgstr ""
 
-msgid "Volume path"
+msgid "Power trades"
 msgstr ""
 
 msgid "Label colors"
+msgstr ""
+
+msgid "Cross"
+msgstr ""
+
+msgid "Cross Above"
+msgstr ""
+
+msgid "Cross Below"
+msgstr ""
+
+msgid "Cross type"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "After execution"
+msgstr ""
+
+msgid "Alert text"
 msgstr ""
 
 msgid "Ray style"
@@ -1090,12 +1117,6 @@ msgid "Tool colors"
 msgstr ""
 
 msgid "Tool color"
-msgstr ""
-
-msgid "TP"
-msgstr ""
-
-msgid "SL"
 msgstr ""
 
 msgid "Area colors"
@@ -1294,6 +1315,9 @@ msgid "Comment"
 msgstr ""
 
 msgid "Angled line"
+msgstr ""
+
+msgid "Alert"
 msgstr ""
 
 msgid "Invalid price"
@@ -1520,6 +1544,9 @@ msgid "Grid price"
 msgstr ""
 
 msgid "Toolbar"
+msgstr ""
+
+msgid "Quick OE"
 msgstr ""
 
 msgid "Refresh"
@@ -1881,6 +1908,9 @@ msgstr ""
 msgid "Columns visibility"
 msgstr ""
 
+msgid "Create panel"
+msgstr ""
+
 msgid "Header text"
 msgstr ""
 
@@ -2156,6 +2186,9 @@ msgstr ""
 msgid "Abbreviate volume & ticks"
 msgstr ""
 
+msgid "Abbreviate crypto prices"
+msgstr ""
+
 msgid "Slippage, ticks"
 msgstr ""
 
@@ -2264,55 +2297,19 @@ msgstr ""
 msgid "Minimum margin"
 msgstr ""
 
-msgid "FX Majors"
+msgid "User name is empty."
 msgstr ""
 
-msgid "FX Minors"
-msgstr ""
-
-msgid "FX Crosses"
-msgstr ""
-
-msgid "FX Exotic"
-msgstr ""
-
-msgid "Metals"
-msgstr ""
-
-msgid "Oil"
-msgstr ""
-
-msgid "Indices"
-msgstr ""
-
-msgid "Futures"
-msgstr ""
-
-msgid "Unknown"
+msgid "Password is empty."
 msgstr ""
 
 msgid "Connecting was cancelled"
-msgstr ""
-
-msgid "Equity"
-msgstr ""
-
-msgid "Free margin"
-msgstr ""
-
-msgid "Net P/L"
-msgstr ""
-
-msgid "Gross P/L"
 msgstr ""
 
 msgid "Open orders"
 msgstr ""
 
 msgid "Open positions"
-msgstr ""
-
-msgid "Account number"
 msgstr ""
 
 msgid "Account type"
@@ -2325,9 +2322,6 @@ msgid "Leverage"
 msgstr ""
 
 msgid "Swap free"
-msgstr ""
-
-msgid "Account status"
 msgstr ""
 
 msgid "Trader account type"
@@ -2346,6 +2340,9 @@ msgid "Swap short"
 msgstr ""
 
 msgid "Trading is enabled"
+msgstr ""
+
+msgid "Equity"
 msgstr ""
 
 msgid ""
@@ -2380,6 +2377,9 @@ msgid "Three level Usable margin, %"
 msgstr ""
 
 msgid "Margin call status"
+msgstr ""
+
+msgid "Gross P/L"
 msgstr ""
 
 msgid "Day P/L"
@@ -2453,6 +2453,9 @@ msgid "Currencies"
 msgstr ""
 
 msgid "FX Indices"
+msgstr ""
+
+msgid "Indices"
 msgstr ""
 
 msgid "Commodities"
@@ -2666,9 +2669,6 @@ msgstr ""
 msgid "User is empty."
 msgstr ""
 
-msgid "Password is empty."
-msgstr ""
-
 msgid "Available to trade"
 msgstr ""
 
@@ -2818,6 +2818,9 @@ msgstr ""
 msgid "Bonds"
 msgstr ""
 
+msgid "Metals"
+msgstr ""
+
 msgid "Deposit"
 msgstr ""
 
@@ -2870,12 +2873,6 @@ msgid "Current margin"
 msgstr ""
 
 msgid "Unknown error while connect"
-msgstr ""
-
-msgid "Login"
-msgstr ""
-
-msgid "Gateway endpoint"
 msgstr ""
 
 msgid "Fail to connect"
@@ -2957,6 +2954,9 @@ msgid "High index"
 msgstr ""
 
 msgid "Type"
+msgstr ""
+
+msgid "Free margin"
 msgstr ""
 
 msgid "Maint. margin"

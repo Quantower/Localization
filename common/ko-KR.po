@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:25+0300\n"
+"POT-Creation-Date: 2019-06-25 11:24+0300\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -187,6 +187,12 @@ msgstr "데모"
 msgid "Real"
 msgstr "진짜"
 
+msgid "SL"
+msgstr "SL"
+
+msgid "TP"
+msgstr "TP"
+
 #, csharp-format
 msgid "Data series #{0}"
 msgstr "데이터 계열 # {0}"
@@ -312,15 +318,6 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
-
-msgid "VP status: loading..."
-msgstr "VP 상태: 로드 중 ..."
-
-msgid "VP status: no areas."
-msgstr "VP 상태: 영역 없음."
-
-msgid "Black Whale"
-msgstr "흑 고래"
 
 msgid "Volume Impact"
 msgstr "볼륨 영향"
@@ -818,8 +815,11 @@ msgstr "시간 간격, 초"
 msgid "Basis volume interval, sec"
 msgstr "단위 볼륨 간격, 초"
 
-msgid "Zone height, ticks"
-msgstr "영역 높이, 눈금"
+msgid "Max zone height, ticks"
+msgstr "최대 영역 높이, 눈금"
+
+msgid "Min zone height, ticks"
+msgstr "최소 영역 높이, 진드기"
 
 msgid "Filter by Delta, %"
 msgstr "델타 별 필터링,%"
@@ -929,6 +929,12 @@ msgstr "추가"
 msgid "Show scrollbar chart preview"
 msgstr "스크롤 막대 차트 미리보기 표시"
 
+msgid "BUY"
+msgstr "구입"
+
+msgid "SELL"
+msgstr "판매"
+
 msgid "Scale marker"
 msgstr "척도 표시"
 
@@ -1001,11 +1007,32 @@ msgstr "줌인"
 msgid "Zoom out"
 msgstr "줌아웃"
 
-msgid "Volume path"
-msgstr "볼륨 경로"
+msgid "Power trades"
+msgstr "전력 거래"
 
 msgid "Label colors"
 msgstr "라벨 색상"
+
+msgid "Cross"
+msgstr "교자"
+
+msgid "Cross Above"
+msgstr "십자가 위"
+
+msgid "Cross Below"
+msgstr "아래 십자가"
+
+msgid "Cross type"
+msgstr "교차 종류"
+
+msgid "Disable"
+msgstr "가능하지 않게함"
+
+msgid "After execution"
+msgstr "실행 후"
+
+msgid "Alert text"
+msgstr "경고 텍스트"
 
 msgid "Ray style"
 msgstr "레이 스타일"
@@ -1090,12 +1117,6 @@ msgstr "도구 색상"
 
 msgid "Tool color"
 msgstr "도구 색상"
-
-msgid "TP"
-msgstr "TP"
-
-msgid "SL"
-msgstr "SL"
 
 msgid "Area colors"
 msgstr "영역 색상"
@@ -1294,6 +1315,9 @@ msgstr "코멘트"
 
 msgid "Angled line"
 msgstr "각 진 선"
+
+msgid "Alert"
+msgstr "경고"
 
 msgid "Invalid price"
 msgstr "잘못된 가격"
@@ -1520,6 +1544,9 @@ msgstr "그리드 가격"
 
 msgid "Toolbar"
 msgstr "툴바"
+
+msgid "Quick OE"
+msgstr "빠른 OE"
 
 msgid "Refresh"
 msgstr "새롭게 하다"
@@ -1880,6 +1907,9 @@ msgstr "~로 그룹짓기"
 msgid "Columns visibility"
 msgstr "열 가시성"
 
+msgid "Create panel"
+msgstr "패널 만들기"
+
 msgid "Header text"
 msgstr "헤더 텍스트"
 
@@ -2154,6 +2184,9 @@ msgstr "로트 수량 표시"
 msgid "Abbreviate volume & ticks"
 msgstr "축약 볼륨"
 
+msgid "Abbreviate crypto prices"
+msgstr "약어 암호화 가격"
+
 msgid "Slippage, ticks"
 msgstr "미 끄 러 짐, 진드기"
 
@@ -2262,56 +2295,20 @@ msgstr "초기 마진"
 msgid "Minimum margin"
 msgstr "최소 마진"
 
-msgid "FX Majors"
-msgstr "FX 전공"
+msgid "User name is empty."
+msgstr "사용자 이름이 비어 있습니다."
 
-msgid "FX Minors"
-msgstr "FX 미성년자"
-
-msgid "FX Crosses"
-msgstr "FX 크로스"
-
-msgid "FX Exotic"
-msgstr "FX이 국"
-
-msgid "Metals"
-msgstr "궤조"
-
-msgid "Oil"
-msgstr "기름"
-
-msgid "Indices"
-msgstr "지수"
-
-msgid "Futures"
-msgstr "선물"
-
-msgid "Unknown"
-msgstr "알려지지 않은"
+msgid "Password is empty."
+msgstr "암호가 비어 있습니다."
 
 msgid "Connecting was cancelled"
 msgstr "연결이 취소 되었습니다."
-
-msgid "Equity"
-msgstr "공평"
-
-msgid "Free margin"
-msgstr "자유 마진"
-
-msgid "Net P/L"
-msgstr "네트 P/L"
-
-msgid "Gross P/L"
-msgstr "총 P / L"
 
 msgid "Open orders"
 msgstr "미결 주문"
 
 msgid "Open positions"
 msgstr "채용 공고"
-
-msgid "Account number"
-msgstr "계좌 번호:"
 
 msgid "Account type"
 msgstr "계정 유형"
@@ -2324,9 +2321,6 @@ msgstr "레버리지"
 
 msgid "Swap free"
 msgstr "무료 스왑"
-
-msgid "Account status"
-msgstr "계정 상태"
 
 msgid "Trader account type"
 msgstr "트레이 더 계좌 유형"
@@ -2345,6 +2339,9 @@ msgstr "짧은 스왑"
 
 msgid "Trading is enabled"
 msgstr "거래가 활성화"
+
+msgid "Equity"
+msgstr "공평"
 
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "모든 미결 위치의 이익과 손실 (계정의 변동 잔액)을 포함하여 계정상의 자금 금액."
@@ -2375,6 +2372,9 @@ msgstr "3 단계 사용 가능한 마진, %"
 
 msgid "Margin call status"
 msgstr "마진 콜 상태"
+
+msgid "Gross P/L"
+msgstr "총 P / L"
 
 msgid "Day P/L"
 msgstr "일 P / L"
@@ -2438,6 +2438,9 @@ msgstr "통화"
 
 msgid "FX Indices"
 msgstr "외환 지표"
+
+msgid "Indices"
+msgstr "지수"
 
 msgid "Commodities"
 msgstr "상품"
@@ -2640,9 +2643,6 @@ msgstr "데이터 원본 유형"
 msgid "User is empty."
 msgstr "사용자가 비어 있습니다."
 
-msgid "Password is empty."
-msgstr "암호가 비어 있습니다."
-
 msgid "Available to trade"
 msgstr "거래 가능"
 
@@ -2785,6 +2785,9 @@ msgstr "최소 임무"
 msgid "Bonds"
 msgstr "채권"
 
+msgid "Metals"
+msgstr "궤조"
+
 msgid "Deposit"
 msgstr "예금"
 
@@ -2838,12 +2841,6 @@ msgstr "현재증거금"
 
 msgid "Unknown error while connect"
 msgstr "연결 하는 동안 알 수 없는 오류"
-
-msgid "Login"
-msgstr "로그인"
-
-msgid "Gateway endpoint"
-msgstr "게이트웨이 엔드포인트"
 
 msgid "Fail to connect"
 msgstr "연결에 실패"
@@ -2925,6 +2922,9 @@ msgstr "높은 색인"
 
 msgid "Type"
 msgstr "종류"
+
+msgid "Free margin"
+msgstr "자유 마진"
 
 msgid "Maint. margin"
 msgstr "휴게소. 여백"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:25+0300\n"
+"POT-Creation-Date: 2019-06-25 11:24+0300\n"
 "PO-Revision-Date: 2019-02-26 13:28+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -188,6 +188,12 @@ msgstr "Демо"
 msgid "Real"
 msgstr "Лайв"
 
+msgid "SL"
+msgstr "СЛ"
+
+msgid "TP"
+msgstr "ТП"
+
 #, csharp-format
 msgid "Data series #{0}"
 msgstr "Ряды данных # {0}"
@@ -313,15 +319,6 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
-
-msgid "VP status: loading..."
-msgstr "Статус VP: Загрузка..."
-
-msgid "VP status: no areas."
-msgstr "Статус VP: нет областей."
-
-msgid "Black Whale"
-msgstr "Черный Кит"
 
 msgid "Volume Impact"
 msgstr "Воздействие на объем"
@@ -819,8 +816,11 @@ msgstr "Временной интервал, сек"
 msgid "Basis volume interval, sec"
 msgstr "Интервал базисного объема, сек"
 
-msgid "Zone height, ticks"
-msgstr "Высота зоны, тики"
+msgid "Max zone height, ticks"
+msgstr "Максимальная высота зоны, клещи"
+
+msgid "Min zone height, ticks"
+msgstr "Высота минзонной зоны, клещи"
 
 msgid "Filter by Delta, %"
 msgstr "Фильтр по Дельта,%"
@@ -930,6 +930,12 @@ msgstr "Дополнительные"
 msgid "Show scrollbar chart preview"
 msgstr "Предварительный просмотр графика на полосе прокрутки"
 
+msgid "BUY"
+msgstr "КУПИТЬ"
+
+msgid "SELL"
+msgstr "ПРОДАТЬ"
+
 msgid "Scale marker"
 msgstr "Значение цены на шкале"
 
@@ -1002,11 +1008,32 @@ msgstr "Увеличить"
 msgid "Zoom out"
 msgstr "Уменьшить"
 
-msgid "Volume path"
-msgstr "Путь тома"
+msgid "Power trades"
+msgstr "Торговля электроэнергией"
 
 msgid "Label colors"
 msgstr "Цвета значений"
+
+msgid "Cross"
+msgstr "Пересечение"
+
+msgid "Cross Above"
+msgstr "Крест выше"
+
+msgid "Cross Below"
+msgstr "Крест ниже"
+
+msgid "Cross type"
+msgstr "Тип кросса"
+
+msgid "Disable"
+msgstr "Запретить"
+
+msgid "After execution"
+msgstr "После исполнения"
+
+msgid "Alert text"
+msgstr "Текст оповещения"
 
 msgid "Ray style"
 msgstr "Стиль луча"
@@ -1091,12 +1118,6 @@ msgstr "Цвета инструмента"
 
 msgid "Tool color"
 msgstr "Цвет инструмента"
-
-msgid "TP"
-msgstr "ТП"
-
-msgid "SL"
-msgstr "СЛ"
 
 msgid "Area colors"
 msgstr "Цвет области"
@@ -1295,6 +1316,9 @@ msgstr "Комментарий"
 
 msgid "Angled line"
 msgstr "Угловая линия"
+
+msgid "Alert"
+msgstr "Алерт"
 
 msgid "Invalid price"
 msgstr "Неверная цена"
@@ -1521,6 +1545,9 @@ msgstr "Сетка по цене"
 
 msgid "Toolbar"
 msgstr "Панель инструментов"
+
+msgid "Quick OE"
+msgstr "Создать ордер"
 
 msgid "Refresh"
 msgstr "Обновить график"
@@ -1881,6 +1908,9 @@ msgstr "Сгруппировать по"
 msgid "Columns visibility"
 msgstr "Видимость колонок"
 
+msgid "Create panel"
+msgstr "Создание панели"
+
 msgid "Header text"
 msgstr "Текст заголовка"
 
@@ -2155,6 +2185,9 @@ msgstr "Показывать объем в лотах"
 msgid "Abbreviate volume & ticks"
 msgstr "Сокращение объема и тиков"
 
+msgid "Abbreviate crypto prices"
+msgstr "Аббревиативные цены на криптовалюты"
+
 msgid "Slippage, ticks"
 msgstr "Проскальзывание, в тиках"
 
@@ -2263,56 +2296,20 @@ msgstr "Начальная маржа"
 msgid "Minimum margin"
 msgstr "Минимальная маржа"
 
-msgid "FX Majors"
-msgstr "FX мажоры"
+msgid "User name is empty."
+msgstr "Имя пользователя пусто."
 
-msgid "FX Minors"
-msgstr "FX миноры"
-
-msgid "FX Crosses"
-msgstr "FX кроссы"
-
-msgid "FX Exotic"
-msgstr "FX экзотические"
-
-msgid "Metals"
-msgstr "Металлы"
-
-msgid "Oil"
-msgstr "Нефть"
-
-msgid "Indices"
-msgstr "Индексы"
-
-msgid "Futures"
-msgstr "Фьючерсы"
-
-msgid "Unknown"
-msgstr "Неизвестно"
+msgid "Password is empty."
+msgstr "Пароль не указан"
 
 msgid "Connecting was cancelled"
 msgstr "Подключение было отменено"
-
-msgid "Equity"
-msgstr "Средства"
-
-msgid "Free margin"
-msgstr "Доступная маржа"
-
-msgid "Net P/L"
-msgstr "Чистая прибыль/убыток"
-
-msgid "Gross P/L"
-msgstr "Валовая прибыль/убыток"
 
 msgid "Open orders"
 msgstr "Открытые ордера"
 
 msgid "Open positions"
 msgstr "Открытые позиции"
-
-msgid "Account number"
-msgstr "Номер счета"
 
 msgid "Account type"
 msgstr "Тип счета"
@@ -2325,9 +2322,6 @@ msgstr "Кредитное плечо"
 
 msgid "Swap free"
 msgstr "Без свопа"
-
-msgid "Account status"
-msgstr "Состояние счета"
 
 msgid "Trader account type"
 msgstr "Тип счета трейдера"
@@ -2346,6 +2340,9 @@ msgstr "Короткий своп"
 
 msgid "Trading is enabled"
 msgstr "Торговля включена"
+
+msgid "Equity"
+msgstr "Средства"
 
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "Сумма средств на счете, включая прибыль и убытки по всем открытым позициям (плавающий остаток на счете)."
@@ -2376,6 +2373,9 @@ msgstr "Третий уровень доступной маржи,%"
 
 msgid "Margin call status"
 msgstr "Состояние маржин колла"
+
+msgid "Gross P/L"
+msgstr "Валовая прибыль/убыток"
 
 msgid "Day P/L"
 msgstr "Дневной P/L"
@@ -2439,6 +2439,9 @@ msgstr "Валюты"
 
 msgid "FX Indices"
 msgstr "Индексы FX"
+
+msgid "Indices"
+msgstr "Индексы"
 
 msgid "Commodities"
 msgstr "Товары"
@@ -2641,9 +2644,6 @@ msgstr "Тип источника данных"
 msgid "User is empty."
 msgstr "Пользователь не указан"
 
-msgid "Password is empty."
-msgstr "Пароль не указан"
-
 msgid "Available to trade"
 msgstr "Доступно для торговли"
 
@@ -2786,6 +2786,9 @@ msgstr "Минимальная комиссия"
 msgid "Bonds"
 msgstr "Облигации"
 
+msgid "Metals"
+msgstr "Металлы"
+
 msgid "Deposit"
 msgstr "Депозит"
 
@@ -2839,12 +2842,6 @@ msgstr "Текущая маржа"
 
 msgid "Unknown error while connect"
 msgstr "Неизвестная ошибка подключения"
-
-msgid "Login"
-msgstr "Логин"
-
-msgid "Gateway endpoint"
-msgstr "Конечная точка шлюза"
 
 msgid "Fail to connect"
 msgstr "Не удается подключиться"
@@ -2926,6 +2923,9 @@ msgstr "Высокий индекс"
 
 msgid "Type"
 msgstr "Тип"
+
+msgid "Free margin"
+msgstr "Доступная маржа"
 
 msgid "Maint. margin"
 msgstr "Маржа поддержки"

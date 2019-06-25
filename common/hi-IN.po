@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:25+0300\n"
+"POT-Creation-Date: 2019-06-25 11:24+0300\n"
 "PO-Revision-Date: 2019-03-18 10:52+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -187,6 +187,12 @@ msgstr "डेमो"
 msgid "Real"
 msgstr "असली"
 
+msgid "SL"
+msgstr "Sl"
+
+msgid "TP"
+msgstr "Tp"
+
 #, csharp-format
 msgid "Data series #{0}"
 msgstr "डेटा श्रृंखला # {0}"
@@ -312,15 +318,6 @@ msgstr "<"
 
 msgid "<="
 msgstr "<="
-
-msgid "VP status: loading..."
-msgstr "वीपी स्थिति: लोड हो रहा है.. ।"
-
-msgid "VP status: no areas."
-msgstr "वीपी स्टेटस: कोई क्षेत्र नहीं ।"
-
-msgid "Black Whale"
-msgstr "काली व्हेल"
 
 msgid "Volume Impact"
 msgstr "वॉल्यूम प्रभाव"
@@ -818,8 +815,11 @@ msgstr "समय अंतराल, सेकंड"
 msgid "Basis volume interval, sec"
 msgstr "आधार मात्रा अंतराल, सेकंड"
 
-msgid "Zone height, ticks"
-msgstr "ज़ोन ऊंचाई, ticks"
+msgid "Max zone height, ticks"
+msgstr "अधिकतम क्षेत्र ऊंचाई, ticks"
+
+msgid "Min zone height, ticks"
+msgstr "मिन क्षेत्र ऊंचाई, ticks"
 
 msgid "Filter by Delta, %"
 msgstr "डेल्टा द्वारा फ़िल्टर,%"
@@ -929,6 +929,12 @@ msgstr "अतिरिक्त"
 msgid "Show scrollbar chart preview"
 msgstr "स्क्रॉल पट्टी चार्ट पूर्वावलोकन दिखाएं"
 
+msgid "BUY"
+msgstr "खरीद"
+
+msgid "SELL"
+msgstr "बेचना"
+
 msgid "Scale marker"
 msgstr "स्केल मार्कर"
 
@@ -1001,11 +1007,32 @@ msgstr "ज़ूम इन"
 msgid "Zoom out"
 msgstr "ज़ूम आउट करें"
 
-msgid "Volume path"
-msgstr "आयतन पथ"
+msgid "Power trades"
+msgstr "बिजली ट्रेडों"
 
 msgid "Label colors"
 msgstr "लेबल रंग"
+
+msgid "Cross"
+msgstr "पार करना"
+
+msgid "Cross Above"
+msgstr "क्रॉस ऊपर"
+
+msgid "Cross Below"
+msgstr "नीचे क्रॉस"
+
+msgid "Cross type"
+msgstr "क्रॉस प्रकार"
+
+msgid "Disable"
+msgstr "अक्षम"
+
+msgid "After execution"
+msgstr "निष्पादन के बाद"
+
+msgid "Alert text"
+msgstr "चेतावनी पाठ"
 
 msgid "Ray style"
 msgstr "किरण शैली"
@@ -1090,12 +1117,6 @@ msgstr "उपकरण रंग"
 
 msgid "Tool color"
 msgstr "उपकरण रंग"
-
-msgid "TP"
-msgstr "Tp"
-
-msgid "SL"
-msgstr "Sl"
 
 msgid "Area colors"
 msgstr "क्षेत्र के रंग"
@@ -1294,6 +1315,9 @@ msgstr "टिप्पणी"
 
 msgid "Angled line"
 msgstr "कोणीय रेखा"
+
+msgid "Alert"
+msgstr "चेतावनी"
 
 msgid "Invalid price"
 msgstr "अमांय मूल्य"
@@ -1520,6 +1544,9 @@ msgstr "ग्रिड कीमत"
 
 msgid "Toolbar"
 msgstr "उपकरण पट्टी"
+
+msgid "Quick OE"
+msgstr "त्वरित ओई"
 
 msgid "Refresh"
 msgstr "ताज़ा"
@@ -1880,6 +1907,9 @@ msgstr "समूह द्वारा"
 msgid "Columns visibility"
 msgstr "स्तंभ दृश्यता"
 
+msgid "Create panel"
+msgstr "पैनल बनाएँ"
+
 msgid "Header text"
 msgstr "शीर्ष लेख पाठ"
 
@@ -2154,6 +2184,9 @@ msgstr "बहुत अधिक मात्रा में प्रदर�
 msgid "Abbreviate volume & ticks"
 msgstr "संक्षिप्त मात्रा & ticks"
 
+msgid "Abbreviate crypto prices"
+msgstr "क्रिप्टो कीमतों को संक्षिप्त करें"
+
 msgid "Slippage, ticks"
 msgstr "फिसलन, ticks"
 
@@ -2262,56 +2295,20 @@ msgstr "आरंभिक हाशिया"
 msgid "Minimum margin"
 msgstr "न्यूनतम मार्जिन"
 
-msgid "FX Majors"
-msgstr "FX मेजर्स"
+msgid "User name is empty."
+msgstr "उपयोगकर्ता नाम रिक्त है."
 
-msgid "FX Minors"
-msgstr "FX माइनर"
-
-msgid "FX Crosses"
-msgstr "FX पार"
-
-msgid "FX Exotic"
-msgstr "FX विदेशी"
-
-msgid "Metals"
-msgstr "धातुओं"
-
-msgid "Oil"
-msgstr "तेल"
-
-msgid "Indices"
-msgstr "सूचकांक"
-
-msgid "Futures"
-msgstr "वायदा"
-
-msgid "Unknown"
-msgstr "अज्ञात"
+msgid "Password is empty."
+msgstr "पासवर्ड रिक्त है ।"
 
 msgid "Connecting was cancelled"
 msgstr "कनेक्टिंग रद्द की गई"
-
-msgid "Equity"
-msgstr "इक्विटी"
-
-msgid "Free margin"
-msgstr "मुक् त हाशिया"
-
-msgid "Net P/L"
-msgstr "Net P/L"
-
-msgid "Gross P/L"
-msgstr "सकल पी एल/"
 
 msgid "Open orders"
 msgstr "खुला आदेश"
 
 msgid "Open positions"
 msgstr "खुले स्थानों"
-
-msgid "Account number"
-msgstr "खाता संख्या"
 
 msgid "Account type"
 msgstr "खाता प्रकार"
@@ -2324,9 +2321,6 @@ msgstr "उत्तोलन"
 
 msgid "Swap free"
 msgstr "स्वैप मुक्त"
-
-msgid "Account status"
-msgstr "खाता स्थिति"
 
 msgid "Trader account type"
 msgstr "व्यापारी खाता प्रकार"
@@ -2345,6 +2339,9 @@ msgstr "स्वैप लघु"
 
 msgid "Trading is enabled"
 msgstr "व्यापार सक्षम है"
+
+msgid "Equity"
+msgstr "इक्विटी"
 
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "खाते पर निधियों की वह राशि, जिसमें सभी खुले पदों का लाभ और हानि (खाते का फ्लोटिंग बैलेंस) शामिल है ।"
@@ -2375,6 +2372,9 @@ msgstr "तीन स्तर के प्रयोग योग्य मा�
 
 msgid "Margin call status"
 msgstr "मार्जिन कॉल स्थिति"
+
+msgid "Gross P/L"
+msgstr "सकल पी एल/"
 
 msgid "Day P/L"
 msgstr "दिन पी एल/"
@@ -2438,6 +2438,9 @@ msgstr "मुद्राओं"
 
 msgid "FX Indices"
 msgstr "FX सूचकांक"
+
+msgid "Indices"
+msgstr "सूचकांक"
 
 msgid "Commodities"
 msgstr "वस्तुएँ"
@@ -2640,9 +2643,6 @@ msgstr "डेटा स्रोत प्रकार"
 msgid "User is empty."
 msgstr "उपयोगकर्ता रिक्त है ।"
 
-msgid "Password is empty."
-msgstr "पासवर्ड रिक्त है ।"
-
 msgid "Available to trade"
 msgstr "व्यापार के लिए उपलब्ध"
 
@@ -2785,6 +2785,9 @@ msgstr "न्यूनतम कोशन"
 msgid "Bonds"
 msgstr "बांड"
 
+msgid "Metals"
+msgstr "धातुओं"
+
 msgid "Deposit"
 msgstr "जमा"
 
@@ -2838,12 +2841,6 @@ msgstr "वर्तमान हाशिया"
 
 msgid "Unknown error while connect"
 msgstr "कनेक्ट करते समय अज्ञात त्रुटि"
-
-msgid "Login"
-msgstr "लॉगिन"
-
-msgid "Gateway endpoint"
-msgstr "गेटवे समापन बिंदु"
 
 msgid "Fail to connect"
 msgstr "कनेक्ट होने में विफल"
@@ -2925,6 +2922,9 @@ msgstr "उच्च सूचकांक"
 
 msgid "Type"
 msgstr "प्रकार"
+
+msgid "Free margin"
+msgstr "मुक् त हाशिया"
 
 msgid "Maint. margin"
 msgstr "maint. मार्जिन"

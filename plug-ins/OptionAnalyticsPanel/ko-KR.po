@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 16:11+0300\n"
+"POT-Creation-Date: 2019-06-25 13:06+0300\n"
 "PO-Revision-Date: 2018-12-04 16:25+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: ko-KR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Overlay type:"
 msgstr "오버레이 유형:"
@@ -298,49 +298,6 @@ msgstr "시간 &gt; 판매"
 msgid "Symbol info"
 msgstr "기호 정보"
 
-msgid "Overlay"
-msgstr "오버레이"
-
-msgid "Empty positions list"
-msgstr "빈 포지션 리스트"
-
-msgid ""
-"You need to have paper positions\r\n"
-"to see Analyser Chart"
-msgstr ""
-"용지 위치를가지고 있어야 합니다.\r\n"
-"분석기 차트를 보려면"
-
-msgid "What if"
-msgstr "만약"
-
-msgid "Line colors"
-msgstr "선 색"
-
-msgid "Time value"
-msgstr "시간 값"
-
-msgid "Inner value"
-msgstr "내부 값"
-
-msgid "Delta"
-msgstr "델타"
-
-msgid "Gamma"
-msgstr "감마"
-
-msgid "Theta"
-msgstr "세타"
-
-msgid "Vega"
-msgstr "베"
-
-msgid "Rho"
-msgstr "로"
-
-msgid "Real positions"
-msgstr "실제 포지션"
-
 msgid "Place"
 msgstr "주문을 넣는 것"
 
@@ -349,6 +306,15 @@ msgstr "제거"
 
 msgid "Paper  positions"
 msgstr "용지 위치"
+
+msgid "Long"
+msgstr "긴"
+
+msgid "Short"
+msgstr "짧은"
+
+msgid "Real positions"
+msgstr "실제 포지션"
 
 msgid "Account"
 msgstr "계정"
@@ -488,11 +454,51 @@ msgstr "Tif"
 msgid "IV"
 msgstr "Iv"
 
+msgid "Delta"
+msgstr "델타"
+
+msgid "Gamma"
+msgstr "감마"
+
+msgid "Theta"
+msgstr "세타"
+
+msgid "Vega"
+msgstr "베"
+
+msgid "Rho"
+msgstr "로"
+
 msgid "Days to expire"
 msgstr "만료 날짜"
 
 msgid "Analyse"
 msgstr "분석"
+
+msgid "Overlay"
+msgstr "오버레이"
+
+msgid "Empty positions list"
+msgstr "빈 포지션 리스트"
+
+msgid ""
+"You need to have paper positions\r\n"
+"to see Analyser Chart"
+msgstr ""
+"용지 위치를가지고 있어야 합니다.\r\n"
+"분석기 차트를 보려면"
+
+msgid "What if"
+msgstr "만약"
+
+msgid "Line colors"
+msgstr "선 색"
+
+msgid "Time value"
+msgstr "시간 값"
+
+msgid "Inner value"
+msgstr "내부 값"
 
 #, csharp-format
 msgid "{0}/{1} Series, {2}"

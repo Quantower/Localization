@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 16:11+0300\n"
+"POT-Creation-Date: 2019-06-25 13:06+0300\n"
 "PO-Revision-Date: 2018-12-04 16:19+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: ja-JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Overlay type:"
 msgstr "オーバーレイの種類:"
@@ -298,49 +298,6 @@ msgstr "タイム・アンド・セールス"
 msgid "Symbol info"
 msgstr "シンボル情報"
 
-msgid "Overlay"
-msgstr "オーバーレイ"
-
-msgid "Empty positions list"
-msgstr "空の職位リスト"
-
-msgid ""
-"You need to have paper positions\r\n"
-"to see Analyser Chart"
-msgstr ""
-"あなたは紙の位置を持っている必要があります\r\n"
-"アナライザーチャートを表示するには"
-
-msgid "What if"
-msgstr "どうしよう"
-
-msgid "Line colors"
-msgstr "線の色"
-
-msgid "Time value"
-msgstr "時間の値"
-
-msgid "Inner value"
-msgstr "内部値"
-
-msgid "Delta"
-msgstr "デルタ"
-
-msgid "Gamma"
-msgstr "ガンマ"
-
-msgid "Theta"
-msgstr "セータ"
-
-msgid "Vega"
-msgstr "ベガ"
-
-msgid "Rho"
-msgstr "Rho"
-
-msgid "Real positions"
-msgstr "リアルポジション"
-
 msgid "Place"
 msgstr "発注"
 
@@ -349,6 +306,15 @@ msgstr "削除"
 
 msgid "Paper  positions"
 msgstr "用紙の位置"
+
+msgid "Long"
+msgstr "ロング"
+
+msgid "Short"
+msgstr "ショート"
+
+msgid "Real positions"
+msgstr "リアルポジション"
 
 msgid "Account"
 msgstr "口座"
@@ -488,11 +454,51 @@ msgstr "注文の期限"
 msgid "IV"
 msgstr "Iv"
 
+msgid "Delta"
+msgstr "デルタ"
+
+msgid "Gamma"
+msgstr "ガンマ"
+
+msgid "Theta"
+msgstr "セータ"
+
+msgid "Vega"
+msgstr "ベガ"
+
+msgid "Rho"
+msgstr "Rho"
+
 msgid "Days to expire"
 msgstr "満期までの日数"
 
 msgid "Analyse"
 msgstr "分析"
+
+msgid "Overlay"
+msgstr "オーバーレイ"
+
+msgid "Empty positions list"
+msgstr "空の職位リスト"
+
+msgid ""
+"You need to have paper positions\r\n"
+"to see Analyser Chart"
+msgstr ""
+"あなたは紙の位置を持っている必要があります\r\n"
+"アナライザーチャートを表示するには"
+
+msgid "What if"
+msgstr "どうしよう"
+
+msgid "Line colors"
+msgstr "線の色"
+
+msgid "Time value"
+msgstr "時間の値"
+
+msgid "Inner value"
+msgstr "内部値"
 
 #, csharp-format
 msgid "{0}/{1} Series, {2}"

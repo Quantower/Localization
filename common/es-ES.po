@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:25+0300\n"
+"POT-Creation-Date: 2019-06-25 11:24+0300\n"
 "PO-Revision-Date: 2018-12-04 15:57+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -187,6 +187,12 @@ msgstr "Demo"
 msgid "Real"
 msgstr "Real"
 
+msgid "SL"
+msgstr "SL"
+
+msgid "TP"
+msgstr "TP"
+
 #, csharp-format
 msgid "Data series #{0}"
 msgstr "Serie de datos # {0}"
@@ -312,15 +318,6 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
-
-msgid "VP status: loading..."
-msgstr "Estado VP: cargando..."
-
-msgid "VP status: no areas."
-msgstr "Estado VP: no hay áreas."
-
-msgid "Black Whale"
-msgstr "Ballena negra"
 
 msgid "Volume Impact"
 msgstr "Impacto del volumen"
@@ -818,8 +815,11 @@ msgstr "Intervalo de tiempo, seg"
 msgid "Basis volume interval, sec"
 msgstr "Intervalo de volumen base, sec"
 
-msgid "Zone height, ticks"
-msgstr "Altura de la zona, garrapatas"
+msgid "Max zone height, ticks"
+msgstr "Altura máxima de la zona, garrapatas"
+
+msgid "Min zone height, ticks"
+msgstr "Altura mínima de la zona, garrapatas"
 
 msgid "Filter by Delta, %"
 msgstr "Filtrar por Delta,%"
@@ -929,6 +929,12 @@ msgstr "Adicional"
 msgid "Show scrollbar chart preview"
 msgstr "Mostrar vista previa de la barra de desplazamiento"
 
+msgid "BUY"
+msgstr "COMPRAR"
+
+msgid "SELL"
+msgstr "VENDER"
+
 msgid "Scale marker"
 msgstr "Marcador de escala"
 
@@ -1001,11 +1007,32 @@ msgstr "Acercarse"
 msgid "Zoom out"
 msgstr "Alejarse"
 
-msgid "Volume path"
-msgstr "Ruta de volumen"
+msgid "Power trades"
+msgstr "Operaciones de poder"
 
 msgid "Label colors"
 msgstr "Colores de etiqueta"
+
+msgid "Cross"
+msgstr "Cruce"
+
+msgid "Cross Above"
+msgstr "Cross Above"
+
+msgid "Cross Below"
+msgstr "Cruz a continuación"
+
+msgid "Cross type"
+msgstr "Tipo de cruce"
+
+msgid "Disable"
+msgstr "Deshabilitar"
+
+msgid "After execution"
+msgstr "Después de la ejecución"
+
+msgid "Alert text"
+msgstr "Texto de alerta"
 
 msgid "Ray style"
 msgstr "Estilo del rayo"
@@ -1090,12 +1117,6 @@ msgstr "Colores de la herramienta"
 
 msgid "Tool color"
 msgstr "Color de la herramienta"
-
-msgid "TP"
-msgstr "TP"
-
-msgid "SL"
-msgstr "SL"
 
 msgid "Area colors"
 msgstr "Colores de área"
@@ -1294,6 +1315,9 @@ msgstr "Comentar"
 
 msgid "Angled line"
 msgstr "Línea angulada"
+
+msgid "Alert"
+msgstr "Alerta"
 
 msgid "Invalid price"
 msgstr "Precio no válido"
@@ -1520,6 +1544,9 @@ msgstr "Precio de la rejilla"
 
 msgid "Toolbar"
 msgstr "Barra de herramientas"
+
+msgid "Quick OE"
+msgstr "OE rápido"
 
 msgid "Refresh"
 msgstr "Refrescar"
@@ -1880,6 +1907,9 @@ msgstr "Grupo por"
 msgid "Columns visibility"
 msgstr "Visibilidad de columnas"
 
+msgid "Create panel"
+msgstr "Crear panel"
+
 msgid "Header text"
 msgstr "Texto del encabezado"
 
@@ -2154,6 +2184,9 @@ msgstr "Mostrar cantidad en lotes"
 msgid "Abbreviate volume & ticks"
 msgstr "Abreviar volumen y garrapatas"
 
+msgid "Abbreviate crypto prices"
+msgstr "Precios de criptoviado abreviado"
+
 msgid "Slippage, ticks"
 msgstr "Deslizamiento"
 
@@ -2262,56 +2295,20 @@ msgstr "Margen inicial"
 msgid "Minimum margin"
 msgstr "Margen mínimo"
 
-msgid "FX Majors"
-msgstr "FX majors"
+msgid "User name is empty."
+msgstr "El nombre de usuario está vacío."
 
-msgid "FX Minors"
-msgstr "FX menores"
-
-msgid "FX Crosses"
-msgstr "Cruces FX"
-
-msgid "FX Exotic"
-msgstr "FX Exotic"
-
-msgid "Metals"
-msgstr "Rieles"
-
-msgid "Oil"
-msgstr "Aceite"
-
-msgid "Indices"
-msgstr "Índice"
-
-msgid "Futures"
-msgstr "Futuros"
-
-msgid "Unknown"
-msgstr "Desconocido"
+msgid "Password is empty."
+msgstr "La contraseña está vacía."
 
 msgid "Connecting was cancelled"
 msgstr "Se canceló la conexión"
-
-msgid "Equity"
-msgstr "Capital"
-
-msgid "Free margin"
-msgstr "Margen libre"
-
-msgid "Net P/L"
-msgstr "P/L neto"
-
-msgid "Gross P/L"
-msgstr "P/L bruto"
 
 msgid "Open orders"
 msgstr "Abrir pedidos"
 
 msgid "Open positions"
 msgstr "Abrir posiciones"
-
-msgid "Account number"
-msgstr "Número de cuenta"
 
 msgid "Account type"
 msgstr "Tipo de cuenta"
@@ -2324,9 +2321,6 @@ msgstr "Apalancamiento"
 
 msgid "Swap free"
 msgstr "Swap gratis"
-
-msgid "Account status"
-msgstr "Estado de la cuenta"
 
 msgid "Trader account type"
 msgstr "Tipo de cuenta de comerciante"
@@ -2345,6 +2339,9 @@ msgstr "Swap corto"
 
 msgid "Trading is enabled"
 msgstr "El comercio está habilitado"
+
+msgid "Equity"
+msgstr "Capital"
 
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "La cantidad de fondos en la cuenta, incluidas las ganancias y pérdidas de todas las posiciones abiertas (el saldo flotante de la cuenta)."
@@ -2375,6 +2372,9 @@ msgstr "Tres niveles de margen utilizable,%"
 
 msgid "Margin call status"
 msgstr "Estado de llamada de margen"
+
+msgid "Gross P/L"
+msgstr "P/L bruto"
 
 msgid "Day P/L"
 msgstr "Día P / L"
@@ -2438,6 +2438,9 @@ msgstr "Monedas"
 
 msgid "FX Indices"
 msgstr "Índices de FX"
+
+msgid "Indices"
+msgstr "Índice"
 
 msgid "Commodities"
 msgstr "Productos básicos"
@@ -2640,9 +2643,6 @@ msgstr "Tipo de origen de datos"
 msgid "User is empty."
 msgstr "El usuario está vacío."
 
-msgid "Password is empty."
-msgstr "La contraseña está vacía."
-
 msgid "Available to trade"
 msgstr "Disponible para negociar"
 
@@ -2785,6 +2785,9 @@ msgstr "Comision mínima"
 msgid "Bonds"
 msgstr "Cautiverio"
 
+msgid "Metals"
+msgstr "Rieles"
+
 msgid "Deposit"
 msgstr "Depositar"
 
@@ -2838,12 +2841,6 @@ msgstr "Margen actual"
 
 msgid "Unknown error while connect"
 msgstr "Error desconocido mientras se conecta"
-
-msgid "Login"
-msgstr "Usuario"
-
-msgid "Gateway endpoint"
-msgstr "Punto de conexión de puerta de enlace"
 
 msgid "Fail to connect"
 msgstr "No se pueden conectar"
@@ -2925,6 +2922,9 @@ msgstr "Alto índice"
 
 msgid "Type"
 msgstr "Tipo"
+
+msgid "Free margin"
+msgstr "Margen libre"
 
 msgid "Maint. margin"
 msgstr "Margen de mante."

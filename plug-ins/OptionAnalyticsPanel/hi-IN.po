@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 16:11+0300\n"
+"POT-Creation-Date: 2019-06-25 13:06+0300\n"
 "PO-Revision-Date: 2019-04-02 16:11+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: hi-IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Overlay type:"
 msgstr "ओवरले प्रकार:"
@@ -298,49 +298,6 @@ msgstr "समय और बिक्री"
 msgid "Symbol info"
 msgstr "प्रतीक जानकारी"
 
-msgid "Overlay"
-msgstr "उपरिशायी"
-
-msgid "Empty positions list"
-msgstr "रिक्त पदों की सूची"
-
-msgid ""
-"You need to have paper positions\r\n"
-"to see Analyser Chart"
-msgstr ""
-"आप कागज पदों की जरूरत है\r\n"
-"विश्लेषक चार्ट देखने के लिए"
-
-msgid "What if"
-msgstr "क्या होगा यदि"
-
-msgid "Line colors"
-msgstr "रेखा रंग"
-
-msgid "Time value"
-msgstr "समय मान"
-
-msgid "Inner value"
-msgstr "भीतरी मान"
-
-msgid "Delta"
-msgstr "डेल्टा"
-
-msgid "Gamma"
-msgstr "गामा"
-
-msgid "Theta"
-msgstr "थीटा"
-
-msgid "Vega"
-msgstr "वेगा"
-
-msgid "Rho"
-msgstr "Rho"
-
-msgid "Real positions"
-msgstr "वास्तविक स्थितियां"
-
 msgid "Place"
 msgstr "जगह"
 
@@ -349,6 +306,15 @@ msgstr "निकालें"
 
 msgid "Paper  positions"
 msgstr "कागज पदों"
+
+msgid "Long"
+msgstr "लंबी"
+
+msgid "Short"
+msgstr "कम"
+
+msgid "Real positions"
+msgstr "वास्तविक स्थितियां"
 
 msgid "Account"
 msgstr "खाता"
@@ -488,11 +454,51 @@ msgstr "Tif"
 msgid "IV"
 msgstr "Iv"
 
+msgid "Delta"
+msgstr "डेल्टा"
+
+msgid "Gamma"
+msgstr "गामा"
+
+msgid "Theta"
+msgstr "थीटा"
+
+msgid "Vega"
+msgstr "वेगा"
+
+msgid "Rho"
+msgstr "Rho"
+
 msgid "Days to expire"
 msgstr "दिनों की समयसीमा समाप्त"
 
 msgid "Analyse"
 msgstr "विश्लेषण"
+
+msgid "Overlay"
+msgstr "उपरिशायी"
+
+msgid "Empty positions list"
+msgstr "रिक्त पदों की सूची"
+
+msgid ""
+"You need to have paper positions\r\n"
+"to see Analyser Chart"
+msgstr ""
+"आप कागज पदों की जरूरत है\r\n"
+"विश्लेषक चार्ट देखने के लिए"
+
+msgid "What if"
+msgstr "क्या होगा यदि"
+
+msgid "Line colors"
+msgstr "रेखा रंग"
+
+msgid "Time value"
+msgstr "समय मान"
+
+msgid "Inner value"
+msgstr "भीतरी मान"
 
 #, csharp-format
 msgid "{0}/{1} Series, {2}"

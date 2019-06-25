@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:25+0300\n"
+"POT-Creation-Date: 2019-06-25 11:24+0300\n"
 "PO-Revision-Date: 2018-12-04 16:01+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -187,6 +187,12 @@ msgstr "演示"
 msgid "Real"
 msgstr "實際"
 
+msgid "SL"
+msgstr "停損"
+
+msgid "TP"
+msgstr "停利"
+
 #, csharp-format
 msgid "Data series #{0}"
 msgstr "資料數列 # {0}"
@@ -312,15 +318,6 @@ msgstr "\\u003c"
 
 msgid "<="
 msgstr "\\u003c="
-
-msgid "VP status: loading..."
-msgstr "VP 狀態: 載入..。"
-
-msgid "VP status: no areas."
-msgstr "VP 狀態: 沒有區域。"
-
-msgid "Black Whale"
-msgstr "黑鯨"
 
 msgid "Volume Impact"
 msgstr "成交量影響"
@@ -818,8 +815,11 @@ msgstr "時間間隔, 秒"
 msgid "Basis volume interval, sec"
 msgstr "基礎體積間隔, 秒"
 
-msgid "Zone height, ticks"
-msgstr "區域高度, 刻度"
+msgid "Max zone height, ticks"
+msgstr "最大區域高度,刻度"
+
+msgid "Min zone height, ticks"
+msgstr "最社區域高度,刻度"
 
 msgid "Filter by Delta, %"
 msgstr "按增量篩選,%"
@@ -929,6 +929,12 @@ msgstr "額外"
 msgid "Show scrollbar chart preview"
 msgstr "顯示滾動條圖表預覽"
 
+msgid "BUY"
+msgstr "買入"
+
+msgid "SELL"
+msgstr "賣"
+
 msgid "Scale marker"
 msgstr "刻度標識"
 
@@ -1001,11 +1007,32 @@ msgstr "放大"
 msgid "Zoom out"
 msgstr "縮小"
 
-msgid "Volume path"
-msgstr "卷路徑"
+msgid "Power trades"
+msgstr "電力交易"
 
 msgid "Label colors"
 msgstr "標籤顏色"
+
+msgid "Cross"
+msgstr "交叉"
+
+msgid "Cross Above"
+msgstr "交叉以上"
+
+msgid "Cross Below"
+msgstr "交叉下面"
+
+msgid "Cross type"
+msgstr "交叉類型"
+
+msgid "Disable"
+msgstr "停用"
+
+msgid "After execution"
+msgstr "執行後"
+
+msgid "Alert text"
+msgstr "警報文本"
 
 msgid "Ray style"
 msgstr "射線樣式"
@@ -1090,12 +1117,6 @@ msgstr "工具顏色"
 
 msgid "Tool color"
 msgstr "工具顏色"
-
-msgid "TP"
-msgstr "停利"
-
-msgid "SL"
-msgstr "停損"
 
 msgid "Area colors"
 msgstr "區域顏色"
@@ -1294,6 +1315,9 @@ msgstr "註釋"
 
 msgid "Angled line"
 msgstr "角度線"
+
+msgid "Alert"
+msgstr "警報"
 
 msgid "Invalid price"
 msgstr "無效價格"
@@ -1520,6 +1544,9 @@ msgstr "價格格線"
 
 msgid "Toolbar"
 msgstr "工具欄"
+
+msgid "Quick OE"
+msgstr "快速下單"
 
 msgid "Refresh"
 msgstr "刷新"
@@ -1880,6 +1907,9 @@ msgstr "分組"
 msgid "Columns visibility"
 msgstr "列可見性"
 
+msgid "Create panel"
+msgstr "創建面板"
+
 msgid "Header text"
 msgstr "表頭"
 
@@ -2154,6 +2184,9 @@ msgstr "以交易單位顯示數量"
 msgid "Abbreviate volume & ticks"
 msgstr "縮寫體積和刻度"
 
+msgid "Abbreviate crypto prices"
+msgstr "縮寫加密價格"
+
 msgid "Slippage, ticks"
 msgstr "滑點"
 
@@ -2262,56 +2295,20 @@ msgstr "初始保證金"
 msgid "Minimum margin"
 msgstr "最小邊距"
 
-msgid "FX Majors"
-msgstr "外匯專業"
+msgid "User name is empty."
+msgstr "使用者名為空。"
 
-msgid "FX Minors"
-msgstr "外匯未成年人"
-
-msgid "FX Crosses"
-msgstr "外匯交叉"
-
-msgid "FX Exotic"
-msgstr "外匯異國情調"
-
-msgid "Metals"
-msgstr "金屬"
-
-msgid "Oil"
-msgstr "油"
-
-msgid "Indices"
-msgstr "指數"
-
-msgid "Futures"
-msgstr "期貨"
-
-msgid "Unknown"
-msgstr "未知"
+msgid "Password is empty."
+msgstr "密碼為空。"
 
 msgid "Connecting was cancelled"
 msgstr "連接已取消"
-
-msgid "Equity"
-msgstr "等於"
-
-msgid "Free margin"
-msgstr "免費保證金"
-
-msgid "Net P/L"
-msgstr "淨額"
-
-msgid "Gross P/L"
-msgstr "持倉損益"
 
 msgid "Open orders"
 msgstr "打開訂單"
 
 msgid "Open positions"
 msgstr "持倉"
-
-msgid "Account number"
-msgstr "帳戶號"
 
 msgid "Account type"
 msgstr "帳戶類型"
@@ -2324,9 +2321,6 @@ msgstr "利用"
 
 msgid "Swap free"
 msgstr "交換自由"
-
-msgid "Account status"
-msgstr "帳戶狀態"
 
 msgid "Trader account type"
 msgstr "交易者帳戶類型"
@@ -2345,6 +2339,9 @@ msgstr "隔夜做空"
 
 msgid "Trading is enabled"
 msgstr "啟用交易"
+
+msgid "Equity"
+msgstr "等於"
 
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "賬戶上的資金數額，包括所有未平倉頭寸的利潤和虧損（賬戶的浮動餘額）。"
@@ -2375,6 +2372,9 @@ msgstr "三級可用保證金，％"
 
 msgid "Margin call status"
 msgstr "保證金通知狀態"
+
+msgid "Gross P/L"
+msgstr "持倉損益"
 
 msgid "Day P/L"
 msgstr "日P / L."
@@ -2438,6 +2438,9 @@ msgstr "貨幣"
 
 msgid "FX Indices"
 msgstr "外匯指數"
+
+msgid "Indices"
+msgstr "指數"
 
 msgid "Commodities"
 msgstr "商品"
@@ -2640,9 +2643,6 @@ msgstr "資料來源類型"
 msgid "User is empty."
 msgstr "使用者為空。"
 
-msgid "Password is empty."
-msgstr "密碼為空。"
-
 msgid "Available to trade"
 msgstr "可供交易"
 
@@ -2785,6 +2785,9 @@ msgstr "最小的委託"
 msgid "Bonds"
 msgstr "債券"
 
+msgid "Metals"
+msgstr "金屬"
+
 msgid "Deposit"
 msgstr "入金"
 
@@ -2838,12 +2841,6 @@ msgstr "當前保證金"
 
 msgid "Unknown error while connect"
 msgstr "連接時出現未知錯誤"
-
-msgid "Login"
-msgstr "用戶名稱"
-
-msgid "Gateway endpoint"
-msgstr "閘道終結點"
 
 msgid "Fail to connect"
 msgstr "無法連接"
@@ -2925,6 +2922,9 @@ msgstr "高索引"
 
 msgid "Type"
 msgstr "類型"
+
+msgid "Free margin"
+msgstr "免費保證金"
 
 msgid "Maint. margin"
 msgstr "緬因州。邊緣"

@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 16:11+0300\n"
+"POT-Creation-Date: 2019-06-25 13:06+0300\n"
 "PO-Revision-Date: 2018-12-04 16:27+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: ar-SA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Overlay type:"
 msgstr "نوع التراكب:"
@@ -298,49 +298,6 @@ msgstr "الوقت والمبيعات"
 msgid "Symbol info"
 msgstr "معلومات الرمز"
 
-msgid "Overlay"
-msgstr "التراكب"
-
-msgid "Empty positions list"
-msgstr "قائمه المواضع الفارغة"
-
-msgid ""
-"You need to have paper positions\r\n"
-"to see Analyser Chart"
-msgstr ""
-"تحتاج إلى الحصول علي مواضع الورق\r\n"
-"لرؤية مخطط محلل"
-
-msgid "What if"
-msgstr "ماذا لو"
-
-msgid "Line colors"
-msgstr "ألوان الخط"
-
-msgid "Time value"
-msgstr "القيمة الزمنيه"
-
-msgid "Inner value"
-msgstr "القيمة الداخلية"
-
-msgid "Delta"
-msgstr "دلتا"
-
-msgid "Gamma"
-msgstr "جاما"
-
-msgid "Theta"
-msgstr "ثيتا"
-
-msgid "Vega"
-msgstr "فيغا"
-
-msgid "Rho"
-msgstr "Rho"
-
-msgid "Real positions"
-msgstr "الوظائف الحقيقية"
-
 msgid "Place"
 msgstr "القيام"
 
@@ -349,6 +306,15 @@ msgstr "حذف"
 
 msgid "Paper  positions"
 msgstr "مواضع الورق"
+
+msgid "Long"
+msgstr "طويل"
+
+msgid "Short"
+msgstr "قصير"
+
+msgid "Real positions"
+msgstr "الوظائف الحقيقية"
 
 msgid "Account"
 msgstr "الحساب"
@@ -488,11 +454,51 @@ msgstr "الوقت في القوة"
 msgid "IV"
 msgstr "رابعا"
 
+msgid "Delta"
+msgstr "دلتا"
+
+msgid "Gamma"
+msgstr "جاما"
+
+msgid "Theta"
+msgstr "ثيتا"
+
+msgid "Vega"
+msgstr "فيغا"
+
+msgid "Rho"
+msgstr "Rho"
+
 msgid "Days to expire"
 msgstr "الأيام للانتهاء"
 
 msgid "Analyse"
 msgstr "تحليل"
+
+msgid "Overlay"
+msgstr "التراكب"
+
+msgid "Empty positions list"
+msgstr "قائمه المواضع الفارغة"
+
+msgid ""
+"You need to have paper positions\r\n"
+"to see Analyser Chart"
+msgstr ""
+"تحتاج إلى الحصول علي مواضع الورق\r\n"
+"لرؤية مخطط محلل"
+
+msgid "What if"
+msgstr "ماذا لو"
+
+msgid "Line colors"
+msgstr "ألوان الخط"
+
+msgid "Time value"
+msgstr "القيمة الزمنيه"
+
+msgid "Inner value"
+msgstr "القيمة الداخلية"
 
 #, csharp-format
 msgid "{0}/{1} Series, {2}"

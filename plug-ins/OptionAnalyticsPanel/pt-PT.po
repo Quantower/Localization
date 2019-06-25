@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 16:11+0300\n"
+"POT-Creation-Date: 2019-06-25 13:06+0300\n"
 "PO-Revision-Date: 2018-12-04 16:12+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: pt-PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Overlay type:"
 msgstr "Tipo de sobreposição:"
@@ -298,49 +298,6 @@ msgstr "Tempo & vendas"
 msgid "Symbol info"
 msgstr "Ativo"
 
-msgid "Overlay"
-msgstr "Sobreposição"
-
-msgid "Empty positions list"
-msgstr "Lista de posições vazias"
-
-msgid ""
-"You need to have paper positions\r\n"
-"to see Analyser Chart"
-msgstr ""
-"Você precisa ter posições de papel\r\n"
-"Ver gráfico Analyser"
-
-msgid "What if"
-msgstr "E se"
-
-msgid "Line colors"
-msgstr "Cores de linha"
-
-msgid "Time value"
-msgstr "Valor de tempo"
-
-msgid "Inner value"
-msgstr "Valor interno"
-
-msgid "Delta"
-msgstr "Variação"
-
-msgid "Gamma"
-msgstr "Gama"
-
-msgid "Theta"
-msgstr "Theta"
-
-msgid "Vega"
-msgstr "Vega"
-
-msgid "Rho"
-msgstr "Rho"
-
-msgid "Real positions"
-msgstr "Posições reais"
-
 msgid "Place"
 msgstr "Colocar"
 
@@ -349,6 +306,15 @@ msgstr "Remover"
 
 msgid "Paper  positions"
 msgstr "Posições de papel"
+
+msgid "Long"
+msgstr "Compra"
+
+msgid "Short"
+msgstr "Venda"
+
+msgid "Real positions"
+msgstr "Posições reais"
 
 msgid "Account"
 msgstr "Conta"
@@ -488,11 +454,51 @@ msgstr "Validade"
 msgid "IV"
 msgstr "Iv"
 
+msgid "Delta"
+msgstr "Variação"
+
+msgid "Gamma"
+msgstr "Gama"
+
+msgid "Theta"
+msgstr "Theta"
+
+msgid "Vega"
+msgstr "Vega"
+
+msgid "Rho"
+msgstr "Rho"
+
 msgid "Days to expire"
 msgstr "Dias para o vencimento"
 
 msgid "Analyse"
 msgstr "Analise"
+
+msgid "Overlay"
+msgstr "Sobreposição"
+
+msgid "Empty positions list"
+msgstr "Lista de posições vazias"
+
+msgid ""
+"You need to have paper positions\r\n"
+"to see Analyser Chart"
+msgstr ""
+"Você precisa ter posições de papel\r\n"
+"Ver gráfico Analyser"
+
+msgid "What if"
+msgstr "E se"
+
+msgid "Line colors"
+msgstr "Cores de linha"
+
+msgid "Time value"
+msgstr "Valor de tempo"
+
+msgid "Inner value"
+msgstr "Valor interno"
 
 #, csharp-format
 msgid "{0}/{1} Series, {2}"
