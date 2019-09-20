@@ -20,7 +20,7 @@ msgid "Active"
 msgstr "积极"
 
 msgid "Paused"
-msgstr "暫停"
+msgstr "暂停"
 
 msgid "Stopped"
 msgstr "停止"
@@ -116,16 +116,16 @@ msgid "Inactive"
 msgstr "待用"
 
 msgid "Working"
-msgstr "加工"
+msgstr "进行中"
 
 msgid "Multiple positions"
-msgstr "多个职位"
+msgstr "多个仓位"
 
 msgid "Multiple positions per side"
-msgstr "每边多个位置"
+msgstr "每边多个仓位"
 
 msgid "One position"
-msgstr "一个位置"
+msgstr "一个仓位"
 
 msgid "Undefined"
 msgstr "未定义"
@@ -158,7 +158,7 @@ msgid "s"
 msgstr "秒"
 
 msgid "m"
-msgstr "米"
+msgstr "分"
 
 msgid "H"
 msgstr "时"
@@ -263,7 +263,7 @@ msgid "Bid/Ask average"
 msgstr "买卖均价"
 
 msgid "Last"
-msgstr "以仓位"
+msgstr "最后"
 
 msgid "Bid/Ask"
 msgstr "买/卖"
@@ -361,7 +361,7 @@ msgid "Blue"
 msgstr "蓝色"
 
 msgid "Purple"
-msgstr "Purpure"
+msgstr "紫色"
 
 msgid "Unlink"
 msgstr "解链"
@@ -370,7 +370,7 @@ msgid "Create bind"
 msgstr "创建绑定"
 
 msgid "Duplicate panel"
-msgstr "副本"
+msgstr "复制面板"
 
 msgid "Save as template"
 msgstr "另存为模板"
@@ -473,19 +473,19 @@ msgid "Date"
 msgstr "日期"
 
 msgid "Time"
-msgstr "賣權時間"
+msgstr "时间"
 
 msgid "Open"
-msgstr "今开"
+msgstr "开"
 
 msgid "Close"
-msgstr "关"
+msgstr "收"
 
 msgid "High"
 msgstr "最高"
 
 msgid "Low"
-msgstr "低"
+msgstr "最低"
 
 msgid "Change, %"
 msgstr "涨跌"
@@ -521,7 +521,7 @@ msgid "Auto centered"
 msgstr "自动居中"
 
 msgid "Manual"
-msgstr "手動"
+msgstr "手动"
 
 msgid "Fit indicators"
 msgstr "适应指标"
@@ -545,7 +545,7 @@ msgid "Switch to manual price scale"
 msgstr "切换到手动价格缩放"
 
 msgid "Switch to auto price scale"
-msgstr "設為自動"
+msgstr "切换到自动价格绽放"
 
 msgid "Grid"
 msgstr "格线"
@@ -569,7 +569,7 @@ msgid "Axis background"
 msgstr "坐标背景"
 
 msgid "Day"
-msgstr "即日"
+msgstr "日"
 
 msgid "Week"
 msgstr "周"
@@ -581,7 +581,7 @@ msgid "Year"
 msgstr "年"
 
 msgid "Show days separator"
-msgstr "显示天数分隔符"
+msgstr "显示日分隔符"
 
 msgid "Show weeks separator"
 msgstr "显示周分隔符"
@@ -593,7 +593,7 @@ msgid "Show years separator"
 msgstr "显示年份分隔符"
 
 msgid "Important dates font"
-msgstr "Importent daytes font"
+msgstr "重要日期字体"
 
 msgid "Font color"
 msgstr "字体颜色"
@@ -664,7 +664,7 @@ msgid "Modify"
 msgstr "修改"
 
 msgid "Modify SL to breakeven"
-msgstr "将 SL 修改为盈亏平衡"
+msgstr "将止损修改为盈亏平衡"
 
 msgid "Cancel"
 msgstr "取消"
@@ -765,7 +765,7 @@ msgid "Cluster visualization"
 msgstr "群集可视化"
 
 msgid "Enabled"
-msgstr "啟用"
+msgstr "启用"
 
 msgid "General"
 msgstr "常规"
@@ -798,7 +798,7 @@ msgid "Delta calculation type"
 msgstr "增量计算类型"
 
 msgid "Enable"
-msgstr "使"
+msgstr "使能"
 
 msgid "Min trade volume"
 msgstr "最小交易量"
@@ -951,7 +951,7 @@ msgid "Label"
 msgstr "标签"
 
 msgid "Spread type"
-msgstr "点差"
+msgstr "点差类型"
 
 msgid "Spread area color"
 msgstr "差价颜色"
@@ -975,7 +975,7 @@ msgid "Fixed"
 msgstr "固定"
 
 msgid "Above/below the moving average"
-msgstr "fdgfd"
+msgstr "移动平均线以上/下"
 
 msgid "Volume coloring scheme"
 msgstr "体积着色方案"
@@ -1324,17 +1324,17 @@ msgstr "无效价格"
 
 #, csharp-format
 msgid "TP price: {0}"
-msgstr "TP价格：{0}"
+msgstr "止盈价格：{0}"
 
 msgid "Tr.Stop"
-msgstr "Tr.Stop"
+msgstr "滑动止损"
 
 msgid "SL price"
-msgstr "停损价"
+msgstr "止损价"
 
 #, csharp-format
 msgid "{0} TP price: {1}"
-msgstr "{0} TP价格：{1}"
+msgstr "{0} 止盈价格：{1}"
 
 msgid "VA"
 msgstr "Va"
@@ -1468,7 +1468,7 @@ msgid "Add indicator…"
 msgstr "添加指标......"
 
 msgid "Drawing tools"
-msgstr "工具"
+msgstr "绘图工具"
 
 msgid "Trend"
 msgstr "趋势"
@@ -1650,10 +1650,10 @@ msgid "Gamma: "
 msgstr "伽 玛："
 
 msgid "Theta: "
-msgstr "Θ："
+msgstr "Theta："
 
 msgid "Vega: "
-msgstr "织女星："
+msgstr "Vega："
 
 msgid "Rho: "
 msgstr "Rho："
@@ -1704,10 +1704,10 @@ msgid "Coloring method"
 msgstr "着色方法"
 
 msgid "Auto center"
-msgstr "汽车中心"
+msgstr "自动居中"
 
 msgid "Auto center type"
-msgstr "汽车中心类型"
+msgstr "自动居中类型"
 
 msgid "Collapse spread"
 msgstr "崩溃传播"
@@ -1719,13 +1719,13 @@ msgid "Day high"
 msgstr "天高"
 
 msgid "Day low"
-msgstr "天低"
+msgstr "日低"
 
 msgid "Ask price"
-msgstr "问价格"
+msgstr "卖价"
 
 msgid "Bid price"
-msgstr "竞价"
+msgstr "买价"
 
 msgid "Ask size"
 msgstr "卖量"
@@ -1758,10 +1758,10 @@ msgid "Cumulative size of every bid price level"
 msgstr "每个出价价格水平的累积大小"
 
 msgid "VWAP ask"
-msgstr "VWAP问"
+msgstr "VWAP买价"
 
 msgid "VWAP bid"
-msgstr "VWAP出价"
+msgstr "VWAP卖价"
 
 msgid "Volume weighted average ask price"
 msgstr "成交量加权平均要价"
@@ -1776,7 +1776,7 @@ msgid "Average open price"
 msgstr "平均开放价格"
 
 msgid "Quantity"
-msgstr "數量"
+msgstr "数量"
 
 msgid "Break even level"
 msgstr "收支平衡"
@@ -1785,7 +1785,7 @@ msgid "Quantity long"
 msgstr "数量多"
 
 msgid "Quantity short"
-msgstr "数量短"
+msgstr "数量空"
 
 msgid "N/A"
 msgstr "N / A"
@@ -1872,7 +1872,7 @@ msgid "Sound"
 msgstr "声音"
 
 msgid "Email"
-msgstr "郵件"
+msgstr "邮件"
 
 msgid "Coloring cell"
 msgstr "着色细胞"
@@ -1896,7 +1896,7 @@ msgid "Sort order"
 msgstr "排序"
 
 msgid "Autosize of columns"
-msgstr "自动调整"
+msgstr "自动调整栏"
 
 msgid "Auto re-sorting"
 msgstr "自动排序"
@@ -1932,10 +1932,10 @@ msgid "Coloring mode"
 msgstr "方案"
 
 msgid "Value up color"
-msgstr "增加颜色"
+msgstr "上涨颜色"
 
 msgid "Value down color"
-msgstr "降低颜色"
+msgstr "下跌颜色"
 
 msgid "Add selected symbols"
 msgstr "选择产品"
@@ -2075,7 +2075,7 @@ msgid "Select account"
 msgstr "选择账户"
 
 msgid "Disconnect"
-msgstr "斷開"
+msgstr "断开"
 
 msgid "Connect"
 msgstr "连接"
@@ -2084,7 +2084,7 @@ msgid "Hide from toolbar"
 msgstr "隐藏工具栏"
 
 msgid "Connecting..."
-msgstr "連線中…"
+msgstr "连接中…"
 
 msgid "Connection error"
 msgstr "连接错误"
@@ -2096,7 +2096,7 @@ msgid "Save password"
 msgstr "记住"
 
 msgid "Recover"
-msgstr "忘记?"
+msgstr "恢复"
 
 msgid "Select symbol"
 msgstr "选择产品"
@@ -2182,7 +2182,7 @@ msgid "Display quantity in lots"
 msgstr "以手数显示数量"
 
 msgid "Abbreviate volume & ticks"
-msgstr "缩写体积和刻度"
+msgstr "缩写成交量和刻度"
 
 msgid "Abbreviate crypto prices"
 msgstr "缩写加密价格"
@@ -2239,7 +2239,7 @@ msgid "Account activity"
 msgstr "账户活动"
 
 msgid "Info"
-msgstr "訊息"
+msgstr "讯息"
 
 msgid "Trading info"
 msgstr "交易信息"
@@ -2470,7 +2470,7 @@ msgid "Trader Workstation"
 msgstr "交易者工作站"
 
 msgid "IB Gateway"
-msgstr "ib 网关"
+msgstr "IB 网关"
 
 msgid "Host"
 msgstr "主机"
@@ -2593,7 +2593,7 @@ msgid "Reg T margin"
 msgstr "注册 t 保证金"
 
 msgid "Regulation T margin for universal account"
-msgstr "通用账户的条例 t 保证金"
+msgstr "RegT保证金通用账户"
 
 msgid "Post-expiry margin (predicted)"
 msgstr "到期后保证金 (预测)"
@@ -2602,10 +2602,10 @@ msgid "Pending debit card charges"
 msgstr "待付借记卡费用"
 
 msgid "Identifies the IB account structure"
-msgstr "标识 ib 帐户结构"
+msgstr "标识IB帐户结构"
 
 msgid "IQFeed connection manager path"
-msgstr "连接管理器路径"
+msgstr "IQFeed连接管理器路径"
 
 msgid "Wrong connection configuration"
 msgstr "错误的连接配置"
@@ -2614,16 +2614,16 @@ msgid "Margin call"
 msgstr "保证金追缴"
 
 msgid "Margin stop"
-msgstr "边距停止"
+msgstr "保证金止损"
 
 msgid "Fee volume currency"
 msgstr "费用量币种"
 
 msgid "Leverage buy"
-msgstr "杠杆收购"
+msgstr "杠杆买"
 
 msgid "Leverage sell"
-msgstr "杠杆销售"
+msgstr "杠杆卖"
 
 msgid "Margin requirements"
 msgstr "保证金需求"
@@ -2668,19 +2668,19 @@ msgid "Minimum commission"
 msgstr "最低佣金"
 
 msgid "Long financing rate"
-msgstr "融资率长"
+msgstr "多头融资率"
 
 msgid "Short financing rate"
-msgstr "融资率短"
+msgstr "空头融资率"
 
 msgid "Long swap points"
-msgstr "长交换点"
+msgstr "多头交换点"
 
 msgid "Short swap points"
-msgstr "短交换点"
+msgstr "空头交换点"
 
 msgid "Commission"
-msgstr "分成"
+msgstr "佣金"
 
 msgid "Crypto"
 msgstr "加密"
@@ -2761,26 +2761,26 @@ msgid "Financing is paid/charged for open positions in the Account"
 msgstr "账户中的未平仓头寸支付/收取融资"
 
 msgid "Smooth candlesticks"
-msgstr "平滑的烛台"
+msgstr "平滑的蜡烛"
 
 msgid "Token is empty"
 msgstr "令牌为空"
 
 msgid "Tick size"
-msgstr "最小价位"
+msgstr "最小价格波动"
 
 msgid "Max. tr.stop distance"
-msgstr "最大。"
+msgstr "最大移动止损距离"
 
 msgid "Min. tr.stop distance"
-msgstr "闵。"
+msgstr "最小移动止损距离"
 
 #, csharp-format
 msgid "Per {0}"
 msgstr "每{0}"
 
 msgid "Minimum comission"
-msgstr "最小的委托"
+msgstr "最小的佣金"
 
 msgid "Bonds"
 msgstr "债券"
@@ -2792,10 +2792,10 @@ msgid "Deposit"
 msgstr "存款"
 
 msgid "Widthrawal"
-msgstr "widthrawal"
+msgstr "取款"
 
 msgid "Balances"
-msgstr "平衡"
+msgstr "余额"
 
 msgid "Fee info"
 msgstr "费用信息"
@@ -2804,10 +2804,10 @@ msgid "Secret"
 msgstr "秘密"
 
 msgid "Maker fee"
-msgstr "制造商费用"
+msgstr "做市费用"
 
 msgid "Taker fee"
-msgstr "考生费用"
+msgstr "提取费用"
 
 msgid "Thirty day volume"
 msgstr "三十天容量"
@@ -2822,10 +2822,10 @@ msgid "Positions"
 msgstr "仓位"
 
 msgid "Total Margin Value"
-msgstr "总利润率值"
+msgstr "总保证金值"
 
 msgid "Unrealized P/L"
-msgstr "持倉盈虧"
+msgstr "持仓盈亏"
 
 msgid "Unrealized Lending Fees"
 msgstr "未实现的贷款费用"
@@ -2927,7 +2927,7 @@ msgid "Free margin"
 msgstr "免费保证金"
 
 msgid "Maint. margin"
-msgstr "缅因州。边缘"
+msgstr "维持保证金"
 
 msgid "Margin level"
 msgstr "保证金水平"
