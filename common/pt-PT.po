@@ -23,7 +23,7 @@ msgid "Paused"
 msgstr "Pausado"
 
 msgid "Stopped"
-msgstr "Parou"
+msgstr "Parado"
 
 msgid "Completed"
 msgstr "Concluído"
@@ -62,10 +62,10 @@ msgid "Take profit price should be less then market bid price"
 msgstr "Take preço do lucro deve ser menor que o preço de oferta de mercado"
 
 msgid "Stop limit"
-msgstr "Limite de parada"
+msgstr "Limite de stop"
 
 msgid "Trigger price"
-msgstr "Gatilho de preço"
+msgstr "Disparo de preço"
 
 msgid "Stop"
 msgstr "Pare"
@@ -131,13 +131,13 @@ msgid "Undefined"
 msgstr "Indefinido"
 
 msgid "Aggressor flag"
-msgstr "Bandeira do agressor"
+msgstr "Ataque do agressor"
 
 msgid "Tick direction"
-msgstr "Sentido do tiquetaque"
+msgstr "Sentido do direção"
 
 msgid "Box size"
-msgstr "Tamanho da caixa"
+msgstr "Tamanho do box"
 
 msgid "Reversal"
 msgstr "Reversão"
@@ -254,19 +254,19 @@ msgid "Update Available"
 msgstr "Atualização disponível"
 
 msgid "Bid"
-msgstr "Lance"
+msgstr "Compra"
 
 msgid "Ask"
-msgstr "Pergunte"
+msgstr "Venda"
 
 msgid "Bid/Ask average"
-msgstr "Média 'Bid'/'Ask'"
+msgstr "Média 'Compra'/'Venda'"
 
 msgid "Last"
 msgstr "Último"
 
 msgid "Bid/Ask"
-msgstr "Licitar / Perguntar"
+msgstr "Comprar / Vender"
 
 msgid "Exception"
 msgstr "Exceção"
@@ -323,10 +323,10 @@ msgid "Volume Impact"
 msgstr "Impacto do volume"
 
 msgid "Total long positions: "
-msgstr "Total de posições longas: "
+msgstr "Total de posições compradas: "
 
 msgid "Total short positions: "
-msgstr "Posições curtas totais: "
+msgstr "Total de posições vendidas: "
 
 msgid "Maximize"
 msgstr "Maximizar"
@@ -346,7 +346,7 @@ msgid "{0} has not supported {1} shared property"
 msgstr "{0} não suportou {1} propriedade compartilhada"
 
 msgid "Link"
-msgstr "Ligação"
+msgstr "Linkar"
 
 msgid "Red"
 msgstr "Vermelho"
@@ -367,7 +367,7 @@ msgid "Unlink"
 msgstr "Desconectar"
 
 msgid "Create bind"
-msgstr "Criar ligação"
+msgstr "Criar link"
 
 msgid "Duplicate panel"
 msgstr "Duplicar painel"
@@ -409,13 +409,13 @@ msgid "HISTORICAL SYMBOL"
 msgstr "Símbolo histórico"
 
 msgid "EMULATOR"
-msgstr "Emulador"
+msgstr "Simulador"
 
 msgid "SIMULATOR"
 msgstr "Simulador"
 
 msgid "PLAYER"
-msgstr "JOGADOR"
+msgstr "Player"
 
 msgid "BACKTESTER"
 msgstr "BACKTESTER"
@@ -424,13 +424,13 @@ msgid "Templates"
 msgstr "Modelos"
 
 msgid "Analytics"
-msgstr "Analytics"
+msgstr "Análise"
 
 msgid "Trading"
 msgstr "Negociação"
 
 msgid "Portfolio"
-msgstr "Portfólio"
+msgstr "Carteria"
 
 msgid "Informational"
 msgstr "Informativo"
@@ -451,7 +451,7 @@ msgid "Columns"
 msgstr "Colunas"
 
 msgid "Over chart"
-msgstr "Sobre a carta"
+msgstr "Sobre o gráfico"
 
 msgid "On chart background"
 msgstr "No fundo da carta"
@@ -491,7 +491,7 @@ msgid "Change, %"
 msgstr "Alteração, %"
 
 msgid "Ticks"
-msgstr "Carrapatos"
+msgstr "Alterações"
 
 msgid "Volume"
 msgstr "Volume"
@@ -518,7 +518,7 @@ msgid "Auto"
 msgstr "Automático"
 
 msgid "Auto centered"
-msgstr "Auto centralizado"
+msgstr "Auto centralizar"
 
 msgid "Manual"
 msgstr "Manual"
@@ -710,7 +710,7 @@ msgid "Text"
 msgstr "Texto"
 
 msgid "Value label"
-msgstr "Rótulo de valor"
+msgstr "Valor"
 
 msgid "Periods"
 msgstr "Períodos"
@@ -734,13 +734,13 @@ msgid "Volume color"
 msgstr "Cor do volume"
 
 msgid "Trades color"
-msgstr "Comércios de cor"
+msgstr "Trade de cor"
 
 msgid "Coloring by volume"
 msgstr "Colorir por volume"
 
 msgid "Coloring by ticks"
-msgstr "Colorir por carrapatos"
+msgstr "Colorir por alterações"
 
 msgid "Coloring by delta"
 msgstr "Colorir por Delta"
@@ -801,10 +801,10 @@ msgid "Enable"
 msgstr "Habilitado"
 
 msgid "Min trade volume"
-msgstr "Volume de comércio mínimo"
+msgstr "Volume de trade mínimo"
 
 msgid "Max trade volume"
-msgstr "Volume de comércio máximo"
+msgstr "Volume de trade máximo"
 
 msgid "Total volume"
 msgstr "Volume total"
@@ -864,7 +864,7 @@ msgid "Show POC ray"
 msgstr "Mostrar POC Ray"
 
 msgid "Trade color"
-msgstr "Cor do comércio"
+msgstr "Cor do trade"
 
 msgid "Show Totals"
 msgstr "Exibir Totais"
@@ -1287,7 +1287,7 @@ msgid "Gartley Butterfly"
 msgstr "Gartley Butterfly"
 
 msgid "Custom profile"
-msgstr "Perfil personalizado"
+msgstr "Tap Readeing"
 
 msgid "Line arrow"
 msgstr "Seta de linha"
@@ -1377,7 +1377,7 @@ msgid "Profile"
 msgstr "Perfil"
 
 msgid "Data is loading..."
-msgstr "Os dados estão sendo carregados..."
+msgstr "Carregando ..."
 
 #, csharp-format
 msgid "Please wait, it can{0} take some time."
@@ -1396,7 +1396,7 @@ msgstr "Nenhum dado para exibir no gráfico"
 
 #, csharp-format
 msgid "Please check your connection{0} or symbol availability"
-msgstr "Por favor verifique sua conexão {0} ou disponibilidade de símbolos"
+msgstr "Por favor verifique sua conexão {0} ou Símbolo"
 
 msgid "Window colors"
 msgstr "Cores da janela"
@@ -1665,7 +1665,7 @@ msgid "No data to display"
 msgstr "Nenhum dado a ser exibido"
 
 msgid "Please check your connection or symbol availability"
-msgstr "Por favor verifique sua conexão ou disponibilidade de símbolos"
+msgstr "Por favor verifique sua conexão ou símbolos"
 
 msgid "Table"
 msgstr "Tabela"
@@ -1689,10 +1689,10 @@ msgid "value"
 msgstr "valor"
 
 msgid "Most saturated Ask color"
-msgstr "Cor de preço 'Ask' mais saturado"
+msgstr "Cor de preço 'Venda' mais saturado"
 
 msgid "Most saturated Bid color"
-msgstr "Cor de preço 'Bid' mais saturado"
+msgstr "Cor de preço 'Compra' mais saturado"
 
 msgid "Max volume"
 msgstr "Volume máx"
@@ -1716,58 +1716,58 @@ msgid "Cancellation priority"
 msgstr "Prioridade de cancelamento"
 
 msgid "Day high"
-msgstr "Dia de alta"
+msgstr "Maxima do dia"
 
 msgid "Day low"
-msgstr "Dia baixo"
+msgstr "Mínima do dia"
 
 msgid "Ask price"
-msgstr "Pedir preço"
+msgstr "Preço da Compra"
 
 msgid "Bid price"
-msgstr "Preço de oferta"
+msgstr "Preço de venda"
 
 msgid "Ask size"
-msgstr "Quantidade 'Ask'"
+msgstr "Quantidade 'Compra'"
 
 msgid "Bid size"
-msgstr "Quantidade 'Bid'"
+msgstr "Quantidade 'Venda'"
 
 msgid "Time ask"
-msgstr "Tempo perguntar"
+msgstr "Hora da Compra"
 
 msgid "Time bid"
-msgstr "Lance de tempos"
+msgstr "Hora da venda"
 
 msgid "Last updated ask time"
-msgstr "Última atualização pedir tempo"
+msgstr "Última atualização da compra"
 
 msgid "Last updated bid time"
-msgstr "Última hora do lance atualizada"
+msgstr "Última hora da venda"
 
 msgid "Cumulative size ask"
-msgstr "Tamanho cumulativo perguntar"
+msgstr "Compra acumulada"
 
 msgid "Cumulative size bid"
-msgstr "Lance de tamanho cumulativo"
+msgstr "Venda Acumulada"
 
 msgid "Cumulative size of every ask price level"
-msgstr "Tamanho cumulativo de todos os níveis de preços solicitados"
+msgstr "Total da compra"
 
 msgid "Cumulative size of every bid price level"
-msgstr "Tamanho cumulativo de cada nível de preço de lance"
+msgstr "Total da venda"
 
 msgid "VWAP ask"
-msgstr "VWAP perguntar"
+msgstr "VWAP compra"
 
 msgid "VWAP bid"
-msgstr "Lance VWAP"
+msgstr "VWAP venda"
 
 msgid "Volume weighted average ask price"
-msgstr "Média ponderada por volume"
+msgstr "Média ponderada por volume da compra"
 
 msgid "Volume weighted average bid price"
-msgstr "Preço de lance médio ponderado por volume"
+msgstr "Médio ponderado por volume da venda"
 
 msgid "Net Profit / Loss"
 msgstr "Lucro / Prejuízo Líquido"
@@ -1779,13 +1779,13 @@ msgid "Quantity"
 msgstr "Quantidade"
 
 msgid "Break even level"
-msgstr "Nível de quebra"
+msgstr "Nível do médio"
 
 msgid "Quantity long"
-msgstr "Quantidade longa"
+msgstr "Quantidade Comprada"
 
 msgid "Quantity short"
-msgstr "Quantidade curta"
+msgstr "Quantidade Vendida"
 
 msgid "N/A"
 msgstr "N / D"
