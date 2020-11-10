@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 11:24+0300\n"
+"POT-Creation-Date: 2020-11-09 22:49+0200\n"
 "PO-Revision-Date: 2019-02-26 13:28+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -29,11 +29,17 @@ msgstr "Остановлено"
 msgid "Completed"
 msgstr "Завершено"
 
-msgid "Limit"
-msgstr "Лимит"
+msgid "Limit if touched"
+msgstr "Ограничение при прикосновении"
+
+msgid "Trigger price"
+msgstr "Триггер цена"
 
 msgid "Price"
 msgstr "Цена"
+
+msgid "Limit"
+msgstr "Лимит"
 
 msgid "Stop loss price should be less then limit price"
 msgstr "Цена стоп лосс должна быть ниже лимитной цены"
@@ -46,6 +52,9 @@ msgstr "Цена стоп лосс должна быть больше лимит
 
 msgid "Take profit price should be less then limit price"
 msgstr "Цена тейк профит должна быть ниже лимитной цены"
+
+msgid "Market if touched"
+msgstr "Рынок, если коснуться"
 
 msgid "Market"
 msgstr "Рыночный"
@@ -65,26 +74,23 @@ msgstr "Цена тейк профит должна быть меньше рын
 msgid "Stop limit"
 msgstr "Стоп лимит"
 
-msgid "Trigger price"
-msgstr "Триггер цена"
-
 msgid "Stop"
 msgstr "Стоп"
 
-msgid "Stop loss price should be less then stop price"
-msgstr "Цена стоп лосс должна быть меньше цены стоп ордера"
+msgid "Stop loss price should be less then trigger price"
+msgstr "Остановить убыток цена должна быть меньше, чем вызвать цену"
 
-msgid "Take profit price should be more then stop price"
-msgstr "Цена тейк профит должна быть больше цены стоп ордера"
+msgid "Take profit price should be more then trigger price"
+msgstr "Возьмите прибыль цена должна быть больше, чем вызвать цену"
 
-msgid "Stop loss price should be more then stop price"
-msgstr "Цена стоп лосс должна быть больше цены стоп ордера"
+msgid "Stop loss price should be more then trigger price"
+msgstr "Остановить потери цена должна быть больше, чем вызвать цену"
 
-msgid "Take profit price should be less then stop price"
-msgstr "Цена тейк профит должна быть меньше цены стоп ордера"
+msgid "Take profit price should be less then trigger price"
+msgstr "Возьмите прибыль цена должна быть меньше, чем вызвать цену"
 
-msgid "Tr. stop"
-msgstr "Тр. стоп"
+msgid "Trailing Stop"
+msgstr "Трейинг Стоп"
 
 msgid "Trailing offset"
 msgstr "Смещение трейлинга"
@@ -119,6 +125,9 @@ msgstr "Неактивен"
 msgid "Working"
 msgstr "Работает"
 
+msgid "Undefined"
+msgstr "Неопределенный"
+
 msgid "Multiple positions"
 msgstr "Несколько позиций"
 
@@ -128,14 +137,59 @@ msgstr "Несколько на каждую сторону"
 msgid "One position"
 msgstr "Одна позиция"
 
-msgid "Undefined"
-msgstr "Неопределенный"
-
 msgid "Aggressor flag"
 msgstr "Флаг агрессора"
 
 msgid "Tick direction"
 msgstr "Направление тика"
+
+msgid "Loading sessions..."
+msgstr "Загрузка сессий..."
+
+msgid "Loading exchanges..."
+msgstr "Загрузка бирж..."
+
+msgid "Loading symbol groups..."
+msgstr "Загрузка групп символов..."
+
+msgid "Loading order types..."
+msgstr "Типы заказов загрузки..."
+
+msgid "Loading assets..."
+msgstr "Загрузка активов..."
+
+msgid "Loading accounts..."
+msgstr "Загрузка счетов..."
+
+msgid "Loading symbols..."
+msgstr "Загрузка инструментов..."
+
+msgid "Loading rules..."
+msgstr "Загрузка правил..."
+
+msgid "Loading positions..."
+msgstr "Загрузка позиций..."
+
+msgid "Loading closed positions..."
+msgstr "Загрузка закрытых позиций..."
+
+msgid "Loading reports..."
+msgstr "Загрузка отчетов..."
+
+msgid "Loading orders..."
+msgstr "Загрузка ордеров..."
+
+msgid "Loading account operations..."
+msgstr "Загрузка операций учетной записи..."
+
+msgid "Processing messages..."
+msgstr "Обработка сообщений..."
+
+msgid "Value"
+msgstr "Значение"
+
+msgid "Build from"
+msgstr "Построить из"
 
 msgid "Box size"
 msgstr "Размер блока"
@@ -221,6 +275,9 @@ msgstr "Штрих-пунктирная линия"
 msgid "Histogramm"
 msgstr "Гистограмма"
 
+msgid "Points"
+msgstr "Точки"
+
 msgid "Default"
 msgstr "По умолчанию"
 
@@ -268,6 +325,9 @@ msgstr "Ласт"
 
 msgid "Bid/Ask"
 msgstr "Бид/Аск"
+
+msgid "Mark"
+msgstr "Инструмент"
 
 msgid "Exception"
 msgstr "Исключение"
@@ -320,14 +380,134 @@ msgstr "\\u003c"
 msgid "<="
 msgstr "\\u003c="
 
+msgid "Cross"
+msgstr "Пересечение"
+
+msgid "Cross Above"
+msgstr "Крест выше"
+
+msgid "Cross Below"
+msgstr "Крест ниже"
+
+msgid "Full chart range"
+msgstr "Полный диапазон диаграмм"
+
+msgid "Daily"
+msgstr "День"
+
+msgid "Weekly"
+msgstr "Еженедельно"
+
+msgid "Histogram style"
+msgstr "Стиль гистограммы"
+
+msgid "Line style"
+msgstr "Стиль линии"
+
+msgid "Show labels"
+msgstr "Показать этикетки"
+
+msgid "Label font"
+msgstr "Шрифт этикетки"
+
 msgid "Volume Impact"
 msgstr "Воздействие на объем"
+
+msgid "Back"
+msgstr "Фон"
+
+msgid "Visual style"
+msgstr "Визуальный стиль"
+
+msgid "Lines style"
+msgstr "Стиль линий"
+
+msgid "Time frame"
+msgstr "Временной интервал"
+
+msgid "Enable alerts"
+msgstr "Включить оповещения"
+
+msgid "Enable sound alert"
+msgstr "Включить звуковое оповещение"
+
+msgid "Enable box alert"
+msgstr "Включить оповещение коробки"
+
+msgid "On high/low"
+msgstr "На высоком/низком"
+
+msgid "On current bar"
+msgstr "На текущем баре"
+
+msgid "Period"
+msgstr "Период"
+
+msgid "Dev step left part"
+msgstr "Dev шаг левая часть"
+
+msgid "Dev step right part"
+msgstr "Dev шаг правой части"
+
+msgid "Low"
+msgstr "Минимум"
+
+msgid "High"
+msgstr "Максимум"
+
+msgid "Enable alert"
+msgstr "Включить оповещение"
+
+msgid "Histogram colors"
+msgstr "Цвета гистограммы"
+
+msgid "Area colors"
+msgstr "Цвет области"
+
+msgid "Lot"
+msgstr "За лот"
 
 msgid "Total long positions: "
 msgstr "Всего длинных позиций: "
 
 msgid "Total short positions: "
 msgstr "Всего коротких позиций: "
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Group"
+msgstr "Группа"
+
+msgid "SortIndex"
+msgstr "СортИндекс"
+
+msgid "Chart"
+msgstr "График"
+
+msgid "OE (Buy)"
+msgstr "OE (Купить)"
+
+msgid "OE (Sell)"
+msgstr "OE (Продажа)"
+
+msgid "Time & Sales"
+msgstr "Лента сделок"
+
+msgid "Market Depth"
+msgstr "Глубина рынка"
+
+msgid "DOM Trader"
+msgstr "ТРЕЙДЕР DOM"
+
+msgid "Open panel"
+msgstr "Открытая панель"
+
+msgid "Button text"
+msgstr "Текст кнопки"
+
+msgid "Color"
+msgstr "Цвет"
 
 msgid "Maximize"
 msgstr "Развернуть"
@@ -341,10 +521,6 @@ msgstr "Название панели"
 #, csharp-format
 msgid "{0} has not supported {1} event"
 msgstr "{0} не поддерживает {1} событие"
-
-#, csharp-format
-msgid "{0} has not supported {1} shared property"
-msgstr "{0} не поддерживает {1} совместное свойство"
 
 msgid "Link"
 msgstr "Связь по цвету"
@@ -369,6 +545,21 @@ msgstr "Разъеденить"
 
 msgid "Create bind"
 msgstr "Создать связку"
+
+msgid "Create panel"
+msgstr "Создание панели"
+
+msgid "Crypto ОЕ"
+msgstr "Криптовалюта"
+
+msgid "Order entry"
+msgstr "Панель ввода ордера"
+
+msgid "DOM Surface"
+msgstr "ПОВЕРХНОСТЬ DOM"
+
+msgid "TPO Chart"
+msgstr "Диаграмма TPO"
 
 msgid "Duplicate panel"
 msgstr "Копировать панель"
@@ -415,11 +606,14 @@ msgstr "Эмулятор"
 msgid "SIMULATOR"
 msgstr "Симулятор"
 
-msgid "PLAYER"
-msgstr "Плеер"
+msgid "REPLAY"
+msgstr "Воспроизведения"
 
 msgid "BACKTESTER"
 msgstr "Тестер"
+
+msgid "Close {this.PluginInfo.Title} ?"
+msgstr "Закрой это. PluginInfo.Title?"
 
 msgid "Templates"
 msgstr "Шаблоны"
@@ -451,6 +645,93 @@ msgstr "Вид"
 msgid "Columns"
 msgstr "Колонки"
 
+msgid "1 hour"
+msgstr "1 час"
+
+msgid "3 hours"
+msgstr "3 часа"
+
+msgid "6 hours"
+msgstr "6 часов"
+
+msgid "12 hours"
+msgstr "12 часов"
+
+msgid "1 day"
+msgstr "1 день"
+
+msgid "3 days"
+msgstr "3 дня"
+
+msgid "5 days"
+msgstr "5 дней"
+
+msgid "10 days"
+msgstr "10 дней"
+
+msgid "20 days"
+msgstr "20 дней"
+
+msgid "1 month"
+msgstr "1 месяц"
+
+msgid "3 month"
+msgstr "3 месяца"
+
+msgid "6 month"
+msgstr "6 месяцев"
+
+msgid "1 year"
+msgstr "1 год"
+
+msgid "3 years"
+msgstr "3 года"
+
+msgid "5 years"
+msgstr "5 лет"
+
+msgid "10 years"
+msgstr "10 лет"
+
+msgid "20 years"
+msgstr "20 лет"
+
+msgid "50 years"
+msgstr "50 лет"
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "Use custom tick size"
+msgstr "Использование пользовательского размера тиков"
+
+msgid "Custom tick size"
+msgstr "Пользовательский размер тик"
+
+msgid "Time zone"
+msgstr "Часовой пояс"
+
+msgid "Show out of session history"
+msgstr "Показать вне истории сеанса"
+
+msgid "Symbol"
+msgstr "Символ"
+
+msgid "Data type"
+msgstr "Тип данных"
+
+msgid "Main scale"
+msgstr "Основная шкала"
+
+msgid "Separate scale"
+msgstr "Отдельная шкала"
+
+msgid "Price scaling"
+msgstr "Масштаб цены"
+
+msgid "Show price marker"
+msgstr "Показывать маркер цены"
+
 msgid "Over chart"
 msgstr "Над графиком"
 
@@ -470,32 +751,59 @@ msgstr "Расположение на графике"
 msgid "Bar"
 msgstr "Бар"
 
+msgid "B"
+msgstr "B"
+
 msgid "Date"
 msgstr "Дата"
 
 msgid "Time"
 msgstr "Время"
 
+msgid "T"
+msgstr "T:"
+
 msgid "Open"
 msgstr "Открытие"
+
+msgid "O"
+msgstr "O"
 
 msgid "Close"
 msgstr "Закрытие"
 
-msgid "High"
-msgstr "Максимум"
+msgid "C"
+msgstr "C"
 
-msgid "Low"
-msgstr "Минимум"
+msgid "L"
+msgstr "L"
 
 msgid "Change, %"
 msgstr "Изменение, %"
 
+msgid "Ch"
+msgstr "Ch"
+
 msgid "Ticks"
 msgstr "Тики"
 
+msgid "Tk"
+msgstr "Тз"
+
 msgid "Volume"
 msgstr "Объем"
+
+msgid "V"
+msgstr "V"
+
+msgid "A"
+msgstr "A"
+
+msgid "Open interest"
+msgstr "Открытый интерес"
+
+msgid "Oi"
+msgstr "Эй"
 
 msgid "Hide"
 msgstr "Скрыть"
@@ -541,12 +849,6 @@ msgstr "Относительная"
 
 msgid "Logarithmic"
 msgstr "Логарифмическая"
-
-msgid "Switch to manual price scale"
-msgstr "Переключить на ручное масштабирование"
-
-msgid "Switch to auto price scale"
-msgstr "Переключить на автомасштабирование"
 
 msgid "Grid"
 msgstr "Сетка"
@@ -676,6 +978,12 @@ msgstr "Изменить на рыночный"
 msgid "Show positions"
 msgstr "Показать позиции"
 
+msgid "Currency"
+msgstr "Валюта"
+
+msgid "PnL type:"
+msgstr "Тип PnL:"
+
 msgid "Show orders"
 msgstr "Показать рабочие ордера"
 
@@ -685,121 +993,38 @@ msgstr "Показать исполненные ордера"
 msgid "Trade through Order entry"
 msgstr "Торговля через панель Создать Ордер"
 
-#, csharp-format
-msgid "{0} color"
-msgstr "{0} цвет"
+msgid "Imbalance ratio"
+msgstr "Коэффициент дисбаланса"
 
-msgid "Back"
-msgstr "Фон"
+msgid "Show stacked imbalances"
+msgstr "Показать сложенные дисбалансы"
 
-msgid "Delta colors"
-msgstr "Цвета для дельт"
-
-msgid "Width of histogram, %"
-msgstr "Ширина гистограммы,%"
-
-msgid "Data type"
-msgstr "Тип данных"
-
-msgid "Highlight maximum value"
-msgstr "Подсвечивать максимальное значение"
-
-msgid "Maximum value color"
-msgstr "Цвет максимального значения"
-
-msgid "Text"
-msgstr "Текст"
-
-msgid "Value label"
-msgstr "Значение отметки"
-
-msgid "Periods"
-msgstr "Периоды"
-
-msgid "Step period"
-msgstr "Период шага"
-
-msgid "Step coefficient"
-msgstr "Значение шага"
-
-msgid "Minute"
-msgstr "Минута"
-
-msgid "Hour"
-msgstr "Час"
-
-msgid "Height of histogram, %"
-msgstr "Высота гистограммы,%"
-
-msgid "Volume color"
-msgstr "Цвет объема"
-
-msgid "Trades color"
-msgstr "Цвет трейдов"
-
-msgid "Coloring by volume"
-msgstr "Раскраска по объему"
-
-msgid "Coloring by ticks"
-msgstr "Раскраска по тикам"
-
-msgid "Coloring by delta"
-msgstr "Раскраска по дельте"
-
-msgid "Coloring by trades"
-msgstr "Раскраска по трейдам"
-
-msgid "Histogram"
-msgstr "Гистограмма"
-
-#, csharp-format
-msgid "Enable {0} view"
-msgstr "Включить {0}"
-
-msgid "Data type #1"
-msgstr "Тип данных #1"
-
-msgid "Data type #2"
-msgstr "Тип данных #2"
-
-msgid "Cluster visualization"
-msgstr "Визуализация кластера"
-
-msgid "Enabled"
-msgstr "Включено"
-
-msgid "General"
-msgstr "Общие"
-
-msgid "Cluster"
-msgstr "Кластер"
-
-msgid "Step profile"
-msgstr "Пошаговый профиль"
-
-msgid "Left profile"
-msgstr "Левый профиль"
-
-msgid "Right profile"
-msgstr "Правый профиль"
-
-msgid "Time statistics"
-msgstr "Статистика по времени"
-
-msgid "Time histogram"
-msgstr "Гистограмма по времени"
+msgid "Zones count"
+msgstr "Количество зон"
 
 msgid "Filtered volume"
 msgstr "Отфильтрованный объем"
 
-msgid "Custom step (ticks)"
-msgstr "Пользовательский шаг (в тиках)"
+msgid "Text"
+msgstr "Текст"
 
-msgid "Delta calculation type"
-msgstr "Тип расчета дельты"
+msgid "Highlight zeros"
+msgstr "Основные нули"
 
-msgid "Enable"
-msgstr "Разрешить"
+msgid "Highlight unfinished auctions"
+msgstr "Выделите незавершенные аукционы"
+
+msgid "Show cluster volume"
+msgstr "Показать объем кластера"
+
+msgid "Show cluster delta"
+msgstr "Показать дельту кластера"
+
+msgid "Show high/low ratio"
+msgstr "Показать высокое/низкое соотношение"
+
+msgid "Arrow direction"
+msgstr "Направление стрелки"
 
 msgid "Min trade volume"
 msgstr "Минимальный объем торговли"
@@ -825,6 +1050,9 @@ msgstr "Высота минзонной зоны, клещи"
 msgid "Filter by Delta, %"
 msgstr "Фильтр по Дельта,%"
 
+msgid "Filter by Basis ratio, %"
+msgstr "Фильтр по соотношению базы, %"
+
 msgid "Play alert sound"
 msgstr "Воспроизвести звуковой сигнал"
 
@@ -843,11 +1071,190 @@ msgstr "Стиль окраски"
 msgid "Level2 level count"
 msgstr "Количество уровней level2"
 
+msgid "Custom step (ticks)"
+msgstr "Пользовательский шаг (в тиках)"
+
+msgid "Delta calculation type"
+msgstr "Тип расчета дельты"
+
+msgid "Cumulative Delta reset"
+msgstr "Совокупный сброс Дельты"
+
+msgid "General"
+msgstr "Общие"
+
+msgid "Cluster"
+msgstr "Кластер"
+
+msgid "Step profile"
+msgstr "Пошаговый профиль"
+
+msgid "Left profile"
+msgstr "Левый профиль"
+
+msgid "Right profile"
+msgstr "Правый профиль"
+
+msgid "Time statistics"
+msgstr "Статистика по времени"
+
+msgid "Time histogram"
+msgstr "Гистограмма по времени"
+
+msgid "VWAP"
+msgstr "VWAP"
+
+msgid "Forward extensions (past VWAPs)"
+msgstr "Форвардные расширения (прошлые VWAPs)"
+
+msgid "Forward extensions type"
+msgstr "Тип форвардных расширений"
+
+msgid "VWAP line"
+msgstr "Линия VWAP"
+
+msgid "Standart deviation"
+msgstr "Отклонение Standart"
+
+msgid "Enable standard deviations"
+msgstr "Включить стандартные отклонения"
+
+msgid "Deviations value"
+msgstr "Значение отклонений"
+
+msgid "Deviation line style"
+msgstr "Стиль линии отклонения"
+
+msgid "Maximum permissible deviation"
+msgstr "Максимально допустимое отклонение"
+
+msgid "Enable permissible deviation"
+msgstr "Включить допустимое отклонение"
+
+msgid "Volume aggregation does not support Time Statistic"
+msgstr "Агрегация объема не поддерживает статистику времени"
+
+#, csharp-format
+msgid "{0} color"
+msgstr "{0} цвет"
+
+msgid "Delta colors"
+msgstr "Цвета для дельт"
+
+msgid "Width of histogram, %"
+msgstr "Ширина гистограммы,%"
+
+msgid "Periods"
+msgstr "Периоды"
+
+msgid "Step period"
+msgstr "Период шага"
+
+msgid "Step coefficient"
+msgstr "Значение шага"
+
+msgid "Minute"
+msgstr "Минута"
+
+msgid "Hour"
+msgstr "Час"
+
+msgid "Volume aggregation does not support Time Histogram"
+msgstr "Агрегация объема не поддерживает хистограмму времени"
+
+msgid "Height of histogram, %"
+msgstr "Высота гистограммы,%"
+
+msgid "Value label"
+msgstr "Значение отметки"
+
+msgid "Volume color"
+msgstr "Цвет объема"
+
+msgid "Trades color"
+msgstr "Цвет трейдов"
+
+msgid "Volume aggregation does not support Cluster chart"
+msgstr "Агрегация объема не поддерживает кластерную диаграмму"
+
+msgid "Coloring by volume"
+msgstr "Раскраска по объему"
+
+msgid "Coloring by ticks"
+msgstr "Раскраска по тикам"
+
+msgid "Coloring by delta"
+msgstr "Раскраска по дельте"
+
+msgid "Coloring by trades"
+msgstr "Раскраска по трейдам"
+
+msgid "Histogram"
+msgstr "Гистограмма"
+
+msgid "Single"
+msgstr "Единичный"
+
+msgid "Double"
+msgstr "Двухместный"
+
+msgid "Imbalance"
+msgstr "Дисбаланс"
+
+#, csharp-format
+msgid "Enable {0} view"
+msgstr "Включить {0}"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Data type #1"
+msgstr "Тип данных #1"
+
+msgid "Data type #2"
+msgstr "Тип данных #2"
+
+msgid "Cluster visualization"
+msgstr "Визуализация кластера"
+
+msgid "Show POC"
+msgstr "Показать POC"
+
+msgid "Enabled"
+msgstr "Включено"
+
+msgid "Default text color"
+msgstr "Цвет текста по умолчанию"
+
+msgid "Default Back color"
+msgstr "По умолчанию Назад цвет"
+
+msgid "Coloring for various levels"
+msgstr "Раскраска для различных уровней"
+
+msgid "Pos"
+msgstr "Pos"
+
+msgid "Neg"
+msgstr "Нег"
+
+msgid "Coloring for positive delta levels"
+msgstr "Окраска для положительных уровней дельты"
+
+msgid "Coloring for negative levels"
+msgstr "Окраска для отрицательных уровней"
+
 msgid "Histogram position"
 msgstr "Положение гистограммы"
 
 msgid "Histogram label position"
 msgstr "Положение значения гистограммы"
+
+msgid "Trade color"
+msgstr "Цвет трейда"
+
+msgid "Show POC ray"
+msgstr "Показать луч ПКК"
 
 msgid "Show Value area"
 msgstr "Показать область значений"
@@ -855,17 +1262,8 @@ msgstr "Показать область значений"
 msgid "Value area height, %"
 msgstr "Высота области значений,%"
 
-msgid "Value area color"
-msgstr "Цвет области значений"
-
-msgid "Show Value area borders"
-msgstr "Показать границы области значений"
-
-msgid "Show POC ray"
-msgstr "Показать луч ПКК"
-
-msgid "Trade color"
-msgstr "Цвет трейда"
+msgid "Value area borders"
+msgstr "Границы зоны ценностей"
 
 msgid "Show Totals"
 msgstr "Показать суммарное значение"
@@ -875,6 +1273,9 @@ msgstr "Перекрестие курсора"
 
 msgid "Visible"
 msgstr "Видимость"
+
+msgid "Synchronize with other charts"
+msgstr "Синхронизация с другими диаграммами"
 
 msgid "PrevSettlement"
 msgstr "Пред. расчёт"
@@ -893,6 +1294,27 @@ msgstr "Линия пред. закрытия"
 
 msgid "Price limits"
 msgstr "Ценовые ограничения"
+
+msgid "End of Bar"
+msgstr "Конец бара"
+
+msgid "From"
+msgstr "От"
+
+msgid "This bar Close"
+msgstr "Этот бар Закрыть"
+
+msgid "This bar Open"
+msgstr "Этот бар Открыть"
+
+msgid "This bar High"
+msgstr "Этот бар Высокий"
+
+msgid "This bar Low"
+msgstr "Этот бар Низкий"
+
+msgid "New bar Open"
+msgstr "Новый бар Открыть"
 
 msgid "Body color"
 msgstr "Цвет тела свечи"
@@ -960,9 +1382,6 @@ msgstr "Цвет области спреда"
 msgid "Time to next bar"
 msgstr "Время до следующего бара"
 
-msgid "Color"
-msgstr "Цвет"
-
 msgid "Height, %"
 msgstr "Высота, %"
 
@@ -1014,15 +1433,6 @@ msgstr "Торговля электроэнергией"
 msgid "Label colors"
 msgstr "Цвета значений"
 
-msgid "Cross"
-msgstr "Пересечение"
-
-msgid "Cross Above"
-msgstr "Крест выше"
-
-msgid "Cross Below"
-msgstr "Крест ниже"
-
 msgid "Cross type"
 msgstr "Тип кросса"
 
@@ -1055,6 +1465,9 @@ msgstr "Стиль контроллеров профилей"
 
 msgid "Selection area"
 msgstr "Область выбора"
+
+msgid "Billet format type"
+msgstr "Тип формата билль"
 
 msgid "Show full arc"
 msgstr "Показывать всю дугу"
@@ -1119,9 +1532,6 @@ msgstr "Цвета инструмента"
 msgid "Tool color"
 msgstr "Цвет инструмента"
 
-msgid "Area colors"
-msgstr "Цвет области"
-
 msgid "Long"
 msgstr "Длинная"
 
@@ -1130,6 +1540,21 @@ msgstr "Короткая"
 
 msgid "Tool mode"
 msgstr "Режим инструмента"
+
+msgid "View labels"
+msgstr "Просмотр меток"
+
+msgid "Label Position"
+msgstr "Позиция этикетки"
+
+msgid "Center"
+msgstr "Центр"
+
+msgid "Take profit"
+msgstr "Тейк профит"
+
+msgid "Stop loss"
+msgstr "Стоп лосс"
 
 msgid "Regression Line"
 msgstr "Линия регрессии"
@@ -1178,9 +1603,6 @@ msgstr "Расположение текста"
 
 msgid "Text area"
 msgstr "Текстовая область"
-
-msgid "Value"
-msgstr "Значение"
 
 msgid "Font style"
 msgstr "Стиль шрифта"
@@ -1257,9 +1679,6 @@ msgstr "Сетка Ганна"
 msgid "Ruler"
 msgstr "Линейка"
 
-msgid "Symbol"
-msgstr "Символ"
-
 msgid "Up arrow"
 msgstr "Стрелка вверх"
 
@@ -1320,8 +1739,32 @@ msgstr "Угловая линия"
 msgid "Alert"
 msgstr "Алерт"
 
+msgid "Elliot triangle wave"
+msgstr "Волна треугольника Эллиота"
+
+msgid "Three drives pattern"
+msgstr "Шаблон трех дисков"
+
+msgid "Triangle pattern"
+msgstr "Треугольник шаблон"
+
+msgid "TPA Strategy"
+msgstr "Стратегия TPA"
+
+msgid "Anchor VWAP"
+msgstr "Якорь VWAP"
+
+msgid "Whale Splash"
+msgstr "Всплеск китов"
+
 msgid "Invalid price"
 msgstr "Неверная цена"
+
+msgid "Net:"
+msgstr "Чистая прибыль:"
+
+msgid "Gross:"
+msgstr "Общая прибыль:"
 
 #, csharp-format
 msgid "TP price: {0}"
@@ -1343,6 +1786,15 @@ msgstr "Va"
 msgid "POC ray"
 msgstr "Луч ВОУ"
 
+msgid "Waiting for data loading"
+msgstr "Ожидание загрузки данных"
+
+msgid "Loading data..."
+msgstr "Загрузка данных..."
+
+msgid "No data"
+msgstr "Нет данных"
+
 #, csharp-format
 msgid "{0} ticks"
 msgstr "{0} тиков"
@@ -1353,6 +1805,13 @@ msgstr "Наложение"
 msgid "Empty symbol"
 msgstr "Пустой символ"
 
+msgid "Full"
+msgstr "Полная"
+
+#, csharp-format
+msgid "{0} %"
+msgstr "{0} %"
+
 msgid "Candle"
 msgstr "Свеча"
 
@@ -1361,6 +1820,9 @@ msgstr "Точки"
 
 msgid "Dotted line"
 msgstr "Линия с точкой"
+
+msgid "Quantower"
+msgstr "Квантоуэр"
 
 msgid "P&F"
 msgstr "Крестики/Нолики"
@@ -1376,6 +1838,9 @@ msgstr "Ренко"
 
 msgid "Profile"
 msgstr "Профиль"
+
+msgid "Keyboard trading is active"
+msgstr "Клавиатура торговля активна"
 
 msgid "Data is loading..."
 msgstr "Данные загружаются..."
@@ -1504,6 +1969,12 @@ msgstr "Другое"
 msgid "Remove selected"
 msgstr "Удалить выбранное"
 
+msgid "Copy selected"
+msgstr "Копировать выбранное"
+
+msgid "Paste"
+msgstr "Вставить"
+
 msgid "Volume Analysis"
 msgstr "Объемный анализ"
 
@@ -1525,11 +1996,11 @@ msgstr "Статистика по времени"
 msgid "Time Histogram"
 msgstr "Гистограмма по времени"
 
-msgid "Time & Sales"
-msgstr "Лента сделок"
-
 msgid "Custom Profile"
 msgstr "Пользовательский профиль"
+
+msgid "Custom VWAP"
+msgstr "Пользовательские VWAP"
 
 msgid "Day high/low"
 msgstr "Дневной Макс./Мин."
@@ -1549,6 +2020,12 @@ msgstr "Панель инструментов"
 msgid "Quick OE"
 msgstr "Создать ордер"
 
+msgid "Symbol description"
+msgstr "Описание инструмента"
+
+msgid "Reload history (server)"
+msgstr "История перезагрузки (сервер)"
+
 msgid "Refresh"
 msgstr "Обновить график"
 
@@ -1565,78 +2042,6 @@ msgstr "Вы действительно хотите исполнить орде
 #, csharp-format
 msgid "Default by symbol ({0})"
 msgstr "Стандартный по символу ({0})"
-
-msgid "1 hour"
-msgstr "1 час"
-
-msgid "3 hours"
-msgstr "3 часа"
-
-msgid "6 hours"
-msgstr "6 часов"
-
-msgid "12 hours"
-msgstr "12 часов"
-
-msgid "1 day"
-msgstr "1 день"
-
-msgid "3 days"
-msgstr "3 дня"
-
-msgid "5 days"
-msgstr "5 дней"
-
-msgid "10 days"
-msgstr "10 дней"
-
-msgid "20 days"
-msgstr "20 дней"
-
-msgid "1 month"
-msgstr "1 месяц"
-
-msgid "3 month"
-msgstr "3 месяца"
-
-msgid "6 month"
-msgstr "6 месяцев"
-
-msgid "1 year"
-msgstr "1 год"
-
-msgid "3 years"
-msgstr "3 года"
-
-msgid "5 years"
-msgstr "5 лет"
-
-msgid "10 years"
-msgstr "10 лет"
-
-msgid "20 years"
-msgstr "20 лет"
-
-msgid "50 years"
-msgstr "50 лет"
-
-msgid "Show"
-msgstr "Показать"
-
-msgid "Time zone"
-msgstr "Часовой пояс"
-
-msgid "Main scale"
-msgstr "Основная шкала"
-
-msgid "Separate scale"
-msgstr "Отдельная шкала"
-
-msgid "Price scaling"
-msgstr "Масштаб цены"
-
-msgid "Show price marker"
-msgstr "Показывать маркер цены"
 
 msgid "Time value: "
 msgstr "Значение времени: "
@@ -1659,8 +2064,302 @@ msgstr "Вега: "
 msgid "Rho: "
 msgstr "Ро: "
 
+msgid "Time: "
+msgstr "Время: "
+
+msgid "Price: "
+msgstr "Цена: "
+
+msgid "Size: "
+msgstr "Размер: "
+
+msgid "Trade Price: "
+msgstr "Торговая цена: "
+
+msgid "Trade Size: "
+msgstr "Размер торговли: "
+
+msgid "Data gap:"
+msgstr "Разрыв в данных:"
+
+msgid "Waiting for quote..."
+msgstr "В ожидании цитаты..."
+
+msgid "Level2"
+msgstr "Уровень2"
+
+msgid "Trades"
+msgstr "Сделки"
+
+msgid "Show Bid/Ask line"
+msgstr "Показать линию Bid/Ask"
+
+msgid "Bid line color"
+msgstr "Цвет линии предложения"
+
+msgid "Ask line color"
+msgstr "Спросите цвет строки"
+
+msgid "DOM levels count"
+msgstr "Количество уровней DOM"
+
+msgid "DOM levels contrast, %"
+msgstr "DOM уровни контрастируют, %"
+
+msgid "Maximal level2 size"
+msgstr "Максимальный размер уровня2"
+
+msgid "Custom level2 min size"
+msgstr "Пользовательский размер уровня2 мин"
+
+msgid "Custom level2 max size"
+msgstr "Пользовательский уровень2 максимальный размер"
+
+msgid "Level2 coloring mode"
+msgstr "Режим окраски level2"
+
+msgid "Buy color"
+msgstr "Купить цвет"
+
+msgid "Sell color"
+msgstr "Продажа цвета"
+
+msgid "Color 1"
+msgstr "Цвет 1"
+
+msgid "Color 2"
+msgstr "Цвет 2"
+
+msgid "Color 3"
+msgstr "Цвет 3"
+
+msgid "Color 4"
+msgstr "Цвет 4"
+
+msgid "Color 5"
+msgstr "Цвет 5"
+
+msgid "Show last line"
+msgstr "Показать последнюю строку"
+
+msgid "Last line color"
+msgstr "Цвет последней линии"
+
+msgid "Markers opacity"
+msgstr "Непрозрачность маркеров"
+
+msgid "Markers maximum size (px)"
+msgstr "Маркеры максимального размера (px)"
+
+msgid "Maximal trade size"
+msgstr "Максимальный размер торговли"
+
+msgid "Custom trade size"
+msgstr "Размер таможенной торговли"
+
+msgid "None color"
+msgstr "Нет цвета"
+
 msgid "Scroll"
 msgstr "Прокрутка по истории"
+
+msgid "TPO: "
+msgstr "Тпо: "
+
+msgid "VAH: "
+msgstr "Ваг: "
+
+msgid "VAL: "
+msgstr "Валь: "
+
+msgid "POC: "
+msgstr "Poc: "
+
+msgid "MidPoint: "
+msgstr "Середина: "
+
+msgid "RF: "
+msgstr "Рф: "
+
+msgid "Volume: "
+msgstr "Объем: "
+
+msgid "Trades: "
+msgstr "Сделок: "
+
+msgid "Custom step: "
+msgstr "Пользовательский шаг: "
+
+msgid "Incorrect parameters"
+msgstr "Неправильные параметры"
+
+msgid "Split"
+msgstr "Сплит"
+
+msgid "Merge left"
+msgstr "Слияние влево"
+
+msgid "Merge right"
+msgstr "Слияние справа"
+
+msgid "Divide at bar"
+msgstr "Разделяй в баре"
+
+msgid "Reset all"
+msgstr "Сбросить все"
+
+msgid "POC Ray"
+msgstr "ПОК Рэй"
+
+msgid "Display style"
+msgstr "Стиль отображения"
+
+msgid "Show marker on each bar"
+msgstr "Показать маркер на каждом баре"
+
+msgid "Coloring mode"
+msgstr "Режим окрашивания"
+
+msgid "Delta none color"
+msgstr "Дельта нет цвета"
+
+msgid "Bar colors"
+msgstr "Цвета баров"
+
+msgid "Bar none color"
+msgstr "Бар ни одного цвета"
+
+msgid "Plot symbol"
+msgstr "Символ участка"
+
+msgid "Show value area"
+msgstr "Показать значение области"
+
+msgid "Value Area, %"
+msgstr "Площадь стоимости, %"
+
+msgid "Show singles"
+msgstr "Показать одиночные"
+
+msgid "Show bar"
+msgstr "Показать бар"
+
+msgid "POC type"
+msgstr "Тип POC"
+
+msgid "POC color"
+msgstr "Цвет POC"
+
+msgid "Show midpoint"
+msgstr "Показать середину"
+
+msgid "Midpoint color"
+msgstr "Цвет средней точки"
+
+msgid "Initial Balance"
+msgstr "Первоначальный баланс"
+
+msgid "Show initial balance"
+msgstr "Показать начальный баланс"
+
+msgid "Initial balance"
+msgstr "Баланс инициализации"
+
+msgid "Volume analysis"
+msgstr "Анализ объема"
+
+msgid "Show volume analysis"
+msgstr "Показать анализ объема"
+
+msgid "Synhronize VA/TPO custom step"
+msgstr "Synhronize VA/TPO пользовательский шаг"
+
+msgid "VA position type"
+msgstr "Тип позиции VA"
+
+msgid "TPO"
+msgstr "Тпо"
+
+msgid "VAH"
+msgstr "Ваг"
+
+msgid "VAL"
+msgstr "Валь"
+
+msgid "POC"
+msgstr "Poc"
+
+msgid "Midpoint"
+msgstr "Середина"
+
+msgid "RF"
+msgstr "Рф"
+
+msgid "Delta"
+msgstr "Дельта"
+
+msgid "TPO Up"
+msgstr "TPO Up"
+
+msgid "TPO Down"
+msgstr "TPO Вниз"
+
+msgid "POC Count"
+msgstr "Граф POC"
+
+msgid "VA Volume"
+msgstr "В. А. Том"
+
+msgid "Range (ticks)"
+msgstr "Диапазон (тики)"
+
+msgid "VA range"
+msgstr "Диапазон VA"
+
+msgid "VA range (ticks)"
+msgstr "Диапазон В. А. (тики)"
+
+msgid "TPO statistics"
+msgstr "Статистика TPO"
+
+msgid "Show TPO statistics"
+msgstr "Показать статистику TPO"
+
+msgid "General color"
+msgstr "Общий цвет"
+
+msgid "Quantity:"
+msgstr "Объем:"
+
+msgid "Split size columns"
+msgstr "Колонки разделенного размера"
+
+msgid "Show last trade size"
+msgstr "Показать последний размер торговли"
+
+msgid "Type of last trade"
+msgstr "Тип последней сделки"
+
+msgid "Show Last Bid Trades"
+msgstr "Показать последнюю ставку торгов"
+
+msgid "Show Last Ask Trades"
+msgstr "Показать последний спросить торгов"
+
+msgid "Cumulative size"
+msgstr "Совокупный размер"
+
+msgid "Liquidity changes"
+msgstr "Изменения ликвидности"
+
+msgid "Number of changes"
+msgstr "Количество изменений"
+
+msgid "Cumulative changes"
+msgstr "Совокупные изменения"
+
+msgid "Comments"
+msgstr "Комментарий"
 
 msgid "No data to display"
 msgstr "Нет данных для отображения"
@@ -1668,14 +2367,44 @@ msgstr "Нет данных для отображения"
 msgid "Please check your connection or symbol availability"
 msgstr "Проверьте наличие подключения или символа."
 
-msgid "Table"
-msgstr "Таблица"
+msgid "Table background"
+msgstr "Фон таблицы"
 
 msgid "General Settings"
 msgstr "Общие настройки"
 
 msgid "Model settings"
 msgstr "Настройки модели"
+
+msgid "Auto center"
+msgstr "Автоцентр"
+
+msgid "Auto center type"
+msgstr "Тип автоцентра"
+
+msgid "Number of levels"
+msgstr "Количество уровней"
+
+msgid "Collapse spread"
+msgstr "Свернуть спред"
+
+msgid "Reset cumulative Bid/Ask Trades, sec"
+msgstr "Сброс кумулятивных сделок Bid/Ask, sec"
+
+msgid "By time"
+msgstr "По времени"
+
+msgid "By ticks"
+msgstr "По тикам"
+
+msgid "Liquidity changes reset type"
+msgstr "Изменения ликвидности типа сброса"
+
+msgid "Reset liquidity changes, sec"
+msgstr "Перезагрузка изменений ликвидности, сек"
+
+msgid "Reset liquidity changes, ticks"
+msgstr "Перезагрузка изменений ликвидности, тиков"
 
 msgid "Order side"
 msgstr "Сторона ордера"
@@ -1704,15 +2433,6 @@ msgstr "Совокупный размер по цене"
 msgid "Coloring method"
 msgstr "Метод раскраски"
 
-msgid "Auto center"
-msgstr "Автоцентр"
-
-msgid "Auto center type"
-msgstr "Тип автоцентра"
-
-msgid "Collapse spread"
-msgstr "Свернуть спред"
-
 msgid "Cancellation priority"
 msgstr "Приоритет отмены"
 
@@ -1721,6 +2441,21 @@ msgstr "Макс. дня"
 
 msgid "Day low"
 msgstr "Мин. дня"
+
+msgid "Allow new SLTP"
+msgstr "Разрешить новый SLTP"
+
+msgid "Use stop instead limit"
+msgstr "Используйте стоп вместо ограничения"
+
+msgid "Unknown"
+msgstr "Неизвестно"
+
+msgid "Reset"
+msgstr "Сброс"
+
+msgid "Broker"
+msgstr "Брокер"
 
 msgid "Ask price"
 msgstr "Цена Аск"
@@ -1773,6 +2508,9 @@ msgstr "Средневзвешенная по объему цена Бид"
 msgid "Net Profit / Loss"
 msgstr "Чистая прибыль/убыток"
 
+msgid "Gross Profit / Loss"
+msgstr "Валовая прибыль / убыток"
+
 msgid "Average open price"
 msgstr "Средняя цена открытия"
 
@@ -1788,11 +2526,11 @@ msgstr "Объем длинных"
 msgid "Quantity short"
 msgstr "Объем коротких"
 
+msgid "Liquidation price"
+msgstr "Ликвидационная цена"
+
 msgid "N/A"
 msgstr "Н/Д"
-
-msgid "Currency"
-msgstr "Валюта"
 
 msgid "Show position bar"
 msgstr "Показать строку позиции"
@@ -1802,6 +2540,18 @@ msgstr "Чистая прибыль"
 
 msgid "Net Loss"
 msgstr "Чистый убыток"
+
+msgid "Ask trade size"
+msgstr "Спросите размер торговли"
+
+msgid "Bid trade size"
+msgstr "Размер ставки торговли"
+
+msgid "Bid/Ask reset"
+msgstr "Сброс с bid/Ask"
+
+msgid "Last trade size"
+msgstr "Последний размер сделки"
 
 msgid "Grid color"
 msgstr "Цвет сетки"
@@ -1815,32 +2565,74 @@ msgstr "Горизонтальная"
 msgid "All"
 msgstr "Все"
 
+msgid "Clear"
+msgstr "Очистить"
+
+msgid "Custom tick size: "
+msgstr "Пользовательский размер тик: "
+
+msgid "Show table header"
+msgstr "Показать заголовок таблицы"
+
 msgid "Show day map"
 msgstr "Показать ценовой диапазон дня"
 
-msgid "Show high/low"
-msgstr "Показать макс./мин."
+msgid "Imbalance, %"
+msgstr "Дисбаланс, %"
 
-msgid "Show last trade indicator"
-msgstr "Показать индикатор последней сделки"
+msgid "Show day high/low"
+msgstr "Показать день высокий/низкий"
 
-msgid "Size"
-msgstr "Размер"
+msgid "Bids/Asks"
+msgstr "Предложения/сыты"
 
-msgid "Relative by volume"
-msgstr "По объему"
+msgid "Bids"
+msgstr "Цены покупки"
 
-msgid "Relative by max volume"
-msgstr "Относительно макс. объема"
+msgid "Asks"
+msgstr "Аски"
 
-msgid "Full-size cells"
-msgstr "Полноразмерные ячейки"
+msgid "Gradient"
+msgstr "Градиент"
 
-msgid "Antagonistic size bars"
-msgstr "Противоположное размещение баров"
+msgid "Gradient/Histogram"
+msgstr "Градиент/Гистограмма"
 
 msgid "Size coloring scheme"
 msgstr "Цветовая схема объемов"
+
+msgid "Enable column"
+msgstr "Включить столбец"
+
+msgid "Alignment"
+msgstr "Выравнивание"
+
+msgid "Reload data (server)"
+msgstr "Перезагрузка данных (сервер)"
+
+msgid "15 minutes"
+msgstr "15 минут"
+
+msgid "30 minutes"
+msgstr "30 минут"
+
+msgid "Today"
+msgstr "Сегодня"
+
+msgid "Yesterday"
+msgstr "Вчера"
+
+msgid "Current week"
+msgstr "Текущая неделя"
+
+msgid "Last week"
+msgstr "Прошлая неделя"
+
+msgid "Current month"
+msgstr "Текущий месяц"
+
+msgid "Last month"
+msgstr "Прошлый месяц"
 
 msgid "LIFO"
 msgstr "LIFO"
@@ -1857,15 +2649,6 @@ msgstr "По объему"
 msgid "Step to max volume"
 msgstr "Пошагово к макс. объему"
 
-msgid "Center"
-msgstr "Центр"
-
-msgid "PRESENT"
-msgstr "ПРИСУТСТВУЕТ"
-
-msgid "NOT PRESENT"
-msgstr "НЕ ПРИСУТСТВУЕТ"
-
 msgid "Message"
 msgstr "Сообщение"
 
@@ -1881,8 +2664,11 @@ msgstr "Окраска ячейки"
 msgid "Hiding"
 msgstr "Скрытие"
 
-msgid "Order"
-msgstr "Ордер"
+msgid "Conditional Order"
+msgstr "Условный порядок"
+
+msgid "Place order"
+msgstr "Отправить ордер"
 
 msgid "Cancel order"
 msgstr "Отменить ордер"
@@ -1893,6 +2679,51 @@ msgstr "Закрыть позицию"
 msgid "Coloring row"
 msgstr "Окраска ряда"
 
+msgid "Telegram message"
+msgstr "Сообщение Telegram"
+
+msgid "Cancel orders"
+msgstr "Отменить ордера"
+
+msgid "Cancel buy orders"
+msgstr "Отменить ордера на покупку"
+
+msgid "Cancel sell orders"
+msgstr "Отменить ордера на продажу"
+
+msgid "Cancel limits"
+msgstr "Отмена ограничений"
+
+msgid "Cancel stops"
+msgstr "Отмена остановок"
+
+msgid "Close all positions"
+msgstr "Закрыть все позиции"
+
+msgid "Flatten"
+msgstr "Выровнять"
+
+msgid "Close negative positions"
+msgstr "Закрыть убыточные позиции"
+
+msgid "Close positive positions"
+msgstr "Закрыть прибыльные позиции"
+
+msgid "Close long positions"
+msgstr "Закрыть длинные позиции"
+
+msgid "Close short positions"
+msgstr "Закрыть короткие позиции"
+
+msgid "Place Buy Market order"
+msgstr "Место Купить рыночный заказ"
+
+msgid "Place Sell Market order"
+msgstr "Место Продажа рынка порядка"
+
+msgid "Close position by symbol"
+msgstr "Близкое положение по символу"
+
 msgid "Sort order"
 msgstr "Порядок сортировки"
 
@@ -1902,14 +2733,14 @@ msgstr "Авторазмер колонок"
 msgid "Auto re-sorting"
 msgstr "Автосортировка"
 
+msgid "Empty"
+msgstr "Пусто"
+
 msgid "Group by"
 msgstr "Сгруппировать по"
 
 msgid "Columns visibility"
 msgstr "Видимость колонок"
-
-msgid "Create panel"
-msgstr "Создание панели"
 
 msgid "Header text"
 msgstr "Текст заголовка"
@@ -1929,17 +2760,74 @@ msgstr "Выравнивание колонки"
 msgid "Column color"
 msgstr "Цвет колонки"
 
-msgid "Coloring mode"
-msgstr "Режим окрашивания"
-
 msgid "Value up color"
 msgstr "Цвет увеличения"
 
 msgid "Value down color"
 msgstr "Цвет снижения"
 
+msgid "Rename list"
+msgstr "Список переименований"
+
+msgid "List name"
+msgstr "Имя списка"
+
+msgid "Save current watchlist"
+msgstr "Сохранить текущий список наблюдения"
+
+msgid "Add to watchlist"
+msgstr "Добавить в список наблюдения"
+
+msgid "Replace watchlist"
+msgstr "Заменить список наблюдения"
+
+msgid "Rename"
+msgstr "Переименовать"
+
+msgid "Delete"
+msgstr "Удалить"
+
 msgid "Add selected symbols"
 msgstr "Добавить выбранные символы"
+
+msgid "'Or'"
+msgstr "'Или'"
+
+msgid "Parameters"
+msgstr "Параметры"
+
+msgid "Multiple per side"
+msgstr "Несколько с каждой стороны"
+
+msgid "One Position"
+msgstr "Одна позиция"
+
+msgid "Fee per side, quoting currency"
+msgstr "Плата за бок, цитирование валюты"
+
+msgid "Margin"
+msgstr "Маржа"
+
+msgid "Netting type"
+msgstr "Тип сетки"
+
+msgid "Remove symbol"
+msgstr "Удалить инструмент"
+
+msgid "Tick"
+msgstr "Тик"
+
+msgid "1 minute"
+msgstr "1 минута"
+
+msgid "Bid/Ask/Last"
+msgstr "Ставка/спрос/последний"
+
+msgid "Account performance"
+msgstr "Производительность счета"
+
+msgid "DOM surface"
+msgstr "Поверхность DOM"
 
 msgid "Unpin from toolbar"
 msgstr "Открепить от панели инструментов"
@@ -1947,8 +2835,28 @@ msgstr "Открепить от панели инструментов"
 msgid "Pin on toolbar"
 msgstr "Закрепить на панель инструментов"
 
-msgid "Rename"
-msgstr "Переименовать"
+#, csharp-format
+msgid "{0}None{1}"
+msgstr "{0} Не задано {1}"
+
+msgid "This Hotkey is reserved by the Core. Please use another one."
+msgstr "Эта горячая клавиша зарезервирована. Укажите другую."
+
+#, csharp-format
+msgid "This Hotkey combination is already used for \"{0}\". Please use another one."
+msgstr "Эта комбинация горячих клавиш уже используется для «{0}». Укажите другую."
+
+msgid "Exchanges & Assets"
+msgstr "Обмены и активы"
+
+msgid "Add symbols"
+msgstr "Добавить инструменты"
+
+msgid "No symbols selected."
+msgstr "Символы не выбраны."
+
+msgid "Choose the first symbol"
+msgstr "Выберите первый символ"
 
 msgid "Such aggregation type already added"
 msgstr "Такая агрегация уже добавлена"
@@ -1966,19 +2874,11 @@ msgstr "Удалить уровень"
 msgid "Are you sure want to remove this level?"
 msgstr "Вы действительно хотите удалить этот уровень?"
 
-msgid "This Hotkey is reserved by the Core. Please use another one."
-msgstr "Эта горячая клавиша зарезервирована. Укажите другую."
+msgid "Use saved tokens"
+msgstr "Использование сохраненных токенов"
 
-#, csharp-format
-msgid "This Hotkey combination is already used for \"{0}\". Please use another one."
-msgstr "Эта комбинация горячих клавиш уже используется для «{0}». Укажите другую."
-
-#, csharp-format
-msgid "{0}None{1}"
-msgstr "{0} Не задано {1}"
-
-msgid "Build from"
-msgstr "Построить из"
+msgid "Alert target in $"
+msgstr "Цель оповещения в $"
 
 msgid "Point coordinates"
 msgstr "Координаты точки"
@@ -1989,6 +2889,15 @@ msgstr "Точка"
 #, csharp-format
 msgid "Are you sure want to remove {0}?"
 msgstr "Вы действительно хотите удалить {0}?"
+
+msgid "Custom sessions"
+msgstr "Пользовательские сеансы"
+
+msgid "No custom sessions were set up."
+msgstr "Пользовательские сеансы не были настроены."
+
+msgid "Incorrect sessions."
+msgstr "Неправильные сеансы."
 
 msgid "Enable sounds"
 msgstr "Включить звуки"
@@ -2002,14 +2911,29 @@ msgstr "Выберите звуковой файл"
 msgid "Play sound"
 msgstr "Проиграть звук"
 
+msgid "Time in seconds"
+msgstr "Время в секундах"
+
+msgid "Positions P/L"
+msgstr "Позиции P/L"
+
 msgid "Remove task"
 msgstr "Удалить задачу"
+
+msgid "Task type"
+msgstr "Тип задачи"
+
+msgid "Enable/Disable task"
+msgstr "Включить/отключить задачу"
 
 msgid "Add new task"
 msgstr "Добавить новую задачу"
 
-msgid "To to"
-msgstr "Чтобы"
+msgid "Add 'Action'"
+msgstr "Добавить 'Действие'"
+
+msgid "To do"
+msgstr "Чтобы сделать"
 
 msgid "Collapse tasks"
 msgstr "Свернуть задачи"
@@ -2048,6 +2972,15 @@ msgstr "Добавить условие"
 msgid "No conditions yet."
 msgstr "Пока никаких условий."
 
+msgid "Order parameters"
+msgstr "Параметры заказа"
+
+msgid "No order request"
+msgstr "Нет запроса заказа"
+
+msgid "Repeat this task continuously"
+msgstr "Постоянно повторяйте эту задачу"
+
 msgid "Enable filtering"
 msgstr "Включить фильтрацию"
 
@@ -2059,6 +2992,9 @@ msgstr "Включить алерт"
 
 msgid "Enable filter"
 msgstr "Включить фильтр"
+
+msgid "Confirm each trading operation"
+msgstr "Подтвердите каждую торговую операцию"
 
 msgid "Enable / disable action"
 msgstr "Включить/отключить алерт"
@@ -2083,6 +3019,9 @@ msgstr "Подключиться"
 
 msgid "Hide from toolbar"
 msgstr "Скрыть из панели инструментов"
+
+msgid "Connected"
+msgstr "Подключено"
 
 msgid "Connecting..."
 msgstr "Подключение..."
@@ -2111,6 +3050,12 @@ msgstr "Имя рабочей области может содержать: {0}"
 
 msgid "Same workspace name already exist"
 msgstr "Имя рабочей области уже существует"
+
+msgid "All settings"
+msgstr "Все настройки"
+
+msgid "Saved"
+msgstr "Сохранено"
 
 msgid "Screenshot"
 msgstr "Снимок экрана"
@@ -2188,6 +3133,12 @@ msgstr "Сокращение объема и тиков"
 msgid "Abbreviate crypto prices"
 msgstr "Аббревиативные цены на криптовалюты"
 
+msgid "Timeout (min)"
+msgstr "Тайм-аут (мин)"
+
+msgid "PIN"
+msgstr "Контактный"
+
 msgid "Slippage, ticks"
 msgstr "Проскальзывание, в тиках"
 
@@ -2221,8 +3172,125 @@ msgstr "Показывать торговые уведомления"
 msgid "Confirm hotbutton action"
 msgstr "Подтверждать действие горячих клавиш"
 
+msgid "Enable Microsoft Excel RTD"
+msgstr "Включить Microsoft Excel RTD"
+
+msgid "Custom RTD formula name"
+msgstr "Пользовательское название формулы RTD"
+
+msgid "Custom argument separator"
+msgstr "Пользовательский аргумент сепаратор"
+
+msgid "Telegram"
+msgstr "Телеграмма"
+
+msgid "Duplicate alerts to Telegram"
+msgstr "Дублировать оповещения в Telegram"
+
+msgid "Excel RTD"
+msgstr "Excel RTD"
+
+msgid "Messengers"
+msgstr "Посланников"
+
+msgid "P/L alerts"
+msgstr "P/L оповещения"
+
+msgid "Connecting was cancelled"
+msgstr "Подключение было отменено"
+
 msgid "Network does not available"
 msgstr "Сеть не доступна"
+
+msgid "User is empty."
+msgstr "Пользователь не указан"
+
+msgid "Password is empty."
+msgstr "Пароль не указан"
+
+msgid "Fundamental equity name"
+msgstr "Основополагающее название справедливости"
+
+msgid "Sector"
+msgstr "Сектора"
+
+msgid "Industry"
+msgstr "Промышленности"
+
+msgid "Execute in premarket/afterhours"
+msgstr "Выполнение в премаркете/после часах"
+
+msgid "Class"
+msgstr "Класс"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Is tradable"
+msgstr "Является торгуемым"
+
+msgid "Is marginable"
+msgstr "Является маржинальным"
+
+msgid "is easy-to-borrow"
+msgstr "прост в заимствовании"
+
+msgid "Execute in ext. hours"
+msgstr "Выполнить в ext. часов"
+
+msgid "Last maintenance margin requirement (previous day)"
+msgstr "Последнее требование к марже обслуживания (предыдущий день)"
+
+msgid "Your maintenance margin requirement on the previous trading day"
+msgstr "Требование к марже обслуживания в предыдущий торговый день"
+
+msgid "Maintenance margin requirement"
+msgstr "Требование к марже технического обслуживания"
+
+msgid "Initial margin requirement"
+msgstr "Первоначальные требования к марже"
+
+msgid "Reg T initial margin requirement"
+msgstr "Требования к начальной марже Reg T"
+
+msgid "Equity as of previous trading day"
+msgstr "Акции по отношению к предыдущему торговому дню"
+
+msgid "Buying power"
+msgstr "Покупательная сила"
+
+msgid "Current available buying power"
+msgstr "Текущая доступная покупательная способность"
+
+msgid "Regulation buying power"
+msgstr "Регулирование покупательной способности"
+
+msgid "The account is permitted to short"
+msgstr "Учетная запись разрешается"
+
+msgid "Is market open"
+msgstr "Открыт ли рынок"
+
+msgid "Next market open time"
+msgstr "Следующее время открытия рынка"
+
+msgid "Gets nearest trading day open time"
+msgstr "Получает ближайшее время открытия торгового дня"
+
+msgid "Next market close time"
+msgstr "Следующее время закрытия рынка"
+
+msgid "Gets nearest trading day close time"
+msgstr "Получает ближайшее время закрытия торгового дня"
+
+msgid "Can't find connection parameters"
+msgstr "Не удается найти параметры подключения"
+
+msgid "Use realtime data (Require many request to api)"
+msgstr "Используйте данные в режиме реального времени (Требуется много запросов на api)"
+
+msgid "Api key is empty"
+msgstr "Ключ Api пуст"
 
 msgid "Login is empty"
 msgstr "Логин не указан"
@@ -2233,41 +3301,128 @@ msgstr "Пароль не указан"
 msgid "Incorrect Login or Password"
 msgstr "Неверный логин или пароль"
 
-msgid "Margin"
-msgstr "Маржа"
+msgid "Mark Price"
+msgstr "Марк Прайс"
 
-msgid "Account activity"
-msgstr "Активность по счету"
+msgid "Last Price"
+msgstr "Последняя цена"
 
-msgid "Info"
-msgstr "Информация"
+msgid "CROSSED"
+msgstr "Пересек"
 
-msgid "Trading info"
-msgstr "Торговая информация"
+msgid "ISOLATED"
+msgstr "Изолированные"
 
-msgid "Status"
-msgstr "Статус"
+msgid "Transfer"
+msgstr "Трансфер"
 
-msgid "History Server URL"
-msgstr "URL-адрес сервера истории"
+msgid "Welcome bonus"
+msgstr "Приветственный бонус"
 
-msgid "Load user trades history"
-msgstr "Загрузка истории сделок пользователей"
+msgid "Realized PnL"
+msgstr "Реализованный PnL"
 
-msgid "API key"
-msgstr "Ключ API"
+msgid "Funding fee"
+msgstr "Плата за финансирование"
 
-msgid "Secret key"
-msgstr "Секретный ключ"
+msgid "Commission"
+msgstr "Комиссия"
 
-msgid "API key is empty"
-msgstr "Ключ API не указан"
+msgid "Insurance clear"
+msgstr "Страхование ясно"
 
-msgid "Secret key is empty"
-msgstr "Секретный ключ не указан"
+msgid "Normal"
+msgstr "Нормальной"
+
+msgid "Borrow"
+msgstr "Одолжить"
+
+msgid "Repay"
+msgstr "Погасить"
+
+msgid "IN"
+msgstr "В"
+
+msgid "OUT"
+msgstr "ИЗ"
+
+msgid "Maintenance margin"
+msgstr "Маржа поддержки"
+
+msgid "Required margin"
+msgstr "Требуемая маржа"
+
+msgid "Leverage"
+msgstr "Кредитное плечо"
+
+msgid "Margin type"
+msgstr "Тип маржи"
+
+msgid "Hedge mode"
+msgstr "Режим хеджирования"
+
+msgid "Initial margin"
+msgstr "Начальная маржа"
+
+msgid "Margin balance"
+msgstr "Маржинальный баланс"
+
+msgid "Open order initial margin"
+msgstr "Начальная маржа открытого заказа"
+
+msgid "Position initial margin"
+msgstr "Начальная маржа позиции"
+
+msgid "Unrealized PNL"
+msgstr "Нереализованный PNL"
+
+msgid "Available for Order"
+msgstr "Доступно для заказа"
+
+msgid "Margin Ratio"
+msgstr "Коэффициент маржи"
 
 msgid "Orders"
 msgstr "Ордера"
+
+msgid "Positions"
+msgstr "Позиции"
+
+msgid "Max withdraw amount"
+msgstr "Макс снять сумму"
+
+msgid "Wallet balance"
+msgstr "Баланс кошелька"
+
+msgid "Adjust Leverage"
+msgstr "Отрегулируйте кредитное плечо"
+
+msgid "Adjust Margin Mode"
+msgstr "Отрегулируйте режим маржи"
+
+msgid "Total Balance"
+msgstr "Общий баланс"
+
+msgid "Total Debt"
+msgstr "Общий долг"
+
+msgid "Account Equity"
+msgstr "Акционерный капитал"
+
+msgid "Margin level"
+msgstr "Уровень маржи"
+
+msgid "Trigger price|Stop limit"
+msgstr "Триггерная цена» Стоп-лимит"
+
+msgid "Limit|Stop limit"
+msgstr "Ограничьте Стоп-лимит"
+
+msgid "Price should be positive non-zero value"
+msgstr "Цена должна быть положительным ненулевой значением"
+
+msgid "Stop price should be positive non-zero value"
+msgstr "Стоп-цена должна быть положительным ненулевой значением"
 
 msgid "Allowed order types"
 msgstr "Разрешенные типы ордеров"
@@ -2281,6 +3436,30 @@ msgstr "Мин. условная стоимость"
 msgid "Iceberg allowed"
 msgstr "Айсберг разрешен"
 
+msgid "Account activity"
+msgstr "Активность по счету"
+
+msgid "Info"
+msgstr "Информация"
+
+msgid "Trading info"
+msgstr "Торговая информация"
+
+msgid "WebSocket endpoint"
+msgstr "Конечная точка WebSocket"
+
+msgid "Load user trades history"
+msgstr "Загрузка истории сделок пользователей"
+
+msgid "API key"
+msgstr "Ключ API"
+
+msgid "Secret key"
+msgstr "Секретный ключ"
+
+msgid "Rest api url not founded."
+msgstr "Отдых API URL не основана."
+
 msgid "Market data connection. Trading coming soon."
 msgstr "Подключение к рыночным данным. Торговля не доступна."
 
@@ -2290,20 +3469,182 @@ msgstr "Не удается подключиться через сокет"
 msgid "Allow margin trading"
 msgstr "Разрешить маржинальную торговлю"
 
-msgid "Initial margin"
-msgstr "Начальная маржа"
-
 msgid "Minimum margin"
 msgstr "Минимальная маржа"
 
+msgid "Index"
+msgstr "Индекс"
+
+msgid "Spot symbol"
+msgstr "Спот инструмент"
+
+msgid "Transaction History"
+msgstr "История транзакций"
+
+msgid "Trade history"
+msgstr "История торговли"
+
+msgid "Order history"
+msgstr "История заказа"
+
+msgid "Amount"
+msgstr "Кол-во"
+
+msgid "Fee"
+msgstr "Комиссия"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Wallet Balance"
+msgstr "Баланс кошелька"
+
+msgid "Exec Type"
+msgstr "Тип Exec"
+
+msgid "Side"
+msgstr "Сторона"
+
+msgid "Exec Qty"
+msgstr "Exec Зти"
+
+msgid "Exec Price"
+msgstr "Цена Exec"
+
+msgid "Fee Rate"
+msgstr "Ставка платы"
+
+msgid "Fee Paid"
+msgstr "Плата уплаченная"
+
+msgid "Order Type"
+msgstr "Тип заказа"
+
+msgid "Order Qty"
+msgstr "Заказать Зти"
+
+msgid "Qty Left"
+msgstr "Зти Левая"
+
+msgid "Order Price"
+msgstr "Цена заказа"
+
+msgid "OrderID"
+msgstr "Orderid"
+
+msgid "Qty"
+msgstr "Количество"
+
+msgid "Remaining"
+msgstr "Оставшиеся"
+
+msgid "Stop Price"
+msgstr "Стоп Цена"
+
+msgid "Fill Price"
+msgstr "Заполните цену"
+
+msgid "Client Order ID"
+msgstr "Идентификатор заказа клиента"
+
+msgid "Risk limit"
+msgstr "Предел риска"
+
+msgid "Wallet Balance = (Deposits - Withdrawals + Realized PNL)"
+msgstr "Баланс кошелька (Депозиты - Снятие средств и реализованный PNL)"
+
+msgid "Current profit and loss from all open positions"
+msgstr "Текущая прибыль и убыток от всех открытых позиций"
+
+msgid "Margin Balance"
+msgstr "Маржинальный баланс"
+
+msgid "Your total equity held with the exchange. Margin balance = (Balance + Unrealized PNL)"
+msgstr "Ваш общий капитал, проведенный с биржей. Маржинальный баланс ( Баланс - Нереализованный PNL)"
+
+msgid "Position Margin"
+msgstr "Маржа позиции"
+
+msgid "The minimum equity you must retain with the exchange to keep your positions. "
+msgstr "Минимальный капитал вы должны сохранить с биржей, чтобы сохранить свои позиции. "
+
+msgid "Order Margin"
+msgstr "Маржа заказа"
+
+msgid "The minimum equity you must retain with the exchange to keep your open orders. "
+msgstr "Минимальный капитал вы должны сохранить с биржей, чтобы сохранить ваши открытые заказы. "
+
+msgid "Available Balance"
+msgstr "Доступный баланс"
+
+msgid "Your margin available for new positions. Available Balance = (Margin Balance - Order Margin - Position Margin)"
+msgstr "Ваша маржа доступна для новых позиций. Доступный баланс - (Баланс маржи - Маржа заказа - Маржа позиции)"
+
+msgid "Gross Position Value: {this.bitmexUserMargin.GrossPositionValue.FromSatoshi()?.RoundTo(BitmexVendor.USER_ASSET_PRECISION)} {BitmexVendor.USER_ASSET}"
+msgstr "Валовая стоимость позиции: «This.bitmexUserMargin.GrossPositionValue.FromSatoshi(?. RoundTo (BitmexVendor.USER_ASSET_PRECISION)» (BitmexVendor.USER_ASSET)"
+
+msgid "Display quantity"
+msgstr "Количество отображения"
+
+msgid "Trade user"
+msgstr "Торговый пользователь"
+
+msgid "Trade password"
+msgstr "Пароль для торговли"
+
+msgid "Wrong password"
+msgstr "Неправильный пароль"
+
+msgid "Wrong username"
+msgstr "Неправильное имя пользователя"
+
+msgid "Blocked user"
+msgstr "Заблокированный пользователь"
+
+msgid "Session in use"
+msgstr "Сессия в использовании"
+
+msgid "Application not found"
+msgstr "Приложение не найдено"
+
+msgid "Permission denied"
+msgstr "Разрешение отказано"
+
+msgid "Password have not expired"
+msgstr "Срок действия пароля не истек"
+
+msgid "New password failed"
+msgstr "Новый пароль не удалось"
+
+msgid "Must change password"
+msgstr "Необходимо изменить пароль"
+
+msgid "AON"
+msgstr "Аон"
+
+msgid "ICEBERG"
+msgstr "Айсберг"
+
+msgid "QT"
+msgstr "Qt"
+
+msgid "TRAIL"
+msgstr "След"
+
+msgid "FUNARI"
+msgstr "ФУНАРИ"
+
+msgid "MIT"
+msgstr "Mit"
+
+msgid "MLM"
+msgstr "Mlm"
+
+msgid "POSTONLY"
+msgstr "ПОСТОНЛИ"
+
 msgid "User name is empty."
 msgstr "Имя пользователя пусто."
-
-msgid "Password is empty."
-msgstr "Пароль не указан"
-
-msgid "Connecting was cancelled"
-msgstr "Подключение было отменено"
 
 msgid "Open orders"
 msgstr "Открытые ордера"
@@ -2311,14 +3652,32 @@ msgstr "Открытые ордера"
 msgid "Open positions"
 msgstr "Открытые позиции"
 
+msgid "Net P/L"
+msgstr "Чистая прибыль/убыток"
+
+msgid "The total unrealized profit/loss for all positions currently open in the Account"
+msgstr "Общая нереализованная прибыль/убыток по всем открытым позициям на счете"
+
+msgid "Net P/L, %"
+msgstr "Чистая P/L, %"
+
+msgid "Unrealised P/L shown as a percentage of the balance"
+msgstr "Нереализованные прибыли/убытки, выраженные в процентах от баланса"
+
+msgid "Realized Fee"
+msgstr "Реализованная плата"
+
+msgid "The total amount of realized fee paid over the lifetime of the Account"
+msgstr "Общая сумма реализованной платы, уплаченной в течение всего срока службы Счета"
+
+msgid "Realised P/L"
+msgstr "Реализованная P/L"
+
+msgid "The total profit/loss realized over the lifetime of the Account"
+msgstr "Общая сумма прибыли/убытка, реализованная в течение срока действия cчета"
+
 msgid "Account type"
 msgstr "Тип счета"
-
-msgid "Broker"
-msgstr "Брокер"
-
-msgid "Leverage"
-msgstr "Кредитное плечо"
 
 msgid "Swap free"
 msgstr "Без свопа"
@@ -2340,6 +3699,381 @@ msgstr "Короткий своп"
 
 msgid "Trading is enabled"
 msgstr "Торговля включена"
+
+msgid "Firm"
+msgstr "Фирма"
+
+msgid "Firm is empty."
+msgstr "Фирма пуста."
+
+msgid "Server have not supported"
+msgstr "Сервер не поддерживается"
+
+msgid "Strategy type"
+msgstr "Тип стратегии"
+
+msgid "Strategy ratio"
+msgstr "Коэффициент стратегии"
+
+msgid "Available cash"
+msgstr "Доступные наличные"
+
+msgid "Total unrelised P/L"
+msgstr "Всего неиссясированных P/L"
+
+msgid "Total unrealised overnight P/L"
+msgstr "Всего нереализованных ночь P / L"
+
+msgid "Total realised P/L"
+msgstr "Всего реализовано P/L"
+
+msgid "Total P/L"
+msgstr "Всего P/L"
+
+msgid "Position rollover"
+msgstr "Перенос позиции"
+
+msgid "P/L rollower"
+msgstr "P/L роллоуэр"
+
+msgid "Order routing"
+msgstr "Маршрутизация заказа"
+
+msgid "Mode"
+msgstr "Режим"
+
+msgid "Pre trade risk managment"
+msgstr "Предварительное управление торговыми рисками"
+
+msgid "Trading start time"
+msgstr "Время начала торговли"
+
+msgid "Trading stop time"
+msgstr "Время остановки торговли"
+
+msgid "Loss limit(excluding overnight)"
+msgstr "Предел потерь (за исключением ночи)"
+
+msgid "Loss limit"
+msgstr "Лимит убытков"
+
+msgid "Max account position size"
+msgstr "Размер позиции по счету Max"
+
+msgid "Max account order size"
+msgstr "Максимальный размер заказа учетной записи"
+
+msgid "Max position size"
+msgstr "Максимальный размер позиции"
+
+msgid "Max strategy position size"
+msgstr "Размер позиции стратегии Max"
+
+msgid "Max strategy order size"
+msgstr "Размер заказа стратегии Max"
+
+msgid "Minimal balance"
+msgstr "Минимальный баланс"
+
+msgid "Intraday margin rate"
+msgstr "Внутридневная маржинальная ставка"
+
+msgid "Overnight margin rate"
+msgstr "Ночная маржинальная ставка"
+
+msgid "Warning loss limit"
+msgstr "Предел предупреждающих потерь"
+
+msgid "Warning margin"
+msgstr "Предупреждающая маржа"
+
+msgid "Warning P/L"
+msgstr "Предупреждение P/L"
+
+msgid "Warning threshold loss limit"
+msgstr "Предел потери порога предупреждения"
+
+msgid "Warning threshold margin"
+msgstr "Предупреждая пороговую маржу"
+
+msgid "Warning threshold P/L"
+msgstr "Предупреждающий порог P/L"
+
+msgid "Account number"
+msgstr "Количество счетов"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Broker/FCM"
+msgstr "Брокер/FCM"
+
+msgid "Stop market"
+msgstr "Рыночный Стоп"
+
+msgid "Post Only"
+msgstr "Только сообщение"
+
+msgid "Post"
+msgstr "Поместить"
+
+msgid "Reduce Only"
+msgstr "Уменьшить только"
+
+msgid "Reduce"
+msgstr "Уменьшить"
+
+msgid "Last price"
+msgstr "Посл. цена"
+
+msgid "Mark price"
+msgstr "Цена марки"
+
+msgid "Index price"
+msgstr "Цена индекса"
+
+msgid "Client Id"
+msgstr "Идентификатор клиента"
+
+msgid "Secret Id"
+msgstr "Секретный идентификатор"
+
+msgid "Can't find connection type parameters"
+msgstr "Не найти параметры типа соединения"
+
+msgid "Client id is empty"
+msgstr "Идентификатор клиента пуст"
+
+msgid "Secret id is empty"
+msgstr "Секретный идентификатор пуст"
+
+msgid "Invalid credentials"
+msgstr "Недействительные учетные данные"
+
+msgid "Connection data server is missing"
+msgstr "Отсутствует сервер данных подключения"
+
+msgid "Authorization endpoint is missing"
+msgstr "Конечная точка авторизации отсутствует"
+
+msgid "Login"
+msgstr "Логин"
+
+msgid "Stop Limit"
+msgstr "Стоп Лимит"
+
+msgid "Trailing stop"
+msgstr "Трейлинг стоп"
+
+msgid "Iceberg"
+msgstr "Айсберг"
+
+msgid "TWAP"
+msgstr "TWAP"
+
+msgid "GTC"
+msgstr "GTC"
+
+msgid "IOC"
+msgstr "IOC"
+
+msgid "FOK"
+msgstr "FOK"
+
+msgid "ATO"
+msgstr "Ато"
+
+msgid "ATC"
+msgstr "Atc"
+
+msgid "Credentials"
+msgstr "Учетные данные"
+
+msgid "FIX trade"
+msgstr "Торговля FIX"
+
+msgid "FIX feed"
+msgstr "Fix корма"
+
+msgid "Displayed currency"
+msgstr "Отображается валюта"
+
+msgid "Client ID"
+msgstr "ID клиента"
+
+msgid "Application ID"
+msgstr "Идентификатор приложения"
+
+msgid "Shared key"
+msgstr "Общий ключ"
+
+msgid "Port"
+msgstr "Порт:"
+
+msgid "SenderCompId"
+msgstr "ОтправительCompId"
+
+msgid "TargetCompId"
+msgstr "TargetCompId"
+
+msgid "Orders history"
+msgstr "История ордеров"
+
+msgid "Trades history"
+msgstr "История сделок"
+
+msgid "Transactions history"
+msgstr "История транзакций"
+
+msgid "Order ID"
+msgstr "ID ордера"
+
+msgid "Account"
+msgstr "Счет"
+
+msgid "Created"
+msgstr "Создан"
+
+msgid "Updated"
+msgstr "Обновлено"
+
+msgid "Duration"
+msgstr "Длительность"
+
+msgid "Instrument"
+msgstr "Инструмент"
+
+msgid "Stop price"
+msgstr "Цена Стоп"
+
+msgid "Average price"
+msgstr "Средняя цена"
+
+msgid "P&L"
+msgstr "ПЗЗ"
+
+msgid "Asset"
+msgstr "Актив"
+
+msgid "Id"
+msgstr "Id"
+
+msgid "Contract multiplier"
+msgstr "Множитель контракта"
+
+msgid "Account value"
+msgstr "Текущие активы"
+
+msgid "Available"
+msgstr "Доступно"
+
+msgid "Used for margin"
+msgstr "Используется для маржи"
+
+msgid "Margin utilization"
+msgstr "Использование маржи"
+
+msgid "Lower bound"
+msgstr "Нижняя граница"
+
+msgid "Upper bound"
+msgstr "Верхняя граница"
+
+msgid "Subaccount name"
+msgstr "Название субакконта"
+
+msgid "Subaccount"
+msgstr "Субсчета"
+
+msgid "Source Account"
+msgstr "Исходный счет"
+
+msgid "Destination Account"
+msgstr "Учетная запись назначения"
+
+msgid "Coin"
+msgstr "Монет"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Deposit history"
+msgstr "История депозитов"
+
+msgid "Withdrawal history"
+msgstr "История вывода средств"
+
+msgid "Filled size"
+msgstr "Заполненный размер"
+
+msgid "Order size"
+msgstr "Размер заказа"
+
+msgid "Avg Fill Price"
+msgstr "Avg Заполненные Цена"
+
+msgid "Trigger Price"
+msgstr "Цена триггера"
+
+msgid "Time in force"
+msgstr "Срок действия"
+
+msgid "Fee rate"
+msgstr "Ставка платы"
+
+msgid "Liquidity"
+msgstr "Ликвидности"
+
+msgid "Sent time"
+msgstr "Отправлено время"
+
+msgid "Confirmed time"
+msgstr "Подтверждено время"
+
+msgid "Confirmations"
+msgstr "Подтверждения"
+
+msgid "Notes"
+msgstr "Заметки"
+
+msgid "Destination"
+msgstr "Направление"
+
+msgid "Total value"
+msgstr "Общ. значение"
+
+msgid "Collateral"
+msgstr "Залога"
+
+msgid "Free collateral"
+msgstr "Бесплатное обеспечение"
+
+msgid "Init margin req."
+msgstr "Init маржа req."
+
+msgid "Maint. margin req."
+msgstr "Маржа поддержки"
+
+msgid "Maker fee"
+msgstr "Комиссия Маркет-мейкера"
+
+msgid "Taker fee"
+msgstr "Комиссия Маркет-тейкера"
+
+msgid "Position limit"
+msgstr "Лимит позиции"
+
+msgid "Position limit used"
+msgstr "Используемый лимит позиции"
+
+msgid "API secret"
+msgstr "Секрет API"
+
+msgid "Token"
+msgstr "Токен"
+
+msgid "Access token is empty."
+msgstr "Токен доступа не указан"
 
 msgid "Equity"
 msgstr "Средства"
@@ -2379,12 +4113,6 @@ msgstr "Валовая прибыль/убыток"
 
 msgid "Day P/L"
 msgstr "Дневной P/L"
-
-msgid "# Positions"
-msgstr "Количество позиций"
-
-msgid "# Orders"
-msgstr "Количество ордеров"
 
 msgid "Hedging type"
 msgstr "Тип хеджирования"
@@ -2428,12 +4156,6 @@ msgstr "Уровень начальной маржи"
 msgid "Limitation margin level"
 msgstr "Уровень предельной маржи"
 
-msgid "Token"
-msgstr "Токен"
-
-msgid "Access token is empty."
-msgstr "Токен доступа не указан"
-
 msgid "Currencies"
 msgstr "Валюты"
 
@@ -2455,9 +4177,6 @@ msgstr "Акции"
 msgid "Bullions"
 msgstr "Металлы"
 
-msgid "Can't find connection parameters"
-msgstr "Не удается найти параметры подключения"
-
 msgid "Take liquidity rate"
 msgstr "Ставка дл взятия ликвидности"
 
@@ -2466,6 +4185,12 @@ msgstr "Ставка для поставщиков ликвидности"
 
 msgid "Fee currency"
 msgstr "Валюта комиссии"
+
+msgid "API key is empty"
+msgstr "Ключ API не указан"
+
+msgid "Secret key is empty"
+msgstr "Секретный ключ не указан"
 
 msgid "Trader Workstation"
 msgstr "Рабочая станция трейдера"
@@ -2481,6 +4206,12 @@ msgstr "Тип порта подключения"
 
 msgid "Custom port value"
 msgstr "Значение пользовательского порта"
+
+msgid "Market Depth levels count"
+msgstr "Количество уровней глубины рынка"
+
+msgid "Smart Market Depth"
+msgstr "Глубина интеллектуального рынка"
 
 msgid "Net liquidation value"
 msgstr "Чистая ликвидационная стоимость"
@@ -2548,9 +4279,6 @@ msgstr "Смотреть вперед избыточной ликвидност�
 msgid "This value reflects your excess liquidity at the next margin change"
 msgstr "Это значение отражает вашу избыточную ликвидность при следующем изменении маржи"
 
-msgid "Buying power"
-msgstr "Покупательная сила"
-
 msgid "Buying power serves as a measurement of the dollar value of securities that one may purchase in a securities account without depositing additional funds"
 msgstr "Покупательная сила служит измерением долларовой стоимости ценных бумаг, которые можно приобрести на счете ценных бумаг без внесения дополнительных средств"
 
@@ -2584,9 +4312,6 @@ msgstr "НаЧисленные дивиденды"
 msgid "Initial Margin requirement of whole portfolio"
 msgstr "Начальная Маржинальная потребность всего портфеля"
 
-msgid "Maintenance margin"
-msgstr "Маржа поддержки"
-
 msgid "Maintenance Margin requirement of whole portfolio"
 msgstr "Поддержание маржинального требования всего портфеля"
 
@@ -2605,11 +4330,77 @@ msgstr "Отложенные платежи по дебетовой карте"
 msgid "Identifies the IB account structure"
 msgstr "Идентифицирует структуру счета IB"
 
-msgid "IQFeed connection manager path"
-msgstr "Путь к менеджеру подключений IQFeed"
+msgid "Token is empty"
+msgstr "Токен не указан"
 
-msgid "Wrong connection configuration"
-msgstr "Неправильная конфигурация подключения"
+msgid "Update frequency"
+msgstr "Частота обновления"
+
+msgid "How often the Index is updated"
+msgstr "Как часто обновляется Индекс"
+
+msgid "Continent"
+msgstr "Континента"
+
+msgid "The continent of the country of focus for the Index"
+msgstr "Континент страны фокуса для Индекса"
+
+msgid "Country"
+msgstr "Страна"
+
+msgid "The country of focus for the Index"
+msgstr "Страна фокусировки индекса"
+
+msgid "Share class"
+msgstr "Класс обмена"
+
+msgid "The Security's share class (if applicable)"
+msgstr "Класс акций Security (если это применимо)"
+
+msgid "Exchange ticker"
+msgstr "Биржевой тикер"
+
+msgid "The exchange-level ticker"
+msgstr "Тикер на уровне обмена"
+
+msgid "Composite  ticker"
+msgstr "Композитный тикер"
+
+msgid "The country-composite ticker"
+msgstr "Страна-композитный тикер"
+
+msgid "Figi"
+msgstr "Фиги"
+
+msgid "The exchange-level OpenFIGI identifier"
+msgstr "Идентификатор openFIGI на уровне обмена"
+
+msgid "Composite  Figi"
+msgstr "Композитный фиги"
+
+msgid "The country-composite OpenFIGI identifier"
+msgstr "Страна-композитный идентификатор OpenFIGI"
+
+msgid "Share class Figi"
+msgstr "Доля класса Фиги"
+
+msgid "The global-composite OpenFIGI identifier"
+msgstr "Глобально-композитный идентификатор OpenFIGI"
+
+msgid "Figi unique id"
+msgstr "Фиги уникальный идентификатор"
+
+msgid "The OpenFIGI unique ID  "
+msgstr "Уникальный идентификатор OpenFIGI  "
+
+msgid "Cik"
+msgstr "Чик"
+
+msgid "Central Index Key issued by the SEC, which is the unique identifier for all owner filings"
+msgstr "Центральный индекс ключ, выпущенный SEC, который является уникальным идентификатором для всех владельцев заявок"
+
+msgid "State"
+msgstr "Штат"
 
 msgid "Margin call"
 msgstr "Маржин колл"
@@ -2641,14 +4432,17 @@ msgstr "Результаты за сегодня"
 msgid "Data source type"
 msgstr "Тип источника данных"
 
-msgid "User is empty."
-msgstr "Пользователь не указан"
-
 msgid "Available to trade"
 msgstr "Доступно для торговли"
 
 msgid "P/L"
 msgstr "Прибыль/Убыток"
+
+msgid "# Positions"
+msgstr "Количество позиций"
+
+msgid "# Orders"
+msgstr "Количество ордеров"
 
 msgid "Today's volume"
 msgstr "Объем за день"
@@ -2680,11 +4474,14 @@ msgstr "Точки длинного свопа"
 msgid "Short swap points"
 msgstr "Точки короткого свопа"
 
-msgid "Commission"
-msgstr "Комиссия"
-
 msgid "Crypto"
 msgstr "Крипто"
+
+msgid "ISIN"
+msgstr "Isin"
+
+msgid "International Securities Identification Number"
+msgstr "Международный идентификационный номер ценных бумаг"
 
 msgid "Net asset value"
 msgstr "Стоимость чистых активов"
@@ -2731,20 +4528,8 @@ msgstr "Процент закрывающей маржи счета. Когда 
 msgid "Unrealised P/L"
 msgstr "Нереализованная P/L"
 
-msgid "The total unrealized profit/loss for all positions currently open in the Account"
-msgstr "Общая нереализованная прибыль/убыток по всем открытым позициям на счете"
-
 msgid "Unrealised P/L,%"
 msgstr "Нереализованная P/L,%"
-
-msgid "Unrealised P/L shown as a percentage of the balance"
-msgstr "Нереализованные прибыли/убытки, выраженные в процентах от баланса"
-
-msgid "Realised P/L"
-msgstr "Реализованная P/L"
-
-msgid "The total profit/loss realized over the lifetime of the Account"
-msgstr "Общая сумма прибыли/убытка, реализованная в течение срока действия cчета"
 
 msgid "The number of positions currently open in the Account"
 msgstr "Количество позиций, открытых на cчете в данный момент"
@@ -2763,9 +4548,6 @@ msgstr "Финансирование оплачивается/списывает
 
 msgid "Smooth candlesticks"
 msgstr "Гладкие подсвечники"
-
-msgid "Token is empty"
-msgstr "Токен не указан"
 
 msgid "Tick size"
 msgstr "Размер тика"
@@ -2804,12 +4586,6 @@ msgstr "Информация о комиссии"
 msgid "Secret"
 msgstr "Секрет"
 
-msgid "Maker fee"
-msgstr "Комиссия Маркет-мейкера"
-
-msgid "Taker fee"
-msgstr "Комиссия Маркет-тейкера"
-
 msgid "Thirty day volume"
 msgstr "Тридцатидневный объем"
 
@@ -2818,9 +4594,6 @@ msgstr "Следующий уровень"
 
 msgid "Open gross P/L"
 msgstr "Откр. валовая P/L"
-
-msgid "Positions"
-msgstr "Позиции"
 
 msgid "Total Margin Value"
 msgstr "Общая величина маржи"
@@ -2840,11 +4613,329 @@ msgstr "Общая стоимость заемных средств"
 msgid "Current margin"
 msgstr "Текущая маржа"
 
+msgid "Central Index Key"
+msgstr "Центральный ключ индекса"
+
+msgid "A Central Index Key or CIK number is a number given to an individual, company, or foreign government by the United States Securities and Exchange Commission. The number is used to identify its filings in several online databases, including EDGAR."
+msgstr "Центральный индексный ключ или номер CIK – это номер, данный физическому лицу, компании или иностранному правительству Комиссией по ценным бумагам и биржам США. Номер используется для идентификации его заявок в нескольких онлайновых базах данных, включая EDGAR."
+
+msgid "The Financial Instrument Global Identifier"
+msgstr "Глобальный идентификатор финансового инструмента"
+
+msgid "The Financial Instrument Global Identifier (FIGI) is an established global standard issued under the guidelines of the Object Management Group (OMG.org, an international, non-profit standards organization)"
+msgstr "Глобальный идентификатор финансового инструмента (FIGI) является установленным глобальным стандартом, изданным в соответствии с руководящими принципами Группы по управлению OMG.org (международная некоммерческая организация по стандартизации)"
+
+msgid "Legal Entity Identifier"
+msgstr "Идентификатор юридического лица"
+
+msgid "Legal Entity Identifier (LEI) guid for symbol"
+msgstr "Идентификатор юридического лица (LEI) для символа"
+
+msgid "SIC"
+msgstr "Sic"
+
+msgid "Standard Industrial Classification (SIC) id for symbol"
+msgstr "Идентификатор стандартной промышленной классификации (SIC) для символа"
+
+msgid "Bloomberg guid"
+msgstr "Блумберг гид"
+
+msgid "Bloomberg guid for this symbol"
+msgstr "Bloomberg guid для этого символа"
+
+msgid "Company name"
+msgstr "Название компании"
+
+msgid "Name of the company/entity"
+msgstr "Название компании/юридического лица"
+
+msgid "Company description"
+msgstr "Описание компании"
+
+msgid "A description of the company and what they do/offer"
+msgstr "Описание компании и того, что они делают/предлагают"
+
+msgid "Industry this company operates in"
+msgstr "Промышленность, в"
+
+msgid "Sector of the industry in which this symbol operates in"
+msgstr "Сектор промышленности, в котором этот символ работает в"
+
+msgid "Company website"
+msgstr "Веб-сайт компании"
+
+msgid "URL of the companies website"
+msgstr "URL-адрес веб-сайта компании"
+
+msgid "Phone number"
+msgstr "Номер телефона"
+
+msgid "Phone number for this company. Usually corporate contact number."
+msgstr "Номер телефона этой компании. Обычно корпоративный контактный номер."
+
+msgid "Headquarter address"
+msgstr "Адрес штаб-квартиры"
+
+msgid "Headquarter state"
+msgstr "Состояние штаб-квартиры"
+
+msgid "Headquarter country"
+msgstr "Страна со штаб-квартирой"
+
+msgid "CEO"
+msgstr "Директор"
+
+msgid "Name of the companies current CEO"
+msgstr "Имя нынешнего генерального директора компаний"
+
+msgid "Market cap"
+msgstr "Рыночная крышка"
+
+msgid "Current market cap for this company"
+msgstr "Текущий рыночный лимит для этой компании"
+
+msgid "Employees"
+msgstr "Сотрудников"
+
+msgid "Approximate number of employees"
+msgstr "Приблизительное число сотрудников"
+
 msgid "Unknown error while connect"
 msgstr "Неизвестная ошибка подключения"
 
+msgid "Username"
+msgstr "Пользователя"
+
+msgid "Wmid"
+msgstr "Wmid"
+
+msgid "EqualTo"
+msgstr "РавныйTo"
+
+msgid "GreaterThan"
+msgstr "Большой Тоан"
+
+msgid "GreaterThanOrEqualTo"
+msgstr "GreaterThanOrEqualTo"
+
+msgid "LessThan"
+msgstr "Lessthan"
+
+msgid "LessThanOrEqualTo"
+msgstr "МеньшеТанОЭквалТо"
+
+msgid "NotEqualTo"
+msgstr "NotEqualTo"
+
+msgid "NotGreaterThan"
+msgstr "NotGreaterThan"
+
+msgid "NotLessThan"
+msgstr "NotLessThan"
+
+msgid "Trade"
+msgstr "Сделка"
+
+msgid "Compare operator"
+msgstr "Сравните оператора"
+
+msgid "Compare price type"
+msgstr "Сравните тип цены"
+
+msgid "Single point value"
+msgstr "Значение одной точки"
+
+msgid "Single point value of the instrument's trading price."
+msgstr "Одноое очко торговой цены инструмента."
+
+msgid "Cap price"
+msgstr "Цена крышки"
+
+msgid "If applicable, the binary contract type of the instrument."
+msgstr "Если это применимо, тип двоичного контракта инструмента."
+
+msgid "Floor price"
+msgstr "Цена этажа"
+
+msgid "If applicable, the floor price of the instrument."
+msgstr "Если это применимо, пол цена инструмента."
+
+msgid "If specified, indicates whether this instrument is tradable or not."
+msgstr "Если указано, указывает, является ли этот инструмент торгуемым или нет."
+
+msgid "Max price variation"
+msgstr "Максимальная вариация цен"
+
+msgid "If applicable, the differential static value for price banding."
+msgstr "Если это применимо, то дифференциальное статическое значение для диапазона цен."
+
+msgid "Open time"
+msgstr "Время открытия"
+
+msgid "If applicable, the open time of the instrument."
+msgstr "Если это применимо, время открытия инструмента."
+
+msgid "Period code"
+msgstr "Код периода"
+
+msgid "If applicable, the period code of the instrument."
+msgstr "Если это применимо, код периода документа."
+
+msgid "Strike operator"
+msgstr "Оператор забастовки"
+
+msgid "If applicable, the strike price operator of the instrument."
+msgstr "Если это применимо, оператор ударной цены инструмента."
+
+msgid "FCM id"
+msgstr "FCM id"
+
+msgid "The FCM (futures commission merchant) associated with this account."
+msgstr "FCM (торговец фьючерсной комиссией), связанный с этим счетом."
+
+msgid "IB id"
+msgstr "Идентификатор IB"
+
+msgid "The IB (introducing broker) associated with this account."
+msgstr "IB (ввод брокера), связанный с этим счетом."
+
+msgid "Status of the account, usually \"active\" or \"inactive\"."
+msgstr "Статус учетной записи, как правило, \"активный\" или \"неактивный\"."
+
+msgid "Algorithm"
+msgstr "Алгоритм"
+
+msgid "The risk management algorithm used for the account."
+msgstr "Алгоритм управления рисками, используемый для учетной записи."
+
+msgid "Min account balance"
+msgstr "Остаток счета Мин"
+
+msgid "If applicable, the minimum account balance."
+msgstr "Если это применимо, минимальный баланс счета."
+
+msgid "Min margin balance"
+msgstr "Мин маржинальный баланс"
+
+msgid "If applicable, the minimum margin balance."
+msgstr "Если это применимо, минимальный баланс маржи."
+
+msgid "If applicable, the loss limit."
+msgstr "Если это применимо, предел потерь."
+
+msgid "Buy limit"
+msgstr "Лимит покупки"
+
+msgid "The maximum quantity allowed for buy orders."
+msgstr "Максимальное количество, допустимое для заказов на покупку."
+
+msgid "Sell limit"
+msgstr "Лимит продажи"
+
+msgid "The maximum quantity allowed for sell orders."
+msgstr "Максимальное количество, допустимое для заказов на продажу."
+
+msgid "Max order qty"
+msgstr "Макс заказ qty"
+
+msgid "The maximum quantity allowed for any orders."
+msgstr "Максимальное количество разрешено для любых заказов."
+
+msgid "Available buying power"
+msgstr "Доступная покупательная способность"
+
+msgid "The available buying power for the account."
+msgstr "Доступная покупательная способность для учетной записи."
+
+msgid "Reserved buying power"
+msgstr "Зарезервированная покупательная способность"
+
+msgid "The reserved buying power for the account."
+msgstr "Зарезервированная покупательная способность для счета."
+
+msgid "Used buying power"
+msgstr "Используемая покупательная способность"
+
+msgid "The used buying power for the account."
+msgstr "Используемая покупательная способность для счета."
+
+msgid "Cash on hand"
+msgstr "Наличные на руках"
+
+msgid "Cash on hand for this account."
+msgstr "Наличные деньги на этот счет."
+
+msgid "The margin balance on the account."
+msgstr "Остаток маржи на счете."
+
+msgid "Reserved margin"
+msgstr "Зарезервированная маржа"
+
+msgid "The reserved margin for the account."
+msgstr "Зарезервированная маржа для счета."
+
+msgid "Open Profit/Loss"
+msgstr "Открытая прибыль/убыток"
+
+msgid "Closed Profit/Loss"
+msgstr "Закрытая прибыль/убыток"
+
+msgid "Intraday"
+msgstr "Внутридневной"
+
+msgid "Cash and Carry"
+msgstr "Наличные деньги и носить"
+
+msgid "Cover"
+msgstr "Крышка"
+
+msgid "Bracket"
+msgstr "Кронштейн"
+
+msgid "2FA"
+msgstr "2FA"
+
 msgid "Fail to connect"
 msgstr "Не удается подключиться"
+
+msgid "REGULAR"
+msgstr "Регулярные"
+
+msgid "BO"
+msgstr "Бо"
+
+msgid "CO"
+msgstr "Co"
+
+msgid "AMO"
+msgstr "Amo"
+
+msgid "Use saved credentials"
+msgstr "Использование сохраненных учетных данных"
+
+msgid "Opening balance"
+msgstr "Открытие баланса"
+
+msgid "Payin"
+msgstr "Пайин"
+
+msgid "SPAN"
+msgstr "Пролета"
+
+msgid "Realised profit"
+msgstr "Реализованная прибыль"
+
+msgid "Unrealised profit"
+msgstr "Нереализованная прибыль"
+
+msgid "Adhoc margin"
+msgstr "Adhoc маржа"
+
+msgid "Exposure"
+msgstr "Экспозиция"
+
+msgid "Options premium"
+msgstr "Варианты премиум"
 
 msgid "Access Token"
 msgstr "Токен доступа"
@@ -2854,6 +4945,558 @@ msgstr "Токен доступа недействителен."
 
 msgid "Invalid client key"
 msgstr "Неверный ключ клиента"
+
+msgid "Stop (Market)"
+msgstr "Остановка (рынок)"
+
+msgid "NRML"
+msgstr "NRML"
+
+msgid "CNC"
+msgstr "Чпу"
+
+msgid "MIS"
+msgstr "Mis"
+
+msgid "Reading master file..."
+msgstr "Чтение основного файла..."
+
+msgid "Loading master file..."
+msgstr "Загрузка главного файла..."
+
+msgid "Loading indices from {exch.Value}..."
+msgstr "Индексы загрузки от «exch». Значение..."
+
+msgid "Market data app key"
+msgstr "Ключ приложения рыночных данных"
+
+msgid "Market data secret key"
+msgstr "Секретный ключ рыночных данных"
+
+msgid "Trading app key"
+msgstr "Ключ торгового приложения"
+
+msgid "Trading secret key"
+msgstr "Торговый секретный ключ"
+
+msgid "Server url is empty"
+msgstr "URL-адрес сервера пуст"
+
+msgid "MarketData public key is empty"
+msgstr "Публичный ключ MarketData пуст"
+
+msgid "MarketData secret Key is empty"
+msgstr "Секрет MarketData ключ пуст"
+
+msgid "Trading app key is empty"
+msgstr "Торговый ключ приложения пуст"
+
+msgid "Requesting token from market data API..."
+msgstr "Запрос токена из рыночных данных API..."
+
+msgid "Requesting token from trading API..."
+msgstr "Запрос токена от торгового API..."
+
+msgid "Initializing quotes socket..."
+msgstr "Инициализация котировки гнездо ..."
+
+msgid "Initializing trade socket..."
+msgstr "Инициализация торговой розетки..."
+
+msgid "Connecting to history server..."
+msgstr "Подключение к серверу истории..."
+
+msgid "CashMarginAvailable"
+msgstr "CashMarginДоступный"
+
+msgid "MTM"
+msgstr "Mtm"
+
+msgid "RealizedMTM"
+msgstr "РеализованоMTM"
+
+msgid "UnrealizedMTM"
+msgstr "НереализованныйMTM"
+
+msgid "cashAvailable"
+msgstr "наличныеДоступные"
+
+msgid "collateral"
+msgstr "Залога"
+
+msgid "marginUtilized"
+msgstr "маржаУтилизованная"
+
+msgid "netMarginAvailable"
+msgstr "netMarginДоступный"
+
+msgid "BuyExposureFuturesLimit"
+msgstr "BuyExposureFuturesLimit"
+
+msgid "BuyExposureLimit"
+msgstr "BuyExposureLimit"
+
+msgid "BuyExposureOptionsLimit"
+msgstr "BuyExposureOptionsLimit"
+
+msgid "CNCLimit"
+msgstr "CNCLimit"
+
+msgid "GrossExposureDerivativesLimit"
+msgstr "GrossExposureДеривативыЛимит"
+
+msgid "GrossExposureLimit"
+msgstr "ВаловойЭкспозицияЛимит"
+
+msgid "MTMLossLimitPresent"
+msgstr "MTMLossLimitПрезент"
+
+msgid "SellExposureFuturesLimit"
+msgstr "ПродатьЭкспозицияФутурыЛимит"
+
+msgid "SellExposureLimit"
+msgstr "ПродатьЭкспозициюЛимит"
+
+msgid "SellExposureOptionsLimit"
+msgstr "ПродатьЭкспозицияОпионыЛимит"
+
+msgid "TurnoverLimitPresent"
+msgstr "ОборотЛимитПрезент"
+
+msgid "BuyExposureLimitPresent"
+msgstr "BuyExposureЛимитПрезидент"
+
+msgid "CNCAmountUsed"
+msgstr "CNCAmountUsed"
+
+msgid "CNCLimitUsed"
+msgstr "CNCLimitUsed"
+
+msgid "ExposureMarginPresent"
+msgstr "ЭкспозицияМаргинПрезент"
+
+msgid "GrossExposureLimitPresent"
+msgstr "GrossExposureLimitПрезидент"
+
+msgid "LimitUsed"
+msgstr "ЛимитUsed"
+
+msgid "MarginUsed"
+msgstr "МаржаUsed"
+
+msgid "SellExposureLimitPresent"
+msgstr "ПродажаЭкспозицияЛимитПрезидент"
+
+msgid "TotalSpanMargin"
+msgstr "TotalSpanMargin"
+
+msgid "BranchId"
+msgstr "ФилиалИд"
+
+msgid "SEBI"
+msgstr "Уепбр"
+
+msgid "ClientId"
+msgstr "Clientid"
+
+msgid "ClientName"
+msgstr "Имя клиента"
+
+msgid "ClientType"
+msgstr "КлиентТип"
+
+msgid "CreatedBy"
+msgstr "Создано"
+
+msgid "CreatedOn"
+msgstr "СозданоОн"
+
+msgid "EmailId"
+msgstr "EmailId"
+
+msgid "IsInvestorClient"
+msgstr "IsInvestorClient"
+
+msgid "LastUpdatedBy"
+msgstr "LastUpdatedBy"
+
+msgid "LastUpdatedOn"
+msgstr "LastUpdatedOn"
+
+msgid "MobileNo"
+msgstr "МобильныйNo"
+
+msgid "OfficeAddress"
+msgstr "OfficeAddress"
+
+msgid "PAN"
+msgstr "Пан"
+
+msgid "ResidentialAddress"
+msgstr "РезиденцияАдрес"
+
+msgid "Requesting client config..."
+msgstr "Запрос клиента config ..."
+
+msgid "CfiCode"
+msgstr "CfiCode"
+
+msgid "ISO 10962 provides a global standard for these classifications in the form of specific codes."
+msgstr "ISO 10962 обеспечивает глобальный стандарт для этих классификаций в виде конкретных кодов."
+
+msgid "Auction number"
+msgstr "Аукционный номер"
+
+msgid "VaRMargin"
+msgstr "ВарМаргин"
+
+msgid "Issued capital"
+msgstr "Выпущенный капитал"
+
+msgid "Tradeable"
+msgstr "Торгуемые"
+
+msgid "Series"
+msgstr "Серии"
+
+msgid "52 weeks high"
+msgstr "52 недели максимум"
+
+msgid "52 weeks low"
+msgstr "52 недель низкого уровня"
+
+msgid "Initial"
+msgstr "Первоначального"
+
+msgid "Pre expiry"
+msgstr "Предварительный срок годности"
+
+msgid "Delivery"
+msgstr "Поставка"
+
+msgid "Special buy"
+msgstr "Специальная покупка"
+
+msgid "Special sell"
+msgstr "Специальная продажа"
+
+msgid "Tender"
+msgstr "Тендер"
+
+msgid "ELM long"
+msgstr "ELM долго"
+
+msgid "ELM short"
+msgstr "ELM короткий"
+
+msgid "Expulsion date"
+msgstr "Дата высылки"
+
+msgid "Issue maturity date"
+msgstr "Дата погашения выпуска"
+
+msgid "Re-admission date"
+msgstr "Дата повторного приема"
+
+msgid "Corporate action"
+msgstr "Корпоративная деятельность"
+
+msgid "Issue rate"
+msgstr "Ставка выпуска"
+
+msgid "Interest payment date"
+msgstr "Дата выплаты процентов"
+
+msgid "Listing date"
+msgstr "Дата листинга"
+
+msgid "Unique key"
+msgstr "Уникальный ключ"
+
+msgid "Credit rating"
+msgstr "Кредитный рейтинг"
+
+msgid "Record date"
+msgstr "Дата записи"
+
+msgid "No-delivery start date"
+msgstr "Дата начала без доставки"
+
+msgid "No-delivery end date"
+msgstr "Дата окончания без доставки"
+
+msgid "Market type"
+msgstr "Тип рынка"
+
+msgid "Book closure start date"
+msgstr "Дата начала закрытия книги"
+
+msgid "Book closure end date"
+msgstr "Дата закрытия книги"
+
+msgid "Ex-date"
+msgstr "Экс-дата"
+
+msgid "Warning  percent"
+msgstr "Предупреждающий процент"
+
+msgid "Issue start date"
+msgstr "Дата начала выпуска"
+
+msgid "Remarks"
+msgstr "Замечания"
+
+msgid "User principals..."
+msgstr "Принципы пользователей..."
+
+msgid "Connect to socket..."
+msgstr "Подключение к розетке..."
+
+msgid "Login to socket..."
+msgstr "Войти в розетку..."
+
+msgid "High52"
+msgstr "Хай52"
+
+msgid "Low52"
+msgstr "Низкий52"
+
+msgid "Dividend amount"
+msgstr "Сумма дивидендов"
+
+msgid "Dividend yield"
+msgstr "Дивидендная доходность"
+
+msgid "Dividend date"
+msgstr "Дата выплаты дивидендов"
+
+msgid "Pe ratio"
+msgstr "Соотношение пе"
+
+msgid "Peg ratio"
+msgstr "Коэффициент пега"
+
+msgid "Pb ratio"
+msgstr "Соотношение Pb"
+
+msgid "Pr ratio"
+msgstr "Соотношение pr"
+
+msgid "Pcf ratio"
+msgstr "Коэффициент Pcf"
+
+msgid "Gross margin TTM"
+msgstr "Валовая маржа TTM"
+
+msgid "Gross margin MRQ"
+msgstr "Валовая маржа МРЗ"
+
+msgid "Net profit margin TTM"
+msgstr "Чистая прибыль TTM"
+
+msgid "Net profit margin MRQ"
+msgstr "Чистая прибыль МРЗ"
+
+msgid "Operating margin TTM"
+msgstr "Операционная маржа TTM"
+
+msgid "Operating margin MRQ"
+msgstr "Операционная маржа МРЗ"
+
+msgid "Return on equity"
+msgstr "Возврат на акционерный капитал"
+
+msgid "Return on assets"
+msgstr "Возврат активов"
+
+msgid "Return on investment"
+msgstr "Возврат инвестиций"
+
+msgid "Quick ratio"
+msgstr "Быстрое соотношение"
+
+msgid "Current ratio"
+msgstr "Текущее соотношение"
+
+msgid "Interest coverage"
+msgstr "Процентная страховка"
+
+msgid "Total debt to capital"
+msgstr "Общий долг перед капиталом"
+
+msgid "Lt debt to equity"
+msgstr "Lt долг к акционерному капиталу"
+
+msgid "Total debt to equity"
+msgstr "Общий долг перед акционерным капиталом"
+
+msgid "Eps TTM"
+msgstr "Eps TTM"
+
+msgid "Eps change percent TTM"
+msgstr "Eps изменить процент TTM"
+
+msgid "Eps change year"
+msgstr "Год смены Eps"
+
+msgid "Eps change"
+msgstr "Eps изменения"
+
+msgid "Rev change year"
+msgstr "Преподобный год смены"
+
+msgid "Rev change TTM"
+msgstr "Rev изменить TTM"
+
+msgid "Rev change in"
+msgstr "Rev изменения в"
+
+msgid "Shares outstanding"
+msgstr "Акции непогашенные"
+
+msgid "Market cap float"
+msgstr "Рыночная крышка поплавок"
+
+msgid "Book value per share"
+msgstr "Книжная стоимость на акцию"
+
+msgid "Short int to float"
+msgstr "Короткий int плавать"
+
+msgid "Short int day to cover"
+msgstr "Короткий int день для покрытия"
+
+msgid "Div growth rate 3year"
+msgstr "Див темпы роста 3year"
+
+msgid "Dividend pay amount"
+msgstr "Сумма выплаты дивидендов"
+
+msgid "Dividend pay date"
+msgstr "Дата выплаты дивидендов"
+
+msgid "Beta"
+msgstr "Бета-версия"
+
+msgid "Vol 1day avg"
+msgstr "Том 1day avg"
+
+msgid "Vol 10day avg"
+msgstr "Том 10day avg"
+
+msgid "Vol 3month avg"
+msgstr "Том 3месяг авг"
+
+msgid "Accrued interest"
+msgstr "Начисление по процентам"
+
+msgid "Available funds non marginable trade"
+msgstr "Доступные фонды немаржинальной торговли"
+
+msgid "Bond value"
+msgstr "Стоимость облигаций"
+
+msgid "Cash balance"
+msgstr "Остаток денежных средств"
+
+msgid "Cash available for trading"
+msgstr "Денежные средства, доступные для торговли"
+
+msgid "Cash receipts"
+msgstr "Денежные поступления"
+
+msgid "Day trading buying power"
+msgstr "День торговли покупательной способности"
+
+msgid "Day trading buying power call"
+msgstr "День торговли покупательной способности вызова"
+
+msgid "Day trading equity call"
+msgstr "Дневной торговый колл акций"
+
+msgid "Equity percentage"
+msgstr "Процент акций"
+
+msgid "Liquidation value"
+msgstr "Ликвидационное значение"
+
+msgid "Long margin value"
+msgstr "Длинная маржинальная стоимость"
+
+msgid "Long option market value"
+msgstr "Рыночная стоимость длинных опционов"
+
+msgid "Long stock value"
+msgstr "Длинная стоимость акций"
+
+msgid "Maintenance call"
+msgstr "Вызов на техническое обслуживание"
+
+msgid "Maintenance requirement"
+msgstr "Требование поддержки"
+
+msgid "Margin equity"
+msgstr "Маржинальный капитал"
+
+msgid "Money market fund"
+msgstr "Фонд денежного рынка"
+
+msgid "Mutual fund value"
+msgstr "Стоимость взаимных фондов"
+
+msgid "RegTCall"
+msgstr "RegTCall"
+
+msgid "Short margin value"
+msgstr "Короткая маржинальная стоимость"
+
+msgid "Short option market value"
+msgstr "Рыночная стоимость коротких опционов"
+
+msgid "Short stock value"
+msgstr "Короткая стоимость акций"
+
+msgid "Total cash"
+msgstr "Общий объем денежных средств"
+
+msgid "Is in call"
+msgstr "В вызове"
+
+msgid "Unsettled cash"
+msgstr "Непоставленные средства"
+
+msgid "Pending deposits"
+msgstr "В ожидании депозитов"
+
+msgid "Short balance"
+msgstr "Короткий баланс"
+
+msgid "Long market value"
+msgstr "Длинная рыночная стоимость"
+
+msgid "Money market Fund"
+msgstr "Фонд денежного рынка"
+
+msgid "Savings"
+msgstr "Сбережения"
+
+msgid "Short market value"
+msgstr "Короткая рыночная стоимость"
+
+msgid "Available funds"
+msgstr "Доступ. средства"
+
+msgid "Buying power non marginable trade"
+msgstr "Покупка мощности немаржинальной торговли"
+
+msgid "sma"
+msgstr "Sma"
+
+msgid "Stock buying power"
+msgstr "Покупательная способность акций"
+
+msgid "Option buying power"
+msgstr "Возможность покупательной способности"
 
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "Средства. Равно остатку на счете + нереализованная прибыль/убыток"
@@ -2867,23 +5510,20 @@ msgstr "Открытые ордера"
 msgid "Realized P/L"
 msgstr "Реализованная P/L"
 
-msgid "Fee"
-msgstr "Комиссия"
-
 msgid "Provides simulated data, allowing to test platform’s functionality"
 msgstr "Предоставляет смоделированные данные, для тестирования функционала платформы"
 
 msgid "Spot"
 msgstr "Спот"
 
-msgid "Index"
-msgstr "Индекс"
-
 msgid "Xena Listed Perpetuals"
 msgstr "Xena перечисленные вечные"
 
 msgid "Positions and orders"
 msgstr "Позиции и ордера"
+
+msgid "Maintenance"
+msgstr "Обслуживания"
 
 msgid "Maximal deviation from mid price"
 msgstr "Максимальное отклонение от средней цены"
@@ -2921,14 +5561,8 @@ msgstr "Низкий индекс"
 msgid "High index"
 msgstr "Высокий индекс"
 
-msgid "Type"
-msgstr "Тип"
-
 msgid "Free margin"
 msgstr "Доступная маржа"
 
 msgid "Maint. margin"
 msgstr "Маржа поддержки"
-
-msgid "Margin level"
-msgstr "Уровень маржи"
