@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:14+0300\n"
+"POT-Creation-Date: 2020-11-10 23:41+0200\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -27,6 +27,12 @@ msgstr "利益確定を削除する"
 
 msgid "Working orders"
 msgstr "アクティブ受注"
+
+msgid "Identify the category of the order: MIS – for trading in intraday, NRML – for trading for overnight position"
+msgstr "注文のカテゴリを識別する: MIS – 日中の取引用, NRML – 一晩ポジションの取引のため"
+
+msgid "Disclosed quantity"
+msgstr "開示数量"
 
 msgid "Margin"
 msgstr "マージン"
@@ -57,6 +63,9 @@ msgstr "すべてキャンセルする"
 
 msgid "Cancel order"
 msgstr "注文をキャンセルする"
+
+msgid "Link OCO"
+msgstr "リンク OCO"
 
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "すべての注文を市場価格で実行してもよろしいですか？"
@@ -259,8 +268,32 @@ msgstr "接続名"
 msgid "The name of connection"
 msgstr "接続の名前"
 
+msgid "Additional parameters"
+msgstr "追加のパラメーター"
+
+msgid "Comment"
+msgstr "コメント"
+
+msgid "Order's comment"
+msgstr "注文のコメント"
+
+msgid "Exchange"
+msgstr "取引所"
+
+msgid "Exchange name"
+msgstr "交換名"
+
 msgid "Positions"
 msgstr "決済注文/ポジション一覧"
+
+msgid "Convert"
+msgstr "変換"
+
+msgid "Convert to "
+msgstr "に変換"
+
+msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
+msgstr "注文を行う際には、製品コードを選択する必要があります。これらの製品コードは、注文のカテゴリを識別します。たとえば、以下の製品コード、CNC – 配達中の株式の取引のために MIS – 日中のNRMLでの株式&F&Oの取引のため – 一晩ポジションの取引F&O、通貨、商品のために。これらのポジションは日中のポジションではないため、これらのマージン要件は一晩のマージンに従います。また、取引セッションの終了時にシステムによって二乗されることはしません。"
 
 msgid "Settlement price"
 msgstr "清算価格"
@@ -346,8 +379,8 @@ msgstr "ストップロスを修正して損益分岐点を修正する"
 msgid "Close all"
 msgstr "すべてクローズする"
 
-msgid "CLX all"
-msgstr "すべてをクローズしてキャンセルする"
+msgid "Flatten all"
+msgstr "すべてをフラット化する"
 
 msgid "Close all positions and cancel all orders"
 msgstr "すべてのポジションをクローズして、すべての注文をキャンセルする"
@@ -382,8 +415,8 @@ msgstr "（シンボル＋口座）ごとにポジションをクローズする
 msgid "Close selected"
 msgstr "選択されたものをクローズする"
 
-msgid "CLX"
-msgstr "CLX選択"
+msgid "Flatten"
+msgstr "平ら"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "選択した（シンボル＋口座）に対して、すべてのポジションをクローズして、すべての注文をキャンセルする"
@@ -391,14 +424,17 @@ msgstr "選択した（シンボル＋口座）に対して、すべてのポジ
 msgid "The direction of the position"
 msgstr "位置の方向"
 
-msgid "Postion’s quantity"
-msgstr "ポストオンの数量"
+msgid "Position’s quantity"
+msgstr "職位の数量"
 
 msgid "Open price"
 msgstr "オープン価格"
 
 msgid "The open/average open price of the position"
 msgstr "ポジションのオープン/平均オープンプライス"
+
+msgid "Current/Last traded price"
+msgstr "現在/最終取引価格"
 
 msgid "Gross P/L"
 msgstr "グロス損益"
@@ -451,8 +487,23 @@ msgstr "注文番号"
 msgid "The ID of the position"
 msgstr "位置のID"
 
+msgid "Liquidation price"
+msgstr "清算価格"
+
+msgid "State"
+msgstr "県"
+
+msgid "Open or closed"
+msgstr "開くまたは閉じる"
+
 msgid "Long"
 msgstr "ロング"
 
 msgid "Short"
 msgstr "ショート"
+
+msgid "Closed"
+msgstr "クローズされました"
+
+msgid "Open"
+msgstr "開く"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:22+0300\n"
+"POT-Creation-Date: 2020-11-11 00:01+0200\n"
 "PO-Revision-Date: 2018-12-04 15:47+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -19,71 +19,125 @@ msgstr ""
 msgid "ID"
 msgstr "ICH WÜRDE"
 
+msgid "Symbol’s ID"
+msgstr "Symbol-ID"
+
 msgid "Symbol"
 msgstr "Symbol"
+
+msgid "Symbol's name"
+msgstr "Name des Symbols"
 
 msgid "Description"
 msgstr "Beschreibung"
 
+msgid "The description of the symbol"
+msgstr "Die Beschreibung des Symbols"
+
 msgid "Symbol type"
 msgstr "Symboltyp"
 
-msgid "Quoting currency"
-msgstr "Zitierwährung"
+msgid "Symbol’s asset class"
+msgstr "Die Anlageklasse des Symbols"
 
 msgid "Exchange"
 msgstr "Austausch"
 
+msgid "The exchange of the symbol"
+msgstr "Der Austausch des Symbols"
+
+msgid "Product currency"
+msgstr "Produktwährung"
+
+msgid "The product of the symbol"
+msgstr "Das Produkt des Symbols"
+
+msgid "Quoting currency"
+msgstr "Zitierwährung"
+
+msgid "The quoting currency of the symbol"
+msgstr "Die zitierende Währung des Symbols"
+
 msgid "Quote delay"
 msgstr "Zitat Verzögerung"
 
-msgid "Max lot"
-msgstr "Max Menge"
+msgid "The quotes delay"
+msgstr "Die Kursverzögerung"
 
 msgid "Min lot"
 msgstr "Min. Menge"
 
+msgid "Minimal tradable lot of symbol"
+msgstr "Minimale handelbare Menge von Symbol"
+
+msgid "Max lot"
+msgstr "Max Menge"
+
+msgid "Maximal tradable lot of symbol"
+msgstr "Maximale handelbare Menge von Symbol"
+
 msgid "Netting type"
 msgstr "Netting-Typ"
 
-msgid "Quoting type"
-msgstr "Zitattyp"
+msgid "Symbol’s nettinig type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "Netzinig-Typ des Symbols, mögliche Werte: Eine Position, Mehrere Positionen, Mehrere Positionen pro Seite"
 
 msgid "Lot size"
 msgstr "Losgröße"
 
-msgid "Variable tick list"
-msgstr "Variable Tickliste"
+msgid "Symbol’s lot size"
+msgstr "Losgröße des Symbols"
 
 msgid "Lot step"
 msgstr "Los Schritt"
 
+msgid "Symbol’s lot step"
+msgstr "Symbollosschritt"
+
 msgid "Tick size"
 msgstr "Tick ​​Größe"
+
+msgid "Tick cost"
+msgstr "Tick-Kosten"
 
 msgid "Expiration date"
 msgstr "Haltbarkeitsdatum"
 
+msgid "Expiration date of the symbol"
+msgstr "Ablaufdatum des Symbols"
+
 msgid "Last trading date"
 msgstr "Letztes Handelsdatum"
+
+msgid "Last trading date of the symbol"
+msgstr "Letztes Handelsdatum des Symbols"
 
 msgid "Maturity date"
 msgstr "Fälligkeitstag"
 
+msgid "Maturity date of the symbol"
+msgstr "Fälligkeitsdatum des Symbols"
+
 msgid "Strike price"
 msgstr "Ausübungspreis"
+
+msgid "Option’s strike price"
+msgstr "Der Streikpreis der Option"
 
 msgid "Option style"
 msgstr "Optionsstil"
 
-msgid "Option series"
-msgstr "Optionsserie"
+msgid "The style of the option: American, European "
+msgstr "Der Stil der Option: Amerikanisch, Europäisch "
 
-msgid "Underlier name"
-msgstr "Name des Unterzeichners"
+msgid "Option serie"
+msgstr "Optionsserie"
 
 msgid "Underlier"
 msgstr "Unterzeichner"
+
+msgid "The name of underlying symbol"
+msgstr "Der Name des zugrunde liegenden Symbols"
 
 msgid "Symbol info"
 msgstr "Symbolinfo"
@@ -91,20 +145,20 @@ msgstr "Symbolinfo"
 msgid "Show toolbar"
 msgstr "Werkzeugleiste anzeigen"
 
+msgid "Copy RTD formula"
+msgstr "FTE-Formel kopieren"
+
+msgid "Label"
+msgstr "Etikett"
+
+msgid "Value"
+msgstr "Wert"
+
+msgid "All above"
+msgstr "Alle oben"
+
 msgid "General"
 msgstr "Allgemeines"
 
 msgid "Trading info"
 msgstr "Handelsinformationen"
-
-msgid "Name"
-msgstr "Name"
-
-msgid "Value"
-msgstr "Wert"
-
-msgid "Group"
-msgstr "Gruppe"
-
-msgid "SortIndex"
-msgstr "Sortierindex"

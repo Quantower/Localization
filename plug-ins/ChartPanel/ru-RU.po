@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:52+0300\n"
+"POT-Creation-Date: 2020-11-10 21:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:10+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -24,6 +24,111 @@ msgstr "Экспортировать файл"
 
 msgid "Close"
 msgstr "Закрыть"
+
+msgid "All settings"
+msgstr "Все настройки"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Build from"
+msgstr "Строить из"
+
+msgid "Profile aggregation"
+msgstr "Агрегация профиля"
+
+msgid "Custom step (ticks)"
+msgstr "Пользовательский шаг (тики)"
+
+msgid "Initial balance"
+msgstr "Баланс инициализации"
+
+msgid "Show singles"
+msgstr "Показать одиночные"
+
+msgid "Midpoint"
+msgstr "Середина"
+
+msgid "Show value area"
+msgstr "Показать значение области"
+
+msgid "Show POC"
+msgstr "Показать POC"
+
+msgid "Incorrect parameters: build from should be less than the profile."
+msgstr "Неправильные параметры: сборка должна быть меньше профиля."
+
+msgid "Incorrect parameters: build from should be a multiple of the profile."
+msgstr "Неправильные параметры: сборка из должна быть кратной из профиля."
+
+msgid "Boxes"
+msgstr "Коробки"
+
+msgid "Letters"
+msgstr "Письма"
+
+msgid "Right Front"
+msgstr "Правый фронт"
+
+msgid "Right Rear"
+msgstr "Правая задняя часть"
+
+msgid "Left Rear"
+msgstr "Левая задняя часть"
+
+msgid "Single Color"
+msgstr "Одноместный цвет"
+
+msgid "Up/Down Profile"
+msgstr "Профиль вверх/вниз"
+
+msgid "Up/Down Bars"
+msgstr "Бары вверх/вниз"
+
+msgid "Heatmap"
+msgstr "Тепловая карта"
+
+msgid "Delta Profile"
+msgstr "Профиль дельты"
+
+msgid "Delta Price"
+msgstr "Дельта Прайс"
+
+msgid "Delta Bars"
+msgstr "Дельта Барс"
+
+msgid "Volume Profile"
+msgstr "Профиль тома"
+
+msgid "Volume Price"
+msgstr "Цена объема"
+
+msgid "Volume Bars"
+msgstr "Объем баров"
+
+msgid "None"
+msgstr "Не задано"
+
+msgid "Final"
+msgstr "Окончательный"
+
+msgid "Migrating"
+msgstr "Перенос"
+
+msgid "Minute"
+msgstr "Минута"
+
+msgid "Hour"
+msgstr "Час"
+
+msgid "Day"
+msgstr "День"
+
+msgid "Week"
+msgstr "Неделя"
+
+msgid "Month"
+msgstr "Месяц"
 
 msgid "Object manager"
 msgstr "Менеджер объектов"
@@ -64,8 +169,29 @@ msgstr "Показать на графике"
 msgid "Overlay settings"
 msgstr "Настройки наложения"
 
-msgid "Apply"
-msgstr "Применить"
+msgid "DOM levels count"
+msgstr "Количество уровней DOM"
+
+msgid "Maximal level2 size"
+msgstr "Максимальный размер уровня2"
+
+msgid "Maximal trade size"
+msgstr "Максимальный размер торговли"
+
+msgid "DOM levels contrast"
+msgstr "Контраст уровней DOM"
+
+msgid "Trades marker size"
+msgstr "Размер торгового маркера"
+
+msgid "Trades marker opacity"
+msgstr "Торговля маркер непрозрачность"
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "Custom"
+msgstr "Пользовательский"
 
 msgid "Apply overlay"
 msgstr "Применить наложение"
@@ -97,9 +223,6 @@ msgstr "Раскраска по объему"
 msgid "Coloring by ticks"
 msgstr "Раскраска по тикам"
 
-msgid "None"
-msgstr "Не задано"
-
 msgid "Coloring by delta"
 msgstr "Раскраска по дельте"
 
@@ -109,8 +232,23 @@ msgstr "Раскраска по трейдам"
 msgid "Histogram"
 msgstr "Гистограмма"
 
+msgid "Single"
+msgstr "Единичный"
+
+msgid "Double"
+msgstr "Двухместный"
+
+msgid "Imbalance"
+msgstr "Дисбаланс"
+
 msgid "Enabled"
 msgstr "Включено"
+
+msgid "Buy"
+msgstr "Купить"
+
+msgid "Sell"
+msgstr "Продать"
 
 msgid "Bids"
 msgstr "Биды"
@@ -166,9 +304,6 @@ msgstr "Размер"
 msgid "Price"
 msgstr "Цена"
 
-msgid "Imbalance"
-msgstr "Дисбаланс"
-
 msgid "Imb. bar"
 msgstr "Имб. Бар"
 
@@ -190,11 +325,14 @@ msgstr "Глубина истории"
 msgid "Mouse trading"
 msgstr "Ручная торговля"
 
+msgid "Enable keyboard trading"
+msgstr "Включить клавиатурную торговлю"
+
 msgid "Show/Hide Quick OE"
 msgstr "Показать / Скрыть Быстрый OE"
 
-msgid "Mouse trading settings: TIF, Amount"
-msgstr "Настройки ручной торговли: TIF, сумма"
+msgid "Show/Hide End of Bar"
+msgstr "Показать / Скрыть конец бара"
 
 msgid "Show/Hide Volume Analysis toolbar"
 msgstr "Показать/скрыть панель объемного анализа"
@@ -223,11 +361,23 @@ msgstr "Показать панель объемного анализа"
 msgid "Show Quick OE"
 msgstr "Показать Быстрый OE"
 
+msgid "Show End of Bar"
+msgstr "Показать конец бара"
+
+msgid "Show symbol description"
+msgstr "Показать описание символа"
+
+msgid "Confirm on panel's close"
+msgstr "Подтвердите закрытие панели"
+
 msgid "Visibility"
 msgstr "Видимость"
 
 msgid "Data type"
 msgstr "Тип данных"
+
+msgid "OE qty buttons"
+msgstr "Кнопки OE qty"
 
 msgid "View"
 msgstr "Вид"
@@ -244,8 +394,8 @@ msgstr "Шкала цен"
 msgid "Visual trading"
 msgstr "Визуальная торговля"
 
-msgid "Chart order entry"
-msgstr "Торговля с графика"
+msgid "Order Entry"
+msgstr "Запись заказа"
 
 msgid "Info window"
 msgstr "Информационное окно"
@@ -367,6 +517,33 @@ msgstr "Нарисовать заметку"
 msgid "Draw comment"
 msgstr "Нарисовать комментарий"
 
+msgid "Sell Market"
+msgstr "Продать"
+
+msgid "Sell Bid"
+msgstr "Продать Бид"
+
+msgid "Sell Ask"
+msgstr "Продать Аск"
+
+msgid "Buy Market"
+msgstr "Купить по рынку"
+
+msgid "Buy Bid"
+msgstr "Купить Бид"
+
+msgid "Buy Ask"
+msgstr "Купить Аск"
+
+msgid "Cancel Orders"
+msgstr "Отмена заказов"
+
+msgid "Close Positions"
+msgstr "Близкие позиции"
+
+msgid "Flatten"
+msgstr "Выровнять"
+
 msgid "Remove indicators"
 msgstr "Удалить индикаторы"
 
@@ -421,6 +598,12 @@ msgstr "Побаровое движение"
 msgid "Change symbol"
 msgstr "Изменить символ"
 
+msgid "Copy selected tools"
+msgstr "Копирование выбранных инструментов"
+
+msgid "Paste tools"
+msgstr "Инструменты для вставки"
+
 msgid "Show Object manager"
 msgstr "Показать менеджер объектов"
 
@@ -430,8 +613,32 @@ msgstr "Сделать снимок экрана"
 msgid "Volume Analysis settings"
 msgstr "Настройки объемного анализа"
 
-msgid "Order Flow Surface"
-msgstr "Поверхность потока ордеров"
+msgid "Quick settings"
+msgstr "Быстрые настройки"
+
+msgid "Show/Hide Order Book"
+msgstr "Показать / Скрыть заказ книги"
+
+msgid "Enable auto centering"
+msgstr "Включить автоматическое центрирование"
+
+msgid "Switch info window mode"
+msgstr "Режим окна коммутатора информации"
+
+msgid "Show Order Book"
+msgstr "Показать Книгу Заказов"
+
+msgid "General"
+msgstr "Основное"
+
+msgid "Monochome"
+msgstr "Монохом"
+
+msgid "Bichrome"
+msgstr "Бихром"
+
+msgid "Order flow surface"
+msgstr "Поверхность потока заказа"
 
 msgid "Last color"
 msgstr "Цвет ласта"
@@ -447,6 +654,18 @@ msgstr "Добавить наложение"
 
 msgid "Remove all"
 msgstr "Удалить все"
+
+msgid "AGGREGATION"
+msgstr "Агрегации"
+
+msgid "STYLE"
+msgstr "Стиль"
+
+msgid "VOLUME ANALYSIS"
+msgstr "АНАЛИЗ ОБЪЕМА"
+
+msgid "Show/Hide TPO statistics"
+msgstr "Показать/скрыть статистику TPO"
 
 msgid "Cluster"
 msgstr "Кластер"
@@ -472,6 +691,9 @@ msgstr "Т&С"
 msgid "Custom profile"
 msgstr "Пользовательский профиль"
 
+msgid "Custom VWAP"
+msgstr "Пользовательские VWAP"
+
 msgid "Volume Analysis Settings"
 msgstr "Настройки объемного анализа"
 
@@ -483,3 +705,6 @@ msgstr "Время и продажи"
 
 msgid "Custom profile tool"
 msgstr "Пользовательский профиль"
+
+msgid "Custom VWAP tool"
+msgstr "Пользовательский инструмент VWAP"

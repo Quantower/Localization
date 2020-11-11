@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:52+0300\n"
+"POT-Creation-Date: 2020-11-10 21:27+0200\n"
 "PO-Revision-Date: 2019-06-25 12:54+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: fa-IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Export to file"
 msgstr "صادر کردن به پرونده"
@@ -24,6 +24,111 @@ msgstr "صادر کردن پرونده"
 
 msgid "Close"
 msgstr "نزدیک"
+
+msgid "All settings"
+msgstr "همه تنظیمات"
+
+msgid "Apply"
+msgstr "درخواست"
+
+msgid "Build from"
+msgstr "ساخت از"
+
+msgid "Profile aggregation"
+msgstr "جماعت پروفایل"
+
+msgid "Custom step (ticks)"
+msgstr "گام سفارشی (کنه)"
+
+msgid "Initial balance"
+msgstr "تعادل اولیه"
+
+msgid "Show singles"
+msgstr "نمایش تک آهنگ ها"
+
+msgid "Midpoint"
+msgstr "نقطه میانی"
+
+msgid "Show value area"
+msgstr "نشان دادن مساحت ارزش"
+
+msgid "Show POC"
+msgstr "نمایش POC"
+
+msgid "Incorrect parameters: build from should be less than the profile."
+msgstr "پارامترهای نادرست: ساخت از باید کمتر از پروفایل باشد."
+
+msgid "Incorrect parameters: build from should be a multiple of the profile."
+msgstr "پارامترهای نادرست: ساخت از باید چند پروفایل باشد."
+
+msgid "Boxes"
+msgstr "Boxs"
+
+msgid "Letters"
+msgstr "نامه"
+
+msgid "Right Front"
+msgstr "جبهه راست"
+
+msgid "Right Rear"
+msgstr "راست عقب"
+
+msgid "Left Rear"
+msgstr "عقب چپ"
+
+msgid "Single Color"
+msgstr "تک رنگ"
+
+msgid "Up/Down Profile"
+msgstr "پروفایل بالا/پایین"
+
+msgid "Up/Down Bars"
+msgstr "میله های بالا/پایین"
+
+msgid "Heatmap"
+msgstr "هیت مپ"
+
+msgid "Delta Profile"
+msgstr "پروفایل دلتا"
+
+msgid "Delta Price"
+msgstr "قیمت دلتا"
+
+msgid "Delta Bars"
+msgstr "میله دلتا"
+
+msgid "Volume Profile"
+msgstr "مشخصات حجم"
+
+msgid "Volume Price"
+msgstr "قیمت حجم"
+
+msgid "Volume Bars"
+msgstr "میله های حجم"
+
+msgid "None"
+msgstr "هیچ کدام"
+
+msgid "Final"
+msgstr "نهایی"
+
+msgid "Migrating"
+msgstr "مهاجرت"
+
+msgid "Minute"
+msgstr "دقیقه"
+
+msgid "Hour"
+msgstr "ساعت"
+
+msgid "Day"
+msgstr "روز"
+
+msgid "Week"
+msgstr "هفته"
+
+msgid "Month"
+msgstr "ماه"
 
 msgid "Object manager"
 msgstr "مدیر شی"
@@ -64,8 +169,29 @@ msgstr "نمایش در نمودار"
 msgid "Overlay settings"
 msgstr "تنظیمات رویهم قرار دادن"
 
-msgid "Apply"
-msgstr "درخواست"
+msgid "DOM levels count"
+msgstr "تعداد سطح DOM"
+
+msgid "Maximal level2 size"
+msgstr "حداکثر سطح2 اندازه"
+
+msgid "Maximal trade size"
+msgstr "حداکثر اندازه تجارت"
+
+msgid "DOM levels contrast"
+msgstr "کنتراست سطح DOM"
+
+msgid "Trades marker size"
+msgstr "معاملات اندازه نشانگر"
+
+msgid "Trades marker opacity"
+msgstr "معاملات opacity نشانگر"
+
+msgid "Auto"
+msgstr "خودکار"
+
+msgid "Custom"
+msgstr "سفارشی"
 
 msgid "Apply overlay"
 msgstr "اعمال رویه"
@@ -97,9 +223,6 @@ msgstr "رنگ بر اساس حجم"
 msgid "Coloring by ticks"
 msgstr "رنگ آمیزی توسط کنه"
 
-msgid "None"
-msgstr "هیچ کدام"
-
 msgid "Coloring by delta"
 msgstr "رنگ آمیزی توسط دلتا"
 
@@ -109,8 +232,23 @@ msgstr "رنگ آمیزی توسط معاملات"
 msgid "Histogram"
 msgstr "هیستوگرام"
 
+msgid "Single"
+msgstr "تک"
+
+msgid "Double"
+msgstr "دو"
+
+msgid "Imbalance"
+msgstr "تعادل"
+
 msgid "Enabled"
 msgstr "فعال"
+
+msgid "Buy"
+msgstr "فروش"
+
+msgid "Sell"
+msgstr "فروش"
 
 msgid "Bids"
 msgstr "مناقصه"
@@ -166,9 +304,6 @@ msgstr "اندازه"
 msgid "Price"
 msgstr "قيمت"
 
-msgid "Imbalance"
-msgstr "تعادل"
-
 msgid "Imb. bar"
 msgstr "الگو. نوار"
 
@@ -190,11 +325,14 @@ msgstr "عمق تاریخ"
 msgid "Mouse trading"
 msgstr "تجارت ماوس"
 
+msgid "Enable keyboard trading"
+msgstr "فعال کردن تجارت صفحه کلید"
+
 msgid "Show/Hide Quick OE"
 msgstr "نمایش/پنهان کردن OE سریع"
 
-msgid "Mouse trading settings: TIF, Amount"
-msgstr "تنظیمات تجاری ماوس: TIF ، مبلغ"
+msgid "Show/Hide End of Bar"
+msgstr "نمایش/ پنهان کردن انتهای نوار"
 
 msgid "Show/Hide Volume Analysis toolbar"
 msgstr "نمایش/مخفی کردن نوار ابزار تحلیل صدا"
@@ -223,11 +361,23 @@ msgstr "نمایش نوار ابزار تجزیه و تحلیل حجم"
 msgid "Show Quick OE"
 msgstr "نمایش OE سریع"
 
+msgid "Show End of Bar"
+msgstr "نمایش انتهای نوار"
+
+msgid "Show symbol description"
+msgstr "نمایش توصیف نماد"
+
+msgid "Confirm on panel's close"
+msgstr "تایید در نزدیک پانل"
+
 msgid "Visibility"
 msgstr "دید"
 
 msgid "Data type"
 msgstr "نوع داده ها"
+
+msgid "OE qty buttons"
+msgstr "دکمه های OE qty"
 
 msgid "View"
 msgstr "مشاهده"
@@ -244,8 +394,8 @@ msgstr "مقیاس قیمت"
 msgid "Visual trading"
 msgstr "تجارت بصری"
 
-msgid "Chart order entry"
-msgstr "ورود به سفارش نمودار"
+msgid "Order Entry"
+msgstr "ورود سفارش"
 
 msgid "Info window"
 msgstr "پنجره اطلاعات"
@@ -367,6 +517,33 @@ msgstr "رسم یادداشت"
 msgid "Draw comment"
 msgstr "رسم نظر"
 
+msgid "Sell Market"
+msgstr "فروش بازار"
+
+msgid "Sell Bid"
+msgstr "فروش پیشنهاد"
+
+msgid "Sell Ask"
+msgstr "فروش بپرسید"
+
+msgid "Buy Market"
+msgstr "خرید بازار"
+
+msgid "Buy Bid"
+msgstr "خرید پیشنهاد"
+
+msgid "Buy Ask"
+msgstr "خرید بپرسید"
+
+msgid "Cancel Orders"
+msgstr "لغو دستورات"
+
+msgid "Close Positions"
+msgstr "بستن موقعیت ها"
+
+msgid "Flatten"
+msgstr "صاف"
+
 msgid "Remove indicators"
 msgstr "حذف شاخص"
 
@@ -421,6 +598,12 @@ msgstr "نوار توسط نوار در حال حرکت"
 msgid "Change symbol"
 msgstr "تغییر نماد"
 
+msgid "Copy selected tools"
+msgstr "کپی ابزار انتخاب شده"
+
+msgid "Paste tools"
+msgstr "ابزار خمیر"
+
 msgid "Show Object manager"
 msgstr "نمایش مدیر شیء"
 
@@ -430,8 +613,32 @@ msgstr "تصویر را"
 msgid "Volume Analysis settings"
 msgstr "تنظیمات تحلیل صدا"
 
-msgid "Order Flow Surface"
-msgstr "سطح جریان سفارش"
+msgid "Quick settings"
+msgstr "تنظیمات سریع"
+
+msgid "Show/Hide Order Book"
+msgstr "نمایش/ مخفی کردن کتاب سفارش"
+
+msgid "Enable auto centering"
+msgstr "فعال کردن مرکز خودکار"
+
+msgid "Switch info window mode"
+msgstr "تعویض حالت پنجره اطلاعات"
+
+msgid "Show Order Book"
+msgstr "نمایش کتاب سفارش"
+
+msgid "General"
+msgstr "عمومی"
+
+msgid "Monochome"
+msgstr "تک رنگ"
+
+msgid "Bichrome"
+msgstr "بیکروم"
+
+msgid "Order flow surface"
+msgstr "سطح جریان نظم"
 
 msgid "Last color"
 msgstr "آخرین رنگ"
@@ -447,6 +654,18 @@ msgstr "افزودن رویه"
 
 msgid "Remove all"
 msgstr "حذف همه"
+
+msgid "AGGREGATION"
+msgstr "تجمع"
+
+msgid "STYLE"
+msgstr "سبک"
+
+msgid "VOLUME ANALYSIS"
+msgstr "تجزیه و تحلیل حجم"
+
+msgid "Show/Hide TPO statistics"
+msgstr "نمایش / پنهان کردن آمار TPO"
 
 msgid "Cluster"
 msgstr "خوشه"
@@ -472,6 +691,9 @@ msgstr "T&S"
 msgid "Custom profile"
 msgstr "پروفایل سفارشی"
 
+msgid "Custom VWAP"
+msgstr "VWAP سفارشی"
+
 msgid "Volume Analysis Settings"
 msgstr "تنظیمات تحلیل صدا"
 
@@ -483,3 +705,6 @@ msgstr "زمان و فروش"
 
 msgid "Custom profile tool"
 msgstr "ابزار سفارشی مشخصات"
+
+msgid "Custom VWAP tool"
+msgstr "ابزار VWAP سفارشی"

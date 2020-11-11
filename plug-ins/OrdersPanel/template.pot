@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:14+0300\n"
+"POT-Creation-Date: 2020-11-10 23:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,14 @@ msgid "Remove TP"
 msgstr ""
 
 msgid "Working orders"
+msgstr ""
+
+msgid ""
+"Identify the category of the order: MIS – for trading in intraday, NRML – "
+"for trading for overnight position"
+msgstr ""
+
+msgid "Disclosed quantity"
 msgstr ""
 
 msgid "Margin"
@@ -57,6 +65,9 @@ msgid "Cancel all"
 msgstr ""
 
 msgid "Cancel order"
+msgstr ""
+
+msgid "Link OCO"
 msgstr ""
 
 msgid "Are you sure you want to execute all orders at market price?"
@@ -260,7 +271,39 @@ msgstr ""
 msgid "The name of connection"
 msgstr ""
 
+msgid "Additional parameters"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Order's comment"
+msgstr ""
+
+msgid "Exchange"
+msgstr ""
+
+msgid "Exchange name"
+msgstr ""
+
 msgid "Positions"
+msgstr ""
+
+msgid "Convert"
+msgstr ""
+
+msgid "Convert to "
+msgstr ""
+
+msgid ""
+"When placing an order, you need to select a product code. These product "
+"codes identify the category of the order. For example, you can place the "
+"below mentioned product code, CNC – For trading Equity in delivery MIS – For "
+"trading Equity & F&O in intraday NRML – For trading F&O, Currency and "
+"Commodities for overnight position. Since these positions are not intraday "
+"positions, the margin requirements for these will be as per the overnight "
+"margins. Also, they will not be squared off by our system at the end of the "
+"trading session."
 msgstr ""
 
 msgid "Settlement price"
@@ -349,7 +392,7 @@ msgstr ""
 msgid "Close all"
 msgstr ""
 
-msgid "CLX all"
+msgid "Flatten all"
 msgstr ""
 
 msgid "Close all positions and cancel all orders"
@@ -385,7 +428,7 @@ msgstr ""
 msgid "Close selected"
 msgstr ""
 
-msgid "CLX"
+msgid "Flatten"
 msgstr ""
 
 msgid ""
@@ -395,13 +438,16 @@ msgstr ""
 msgid "The direction of the position"
 msgstr ""
 
-msgid "Postion’s quantity"
+msgid "Position’s quantity"
 msgstr ""
 
 msgid "Open price"
 msgstr ""
 
 msgid "The open/average open price of the position"
+msgstr ""
+
+msgid "Current/Last traded price"
 msgstr ""
 
 msgid "Gross P/L"
@@ -455,8 +501,23 @@ msgstr ""
 msgid "The ID of the position"
 msgstr ""
 
+msgid "Liquidation price"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Open or closed"
+msgstr ""
+
 msgid "Long"
 msgstr ""
 
 msgid "Short"
+msgstr ""
+
+msgid "Closed"
+msgstr ""
+
+msgid "Open"
 msgstr ""

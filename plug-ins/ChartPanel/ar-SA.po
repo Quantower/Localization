@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:52+0300\n"
+"POT-Creation-Date: 2020-11-10 21:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:09+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -24,6 +24,111 @@ msgstr "تصدير ملف"
 
 msgid "Close"
 msgstr "إغلاق"
+
+msgid "All settings"
+msgstr "كافة الإعدادات"
+
+msgid "Apply"
+msgstr "تطبيق"
+
+msgid "Build from"
+msgstr "البناء من"
+
+msgid "Profile aggregation"
+msgstr "تجميع ملف التعريف"
+
+msgid "Custom step (ticks)"
+msgstr "خطوة مخصصة (علامات)"
+
+msgid "Initial balance"
+msgstr "الرصيد الأولي"
+
+msgid "Show singles"
+msgstr "إظهار الفرديات"
+
+msgid "Midpoint"
+msgstr "نقطه الوسط"
+
+msgid "Show value area"
+msgstr "إظهار منطقة القيمة"
+
+msgid "Show POC"
+msgstr "إظهار POC"
+
+msgid "Incorrect parameters: build from should be less than the profile."
+msgstr "معلمات غير صحيحة: يجب أن يكون الإنشاء من أقل من التشكيل الجانبي."
+
+msgid "Incorrect parameters: build from should be a multiple of the profile."
+msgstr "معلمات غير صحيحة: يجب أن يكون الإنشاء من مضاعف من التشكيل الجانبي."
+
+msgid "Boxes"
+msgstr "مربعات"
+
+msgid "Letters"
+msgstr "رسائل"
+
+msgid "Right Front"
+msgstr "الجبهة اليمنى"
+
+msgid "Right Rear"
+msgstr "الخلفية اليمنى"
+
+msgid "Left Rear"
+msgstr "الخلفية اليسرى"
+
+msgid "Single Color"
+msgstr "لون واحد"
+
+msgid "Up/Down Profile"
+msgstr "أعلى / أسفل الملف الشخصي"
+
+msgid "Up/Down Bars"
+msgstr "أشرطة لأعلى/لأسفل"
+
+msgid "Heatmap"
+msgstr "Heatmap"
+
+msgid "Delta Profile"
+msgstr "ملف تعريف دلتا"
+
+msgid "Delta Price"
+msgstr "سعر دلتا"
+
+msgid "Delta Bars"
+msgstr "أشرطة دلتا"
+
+msgid "Volume Profile"
+msgstr "ملف تعريف وحدة التخزين"
+
+msgid "Volume Price"
+msgstr "سعر التداول"
+
+msgid "Volume Bars"
+msgstr "أشرطة وحدات التخزين"
+
+msgid "None"
+msgstr "لا يوجد"
+
+msgid "Final"
+msgstr "النهائي"
+
+msgid "Migrating"
+msgstr "ترحيل"
+
+msgid "Minute"
+msgstr "دقيقة"
+
+msgid "Hour"
+msgstr "ساعة"
+
+msgid "Day"
+msgstr "يوم"
+
+msgid "Week"
+msgstr "أسبوع"
+
+msgid "Month"
+msgstr "شهر"
 
 msgid "Object manager"
 msgstr "إدارة الموضوع"
@@ -64,8 +169,29 @@ msgstr "تظهر على الرسم البياني"
 msgid "Overlay settings"
 msgstr "إعدادات التراكب"
 
-msgid "Apply"
-msgstr "تطبيق"
+msgid "DOM levels count"
+msgstr "DOM مستويات العد"
+
+msgid "Maximal level2 size"
+msgstr "أقصى مستوى2 حجم"
+
+msgid "Maximal trade size"
+msgstr "أقصى حجم التجارة"
+
+msgid "DOM levels contrast"
+msgstr "تباين مستويات DOM"
+
+msgid "Trades marker size"
+msgstr "حجم علامة الصفقات"
+
+msgid "Trades marker opacity"
+msgstr "تداولات علامة التعتيم"
+
+msgid "Auto"
+msgstr "تلقائي"
+
+msgid "Custom"
+msgstr "تخصيص"
 
 msgid "Apply overlay"
 msgstr "تطبيق التراكب"
@@ -97,9 +223,6 @@ msgstr "التلوين حسب الحجم"
 msgid "Coloring by ticks"
 msgstr "التلوين بواسطة القراد"
 
-msgid "None"
-msgstr "لا يوجد"
-
 msgid "Coloring by delta"
 msgstr "التلوين بواسطة دلتا"
 
@@ -109,8 +232,23 @@ msgstr "التلوين بالحرف"
 msgid "Histogram"
 msgstr "المدرج الإحصائي"
 
+msgid "Single"
+msgstr "فردي"
+
+msgid "Double"
+msgstr "انقر نقرا مزدوجا"
+
+msgid "Imbalance"
+msgstr "الاختلال"
+
 msgid "Enabled"
 msgstr "يعمل"
+
+msgid "Buy"
+msgstr "شراء"
+
+msgid "Sell"
+msgstr "بيع"
 
 msgid "Bids"
 msgstr "أسعار العرض"
@@ -166,9 +304,6 @@ msgstr "الحجم"
 msgid "Price"
 msgstr "السعر"
 
-msgid "Imbalance"
-msgstr "الاختلال"
-
 msgid "Imb. bar"
 msgstr "(إم بي) - (إيإمب) بار"
 
@@ -190,11 +325,14 @@ msgstr "عمق التاريخ"
 msgid "Mouse trading"
 msgstr "التداول بالماوس"
 
+msgid "Enable keyboard trading"
+msgstr "تمكين تداول لوحة المفاتيح"
+
 msgid "Show/Hide Quick OE"
 msgstr "إظهار/إخفاء OE السريع"
 
-msgid "Mouse trading settings: TIF, Amount"
-msgstr "إعدادات التداول الماوس: TIF ، المبلغ"
+msgid "Show/Hide End of Bar"
+msgstr "إظهار/إخفاء نهاية الشريط"
 
 msgid "Show/Hide Volume Analysis toolbar"
 msgstr "إظهار/إخفاء شريط أدوات تحليل وحده التخزين"
@@ -223,11 +361,23 @@ msgstr "إظهار شريط أدوات تحليل الحجم"
 msgid "Show Quick OE"
 msgstr "إظهار OE سريع"
 
+msgid "Show End of Bar"
+msgstr "إظهار نهاية الشريط"
+
+msgid "Show symbol description"
+msgstr "إظهار وصف الرمز"
+
+msgid "Confirm on panel's close"
+msgstr "تأكيد على إغلاق لوحة"
+
 msgid "Visibility"
 msgstr "الرؤية"
 
 msgid "Data type"
 msgstr "نوع البيانات"
+
+msgid "OE qty buttons"
+msgstr "أزرار الكمية لـ OE"
 
 msgid "View"
 msgstr "عرض"
@@ -244,8 +394,8 @@ msgstr "مقياس السعر"
 msgid "Visual trading"
 msgstr "التداول المرئي"
 
-msgid "Chart order entry"
-msgstr "إدخال أمر الرسم البياني"
+msgid "Order Entry"
+msgstr "إدخال الطلب"
 
 msgid "Info window"
 msgstr "نافذة المعلومات"
@@ -367,6 +517,33 @@ msgstr "رسم ملاحظه"
 msgid "Draw comment"
 msgstr "رسم التعليق"
 
+msgid "Sell Market"
+msgstr "بيع السوق"
+
+msgid "Sell Bid"
+msgstr "بيع أمر الشراء"
+
+msgid "Sell Ask"
+msgstr "إضافة طلب"
+
+msgid "Buy Market"
+msgstr "شراء السوق"
+
+msgid "Buy Bid"
+msgstr "إضافة عرض"
+
+msgid "Buy Ask"
+msgstr "شراء طلب"
+
+msgid "Cancel Orders"
+msgstr "إلغاء الطلبات"
+
+msgid "Close Positions"
+msgstr "إغلاق المراكز"
+
+msgid "Flatten"
+msgstr "تتسطح"
+
 msgid "Remove indicators"
 msgstr "أزاله المؤشرات"
 
@@ -421,6 +598,12 @@ msgstr "شريط بواسطة شريط تتحرك"
 msgid "Change symbol"
 msgstr "تغيير الرمز"
 
+msgid "Copy selected tools"
+msgstr "نسخ الأدوات المحددة"
+
+msgid "Paste tools"
+msgstr "أدوات اللصق"
+
 msgid "Show Object manager"
 msgstr "إظهار مدير الكائن"
 
@@ -430,8 +613,32 @@ msgstr "جعل لقطه شاشه"
 msgid "Volume Analysis settings"
 msgstr "إعدادات تحليل وحده التخزين"
 
-msgid "Order Flow Surface"
-msgstr "النظام تدفق السطح"
+msgid "Quick settings"
+msgstr "إعدادات سريعة"
+
+msgid "Show/Hide Order Book"
+msgstr "إظهار/إخفاء دفتر الطلبات"
+
+msgid "Enable auto centering"
+msgstr "تمكين توسيط تلقائي"
+
+msgid "Switch info window mode"
+msgstr "تبديل وضع نافذة المعلومات"
+
+msgid "Show Order Book"
+msgstr "إظهار دفتر الطلبات"
+
+msgid "General"
+msgstr "عام"
+
+msgid "Monochome"
+msgstr "أحادية الشوهم"
+
+msgid "Bichrome"
+msgstr "بلوكروم"
+
+msgid "Order flow surface"
+msgstr "سطح تدفق الطلب"
 
 msgid "Last color"
 msgstr "اللون الأخير"
@@ -447,6 +654,18 @@ msgstr "إضافة تراكب"
 
 msgid "Remove all"
 msgstr "حذف الكل"
+
+msgid "AGGREGATION"
+msgstr "تجميع"
+
+msgid "STYLE"
+msgstr "نمط"
+
+msgid "VOLUME ANALYSIS"
+msgstr "تحليل حجم"
+
+msgid "Show/Hide TPO statistics"
+msgstr "إظهار/إخفاء إحصائيات TPO"
 
 msgid "Cluster"
 msgstr "كتلة"
@@ -472,6 +691,9 @@ msgstr "T&S"
 msgid "Custom profile"
 msgstr "التشكيل الجانبي المخصص"
 
+msgid "Custom VWAP"
+msgstr "VWAP مخصص"
+
 msgid "Volume Analysis Settings"
 msgstr "إعدادات تحليل وحده التخزين"
 
@@ -483,3 +705,6 @@ msgstr "الوقت والمبيعات"
 
 msgid "Custom profile tool"
 msgstr "أداه التشكيل الجانبي المخصص"
+
+msgid "Custom VWAP tool"
+msgstr "أداة VWAP مخصصة"

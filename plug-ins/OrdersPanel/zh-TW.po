@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:14+0300\n"
+"POT-Creation-Date: 2020-11-10 23:41+0200\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -27,6 +27,12 @@ msgstr "刪除TP"
 
 msgid "Working orders"
 msgstr "有效訂單"
+
+msgid "Identify the category of the order: MIS – for trading in intraday, NRML – for trading for overnight position"
+msgstr "確定訂單類別:MIS = 用於日內交易,NRML = 用於隔夜頭寸交易"
+
+msgid "Disclosed quantity"
+msgstr "披露數量"
 
 msgid "Margin"
 msgstr "保證金"
@@ -57,6 +63,9 @@ msgstr "全部取消"
 
 msgid "Cancel order"
 msgstr "取消訂單"
+
+msgid "Link OCO"
+msgstr "連結 Oco"
 
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "您確定要以市場價格執行所有訂單嗎？"
@@ -259,8 +268,32 @@ msgstr "連接名稱"
 msgid "The name of connection"
 msgstr "連接的名稱"
 
+msgid "Additional parameters"
+msgstr "其他參數"
+
+msgid "Comment"
+msgstr "註釋"
+
+msgid "Order's comment"
+msgstr "訂單評論"
+
+msgid "Exchange"
+msgstr "市場："
+
+msgid "Exchange name"
+msgstr "交換名稱"
+
 msgid "Positions"
 msgstr "倉位"
+
+msgid "Convert"
+msgstr "轉換"
+
+msgid "Convert to "
+msgstr "轉換為"
+
+msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
+msgstr "下訂單時,您需要選擇產品代碼。這些產品代碼標識訂單的類別。例如,您可以將以下提到的產品代碼(CNC = 用於交割 MIS 中的股票交易 MIS = 在日內 NRML 中交易股票和 F&O = 用於隔夜頭寸的 F&O、貨幣和商品交易。由於這些頭寸不是日內頭寸,因此這些頭寸的保證金要求將符合隔夜保證金。此外,在交易結束時,我們的系統不會將它們平方。"
 
 msgid "Settlement price"
 msgstr "結算價格"
@@ -346,8 +379,8 @@ msgstr "修改止損平衡"
 msgid "Close all"
 msgstr "全部關閉"
 
-msgid "CLX all"
-msgstr "全部徹底"
+msgid "Flatten all"
+msgstr "平展所有"
 
 msgid "Close all positions and cancel all orders"
 msgstr "平掉全部倉位及取消全部訂單"
@@ -382,8 +415,8 @@ msgstr "平掉所選產品倉位"
 msgid "Close selected"
 msgstr "平掉所選"
 
-msgid "CLX"
-msgstr "徹底產品"
+msgid "Flatten"
+msgstr "扁平化"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "Close all positions and cancel all orders by selected (symbol and account)"
@@ -391,14 +424,17 @@ msgstr "Close all positions and cancel all orders by selected (symbol and accoun
 msgid "The direction of the position"
 msgstr "位置的方向"
 
-msgid "Postion’s quantity"
-msgstr "位置的數量"
+msgid "Position’s quantity"
+msgstr "位置數量"
 
 msgid "Open price"
 msgstr "開倉價"
 
 msgid "The open/average open price of the position"
 msgstr "該頭寸的開盤價/平均開盤價"
+
+msgid "Current/Last traded price"
+msgstr "當前/最後交易價格"
 
 msgid "Gross P/L"
 msgstr "持倉損益"
@@ -451,8 +487,23 @@ msgstr "倉位編號"
 msgid "The ID of the position"
 msgstr "位置的ID"
 
+msgid "Liquidation price"
+msgstr "清算價格"
+
+msgid "State"
+msgstr "省"
+
+msgid "Open or closed"
+msgstr "打開或關閉"
+
 msgid "Long"
 msgstr "做多"
 
 msgid "Short"
 msgstr "短"
+
+msgid "Closed"
+msgstr "關閉"
+
+msgid "Open"
+msgstr "工作日"

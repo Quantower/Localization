@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:52+0300\n"
+"POT-Creation-Date: 2020-11-10 21:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:08+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -24,6 +24,111 @@ msgstr "导出文件"
 
 msgid "Close"
 msgstr "关闭"
+
+msgid "All settings"
+msgstr "所有设置"
+
+msgid "Apply"
+msgstr "应用"
+
+msgid "Build from"
+msgstr "生成于"
+
+msgid "Profile aggregation"
+msgstr "配置文件聚合"
+
+msgid "Custom step (ticks)"
+msgstr "自定义步骤（刻度）"
+
+msgid "Initial balance"
+msgstr "初始余额"
+
+msgid "Show singles"
+msgstr "显示单曲"
+
+msgid "Midpoint"
+msgstr "中点"
+
+msgid "Show value area"
+msgstr "显示值区域"
+
+msgid "Show POC"
+msgstr "显示 POC"
+
+msgid "Incorrect parameters: build from should be less than the profile."
+msgstr "不正确的参数：生成应小于配置文件。"
+
+msgid "Incorrect parameters: build from should be a multiple of the profile."
+msgstr "不正确的参数：生成 时应是配置文件的倍数。"
+
+msgid "Boxes"
+msgstr "盒"
+
+msgid "Letters"
+msgstr "字母"
+
+msgid "Right Front"
+msgstr "右前"
+
+msgid "Right Rear"
+msgstr "右后"
+
+msgid "Left Rear"
+msgstr "左后排"
+
+msgid "Single Color"
+msgstr "单色"
+
+msgid "Up/Down Profile"
+msgstr "向上/向下配置文件"
+
+msgid "Up/Down Bars"
+msgstr "向上/向下条形图"
+
+msgid "Heatmap"
+msgstr "热图"
+
+msgid "Delta Profile"
+msgstr "增量配置文件"
+
+msgid "Delta Price"
+msgstr "达美价格"
+
+msgid "Delta Bars"
+msgstr "增量条"
+
+msgid "Volume Profile"
+msgstr "卷配置文件"
+
+msgid "Volume Price"
+msgstr "批量价格"
+
+msgid "Volume Bars"
+msgstr "音量条"
+
+msgid "None"
+msgstr "无"
+
+msgid "Final"
+msgstr "最后"
+
+msgid "Migrating"
+msgstr "迁移"
+
+msgid "Minute"
+msgstr "分"
+
+msgid "Hour"
+msgstr "时"
+
+msgid "Day"
+msgstr "即日"
+
+msgid "Week"
+msgstr "周"
+
+msgid "Month"
+msgstr "月"
 
 msgid "Object manager"
 msgstr "对象管理器"
@@ -64,8 +169,29 @@ msgstr "在图表上显示"
 msgid "Overlay settings"
 msgstr "叠加设置"
 
-msgid "Apply"
-msgstr "应用"
+msgid "DOM levels count"
+msgstr "DOM 级别计数"
+
+msgid "Maximal level2 size"
+msgstr "最大级别 2 大小"
+
+msgid "Maximal trade size"
+msgstr "最大贸易规模"
+
+msgid "DOM levels contrast"
+msgstr "DOM 级别对比度"
+
+msgid "Trades marker size"
+msgstr "交易标记大小"
+
+msgid "Trades marker opacity"
+msgstr "交易标记不透明度"
+
+msgid "Auto"
+msgstr "自动"
+
+msgid "Custom"
+msgstr "自订"
 
 msgid "Apply overlay"
 msgstr "应用叠加层"
@@ -97,9 +223,6 @@ msgstr "按体积着色"
 msgid "Coloring by ticks"
 msgstr "通过刻度着色"
 
-msgid "None"
-msgstr "无"
-
 msgid "Coloring by delta"
 msgstr "着色的三角洲"
 
@@ -109,8 +232,23 @@ msgstr "按行业着色"
 msgid "Histogram"
 msgstr "直方图"
 
+msgid "Single"
+msgstr "单"
+
+msgid "Double"
+msgstr "双"
+
+msgid "Imbalance"
+msgstr "不平衡"
+
 msgid "Enabled"
 msgstr "启用"
+
+msgid "Buy"
+msgstr "买入"
+
+msgid "Sell"
+msgstr "卖出"
 
 msgid "Bids"
 msgstr "买价"
@@ -166,9 +304,6 @@ msgstr "数量"
 msgid "Price"
 msgstr "价格"
 
-msgid "Imbalance"
-msgstr "不平衡"
-
 msgid "Imb. bar"
 msgstr "不平衡条"
 
@@ -190,11 +325,14 @@ msgstr "历史的深度"
 msgid "Mouse trading"
 msgstr "鼠标交易"
 
+msgid "Enable keyboard trading"
+msgstr "启用键盘交易"
+
 msgid "Show/Hide Quick OE"
 msgstr "显示/隐藏快速 OE"
 
-msgid "Mouse trading settings: TIF, Amount"
-msgstr "鼠标交易设置: TIF, 金额"
+msgid "Show/Hide End of Bar"
+msgstr "显示/隐藏条形图的末尾"
 
 msgid "Show/Hide Volume Analysis toolbar"
 msgstr "\"显示隐藏卷分析\" 工具栏"
@@ -223,11 +361,23 @@ msgstr "显示卷分析工具栏"
 msgid "Show Quick OE"
 msgstr "显示快速 OE"
 
+msgid "Show End of Bar"
+msgstr "显示条形图结束"
+
+msgid "Show symbol description"
+msgstr "显示符号描述"
+
+msgid "Confirm on panel's close"
+msgstr "在面板关闭时确认"
+
 msgid "Visibility"
 msgstr "可视性"
 
 msgid "Data type"
 msgstr "来源"
+
+msgid "OE qty buttons"
+msgstr "Oe qty 按钮"
 
 msgid "View"
 msgstr "查看"
@@ -244,8 +394,8 @@ msgstr "价格缩放"
 msgid "Visual trading"
 msgstr "交易指示"
 
-msgid "Chart order entry"
-msgstr "图表订单输入"
+msgid "Order Entry"
+msgstr "订单输入"
 
 msgid "Info window"
 msgstr "信息窗"
@@ -367,6 +517,33 @@ msgstr "抽奖注意事项"
 msgid "Draw comment"
 msgstr "绘制评论"
 
+msgid "Sell Market"
+msgstr "市价卖出"
+
+msgid "Sell Bid"
+msgstr "卖出买价"
+
+msgid "Sell Ask"
+msgstr "卖出卖价"
+
+msgid "Buy Market"
+msgstr "市价买入"
+
+msgid "Buy Bid"
+msgstr "买进买价"
+
+msgid "Buy Ask"
+msgstr "买进卖价"
+
+msgid "Cancel Orders"
+msgstr "取消订单"
+
+msgid "Close Positions"
+msgstr "关闭仓位"
+
+msgid "Flatten"
+msgstr "扁平 化"
+
 msgid "Remove indicators"
 msgstr "删除指示器"
 
@@ -421,6 +598,12 @@ msgstr "逐条移动"
 msgid "Change symbol"
 msgstr "更改产品"
 
+msgid "Copy selected tools"
+msgstr "复制所选工具"
+
+msgid "Paste tools"
+msgstr "粘贴工具"
+
 msgid "Show Object manager"
 msgstr "显示对象管理器"
 
@@ -430,8 +613,32 @@ msgstr "屏幕截图"
 msgid "Volume Analysis settings"
 msgstr "成交量分析设置"
 
-msgid "Order Flow Surface"
-msgstr "订购流量表面"
+msgid "Quick settings"
+msgstr "快速设置"
+
+msgid "Show/Hide Order Book"
+msgstr "显示/隐藏订单簿"
+
+msgid "Enable auto centering"
+msgstr "启用自动居中"
+
+msgid "Switch info window mode"
+msgstr "切换信息窗口模式"
+
+msgid "Show Order Book"
+msgstr "显示订单簿"
+
+msgid "General"
+msgstr "常规"
+
+msgid "Monochome"
+msgstr "莫诺乔梅"
+
+msgid "Bichrome"
+msgstr "比赫罗姆"
+
+msgid "Order flow surface"
+msgstr "订单流面"
 
 msgid "Last color"
 msgstr "最后一种颜色"
@@ -447,6 +654,18 @@ msgstr "新增商品迭图"
 
 msgid "Remove all"
 msgstr "删除所有"
+
+msgid "AGGREGATION"
+msgstr "聚集"
+
+msgid "STYLE"
+msgstr "风格"
+
+msgid "VOLUME ANALYSIS"
+msgstr "体积分析"
+
+msgid "Show/Hide TPO statistics"
+msgstr "显示/隐藏 TPO 统计信息"
 
 msgid "Cluster"
 msgstr "集群"
@@ -472,6 +691,9 @@ msgstr "T & S"
 msgid "Custom profile"
 msgstr "自定义配置文件"
 
+msgid "Custom VWAP"
+msgstr "自定义 VWAP"
+
 msgid "Volume Analysis Settings"
 msgstr "音量分析设置"
 
@@ -483,3 +705,6 @@ msgstr "时间和销售"
 
 msgid "Custom profile tool"
 msgstr "自定义配置文件工具"
+
+msgid "Custom VWAP tool"
+msgstr "自定义 VWAP 工具"

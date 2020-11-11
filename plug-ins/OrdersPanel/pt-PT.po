@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:14+0300\n"
+"POT-Creation-Date: 2020-11-10 23:41+0200\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -27,6 +27,12 @@ msgstr "Remover TP"
 
 msgid "Working orders"
 msgstr "Ordens ativos"
+
+msgid "Identify the category of the order: MIS – for trading in intraday, NRML – for trading for overnight position"
+msgstr "Identificar a categoria da encomenda: MIS – para negociação intradiária, NRML – para negociação para posição noturna"
+
+msgid "Disclosed quantity"
+msgstr "Quantidade divulgada"
 
 msgid "Margin"
 msgstr "Margem"
@@ -57,6 +63,9 @@ msgstr "Cancelar todas"
 
 msgid "Cancel order"
 msgstr "Cancelar ordens"
+
+msgid "Link OCO"
+msgstr "Link OCO"
 
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "Tem certeza de que deseja executar todos os pedidos a preço de mercado?"
@@ -259,8 +268,32 @@ msgstr "Nome da conexão"
 msgid "The name of connection"
 msgstr "O nome da conexão"
 
+msgid "Additional parameters"
+msgstr "Parâmetros adicionais"
+
+msgid "Comment"
+msgstr "Comentário"
+
+msgid "Order's comment"
+msgstr "Comentário da ordem"
+
+msgid "Exchange"
+msgstr "Bolsa"
+
+msgid "Exchange name"
+msgstr "Nome de troca"
+
 msgid "Positions"
 msgstr "Posições"
+
+msgid "Convert"
+msgstr "Converter"
+
+msgid "Convert to "
+msgstr "Converter para "
+
+msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
+msgstr "Ao fazer uma encomenda, tem de selecionar um código de produto. Estes códigos de produto identificam a categoria da encomenda. Por exemplo, pode colocar o código de produto abaixo mencionado, CNC – Para negociar Equity na entrega MIS – Para negociar Equity & F&O em intraday NRML – Para negociar F&O, Moeda e Mercadorias para posição noturna. Uma vez que estas posições não são posições intradiárias, os requisitos de margem para estas serão de acordo com as margens noturnas. Além disso, não serão esclarecidos pelo nosso sistema no final da sessão de negociação."
 
 msgid "Settlement price"
 msgstr "Ajuste Atual"
@@ -346,8 +379,8 @@ msgstr "Modifique Stop loss to breakeven"
 msgid "Close all"
 msgstr "Fechar todas"
 
-msgid "CLX all"
-msgstr "Fechar/Cancelar Todos"
+msgid "Flatten all"
+msgstr "Achatar tudo"
 
 msgid "Close all positions and cancel all orders"
 msgstr "Fechar todas as posições e cancelar todas as ordens"
@@ -382,8 +415,8 @@ msgstr "Fechar todas as posições posições selecionadas (Ativo + conta)"
 msgid "Close selected"
 msgstr "Fechar selecionado"
 
-msgid "CLX"
-msgstr "Fechar/Cancelar"
+msgid "Flatten"
+msgstr "Achatado"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "Fechar todas as posições e cancelar todas as ordens selecionadas (Ativo e conta)"
@@ -391,7 +424,7 @@ msgstr "Fechar todas as posições e cancelar todas as ordens selecionadas (Ativ
 msgid "The direction of the position"
 msgstr "A direção da posição"
 
-msgid "Postion’s quantity"
+msgid "Position’s quantity"
 msgstr "Quantidade da posição"
 
 msgid "Open price"
@@ -399,6 +432,9 @@ msgstr "Preço de abertura"
 
 msgid "The open/average open price of the position"
 msgstr "O preço aberto / médio aberto da posição"
+
+msgid "Current/Last traded price"
+msgstr "Preço corrente/último negociado"
 
 msgid "Gross P/L"
 msgstr "L/P Bruta"
@@ -451,8 +487,23 @@ msgstr "Posição ID"
 msgid "The ID of the position"
 msgstr "O ID da posição"
 
+msgid "Liquidation price"
+msgstr "Preço de liquidação"
+
+msgid "State"
+msgstr "Estado"
+
+msgid "Open or closed"
+msgstr "Aberto ou fechado"
+
 msgid "Long"
 msgstr "Compra"
 
 msgid "Short"
 msgstr "Venda"
+
+msgid "Closed"
+msgstr "Fechado"
+
+msgid "Open"
+msgstr "Abertura"

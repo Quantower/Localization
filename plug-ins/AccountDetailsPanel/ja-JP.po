@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:33+0300\n"
+"POT-Creation-Date: 2020-11-10 20:46+0200\n"
 "PO-Revision-Date: 2018-12-04 14:22+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,23 +16,53 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Name"
-msgstr "名前"
-
 msgid "Balance"
 msgstr "残高："
+
+msgid "The current balance of the Account"
+msgstr "口座の現在の残高"
+
+msgid "Netting Type"
+msgstr "ネッティングタイプ"
+
+msgid "Account’s netting type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "口座のネットタイプ、可能な値:1つのポジション、複数のポジション、1辺あたりの複数のポジション"
 
 msgid "ID"
 msgstr "ID"
 
+msgid "The Account’s identifier"
+msgstr "アカウントの識別子"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Client-assigned alias for the Account"
+msgstr "アカウントのクライアント割り当てエイリアス"
+
 msgid "Account currency"
 msgstr "アカウントの通貨"
+
+msgid "The home currency of the Account"
+msgstr "口座の自国通貨"
 
 msgid "Account info"
 msgstr "口座情報"
 
 msgid "Show toolbar"
 msgstr "ツールバーを表示する"
+
+msgid "Copy RTD formula"
+msgstr "RTD 数式をコピーする"
+
+msgid "Label"
+msgstr "ラベル"
+
+msgid "Value"
+msgstr "値"
+
+msgid "All above"
+msgstr "上記のすべて"
 
 msgid "General"
 msgstr "一般"
@@ -45,12 +75,3 @@ msgstr "アカウントのアクティビティ"
 
 msgid "Info"
 msgstr "情報"
-
-msgid "Value"
-msgstr "値"
-
-msgid "Group"
-msgstr "グループ"
-
-msgid "SortIndex"
-msgstr "SortIndex"

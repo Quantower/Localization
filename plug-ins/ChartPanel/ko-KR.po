@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:52+0300\n"
+"POT-Creation-Date: 2020-11-10 21:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:08+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -24,6 +24,111 @@ msgstr "내보내기 파일"
 
 msgid "Close"
 msgstr "종료"
+
+msgid "All settings"
+msgstr "모든 설정"
+
+msgid "Apply"
+msgstr "대다"
+
+msgid "Build from"
+msgstr "빌드에서"
+
+msgid "Profile aggregation"
+msgstr "프로필 집계"
+
+msgid "Custom step (ticks)"
+msgstr "사용자 지정 단계(틱)"
+
+msgid "Initial balance"
+msgstr "초기 잔액"
+
+msgid "Show singles"
+msgstr "싱글 표시"
+
+msgid "Midpoint"
+msgstr "중간점"
+
+msgid "Show value area"
+msgstr "값 영역 표시"
+
+msgid "Show POC"
+msgstr "POC 표시"
+
+msgid "Incorrect parameters: build from should be less than the profile."
+msgstr "잘못된 매개 변수: 빌드에서 프로파일보다 적어야 합니다."
+
+msgid "Incorrect parameters: build from should be a multiple of the profile."
+msgstr "잘못된 매개 변수: 빌드에서 프로파일의 배수여야 합니다."
+
+msgid "Boxes"
+msgstr "박스"
+
+msgid "Letters"
+msgstr "편지"
+
+msgid "Right Front"
+msgstr "오른쪽 앞면"
+
+msgid "Right Rear"
+msgstr "오른쪽 후면"
+
+msgid "Left Rear"
+msgstr "왼쪽 후면"
+
+msgid "Single Color"
+msgstr "단일 색상"
+
+msgid "Up/Down Profile"
+msgstr "업/다운 프로파일"
+
+msgid "Up/Down Bars"
+msgstr "업/다운 막대"
+
+msgid "Heatmap"
+msgstr "Heatmap"
+
+msgid "Delta Profile"
+msgstr "델타 프로필"
+
+msgid "Delta Price"
+msgstr "델타 가격"
+
+msgid "Delta Bars"
+msgstr "델타 바"
+
+msgid "Volume Profile"
+msgstr "볼륨 프로파일"
+
+msgid "Volume Price"
+msgstr "볼륨 가격"
+
+msgid "Volume Bars"
+msgstr "볼륨 막대"
+
+msgid "None"
+msgstr "없음"
+
+msgid "Final"
+msgstr "최종"
+
+msgid "Migrating"
+msgstr "마이그레이션"
+
+msgid "Minute"
+msgstr "1 분"
+
+msgid "Hour"
+msgstr "시간"
+
+msgid "Day"
+msgstr "하루"
+
+msgid "Week"
+msgstr "주"
+
+msgid "Month"
+msgstr "달"
 
 msgid "Object manager"
 msgstr "객체 관리자"
@@ -64,8 +169,29 @@ msgstr "차트에 표시"
 msgid "Overlay settings"
 msgstr "오버레이 설정"
 
-msgid "Apply"
-msgstr "대다"
+msgid "DOM levels count"
+msgstr "DOM 레벨 수"
+
+msgid "Maximal level2 size"
+msgstr "최대 레벨2 크기"
+
+msgid "Maximal trade size"
+msgstr "최대 거래 규모"
+
+msgid "DOM levels contrast"
+msgstr "DOM 레벨 대비"
+
+msgid "Trades marker size"
+msgstr "마커 크기 거래"
+
+msgid "Trades marker opacity"
+msgstr "마커 불투명도 거래"
+
+msgid "Auto"
+msgstr "자동"
+
+msgid "Custom"
+msgstr "주문."
 
 msgid "Apply overlay"
 msgstr "오버레이 적용"
@@ -97,9 +223,6 @@ msgstr "볼륨으로 색 지정"
 msgid "Coloring by ticks"
 msgstr "진드기에의 한 착 색"
 
-msgid "None"
-msgstr "없음"
-
 msgid "Coloring by delta"
 msgstr "델타 색칠 하기"
 
@@ -109,8 +232,23 @@ msgstr "거래에의 한 착 색"
 msgid "Histogram"
 msgstr "Gistogramm"
 
+msgid "Single"
+msgstr "단일"
+
+msgid "Double"
+msgstr "더블"
+
+msgid "Imbalance"
+msgstr "불균형"
+
 msgid "Enabled"
 msgstr "사용"
+
+msgid "Buy"
+msgstr "구입"
+
+msgid "Sell"
+msgstr "판매"
 
 msgid "Bids"
 msgstr "입찰가"
@@ -166,9 +304,6 @@ msgstr "크기"
 msgid "Price"
 msgstr "가격"
 
-msgid "Imbalance"
-msgstr "불균형"
-
 msgid "Imb. bar"
 msgstr "Imb. 바"
 
@@ -190,11 +325,14 @@ msgstr "역사의 깊이"
 msgid "Mouse trading"
 msgstr "마우스 거래"
 
+msgid "Enable keyboard trading"
+msgstr "키보드 거래 활성화"
+
 msgid "Show/Hide Quick OE"
 msgstr "빠른 OE 표시/숨기기"
 
-msgid "Mouse trading settings: TIF, Amount"
-msgstr "마우스 거래 설정: TIF, 양"
+msgid "Show/Hide End of Bar"
+msgstr "표시/바끝 숨기기"
 
 msgid "Show/Hide Volume Analysis toolbar"
 msgstr "볼륨 분석 도구 모음 표시/숨기기"
@@ -223,11 +361,23 @@ msgstr "볼륨 분석 도구 모음 표시"
 msgid "Show Quick OE"
 msgstr "빠른 OE 표시"
 
+msgid "Show End of Bar"
+msgstr "바의 끝 표시"
+
+msgid "Show symbol description"
+msgstr "기호 설명 표시"
+
+msgid "Confirm on panel's close"
+msgstr "패널 닫기 확인"
+
 msgid "Visibility"
 msgstr "가시성"
 
 msgid "Data type"
 msgstr "소스 종류"
+
+msgid "OE qty buttons"
+msgstr "OE qty 버튼"
 
 msgid "View"
 msgstr "전망"
@@ -244,8 +394,8 @@ msgstr "가격 규모"
 msgid "Visual trading"
 msgstr "시각적 거래"
 
-msgid "Chart order entry"
-msgstr "차트 주문 입력"
+msgid "Order Entry"
+msgstr "주문 항목"
 
 msgid "Info window"
 msgstr "정보 창"
@@ -367,6 +517,33 @@ msgstr "메모 그리기"
 msgid "Draw comment"
 msgstr "코멘트 그리기"
 
+msgid "Sell Market"
+msgstr "시장 판매"
+
+msgid "Sell Bid"
+msgstr "입찰 가시 판매"
+
+msgid "Sell Ask"
+msgstr "매도 질문"
+
+msgid "Buy Market"
+msgstr "시장 구매"
+
+msgid "Buy Bid"
+msgstr "입찰가 구매"
+
+msgid "Buy Ask"
+msgstr "질문 구매"
+
+msgid "Cancel Orders"
+msgstr "주문 취소"
+
+msgid "Close Positions"
+msgstr "위치 닫기"
+
+msgid "Flatten"
+msgstr "평평"
+
 msgid "Remove indicators"
 msgstr "표시기 제거"
 
@@ -421,6 +598,12 @@ msgstr "막대 이동 막대"
 msgid "Change symbol"
 msgstr "상품 추가"
 
+msgid "Copy selected tools"
+msgstr "선택한 도구 복사"
+
+msgid "Paste tools"
+msgstr "붙여넣기 도구"
+
 msgid "Show Object manager"
 msgstr "개체 관리자 표시"
 
@@ -430,7 +613,31 @@ msgstr "스냅샷 만들기"
 msgid "Volume Analysis settings"
 msgstr "볼륨 분석 설정"
 
-msgid "Order Flow Surface"
+msgid "Quick settings"
+msgstr "빠른 설정"
+
+msgid "Show/Hide Order Book"
+msgstr "주문 책 표시/숨기기"
+
+msgid "Enable auto centering"
+msgstr "자동 센터링 활성화"
+
+msgid "Switch info window mode"
+msgstr "정보 창 모드 전환"
+
+msgid "Show Order Book"
+msgstr "주문 책 표시"
+
+msgid "General"
+msgstr "일반"
+
+msgid "Monochome"
+msgstr "모노홈"
+
+msgid "Bichrome"
+msgstr "비크롬"
+
+msgid "Order flow surface"
 msgstr "주문 흐름 표면"
 
 msgid "Last color"
@@ -447,6 +654,18 @@ msgstr "오버레이 추가"
 
 msgid "Remove all"
 msgstr "모두 제거"
+
+msgid "AGGREGATION"
+msgstr "집계"
+
+msgid "STYLE"
+msgstr "스타일"
+
+msgid "VOLUME ANALYSIS"
+msgstr "볼륨 분석"
+
+msgid "Show/Hide TPO statistics"
+msgstr "TPO 통계 표시/숨기기"
 
 msgid "Cluster"
 msgstr "클러스터"
@@ -472,6 +691,9 @@ msgstr "T&S"
 msgid "Custom profile"
 msgstr "사용자 지정 프로필"
 
+msgid "Custom VWAP"
+msgstr "사용자 정의 VWAP"
+
 msgid "Volume Analysis Settings"
 msgstr "체적 분석 설정"
 
@@ -483,3 +705,6 @@ msgstr "시간 및 판매"
 
 msgid "Custom profile tool"
 msgstr "사용자 지정 프로필 도구"
+
+msgid "Custom VWAP tool"
+msgstr "사용자 정의 VWAP 도구"

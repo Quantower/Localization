@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:50+0300\n"
+"POT-Creation-Date: 2020-11-10 21:24+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -30,24 +30,6 @@ msgstr "Схема моделювання"
 
 msgid "General"
 msgstr "Загальні"
-
-msgid "Multiple per side"
-msgstr "Кілька на боці"
-
-msgid "Multiple positions"
-msgstr "Кілька позицій"
-
-msgid "One Position"
-msgstr "Одна позиція"
-
-msgid "Fee per side, quoting currency"
-msgstr "Плата за кожну сторону, цитуючи валюту"
-
-msgid "Margin"
-msgstr "Маржа"
-
-msgid "Netting type"
-msgstr "Тип сітки"
 
 msgid "Initial balance"
 msgstr "Початковий баланс"
@@ -79,59 +61,50 @@ msgstr "Видалити символ"
 msgid "Open panel"
 msgstr "Відкрита панель"
 
-msgid "Tick"
-msgstr "Тик"
-
-msgid "1 minute"
-msgstr "1 хвилина"
-
-msgid "1 day"
-msgstr "1 день"
-
-msgid "Bid/Ask/Last"
-msgstr "Бід/Аск/Ласт"
-
-msgid "Last"
-msgstr "Ласт"
+msgid "Order entry"
+msgstr "Замовлення запису"
 
 msgid "Chart"
 msgstr "Діаграма"
 
-msgid "Order entry"
-msgstr "Замовлення запису"
+msgid "DOM Trader"
+msgstr "Трейдер DOM"
 
 msgid "Market Depth"
 msgstr "Глибина ринку"
 
-msgid "DOM Trader"
-msgstr "Трейдер DOM"
-
 msgid "Time & Sales"
 msgstr "Час і продаж"
+
+msgid "DOM surface"
+msgstr "Поверхня DOM"
+
+msgid "TPO Chart"
+msgstr "Діаграма TPO"
 
 msgid "Account performance"
 msgstr "Продуктивність облікового запису"
 
-msgid "Order Flow Surface"
-msgstr "Порядок потоку поверхні"
+msgid "Market Replay"
+msgstr "Відтворення ринку"
 
-msgid "History Player"
-msgstr "Програвач історії"
+msgid "Range of replay:"
+msgstr "Діапазон відтворення:"
 
-msgid "Maximal limit is reached."
-msgstr "Досягнуто максимальної межі."
+msgid "Symbol"
+msgstr "Інструмент"
 
-msgid "Add symbol"
-msgstr "Додати символ"
+msgid "Build from"
+msgstr "Побудувати з"
+
+msgid "Executing type"
+msgstr "Виконання типу"
+
+msgid "Do you really want to stop Market Replay? This action will delete all test results."
+msgstr "Ви дійсно хочете, щоб зупинити ринок replay? Ця дія видалить усі результати перевірки."
 
 msgid "Symbols"
 msgstr "Символи"
-
-msgid "One step forward"
-msgstr "Один крок вперед"
-
-msgid "Pause simulation"
-msgstr "Призупинити моделювання"
 
 msgid "Ready to start simulation"
 msgstr "Готовий розпочати симуляцію"
@@ -160,50 +133,23 @@ msgstr "Зупиніть симуляцію"
 msgid "Simulation is active"
 msgstr "Симуляція активна"
 
-msgid "Switch between full/short mode"
-msgstr "Переключення між повним / коротким режимом"
+msgid "One step forward"
+msgstr "Один крок вперед"
 
-msgid "Specify History Player advanced settings"
-msgstr "Вкажіть історію Розширені параметри програвача"
-
-msgid "Add"
-msgstr "Додати"
-
-msgid "Left border of history range"
-msgstr "Ліва межа історичного ряду"
-
-msgid "Right border of history range"
-msgstr "Праворуч кордон історії діапазону"
-
-msgid "Range of replay:"
-msgstr "Діапазон відтворення:"
-
-msgid "Symbol"
-msgstr "Інструмент"
-
-msgid "Build from"
-msgstr "Побудувати з"
-
-msgid "Executing type"
-msgstr "Виконання типу"
-
-msgid "Please specify correct dates."
-msgstr "Будь ласка, вкажіть правильні дати."
-
-msgid "Do you really want to stop History Player? This action will delete all test results."
-msgstr "Ви дійсно хочете зупинити історію гравця? Ця дія призведе до видалення всіх результатів перевірки."
-
-msgid "Please select symbols from one connection"
-msgstr "Будь ласка, виберіть символи з одного з'єднання"
+msgid "Pause simulation"
+msgstr "Призупинити моделювання"
 
 msgid "Caching history: "
 msgstr "Кешування історії: "
 
-msgid "Trading Simulator"
-msgstr "Торговельний симулятор"
+msgid "Trading simulator"
+msgstr "Торговий симулятор"
 
-msgid "add"
-msgstr "додати"
+msgid "add symbol"
+msgstr "додати символ"
+
+msgid "Switch between full/short mode"
+msgstr "Переключення між повним / коротким режимом"
 
 msgid "Specify Trading Simulator advanced settings"
 msgstr "Вкажіть додаткові налаштування Trading Simulator"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:22+0300\n"
+"POT-Creation-Date: 2020-11-11 00:01+0200\n"
 "PO-Revision-Date: 2018-12-04 15:48+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -19,71 +19,125 @@ msgstr ""
 msgid "ID"
 msgstr "ID символа"
 
+msgid "Symbol’s ID"
+msgstr "Идентификатор символа"
+
 msgid "Symbol"
 msgstr "Символ"
+
+msgid "Symbol's name"
+msgstr "Имя символа"
 
 msgid "Description"
 msgstr "Описание"
 
+msgid "The description of the symbol"
+msgstr "Описание символа"
+
 msgid "Symbol type"
 msgstr "Тип символа"
 
-msgid "Quoting currency"
-msgstr "Валюта котирования"
+msgid "Symbol’s asset class"
+msgstr "Класс активов Символа"
 
 msgid "Exchange"
 msgstr "Биржа"
 
+msgid "The exchange of the symbol"
+msgstr "Обмен символом"
+
+msgid "Product currency"
+msgstr "Валюта продукта"
+
+msgid "The product of the symbol"
+msgstr "Продукт символа"
+
+msgid "Quoting currency"
+msgstr "Валюта котирования"
+
+msgid "The quoting currency of the symbol"
+msgstr "Цитируя валюту символа"
+
 msgid "Quote delay"
 msgstr "Задержка котировок"
 
-msgid "Max lot"
-msgstr "Максимальный лот"
+msgid "The quotes delay"
+msgstr "Задержка котировок"
 
 msgid "Min lot"
 msgstr "Минимальный лот"
 
+msgid "Minimal tradable lot of symbol"
+msgstr "Минимальная торгуемая много символа"
+
+msgid "Max lot"
+msgstr "Максимальный лот"
+
+msgid "Maximal tradable lot of symbol"
+msgstr "Максимальная торговля много символа"
+
 msgid "Netting type"
 msgstr "Тип неттинга"
 
-msgid "Quoting type"
-msgstr "Тип котирования"
+msgid "Symbol’s nettinig type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "Тип nettinig символа, возможные значения: одна позиция, несколько позиций, несколько позиций с каждой стороны"
 
 msgid "Lot size"
 msgstr "Объем лота"
 
-msgid "Variable tick list"
-msgstr "Список переменного размера тика"
+msgid "Symbol’s lot size"
+msgstr "Размер лота символа"
 
 msgid "Lot step"
 msgstr "Шаг лота"
 
+msgid "Symbol’s lot step"
+msgstr "Шаг лота символа"
+
 msgid "Tick size"
 msgstr "Размер тика"
+
+msgid "Tick cost"
+msgstr "Стоимость тика"
 
 msgid "Expiration date"
 msgstr "Дата экспирации"
 
+msgid "Expiration date of the symbol"
+msgstr "Срок действия символа"
+
 msgid "Last trading date"
 msgstr "Последняя торговая дата"
+
+msgid "Last trading date of the symbol"
+msgstr "Последняя торговая дата символа"
 
 msgid "Maturity date"
 msgstr "Дата погашения"
 
+msgid "Maturity date of the symbol"
+msgstr "Дата погашения символа"
+
 msgid "Strike price"
 msgstr "Страйк цена"
+
+msgid "Option’s strike price"
+msgstr "Цена забастовки опциона"
 
 msgid "Option style"
 msgstr "Стиль опциона"
 
-msgid "Option series"
-msgstr "Серия опциона"
+msgid "The style of the option: American, European "
+msgstr "Стиль опции: американский, европейский "
 
-msgid "Underlier name"
-msgstr "Название базового актива"
+msgid "Option serie"
+msgstr "Вариант серии"
 
 msgid "Underlier"
 msgstr "Базовый актив"
+
+msgid "The name of underlying symbol"
+msgstr "Название базового символа"
 
 msgid "Symbol info"
 msgstr "Информация о символе"
@@ -91,20 +145,20 @@ msgstr "Информация о символе"
 msgid "Show toolbar"
 msgstr "Показать панель инструментов"
 
+msgid "Copy RTD formula"
+msgstr "Копия формулы RTD"
+
+msgid "Label"
+msgstr "Метки"
+
+msgid "Value"
+msgstr "Значение"
+
+msgid "All above"
+msgstr "Все вышеперечисленное"
+
 msgid "General"
 msgstr "Общая информация"
 
 msgid "Trading info"
 msgstr "Торговая информация"
-
-msgid "Name"
-msgstr "Название"
-
-msgid "Value"
-msgstr "Значение"
-
-msgid "Group"
-msgstr "Группа"
-
-msgid "SortIndex"
-msgstr "SortIndex"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:09+0300\n"
+"POT-Creation-Date: 2020-11-10 23:19+0200\n"
 "PO-Revision-Date: 2018-12-04 15:35+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -15,6 +15,265 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Account"
+msgstr "الحساب"
+
+msgid "Account name"
+msgstr "اسم الحساب"
+
+msgid "Symbol"
+msgstr "الرمز"
+
+msgid "Symbol name"
+msgstr "اسم الرمز"
+
+msgid "Description"
+msgstr "الوصف"
+
+msgid "The description of the symbol"
+msgstr "وصف الرمز"
+
+msgid "Side"
+msgstr "جانب"
+
+msgid "The order side"
+msgstr "جانب الأمر"
+
+msgid "Order type"
+msgstr "نوع الأمر"
+
+msgid "The order type"
+msgstr "نوع الأمر"
+
+msgid "Quantity"
+msgstr "الكمية"
+
+msgid "Price"
+msgstr "السعر"
+
+msgid "Trigger price"
+msgstr "سعر التحفيز"
+
+msgid "TIF"
+msgstr "الوقت في القوة"
+
+msgid "SL"
+msgstr "إيقاف الخسارة"
+
+msgid "Stop loss"
+msgstr "إيقاف الخسارة"
+
+msgid "TP"
+msgstr "أخذ الربح"
+
+msgid "Take profit"
+msgstr "أخذ الربح"
+
+msgid "Connection name"
+msgstr "اسم الاتصال"
+
+msgid "Select"
+msgstr "حدد"
+
+msgid "Modify"
+msgstr "تعديل"
+
+msgid "Remove"
+msgstr "حذف"
+
+msgid "Group"
+msgstr "المجموعة"
+
+msgid "Actions"
+msgstr "الإجراءات"
+
+msgid "Multiple"
+msgstr "متعدده"
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgid "Multiple order entry"
+msgstr "إدخال أمر متعدد"
+
+msgid "reverse"
+msgstr "عكس"
+
+msgid "Add to basket"
+msgstr "إضافة إلى سلة"
+
+msgid "Create new"
+msgstr "إنشاء جديد"
+
+msgid "Group actions"
+msgstr "إجراءات المجموعة"
+
+msgid "Move to"
+msgstr "الانتقال إلى"
+
+msgid "Rename"
+msgstr "إعادة التسمية"
+
+msgid "Exclude from group"
+msgstr "استبعاد من المجموعة"
+
+msgid "Ungroup"
+msgstr "فك تجميع"
+
+msgid "Portfolio"
+msgstr "المحفظة"
+
+msgid "No order requests to show"
+msgstr "لا طلبات طلبية لإظهار"
+
+msgid "Add some order requests to watch them"
+msgstr "إضافة بعض طلبات الطلب لمشاهدتها"
+
+msgid "Collapse OE"
+msgstr "انهيار OE"
+
+msgid "+/-"
+msgstr "+/-"
+
+msgid "+"
+msgstr "+"
+
+msgid "-"
+msgstr "-"
+
+msgid "Create group"
+msgstr "إنشاء مجموعة"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Buy"
+msgstr "شراء"
+
+msgid "Sell"
+msgstr "يبيع"
+
+msgid "Submit"
+msgstr "إرسال"
+
+msgid "Cancel modifying"
+msgstr "إلغاء التعديل"
+
+#, csharp-format
+msgid "Are you sure want to cancel all orders on {0}?"
+msgstr "هل تريد بالتأكيد إلغاء جميع الطلبات على {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to cancel all buy orders on {0}?"
+msgstr "هل تريد بالتأكيد إلغاء جميع أوامر الشراء على {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to cancel all limit orders on {0}?"
+msgstr "هل تريد بالتأكيد إلغاء كافة أوامر الحد على {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to cancel all sell orders on {0}?"
+msgstr "هل تريد بالتأكيد إلغاء جميع أوامر البيع على {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to cancel all stop orders on {0}?"
+msgstr "هل تريد بالتأكيد إلغاء جميع أوامر الإيقاف على {0}؟"
+
+msgid "Show close position"
+msgstr "إظهار موضع الإغلاق"
+
+msgid "Show close positions"
+msgstr "إظهار مواضع الإغلاق"
+
+msgid "Close position"
+msgstr "إغلاق الوضعية"
+
+msgid "Close all positions"
+msgstr "إغلاق جميع الوضعيات"
+
+#, csharp-format
+msgid "Are you sure want to close position on {0}?"
+msgstr "هل تريد بالتأكيد إغلاق مركز على {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to close all positions on {0}?"
+msgstr "هل تريد بالتأكيد إغلاق جميع المراكز على {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to close position and cancel all orders on {0}?"
+msgstr "هل تريد بالتأكيد إغلاق المركز وإلغاء جميع الطلبات على {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to close all positions and cancel all orders on {0}?"
+msgstr "هل تريد بالتأكيد إغلاق جميع المراكز وإلغاء جميع الطلبات على {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to reverse position on {0}?"
+msgstr "هل تريد بالتأكيد عكس الموقف على {0}؟"
+
+msgid "Order entry small"
+msgstr "دخول النظام صغير"
+
+msgid "Slim mode"
+msgstr "وضع سليم"
+
+msgid "No labels"
+msgstr "لا توجد تسميات"
+
+msgid "Show additional order parameters"
+msgstr "إظهار معلمات أمر إضافية"
+
+msgid "View"
+msgstr "عرض"
+
+msgid "Ask"
+msgstr "الطلب"
+
+msgid "Bid"
+msgstr "عرض"
+
+msgid "Mkt"
+msgstr "السوق"
+
+msgid "Flatten"
+msgstr "تتسطح"
+
+msgid "Close positions"
+msgstr "إغلاق المراكز"
+
+msgid "Reverse"
+msgstr "عكس"
+
+msgid "Cancel orders"
+msgstr "إلغاء الطلبات"
+
+msgid "Cancel buy"
+msgstr "إلغاء الشراء"
+
+msgid "Cancel sell"
+msgstr "إلغاء البيع"
+
+msgid "Cancel limits"
+msgstr "إلغاء الحدود"
+
+msgid "Cancel stops"
+msgstr "إلغاء التوقف"
+
+msgid "Hide"
+msgstr "اخفاء"
+
+msgid "Settings"
+msgstr "الخيارات"
+
+msgid "Convert to {this.ProductTypeLabel}"
+msgstr "قم بالتحويل إلى {هذا. منتجTypeLabel}"
+
+msgid "No {shortName}"
+msgstr "لا يوجد {اسم مختصر}"
+
+msgid "Activate trailing {this.behavior.Name.ToLower()}"
+msgstr "تنشيط زائدة {this.behavior.Name.ToLower()}"
 
 msgid "Show VWAP"
 msgstr "عرض متوسط حجم السعر المتوقع"
@@ -24,18 +283,6 @@ msgstr "إخفاء VWAP"
 
 msgid "VWAP option allows you to see what will be the Average open price if you send order with selected quantity"
 msgstr "يسمح لك خيار VWAP بمعرفة ما سيكون متوسط ​​سعر الفتح في حالة إرسال الطلب مع الكمية المحددة"
-
-msgid "Take profit"
-msgstr "أخذ الربح"
-
-msgid "Stop loss"
-msgstr "إيقاف الخسارة"
-
-msgid "Activate trailing stop loss"
-msgstr "تفعيل وقف الخسارة المتحرك"
-
-msgid "Close position"
-msgstr "إغلاق الوضعية"
 
 msgid "Quantity to close"
 msgstr "الكمية للإغلاق"
@@ -55,9 +302,6 @@ msgstr "المحلية SL / TP"
 msgid "Place"
 msgstr "القيام"
 
-msgid "Modify"
-msgstr "تعديل"
-
 msgid "LSL"
 msgstr "Lsl"
 
@@ -73,23 +317,11 @@ msgstr "المحلية جني الأرباح"
 msgid "Modify order"
 msgstr "تعديل الأمر"
 
-msgid "Account"
-msgstr "الحساب"
-
 msgid "Order ID"
 msgstr "رقم الأمر"
 
 msgid "Connection"
 msgstr "الاتصال"
-
-msgid "Symbol"
-msgstr "الرمز"
-
-msgid "Order type"
-msgstr "نوع الأمر"
-
-msgid "Side"
-msgstr "جانب"
 
 msgid "Order was cancelled"
 msgstr "تم إلغاء الطلب"
@@ -105,9 +337,6 @@ msgstr "طويل"
 
 msgid "Short"
 msgstr "قصير"
-
-msgid "Quantity"
-msgstr "الكمية"
 
 msgid "Open price"
 msgstr "سعر الافتتاح"
@@ -130,11 +359,14 @@ msgstr "التاريخ/الوقت"
 msgid "Position was closed"
 msgstr "الموقف كان مغلقا"
 
-msgid "Cancel"
-msgstr "إلغاء"
-
 msgid "Time in force"
 msgstr "وقت النشاط"
+
+msgid "Brackets setup"
+msgstr "إعداد الأقواس"
+
+msgid "OE dialog"
+msgstr "مربع حوار OE"
 
 msgid "Order entry"
 msgstr "إدخال الأوامر"
@@ -145,29 +377,17 @@ msgstr "تاريخ الانتهاء"
 msgid "Place order"
 msgstr "القيام بأمر"
 
-msgid "Bid"
-msgstr "عرض"
+msgid "Incorrect quantity: 0"
+msgstr "كمية غير صحيحة: 0"
 
-msgid "Ask"
-msgstr "الطلب"
+msgid "Set order as default"
+msgstr "تعيين الترتيب كإعداد افتراضي"
 
-msgid "Order entry small"
-msgstr "دخول النظام صغير"
+msgid "Save order template"
+msgstr "حفظ قالب أمر"
 
-msgid "Send Limit order on Ask price"
-msgstr "إرسال أمر الحد على سعر الطلب"
+msgid "Create template"
+msgstr "إنشاء قالب"
 
-msgid "Send Limit order on Bid price"
-msgstr "إرسال أمر الحد على سعر العطاء"
-
-msgid "Send Market order"
-msgstr "إرسال طلب السوق"
-
-msgid "Mkt"
-msgstr "السوق"
-
-msgid "Buy"
-msgstr "شراء"
-
-msgid "Sell"
-msgstr "يبيع"
+msgid "Apply"
+msgstr "تطبيق"

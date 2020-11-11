@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:14+0300\n"
+"POT-Creation-Date: 2020-11-10 23:41+0200\n"
 "PO-Revision-Date: 2018-12-04 15:38+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -27,6 +27,12 @@ msgstr "TP 제거"
 
 msgid "Working orders"
 msgstr "작업 순서"
+
+msgid "Identify the category of the order: MIS – for trading in intraday, NRML – for trading for overnight position"
+msgstr "주문의 범주를 식별: MIS – 장중 거래에 대 한, NRML – 하룻밤 위치에 대 한 거래에 대 한"
+
+msgid "Disclosed quantity"
+msgstr "공개 수량"
 
 msgid "Margin"
 msgstr "여백"
@@ -57,6 +63,9 @@ msgstr "모두 취소"
 
 msgid "Cancel order"
 msgstr "주문을 취소하다"
+
+msgid "Link OCO"
+msgstr "링크 OCO"
 
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "모든 주문을 시장 가격으로 판매 하시겠습니까?"
@@ -259,8 +268,32 @@ msgstr "연결 이름"
 msgid "The name of connection"
 msgstr "연결 이름"
 
+msgid "Additional parameters"
+msgstr "추가 매개 변수"
+
+msgid "Comment"
+msgstr "코멘트"
+
+msgid "Order's comment"
+msgstr "주문의 코멘트"
+
+msgid "Exchange"
+msgstr "Exchange"
+
+msgid "Exchange name"
+msgstr "교환 이름"
+
 msgid "Positions"
 msgstr "직책"
+
+msgid "Convert"
+msgstr "변환"
+
+msgid "Convert to "
+msgstr "로 변환 "
+
+msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
+msgstr "주문 할 때 제품 코드를 선택해야 합니다. 이러한 제품 코드는 주문 범주를 식별합니다. 예를 들어, 앞서 언급한 제품 코드인 CNC –배송 MIS의 주식 거래 - 장중 NRML의 주식 및 F&amp;O 거래 - 하룻밤 포지션에 대한 F&amp;O, 통화 및 상품 거래를 할 수 있습니다. 이러한 포지션은 장중 포지션이 아니기 때문에 이에 대한 마진 요구 사항은 하룻밤 마진에 따라 유지됩니다. 또한, 그들은 거래 세션의 끝에 우리의 시스템에 의해 제곱되지 않습니다."
 
 msgid "Settlement price"
 msgstr "정산 가격"
@@ -346,8 +379,8 @@ msgstr "손익분기 점 수정"
 msgid "Close all"
 msgstr "모두 닫기"
 
-msgid "CLX all"
-msgstr "CLX 전체"
+msgid "Flatten all"
+msgstr "모든 병합"
 
 msgid "Close all positions and cancel all orders"
 msgstr "모든 직위를 닫고 모든 주문을 취소하십시오."
@@ -382,8 +415,8 @@ msgstr "선택한 항목을 기준으로 모든 위치 닫기 (기호 + 계정)"
 msgid "Close selected"
 msgstr "선택한 항목 닫기"
 
-msgid "CLX"
-msgstr "CLX"
+msgid "Flatten"
+msgstr "평평"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "Close all positions and cancel all orders by selected (symbol and account)"
@@ -391,14 +424,17 @@ msgstr "Close all positions and cancel all orders by selected (symbol and accoun
 msgid "The direction of the position"
 msgstr "위치의 방향"
 
-msgid "Postion’s quantity"
-msgstr "포지션의 수량"
+msgid "Position’s quantity"
+msgstr "위치 수량"
 
 msgid "Open price"
 msgstr "시초 가격"
 
 msgid "The open/average open price of the position"
 msgstr "직책의 공개 / 평균 오픈 프라이스"
+
+msgid "Current/Last traded price"
+msgstr "현재/마지막 거래 가격"
 
 msgid "Gross P/L"
 msgstr "총 P / L"
@@ -451,8 +487,23 @@ msgstr "포지션 id"
 msgid "The ID of the position"
 msgstr "직위의 ID"
 
+msgid "Liquidation price"
+msgstr "청산 가격"
+
+msgid "State"
+msgstr "상태"
+
+msgid "Open or closed"
+msgstr "열기 또는 닫기"
+
 msgid "Long"
 msgstr "긴"
 
 msgid "Short"
 msgstr "짧은"
+
+msgid "Closed"
+msgstr "닫힘"
+
+msgid "Open"
+msgstr "열기"

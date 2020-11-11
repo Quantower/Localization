@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:06+0300\n"
+"POT-Creation-Date: 2020-11-10 22:58+0200\n"
 "PO-Revision-Date: 2018-12-04 16:27+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -28,11 +28,23 @@ msgstr "وقت انحلال, أيام:"
 msgid "Volatility shift, %:"
 msgstr "تقلب التحول ، ٪:"
 
+msgid "All visible"
+msgstr "جميع مرئية"
+
+msgid "No selected"
+msgstr "لم يتم تحديد"
+
+msgid "Strategies"
+msgstr "الاستراتيجيات"
+
 msgid "Test & Real positions"
 msgstr "الاختبار والمواقف الحقيقية"
 
 msgid "Add underlier"
 msgstr "إضافة ورقة مالية"
+
+msgid "Add strategy"
+msgstr "إضافة استراتيجية"
 
 msgid "Place paper"
 msgstr "ورقه المكان"
@@ -55,14 +67,71 @@ msgstr "إلغاء كافة مواضع الورق"
 msgid "Close all real positions"
 msgstr "إغلاق جميع المواقع الحقيقية"
 
+msgid "Close Position"
+msgstr "إغلاق الموقف"
+
+msgid "Remove strategy"
+msgstr "حذف الاستراتيجية"
+
+msgid "Create strategy"
+msgstr "إنشاء استراتيجية"
+
+msgid "Exclude from strategy"
+msgstr "استبعاد من الاستراتيجية"
+
+msgid "Ungroup strategy"
+msgstr "استراتيجية فك التجميع"
+
+msgid "Analyse paper"
+msgstr "تحليل الورق"
+
+msgid "Remove paper"
+msgstr "إزالة الورق"
+
+msgid "Paper  positions"
+msgstr "مواضع الورق"
+
+msgid "Real positions"
+msgstr "الوظائف الحقيقية"
+
+msgid "+"
+msgstr "+"
+
+msgid "-"
+msgstr "-"
+
+msgid "reverse"
+msgstr "عكس"
+
+msgid "Place"
+msgstr "القيام"
+
+msgid "Buy"
+msgstr "شراء"
+
+msgid "Sell"
+msgstr "بيع"
+
+msgid "qnt"
+msgstr "qnt"
+
 msgid "Option desk"
 msgstr "مكتب الخيارات"
 
 msgid "Analyzer"
 msgstr "المحلل"
 
-msgid "Desk & Analyzer"
-msgstr "مكتب ومحلل"
+msgid "Volatility smile"
+msgstr "ابتسامة التذبذب"
+
+msgid "Call"
+msgstr "شراء"
+
+msgid "Put"
+msgstr "بيع"
+
+msgid "Call & Put"
+msgstr "دعوة ووضع"
 
 msgid "P&L"
 msgstr "ربح"
@@ -87,6 +156,231 @@ msgstr "تغير التقلبات"
 
 msgid "Time change"
 msgstr "تغيير الوقت"
+
+msgid "Option watchlist"
+msgstr "قائمة مراقبة الخيارات"
+
+msgid "No symbols to show"
+msgstr "لا توجد رموز لإظهارها"
+
+msgid "Add some symbols to watch them"
+msgstr "إضافة بعض الرموز لمشاهدتها"
+
+msgid "Add symbols"
+msgstr "إضافة رموز"
+
+msgid "Remove selected"
+msgstr "حذف المحدد"
+
+msgid "Clear all"
+msgstr "مسح الكل"
+
+msgid "Reset order number"
+msgstr "إعادة تعيين رقم الطلب"
+
+msgid "Interest rate, %"
+msgstr "معدّل الفائدة، %"
+
+msgid "Bid"
+msgstr "عرض"
+
+msgid "Ask"
+msgstr "الطلب"
+
+msgid "Last"
+msgstr "الأخير"
+
+msgid "(Bid+Ask)/2"
+msgstr "(العرض+الطلب)/2"
+
+msgid "IV calculation price"
+msgstr "نمط حساب القيمة الأصلية"
+
+msgid "Black Scholes"
+msgstr "سكولز الأسود"
+
+msgid "Connection based"
+msgstr "أساس الاتصال"
+
+msgid "Pricing model"
+msgstr "نموذج التسعير"
+
+msgid "Show toolbar"
+msgstr "إظهار شريط الأدوات"
+
+msgid "Locked"
+msgstr "مغلق"
+
+msgid "Unlock panel"
+msgstr "إلغاء قفل اللوحة"
+
+msgid "Lock panel"
+msgstr "قفل لوحة"
+
+msgid "Account"
+msgstr "الحساب"
+
+msgid "Account name"
+msgstr "اسم الحساب"
+
+msgid "Symbol"
+msgstr "الرمز"
+
+msgid "Symbol name"
+msgstr "اسم الرمز"
+
+msgid "Description"
+msgstr "الوصف"
+
+msgid "The description of the symbol"
+msgstr "وصف الرمز"
+
+msgid "Symbol type"
+msgstr "نوع الرمز"
+
+msgid "Symbol’s asset class"
+msgstr "فئة أصول الرمز"
+
+msgid "Expiration date"
+msgstr "تاريخ الانتهاء"
+
+msgid "Expiration date of derivative symbol"
+msgstr "تاريخ انتهاء صلاحيه رمز المشتقة"
+
+msgid "Days to expire"
+msgstr "الأيام للانتهاء"
+
+msgid "Strike price"
+msgstr "سعر الضربة"
+
+msgid "Option’s strike price"
+msgstr "الخيار السعر الإضراب"
+
+msgid "Side"
+msgstr "جانب"
+
+msgid "The direction of the position"
+msgstr "اتجاه الموقف"
+
+msgid "Quantity"
+msgstr "الكمية"
+
+msgid "Postion’s quantity"
+msgstr "كميه postion"
+
+msgid "IV"
+msgstr "رابعا"
+
+msgid "Delta"
+msgstr "دلتا"
+
+msgid "Gamma"
+msgstr "جاما"
+
+msgid "Theta"
+msgstr "ثيتا"
+
+msgid "Vega"
+msgstr "فيغا"
+
+msgid "Rho"
+msgstr "Rho"
+
+msgid "Exchange"
+msgstr "تحويل"
+
+msgid "Last size"
+msgstr "آخر حجم"
+
+msgid "Last date/time"
+msgstr "آخر تاريخ/وقت"
+
+msgid "Update time"
+msgstr "وقت التحديث"
+
+msgid "Bid size"
+msgstr "حجم العرض"
+
+msgid "Ask size"
+msgstr "حجم الطلب"
+
+msgid "Spread"
+msgstr "انتشار"
+
+msgid "Spread, %"
+msgstr "% Spread"
+
+msgid "Open"
+msgstr "فتح"
+
+msgid "High"
+msgstr "أعلى"
+
+msgid "Low"
+msgstr "أقل"
+
+msgid "Prev. close"
+msgstr "الإغلاق السابق"
+
+msgid "Prev. settlement"
+msgstr "قبلة التسوية"
+
+msgid "Volume"
+msgstr "الحجم"
+
+msgid "Open Interest"
+msgstr "الفائدة المفتوحة"
+
+msgid "Average traded price"
+msgstr "متوسط السعر المتداول"
+
+msgid "Trades"
+msgstr "التداولات"
+
+msgid "Ticks"
+msgstr "حركات الأسعار"
+
+msgid "Open quantity"
+msgstr "الكمية المفتوحة"
+
+msgid "Open price"
+msgstr "سعر الافتتاح"
+
+msgid "Aggregated P/L"
+msgstr "P/L الإجمالية"
+
+msgid "Comment"
+msgstr "تعليق"
+
+msgid "Connection name"
+msgstr "اسم الاتصال"
+
+msgid "Underlier"
+msgstr "الورقة المالية"
+
+msgid "Underlier last"
+msgstr "آخر مشاركة أكثر من ذلك"
+
+msgid "Underlier bid"
+msgstr "عرض أقل"
+
+msgid "Underlier ask"
+msgstr "أقل من ذلك نسأل"
+
+msgid "Action 1"
+msgstr "الإجراء 1"
+
+msgid "Action 2"
+msgstr "الإجراء 2"
+
+msgid "Action 3"
+msgstr "الإجراء 3"
+
+msgid "Group"
+msgstr "المجموعة"
+
+msgid "Trading quantity"
+msgstr "كمية التداول"
 
 msgid "Call Positions"
 msgstr "مراكز الاتصال"
@@ -172,8 +466,26 @@ msgstr "استدعاء التسوية السابقة"
 msgid "Call Open interest"
 msgstr "الاتصال بالاهتمام المفتوح"
 
+msgid "Call Call/Put OI Ratio"
+msgstr "استدعاء مكالمة/ وضع نسبة OI"
+
+msgid "Call Call/Put Volume Ratio"
+msgstr "استدعاء مكالمة/وضع نسبة حجم"
+
+msgid "Call OV Ratio %"
+msgstr "نسبة الاستدعاء OV %"
+
 msgid "Strike"
 msgstr "الضربة"
+
+msgid "Put OV Ratio %"
+msgstr "وضع نسبة OV %"
+
+msgid "Put Put/Call Volume Ratio"
+msgstr "وضع وضع / نسبة حجم المكالمة"
+
+msgid "Put Put/Call OI Ratio"
+msgstr "وضع وضع / استدعاء نسبة OI"
 
 msgid "Put Open interest"
 msgstr "ضع الفائدة المفتوحة"
@@ -259,17 +571,8 @@ msgstr "وضع المزايدة"
 msgid "Put Positions"
 msgstr "وضع المواقع"
 
-msgid "Group"
-msgstr "المجموعة"
-
-msgid "Call"
-msgstr "شراء"
-
 msgid "None"
 msgstr "لا يوجد"
-
-msgid "Put"
-msgstr "بيع"
 
 msgid "Select visible series and strikes"
 msgstr "حدد سلسله مرئية والضربات"
@@ -279,6 +582,18 @@ msgstr "في المال"
 
 msgid "Out-of-money"
 msgstr "خارج المال"
+
+msgid "Text"
+msgstr "النص"
+
+msgid "Back"
+msgstr "الرجوع"
+
+msgid "Highlight max volume"
+msgstr "تمييز مستوى الصوت الأقصى"
+
+msgid "Highlight max open interest"
+msgstr "تمييز أقصى اهتمام مفتوح"
 
 msgid "Chart"
 msgstr "الرسم البياني"
@@ -298,14 +613,8 @@ msgstr "الوقت والمبيعات"
 msgid "Symbol info"
 msgstr "معلومات الرمز"
 
-msgid "Place"
-msgstr "القيام"
-
 msgid "Remove"
 msgstr "حذف"
-
-msgid "Paper  positions"
-msgstr "مواضع الورق"
 
 msgid "Long"
 msgstr "طويل"
@@ -313,59 +622,8 @@ msgstr "طويل"
 msgid "Short"
 msgstr "قصير"
 
-msgid "Real positions"
-msgstr "الوظائف الحقيقية"
-
-msgid "Account"
-msgstr "الحساب"
-
-msgid "Account name"
-msgstr "اسم الحساب"
-
-msgid "Symbol"
-msgstr "الرمز"
-
-msgid "Symbol name"
-msgstr "اسم الرمز"
-
-msgid "Description"
-msgstr "الوصف"
-
-msgid "The description of the symbol"
-msgstr "وصف الرمز"
-
-msgid "Symbol type"
-msgstr "نوع الرمز"
-
-msgid "Symbol’s asset class"
-msgstr "فئة أصول الرمز"
-
-msgid "Expiration date"
-msgstr "تاريخ الانتهاء"
-
-msgid "Expiration date of derivative symbol"
-msgstr "تاريخ انتهاء صلاحيه رمز المشتقة"
-
-msgid "Strike price"
-msgstr "سعر الضربة"
-
-msgid "Option’s strike price"
-msgstr "الخيار السعر الإضراب"
-
-msgid "Side"
-msgstr "جانب"
-
-msgid "The direction of the position"
-msgstr "اتجاه الموقف"
-
-msgid "Quantity"
-msgstr "الكمية"
-
-msgid "Postion’s quantity"
-msgstr "كميه postion"
-
-msgid "Open price"
-msgstr "سعر الافتتاح"
+msgid "Close"
+msgstr "إغلاق"
 
 msgid "The open/average open price of the position"
 msgstr "السعر المفتوح/المتوسط للوظيفة"
@@ -451,27 +709,6 @@ msgstr "سعر الزناد (أزاحه)"
 msgid "TIF"
 msgstr "الوقت في القوة"
 
-msgid "IV"
-msgstr "رابعا"
-
-msgid "Delta"
-msgstr "دلتا"
-
-msgid "Gamma"
-msgstr "جاما"
-
-msgid "Theta"
-msgstr "ثيتا"
-
-msgid "Vega"
-msgstr "فيغا"
-
-msgid "Rho"
-msgstr "Rho"
-
-msgid "Days to expire"
-msgstr "الأيام للانتهاء"
-
 msgid "Analyse"
 msgstr "تحليل"
 
@@ -500,6 +737,18 @@ msgstr "القيمة الزمنيه"
 msgid "Inner value"
 msgstr "القيمة الداخلية"
 
+msgid "Option analytics mode"
+msgstr "خيار تحليل الوضع"
+
+msgid "Show Option desk"
+msgstr "إظهار مكتب الخيار"
+
+msgid "Show Analyser"
+msgstr "إظهار محلل"
+
+msgid "Show Volatility smile"
+msgstr "إظهار ابتسامة التقلبات"
+
 #, csharp-format
 msgid "{0}/{1} Series, {2}"
 msgstr "السلسلة {0}/{0} ، {0}"
@@ -507,38 +756,14 @@ msgstr "السلسلة {0}/{0} ، {0}"
 msgid "Option analytics"
 msgstr "تحليلات الخيارات"
 
-msgid "Switch Option Analytics mode"
-msgstr "تبديل وضع تحليلات الخيار"
-
-msgid "Desk & Analyser"
-msgstr "مكتب ومحلل"
-
-msgid "Option analytics mode"
-msgstr "خيار تحليل الوضع"
-
-msgid "Show toolbar"
-msgstr "إظهار شريط الأدوات"
+msgid "Mode"
+msgstr "الوضع"
 
 msgid "Show Level1"
 msgstr "إظهار الLevel1"
 
-msgid "Interest rate, %"
-msgstr "معدّل الفائدة، %"
-
-msgid "Bid"
-msgstr "عرض"
-
-msgid "Ask"
-msgstr "الطلب"
-
-msgid "Last"
-msgstr "الأخير"
-
-msgid "(Bid+Ask)/2"
-msgstr "(العرض+الطلب)/2"
-
-msgid "IV calculation price"
-msgstr "نمط حساب القيمة الأصلية"
+msgid "Confirm on panel's close"
+msgstr "تأكيد على إغلاق لوحة"
 
 msgid "General"
 msgstr "عام"

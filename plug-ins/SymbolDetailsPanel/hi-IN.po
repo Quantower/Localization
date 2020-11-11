@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:22+0300\n"
+"POT-Creation-Date: 2020-11-11 00:01+0200\n"
 "PO-Revision-Date: 2019-04-02 17:07+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -19,71 +19,125 @@ msgstr ""
 msgid "ID"
 msgstr "Id"
 
+msgid "Symbol’s ID"
+msgstr "प्रतीक की आईडी"
+
 msgid "Symbol"
 msgstr "प्रतीक"
+
+msgid "Symbol's name"
+msgstr "प्रतीक का नाम"
 
 msgid "Description"
 msgstr "विवरण"
 
+msgid "The description of the symbol"
+msgstr "प्रतीक का वर्णन"
+
 msgid "Symbol type"
 msgstr "प्रतीक प्रकार"
 
-msgid "Quoting currency"
-msgstr "उद्धृत मुद्रा"
+msgid "Symbol’s asset class"
+msgstr "प्रतीक की परिसंपत्ति वर्ग"
 
 msgid "Exchange"
 msgstr "बदलना"
 
+msgid "The exchange of the symbol"
+msgstr "प्रतीक का आदान-प्रदान"
+
+msgid "Product currency"
+msgstr "उत्पाद मुद्रा"
+
+msgid "The product of the symbol"
+msgstr "प्रतीक का उत्पाद"
+
+msgid "Quoting currency"
+msgstr "उद्धृत मुद्रा"
+
+msgid "The quoting currency of the symbol"
+msgstr "प्रतीक की उद्धृत मुद्रा"
+
 msgid "Quote delay"
 msgstr "उद्धरण विलंब"
 
-msgid "Max lot"
-msgstr "अधिकतम लॉट"
+msgid "The quotes delay"
+msgstr "उद्धरण देरी"
 
 msgid "Min lot"
 msgstr "Min lot"
 
+msgid "Minimal tradable lot of symbol"
+msgstr "प्रतीक के न्यूनतम व्यापार योग्य बहुत"
+
+msgid "Max lot"
+msgstr "अधिकतम लॉट"
+
+msgid "Maximal tradable lot of symbol"
+msgstr "अधिकतम व्यापार योग्य प्रतीक का बहुत कुछ"
+
 msgid "Netting type"
 msgstr "नेटिंग प्रकार"
 
-msgid "Quoting type"
-msgstr "उद्धृत प्रकार"
+msgid "Symbol’s nettinig type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "प्रतीक का नेटटिनिग प्रकार, संभावित मान: एक स्थिति, कई स्थितियां, प्रति पक्ष कई स्थितियां"
 
 msgid "Lot size"
 msgstr "लॉट साइज"
 
-msgid "Variable tick list"
-msgstr "चर टिक सूची"
+msgid "Symbol’s lot size"
+msgstr "प्रतीक बहुत आकार"
 
 msgid "Lot step"
 msgstr "बहुत कदम"
 
+msgid "Symbol’s lot step"
+msgstr "प्रतीक बहुत कदम"
+
 msgid "Tick size"
 msgstr "टिक साइज"
+
+msgid "Tick cost"
+msgstr "टिक लागत"
 
 msgid "Expiration date"
 msgstr "समय सीमा समाप्ति दिनांक"
 
+msgid "Expiration date of the symbol"
+msgstr "प्रतीक की समाप्ति तिथि"
+
 msgid "Last trading date"
 msgstr "अंतिम ट्रेडिंग दिनांक"
+
+msgid "Last trading date of the symbol"
+msgstr "प्रतीक की अंतिम ट्रेडिंग तिथि"
 
 msgid "Maturity date"
 msgstr "परिपक्वता तिथि"
 
+msgid "Maturity date of the symbol"
+msgstr "प्रतीक की परिपक्वता तिथि"
+
 msgid "Strike price"
 msgstr "स्ट्राइक प्राइस"
+
+msgid "Option’s strike price"
+msgstr "विकल्प की हड़ताल की कीमत"
 
 msgid "Option style"
 msgstr "विकल्प शैली"
 
-msgid "Option series"
-msgstr "विकल्प श्रृंखला"
+msgid "The style of the option: American, European "
+msgstr "विकल्प की शैली: अमेरिकी, यूरोपीय "
 
-msgid "Underlier name"
-msgstr "अंडरलियर नाम"
+msgid "Option serie"
+msgstr "विकल्प सेरी"
 
 msgid "Underlier"
 msgstr "अंडरलियर"
+
+msgid "The name of underlying symbol"
+msgstr "अंतर्निहित प्रतीक का नाम"
 
 msgid "Symbol info"
 msgstr "प्रतीक जानकारी"
@@ -91,20 +145,20 @@ msgstr "प्रतीक जानकारी"
 msgid "Show toolbar"
 msgstr "उपकरण पट्टी दिखाएं"
 
+msgid "Copy RTD formula"
+msgstr "कॉपी आरटीडी फॉर्मूला"
+
+msgid "Label"
+msgstr "लेबल"
+
+msgid "Value"
+msgstr "मान"
+
+msgid "All above"
+msgstr "ऊपर सभी"
+
 msgid "General"
 msgstr "सामान्य"
 
 msgid "Trading info"
 msgstr "ट्रेडिंग जानकारी"
-
-msgid "Name"
-msgstr "नाम"
-
-msgid "Value"
-msgstr "मान"
-
-msgid "Group"
-msgstr "समूह"
-
-msgid "SortIndex"
-msgstr "सॉर्टिनडेक्स"

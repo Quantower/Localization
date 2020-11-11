@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:52+0300\n"
+"POT-Creation-Date: 2020-11-10 21:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:03+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -24,6 +24,111 @@ msgstr "Exporter le fichier"
 
 msgid "Close"
 msgstr "Fermer"
+
+msgid "All settings"
+msgstr "Tous les paramètres"
+
+msgid "Apply"
+msgstr "Appliquer"
+
+msgid "Build from"
+msgstr "Construire à partir de"
+
+msgid "Profile aggregation"
+msgstr "Agrégation de profil"
+
+msgid "Custom step (ticks)"
+msgstr "Étape personnalisée (tiques)"
+
+msgid "Initial balance"
+msgstr "Solde initial"
+
+msgid "Show singles"
+msgstr "Visualiser les valeurs simples"
+
+msgid "Midpoint"
+msgstr "Milieu"
+
+msgid "Show value area"
+msgstr "Afficher la zone de valeur"
+
+msgid "Show POC"
+msgstr "Afficher POC"
+
+msgid "Incorrect parameters: build from should be less than the profile."
+msgstr "Paramètres incorrects : la génération à partir doit être inférieure au profil."
+
+msgid "Incorrect parameters: build from should be a multiple of the profile."
+msgstr "Paramètres incorrects : build from doit être un multiple du profil."
+
+msgid "Boxes"
+msgstr "Boîtes"
+
+msgid "Letters"
+msgstr "Lettres"
+
+msgid "Right Front"
+msgstr "Front droit"
+
+msgid "Right Rear"
+msgstr "Arrière droit"
+
+msgid "Left Rear"
+msgstr "Arrière gauche"
+
+msgid "Single Color"
+msgstr "Couleur unique"
+
+msgid "Up/Down Profile"
+msgstr "Profil haut/bas"
+
+msgid "Up/Down Bars"
+msgstr "Barres vers le haut/bas"
+
+msgid "Heatmap"
+msgstr "Heatmap"
+
+msgid "Delta Profile"
+msgstr "Profil Delta"
+
+msgid "Delta Price"
+msgstr "Prix Delta"
+
+msgid "Delta Bars"
+msgstr "Barres Delta"
+
+msgid "Volume Profile"
+msgstr "Profil de volume"
+
+msgid "Volume Price"
+msgstr "Prix de volume"
+
+msgid "Volume Bars"
+msgstr "Barres de volume"
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "Final"
+msgstr "Final"
+
+msgid "Migrating"
+msgstr "Migration"
+
+msgid "Minute"
+msgstr "Minute"
+
+msgid "Hour"
+msgstr "Heure"
+
+msgid "Day"
+msgstr "Jour"
+
+msgid "Week"
+msgstr "Semaine"
+
+msgid "Month"
+msgstr "Mois"
 
 msgid "Object manager"
 msgstr "Gestionnaire d'objet"
@@ -64,8 +169,29 @@ msgstr "Visualiser sur le graphique"
 msgid "Overlay settings"
 msgstr "Paramètres de superposition"
 
-msgid "Apply"
-msgstr "Appliquer"
+msgid "DOM levels count"
+msgstr "Nombre de niveaux DOM"
+
+msgid "Maximal level2 size"
+msgstr "Taille maximale de niveau2"
+
+msgid "Maximal trade size"
+msgstr "Taille maximale du commerce"
+
+msgid "DOM levels contrast"
+msgstr "Les niveaux DOM contrastent"
+
+msgid "Trades marker size"
+msgstr "Taille des marqueurs de métiers"
+
+msgid "Trades marker opacity"
+msgstr "Opacité des marqueurs de métiers"
+
+msgid "Auto"
+msgstr "auto"
+
+msgid "Custom"
+msgstr "Personnalisé"
 
 msgid "Apply overlay"
 msgstr "Appliquer la superposition"
@@ -97,9 +223,6 @@ msgstr "Coloration par volume"
 msgid "Coloring by ticks"
 msgstr "Coloriage par tiques"
 
-msgid "None"
-msgstr "Aucun"
-
 msgid "Coloring by delta"
 msgstr "Coloriage par Delta"
 
@@ -109,8 +232,23 @@ msgstr "Coloriage par métiers"
 msgid "Histogram"
 msgstr "Histogramme"
 
+msgid "Single"
+msgstr "Unique"
+
+msgid "Double"
+msgstr "Double"
+
+msgid "Imbalance"
+msgstr "Déséquilibre"
+
 msgid "Enabled"
 msgstr "Activé"
+
+msgid "Buy"
+msgstr "Acheter"
+
+msgid "Sell"
+msgstr "Vendre"
 
 msgid "Bids"
 msgstr "Offres"
@@ -166,9 +304,6 @@ msgstr "Taille"
 msgid "Price"
 msgstr "Prix"
 
-msgid "Imbalance"
-msgstr "Déséquilibre"
-
 msgid "Imb. bar"
 msgstr "Dgi. café"
 
@@ -190,11 +325,14 @@ msgstr "Profondeur de l'histoire"
 msgid "Mouse trading"
 msgstr "Trading à l'aide de la souris"
 
+msgid "Enable keyboard trading"
+msgstr "Activer le trading de claviers"
+
 msgid "Show/Hide Quick OE"
 msgstr "Afficher/Masquer l'OE rapide"
 
-msgid "Mouse trading settings: TIF, Amount"
-msgstr "Paramètres de trading de la souris: TIF, montant"
+msgid "Show/Hide End of Bar"
+msgstr "Afficher/Masquer l’extrémité de la barre"
 
 msgid "Show/Hide Volume Analysis toolbar"
 msgstr "Afficher/masquer la barre d'outils analyse du volume"
@@ -223,11 +361,23 @@ msgstr "Afficher la barre d'outils analyse du volume"
 msgid "Show Quick OE"
 msgstr "Afficher Quick OE"
 
+msgid "Show End of Bar"
+msgstr "Afficher la fin de la barre"
+
+msgid "Show symbol description"
+msgstr "Afficher la description du symbole"
+
+msgid "Confirm on panel's close"
+msgstr "Confirmer sur la clôture du panneau"
+
 msgid "Visibility"
 msgstr "Visibilité"
 
 msgid "Data type"
 msgstr "Type de données"
+
+msgid "OE qty buttons"
+msgstr "Boutons Qty OE"
 
 msgid "View"
 msgstr "Visualiser"
@@ -244,8 +394,8 @@ msgstr "Échelle de prix"
 msgid "Visual trading"
 msgstr "Trading visuel"
 
-msgid "Chart order entry"
-msgstr "Entrée de commande de graphique"
+msgid "Order Entry"
+msgstr "Entrée de commande"
 
 msgid "Info window"
 msgstr "Fenêtre d'infos"
@@ -367,6 +517,33 @@ msgstr "Note de dessin"
 msgid "Draw comment"
 msgstr "Dessiner un commentaire"
 
+msgid "Sell Market"
+msgstr "Vente au marché"
+
+msgid "Sell Bid"
+msgstr "Vendre offre"
+
+msgid "Sell Ask"
+msgstr "Vendre demande"
+
+msgid "Buy Market"
+msgstr "Achat au marché"
+
+msgid "Buy Bid"
+msgstr "Vendre offre"
+
+msgid "Buy Ask"
+msgstr "Acheter demande"
+
+msgid "Cancel Orders"
+msgstr "Annuler les commandes"
+
+msgid "Close Positions"
+msgstr "Fermer les positions"
+
+msgid "Flatten"
+msgstr "Aplatir"
+
 msgid "Remove indicators"
 msgstr "Supprimer les indicateurs"
 
@@ -421,6 +598,12 @@ msgstr "Barre par déplacement de barre"
 msgid "Change symbol"
 msgstr "Changer de symbole"
 
+msgid "Copy selected tools"
+msgstr "Copier les outils sélectionnés"
+
+msgid "Paste tools"
+msgstr "Outils de collage"
+
 msgid "Show Object manager"
 msgstr "Afficher le gestionnaire d'objets"
 
@@ -430,8 +613,32 @@ msgstr "Effectuer une capture d'écran"
 msgid "Volume Analysis settings"
 msgstr "Paramètres d'analyse du volume"
 
-msgid "Order Flow Surface"
-msgstr "Surface d'écoulement de commande"
+msgid "Quick settings"
+msgstr "Paramètres rapides"
+
+msgid "Show/Hide Order Book"
+msgstr "Afficher/Masquer le carnet de commandes"
+
+msgid "Enable auto centering"
+msgstr "Activer le centrage automatique"
+
+msgid "Switch info window mode"
+msgstr "Changer le mode fenêtre d’information"
+
+msgid "Show Order Book"
+msgstr "Afficher le carnet de commandes"
+
+msgid "General"
+msgstr "Général"
+
+msgid "Monochome"
+msgstr "Monochome"
+
+msgid "Bichrome"
+msgstr "Bichrome"
+
+msgid "Order flow surface"
+msgstr "Surface de flux de commande"
 
 msgid "Last color"
 msgstr "Dernière couleur"
@@ -447,6 +654,18 @@ msgstr "Ajouter une superposition"
 
 msgid "Remove all"
 msgstr "Tout retirer"
+
+msgid "AGGREGATION"
+msgstr "Agrégation"
+
+msgid "STYLE"
+msgstr "Style"
+
+msgid "VOLUME ANALYSIS"
+msgstr "ANALYSE DE VOLUME"
+
+msgid "Show/Hide TPO statistics"
+msgstr "Afficher/Masquer les statistiques TPO"
 
 msgid "Cluster"
 msgstr "Grappe"
@@ -472,6 +691,9 @@ msgstr "T&S"
 msgid "Custom profile"
 msgstr "Profil personnalisé"
 
+msgid "Custom VWAP"
+msgstr "VWAP personnalisé"
+
 msgid "Volume Analysis Settings"
 msgstr "Paramètres d'analyse du volume"
 
@@ -483,3 +705,6 @@ msgstr "Temps et ventes"
 
 msgid "Custom profile tool"
 msgstr "Outil de profil personnalisé"
+
+msgid "Custom VWAP tool"
+msgstr "Outil VWAP personnalisé"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:50+0300\n"
+"POT-Creation-Date: 2020-11-10 21:24+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -30,24 +30,6 @@ msgstr "模型结构"
 
 msgid "General"
 msgstr "常规"
-
-msgid "Multiple per side"
-msgstr "每边多个"
-
-msgid "Multiple positions"
-msgstr "多个职位"
-
-msgid "One Position"
-msgstr "一个位置"
-
-msgid "Fee per side, quoting currency"
-msgstr "每方收费, 以货币为准"
-
-msgid "Margin"
-msgstr "保证金"
-
-msgid "Netting type"
-msgstr "净额类型"
 
 msgid "Initial balance"
 msgstr "初始余额"
@@ -79,59 +61,50 @@ msgstr "刪除产品"
 msgid "Open panel"
 msgstr "打开面板"
 
-msgid "Tick"
-msgstr "点"
-
-msgid "1 minute"
-msgstr "1 分"
-
-msgid "1 day"
-msgstr "1天"
-
-msgid "Bid/Ask/Last"
-msgstr "买入/卖出/尾"
-
-msgid "Last"
-msgstr "以仓位"
+msgid "Order entry"
+msgstr "显示下单"
 
 msgid "Chart"
 msgstr "图表"
 
-msgid "Order entry"
-msgstr "显示下单"
+msgid "DOM Trader"
+msgstr "DOM Trader"
 
 msgid "Market Depth"
 msgstr "市场深度"
 
-msgid "DOM Trader"
-msgstr "DOM Trader"
-
 msgid "Time & Sales"
 msgstr "& 分时交易明细"
+
+msgid "DOM surface"
+msgstr "DOM 表面"
+
+msgid "TPO Chart"
+msgstr "TPO 图表"
 
 msgid "Account performance"
 msgstr "交易效益"
 
-msgid "Order Flow Surface"
-msgstr "订单流曲面"
+msgid "Market Replay"
+msgstr "市场重播"
 
-msgid "History Player"
-msgstr "历史玩家"
+msgid "Range of replay:"
+msgstr "重播范围："
 
-msgid "Maximal limit is reached."
-msgstr "达到最大限制。"
+msgid "Symbol"
+msgstr "商品"
 
-msgid "Add symbol"
-msgstr "添加产品"
+msgid "Build from"
+msgstr "生成于"
+
+msgid "Executing type"
+msgstr "执行类型"
+
+msgid "Do you really want to stop Market Replay? This action will delete all test results."
+msgstr "你真的想停止市场重播吗？此操作将删除所有测试结果。"
 
 msgid "Symbols"
 msgstr "商品"
-
-msgid "One step forward"
-msgstr "向前一步"
-
-msgid "Pause simulation"
-msgstr "暂停模拟"
 
 msgid "Ready to start simulation"
 msgstr "准备开始模拟"
@@ -160,50 +133,23 @@ msgstr "停止模拟"
 msgid "Simulation is active"
 msgstr "模拟激活"
 
-msgid "Switch between full/short mode"
-msgstr "在全/短模式之间切换"
+msgid "One step forward"
+msgstr "向前一步"
 
-msgid "Specify History Player advanced settings"
-msgstr "指定历史播放器高级设置"
-
-msgid "Add"
-msgstr "加"
-
-msgid "Left border of history range"
-msgstr "历史范围的左边界"
-
-msgid "Right border of history range"
-msgstr "历史范围的右边界"
-
-msgid "Range of replay:"
-msgstr "重播范围："
-
-msgid "Symbol"
-msgstr "商品"
-
-msgid "Build from"
-msgstr "生成于"
-
-msgid "Executing type"
-msgstr "执行类型"
-
-msgid "Please specify correct dates."
-msgstr "请指定正确的日期。"
-
-msgid "Do you really want to stop History Player? This action will delete all test results."
-msgstr "您真的想阻止历史玩家吗？此操作将删除所有测试结果。"
-
-msgid "Please select symbols from one connection"
-msgstr "请从一个连接中选择符号"
+msgid "Pause simulation"
+msgstr "暂停模拟"
 
 msgid "Caching history: "
 msgstr "缓存历史记录："
 
-msgid "Trading Simulator"
+msgid "Trading simulator"
 msgstr "交易模拟器"
 
-msgid "add"
-msgstr "加"
+msgid "add symbol"
+msgstr "添加符号"
+
+msgid "Switch between full/short mode"
+msgstr "在全/短模式之间切换"
 
 msgid "Specify Trading Simulator advanced settings"
 msgstr "指定交易模拟器高级设置"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:06+0300\n"
+"POT-Creation-Date: 2020-11-10 22:58+0200\n"
 "PO-Revision-Date: 2018-12-04 16:17+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -28,11 +28,23 @@ msgstr "Zaman çürümesi, gün:"
 msgid "Volatility shift, %:"
 msgstr "Volatilite vardiya,%:"
 
+msgid "All visible"
+msgstr "Tüm görünür"
+
+msgid "No selected"
+msgstr "Seçili yok"
+
+msgid "Strategies"
+msgstr "Stratejiler"
+
 msgid "Test & Real positions"
 msgstr "Test ve gerçek pozisyonlar"
 
 msgid "Add underlier"
 msgstr "Underlier ekle"
+
+msgid "Add strategy"
+msgstr "Strateji ekle"
 
 msgid "Place paper"
 msgstr "Kağıt yerleştir"
@@ -55,14 +67,71 @@ msgstr "Tüm kağıt konumlarını Iptal etme"
 msgid "Close all real positions"
 msgstr "Tüm gerçek pozisyonları kapat"
 
+msgid "Close Position"
+msgstr "Yakın Pozisyon"
+
+msgid "Remove strategy"
+msgstr "Strateji Kaldır"
+
+msgid "Create strategy"
+msgstr "Strateji oluşturma"
+
+msgid "Exclude from strategy"
+msgstr "Stratejiden dışlama"
+
+msgid "Ungroup strategy"
+msgstr "Ungroup stratejisi"
+
+msgid "Analyse paper"
+msgstr "Analiz kağıdı"
+
+msgid "Remove paper"
+msgstr "Kağıdı kaldırma"
+
+msgid "Paper  positions"
+msgstr "Kağıt pozisyonlar"
+
+msgid "Real positions"
+msgstr "Gerçek pozisyonlar"
+
+msgid "+"
+msgstr "+"
+
+msgid "-"
+msgstr "-"
+
+msgid "reverse"
+msgstr "Ters"
+
+msgid "Place"
+msgstr "Emir ver"
+
+msgid "Buy"
+msgstr "Al"
+
+msgid "Sell"
+msgstr "Sat"
+
+msgid "qnt"
+msgstr "Adet"
+
 msgid "Option desk"
 msgstr "Opsiyon masası"
 
 msgid "Analyzer"
 msgstr "Analizör"
 
-msgid "Desk & Analyzer"
-msgstr "Desk & Analyzer"
+msgid "Volatility smile"
+msgstr "Oynaklık gülümsemesi"
+
+msgid "Call"
+msgstr "Çağrı"
+
+msgid "Put"
+msgstr "İşleme Koy"
+
+msgid "Call & Put"
+msgstr "Arama & Put"
 
 msgid "P&L"
 msgstr "P&L"
@@ -87,6 +156,231 @@ msgstr "Volatilite değişimi"
 
 msgid "Time change"
 msgstr "Zaman değişikliği"
+
+msgid "Option watchlist"
+msgstr "Seçenek izleme listesi"
+
+msgid "No symbols to show"
+msgstr "Gösterilen sembol yok"
+
+msgid "Add some symbols to watch them"
+msgstr "İzlemek için bazı semboller ekleyin"
+
+msgid "Add symbols"
+msgstr "Sembol ekle"
+
+msgid "Remove selected"
+msgstr "Seçiliyi sil"
+
+msgid "Clear all"
+msgstr "Tümünü temizle"
+
+msgid "Reset order number"
+msgstr "Sipariş numarasını sıfırla"
+
+msgid "Interest rate, %"
+msgstr "Faiz oranı, %"
+
+msgid "Bid"
+msgstr "Alış"
+
+msgid "Ask"
+msgstr "Satış"
+
+msgid "Last"
+msgstr "Son"
+
+msgid "(Bid+Ask)/2"
+msgstr "(Alış+Satış)/2"
+
+msgid "IV calculation price"
+msgstr "IV hesaplama tarzı"
+
+msgid "Black Scholes"
+msgstr "Kara Scholes"
+
+msgid "Connection based"
+msgstr "Bağlantı tabanlı"
+
+msgid "Pricing model"
+msgstr "Fiyatlandırma modeli"
+
+msgid "Show toolbar"
+msgstr "Araç çubuğunu göster"
+
+msgid "Locked"
+msgstr "Kilitli"
+
+msgid "Unlock panel"
+msgstr "Panelin kilidini açın"
+
+msgid "Lock panel"
+msgstr "Kilit paneli"
+
+msgid "Account"
+msgstr "Hesap"
+
+msgid "Account name"
+msgstr "Hesap ismi"
+
+msgid "Symbol"
+msgstr "Sembol"
+
+msgid "Symbol name"
+msgstr "Enstrüman adı"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "The description of the symbol"
+msgstr "Sembolün açıklaması"
+
+msgid "Symbol type"
+msgstr "Sembol türü"
+
+msgid "Symbol’s asset class"
+msgstr "Sembolün varlık sınıfı"
+
+msgid "Expiration date"
+msgstr "Sona erme tarihi"
+
+msgid "Expiration date of derivative symbol"
+msgstr "Türev sembolünün sona erme tarihi"
+
+msgid "Days to expire"
+msgstr "Kalan gün sayısı"
+
+msgid "Strike price"
+msgstr "İşlem fiyatı"
+
+msgid "Option’s strike price"
+msgstr "Seçeneğin grev fiyatı"
+
+msgid "Side"
+msgstr "Yön"
+
+msgid "The direction of the position"
+msgstr "Pozisyonun yönü"
+
+msgid "Quantity"
+msgstr "Miktar"
+
+msgid "Postion’s quantity"
+msgstr "Postion miktarı"
+
+msgid "IV"
+msgstr "ıv"
+
+msgid "Delta"
+msgstr "Delta"
+
+msgid "Gamma"
+msgstr "Gama"
+
+msgid "Theta"
+msgstr "Teta"
+
+msgid "Vega"
+msgstr "Vega"
+
+msgid "Rho"
+msgstr "Rho"
+
+msgid "Exchange"
+msgstr "Değiştir"
+
+msgid "Last size"
+msgstr "Son Hacim"
+
+msgid "Last date/time"
+msgstr "Son tarih/saat"
+
+msgid "Update time"
+msgstr "Zamanı güncelleştir"
+
+msgid "Bid size"
+msgstr "Satış miktarı"
+
+msgid "Ask size"
+msgstr "Alış miktarı"
+
+msgid "Spread"
+msgstr "Yayıldı"
+
+msgid "Spread, %"
+msgstr "Dağılım %"
+
+msgid "Open"
+msgstr "Açılış"
+
+msgid "High"
+msgstr "Yüksek"
+
+msgid "Low"
+msgstr "Düşük"
+
+msgid "Prev. close"
+msgstr "Önc. kapatma"
+
+msgid "Prev. settlement"
+msgstr "Prev. yerleşim"
+
+msgid "Volume"
+msgstr "Hacim"
+
+msgid "Open Interest"
+msgstr "Açık Faiz"
+
+msgid "Average traded price"
+msgstr "Ortalama işlem görme fiyatı"
+
+msgid "Trades"
+msgstr "İşlemler"
+
+msgid "Ticks"
+msgstr "Tikler"
+
+msgid "Open quantity"
+msgstr "Açık miktar"
+
+msgid "Open price"
+msgstr "Açılış fiyatı"
+
+msgid "Aggregated P/L"
+msgstr "Birleştirilmiş P/L"
+
+msgid "Comment"
+msgstr "Yorum"
+
+msgid "Connection name"
+msgstr "Bağlantı adı"
+
+msgid "Underlier"
+msgstr "Temel varlık"
+
+msgid "Underlier last"
+msgstr "Underlier son"
+
+msgid "Underlier bid"
+msgstr "Underlier teklifi"
+
+msgid "Underlier ask"
+msgstr "Underlier sormak"
+
+msgid "Action 1"
+msgstr "Eylem 1"
+
+msgid "Action 2"
+msgstr "Eylem 2"
+
+msgid "Action 3"
+msgstr "Eylem 3"
+
+msgid "Group"
+msgstr "Grup"
+
+msgid "Trading quantity"
+msgstr "İşlem miktarı"
 
 msgid "Call Positions"
 msgstr "Arama pozisyonları"
@@ -172,8 +466,26 @@ msgstr "Çağrı ö. yerleşim"
 msgid "Call Open interest"
 msgstr "Arama açık faiz"
 
+msgid "Call Call/Put OI Ratio"
+msgstr "Çağrı Çağrı/Put OI Oranı"
+
+msgid "Call Call/Put Volume Ratio"
+msgstr "Çağrı Çağrı/Put Hacim Oranı"
+
+msgid "Call OV Ratio %"
+msgstr "Çağrı OV Oranı %"
+
 msgid "Strike"
 msgstr "Strike"
+
+msgid "Put OV Ratio %"
+msgstr "OV Oranı % koyun"
+
+msgid "Put Put/Call Volume Ratio"
+msgstr "Put/Çağrı Hacim Oranı"
+
+msgid "Put Put/Call OI Ratio"
+msgstr "Put Put/Call OI Oranı"
 
 msgid "Put Open interest"
 msgstr "Açık faiz put"
@@ -259,17 +571,8 @@ msgstr "Teklif koy"
 msgid "Put Positions"
 msgstr "Pozisyonlar put"
 
-msgid "Group"
-msgstr "Grup"
-
-msgid "Call"
-msgstr "Çağrı"
-
 msgid "None"
 msgstr "Hiçbiri"
-
-msgid "Put"
-msgstr "İşleme Koy"
 
 msgid "Select visible series and strikes"
 msgstr "Görünür serisi ve grevleri seçin"
@@ -279,6 +582,18 @@ msgstr "Para Içinde"
 
 msgid "Out-of-money"
 msgstr "Para dışı"
+
+msgid "Text"
+msgstr "Metin"
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "Highlight max volume"
+msgstr "Maksimum hacmi vurgulayın"
+
+msgid "Highlight max open interest"
+msgstr "Maksimum açık faizi vurgulayın"
 
 msgid "Chart"
 msgstr "Grafik"
@@ -298,14 +613,8 @@ msgstr "Saat & Satışlar"
 msgid "Symbol info"
 msgstr "Sembol Bilgisi"
 
-msgid "Place"
-msgstr "Emir ver"
-
 msgid "Remove"
 msgstr "Sil"
-
-msgid "Paper  positions"
-msgstr "Kağıt pozisyonlar"
 
 msgid "Long"
 msgstr "Uzun"
@@ -313,59 +622,8 @@ msgstr "Uzun"
 msgid "Short"
 msgstr "Kısa"
 
-msgid "Real positions"
-msgstr "Gerçek pozisyonlar"
-
-msgid "Account"
-msgstr "Hesap"
-
-msgid "Account name"
-msgstr "Hesap ismi"
-
-msgid "Symbol"
-msgstr "Sembol"
-
-msgid "Symbol name"
-msgstr "Enstrüman adı"
-
-msgid "Description"
-msgstr "Açıklama"
-
-msgid "The description of the symbol"
-msgstr "Sembolün açıklaması"
-
-msgid "Symbol type"
-msgstr "Sembol türü"
-
-msgid "Symbol’s asset class"
-msgstr "Sembolün varlık sınıfı"
-
-msgid "Expiration date"
-msgstr "Sona erme tarihi"
-
-msgid "Expiration date of derivative symbol"
-msgstr "Türev sembolünün sona erme tarihi"
-
-msgid "Strike price"
-msgstr "İşlem fiyatı"
-
-msgid "Option’s strike price"
-msgstr "Seçeneğin grev fiyatı"
-
-msgid "Side"
-msgstr "Yön"
-
-msgid "The direction of the position"
-msgstr "Pozisyonun yönü"
-
-msgid "Quantity"
-msgstr "Miktar"
-
-msgid "Postion’s quantity"
-msgstr "Postion miktarı"
-
-msgid "Open price"
-msgstr "Açılış fiyatı"
+msgid "Close"
+msgstr "Kapat"
 
 msgid "The open/average open price of the position"
 msgstr "Pozisyonun açık/ortalama açık fiyatı"
@@ -451,27 +709,6 @@ msgstr "Tetikleyici fiyatı (ofset)"
 msgid "TIF"
 msgstr "Tıf"
 
-msgid "IV"
-msgstr "ıv"
-
-msgid "Delta"
-msgstr "Delta"
-
-msgid "Gamma"
-msgstr "Gama"
-
-msgid "Theta"
-msgstr "Teta"
-
-msgid "Vega"
-msgstr "Vega"
-
-msgid "Rho"
-msgstr "Rho"
-
-msgid "Days to expire"
-msgstr "Kalan gün sayısı"
-
 msgid "Analyse"
 msgstr "Analiz et"
 
@@ -500,6 +737,18 @@ msgstr "Zaman değeri"
 msgid "Inner value"
 msgstr "Iç değer"
 
+msgid "Option analytics mode"
+msgstr "Seçenek Analizi modu"
+
+msgid "Show Option desk"
+msgstr "Seçenek masalarını göster"
+
+msgid "Show Analyser"
+msgstr "Analizör göster"
+
+msgid "Show Volatility smile"
+msgstr "Volatilite gülümsemegöster"
+
 #, csharp-format
 msgid "{0}/{1} Series, {2}"
 msgstr "{0}/{1} serisi, {2}"
@@ -507,38 +756,14 @@ msgstr "{0}/{1} serisi, {2}"
 msgid "Option analytics"
 msgstr "Opsiyon Analizleri"
 
-msgid "Switch Option Analytics mode"
-msgstr "Geçiş seçeneği analitik modu"
-
-msgid "Desk & Analyser"
-msgstr "Desk & analiz cihazı"
-
-msgid "Option analytics mode"
-msgstr "Seçenek Analizi modu"
-
-msgid "Show toolbar"
-msgstr "Araç çubuğunu göster"
+msgid "Mode"
+msgstr "Modu"
 
 msgid "Show Level1"
 msgstr "Level1 göster"
 
-msgid "Interest rate, %"
-msgstr "Faiz oranı, %"
-
-msgid "Bid"
-msgstr "Alış"
-
-msgid "Ask"
-msgstr "Satış"
-
-msgid "Last"
-msgstr "Son"
-
-msgid "(Bid+Ask)/2"
-msgstr "(Alış+Satış)/2"
-
-msgid "IV calculation price"
-msgstr "IV hesaplama tarzı"
+msgid "Confirm on panel's close"
+msgstr "Panelin kapanışında onaylayın"
 
 msgid "General"
 msgstr "Genel"

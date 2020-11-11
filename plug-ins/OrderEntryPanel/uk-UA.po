@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:09+0300\n"
+"POT-Creation-Date: 2020-11-10 23:19+0200\n"
 "PO-Revision-Date: 2018-12-04 15:35+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -15,6 +15,265 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Account"
+msgstr "Рахунок"
+
+msgid "Account name"
+msgstr "Назва рахунку"
+
+msgid "Symbol"
+msgstr "Інструмент"
+
+msgid "Symbol name"
+msgstr "Найменування Інструмента"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "The description of the symbol"
+msgstr "Опис символу"
+
+msgid "Side"
+msgstr "Сторона"
+
+msgid "The order side"
+msgstr "Сторона замовлення"
+
+msgid "Order type"
+msgstr "Тип замовлення"
+
+msgid "The order type"
+msgstr "Тип замовлення"
+
+msgid "Quantity"
+msgstr "Об'єм"
+
+msgid "Price"
+msgstr "Ціна"
+
+msgid "Trigger price"
+msgstr "Ціна тригера"
+
+msgid "TIF"
+msgstr "Tif"
+
+msgid "SL"
+msgstr "Sl"
+
+msgid "Stop loss"
+msgstr "Стоп лосс"
+
+msgid "TP"
+msgstr "Tp"
+
+msgid "Take profit"
+msgstr "Тейк профіт"
+
+msgid "Connection name"
+msgstr "Ім'я підключення"
+
+msgid "Select"
+msgstr "Виберіть"
+
+msgid "Modify"
+msgstr "Змінити"
+
+msgid "Remove"
+msgstr "Видалити"
+
+msgid "Group"
+msgstr "Група"
+
+msgid "Actions"
+msgstr "Дії"
+
+msgid "Multiple"
+msgstr "Кілька"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "Multiple order entry"
+msgstr "Запис декількох замовлень"
+
+msgid "reverse"
+msgstr "Зворотний"
+
+msgid "Add to basket"
+msgstr "Додати до кошика"
+
+msgid "Create new"
+msgstr "Створити новий"
+
+msgid "Group actions"
+msgstr "Групові дії"
+
+msgid "Move to"
+msgstr "Перейти до"
+
+msgid "Rename"
+msgstr "Перейменувати"
+
+msgid "Exclude from group"
+msgstr "Виключити з групи"
+
+msgid "Ungroup"
+msgstr "Розгрупувати"
+
+msgid "Portfolio"
+msgstr "Портфоліо"
+
+msgid "No order requests to show"
+msgstr "Немає запитів на замовлення для відображення"
+
+msgid "Add some order requests to watch them"
+msgstr "Додайте кілька запитів на замовлення, щоб переглянути їх"
+
+msgid "Collapse OE"
+msgstr "Згорнути OE"
+
+msgid "+/-"
+msgstr "+/-"
+
+msgid "+"
+msgstr "+"
+
+msgid "-"
+msgstr "-"
+
+msgid "Create group"
+msgstr "Створити групу"
+
+msgid "Name"
+msgstr "Ім'я"
+
+msgid "Buy"
+msgstr "Купити"
+
+msgid "Sell"
+msgstr "Продати"
+
+msgid "Submit"
+msgstr "Представити"
+
+msgid "Cancel modifying"
+msgstr "Скасувати змінення"
+
+#, csharp-format
+msgid "Are you sure want to cancel all orders on {0}?"
+msgstr "Ви дійсно бажаєте скасувати всі замовлення на {0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all buy orders on {0}?"
+msgstr "Ви дійсно хочете скасувати всі замовлення на купівлю {0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all limit orders on {0}?"
+msgstr "Ви дійсно бажаєте скасувати всі граничні замовлення на {0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all sell orders on {0}?"
+msgstr "Ви дійсно хочете скасувати всі замовлення на продаж {0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all stop orders on {0}?"
+msgstr "Ви дійсно бажаєте скасувати всі зупинки замовлень на {0}?"
+
+msgid "Show close position"
+msgstr "Показати близьку позицію"
+
+msgid "Show close positions"
+msgstr "Показати позиції закриття"
+
+msgid "Close position"
+msgstr "Закрити позицію"
+
+msgid "Close all positions"
+msgstr "Закрити всі позиції"
+
+#, csharp-format
+msgid "Are you sure want to close position on {0}?"
+msgstr "Ви дійсно бажаєте закрити позицію на {0}?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions on {0}?"
+msgstr "Ви дійсно хочете закрити всі позиції на {0}?"
+
+#, csharp-format
+msgid "Are you sure want to close position and cancel all orders on {0}?"
+msgstr "Ви дійсно хочете закрити позицію і скасувати всі замовлення на {0}?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions and cancel all orders on {0}?"
+msgstr "Ви дійсно хочете закрити всі позиції і скасувати всі замовлення на {0}?"
+
+#, csharp-format
+msgid "Are you sure want to reverse position on {0}?"
+msgstr "Ви справді бажаєте змінити позицію на {0}?"
+
+msgid "Order entry small"
+msgstr "Замовлення невеликого розміру"
+
+msgid "Slim mode"
+msgstr "Тонкий режим"
+
+msgid "No labels"
+msgstr "Без міток"
+
+msgid "Show additional order parameters"
+msgstr "Показати додаткові параметри замовлення"
+
+msgid "View"
+msgstr "Переглянути"
+
+msgid "Ask"
+msgstr "Аск"
+
+msgid "Bid"
+msgstr "Бід"
+
+msgid "Mkt"
+msgstr "Ринок"
+
+msgid "Flatten"
+msgstr "Розплющите"
+
+msgid "Close positions"
+msgstr "Закрити позиції"
+
+msgid "Reverse"
+msgstr "Зворотний"
+
+msgid "Cancel orders"
+msgstr "Відмінити Замовлення"
+
+msgid "Cancel buy"
+msgstr "Скасувати покупку"
+
+msgid "Cancel sell"
+msgstr "Скасувати продаж"
+
+msgid "Cancel limits"
+msgstr "Скасувати обмеження"
+
+msgid "Cancel stops"
+msgstr "Скасувати зупинки"
+
+msgid "Hide"
+msgstr "Сховати"
+
+msgid "Settings"
+msgstr "Кольори..."
+
+msgid "Convert to {this.ProductTypeLabel}"
+msgstr "Перетворити на {це. Тип продуктуЛабель}"
+
+msgid "No {shortName}"
+msgstr "Немає {короткого імені}"
+
+msgid "Activate trailing {this.behavior.Name.ToLower()}"
+msgstr "Активувати кінцевий запис {this.behavior.Name.ToLower()}"
 
 msgid "Show VWAP"
 msgstr "Показати VWAP"
@@ -24,18 +283,6 @@ msgstr "Сховати VWAP"
 
 msgid "VWAP option allows you to see what will be the Average open price if you send order with selected quantity"
 msgstr "Варіант VWAP дозволяє вам побачити, яка буде середня відкрита ціна, якщо ви відправите замовлення з обраною кількістю"
-
-msgid "Take profit"
-msgstr "Тейк профіт"
-
-msgid "Stop loss"
-msgstr "Стоп лосс"
-
-msgid "Activate trailing stop loss"
-msgstr "Активізуйте припинення втрат"
-
-msgid "Close position"
-msgstr "Закрити позицію"
 
 msgid "Quantity to close"
 msgstr "Кількість закрити"
@@ -55,9 +302,6 @@ msgstr "Локальний SL/TP"
 msgid "Place"
 msgstr "Розмістити"
 
-msgid "Modify"
-msgstr "Змінити"
-
 msgid "LSL"
 msgstr "LSL"
 
@@ -73,23 +317,11 @@ msgstr "Місцеві брати прибуток"
 msgid "Modify order"
 msgstr "Змінити порядок"
 
-msgid "Account"
-msgstr "Рахунок"
-
 msgid "Order ID"
 msgstr "ID замовлення"
 
 msgid "Connection"
 msgstr "Підключення"
-
-msgid "Symbol"
-msgstr "Інструмент"
-
-msgid "Order type"
-msgstr "Тип замовлення"
-
-msgid "Side"
-msgstr "Сторона"
 
 msgid "Order was cancelled"
 msgstr "Замовлення скасовано"
@@ -105,9 +337,6 @@ msgstr "Довго"
 
 msgid "Short"
 msgstr "Короткий"
-
-msgid "Quantity"
-msgstr "Об'єм"
 
 msgid "Open price"
 msgstr "Базис"
@@ -130,11 +359,14 @@ msgstr "Дата, час"
 msgid "Position was closed"
 msgstr "Позиція була закрита"
 
-msgid "Cancel"
-msgstr "Скасувати"
-
 msgid "Time in force"
 msgstr "Термін дії"
+
+msgid "Brackets setup"
+msgstr "Налаштування дужок"
+
+msgid "OE dialog"
+msgstr "Діалогове вікно OE"
 
 msgid "Order entry"
 msgstr "Створити ордер"
@@ -145,29 +377,17 @@ msgstr "Термін придатності"
 msgid "Place order"
 msgstr "Розмістити ордер"
 
-msgid "Bid"
-msgstr "Бід"
+msgid "Incorrect quantity: 0"
+msgstr "Неправильна кількість: 0"
 
-msgid "Ask"
-msgstr "Аск"
+msgid "Set order as default"
+msgstr "Установити порядок за промовчанням"
 
-msgid "Order entry small"
-msgstr "Замовлення невеликого розміру"
+msgid "Save order template"
+msgstr "Зберегти шаблон замовлення"
 
-msgid "Send Limit order on Ask price"
-msgstr "Надіслати лімітне замовлення за ціною Аск"
+msgid "Create template"
+msgstr "Створити шаблон"
 
-msgid "Send Limit order on Bid price"
-msgstr "Надіслати лімітне замовлення за ціною Бід"
-
-msgid "Send Market order"
-msgstr "Надіслати замовлення за ринковою ціною"
-
-msgid "Mkt"
-msgstr "Ринок"
-
-msgid "Buy"
-msgstr "Купити"
-
-msgid "Sell"
-msgstr "Продати"
+msgid "Apply"
+msgstr "Застосувати"

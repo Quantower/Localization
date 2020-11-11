@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:06+0300\n"
+"POT-Creation-Date: 2020-11-10 22:58+0200\n"
 "PO-Revision-Date: 2018-12-04 16:31+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -28,11 +28,23 @@ msgstr "Czas zaniku, dni:"
 msgid "Volatility shift, %:"
 msgstr "Zmiana zmienności,%:"
 
+msgid "All visible"
+msgstr "Wszystkie widoczne"
+
+msgid "No selected"
+msgstr "Nie wybrano"
+
+msgid "Strategies"
+msgstr "Strategii"
+
 msgid "Test & Real positions"
 msgstr "Test & rzeczywiste pozycje"
 
 msgid "Add underlier"
 msgstr "Dodawanie niedostających"
+
+msgid "Add strategy"
+msgstr "Dodaj strategię"
 
 msgid "Place paper"
 msgstr "Umieść papier"
@@ -55,14 +67,71 @@ msgstr "Anulowanie wszystkich pozycji papieru"
 msgid "Close all real positions"
 msgstr "Zamknij wszystkie rzeczywiste pozycje"
 
+msgid "Close Position"
+msgstr "Zamknij pozycję"
+
+msgid "Remove strategy"
+msgstr "Usuń strategię"
+
+msgid "Create strategy"
+msgstr "Tworzenie strategii"
+
+msgid "Exclude from strategy"
+msgstr "Wyklucz ze strategii"
+
+msgid "Ungroup strategy"
+msgstr "Strategia rozgrupowywanie"
+
+msgid "Analyse paper"
+msgstr "Analizowanie papieru"
+
+msgid "Remove paper"
+msgstr "Usuń papier"
+
+msgid "Paper  positions"
+msgstr "Pozycje papieru"
+
+msgid "Real positions"
+msgstr "Realne pozycje"
+
+msgid "+"
+msgstr "+"
+
+msgid "-"
+msgstr "-"
+
+msgid "reverse"
+msgstr "Odwrócić"
+
+msgid "Place"
+msgstr "Złóż zlc"
+
+msgid "Buy"
+msgstr "Kupię"
+
+msgid "Sell"
+msgstr "Sprzedają"
+
+msgid "qnt"
+msgstr "qnt"
+
 msgid "Option desk"
 msgstr "Opcja biurko"
 
 msgid "Analyzer"
 msgstr "Analizator"
 
-msgid "Desk & Analyzer"
-msgstr "Analizator biurka &"
+msgid "Volatility smile"
+msgstr "Uśmiech zmienności"
+
+msgid "Call"
+msgstr "Wywołanie"
+
+msgid "Put"
+msgstr "Umieścić"
+
+msgid "Call & Put"
+msgstr "Zadzwoń & Umieść"
 
 msgid "P&L"
 msgstr "P&L"
@@ -87,6 +156,231 @@ msgstr "Zmiana zmienności"
 
 msgid "Time change"
 msgstr "Zmiana czasu"
+
+msgid "Option watchlist"
+msgstr "Lista obserwowanych opcji"
+
+msgid "No symbols to show"
+msgstr "Brak symboli do pokazania"
+
+msgid "Add some symbols to watch them"
+msgstr "Dodaj kilka symboli, aby je obejrzeć"
+
+msgid "Add symbols"
+msgstr "Dodawanie symboli"
+
+msgid "Remove selected"
+msgstr "Usuń zaznaczone"
+
+msgid "Clear all"
+msgstr "Wyczyść wszystkie"
+
+msgid "Reset order number"
+msgstr "Resetowanie numeru zamówienia"
+
+msgid "Interest rate, %"
+msgstr "Stopa procentowa,%"
+
+msgid "Bid"
+msgstr "Oferty"
+
+msgid "Ask"
+msgstr "S"
+
+msgid "Last"
+msgstr "Ostatni"
+
+msgid "(Bid+Ask)/2"
+msgstr "(Bid + Ask)/2"
+
+msgid "IV calculation price"
+msgstr "IV cena obliczeniowa"
+
+msgid "Black Scholes"
+msgstr "Czarne Scholes"
+
+msgid "Connection based"
+msgstr "Oparte na połączeniu"
+
+msgid "Pricing model"
+msgstr "Model cenowy"
+
+msgid "Show toolbar"
+msgstr "Pokaż pasek narzędzi"
+
+msgid "Locked"
+msgstr "Zablokowany"
+
+msgid "Unlock panel"
+msgstr "Panel Odblokowywanie"
+
+msgid "Lock panel"
+msgstr "Panel blokady"
+
+msgid "Account"
+msgstr "Konta"
+
+msgid "Account name"
+msgstr "Nazwa rachunku"
+
+msgid "Symbol"
+msgstr "Instrument"
+
+msgid "Symbol name"
+msgstr "Nazwa instrumentu"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "The description of the symbol"
+msgstr "Opis symbolu"
+
+msgid "Symbol type"
+msgstr "Typ symbolu"
+
+msgid "Symbol’s asset class"
+msgstr "Klasa aktywów symbolu"
+
+msgid "Expiration date"
+msgstr "Data wygaśnięcia"
+
+msgid "Expiration date of derivative symbol"
+msgstr "Data wygaśnięcia symbolu pochodnego"
+
+msgid "Days to expire"
+msgstr "Dni do wygaśnięcia"
+
+msgid "Strike price"
+msgstr "Cena Strike"
+
+msgid "Option’s strike price"
+msgstr "Opcja cena wykonania"
+
+msgid "Side"
+msgstr "Stronie"
+
+msgid "The direction of the position"
+msgstr "Kierunek położenia"
+
+msgid "Quantity"
+msgstr "Ilość"
+
+msgid "Postion’s quantity"
+msgstr "Ilość posta"
+
+msgid "IV"
+msgstr "Iv"
+
+msgid "Delta"
+msgstr "Delta"
+
+msgid "Gamma"
+msgstr "Gamma"
+
+msgid "Theta"
+msgstr "Theta"
+
+msgid "Vega"
+msgstr "Vega"
+
+msgid "Rho"
+msgstr "Rho"
+
+msgid "Exchange"
+msgstr "Exchange"
+
+msgid "Last size"
+msgstr "Ost. wol."
+
+msgid "Last date/time"
+msgstr "Data/godzina ostatnia"
+
+msgid "Update time"
+msgstr "Czas aktualizacji"
+
+msgid "Bid size"
+msgstr "Rozmiar oferty"
+
+msgid "Ask size"
+msgstr "Zapytaj o rozmiar"
+
+msgid "Spread"
+msgstr "Rozprzestrzenianie się"
+
+msgid "Spread, %"
+msgstr "Spread w %"
+
+msgid "Open"
+msgstr "Otwarcie"
+
+msgid "High"
+msgstr "Wysokiej"
+
+msgid "Low"
+msgstr "Niskie"
+
+msgid "Prev. close"
+msgstr "Poprzednio"
+
+msgid "Prev. settlement"
+msgstr "Rozliczenie prev."
+
+msgid "Volume"
+msgstr "Woluminu"
+
+msgid "Open Interest"
+msgstr "Otwarte odsetki"
+
+msgid "Average traded price"
+msgstr "Średnia cena handlowa"
+
+msgid "Trades"
+msgstr "Transakcji"
+
+msgid "Ticks"
+msgstr "Kleszcze"
+
+msgid "Open quantity"
+msgstr "Ilość otwarta"
+
+msgid "Open price"
+msgstr "Cena otwarta"
+
+msgid "Aggregated P/L"
+msgstr "Zagregowane P/L"
+
+msgid "Comment"
+msgstr "Komentarz"
+
+msgid "Connection name"
+msgstr "Nazwa połączenia"
+
+msgid "Underlier"
+msgstr "U podstaw"
+
+msgid "Underlier last"
+msgstr "Underlier ostatni"
+
+msgid "Underlier bid"
+msgstr "Oferta niżej ścięcie"
+
+msgid "Underlier ask"
+msgstr "Pytanie u podstaw"
+
+msgid "Action 1"
+msgstr "Działanie 1"
+
+msgid "Action 2"
+msgstr "Działanie 2"
+
+msgid "Action 3"
+msgstr "Działanie 3"
+
+msgid "Group"
+msgstr "Pakiet"
+
+msgid "Trading quantity"
+msgstr "Ilość handlowa"
 
 msgid "Call Positions"
 msgstr "Pozycje połączeń"
@@ -172,8 +466,26 @@ msgstr "Wywołanie PREV. Settlement"
 msgid "Call Open interest"
 msgstr "ZaDzwoń Otwórz zainteresowanie"
 
+msgid "Call Call/Put OI Ratio"
+msgstr "Stosunek połączenia/put OI"
+
+msgid "Call Call/Put Volume Ratio"
+msgstr "Stosunek głośności połączenia/odłożenia"
+
+msgid "Call OV Ratio %"
+msgstr "Wywołanie współczynnika OV %"
+
 msgid "Strike"
 msgstr "Strike"
+
+msgid "Put OV Ratio %"
+msgstr "Umieść współczynnik OV %"
+
+msgid "Put Put/Call Volume Ratio"
+msgstr "Współczynnik głośności put/call"
+
+msgid "Put Put/Call OI Ratio"
+msgstr "Umieść Put / Call OI Stosunek"
 
 msgid "Put Open interest"
 msgstr "Umieść otwarte zainteresowanie"
@@ -259,17 +571,8 @@ msgstr "Put oferty"
 msgid "Put Positions"
 msgstr "Umieść pozycje"
 
-msgid "Group"
-msgstr "Pakiet"
-
-msgid "Call"
-msgstr "Wywołanie"
-
 msgid "None"
 msgstr "Brak"
-
-msgid "Put"
-msgstr "Umieścić"
 
 msgid "Select visible series and strikes"
 msgstr "Wybierz widoczne serie i strajki"
@@ -279,6 +582,18 @@ msgstr "In-the-money"
 
 msgid "Out-of-money"
 msgstr "Brak pieniędzy"
+
+msgid "Text"
+msgstr "Tekst"
+
+msgid "Back"
+msgstr "Wstecz"
+
+msgid "Highlight max volume"
+msgstr "Podświetl maksymalną głośność"
+
+msgid "Highlight max open interest"
+msgstr "Wyróżnij maksymalne otwarte zainteresowanie"
 
 msgid "Chart"
 msgstr "Wykresu"
@@ -298,14 +613,8 @@ msgstr "Czas & sprzedaży"
 msgid "Symbol info"
 msgstr "Informacje o symbolu"
 
-msgid "Place"
-msgstr "Złóż zlc"
-
 msgid "Remove"
 msgstr "Usuń"
-
-msgid "Paper  positions"
-msgstr "Pozycje papieru"
 
 msgid "Long"
 msgstr "Długi"
@@ -313,59 +622,8 @@ msgstr "Długi"
 msgid "Short"
 msgstr "Krótki"
 
-msgid "Real positions"
-msgstr "Realne pozycje"
-
-msgid "Account"
-msgstr "Konta"
-
-msgid "Account name"
-msgstr "Nazwa rachunku"
-
-msgid "Symbol"
-msgstr "Instrument"
-
-msgid "Symbol name"
-msgstr "Nazwa instrumentu"
-
-msgid "Description"
-msgstr "Opis"
-
-msgid "The description of the symbol"
-msgstr "Opis symbolu"
-
-msgid "Symbol type"
-msgstr "Typ symbolu"
-
-msgid "Symbol’s asset class"
-msgstr "Klasa aktywów symbolu"
-
-msgid "Expiration date"
-msgstr "Data wygaśnięcia"
-
-msgid "Expiration date of derivative symbol"
-msgstr "Data wygaśnięcia symbolu pochodnego"
-
-msgid "Strike price"
-msgstr "Cena Strike"
-
-msgid "Option’s strike price"
-msgstr "Opcja cena wykonania"
-
-msgid "Side"
-msgstr "Stronie"
-
-msgid "The direction of the position"
-msgstr "Kierunek położenia"
-
-msgid "Quantity"
-msgstr "Ilość"
-
-msgid "Postion’s quantity"
-msgstr "Ilość posta"
-
-msgid "Open price"
-msgstr "Cena otwarta"
+msgid "Close"
+msgstr "Zamknij"
 
 msgid "The open/average open price of the position"
 msgstr "Otwarta/średnia otwarta cena pozycji"
@@ -451,27 +709,6 @@ msgstr "Cena wyzwalania (offset)"
 msgid "TIF"
 msgstr "Tif"
 
-msgid "IV"
-msgstr "Iv"
-
-msgid "Delta"
-msgstr "Delta"
-
-msgid "Gamma"
-msgstr "Gamma"
-
-msgid "Theta"
-msgstr "Theta"
-
-msgid "Vega"
-msgstr "Vega"
-
-msgid "Rho"
-msgstr "Rho"
-
-msgid "Days to expire"
-msgstr "Dni do wygaśnięcia"
-
 msgid "Analyse"
 msgstr "Analizy"
 
@@ -500,6 +737,18 @@ msgstr "Wartość czasu"
 msgid "Inner value"
 msgstr "Wartość wewnętrzna"
 
+msgid "Option analytics mode"
+msgstr "Tryb analizy opcji"
+
+msgid "Show Option desk"
+msgstr "Pokaż opcję biurka"
+
+msgid "Show Analyser"
+msgstr "Pokaż analizator"
+
+msgid "Show Volatility smile"
+msgstr "Pokaż uśmiech zmienności"
+
 #, csharp-format
 msgid "{0}/{1} Series, {2}"
 msgstr "{0}/seria {1}, {2}"
@@ -507,38 +756,14 @@ msgstr "{0}/seria {1}, {2}"
 msgid "Option analytics"
 msgstr "Opcja Analytics"
 
-msgid "Switch Option Analytics mode"
-msgstr "Przełącz opcję Tryb Analytics"
-
-msgid "Desk & Analyser"
-msgstr "Biurko Analizator &"
-
-msgid "Option analytics mode"
-msgstr "Tryb analizy opcji"
-
-msgid "Show toolbar"
-msgstr "Pokaż pasek narzędzi"
+msgid "Mode"
+msgstr "Tryb"
 
 msgid "Show Level1"
 msgstr "Pokaż Level1"
 
-msgid "Interest rate, %"
-msgstr "Stopa procentowa,%"
-
-msgid "Bid"
-msgstr "Oferty"
-
-msgid "Ask"
-msgstr "S"
-
-msgid "Last"
-msgstr "Ostatni"
-
-msgid "(Bid+Ask)/2"
-msgstr "(Bid + Ask)/2"
-
-msgid "IV calculation price"
-msgstr "IV cena obliczeniowa"
+msgid "Confirm on panel's close"
+msgstr "Potwierdź na zamknięciu panelu"
 
 msgid "General"
 msgstr "Ogólne"

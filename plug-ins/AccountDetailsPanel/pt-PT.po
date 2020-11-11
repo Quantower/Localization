@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:33+0300\n"
+"POT-Creation-Date: 2020-11-10 20:46+0200\n"
 "PO-Revision-Date: 2018-12-04 14:22+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,23 +16,53 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Name"
-msgstr "Nome"
-
 msgid "Balance"
 msgstr "Saldo"
+
+msgid "The current balance of the Account"
+msgstr "O saldo atual da Conta"
+
+msgid "Netting Type"
+msgstr "Tipo de rede"
+
+msgid "Account’s netting type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "Tipo de rede da conta, valores possíveis: Uma posição, posições múltiplas, várias posições por lado"
 
 msgid "ID"
 msgstr "identidade"
 
+msgid "The Account’s identifier"
+msgstr "O identificador da conta"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Client-assigned alias for the Account"
+msgstr "Pseudónimo atribuído ao cliente para a Conta"
+
 msgid "Account currency"
 msgstr "Moeda da conta"
+
+msgid "The home currency of the Account"
+msgstr "A moeda de casa da Conta"
 
 msgid "Account info"
 msgstr "Informação da conta"
 
 msgid "Show toolbar"
 msgstr "Mostrar barra de Ferramentas"
+
+msgid "Copy RTD formula"
+msgstr "Copiar fórmula RTD"
+
+msgid "Label"
+msgstr "Etiqueta"
+
+msgid "Value"
+msgstr "Valor"
+
+msgid "All above"
+msgstr "Tudo acima"
 
 msgid "General"
 msgstr "Geral"
@@ -45,12 +75,3 @@ msgstr "Atividade da conta"
 
 msgid "Info"
 msgstr "Informações"
-
-msgid "Value"
-msgstr "Valor"
-
-msgid "Group"
-msgstr "Grupo"
-
-msgid "SortIndex"
-msgstr "SortIndex"

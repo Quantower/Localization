@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:33+0300\n"
+"POT-Creation-Date: 2020-11-10 20:46+0200\n"
 "PO-Revision-Date: 2018-12-04 14:22+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,23 +16,53 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Name"
-msgstr "İsim"
-
 msgid "Balance"
 msgstr "Bakiye"
+
+msgid "The current balance of the Account"
+msgstr "Hesabın cari bakiyesi"
+
+msgid "Netting Type"
+msgstr "Ağ Tipi"
+
+msgid "Account’s netting type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "Hesabın ağ türü, olası değerler: Bir pozisyon, Birden fazla pozisyon, yan başına birden fazla pozisyon"
 
 msgid "ID"
 msgstr "Kimlik"
 
+msgid "The Account’s identifier"
+msgstr "Hesabın tanımlayıcısı"
+
+msgid "Name"
+msgstr "İsim"
+
+msgid "Client-assigned alias for the Account"
+msgstr "Hesap için istemci tarafından atanan diğer ad"
+
 msgid "Account currency"
 msgstr "Hesap para birimi"
+
+msgid "The home currency of the Account"
+msgstr "Hesabın ana para birimi"
 
 msgid "Account info"
 msgstr "Hesap bilgisi"
 
 msgid "Show toolbar"
 msgstr "Araç çubuğunu göster"
+
+msgid "Copy RTD formula"
+msgstr "RTD formüllerini kopyala"
+
+msgid "Label"
+msgstr "Etiket"
+
+msgid "Value"
+msgstr "Değer"
+
+msgid "All above"
+msgstr "Tüm yukarıda"
 
 msgid "General"
 msgstr "Genel"
@@ -45,12 +75,3 @@ msgstr "Hesap haraketliliği"
 
 msgid "Info"
 msgstr "Bilgi"
-
-msgid "Value"
-msgstr "Değer"
-
-msgid "Group"
-msgstr "Grup"
-
-msgid "SortIndex"
-msgstr "sortIndex"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:22+0300\n"
+"POT-Creation-Date: 2020-11-11 00:01+0200\n"
 "PO-Revision-Date: 2018-12-04 15:48+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -19,71 +19,125 @@ msgstr ""
 msgid "ID"
 msgstr "编号"
 
+msgid "Symbol’s ID"
+msgstr "符号 ID"
+
 msgid "Symbol"
 msgstr "商品"
+
+msgid "Symbol's name"
+msgstr "符号名称"
 
 msgid "Description"
 msgstr "描述"
 
+msgid "The description of the symbol"
+msgstr "符号的描述"
+
 msgid "Symbol type"
 msgstr "商品类型"
 
-msgid "Quoting currency"
-msgstr "报价货币"
+msgid "Symbol’s asset class"
+msgstr "符号的资产类别"
 
 msgid "Exchange"
 msgstr "市场"
 
+msgid "The exchange of the symbol"
+msgstr "符号的交换"
+
+msgid "Product currency"
+msgstr "产品货币"
+
+msgid "The product of the symbol"
+msgstr "符号的产品"
+
+msgid "Quoting currency"
+msgstr "报价货币"
+
+msgid "The quoting currency of the symbol"
+msgstr "符号的引号"
+
 msgid "Quote delay"
 msgstr "报价延迟"
 
-msgid "Max lot"
-msgstr "最大手数"
+msgid "The quotes delay"
+msgstr "报价延迟"
 
 msgid "Min lot"
 msgstr "最小手数"
 
+msgid "Minimal tradable lot of symbol"
+msgstr "最小可交易符号"
+
+msgid "Max lot"
+msgstr "最大手数"
+
+msgid "Maximal tradable lot of symbol"
+msgstr "最大可交易品种"
+
 msgid "Netting type"
 msgstr "净额类型"
 
-msgid "Quoting type"
-msgstr "报价类型"
+msgid "Symbol’s nettinig type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "符号的网面类型，可能的值：一个位置，多个位置，每边多个位置"
 
 msgid "Lot size"
 msgstr "手大小"
 
-msgid "Variable tick list"
-msgstr "变量清单"
+msgid "Symbol’s lot size"
+msgstr "符号的地段大小"
 
 msgid "Lot step"
 msgstr "手步长"
 
+msgid "Symbol’s lot step"
+msgstr "符号的很多步骤"
+
 msgid "Tick size"
 msgstr "最小价位"
+
+msgid "Tick cost"
+msgstr "点值"
 
 msgid "Expiration date"
 msgstr "截止日期"
 
+msgid "Expiration date of the symbol"
+msgstr "符号的到期日期"
+
 msgid "Last trading date"
 msgstr "最后交易日期"
+
+msgid "Last trading date of the symbol"
+msgstr "交易品种的最后交易日期"
 
 msgid "Maturity date"
 msgstr "成人礼"
 
+msgid "Maturity date of the symbol"
+msgstr "品种的到期日"
+
 msgid "Strike price"
 msgstr "行权价格"
+
+msgid "Option’s strike price"
+msgstr "期权的罢工价格"
 
 msgid "Option style"
 msgstr "选项风格"
 
-msgid "Option series"
-msgstr "选项系列"
+msgid "The style of the option: American, European "
+msgstr "选项的风格：美国，欧洲"
 
-msgid "Underlier name"
-msgstr "Underlier名字"
+msgid "Option serie"
+msgstr "选项系列"
 
 msgid "Underlier"
 msgstr "標的商品"
+
+msgid "The name of underlying symbol"
+msgstr "基础符号的名称"
 
 msgid "Symbol info"
 msgstr "商品信息"
@@ -91,20 +145,20 @@ msgstr "商品信息"
 msgid "Show toolbar"
 msgstr "显示工具栏"
 
+msgid "Copy RTD formula"
+msgstr "复制 RTD 公式"
+
+msgid "Label"
+msgstr "标签"
+
+msgid "Value"
+msgstr "值"
+
+msgid "All above"
+msgstr "以上所有内容"
+
 msgid "General"
 msgstr "常规"
 
 msgid "Trading info"
 msgstr "交易信息"
-
-msgid "Name"
-msgstr "名称"
-
-msgid "Value"
-msgstr "值"
-
-msgid "Group"
-msgstr "群组"
-
-msgid "SortIndex"
-msgstr "SortIndex"

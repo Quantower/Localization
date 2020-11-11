@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:09+0300\n"
+"POT-Creation-Date: 2020-11-10 23:19+0200\n"
 "PO-Revision-Date: 2019-04-02 16:26+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -15,6 +15,265 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Account"
+msgstr "खाता"
+
+msgid "Account name"
+msgstr "खाते का नाम"
+
+msgid "Symbol"
+msgstr "प्रतीक"
+
+msgid "Symbol name"
+msgstr "प्रतीक नाम"
+
+msgid "Description"
+msgstr "या क़िस्‍म"
+
+msgid "The description of the symbol"
+msgstr "प्रतीक का वर्णन"
+
+msgid "Side"
+msgstr "पक्ष"
+
+msgid "The order side"
+msgstr "आदेश पक्ष"
+
+msgid "Order type"
+msgstr "आदेश प्रकार"
+
+msgid "The order type"
+msgstr "आदेश प्रकार"
+
+msgid "Quantity"
+msgstr "मात्रा"
+
+msgid "Price"
+msgstr "मूल्य"
+
+msgid "Trigger price"
+msgstr "ट्रिगर मूल्य"
+
+msgid "TIF"
+msgstr "टीआईएफ"
+
+msgid "SL"
+msgstr "एसएल"
+
+msgid "Stop loss"
+msgstr "स्टॉप लॉस"
+
+msgid "TP"
+msgstr "टीपी"
+
+msgid "Take profit"
+msgstr "लाभ उठाएं"
+
+msgid "Connection name"
+msgstr "कनेक्शन का नाम"
+
+msgid "Select"
+msgstr "चुनें"
+
+msgid "Modify"
+msgstr "संशोधित"
+
+msgid "Remove"
+msgstr "निकालें"
+
+msgid "Group"
+msgstr "समूह"
+
+msgid "Actions"
+msgstr "कार्यों"
+
+msgid "Multiple"
+msgstr "अपवर्त्य"
+
+msgid "Cancel"
+msgstr "रद्द करना"
+
+msgid "Multiple order entry"
+msgstr "मल्टीपल ऑर्डर एंट्री"
+
+msgid "reverse"
+msgstr "उल्टा"
+
+msgid "Add to basket"
+msgstr "टोकरी में जोड़ें"
+
+msgid "Create new"
+msgstr "नया बनाएं"
+
+msgid "Group actions"
+msgstr "समूह क्रियाएं"
+
+msgid "Move to"
+msgstr "करने के लिए कदम"
+
+msgid "Rename"
+msgstr "पुनर्नामित"
+
+msgid "Exclude from group"
+msgstr "समूह से बाहर निकालें"
+
+msgid "Ungroup"
+msgstr "असमूहीकृत"
+
+msgid "Portfolio"
+msgstr "पोर्टफोलियो"
+
+msgid "No order requests to show"
+msgstr "कोई आदेश दिखाने के लिए अनुरोध"
+
+msgid "Add some order requests to watch them"
+msgstr "उन्हें देखने के लिए कुछ ऑर्डर अनुरोध जोड़ें"
+
+msgid "Collapse OE"
+msgstr "पतन ओई"
+
+msgid "+/-"
+msgstr "+/-"
+
+msgid "+"
+msgstr "+"
+
+msgid "-"
+msgstr "-"
+
+msgid "Create group"
+msgstr "समूह बनाएं"
+
+msgid "Name"
+msgstr "नाम"
+
+msgid "Buy"
+msgstr "खरीद"
+
+msgid "Sell"
+msgstr "बेचना"
+
+msgid "Submit"
+msgstr "जमा करें"
+
+msgid "Cancel modifying"
+msgstr "संशोधित करना रद्द करें"
+
+#, csharp-format
+msgid "Are you sure want to cancel all orders on {0}?"
+msgstr "क्या आप सुनिश्चित हैं कि {0} पर सभी आदेशों को रद्द करना चाहते हैं?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all buy orders on {0}?"
+msgstr "क्या आप सुनिश्चित हैं कि {0} पर सभी खरीद आदेश रद्द करना चाहते हैं?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all limit orders on {0}?"
+msgstr "क्या आप सुनिश्चित हैं कि {0} पर सभी सीमा आदेश रद्द करना चाहते हैं?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all sell orders on {0}?"
+msgstr "क्या आप सुनिश्चित हैं कि {0} पर सभी बिक्री आदेश रद्द करना चाहते हैं?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all stop orders on {0}?"
+msgstr "क्या आप सुनिश्चित हैं कि {0} पर सभी स्टॉप ऑर्डर रद्द करना चाहते हैं?"
+
+msgid "Show close position"
+msgstr "करीबी स्थिति दिखाएं"
+
+msgid "Show close positions"
+msgstr "करीबी स्थिति दिखाएं"
+
+msgid "Close position"
+msgstr "बंद स्थिति"
+
+msgid "Close all positions"
+msgstr "सभी पदों को बंद करें"
+
+#, csharp-format
+msgid "Are you sure want to close position on {0}?"
+msgstr "क्या आपको यकीन है कि {0} पर स्थिति को बंद करना चाहते हैं?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions on {0}?"
+msgstr "क्या आप सुनिश्चित रूप से {0} पर सभी पदों को बंद करना चाहते हैं?"
+
+#, csharp-format
+msgid "Are you sure want to close position and cancel all orders on {0}?"
+msgstr "क्या आप सुनिश्चित हैं कि स्थिति को बंद करना और {0} पर सभी आदेशों को रद्द करना चाहते हैं?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions and cancel all orders on {0}?"
+msgstr "क्या आप सुनिश्चित हैं कि सभी पदों को बंद करना और {0} पर सभी आदेशों को रद्द करना चाहते हैं?"
+
+#, csharp-format
+msgid "Are you sure want to reverse position on {0}?"
+msgstr "क्या आप सुनिश्चित हैं कि {0} पर स्थिति को रिवर्स करना चाहते हैं?"
+
+msgid "Order entry small"
+msgstr "आदेश प्रविष्टि लघु"
+
+msgid "Slim mode"
+msgstr "स्लिम मोड"
+
+msgid "No labels"
+msgstr "कोई लेबल नहीं"
+
+msgid "Show additional order parameters"
+msgstr "अतिरिक्त आदेश पैरामीटर दिखाएं"
+
+msgid "View"
+msgstr "देखना"
+
+msgid "Ask"
+msgstr "पूछो"
+
+msgid "Bid"
+msgstr "बोली"
+
+msgid "Mkt"
+msgstr "मार्केट"
+
+msgid "Flatten"
+msgstr "समतल"
+
+msgid "Close positions"
+msgstr "बंद की स्थिति"
+
+msgid "Reverse"
+msgstr "उल्टा"
+
+msgid "Cancel orders"
+msgstr "आदेश रद्द करें"
+
+msgid "Cancel buy"
+msgstr "खरीद रद्द करें"
+
+msgid "Cancel sell"
+msgstr "बिक्री रद्द करें"
+
+msgid "Cancel limits"
+msgstr "सीमाएं रद्द करें"
+
+msgid "Cancel stops"
+msgstr "स्टॉप रद्द करें"
+
+msgid "Hide"
+msgstr "छुपाना"
+
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+msgid "Convert to {this.ProductTypeLabel}"
+msgstr "{यह करने के लिए परिवर्तित करें। उत्पाद टाइप्लाबेल}"
+
+msgid "No {shortName}"
+msgstr "कोई {शॉर्टनेम}"
+
+msgid "Activate trailing {this.behavior.Name.ToLower()}"
+msgstr "पीछे सक्रिय {इस.व्यवहार. Name.ToLower ()}"
 
 msgid "Show VWAP"
 msgstr "VWAP दिखाएं"
@@ -24,18 +283,6 @@ msgstr "VWAP छुपाएं"
 
 msgid "VWAP option allows you to see what will be the Average open price if you send order with selected quantity"
 msgstr "VWAP विकल्प आप अगर आप चयनित मात्रा के साथ आदेश भेज औसत खुला मूल्य हो जाएगा देखने के लिए अनुमति देता है"
-
-msgid "Take profit"
-msgstr "लाभ उठाएं"
-
-msgid "Stop loss"
-msgstr "स्टॉप लॉस"
-
-msgid "Activate trailing stop loss"
-msgstr "सक्रिय ट्रेलिंग स्टॉप हानि"
-
-msgid "Close position"
-msgstr "बंद स्थिति"
 
 msgid "Quantity to close"
 msgstr "बंद करने के लिए मात्रा"
@@ -55,9 +302,6 @@ msgstr "स्थानीय SL/TP"
 msgid "Place"
 msgstr "जगह"
 
-msgid "Modify"
-msgstr "संशोधित"
-
 msgid "LSL"
 msgstr "एलएसएल"
 
@@ -73,23 +317,11 @@ msgstr "स्थानीय लाभ ले लो"
 msgid "Modify order"
 msgstr "आदेश संशोधित करें"
 
-msgid "Account"
-msgstr "खाता"
-
 msgid "Order ID"
 msgstr "आदेश ID"
 
 msgid "Connection"
 msgstr "कनेक्शन"
-
-msgid "Symbol"
-msgstr "प्रतीक"
-
-msgid "Order type"
-msgstr "आदेश प्रकार"
-
-msgid "Side"
-msgstr "पक्ष"
 
 msgid "Order was cancelled"
 msgstr "आदेश रद्द किया गया"
@@ -105,9 +337,6 @@ msgstr "लंबी"
 
 msgid "Short"
 msgstr "कम"
-
-msgid "Quantity"
-msgstr "मात्रा"
 
 msgid "Open price"
 msgstr "खुला मूल्य"
@@ -130,11 +359,14 @@ msgstr "दिनांक/समय"
 msgid "Position was closed"
 msgstr "स्थिति बंद कर दी गई"
 
-msgid "Cancel"
-msgstr "रद्द करना"
-
 msgid "Time in force"
 msgstr "बल में समय"
+
+msgid "Brackets setup"
+msgstr "कोष्ठक सेटअप"
+
+msgid "OE dialog"
+msgstr "ओई संवाद"
 
 msgid "Order entry"
 msgstr "आदेश प्रविष् टि"
@@ -145,29 +377,17 @@ msgstr "समय सीमा समाप्ति दिनांक"
 msgid "Place order"
 msgstr "स्थान क्रम"
 
-msgid "Bid"
-msgstr "बोली"
+msgid "Incorrect quantity: 0"
+msgstr "गलत मात्रा: 0"
 
-msgid "Ask"
-msgstr "पूछो"
+msgid "Set order as default"
+msgstr "डिफ़ॉल्ट के रूप में ऑर्डर सेट करें"
 
-msgid "Order entry small"
-msgstr "आदेश प्रविष्टि लघु"
+msgid "Save order template"
+msgstr "ऑर्डर टेम्पलेट को सहेजें"
 
-msgid "Send Limit order on Ask price"
-msgstr "मांग मूल्य पर भेजें सीमा आदेश"
+msgid "Create template"
+msgstr "टेम्पलेट बनाएं"
 
-msgid "Send Limit order on Bid price"
-msgstr "बोली मूल्य पर सीमा आदेश भेजें"
-
-msgid "Send Market order"
-msgstr "बाजार आदेश भेजें"
-
-msgid "Mkt"
-msgstr "मार्केट"
-
-msgid "Buy"
-msgstr "खरीद"
-
-msgid "Sell"
-msgstr "बेचना"
+msgid "Apply"
+msgstr "लागू करना"

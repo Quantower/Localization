@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:06+0300\n"
+"POT-Creation-Date: 2020-11-10 22:58+0200\n"
 "PO-Revision-Date: 2019-06-25 13:06+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: fa-IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Overlay type:"
 msgstr "نوع روکش:"
@@ -28,11 +28,23 @@ msgstr "زمان فروپاشی ، روز:"
 msgid "Volatility shift, %:"
 msgstr "تغییر نوسان ،%:"
 
+msgid "All visible"
+msgstr "همه قابل مشاهده"
+
+msgid "No selected"
+msgstr "بدون انتخاب"
+
+msgid "Strategies"
+msgstr "استراتژی"
+
 msgid "Test & Real positions"
 msgstr "& آزمون مواضع واقعی"
 
 msgid "Add underlier"
 msgstr "اضافه کردن underlier"
+
+msgid "Add strategy"
+msgstr "اضافه کردن استراتژی"
 
 msgid "Place paper"
 msgstr "کاغذ محل"
@@ -55,14 +67,71 @@ msgstr "لغو همه موقعیت های کاغذ"
 msgid "Close all real positions"
 msgstr "بستن همه موقعیت های واقعی"
 
+msgid "Close Position"
+msgstr "موقعیت نزدیک"
+
+msgid "Remove strategy"
+msgstr "حذف استراتژی"
+
+msgid "Create strategy"
+msgstr "ایجاد استراتژی"
+
+msgid "Exclude from strategy"
+msgstr "حذف از استراتژی"
+
+msgid "Ungroup strategy"
+msgstr "استراتژی گروه بندی نشده"
+
+msgid "Analyse paper"
+msgstr "مقاله تجزیه و تحلیل"
+
+msgid "Remove paper"
+msgstr "حذف کاغذ"
+
+msgid "Paper  positions"
+msgstr "موقعیت کاغذ"
+
+msgid "Real positions"
+msgstr "پوزیشن های واقعی"
+
+msgid "+"
+msgstr "+"
+
+msgid "-"
+msgstr "-"
+
+msgid "reverse"
+msgstr "معکوس"
+
+msgid "Place"
+msgstr "محل"
+
+msgid "Buy"
+msgstr "فروش"
+
+msgid "Sell"
+msgstr "فروش"
+
+msgid "qnt"
+msgstr "qnt"
+
 msgid "Option desk"
 msgstr "میز انتخاب"
 
 msgid "Analyzer"
 msgstr "آنالایزر"
 
-msgid "Desk & Analyzer"
-msgstr "آنالیز & میز"
+msgid "Volatility smile"
+msgstr "لبخند نوسانات"
+
+msgid "Call"
+msgstr "تماس"
+
+msgid "Put"
+msgstr "قرار داده"
+
+msgid "Call & Put"
+msgstr "Call & Put"
 
 msgid "P&L"
 msgstr "P&L"
@@ -87,6 +156,231 @@ msgstr "تغییر نوسان"
 
 msgid "Time change"
 msgstr "تغییر زمان"
+
+msgid "Option watchlist"
+msgstr "لیست دیده بان گزینه"
+
+msgid "No symbols to show"
+msgstr "هیچ نمادی برای نشان دادن نیست"
+
+msgid "Add some symbols to watch them"
+msgstr "اضافه کردن برخی از نمادها به تماشای آنها"
+
+msgid "Add symbols"
+msgstr "افزودن نمادها"
+
+msgid "Remove selected"
+msgstr "حذف انتخاب شده"
+
+msgid "Clear all"
+msgstr "پاک کردن همه"
+
+msgid "Reset order number"
+msgstr "تنظیم مجدد شماره سفارش"
+
+msgid "Interest rate, %"
+msgstr "نرخ بهره ،%"
+
+msgid "Bid"
+msgstr "پیشنهاد"
+
+msgid "Ask"
+msgstr "بپرسید"
+
+msgid "Last"
+msgstr "آخرین"
+
+msgid "(Bid+Ask)/2"
+msgstr "(Bid + Ask)/2"
+
+msgid "IV calculation price"
+msgstr "قیمت محاسبه IV"
+
+msgid "Black Scholes"
+msgstr "اسکولز سیاه"
+
+msgid "Connection based"
+msgstr "اتصال مبتنی بر"
+
+msgid "Pricing model"
+msgstr "مدل قیمت گذاری"
+
+msgid "Show toolbar"
+msgstr "نمایش نوار ابزار"
+
+msgid "Locked"
+msgstr "قفل"
+
+msgid "Unlock panel"
+msgstr "باز کردن پنل"
+
+msgid "Lock panel"
+msgstr "پانل قفل"
+
+msgid "Account"
+msgstr "حساب"
+
+msgid "Account name"
+msgstr "نام حساب"
+
+msgid "Symbol"
+msgstr "نماد"
+
+msgid "Symbol name"
+msgstr "نام نماد"
+
+msgid "Description"
+msgstr "توضیحات"
+
+msgid "The description of the symbol"
+msgstr "شرح نماد"
+
+msgid "Symbol type"
+msgstr "نوع نماد"
+
+msgid "Symbol’s asset class"
+msgstr "کلاس دارایی نماد"
+
+msgid "Expiration date"
+msgstr "تاریخ انقضا"
+
+msgid "Expiration date of derivative symbol"
+msgstr "تاریخ انقضا نماد مشتق شده"
+
+msgid "Days to expire"
+msgstr "روز تا منقضی"
+
+msgid "Strike price"
+msgstr "قیمت اعتصاب"
+
+msgid "Option’s strike price"
+msgstr "قیمت اعتصاب گزینه"
+
+msgid "Side"
+msgstr "جانبی"
+
+msgid "The direction of the position"
+msgstr "جهت موقعیت"
+
+msgid "Quantity"
+msgstr "مقدار"
+
+msgid "Postion’s quantity"
+msgstr "میزان پورا"
+
+msgid "IV"
+msgstr "چهارم"
+
+msgid "Delta"
+msgstr "دلتا"
+
+msgid "Gamma"
+msgstr "گاما"
+
+msgid "Theta"
+msgstr "تتا"
+
+msgid "Vega"
+msgstr "وگا"
+
+msgid "Rho"
+msgstr "رو"
+
+msgid "Exchange"
+msgstr "تبادل"
+
+msgid "Last size"
+msgstr "آخرین اندازه"
+
+msgid "Last date/time"
+msgstr "آخرین تاریخ / زمان"
+
+msgid "Update time"
+msgstr "زمان به روز رسانی"
+
+msgid "Bid size"
+msgstr "اندازه پیشنهاد"
+
+msgid "Ask size"
+msgstr "اندازه بپرسید"
+
+msgid "Spread"
+msgstr "گسترش"
+
+msgid "Spread, %"
+msgstr "گسترش، %"
+
+msgid "Open"
+msgstr "باز"
+
+msgid "High"
+msgstr "بالا"
+
+msgid "Low"
+msgstr "کم"
+
+msgid "Prev. close"
+msgstr "Prev. نزدیک"
+
+msgid "Prev. settlement"
+msgstr "حل و فصل Prev."
+
+msgid "Volume"
+msgstr "دوره"
+
+msgid "Open Interest"
+msgstr "بهره باز"
+
+msgid "Average traded price"
+msgstr "متوسط قیمت معامله شده"
+
+msgid "Trades"
+msgstr "معاملات"
+
+msgid "Ticks"
+msgstr "کنه"
+
+msgid "Open quantity"
+msgstr "کمیت باز"
+
+msgid "Open price"
+msgstr "قیمت باز کردن"
+
+msgid "Aggregated P/L"
+msgstr "P/L تجمیع شده"
+
+msgid "Comment"
+msgstr "نظر"
+
+msgid "Connection name"
+msgstr "نام اتصال"
+
+msgid "Underlier"
+msgstr "آندرلیر"
+
+msgid "Underlier last"
+msgstr "آندرلیر آخرین"
+
+msgid "Underlier bid"
+msgstr "پیشنهاد زیرین تر"
+
+msgid "Underlier ask"
+msgstr "Underlier بپرسید"
+
+msgid "Action 1"
+msgstr "اقدام 1"
+
+msgid "Action 2"
+msgstr "اقدام 2"
+
+msgid "Action 3"
+msgstr "اقدام 3"
+
+msgid "Group"
+msgstr "گروه"
+
+msgid "Trading quantity"
+msgstr "کمیت معاملاتی"
 
 msgid "Call Positions"
 msgstr "مواضع تماس"
@@ -172,8 +466,26 @@ msgstr "تماس با قبلی. حل و فصل"
 msgid "Call Open interest"
 msgstr "تماس با بهره باز"
 
+msgid "Call Call/Put OI Ratio"
+msgstr "تماس با تماس / قرار دادن نسبت OI"
+
+msgid "Call Call/Put Volume Ratio"
+msgstr "تماس با تماس / قرار دادن نسبت حجم"
+
+msgid "Call OV Ratio %"
+msgstr "تماس با نسبت OV %"
+
 msgid "Strike"
 msgstr "اعتصاب"
+
+msgid "Put OV Ratio %"
+msgstr "قرار دادن نسبت OV %"
+
+msgid "Put Put/Call Volume Ratio"
+msgstr "قرار دادن قرار دادن / تماس نسبت حجم"
+
+msgid "Put Put/Call OI Ratio"
+msgstr "قرار دادن / تماس با نسبت OI"
 
 msgid "Put Open interest"
 msgstr "قرار دادن علاقه باز"
@@ -259,17 +571,8 @@ msgstr "قرار دادن بید"
 msgid "Put Positions"
 msgstr "قرار دادن مواضع"
 
-msgid "Group"
-msgstr "گروه"
-
-msgid "Call"
-msgstr "تماس"
-
 msgid "None"
 msgstr "هیچ کدام"
-
-msgid "Put"
-msgstr "قرار داده"
 
 msgid "Select visible series and strikes"
 msgstr "سری و اعتصابات قابل مشاهده را انتخاب کنید"
@@ -279,6 +582,18 @@ msgstr "در-پول"
 
 msgid "Out-of-money"
 msgstr "خارج از پول"
+
+msgid "Text"
+msgstr "پیامک"
+
+msgid "Back"
+msgstr "بازگشت"
+
+msgid "Highlight max volume"
+msgstr "حجم حداکثر برجسته"
+
+msgid "Highlight max open interest"
+msgstr "برجسته حداکثر بهره باز"
 
 msgid "Chart"
 msgstr "نمودار"
@@ -298,14 +613,8 @@ msgstr "زمان فروش &"
 msgid "Symbol info"
 msgstr "اطلاعات نماد"
 
-msgid "Place"
-msgstr "محل"
-
 msgid "Remove"
 msgstr "حذف"
-
-msgid "Paper  positions"
-msgstr "موقعیت کاغذ"
 
 msgid "Long"
 msgstr "طولانی"
@@ -313,59 +622,8 @@ msgstr "طولانی"
 msgid "Short"
 msgstr "کوتاه"
 
-msgid "Real positions"
-msgstr "پوزیشن های واقعی"
-
-msgid "Account"
-msgstr "حساب"
-
-msgid "Account name"
-msgstr "نام حساب"
-
-msgid "Symbol"
-msgstr "نماد"
-
-msgid "Symbol name"
-msgstr "نام نماد"
-
-msgid "Description"
-msgstr "توضیحات"
-
-msgid "The description of the symbol"
-msgstr "شرح نماد"
-
-msgid "Symbol type"
-msgstr "نوع نماد"
-
-msgid "Symbol’s asset class"
-msgstr "کلاس دارایی نماد"
-
-msgid "Expiration date"
-msgstr "تاریخ انقضا"
-
-msgid "Expiration date of derivative symbol"
-msgstr "تاریخ انقضا نماد مشتق شده"
-
-msgid "Strike price"
-msgstr "قیمت اعتصاب"
-
-msgid "Option’s strike price"
-msgstr "قیمت اعتصاب گزینه"
-
-msgid "Side"
-msgstr "جانبی"
-
-msgid "The direction of the position"
-msgstr "جهت موقعیت"
-
-msgid "Quantity"
-msgstr "مقدار"
-
-msgid "Postion’s quantity"
-msgstr "میزان پورا"
-
-msgid "Open price"
-msgstr "قیمت باز کردن"
+msgid "Close"
+msgstr "نزدیک"
 
 msgid "The open/average open price of the position"
 msgstr "باز/به طور متوسط قیمت باز از موقعیت"
@@ -451,27 +709,6 @@ msgstr "قیمت ماشه (افست)"
 msgid "TIF"
 msgstr "Tif"
 
-msgid "IV"
-msgstr "چهارم"
-
-msgid "Delta"
-msgstr "دلتا"
-
-msgid "Gamma"
-msgstr "گاما"
-
-msgid "Theta"
-msgstr "تتا"
-
-msgid "Vega"
-msgstr "وگا"
-
-msgid "Rho"
-msgstr "رو"
-
-msgid "Days to expire"
-msgstr "روز تا منقضی"
-
 msgid "Analyse"
 msgstr "تحلیل"
 
@@ -500,6 +737,18 @@ msgstr "مقدار زمان"
 msgid "Inner value"
 msgstr "ارزش درونی"
 
+msgid "Option analytics mode"
+msgstr "حالت تجزیه و تحلیل گزینه"
+
+msgid "Show Option desk"
+msgstr "نمایش میز گزینه"
+
+msgid "Show Analyser"
+msgstr "نمایش تحلیلگر"
+
+msgid "Show Volatility smile"
+msgstr "نمایش لبخند نوسانات"
+
 #, csharp-format
 msgid "{0}/{1} Series, {2}"
 msgstr "{0}/{0} سری ، {0}"
@@ -507,38 +756,14 @@ msgstr "{0}/{0} سری ، {0}"
 msgid "Option analytics"
 msgstr "تجزیه و تحلیل گزینه"
 
-msgid "Switch Option Analytics mode"
-msgstr "تغییر حالت گزینه تجزیه و تحلیل"
-
-msgid "Desk & Analyser"
-msgstr "& آنالايزر ميز"
-
-msgid "Option analytics mode"
-msgstr "حالت تجزیه و تحلیل گزینه"
-
-msgid "Show toolbar"
-msgstr "نمایش نوار ابزار"
+msgid "Mode"
+msgstr "حالت"
 
 msgid "Show Level1"
 msgstr "نمایش Level1"
 
-msgid "Interest rate, %"
-msgstr "نرخ بهره ،%"
-
-msgid "Bid"
-msgstr "پیشنهاد"
-
-msgid "Ask"
-msgstr "بپرسید"
-
-msgid "Last"
-msgstr "آخرین"
-
-msgid "(Bid+Ask)/2"
-msgstr "(Bid + Ask)/2"
-
-msgid "IV calculation price"
-msgstr "قیمت محاسبه IV"
+msgid "Confirm on panel's close"
+msgstr "تایید در نزدیک پانل"
 
 msgid "General"
 msgstr "عمومی"

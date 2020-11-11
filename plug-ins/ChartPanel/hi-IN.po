@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:52+0300\n"
+"POT-Creation-Date: 2020-11-10 21:27+0200\n"
 "PO-Revision-Date: 2019-04-02 11:57+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -24,6 +24,111 @@ msgstr "फ़ाइल निर्यात करें"
 
 msgid "Close"
 msgstr "बंद करना"
+
+msgid "All settings"
+msgstr "सभी सेटिंग्स"
+
+msgid "Apply"
+msgstr "लागू करना"
+
+msgid "Build from"
+msgstr "से निर्माण"
+
+msgid "Profile aggregation"
+msgstr "प्रोफाइल एकत्रीकरण"
+
+msgid "Custom step (ticks)"
+msgstr "कस्टम चरण (टिक)"
+
+msgid "Initial balance"
+msgstr "प्रारंभिक शेष राशि"
+
+msgid "Show singles"
+msgstr "एकल दिखाएं"
+
+msgid "Midpoint"
+msgstr "मध्यबिंदु"
+
+msgid "Show value area"
+msgstr "मूल्य क्षेत्र दिखाएं"
+
+msgid "Show POC"
+msgstr "पीओसी दिखाएं"
+
+msgid "Incorrect parameters: build from should be less than the profile."
+msgstr "गलत पैरामीटर: बिल्ड से प्रोफाइल से कम होना चाहिए।"
+
+msgid "Incorrect parameters: build from should be a multiple of the profile."
+msgstr "गलत पैरामीटर: बिल्ड से प्रोफ़ाइल का एक बहु होना चाहिए।"
+
+msgid "Boxes"
+msgstr "बक्से"
+
+msgid "Letters"
+msgstr "पत्र"
+
+msgid "Right Front"
+msgstr "राइट फ्रंट"
+
+msgid "Right Rear"
+msgstr "राइट रियर"
+
+msgid "Left Rear"
+msgstr "लेफ्ट रियर"
+
+msgid "Single Color"
+msgstr "एकल रंग"
+
+msgid "Up/Down Profile"
+msgstr "अप/डाउन प्रोफाइल"
+
+msgid "Up/Down Bars"
+msgstr "ऊपर/नीचे सलाखों"
+
+msgid "Heatmap"
+msgstr "हीटमैप"
+
+msgid "Delta Profile"
+msgstr "डेल्टा प्रोफाइल"
+
+msgid "Delta Price"
+msgstr "डेल्टा मूल्य"
+
+msgid "Delta Bars"
+msgstr "डेल्टा बार्स"
+
+msgid "Volume Profile"
+msgstr "वॉल्यूम प्रोफाइल"
+
+msgid "Volume Price"
+msgstr "वॉल्यूम प्राइस"
+
+msgid "Volume Bars"
+msgstr "वॉल्यूम बार"
+
+msgid "None"
+msgstr "कोई नहीं"
+
+msgid "Final"
+msgstr "अंतिम"
+
+msgid "Migrating"
+msgstr "माइग्रेट"
+
+msgid "Minute"
+msgstr "मिनट"
+
+msgid "Hour"
+msgstr "घंटा"
+
+msgid "Day"
+msgstr "दिन"
+
+msgid "Week"
+msgstr "कार्य-सप्‍ताह"
+
+msgid "Month"
+msgstr "महीना"
 
 msgid "Object manager"
 msgstr "ऑब्जेक्ट प्रबंधक"
@@ -64,8 +169,29 @@ msgstr "चार्ट पर दिखाएं"
 msgid "Overlay settings"
 msgstr "ओवरले सेटिंग्स"
 
-msgid "Apply"
-msgstr "लागू करना"
+msgid "DOM levels count"
+msgstr "डोम स्तर गिनती"
+
+msgid "Maximal level2 size"
+msgstr "अधिकतम स्तर 2 आकार"
+
+msgid "Maximal trade size"
+msgstr "अधिकतम व्यापार आकार"
+
+msgid "DOM levels contrast"
+msgstr "डोम स्तर विपरीत"
+
+msgid "Trades marker size"
+msgstr "ट्रेडों मार्कर आकार"
+
+msgid "Trades marker opacity"
+msgstr "ट्रेडों मार्कर अस्पष्टता"
+
+msgid "Auto"
+msgstr "ऑटो"
+
+msgid "Custom"
+msgstr "परम्परा"
 
 msgid "Apply overlay"
 msgstr "ओवरले लागू करें"
@@ -97,9 +223,6 @@ msgstr "वॉल्यूम के अनुसार रंग"
 msgid "Coloring by ticks"
 msgstr "Ticks द्वारा रंग"
 
-msgid "None"
-msgstr "कोई नहीं"
-
 msgid "Coloring by delta"
 msgstr "डेल्टा द्वारा रंग"
 
@@ -109,8 +232,23 @@ msgstr "ट्रेडों द्वारा रंग"
 msgid "Histogram"
 msgstr "हिस्टोग्राम"
 
+msgid "Single"
+msgstr "एकल"
+
+msgid "Double"
+msgstr "दोगुना"
+
+msgid "Imbalance"
+msgstr "असंतुलन"
+
 msgid "Enabled"
 msgstr "सक्षम"
+
+msgid "Buy"
+msgstr "खरीद"
+
+msgid "Sell"
+msgstr "बेचना"
 
 msgid "Bids"
 msgstr "बोली"
@@ -166,9 +304,6 @@ msgstr "आकार"
 msgid "Price"
 msgstr "मूल्य"
 
-msgid "Imbalance"
-msgstr "असंतुलन"
-
 msgid "Imb. bar"
 msgstr "इम्ब. छड़"
 
@@ -190,11 +325,14 @@ msgstr "इतिहास की गहराई"
 msgid "Mouse trading"
 msgstr "माउस ट्रेडिंग"
 
+msgid "Enable keyboard trading"
+msgstr "कीबोर्ड ट्रेडिंग को सक्षम"
+
 msgid "Show/Hide Quick OE"
 msgstr "त्वरित OE दिखाएँ/छुपाएँ"
 
-msgid "Mouse trading settings: TIF, Amount"
-msgstr "माउस ट्रेडिंग सेटिंग्स: TIF, राशि"
+msgid "Show/Hide End of Bar"
+msgstr "बार के शो/हाइड एंड"
 
 msgid "Show/Hide Volume Analysis toolbar"
 msgstr "वॉल्यूम विश्लेषण उपकरण पट्टी दिखाएं/"
@@ -223,11 +361,23 @@ msgstr "वॉल्यूम विश्लेषण उपकरण पट्
 msgid "Show Quick OE"
 msgstr "त्वरित OE दिखाएँ"
 
+msgid "Show End of Bar"
+msgstr "बार का शो एंड"
+
+msgid "Show symbol description"
+msgstr "प्रतीक विवरण दिखाएं"
+
+msgid "Confirm on panel's close"
+msgstr "पैनल के बंद पर पुष्टि करें"
+
 msgid "Visibility"
 msgstr "दृश्यता"
 
 msgid "Data type"
 msgstr "डेटा प्रकार"
+
+msgid "OE qty buttons"
+msgstr "ओई क्यूटी बटन"
 
 msgid "View"
 msgstr "देखना"
@@ -244,8 +394,8 @@ msgstr "मूल्य स्केल"
 msgid "Visual trading"
 msgstr "दृश्य व्यापार"
 
-msgid "Chart order entry"
-msgstr "चार्ट क्रम प्रविष्टि"
+msgid "Order Entry"
+msgstr "आदेश प्रविष्टि"
 
 msgid "Info window"
 msgstr "जानकारी विंडो"
@@ -367,6 +517,33 @@ msgstr "नोट आरेखित करें"
 msgid "Draw comment"
 msgstr "टिप्पणी ड्रा"
 
+msgid "Sell Market"
+msgstr "बाजार बेचें"
+
+msgid "Sell Bid"
+msgstr "बोली बेचें"
+
+msgid "Sell Ask"
+msgstr "पूछो पूछो"
+
+msgid "Buy Market"
+msgstr "बाजार खरीदें"
+
+msgid "Buy Bid"
+msgstr "बोली खरीदें"
+
+msgid "Buy Ask"
+msgstr "खरीदें पूछो"
+
+msgid "Cancel Orders"
+msgstr "आदेश रद्द करें"
+
+msgid "Close Positions"
+msgstr "क्लोज पोजीशन"
+
+msgid "Flatten"
+msgstr "समतल"
+
 msgid "Remove indicators"
 msgstr "संकेतक निकालें"
 
@@ -421,6 +598,12 @@ msgstr "पट्टी द्वारा बार चलती"
 msgid "Change symbol"
 msgstr "परिवर्तन प्रतीक"
 
+msgid "Copy selected tools"
+msgstr "चयनित उपकरणों की प्रतिलिपि"
+
+msgid "Paste tools"
+msgstr "उपकरण चिपकाने"
+
 msgid "Show Object manager"
 msgstr "ऑब्जेक्ट प्रबंधक दिखाएं"
 
@@ -430,8 +613,32 @@ msgstr "स्क्रीनशॉट बनाएं"
 msgid "Volume Analysis settings"
 msgstr "वॉल्यूम विश्लेषण सेटिंग्स"
 
-msgid "Order Flow Surface"
-msgstr "क्रम प्रवाह पृष् ठ"
+msgid "Quick settings"
+msgstr "त्वरित सेटिंग्स"
+
+msgid "Show/Hide Order Book"
+msgstr "शो/हाइड ऑर्डर बुक"
+
+msgid "Enable auto centering"
+msgstr "ऑटो सेंटरिंग सक्षम"
+
+msgid "Switch info window mode"
+msgstr "जानकारी विंडो मोड स्विच करें"
+
+msgid "Show Order Book"
+msgstr "दिखाएं ऑर्डर बुक"
+
+msgid "General"
+msgstr "सामान्य"
+
+msgid "Monochome"
+msgstr "मोनोकोम"
+
+msgid "Bichrome"
+msgstr "बिक्रोम"
+
+msgid "Order flow surface"
+msgstr "आदेश प्रवाह की सतह"
 
 msgid "Last color"
 msgstr "अंतिम रंग"
@@ -447,6 +654,18 @@ msgstr "ओवरले जोड़ें"
 
 msgid "Remove all"
 msgstr "सभी निकालें"
+
+msgid "AGGREGATION"
+msgstr "एकत्रीकरण"
+
+msgid "STYLE"
+msgstr "वर्तिका"
+
+msgid "VOLUME ANALYSIS"
+msgstr "वॉल्यूम विश्लेषण"
+
+msgid "Show/Hide TPO statistics"
+msgstr "शो/छिपाओ टीपीओ आंकड़े"
 
 msgid "Cluster"
 msgstr "क्लस्टर"
@@ -472,6 +691,9 @@ msgstr "T&S"
 msgid "Custom profile"
 msgstr "कस्टम प्रोफ़ाइल"
 
+msgid "Custom VWAP"
+msgstr "कस्टम वीडब्ल्यूएपी"
+
 msgid "Volume Analysis Settings"
 msgstr "वॉल्यूम विश्लेषण सेटिंग्स"
 
@@ -483,3 +705,6 @@ msgstr "समय और बिक्री"
 
 msgid "Custom profile tool"
 msgstr "कस्टम प्रोफ़ाइल उपकरण"
+
+msgid "Custom VWAP tool"
+msgstr "कस्टम वीडब्ल्यूएपी टूल"

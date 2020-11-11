@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:14+0300\n"
+"POT-Creation-Date: 2020-11-10 23:41+0200\n"
 "PO-Revision-Date: 2019-04-02 16:35+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -27,6 +27,12 @@ msgstr "TP निकालें"
 
 msgid "Working orders"
 msgstr "कार्य आदेश"
+
+msgid "Identify the category of the order: MIS – for trading in intraday, NRML – for trading for overnight position"
+msgstr "आदेश की श्रेणी की पहचान करें: एमआईएस - इंट्राडे में व्यापार के लिए, एनआरएमएल - रातोंरात स्थिति के लिए व्यापार के लिए"
+
+msgid "Disclosed quantity"
+msgstr "मात्रा का खुलासा"
 
 msgid "Margin"
 msgstr "मार्जिन"
@@ -57,6 +63,9 @@ msgstr "सभी रद्द करें"
 
 msgid "Cancel order"
 msgstr "आदेश रद्द करें"
+
+msgid "Link OCO"
+msgstr "लिंक ओसीओ"
 
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "क्या आप वाकई बाज़ार मूल्य पर सभी ऑर्डर निष्पादित करना चाहते हैं?"
@@ -259,8 +268,32 @@ msgstr "कनेक्शन का नाम"
 msgid "The name of connection"
 msgstr "कनेक्शन के नाम"
 
+msgid "Additional parameters"
+msgstr "अतिरिक्त पैरामीटर"
+
+msgid "Comment"
+msgstr "सम्‍मति देना"
+
+msgid "Order's comment"
+msgstr "आदेश की टिप्पणी"
+
+msgid "Exchange"
+msgstr "बदलना"
+
+msgid "Exchange name"
+msgstr "एक्सचेंज नाम"
+
 msgid "Positions"
 msgstr "पदों"
+
+msgid "Convert"
+msgstr "बदलना"
+
+msgid "Convert to "
+msgstr "बदलने के लिए "
+
+msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
+msgstr "ऑर्डर करते समय, आपको एक उत्पाद कोड का चयन करना होगा। ये उत्पाद कोड आदेश की श्रेणी की पहचान करते हैं। उदाहरण के लिए, आप नीचे उल्लिखित उत्पाद कोड, सीएनसी - डिलीवरी एमआईएस में इक्विटी ट्रेडिंग के लिए - इंट्राडे एनआरएमएल में ट्रेडिंग इक्विटी और एफएंडओ के लिए - ट्रेडिंग एफएंडओ, मुद्रा और कमोडिटीज के लिए रातोंरात स्थिति के लिए जगह दे सकते हैं। चूंकि ये स्थितियां इंट्राडे पोजिशन नहीं हैं, इसलिए इनके लिए मार्जिन की जरूरतें रातोंरात मार्जिन के हिसाब से होंगी । इसके अलावा, वे व्यापार सत्र के अंत में हमारे सिस्टम से चुकता नहीं किया जाएगा ।"
 
 msgid "Settlement price"
 msgstr "निपटान कीमत"
@@ -346,8 +379,8 @@ msgstr "विराम के लिए हानि रोकें संश�
 msgid "Close all"
 msgstr "सभी बंद करें"
 
-msgid "CLX all"
-msgstr "CLX all"
+msgid "Flatten all"
+msgstr "सभी समतल"
 
 msgid "Close all positions and cancel all orders"
 msgstr "सभी पदों को बंद करें और सभी आदेश रद्द"
@@ -382,8 +415,8 @@ msgstr "चयनित द्वारा सभी स्थितियां
 msgid "Close selected"
 msgstr "चयनित बंद करें"
 
-msgid "CLX"
-msgstr "CLX"
+msgid "Flatten"
+msgstr "समतल"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "सभी पदों को बंद करें और चयनित (प्रतीक + खाते) द्वारा सभी आदेशों को रद्द"
@@ -391,14 +424,17 @@ msgstr "सभी पदों को बंद करें और चयनि
 msgid "The direction of the position"
 msgstr "स्थिति की दिशा"
 
-msgid "Postion’s quantity"
-msgstr "पोशन मात्रा"
+msgid "Position’s quantity"
+msgstr "स्थिति की मात्रा"
 
 msgid "Open price"
 msgstr "खुला मूल्य"
 
 msgid "The open/average open price of the position"
 msgstr "स्थिति का खुला/औसत खुला मूल्य"
+
+msgid "Current/Last traded price"
+msgstr "वर्तमान/पिछले कारोबार मूल्य"
 
 msgid "Gross P/L"
 msgstr "सकल पी एल/"
@@ -451,8 +487,23 @@ msgstr "स्थिति ID"
 msgid "The ID of the position"
 msgstr "स्थिति की पहचान"
 
+msgid "Liquidation price"
+msgstr "परिसमापन मूल्य"
+
+msgid "State"
+msgstr "राज्य"
+
+msgid "Open or closed"
+msgstr "खुला या बंद"
+
 msgid "Long"
 msgstr "लंबी"
 
 msgid "Short"
 msgstr "कम"
+
+msgid "Closed"
+msgstr "बंद"
+
+msgid "Open"
+msgstr "खोलें"

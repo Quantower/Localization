@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:09+0300\n"
+"POT-Creation-Date: 2020-11-10 23:19+0200\n"
 "PO-Revision-Date: 2018-12-04 15:35+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -15,6 +15,265 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Account"
+msgstr "Conta"
+
+msgid "Account name"
+msgstr "Nome da conta"
+
+msgid "Symbol"
+msgstr "Ativo"
+
+msgid "Symbol name"
+msgstr "Nome do Ativo"
+
+msgid "Description"
+msgstr "Descriçao"
+
+msgid "The description of the symbol"
+msgstr "A descrição do símbolo"
+
+msgid "Side"
+msgstr "Lado"
+
+msgid "The order side"
+msgstr "O lado da ordem"
+
+msgid "Order type"
+msgstr "Tipo de ordem"
+
+msgid "The order type"
+msgstr "O tipo de encomenda"
+
+msgid "Quantity"
+msgstr "Quantidade"
+
+msgid "Price"
+msgstr "Preço"
+
+msgid "Trigger price"
+msgstr "Gatilho de preço"
+
+msgid "TIF"
+msgstr "Validade"
+
+msgid "SL"
+msgstr "SL"
+
+msgid "Stop loss"
+msgstr "Parar a perda de"
+
+msgid "TP"
+msgstr "TP"
+
+msgid "Take profit"
+msgstr "Obter lucros"
+
+msgid "Connection name"
+msgstr "Nome de conexão"
+
+msgid "Select"
+msgstr "Selecionar"
+
+msgid "Modify"
+msgstr "Modificar"
+
+msgid "Remove"
+msgstr "Remover"
+
+msgid "Group"
+msgstr "Grupo"
+
+msgid "Actions"
+msgstr "Ações"
+
+msgid "Multiple"
+msgstr "Múltiplos"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Multiple order entry"
+msgstr "Entrada de várias encomendas"
+
+msgid "reverse"
+msgstr "inverter"
+
+msgid "Add to basket"
+msgstr "Adicione ao cesto"
+
+msgid "Create new"
+msgstr "Criar novo"
+
+msgid "Group actions"
+msgstr "Ações em grupo"
+
+msgid "Move to"
+msgstr "Mover-se para"
+
+msgid "Rename"
+msgstr "Renomear"
+
+msgid "Exclude from group"
+msgstr "Excluir do grupo"
+
+msgid "Ungroup"
+msgstr "Desagrupamento"
+
+msgid "Portfolio"
+msgstr "Portfólio"
+
+msgid "No order requests to show"
+msgstr "Sem pedidos para mostrar"
+
+msgid "Add some order requests to watch them"
+msgstr "Adicione alguns pedidos de encomenda para observá-los"
+
+msgid "Collapse OE"
+msgstr "OE do colapso"
+
+msgid "+/-"
+msgstr "+/-"
+
+msgid "+"
+msgstr "+"
+
+msgid "-"
+msgstr "-"
+
+msgid "Create group"
+msgstr "Criar grupo"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Buy"
+msgstr "Compra"
+
+msgid "Sell"
+msgstr "Venda"
+
+msgid "Submit"
+msgstr "Submeter"
+
+msgid "Cancel modifying"
+msgstr "Cancelar modificação"
+
+#, csharp-format
+msgid "Are you sure want to cancel all orders on {0}?"
+msgstr "Quer cancelar todas as encomendas no {0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all buy orders on {0}?"
+msgstr "Tem certeza que quer cancelar todas as encomendas de compra no {0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all limit orders on {0}?"
+msgstr "Tem certeza que quer cancelar todas as ordens limites em {0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all sell orders on {0}?"
+msgstr "Tem certeza que quer cancelar todas as encomendas de venda em {0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all stop orders on {0}?"
+msgstr "Tem certeza que quer cancelar todas as ordens de paragem no {0}?"
+
+msgid "Show close position"
+msgstr "Mostrar posição próxima"
+
+msgid "Show close positions"
+msgstr "Mostrar posições próximas"
+
+msgid "Close position"
+msgstr "Fechar posição"
+
+msgid "Close all positions"
+msgstr "Fechar todas as posições"
+
+#, csharp-format
+msgid "Are you sure want to close position on {0}?"
+msgstr "Quer fechar a posição sobre {0}?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions on {0}?"
+msgstr "Quer fechar todas as posições em {0}?"
+
+#, csharp-format
+msgid "Are you sure want to close position and cancel all orders on {0}?"
+msgstr "Tem certeza que quer fechar a posição e cancelar todas as encomendas em {0}?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions and cancel all orders on {0}?"
+msgstr "Tem certeza que quer fechar todas as posições e cancelar todas as encomendas em {0}?"
+
+#, csharp-format
+msgid "Are you sure want to reverse position on {0}?"
+msgstr "Tem certeza que quer inverter a posição na {0}?"
+
+msgid "Order entry small"
+msgstr "Entrada de pedidos pequena"
+
+msgid "Slim mode"
+msgstr "Modo fino"
+
+msgid "No labels"
+msgstr "Sem rótulos"
+
+msgid "Show additional order parameters"
+msgstr "Mostrar parâmetros de ordem adicionais"
+
+msgid "View"
+msgstr "Exibir"
+
+msgid "Ask"
+msgstr "Pergunte"
+
+msgid "Bid"
+msgstr "Lance"
+
+msgid "Mkt"
+msgstr "Mkt"
+
+msgid "Flatten"
+msgstr "Achatado"
+
+msgid "Close positions"
+msgstr "Posições próximas"
+
+msgid "Reverse"
+msgstr "Inverter"
+
+msgid "Cancel orders"
+msgstr "Cancelar ordens"
+
+msgid "Cancel buy"
+msgstr "Cancelar Compra"
+
+msgid "Cancel sell"
+msgstr "Cancelar Venda"
+
+msgid "Cancel limits"
+msgstr "Cancelar limites"
+
+msgid "Cancel stops"
+msgstr "Cancele as paragens"
+
+msgid "Hide"
+msgstr "Esconder"
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Convert to {this.ProductTypeLabel}"
+msgstr "Converta-se para {isto. ProdutoTypeLabel}"
+
+msgid "No {shortName}"
+msgstr "Sem {nome curto}"
+
+msgid "Activate trailing {this.behavior.Name.ToLower()}"
+msgstr "Ative o trailing {this.behavior.Name.ToLower()}"
 
 msgid "Show VWAP"
 msgstr "Exibir VWAP"
@@ -24,18 +283,6 @@ msgstr "Ocultar o VWAP"
 
 msgid "VWAP option allows you to see what will be the Average open price if you send order with selected quantity"
 msgstr "A opção VWAP permite ver qual será o preço médio de abertura se você enviar um pedido com quantidade selecionada"
-
-msgid "Take profit"
-msgstr "Obter lucros"
-
-msgid "Stop loss"
-msgstr "Parar a perda de"
-
-msgid "Activate trailing stop loss"
-msgstr "Ativar perda de parada à direita"
-
-msgid "Close position"
-msgstr "Fechar posição"
 
 msgid "Quantity to close"
 msgstr "Quantidade para fechar"
@@ -55,9 +302,6 @@ msgstr "Local SL/TP"
 msgid "Place"
 msgstr "Colocar"
 
-msgid "Modify"
-msgstr "Modificar"
-
 msgid "LSL"
 msgstr "Lsl"
 
@@ -73,23 +317,11 @@ msgstr "Local Take lucro"
 msgid "Modify order"
 msgstr "Modificar ordens"
 
-msgid "Account"
-msgstr "Conta"
-
 msgid "Order ID"
 msgstr "ID da ordem"
 
 msgid "Connection"
 msgstr "Conexão"
-
-msgid "Symbol"
-msgstr "Ativo"
-
-msgid "Order type"
-msgstr "Tipo de ordem"
-
-msgid "Side"
-msgstr "Lado"
 
 msgid "Order was cancelled"
 msgstr "O pedido foi cancelado"
@@ -105,9 +337,6 @@ msgstr "Compra"
 
 msgid "Short"
 msgstr "Venda"
-
-msgid "Quantity"
-msgstr "Quantidade"
 
 msgid "Open price"
 msgstr "Preço de abertura"
@@ -130,11 +359,14 @@ msgstr "Data/hora"
 msgid "Position was closed"
 msgstr "Posição foi fechada"
 
-msgid "Cancel"
-msgstr "Cancelar"
-
 msgid "Time in force"
 msgstr "Horário em vigor"
+
+msgid "Brackets setup"
+msgstr "Configuração de suportes"
+
+msgid "OE dialog"
+msgstr "Diálogo OE"
 
 msgid "Order entry"
 msgstr "Entrada de ordem"
@@ -145,29 +377,17 @@ msgstr "Data de validade"
 msgid "Place order"
 msgstr "Colocar ordem"
 
-msgid "Bid"
-msgstr "Lance"
+msgid "Incorrect quantity: 0"
+msgstr "Quantidade incorreta: 0"
 
-msgid "Ask"
-msgstr "Pergunte"
+msgid "Set order as default"
+msgstr "Definir a ordem como padrão"
 
-msgid "Order entry small"
-msgstr "Entrada de pedidos pequena"
+msgid "Save order template"
+msgstr "Guardar modelo de ordem"
 
-msgid "Send Limit order on Ask price"
-msgstr "Enviar ordem de limite no preço Ask"
+msgid "Create template"
+msgstr "Criar modelo"
 
-msgid "Send Limit order on Bid price"
-msgstr "Enviar ordem de limite no preço do lance"
-
-msgid "Send Market order"
-msgstr "Enviar ordem de mercado"
-
-msgid "Mkt"
-msgstr "Mkt"
-
-msgid "Buy"
-msgstr "Compra"
-
-msgid "Sell"
-msgstr "Venda"
+msgid "Apply"
+msgstr "Aplicar"

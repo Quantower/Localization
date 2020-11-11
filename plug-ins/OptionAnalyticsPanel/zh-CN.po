@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:06+0300\n"
+"POT-Creation-Date: 2020-11-10 22:58+0200\n"
 "PO-Revision-Date: 2018-12-04 16:23+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -28,11 +28,23 @@ msgstr "时间衰减, 天:"
 msgid "Volatility shift, %:"
 msgstr "波动率变化,%:"
 
+msgid "All visible"
+msgstr "所有可见"
+
+msgid "No selected"
+msgstr "未选择"
+
+msgid "Strategies"
+msgstr "策略："
+
 msgid "Test & Real positions"
 msgstr "测试和真实位置"
 
 msgid "Add underlier"
 msgstr "添加标的"
+
+msgid "Add strategy"
+msgstr "添加策略"
 
 msgid "Place paper"
 msgstr "放置纸张"
@@ -55,14 +67,71 @@ msgstr "取消所有纸张位置"
 msgid "Close all real positions"
 msgstr "关闭所有真实位置"
 
+msgid "Close Position"
+msgstr "关闭位置"
+
+msgid "Remove strategy"
+msgstr "移除策略"
+
+msgid "Create strategy"
+msgstr "创建策略"
+
+msgid "Exclude from strategy"
+msgstr "从战略中排除"
+
+msgid "Ungroup strategy"
+msgstr "非组策略"
+
+msgid "Analyse paper"
+msgstr "分析纸"
+
+msgid "Remove paper"
+msgstr "取出纸张"
+
+msgid "Paper  positions"
+msgstr "纸张位置"
+
+msgid "Real positions"
+msgstr "真实位置"
+
+msgid "+"
+msgstr "+"
+
+msgid "-"
+msgstr "-"
+
+msgid "reverse"
+msgstr "反向"
+
+msgid "Place"
+msgstr "下单"
+
+msgid "Buy"
+msgstr "买入"
+
+msgid "Sell"
+msgstr "卖出"
+
+msgid "qnt"
+msgstr "qnt"
+
 msgid "Option desk"
 msgstr "选件台"
 
 msgid "Analyzer"
 msgstr "期权分析"
 
-msgid "Desk & Analyzer"
-msgstr "服务台和分析仪"
+msgid "Volatility smile"
+msgstr "波动率微笑"
+
+msgid "Call"
+msgstr "看涨"
+
+msgid "Put"
+msgstr "看跌"
+
+msgid "Call & Put"
+msgstr "呼叫 + 放"
 
 msgid "P&L"
 msgstr "P & L"
@@ -87,6 +156,231 @@ msgstr "波动性变化"
 
 msgid "Time change"
 msgstr "时间变化"
+
+msgid "Option watchlist"
+msgstr "选项观察列表"
+
+msgid "No symbols to show"
+msgstr "没有要显示的符号"
+
+msgid "Add some symbols to watch them"
+msgstr "添加一些符号来观看它们"
+
+msgid "Add symbols"
+msgstr "添加符号"
+
+msgid "Remove selected"
+msgstr "删除已选择"
+
+msgid "Clear all"
+msgstr "全部清空"
+
+msgid "Reset order number"
+msgstr "重置订单号"
+
+msgid "Interest rate, %"
+msgstr "利率, %"
+
+msgid "Bid"
+msgstr "买价"
+
+msgid "Ask"
+msgstr "卖价"
+
+msgid "Last"
+msgstr "以仓位"
+
+msgid "(Bid+Ask)/2"
+msgstr "买卖均价"
+
+msgid "IV calculation price"
+msgstr "IV 计算价格"
+
+msgid "Black Scholes"
+msgstr "黑斯科尔斯"
+
+msgid "Connection based"
+msgstr "基于连接"
+
+msgid "Pricing model"
+msgstr "订价模型"
+
+msgid "Show toolbar"
+msgstr "显示工具栏"
+
+msgid "Locked"
+msgstr "锁定"
+
+msgid "Unlock panel"
+msgstr "解锁面板"
+
+msgid "Lock panel"
+msgstr "锁定面板"
+
+msgid "Account"
+msgstr "账户"
+
+msgid "Account name"
+msgstr "账户名称"
+
+msgid "Symbol"
+msgstr "商品"
+
+msgid "Symbol name"
+msgstr "商品名称"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "The description of the symbol"
+msgstr "符号的描述"
+
+msgid "Symbol type"
+msgstr "商品类型"
+
+msgid "Symbol’s asset class"
+msgstr "符号的资产类别"
+
+msgid "Expiration date"
+msgstr "有效期"
+
+msgid "Expiration date of derivative symbol"
+msgstr "衍生符号的到期日期"
+
+msgid "Days to expire"
+msgstr "过期日期"
+
+msgid "Strike price"
+msgstr "行权价格"
+
+msgid "Option’s strike price"
+msgstr "期权的执行价"
+
+msgid "Side"
+msgstr "方向"
+
+msgid "The direction of the position"
+msgstr "位置的方向"
+
+msgid "Quantity"
+msgstr "數量"
+
+msgid "Postion’s quantity"
+msgstr "职位数量"
+
+msgid "IV"
+msgstr "四"
+
+msgid "Delta"
+msgstr "买卖差"
+
+msgid "Gamma"
+msgstr "伽 玛"
+
+msgid "Theta"
+msgstr "Θ"
+
+msgid "Vega"
+msgstr "织女星"
+
+msgid "Rho"
+msgstr "Rho"
+
+msgid "Exchange"
+msgstr "市场"
+
+msgid "Last size"
+msgstr "最新交易量"
+
+msgid "Last date/time"
+msgstr "上次日期/时间"
+
+msgid "Update time"
+msgstr "更新时间"
+
+msgid "Bid size"
+msgstr "买量"
+
+msgid "Ask size"
+msgstr "卖量"
+
+msgid "Spread"
+msgstr "点差"
+
+msgid "Spread, %"
+msgstr "点幅"
+
+msgid "Open"
+msgstr "今开"
+
+msgid "High"
+msgstr "最高"
+
+msgid "Low"
+msgstr "低"
+
+msgid "Prev. close"
+msgstr "前收"
+
+msgid "Prev. settlement"
+msgstr "上一次和解"
+
+msgid "Volume"
+msgstr "成交量"
+
+msgid "Open Interest"
+msgstr "开放式利息"
+
+msgid "Average traded price"
+msgstr "平均交易价格"
+
+msgid "Trades"
+msgstr "成交"
+
+msgid "Ticks"
+msgstr "笔数"
+
+msgid "Open quantity"
+msgstr "开盘数量"
+
+msgid "Open price"
+msgstr "價格"
+
+msgid "Aggregated P/L"
+msgstr "累计 P/L"
+
+msgid "Comment"
+msgstr "注释"
+
+msgid "Connection name"
+msgstr "连接名称"
+
+msgid "Underlier"
+msgstr "標的商品"
+
+msgid "Underlier last"
+msgstr "最后一个下位"
+
+msgid "Underlier bid"
+msgstr "出价低于出价"
+
+msgid "Underlier ask"
+msgstr "下一个问"
+
+msgid "Action 1"
+msgstr "行动1"
+
+msgid "Action 2"
+msgstr "行动2"
+
+msgid "Action 3"
+msgstr "行动3"
+
+msgid "Group"
+msgstr "群组"
+
+msgid "Trading quantity"
+msgstr "交易数量"
 
 msgid "Call Positions"
 msgstr "呼叫位置"
@@ -172,8 +466,26 @@ msgstr "致电 \"上一页结算\""
 msgid "Call Open interest"
 msgstr "呼叫未平仓利息"
 
+msgid "Call Call/Put OI Ratio"
+msgstr "呼叫呼叫/投入 OI 比率"
+
+msgid "Call Call/Put Volume Ratio"
+msgstr "呼叫呼叫/放量比"
+
+msgid "Call OV Ratio %"
+msgstr "呼叫 OV 比率 %"
+
 msgid "Strike"
 msgstr "罢工"
+
+msgid "Put OV Ratio %"
+msgstr "把 OV 比率 %"
+
+msgid "Put Put/Call Volume Ratio"
+msgstr "放放/呼叫容积率"
+
+msgid "Put Put/Call OI Ratio"
+msgstr "放放/呼叫 OI 比率"
 
 msgid "Put Open interest"
 msgstr "将未平仓利息"
@@ -259,17 +571,8 @@ msgstr "看跌投标"
 msgid "Put Positions"
 msgstr "职位设置"
 
-msgid "Group"
-msgstr "群组"
-
-msgid "Call"
-msgstr "看涨"
-
 msgid "None"
 msgstr "无"
-
-msgid "Put"
-msgstr "看跌"
 
 msgid "Select visible series and strikes"
 msgstr "选择可见的系列和罢工"
@@ -279,6 +582,18 @@ msgstr "在钱的"
 
 msgid "Out-of-money"
 msgstr "缺钱"
+
+msgid "Text"
+msgstr "文字"
+
+msgid "Back"
+msgstr "上一步"
+
+msgid "Highlight max volume"
+msgstr "高亮显示最大音量"
+
+msgid "Highlight max open interest"
+msgstr "突出显示最大开盘利息"
 
 msgid "Chart"
 msgstr "图表"
@@ -298,14 +613,8 @@ msgstr "& 分时交易明细"
 msgid "Symbol info"
 msgstr "商品信息"
 
-msgid "Place"
-msgstr "下单"
-
 msgid "Remove"
 msgstr "删除颜色"
-
-msgid "Paper  positions"
-msgstr "纸张位置"
 
 msgid "Long"
 msgstr "买入"
@@ -313,59 +622,8 @@ msgstr "买入"
 msgid "Short"
 msgstr "卖出"
 
-msgid "Real positions"
-msgstr "真实位置"
-
-msgid "Account"
-msgstr "账户"
-
-msgid "Account name"
-msgstr "账户名称"
-
-msgid "Symbol"
-msgstr "商品"
-
-msgid "Symbol name"
-msgstr "商品名称"
-
-msgid "Description"
-msgstr "描述"
-
-msgid "The description of the symbol"
-msgstr "符号的描述"
-
-msgid "Symbol type"
-msgstr "商品类型"
-
-msgid "Symbol’s asset class"
-msgstr "符号的资产类别"
-
-msgid "Expiration date"
-msgstr "有效期"
-
-msgid "Expiration date of derivative symbol"
-msgstr "衍生符号的到期日期"
-
-msgid "Strike price"
-msgstr "行权价格"
-
-msgid "Option’s strike price"
-msgstr "期权的执行价"
-
-msgid "Side"
-msgstr "方向"
-
-msgid "The direction of the position"
-msgstr "位置的方向"
-
-msgid "Quantity"
-msgstr "數量"
-
-msgid "Postion’s quantity"
-msgstr "职位数量"
-
-msgid "Open price"
-msgstr "價格"
+msgid "Close"
+msgstr "关闭"
 
 msgid "The open/average open price of the position"
 msgstr "仓位的开盘价"
@@ -451,27 +709,6 @@ msgstr "触发价格 (偏移量)"
 msgid "TIF"
 msgstr "时效:"
 
-msgid "IV"
-msgstr "四"
-
-msgid "Delta"
-msgstr "买卖差"
-
-msgid "Gamma"
-msgstr "伽 玛"
-
-msgid "Theta"
-msgstr "Θ"
-
-msgid "Vega"
-msgstr "织女星"
-
-msgid "Rho"
-msgstr "Rho"
-
-msgid "Days to expire"
-msgstr "过期日期"
-
 msgid "Analyse"
 msgstr "分析"
 
@@ -500,6 +737,18 @@ msgstr "时间值"
 msgid "Inner value"
 msgstr "内部值"
 
+msgid "Option analytics mode"
+msgstr "选项分析模式"
+
+msgid "Show Option desk"
+msgstr "显示选项桌面"
+
+msgid "Show Analyser"
+msgstr "显示分析器"
+
+msgid "Show Volatility smile"
+msgstr "显示波动性微笑"
+
 #, csharp-format
 msgid "{0}/{1} Series, {2}"
 msgstr "{0}/{1} 系列, {2}"
@@ -507,38 +756,14 @@ msgstr "{0}/{1} 系列, {2}"
 msgid "Option analytics"
 msgstr "期权分析"
 
-msgid "Switch Option Analytics mode"
-msgstr "切换选项分析模式"
-
-msgid "Desk & Analyser"
-msgstr "服务台和分析仪"
-
-msgid "Option analytics mode"
-msgstr "选项分析模式"
-
-msgid "Show toolbar"
-msgstr "显示工具栏"
+msgid "Mode"
+msgstr "模式"
 
 msgid "Show Level1"
 msgstr "显示1级"
 
-msgid "Interest rate, %"
-msgstr "利率, %"
-
-msgid "Bid"
-msgstr "买价"
-
-msgid "Ask"
-msgstr "卖价"
-
-msgid "Last"
-msgstr "以仓位"
-
-msgid "(Bid+Ask)/2"
-msgstr "买卖均价"
-
-msgid "IV calculation price"
-msgstr "IV 计算价格"
+msgid "Confirm on panel's close"
+msgstr "在面板关闭时确认"
 
 msgid "General"
 msgstr "常规"

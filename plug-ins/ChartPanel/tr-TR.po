@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:52+0300\n"
+"POT-Creation-Date: 2020-11-10 21:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:05+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -24,6 +24,111 @@ msgstr "Dosya verme"
 
 msgid "Close"
 msgstr "Kapat"
+
+msgid "All settings"
+msgstr "Tüm ayarlar"
+
+msgid "Apply"
+msgstr "Uygula"
+
+msgid "Build from"
+msgstr "Oluştur"
+
+msgid "Profile aggregation"
+msgstr "Profil toplama"
+
+msgid "Custom step (ticks)"
+msgstr "Özel adım (keneler)"
+
+msgid "Initial balance"
+msgstr "Başlangıç dengesi"
+
+msgid "Show singles"
+msgstr "Tekli işlemleri göster"
+
+msgid "Midpoint"
+msgstr "Orta"
+
+msgid "Show value area"
+msgstr "Değer alanını göster"
+
+msgid "Show POC"
+msgstr "POC'yi göster"
+
+msgid "Incorrect parameters: build from should be less than the profile."
+msgstr "Yanlış parametreler: profilden daha az olmalıdır."
+
+msgid "Incorrect parameters: build from should be a multiple of the profile."
+msgstr "Yanlış parametreler: profilin bir katı olmalıdır."
+
+msgid "Boxes"
+msgstr "Kutu -larını"
+
+msgid "Letters"
+msgstr "Mektup"
+
+msgid "Right Front"
+msgstr "Sağ Ön"
+
+msgid "Right Rear"
+msgstr "Sağ Arka"
+
+msgid "Left Rear"
+msgstr "Sol Arka"
+
+msgid "Single Color"
+msgstr "Tek Renk"
+
+msgid "Up/Down Profile"
+msgstr "Yukarı/Aşağı Profil"
+
+msgid "Up/Down Bars"
+msgstr "Yukarı/Aşağı Çubuklar"
+
+msgid "Heatmap"
+msgstr "Heatmap"
+
+msgid "Delta Profile"
+msgstr "Delta Profil"
+
+msgid "Delta Price"
+msgstr "Delta Fiyat"
+
+msgid "Delta Bars"
+msgstr "Delta Barlar"
+
+msgid "Volume Profile"
+msgstr "Ses Profili"
+
+msgid "Volume Price"
+msgstr "Hacim Fiyatı"
+
+msgid "Volume Bars"
+msgstr "Ses Çubukları"
+
+msgid "None"
+msgstr "Hiçbiri"
+
+msgid "Final"
+msgstr "Son"
+
+msgid "Migrating"
+msgstr "Geçirme"
+
+msgid "Minute"
+msgstr "1 dakika"
+
+msgid "Hour"
+msgstr "Saat"
+
+msgid "Day"
+msgstr "Gün"
+
+msgid "Week"
+msgstr "Hafta"
+
+msgid "Month"
+msgstr "Ay"
 
 msgid "Object manager"
 msgstr "Nesne yöneticisi"
@@ -64,8 +169,29 @@ msgstr "Grafikte göster"
 msgid "Overlay settings"
 msgstr "Katman ayarları"
 
-msgid "Apply"
-msgstr "Uygula"
+msgid "DOM levels count"
+msgstr "DOM düzeyleri sayılır"
+
+msgid "Maximal level2 size"
+msgstr "Maksimal seviye2 boyutu"
+
+msgid "Maximal trade size"
+msgstr "Maksimal ticaret boyutu"
+
+msgid "DOM levels contrast"
+msgstr "DOM düzeyleri kontrastı"
+
+msgid "Trades marker size"
+msgstr "Esnaf marker boyutu"
+
+msgid "Trades marker opacity"
+msgstr "Esnaf marker opaklık"
+
+msgid "Auto"
+msgstr "Otomatik"
+
+msgid "Custom"
+msgstr "Özel"
 
 msgid "Apply overlay"
 msgstr "Yerleşimi uygula"
@@ -97,9 +223,6 @@ msgstr "Hacim ile renklendirme"
 msgid "Coloring by ticks"
 msgstr "Ticks tarafından boyama"
 
-msgid "None"
-msgstr "Hiçbiri"
-
 msgid "Coloring by delta"
 msgstr "Delta tarafından boyama"
 
@@ -109,8 +232,23 @@ msgstr "Esnaf tarafından boyama"
 msgid "Histogram"
 msgstr "Histogram"
 
+msgid "Single"
+msgstr "Tek"
+
+msgid "Double"
+msgstr "Çift"
+
+msgid "Imbalance"
+msgstr "Dengesizlik"
+
 msgid "Enabled"
 msgstr "Etkinleştirildi"
+
+msgid "Buy"
+msgstr "Al"
+
+msgid "Sell"
+msgstr "Sat"
 
 msgid "Bids"
 msgstr "Satışlar"
@@ -166,9 +304,6 @@ msgstr "Büyüklük"
 msgid "Price"
 msgstr "Fiyat"
 
-msgid "Imbalance"
-msgstr "Dengesizlik"
-
 msgid "Imb. bar"
 msgstr "ışkıncı. Bar"
 
@@ -190,11 +325,14 @@ msgstr "Tarihin derinliği"
 msgid "Mouse trading"
 msgstr "Grafik ile işlem yapma"
 
+msgid "Enable keyboard trading"
+msgstr "Klavye alım satinayin"
+
 msgid "Show/Hide Quick OE"
 msgstr "Hızlı OE göster/gizle"
 
-msgid "Mouse trading settings: TIF, Amount"
-msgstr "Fare ticaret ayarları: TıF, tutar"
+msgid "Show/Hide End of Bar"
+msgstr "Çubuğun Sonunu Göster/Gizle"
 
 msgid "Show/Hide Volume Analysis toolbar"
 msgstr "Birim çözümleme araç çubuğunu göster/gizle"
@@ -223,11 +361,23 @@ msgstr "Ses çözümlemesi araç çubuğunu göster"
 msgid "Show Quick OE"
 msgstr "Hızlı OE göster"
 
+msgid "Show End of Bar"
+msgstr "Çubuğun Sonunu Göster"
+
+msgid "Show symbol description"
+msgstr "Sembol açıklamasını göster"
+
+msgid "Confirm on panel's close"
+msgstr "Panelin kapanışında onaylayın"
+
 msgid "Visibility"
 msgstr "Görünürlük"
 
 msgid "Data type"
 msgstr "Veri türü"
+
+msgid "OE qty buttons"
+msgstr "OE qty düğmeleri"
 
 msgid "View"
 msgstr "Görüntüle"
@@ -244,8 +394,8 @@ msgstr "Fiyat ölçeği"
 msgid "Visual trading"
 msgstr "Görsel işlem"
 
-msgid "Chart order entry"
-msgstr "Grafik sipariş girişi"
+msgid "Order Entry"
+msgstr "Sipariş Girişi"
 
 msgid "Info window"
 msgstr "Bilgi penceresi"
@@ -367,6 +517,33 @@ msgstr "Not çiz"
 msgid "Draw comment"
 msgstr "Yorum çiz"
 
+msgid "Sell Market"
+msgstr "Piyasa Emrini Sat"
+
+msgid "Sell Bid"
+msgstr "Satış Emrini Sat"
+
+msgid "Sell Ask"
+msgstr "Alış Ekle"
+
+msgid "Buy Market"
+msgstr "Piyasa Emri Satın Al"
+
+msgid "Buy Bid"
+msgstr "Satış Ekle"
+
+msgid "Buy Ask"
+msgstr "Alış Emri Satın Al"
+
+msgid "Cancel Orders"
+msgstr "Siparişleri İptal Et"
+
+msgid "Close Positions"
+msgstr "Pozisyonları Kapat"
+
+msgid "Flatten"
+msgstr "Düzleştir"
+
 msgid "Remove indicators"
 msgstr "Göstergeleri kaldır"
 
@@ -421,6 +598,12 @@ msgstr "Çubuğun hareket ettiği çubuk"
 msgid "Change symbol"
 msgstr "Enstrüman ekle"
 
+msgid "Copy selected tools"
+msgstr "Seçili araçları kopyalama"
+
+msgid "Paste tools"
+msgstr "Yapıştır araçları"
+
 msgid "Show Object manager"
 msgstr "Nesne yöneticisini göster"
 
@@ -430,8 +613,32 @@ msgstr "Ekran Görüntüsü Al"
 msgid "Volume Analysis settings"
 msgstr "Birim çözümleme ayarları"
 
-msgid "Order Flow Surface"
-msgstr "Sipariş akışı yüzeyi"
+msgid "Quick settings"
+msgstr "Hızlı ayarlar"
+
+msgid "Show/Hide Order Book"
+msgstr "Sipariş Defterini Göster/Gizle"
+
+msgid "Enable auto centering"
+msgstr "Otomatik ortalamayı etkinleştirme"
+
+msgid "Switch info window mode"
+msgstr "Bilgi penceresi modunu değiştir"
+
+msgid "Show Order Book"
+msgstr "Sipariş Defterini Göster"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "Monochome"
+msgstr "Monochome"
+
+msgid "Bichrome"
+msgstr "Bikrom"
+
+msgid "Order flow surface"
+msgstr "Sipariş akış yüzeyi"
 
 msgid "Last color"
 msgstr "Son renk"
@@ -447,6 +654,18 @@ msgstr "Katman ekle"
 
 msgid "Remove all"
 msgstr "Tümünü sil"
+
+msgid "AGGREGATION"
+msgstr "Toplama"
+
+msgid "STYLE"
+msgstr "Stil"
+
+msgid "VOLUME ANALYSIS"
+msgstr "HACIM ANALIZI"
+
+msgid "Show/Hide TPO statistics"
+msgstr "TPO istatistiklerini göster/gizle"
 
 msgid "Cluster"
 msgstr "Küme"
@@ -472,6 +691,9 @@ msgstr "T&S"
 msgid "Custom profile"
 msgstr "Özel profil"
 
+msgid "Custom VWAP"
+msgstr "Özel VWAP"
+
 msgid "Volume Analysis Settings"
 msgstr "Hacim Analizi ayarları"
 
@@ -483,3 +705,6 @@ msgstr "Zaman ve satış"
 
 msgid "Custom profile tool"
 msgstr "Özel profil aracı"
+
+msgid "Custom VWAP tool"
+msgstr "Özel VWAP aracı"

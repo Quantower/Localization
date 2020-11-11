@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:50+0300\n"
+"POT-Creation-Date: 2020-11-10 21:24+0200\n"
 "PO-Revision-Date: 2019-04-02 11:38+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -30,24 +30,6 @@ msgstr "मॉडलिंग योजना"
 
 msgid "General"
 msgstr "सामान्य"
-
-msgid "Multiple per side"
-msgstr "प्रति पक्ष एकाधिक"
-
-msgid "Multiple positions"
-msgstr "कई पदों"
-
-msgid "One Position"
-msgstr "एक स्थिति"
-
-msgid "Fee per side, quoting currency"
-msgstr "प्रति पक्ष शुल्क, उद्धृत मुद्रा"
-
-msgid "Margin"
-msgstr "मार्जिन"
-
-msgid "Netting type"
-msgstr "नेटिंग प्रकार"
 
 msgid "Initial balance"
 msgstr "प्रारंभिक शेष"
@@ -79,59 +61,50 @@ msgstr "प्रतीक निकालें"
 msgid "Open panel"
 msgstr "खुला पैनल"
 
-msgid "Tick"
-msgstr "टिक"
-
-msgid "1 minute"
-msgstr "1 मिनट"
-
-msgid "1 day"
-msgstr "1 day"
-
-msgid "Bid/Ask/Last"
-msgstr "बोली/"
-
-msgid "Last"
-msgstr "पिछला"
+msgid "Order entry"
+msgstr "आदेश प्रविष् टि"
 
 msgid "Chart"
 msgstr "चार्ट"
 
-msgid "Order entry"
-msgstr "आदेश प्रविष् टि"
+msgid "DOM Trader"
+msgstr "डोम व्यापारी"
 
 msgid "Market Depth"
 msgstr "बाज़ार गहराई"
 
-msgid "DOM Trader"
-msgstr "डोम व्यापारी"
-
 msgid "Time & Sales"
 msgstr "समय और बिक्री"
+
+msgid "DOM surface"
+msgstr "डोम सतह"
+
+msgid "TPO Chart"
+msgstr "टीपीओ चार्ट"
 
 msgid "Account performance"
 msgstr "खाता प्रदर्शन"
 
-msgid "Order Flow Surface"
-msgstr "ऑर्डर प्रवाह सतह"
+msgid "Market Replay"
+msgstr "बाजार पुनरावृत्ति"
 
-msgid "History Player"
-msgstr "इतिहास खिलाड़ी"
+msgid "Range of replay:"
+msgstr "पुनरावृत्ति की श्रेणी:"
 
-msgid "Maximal limit is reached."
-msgstr "अधिकतम सीमा तक पहुंच गया है ।"
+msgid "Symbol"
+msgstr "प्रतीक"
 
-msgid "Add symbol"
-msgstr "प्रतीक जोड़ें"
+msgid "Build from"
+msgstr "से निर्माण"
+
+msgid "Executing type"
+msgstr "निष्पादन प्रकार"
+
+msgid "Do you really want to stop Market Replay? This action will delete all test results."
+msgstr "क्या आप वास्तव में मार्केट रीप्ले को रोकना चाहते हैं? यह कार्रवाई सभी परीक्षा परिणामों को हटा देगी।"
 
 msgid "Symbols"
 msgstr "प्रतीकों"
-
-msgid "One step forward"
-msgstr "एक कदम आगे"
-
-msgid "Pause simulation"
-msgstr "अनुरूपण रोकें"
 
 msgid "Ready to start simulation"
 msgstr "सिमुलेशन शुरू करने के लिए तैयार"
@@ -160,50 +133,23 @@ msgstr "सिमुलेशन रोकें"
 msgid "Simulation is active"
 msgstr "सिमुलेशन सक्रिय है"
 
-msgid "Switch between full/short mode"
-msgstr "पूर्ण/लघु मोड के बीच स्विच करें"
+msgid "One step forward"
+msgstr "एक कदम आगे"
 
-msgid "Specify History Player advanced settings"
-msgstr "इतिहास प्लेयर उंनत सेटिंग्स निर्दिष्ट करें"
-
-msgid "Add"
-msgstr "जोड़ें"
-
-msgid "Left border of history range"
-msgstr "इतिहास सीमा के बाएं बॉर्डर"
-
-msgid "Right border of history range"
-msgstr "इतिहास सीमा का दायां बॉर्डर"
-
-msgid "Range of replay:"
-msgstr "पुनरावृत्ति की श्रेणी:"
-
-msgid "Symbol"
-msgstr "प्रतीक"
-
-msgid "Build from"
-msgstr "से निर्माण"
-
-msgid "Executing type"
-msgstr "निष्पादन प्रकार"
-
-msgid "Please specify correct dates."
-msgstr "कृपया सही दिनांक निर्दिष्ट करें ।"
-
-msgid "Do you really want to stop History Player? This action will delete all test results."
-msgstr "आप वास्तव में इतिहास खिलाड़ी को रोकने के लिए करना चाहते हैं? यह क्रिया सभी परीक्षण परिणामों को हटा देगा ।"
-
-msgid "Please select symbols from one connection"
-msgstr "कृपया एक कनेक्शन से प्रतीकों का चयन करें"
+msgid "Pause simulation"
+msgstr "अनुरूपण रोकें"
 
 msgid "Caching history: "
 msgstr "कैशिंग इतिहास: "
 
-msgid "Trading Simulator"
-msgstr "व्यापार सिम्युलेटर"
+msgid "Trading simulator"
+msgstr "ट्रेडिंग सिम्युलेटर"
 
-msgid "add"
-msgstr "जोड़ें"
+msgid "add symbol"
+msgstr "प्रतीक जोड़ें"
+
+msgid "Switch between full/short mode"
+msgstr "पूर्ण/लघु मोड के बीच स्विच करें"
 
 msgid "Specify Trading Simulator advanced settings"
 msgstr "ट्रेडिंग सिम्युलेटर उन्नत सेटिंग्स निर्दिष्ट करें"

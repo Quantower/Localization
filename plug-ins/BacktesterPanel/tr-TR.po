@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:50+0300\n"
+"POT-Creation-Date: 2020-11-10 21:24+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -30,24 +30,6 @@ msgstr "Modelleme şeması"
 
 msgid "General"
 msgstr "Genel"
-
-msgid "Multiple per side"
-msgstr "Yan başına birden fazla"
-
-msgid "Multiple positions"
-msgstr "Çoklu pozisyonlar"
-
-msgid "One Position"
-msgstr "Bir pozisyon"
-
-msgid "Fee per side, quoting currency"
-msgstr "Taraf başına ücret, para karşılığı alıntı"
-
-msgid "Margin"
-msgstr "Marj"
-
-msgid "Netting type"
-msgstr "Örgü tipi"
 
 msgid "Initial balance"
 msgstr "Ilk denge"
@@ -79,59 +61,50 @@ msgstr "Sembolü kaldır"
 msgid "Open panel"
 msgstr "Paneli aç"
 
-msgid "Tick"
-msgstr "Tik"
-
-msgid "1 minute"
-msgstr "1 dakika"
-
-msgid "1 day"
-msgstr "1 gün"
-
-msgid "Bid/Ask/Last"
-msgstr "Teklif / / Son sor"
-
-msgid "Last"
-msgstr "Son"
+msgid "Order entry"
+msgstr "Emir girişi"
 
 msgid "Chart"
 msgstr "Grafik"
 
-msgid "Order entry"
-msgstr "Emir girişi"
+msgid "DOM Trader"
+msgstr "DOM Trader"
 
 msgid "Market Depth"
 msgstr "Piyasa Derinliği"
 
-msgid "DOM Trader"
-msgstr "DOM Trader"
-
 msgid "Time & Sales"
 msgstr "Saat & Satışlar"
+
+msgid "DOM surface"
+msgstr "DOM yüzeyi"
+
+msgid "TPO Chart"
+msgstr "TPO Grafiği"
 
 msgid "Account performance"
 msgstr "Yeni Hesap performansı"
 
-msgid "Order Flow Surface"
-msgstr "Sipariş akışı yüzeyi"
+msgid "Market Replay"
+msgstr "Piyasa Tekrarı"
 
-msgid "History Player"
-msgstr "Tarih Oyuncu"
+msgid "Range of replay:"
+msgstr "Tekrar aralığı:"
 
-msgid "Maximal limit is reached."
-msgstr "Maksimal sınıra ulaşıldı."
+msgid "Symbol"
+msgstr "Sembol"
 
-msgid "Add symbol"
-msgstr "Sembol ekle"
+msgid "Build from"
+msgstr "Oluştur"
+
+msgid "Executing type"
+msgstr "Yürütme tipi"
+
+msgid "Do you really want to stop Market Replay? This action will delete all test results."
+msgstr "Market Replay'i gerçekten durdurmak istiyor musun? Bu eylem tüm test sonuçlarını siler."
 
 msgid "Symbols"
 msgstr "Semboller"
-
-msgid "One step forward"
-msgstr "Bir adım ileri"
-
-msgid "Pause simulation"
-msgstr "Duraklat simülasyonu"
 
 msgid "Ready to start simulation"
 msgstr "Simülasyona başlamak için hazır"
@@ -160,50 +133,23 @@ msgstr "Simülasyonu durdur"
 msgid "Simulation is active"
 msgstr "Simülasyon aktif"
 
-msgid "Switch between full/short mode"
-msgstr "Tam / kısa mod arasında geçiş yap"
+msgid "One step forward"
+msgstr "Bir adım ileri"
 
-msgid "Specify History Player advanced settings"
-msgstr "Geçmiş Oyuncu Gelişmiş ayarlarını belirtin"
-
-msgid "Add"
-msgstr "Ekle"
-
-msgid "Left border of history range"
-msgstr "Tarih aralığının sol sınırı"
-
-msgid "Right border of history range"
-msgstr "Tarih aralığının sağ sınırı"
-
-msgid "Range of replay:"
-msgstr "Tekrar aralığı:"
-
-msgid "Symbol"
-msgstr "Sembol"
-
-msgid "Build from"
-msgstr "Oluştur"
-
-msgid "Executing type"
-msgstr "Yürütme tipi"
-
-msgid "Please specify correct dates."
-msgstr "Lütfen doğru tarihleri ​​belirtin."
-
-msgid "Do you really want to stop History Player? This action will delete all test results."
-msgstr "Gerçekten tarih oyuncusu durdurmak istiyor musunuz? Bu eylem, tüm test sonuçlarını siler."
-
-msgid "Please select symbols from one connection"
-msgstr "Lütfen bir bağlantıdan sembol seçin"
+msgid "Pause simulation"
+msgstr "Duraklat simülasyonu"
 
 msgid "Caching history: "
 msgstr "Önbellek geçmişi:"
 
-msgid "Trading Simulator"
-msgstr "Ticaret Simülatörü"
+msgid "Trading simulator"
+msgstr "Ticaret simülatörü"
 
-msgid "add"
-msgstr "eklemek"
+msgid "add symbol"
+msgstr "sembol ekleme"
+
+msgid "Switch between full/short mode"
+msgstr "Tam / kısa mod arasında geçiş yap"
 
 msgid "Specify Trading Simulator advanced settings"
 msgstr "Trading Simulator gelişmiş ayarlarını belirtin"

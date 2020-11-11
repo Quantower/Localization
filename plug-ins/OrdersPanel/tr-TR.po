@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:14+0300\n"
+"POT-Creation-Date: 2020-11-10 23:41+0200\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -27,6 +27,12 @@ msgstr "TP'yi sil"
 
 msgid "Working orders"
 msgstr "Çalışma emir"
+
+msgid "Identify the category of the order: MIS – for trading in intraday, NRML – for trading for overnight position"
+msgstr "Siparişin kategorisini belirleyin: MIS – gün içi ticaret için, NRML – gecelik pozisyon için ticaret için"
+
+msgid "Disclosed quantity"
+msgstr "Açıklanan miktar"
 
 msgid "Margin"
 msgstr "Marj"
@@ -57,6 +63,9 @@ msgstr "Tümünü iptal et"
 
 msgid "Cancel order"
 msgstr "Emri iptal et"
+
+msgid "Link OCO"
+msgstr "Bağlantı OCO"
 
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "Tüm siparişleri piyasa fiyatından gerçekleştirmek istediğinizden emin misiniz?"
@@ -259,8 +268,32 @@ msgstr "Bağlantı adı"
 msgid "The name of connection"
 msgstr "Bağlantı adı"
 
+msgid "Additional parameters"
+msgstr "Ek parametreler"
+
+msgid "Comment"
+msgstr "Yorum"
+
+msgid "Order's comment"
+msgstr "Sipariş yorumu"
+
+msgid "Exchange"
+msgstr "Değiştir"
+
+msgid "Exchange name"
+msgstr "Değişim adı"
+
 msgid "Positions"
 msgstr "Pozisyonlar"
+
+msgid "Convert"
+msgstr "Dönüştürmek"
+
+msgid "Convert to "
+msgstr "Dönüştürme "
+
+msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
+msgstr "Sipariş verirken bir ürün kodu seçmeniz gerekir. Bu ürün kodları siparişin kategorisini tanımlar. Örneğin, aşağıda belirtilen ürün kodu, CNC - TeslimatMis'te Hisse Senedi ticareti için – Gün içi NRML'de Equity & F&O ticareti için – F&O, Para birimi ve Emtia ticareti için gecelik pozisyon için. Bu pozisyonlar gün içi pozisyonlar olmadığından, bunlar için marj gereksinimleri gecelik marjları göre olacaktır. Ayrıca, işlem oturumunun sonunda sistemimiz tarafından karşılanmayacaktır."
 
 msgid "Settlement price"
 msgstr "Uzlaşma fiyatı"
@@ -346,8 +379,8 @@ msgstr "Başlamak için Stop kaybını değiştirin"
 msgid "Close all"
 msgstr "Tümünü kapat"
 
-msgid "CLX all"
-msgstr "CLX tümü"
+msgid "Flatten all"
+msgstr "Tümlerini düzleştirmek"
 
 msgid "Close all positions and cancel all orders"
 msgstr "Tüm pozisyonları kapat ve tüm emirleri iptal et"
@@ -382,8 +415,8 @@ msgstr "Seçili (sembol + hesap) ile tüm pozisyonları kapat"
 msgid "Close selected"
 msgstr "Seçilileri kapat"
 
-msgid "CLX"
-msgstr "CLX"
+msgid "Flatten"
+msgstr "Düzleştir"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "Seçili (sembol ve hesap) ile tüm pozisyonları kapat ve tüm emirleri iptal et"
@@ -391,14 +424,17 @@ msgstr "Seçili (sembol ve hesap) ile tüm pozisyonları kapat ve tüm emirleri 
 msgid "The direction of the position"
 msgstr "Pozisyonun yönü"
 
-msgid "Postion’s quantity"
-msgstr "Gönderi miktarı"
+msgid "Position’s quantity"
+msgstr "Pozisyonun miktarı"
 
 msgid "Open price"
 msgstr "Açılış fiyatı"
 
 msgid "The open/average open price of the position"
 msgstr "Pozisyonun açık / ortalama açık fiyatı"
+
+msgid "Current/Last traded price"
+msgstr "Geçerli/Son işlem gören fiyat"
 
 msgid "Gross P/L"
 msgstr "Brüt K/Z"
@@ -451,8 +487,23 @@ msgstr "Pozisyon No"
 msgid "The ID of the position"
 msgstr "Pozisyonun kimliği"
 
+msgid "Liquidation price"
+msgstr "Tasfiye fiyatı"
+
+msgid "State"
+msgstr "Eyalet"
+
+msgid "Open or closed"
+msgstr "Açık veya kapalı"
+
 msgid "Long"
 msgstr "Uzun"
 
 msgid "Short"
 msgstr "Kısa"
+
+msgid "Closed"
+msgstr "Kapatıldı"
+
+msgid "Open"
+msgstr "Açılış"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:33+0300\n"
+"POT-Creation-Date: 2020-11-10 20:46+0200\n"
 "PO-Revision-Date: 2018-12-06 14:48+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -17,23 +17,53 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2\n"
 
-msgid "Name"
-msgstr "Ім'я"
-
 msgid "Balance"
 msgstr "Баланс"
+
+msgid "The current balance of the Account"
+msgstr "Поточний залишок коштів на Рахунку"
+
+msgid "Netting Type"
+msgstr "Тип сітки"
+
+msgid "Account’s netting type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "Тип сітки облікового запису, можливі значення: Одна позиція, Кілька позицій, Кілька позицій з кожного боку"
 
 msgid "ID"
 msgstr "ID"
 
+msgid "The Account’s identifier"
+msgstr "Ідентифікатор облікового запису"
+
+msgid "Name"
+msgstr "Ім'я"
+
+msgid "Client-assigned alias for the Account"
+msgstr "Псевдонім, призначений клієнтом для облікового запису"
+
 msgid "Account currency"
 msgstr "Валюта рахунку"
+
+msgid "The home currency of the Account"
+msgstr "Домашня валюта Рахунку"
 
 msgid "Account info"
 msgstr "Інформація про рахунок"
 
 msgid "Show toolbar"
 msgstr "Показати панель інструментів"
+
+msgid "Copy RTD formula"
+msgstr "Копіювати формулу RTD"
+
+msgid "Label"
+msgstr "Етикетки"
+
+msgid "Value"
+msgstr "Значення"
+
+msgid "All above"
+msgstr "Все вищесказане"
 
 msgid "General"
 msgstr "Загальні"
@@ -46,12 +76,3 @@ msgstr "Активність рахунку"
 
 msgid "Info"
 msgstr "Інформація"
-
-msgid "Value"
-msgstr "Значення"
-
-msgid "Group"
-msgstr "Група"
-
-msgid "SortIndex"
-msgstr "SortIndex"

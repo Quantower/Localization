@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:52+0300\n"
+"POT-Creation-Date: 2020-11-10 21:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:06+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -24,6 +24,111 @@ msgstr "エクスポートファイル"
 
 msgid "Close"
 msgstr "閉じる"
+
+msgid "All settings"
+msgstr "すべての設定"
+
+msgid "Apply"
+msgstr "適用"
+
+msgid "Build from"
+msgstr "指定して構築する"
+
+msgid "Profile aggregation"
+msgstr "プロファイル集計"
+
+msgid "Custom step (ticks)"
+msgstr "カスタムステップ(ティック)"
+
+msgid "Initial balance"
+msgstr "初期残高"
+
+msgid "Show singles"
+msgstr "シングルを表示する"
+
+msgid "Midpoint"
+msgstr "中点"
+
+msgid "Show value area"
+msgstr "値領域の表示"
+
+msgid "Show POC"
+msgstr "POC を表示する"
+
+msgid "Incorrect parameters: build from should be less than the profile."
+msgstr "正しくないパラメータ: ビルド元はプロファイルより小さくする必要があります。"
+
+msgid "Incorrect parameters: build from should be a multiple of the profile."
+msgstr "正しくないパラメータ: ビルド元はプロファイルの倍数である必要があります。"
+
+msgid "Boxes"
+msgstr "ボックス"
+
+msgid "Letters"
+msgstr "文字"
+
+msgid "Right Front"
+msgstr "右前"
+
+msgid "Right Rear"
+msgstr "右リア"
+
+msgid "Left Rear"
+msgstr "左リア"
+
+msgid "Single Color"
+msgstr "単色"
+
+msgid "Up/Down Profile"
+msgstr "アップ/ダウンプロファイル"
+
+msgid "Up/Down Bars"
+msgstr "アップ/ダウンバー"
+
+msgid "Heatmap"
+msgstr "ヒートマップ"
+
+msgid "Delta Profile"
+msgstr "デルタプロファイル"
+
+msgid "Delta Price"
+msgstr "デルタ価格"
+
+msgid "Delta Bars"
+msgstr "デルタバー"
+
+msgid "Volume Profile"
+msgstr "ボリュームプロファイル"
+
+msgid "Volume Price"
+msgstr "ボリューム価格"
+
+msgid "Volume Bars"
+msgstr "ボリュームバー"
+
+msgid "None"
+msgstr "なし"
+
+msgid "Final"
+msgstr "最終的な"
+
+msgid "Migrating"
+msgstr "移行"
+
+msgid "Minute"
+msgstr "分"
+
+msgid "Hour"
+msgstr "時間"
+
+msgid "Day"
+msgstr "日"
+
+msgid "Week"
+msgstr "週"
+
+msgid "Month"
+msgstr "月"
 
 msgid "Object manager"
 msgstr "オブジェクト・マネージャー"
@@ -64,8 +169,29 @@ msgstr "チャート上に表示する"
 msgid "Overlay settings"
 msgstr "オーバーレイ設定"
 
-msgid "Apply"
-msgstr "適用"
+msgid "DOM levels count"
+msgstr "DOM レベルカウント"
+
+msgid "Maximal level2 size"
+msgstr "最大レベル2サイズ"
+
+msgid "Maximal trade size"
+msgstr "最大取引サイズ"
+
+msgid "DOM levels contrast"
+msgstr "DOM レベルのコントラスト"
+
+msgid "Trades marker size"
+msgstr "トレードマーカーサイズ"
+
+msgid "Trades marker opacity"
+msgstr "トレードマーカーの不透明度"
+
+msgid "Auto"
+msgstr "自動"
+
+msgid "Custom"
+msgstr "カスタム"
 
 msgid "Apply overlay"
 msgstr "オーバーレイを適用"
@@ -97,9 +223,6 @@ msgstr "ボリュームで着色"
 msgid "Coloring by ticks"
 msgstr "ダニによる着色"
 
-msgid "None"
-msgstr "なし"
-
 msgid "Coloring by delta"
 msgstr "デルタで着色"
 
@@ -109,8 +232,23 @@ msgstr "トレードで着色"
 msgid "Histogram"
 msgstr "ヒストグラム"
 
+msgid "Single"
+msgstr "単一注文"
+
+msgid "Double"
+msgstr "ダブル"
+
+msgid "Imbalance"
+msgstr "不均衡"
+
 msgid "Enabled"
 msgstr "有効"
+
+msgid "Buy"
+msgstr "買い"
+
+msgid "Sell"
+msgstr "売り"
 
 msgid "Bids"
 msgstr "Bid"
@@ -166,9 +304,6 @@ msgstr "サイズ"
 msgid "Price"
 msgstr "価格"
 
-msgid "Imbalance"
-msgstr "不均衡"
-
 msgid "Imb. bar"
 msgstr "Imb。バー"
 
@@ -190,11 +325,14 @@ msgstr "歴史の深さ"
 msgid "Mouse trading"
 msgstr "マウス取引"
 
+msgid "Enable keyboard trading"
+msgstr "キーボード取引を有効にする"
+
 msgid "Show/Hide Quick OE"
 msgstr "クイック OE の表示/非表示"
 
-msgid "Mouse trading settings: TIF, Amount"
-msgstr "マウストレーディング設定: TIF、金額"
+msgid "Show/Hide End of Bar"
+msgstr "バーの終わりを表示/非表示にする"
 
 msgid "Show/Hide Volume Analysis toolbar"
 msgstr "ボリューム分析ツールバーの表示/非表示"
@@ -223,11 +361,23 @@ msgstr "[ボリューム分析] ツールバーの表示"
 msgid "Show Quick OE"
 msgstr "クイック OE を表示"
 
+msgid "Show End of Bar"
+msgstr "バーの終わりを表示"
+
+msgid "Show symbol description"
+msgstr "シンボルの説明を表示"
+
+msgid "Confirm on panel's close"
+msgstr "パネルのクローズを確認する"
+
 msgid "Visibility"
 msgstr "可視性"
 
 msgid "Data type"
 msgstr "ソースの種類"
+
+msgid "OE qty buttons"
+msgstr "OE 数量ボタン"
 
 msgid "View"
 msgstr "ビュー"
@@ -244,8 +394,8 @@ msgstr "価格スケール"
 msgid "Visual trading"
 msgstr "視覚的取引"
 
-msgid "Chart order entry"
-msgstr "チャート注文入力"
+msgid "Order Entry"
+msgstr "注文入力"
 
 msgid "Info window"
 msgstr "情報ウィンドウ"
@@ -367,6 +517,33 @@ msgstr "注記の描画"
 msgid "Draw comment"
 msgstr "コメントの描画"
 
+msgid "Sell Market"
+msgstr "成行き売り"
+
+msgid "Sell Bid"
+msgstr "Bidを売りする"
+
+msgid "Sell Ask"
+msgstr "Askを追加する"
+
+msgid "Buy Market"
+msgstr "成行き買い"
+
+msgid "Buy Bid"
+msgstr "Bidを追加する"
+
+msgid "Buy Ask"
+msgstr "Askを買いする"
+
+msgid "Cancel Orders"
+msgstr "注文のキャンセル"
+
+msgid "Close Positions"
+msgstr "ポジションを閉じる"
+
+msgid "Flatten"
+msgstr "平ら"
+
 msgid "Remove indicators"
 msgstr "インジケーターの削除"
 
@@ -421,6 +598,12 @@ msgstr "バー移動によるバー"
 msgid "Change symbol"
 msgstr "シンボルを変える"
 
+msgid "Copy selected tools"
+msgstr "選択したツールをコピー"
+
+msgid "Paste tools"
+msgstr "ツールを貼り付ける"
+
 msgid "Show Object manager"
 msgstr "オブジェクトマネージャを表示"
 
@@ -430,8 +613,32 @@ msgstr "画面を保存する"
 msgid "Volume Analysis settings"
 msgstr "ボリューム分析の設定"
 
-msgid "Order Flow Surface"
-msgstr "オーダフローサーフェス"
+msgid "Quick settings"
+msgstr "クイック設定"
+
+msgid "Show/Hide Order Book"
+msgstr "注文書の表示/非表示"
+
+msgid "Enable auto centering"
+msgstr "自動中央揃えの有効化"
+
+msgid "Switch info window mode"
+msgstr "情報ウィンドウモードの切り替え"
+
+msgid "Show Order Book"
+msgstr "注文書の表示"
+
+msgid "General"
+msgstr "一般"
+
+msgid "Monochome"
+msgstr "モノクホーム"
+
+msgid "Bichrome"
+msgstr "ビクローム"
+
+msgid "Order flow surface"
+msgstr "注文フローサーフェス"
 
 msgid "Last color"
 msgstr "最後の色"
@@ -447,6 +654,18 @@ msgstr "オーバーレイを追加する"
 
 msgid "Remove all"
 msgstr "すべて削除する"
+
+msgid "AGGREGATION"
+msgstr "集計"
+
+msgid "STYLE"
+msgstr "スタイル"
+
+msgid "VOLUME ANALYSIS"
+msgstr "ボリューム分析"
+
+msgid "Show/Hide TPO statistics"
+msgstr "TPO 統計の表示/非表示"
 
 msgid "Cluster"
 msgstr "クラスター"
@@ -472,6 +691,9 @@ msgstr "T&S"
 msgid "Custom profile"
 msgstr "カスタムプロファイル"
 
+msgid "Custom VWAP"
+msgstr "カスタム VWAP"
+
 msgid "Volume Analysis Settings"
 msgstr "ボリューム分析の設定"
 
@@ -483,3 +705,6 @@ msgstr "時間と売上"
 
 msgid "Custom profile tool"
 msgstr "カスタムプロファイルツール"
+
+msgid "Custom VWAP tool"
+msgstr "カスタム VWAP ツール"

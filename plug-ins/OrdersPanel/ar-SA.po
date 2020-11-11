@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:14+0300\n"
+"POT-Creation-Date: 2020-11-10 23:41+0200\n"
 "PO-Revision-Date: 2018-12-04 15:38+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -27,6 +27,12 @@ msgstr "حذف أ.ر"
 
 msgid "Working orders"
 msgstr "أوامر العمل"
+
+msgid "Identify the category of the order: MIS – for trading in intraday, NRML – for trading for overnight position"
+msgstr "تحديد فئة الطلب: MIS - للتداول في اليوم، NRML - للتداول لمركز ليلة وضحاها"
+
+msgid "Disclosed quantity"
+msgstr "الكمية المكشوف عنها"
 
 msgid "Margin"
 msgstr "الهامش"
@@ -57,6 +63,9 @@ msgstr "إلغاء الكل"
 
 msgid "Cancel order"
 msgstr "إلغاء الأمر"
+
+msgid "Link OCO"
+msgstr "ربط OCO"
 
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "هل أنت متأكد من أنك تريد تنفيذ جميع الطلبات بسعر السوق؟"
@@ -259,8 +268,32 @@ msgstr "اسم الاتصال"
 msgid "The name of connection"
 msgstr "اسم الاتصال"
 
+msgid "Additional parameters"
+msgstr "معلمات إضافية"
+
+msgid "Comment"
+msgstr "تعليق"
+
+msgid "Order's comment"
+msgstr "تعليق الطلب"
+
+msgid "Exchange"
+msgstr "تحويل"
+
+msgid "Exchange name"
+msgstr "اسم تبادل"
+
 msgid "Positions"
 msgstr "المراكز"
+
+msgid "Convert"
+msgstr "تحويل"
+
+msgid "Convert to "
+msgstr "تحويل إلى "
+
+msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
+msgstr "عند وضع أمر، تحتاج إلى تحديد رمز المنتج. تحدد أكواد المنتج هذه فئة الأمر. على سبيل المثال، يمكنك وضع أدناه رمز المنتج المذكور، CNC - لتداول الأسهم في التسليم MIS – لتداول الأسهم و F &amp; O في NRML خلال اليوم – لتداول F&amp;O، العملة والسلع لمركز ليلة وضحاها. وبما أن هذه المراكز ليست مراكز خلال اليوم، فإن متطلبات الهامش لهذه ستكون حسب الهوامش لليلة واحدة. أيضا، لن تكون مربعة قبالة من قبل نظامنا في نهاية جلسة التداول."
 
 msgid "Settlement price"
 msgstr "سعر التسوية"
@@ -346,8 +379,8 @@ msgstr "تعديل وقف الخسارة إلى التعادل"
 msgid "Close all"
 msgstr "إغلاق الكل"
 
-msgid "CLX all"
-msgstr "إلغاء الكل"
+msgid "Flatten all"
+msgstr "تسطيح الكل"
 
 msgid "Close all positions and cancel all orders"
 msgstr "إغلاق جميع الوضعيات وإلغاء جميع الاوامر"
@@ -382,8 +415,8 @@ msgstr "إغلاق المركز بحسب (الرمز + الحساب)"
 msgid "Close selected"
 msgstr "إغلاق المحدد"
 
-msgid "CLX"
-msgstr "إغلاق"
+msgid "Flatten"
+msgstr "تتسطح"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "إغلاق جميع الوضعيات وإلغاء جميع الأوامر من (الرمز + الحساب) المحدد"
@@ -391,14 +424,17 @@ msgstr "إغلاق جميع الوضعيات وإلغاء جميع الأوام�
 msgid "The direction of the position"
 msgstr "اتجاه الموقف"
 
-msgid "Postion’s quantity"
-msgstr "كمية البريد"
+msgid "Position’s quantity"
+msgstr "كمية الموضع"
 
 msgid "Open price"
 msgstr "سعر الافتتاح"
 
 msgid "The open/average open price of the position"
 msgstr "سعر الفتح المفتوح / المتوسط ​​للموقف"
+
+msgid "Current/Last traded price"
+msgstr "السعر الحالي/آخر سعر تم تداوله"
 
 msgid "Gross P/L"
 msgstr "إجمالي ر/خ"
@@ -451,8 +487,23 @@ msgstr "رقم الوضعية"
 msgid "The ID of the position"
 msgstr "معرف الموقف"
 
+msgid "Liquidation price"
+msgstr "سعر التصفية"
+
+msgid "State"
+msgstr "الولاية"
+
+msgid "Open or closed"
+msgstr "فتح أو إغلاق"
+
 msgid "Long"
 msgstr "طويل"
 
 msgid "Short"
 msgstr "قصير"
+
+msgid "Closed"
+msgstr "مغلق"
+
+msgid "Open"
+msgstr "فتح"

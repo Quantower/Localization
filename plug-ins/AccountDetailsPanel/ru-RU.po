@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-04-02 11:33+0300\n"
+"POT-Creation-Date: 2020-11-10 20:46+0200\n"
 "PO-Revision-Date: 2018-12-04 14:22+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,23 +16,53 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Name"
-msgstr "Имя счета"
-
 msgid "Balance"
 msgstr "Баланс"
+
+msgid "The current balance of the Account"
+msgstr "Текущий баланс Счета"
+
+msgid "Netting Type"
+msgstr "Тип сетки"
+
+msgid "Account’s netting type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "Тип сетки учетной записи, возможные значения: одна позиция, несколько позиций, несколько позиций с каждой стороны"
 
 msgid "ID"
 msgstr "ID счета"
 
+msgid "The Account’s identifier"
+msgstr "Идентификатор учетной записи"
+
+msgid "Name"
+msgstr "Имя счета"
+
+msgid "Client-assigned alias for the Account"
+msgstr "Назначенный клиентом псевдоним для учетной записи"
+
 msgid "Account currency"
 msgstr "Валюта счета"
+
+msgid "The home currency of the Account"
+msgstr "Домашняя валюта Счета"
 
 msgid "Account info"
 msgstr "Информация о счете"
 
 msgid "Show toolbar"
 msgstr "Показать панель инструментов"
+
+msgid "Copy RTD formula"
+msgstr "Копия формулы RTD"
+
+msgid "Label"
+msgstr "Метки"
+
+msgid "Value"
+msgstr "Значение"
+
+msgid "All above"
+msgstr "Все вышеперечисленное"
 
 msgid "General"
 msgstr "Общая информация"
@@ -45,12 +75,3 @@ msgstr "Активность по счету"
 
 msgid "Info"
 msgstr "Информация"
-
-msgid "Value"
-msgstr "Значение"
-
-msgid "Group"
-msgstr "Группа"
-
-msgid "SortIndex"
-msgstr "SortIndex"

@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:14+0300\n"
+"POT-Creation-Date: 2020-11-10 23:41+0200\n"
 "PO-Revision-Date: 2019-06-25 13:15+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: fa-IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Show toolbar"
 msgstr "نمایش نوار ابزار"
@@ -27,6 +27,12 @@ msgstr "حذف TP"
 
 msgid "Working orders"
 msgstr "سفارشات کار"
+
+msgid "Identify the category of the order: MIS – for trading in intraday, NRML – for trading for overnight position"
+msgstr "شناسایی رده از سفارش : MIS -- برای معاملات در داخل روز ، NRML -- برای معامله برای موقعیت یک شبه"
+
+msgid "Disclosed quantity"
+msgstr "کمیت افشا شده"
 
 msgid "Margin"
 msgstr "حاشیه"
@@ -57,6 +63,9 @@ msgstr "لغو همه"
 
 msgid "Cancel order"
 msgstr "لغو سفارش"
+
+msgid "Link OCO"
+msgstr "لینک OCO"
 
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "آیا مطمئن هستید که می خواهید تمام سفارشات را در قیمت بازار اجرا کنید ؟"
@@ -259,8 +268,32 @@ msgstr "نام اتصال"
 msgid "The name of connection"
 msgstr "نام اتصال"
 
+msgid "Additional parameters"
+msgstr "پارامترهای اضافی"
+
+msgid "Comment"
+msgstr "نظر"
+
+msgid "Order's comment"
+msgstr "نظر سفارش"
+
+msgid "Exchange"
+msgstr "تبادل"
+
+msgid "Exchange name"
+msgstr "نام مبادله"
+
 msgid "Positions"
 msgstr "موقعیت"
+
+msgid "Convert"
+msgstr "تبدیل"
+
+msgid "Convert to "
+msgstr "تبدیل به "
+
+msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
+msgstr "هنگام قرار دادن سفارش، باید یک کد محصول را انتخاب کنید. این کدهای محصول رده سفارش را شناسایی می کنند. به عنوان مثال، شما می توانید کد محصول ذکر شده در زیر، CNC - برای تجارت سهام در تحویل MIS - برای تجارت سهام & F&O در NRML داخل روز - برای تجارت F&O، ارز و کالا برای موقعیت یک شبه قرار دهید. از آنجا که این مواضع موقعیت های درون روزی نیستند، الزامات حاشیه ای برای این ها مانند حاشیه های یک شبه خواهد بود. همچنین، آنها توسط سیستم ما در پایان جلسه معاملات مربع نمی شود."
 
 msgid "Settlement price"
 msgstr "قیمت تسویه"
@@ -346,8 +379,8 @@ msgstr "تغییر از دست دادن توقف به یک"
 msgid "Close all"
 msgstr "بستن همه"
 
-msgid "CLX all"
-msgstr "CLX همه"
+msgid "Flatten all"
+msgstr "پهن کردن همه"
 
 msgid "Close all positions and cancel all orders"
 msgstr "بستن همه موقعیت ها و لغو همه سفارشات"
@@ -382,8 +415,8 @@ msgstr "بستن همه موقعیت های انتخاب شده (نماد + حس
 msgid "Close selected"
 msgstr "بستن انتخاب شده"
 
-msgid "CLX"
-msgstr "Clx"
+msgid "Flatten"
+msgstr "صاف"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "تمام موقعیت ها را ببندید و تمام سفارشات را با انتخاب (نماد + حساب) لغو کنید"
@@ -391,14 +424,17 @@ msgstr "تمام موقعیت ها را ببندید و تمام سفارشات 
 msgid "The direction of the position"
 msgstr "جهت موقعیت"
 
-msgid "Postion’s quantity"
-msgstr "میزان پورا"
+msgid "Position’s quantity"
+msgstr "کمیت موقعیت"
 
 msgid "Open price"
 msgstr "قیمت باز کردن"
 
 msgid "The open/average open price of the position"
 msgstr "باز/به طور متوسط قیمت باز از موقعیت"
+
+msgid "Current/Last traded price"
+msgstr "قیمت فعلی/آخرین معامله شده"
 
 msgid "Gross P/L"
 msgstr "ناخالص P/L"
@@ -451,8 +487,23 @@ msgstr "شناسه موقعیت"
 msgid "The ID of the position"
 msgstr "شناسه موقعیت"
 
+msgid "Liquidation price"
+msgstr "قیمت انحلال"
+
+msgid "State"
+msgstr "دولت"
+
+msgid "Open or closed"
+msgstr "باز یا بسته"
+
 msgid "Long"
 msgstr "طولانی"
 
 msgid "Short"
 msgstr "کوتاه"
+
+msgid "Closed"
+msgstr "بسته"
+
+msgid "Open"
+msgstr "باز"

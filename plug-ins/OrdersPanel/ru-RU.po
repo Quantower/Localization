@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:14+0300\n"
+"POT-Creation-Date: 2020-11-10 23:41+0200\n"
 "PO-Revision-Date: 2018-12-04 15:38+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -27,6 +27,12 @@ msgstr "Удалить ТП"
 
 msgid "Working orders"
 msgstr "Рабочие ордера"
+
+msgid "Identify the category of the order: MIS – for trading in intraday, NRML – for trading for overnight position"
+msgstr "Определите категорию заказа: MIS - для торговли внутридневной, NRML - для торговли на ночную позицию"
+
+msgid "Disclosed quantity"
+msgstr "Раскрытое количество"
 
 msgid "Margin"
 msgstr "Маржа"
@@ -57,6 +63,9 @@ msgstr "Отменить все"
 
 msgid "Cancel order"
 msgstr "Отменить ордер"
+
+msgid "Link OCO"
+msgstr "Ссылка ОКО"
 
 msgid "Are you sure you want to execute all orders at market price?"
 msgstr "Вы действительно хотите исполнить все ордера по рыночной цене?"
@@ -259,8 +268,32 @@ msgstr "Название подключения"
 msgid "The name of connection"
 msgstr "Название подключения"
 
+msgid "Additional parameters"
+msgstr "Дополнительные параметры"
+
+msgid "Comment"
+msgstr "Комментировать"
+
+msgid "Order's comment"
+msgstr "Комментарий Ордена"
+
+msgid "Exchange"
+msgstr "Биржа"
+
+msgid "Exchange name"
+msgstr "Имя обмена"
+
 msgid "Positions"
 msgstr "Позиции"
+
+msgid "Convert"
+msgstr "Конвертировать"
+
+msgid "Convert to "
+msgstr "Преобразовать в "
+
+msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
+msgstr "При размещении заказа необходимо выбрать код продукта. Эти коды продуктов определяют категорию заказа. Например, вы можете разместить ниже упомянутый код продукта, CNC - Для торговли акциями в доставке MIS - Для торговли акциями и F'O во внутридневной NRML - Для торговли F'O, Валюты и сырьевых товаров для ночной позиции. Поскольку эти позиции не являются внутридневные позиции, маржинальные требования к ним будут в соответствии с ночной маржи. Кроме того, они не будут в квадрате от нашей системы в конце торговой сессии."
 
 msgid "Settlement price"
 msgstr "Расчетная цена"
@@ -346,8 +379,8 @@ msgstr "Изменить Стоп лосс в безубыток"
 msgid "Close all"
 msgstr "Закрыть все"
 
-msgid "CLX all"
-msgstr "CLX для всех"
+msgid "Flatten all"
+msgstr "Сгладить все"
 
 msgid "Close all positions and cancel all orders"
 msgstr "Закрыть все позиции и отменить все ордера"
@@ -382,8 +415,8 @@ msgstr "Закрыть позицию по выбранному (символу 
 msgid "Close selected"
 msgstr "Закрыть выбранные"
 
-msgid "CLX"
-msgstr "CLX"
+msgid "Flatten"
+msgstr "Выровнять"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
 msgstr "Закрыть все позиции и отменить все ордера по выбранному (символу + счету)"
@@ -391,14 +424,17 @@ msgstr "Закрыть все позиции и отменить все орде
 msgid "The direction of the position"
 msgstr "Направление позиции"
 
-msgid "Postion’s quantity"
-msgstr "Объем позиции"
+msgid "Position’s quantity"
+msgstr "Количество позиции"
 
 msgid "Open price"
 msgstr "Цена открытия"
 
 msgid "The open/average open price of the position"
 msgstr "Цена открытия/средняя цена открытия позиции"
+
+msgid "Current/Last traded price"
+msgstr "Текущая/Последняя торгуемая цена"
 
 msgid "Gross P/L"
 msgstr "Валовая P/L"
@@ -451,8 +487,23 @@ msgstr "ID позиции"
 msgid "The ID of the position"
 msgstr "ID позиции"
 
+msgid "Liquidation price"
+msgstr "Ликвидационная цена"
+
+msgid "State"
+msgstr "Штат"
+
+msgid "Open or closed"
+msgstr "Открыть или закрыть"
+
 msgid "Long"
 msgstr "Длинная"
 
 msgid "Short"
 msgstr "Короткая"
+
+msgid "Closed"
+msgstr "Закрытый"
+
+msgid "Open"
+msgstr "Открытие"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:50+0300\n"
+"POT-Creation-Date: 2020-11-10 21:24+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -30,24 +30,6 @@ msgstr "모델링 계획"
 
 msgid "General"
 msgstr "일반"
-
-msgid "Multiple per side"
-msgstr "한 면당 복수"
-
-msgid "Multiple positions"
-msgstr "여러 직책"
-
-msgid "One Position"
-msgstr "한 포지션"
-
-msgid "Fee per side, quoting currency"
-msgstr "면 당 수수료, 인용 통화"
-
-msgid "Margin"
-msgstr "여유"
-
-msgid "Netting type"
-msgstr "그물 형"
 
 msgid "Initial balance"
 msgstr "초기 잔액"
@@ -79,59 +61,50 @@ msgstr "상품제거"
 msgid "Open panel"
 msgstr "열린 패널"
 
-msgid "Tick"
-msgstr "진드기"
-
-msgid "1 minute"
-msgstr "1 분"
-
-msgid "1 day"
-msgstr "1 일"
-
-msgid "Bid/Ask/Last"
-msgstr "입찰 / 요청 / 마지막"
-
-msgid "Last"
-msgstr "마지막"
+msgid "Order entry"
+msgstr "주문 엔트리"
 
 msgid "Chart"
 msgstr "차트"
 
-msgid "Order entry"
-msgstr "주문 엔트리"
+msgid "DOM Trader"
+msgstr "DOM Trader"
 
 msgid "Market Depth"
 msgstr "시장 심도"
 
-msgid "DOM Trader"
-msgstr "DOM Trader"
-
 msgid "Time & Sales"
 msgstr "시간과 판매"
+
+msgid "DOM surface"
+msgstr "DOM 표면"
+
+msgid "TPO Chart"
+msgstr "TPO 차트"
 
 msgid "Account performance"
 msgstr "계정 성능"
 
-msgid "Order Flow Surface"
-msgstr "순서 흐름 서피스"
+msgid "Market Replay"
+msgstr "시장 리플레이"
 
-msgid "History Player"
-msgstr "역사 플레이어"
+msgid "Range of replay:"
+msgstr "재생 범위 :"
 
-msgid "Maximal limit is reached."
-msgstr "최대 한도에 도달 했습니다."
+msgid "Symbol"
+msgstr "상징"
 
-msgid "Add symbol"
-msgstr "기호 추가"
+msgid "Build from"
+msgstr "에서 빌드"
+
+msgid "Executing type"
+msgstr "실행 유형"
+
+msgid "Do you really want to stop Market Replay? This action will delete all test results."
+msgstr "당신은 정말 시장 리플레이를 중지 하시겠습니까? 이 작업은 모든 테스트 결과를 삭제합니다."
 
 msgid "Symbols"
 msgstr "심볼"
-
-msgid "One step forward"
-msgstr "한 걸음 앞으로"
-
-msgid "Pause simulation"
-msgstr "일시 정지 시뮬레이션"
 
 msgid "Ready to start simulation"
 msgstr "시뮬레이션 시작 준비 완료"
@@ -160,50 +133,23 @@ msgstr "시뮬레이션 중지"
 msgid "Simulation is active"
 msgstr "시뮬레이션이 활성화되었습니다."
 
-msgid "Switch between full/short mode"
-msgstr "전체 / 단색 모드 간 전환"
+msgid "One step forward"
+msgstr "한 걸음 앞으로"
 
-msgid "Specify History Player advanced settings"
-msgstr "기록 플레이어 고급 설정 지정"
-
-msgid "Add"
-msgstr "추가"
-
-msgid "Left border of history range"
-msgstr "역사 범위의 왼쪽 테두리"
-
-msgid "Right border of history range"
-msgstr "역사 범위의 오른쪽 테두리"
-
-msgid "Range of replay:"
-msgstr "재생 범위 :"
-
-msgid "Symbol"
-msgstr "상징"
-
-msgid "Build from"
-msgstr "에서 빌드"
-
-msgid "Executing type"
-msgstr "실행 유형"
-
-msgid "Please specify correct dates."
-msgstr "올바른 날짜를 지정하십시오."
-
-msgid "Do you really want to stop History Player? This action will delete all test results."
-msgstr "당신은 정말 역사 플레이어를 중지 하 시겠습니까? 이 작업을 수행 하면 모든 테스트 결과가 삭제 됩니다."
-
-msgid "Please select symbols from one connection"
-msgstr "하나의 연결에서 기호를 선택하십시오."
+msgid "Pause simulation"
+msgstr "일시 정지 시뮬레이션"
 
 msgid "Caching history: "
 msgstr "캐싱 기록 :"
 
-msgid "Trading Simulator"
-msgstr "트레이딩 시뮬레이터"
+msgid "Trading simulator"
+msgstr "거래 시뮬레이터"
 
-msgid "add"
-msgstr "더하다"
+msgid "add symbol"
+msgstr "기호 추가"
+
+msgid "Switch between full/short mode"
+msgstr "전체 / 단색 모드 간 전환"
 
 msgid "Specify Trading Simulator advanced settings"
 msgstr "트레이딩 시뮬레이터 고급 설정 지정"

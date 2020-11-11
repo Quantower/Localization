@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:22+0300\n"
+"POT-Creation-Date: 2020-11-11 00:01+0200\n"
 "PO-Revision-Date: 2018-12-04 15:48+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -19,71 +19,125 @@ msgstr ""
 msgid "ID"
 msgstr "신분증"
 
+msgid "Symbol’s ID"
+msgstr "기호 의 ID"
+
 msgid "Symbol"
 msgstr "상징"
+
+msgid "Symbol's name"
+msgstr "기호 이름"
 
 msgid "Description"
 msgstr "기술"
 
+msgid "The description of the symbol"
+msgstr "기호에 대한 설명"
+
 msgid "Symbol type"
 msgstr "상품 종류"
 
-msgid "Quoting currency"
-msgstr "통화 인용"
+msgid "Symbol’s asset class"
+msgstr "기호의 자산 클래스"
 
 msgid "Exchange"
 msgstr "교환"
 
+msgid "The exchange of the symbol"
+msgstr "기호교환"
+
+msgid "Product currency"
+msgstr "제품 통화"
+
+msgid "The product of the symbol"
+msgstr "기호의 제품"
+
+msgid "Quoting currency"
+msgstr "통화 인용"
+
+msgid "The quoting currency of the symbol"
+msgstr "기호의 인용 통화"
+
 msgid "Quote delay"
 msgstr "견적 지연"
 
-msgid "Max lot"
-msgstr "최대 제비"
+msgid "The quotes delay"
+msgstr "따옴표 지연"
 
 msgid "Min lot"
 msgstr "최소 많이"
 
+msgid "Minimal tradable lot of symbol"
+msgstr "최소한의 거래 가능한 기호 부지"
+
+msgid "Max lot"
+msgstr "최대 제비"
+
+msgid "Maximal tradable lot of symbol"
+msgstr "심볼의 최대 거래 가능한 많은"
+
 msgid "Netting type"
 msgstr "그물 형"
 
-msgid "Quoting type"
-msgstr "인용 형식"
+msgid "Symbol’s nettinig type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "기호의 nettinig 유형, 가능한 값: 한 위치, 여러 위치, 측면당 여러 위치"
 
 msgid "Lot size"
 msgstr "로트 크기"
 
-msgid "Variable tick list"
-msgstr "가변 틱 목록"
+msgid "Symbol’s lot size"
+msgstr "기호의 로트 크기"
 
 msgid "Lot step"
 msgstr "로트 스텝"
 
+msgid "Symbol’s lot step"
+msgstr "기호의 로트 단계"
+
 msgid "Tick size"
 msgstr "눈금 크기"
+
+msgid "Tick cost"
+msgstr "진드기 비용"
 
 msgid "Expiration date"
 msgstr "만료일"
 
+msgid "Expiration date of the symbol"
+msgstr "기호 만료 날짜"
+
 msgid "Last trading date"
 msgstr "최근 거래일"
+
+msgid "Last trading date of the symbol"
+msgstr "기호의 마지막 거래 날짜"
 
 msgid "Maturity date"
 msgstr "만기일"
 
+msgid "Maturity date of the symbol"
+msgstr "기호의 만기일"
+
 msgid "Strike price"
 msgstr "행사가격"
+
+msgid "Option’s strike price"
+msgstr "옵션의 파업 가격"
 
 msgid "Option style"
 msgstr "옵션 스타일"
 
-msgid "Option series"
-msgstr "옵션 시리즈"
+msgid "The style of the option: American, European "
+msgstr "옵션의 스타일 : 미국, 유럽 "
 
-msgid "Underlier name"
-msgstr "하위 이름"
+msgid "Option serie"
+msgstr "옵션 세리에"
 
 msgid "Underlier"
 msgstr "하위 업체"
+
+msgid "The name of underlying symbol"
+msgstr "기본 기호의 이름"
 
 msgid "Symbol info"
 msgstr "기호 정보"
@@ -91,20 +145,20 @@ msgstr "기호 정보"
 msgid "Show toolbar"
 msgstr "도구 모음 표시"
 
+msgid "Copy RTD formula"
+msgstr "RTD 수식 복사"
+
+msgid "Label"
+msgstr "레이블"
+
+msgid "Value"
+msgstr "값"
+
+msgid "All above"
+msgstr "위의 모든"
+
 msgid "General"
 msgstr "일반"
 
 msgid "Trading info"
 msgstr "거래 정보"
-
-msgid "Name"
-msgstr "이름"
-
-msgid "Value"
-msgstr "값"
-
-msgid "Group"
-msgstr "그룹"
-
-msgid "SortIndex"
-msgstr "SortIndex"

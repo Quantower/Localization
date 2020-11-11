@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:50+0300\n"
+"POT-Creation-Date: 2020-11-10 21:24+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -30,24 +30,6 @@ msgstr "モデリング手法"
 
 msgid "General"
 msgstr "一般"
-
-msgid "Multiple per side"
-msgstr "1面あたり複数"
-
-msgid "Multiple positions"
-msgstr "複数のポジション"
-
-msgid "One Position"
-msgstr "1つのポジション"
-
-msgid "Fee per side, quoting currency"
-msgstr "1面あたりの手数料、通貨の引用"
-
-msgid "Margin"
-msgstr "マージン"
-
-msgid "Netting type"
-msgstr "ネットタイプ"
 
 msgid "Initial balance"
 msgstr "初期残高"
@@ -79,59 +61,50 @@ msgstr "シンボルを削除する"
 msgid "Open panel"
 msgstr "オープンパネル"
 
-msgid "Tick"
-msgstr "ティック"
-
-msgid "1 minute"
-msgstr "1分"
-
-msgid "1 day"
-msgstr "1日"
-
-msgid "Bid/Ask/Last"
-msgstr "入札/尋ね/最後"
-
-msgid "Last"
-msgstr "最後"
+msgid "Order entry"
+msgstr "注文エントリー"
 
 msgid "Chart"
 msgstr "チャート"
 
-msgid "Order entry"
-msgstr "注文エントリー"
+msgid "DOM Trader"
+msgstr "DOMトレーダー"
 
 msgid "Market Depth"
 msgstr "市場の深さ"
 
-msgid "DOM Trader"
-msgstr "DOMトレーダー"
-
 msgid "Time & Sales"
 msgstr "タイム・アンド・セールス"
+
+msgid "DOM surface"
+msgstr "DOM表面"
+
+msgid "TPO Chart"
+msgstr "TPO チャート"
 
 msgid "Account performance"
 msgstr "新しい口座のパフォーマンス"
 
-msgid "Order Flow Surface"
-msgstr "オーダー フロー サーフェス"
+msgid "Market Replay"
+msgstr "市場再生"
 
-msgid "History Player"
-msgstr "歴史プレーヤー"
+msgid "Range of replay:"
+msgstr "リプレイの範囲："
 
-msgid "Maximal limit is reached."
-msgstr "最大限度に達しています。"
+msgid "Symbol"
+msgstr "シンボル"
 
-msgid "Add symbol"
-msgstr "シンボルを追加する"
+msgid "Build from"
+msgstr "指定して構築する"
+
+msgid "Executing type"
+msgstr "実行タイプ"
+
+msgid "Do you really want to stop Market Replay? This action will delete all test results."
+msgstr "あなたは本当に市場の再生を停止したいですか?この操作により、すべてのテスト結果が削除されます。"
 
 msgid "Symbols"
 msgstr "シンボル"
-
-msgid "One step forward"
-msgstr "一歩前進"
-
-msgid "Pause simulation"
-msgstr "シミュレーションを一時停止する"
 
 msgid "Ready to start simulation"
 msgstr "シミュレーションを開始する準備ができました"
@@ -160,50 +133,23 @@ msgstr "シミュレーションを停止する"
 msgid "Simulation is active"
 msgstr "シミュレーションはアクティブです"
 
-msgid "Switch between full/short mode"
-msgstr "フル/ショートモードを切り替える"
+msgid "One step forward"
+msgstr "一歩前進"
 
-msgid "Specify History Player advanced settings"
-msgstr "履歴プレーヤーの詳細設定を指定する"
-
-msgid "Add"
-msgstr "追加する"
-
-msgid "Left border of history range"
-msgstr "履歴範囲の左境界線"
-
-msgid "Right border of history range"
-msgstr "履歴範囲の右ボーダー"
-
-msgid "Range of replay:"
-msgstr "リプレイの範囲："
-
-msgid "Symbol"
-msgstr "シンボル"
-
-msgid "Build from"
-msgstr "指定して構築する"
-
-msgid "Executing type"
-msgstr "実行タイプ"
-
-msgid "Please specify correct dates."
-msgstr "正しい日付を指定してください。"
-
-msgid "Do you really want to stop History Player? This action will delete all test results."
-msgstr "あなたは本当に歴史のプレーヤーを停止したいですか?この操作により、すべてのテスト結果が削除されます。"
-
-msgid "Please select symbols from one connection"
-msgstr "1つの接続からシンボルを選択してください"
+msgid "Pause simulation"
+msgstr "シミュレーションを一時停止する"
 
 msgid "Caching history: "
 msgstr "キャッシュ履歴："
 
-msgid "Trading Simulator"
+msgid "Trading simulator"
 msgstr "トレーディングシミュレータ"
 
-msgid "add"
-msgstr "追加する"
+msgid "add symbol"
+msgstr "シンボルを追加する"
+
+msgid "Switch between full/short mode"
+msgstr "フル/ショートモードを切り替える"
 
 msgid "Specify Trading Simulator advanced settings"
 msgstr "トレーディングシミュレータの詳細設定を指定する"

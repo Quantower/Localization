@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:22+0300\n"
+"POT-Creation-Date: 2020-11-11 00:01+0200\n"
 "PO-Revision-Date: 2018-12-04 15:48+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -19,71 +19,125 @@ msgstr ""
 msgid "ID"
 msgstr "هوية شخصية"
 
+msgid "Symbol’s ID"
+msgstr "رمز الهوية"
+
 msgid "Symbol"
 msgstr "الرمز"
+
+msgid "Symbol's name"
+msgstr "اسم الرمز"
 
 msgid "Description"
 msgstr "الوصف"
 
+msgid "The description of the symbol"
+msgstr "وصف الرمز"
+
 msgid "Symbol type"
 msgstr "نوع الرمز"
 
-msgid "Quoting currency"
-msgstr "عرض العملة"
+msgid "Symbol’s asset class"
+msgstr "فئة الأصول للرمز"
 
 msgid "Exchange"
 msgstr "تحويل"
 
+msgid "The exchange of the symbol"
+msgstr "تبادل الرمز"
+
+msgid "Product currency"
+msgstr "عملة المنتج"
+
+msgid "The product of the symbol"
+msgstr "نتاج الرمز"
+
+msgid "Quoting currency"
+msgstr "عرض العملة"
+
+msgid "The quoting currency of the symbol"
+msgstr "عملة الاقتباس للرمز"
+
 msgid "Quote delay"
 msgstr "اقتباس الاقتباس"
 
-msgid "Max lot"
-msgstr "أكبر عقد"
+msgid "The quotes delay"
+msgstr "تأخير عروض الأسعار"
 
 msgid "Min lot"
 msgstr "أصغر عقد"
 
+msgid "Minimal tradable lot of symbol"
+msgstr "الحد الأدنى من الكثير من التجارة من الرمز"
+
+msgid "Max lot"
+msgstr "أكبر عقد"
+
+msgid "Maximal tradable lot of symbol"
+msgstr "أقصى قدر من التجارة الكثير من الرمز"
+
 msgid "Netting type"
 msgstr "نوع الشباك"
 
-msgid "Quoting type"
-msgstr "نقلا عن النوع"
+msgid "Symbol’s nettinig type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "نوع nettinig للرمز، القيم الممكنة: موضع واحد، مواقف متعددة، مواضع متعددة لكل جانب"
 
 msgid "Lot size"
 msgstr "حجم الحصة"
 
-msgid "Variable tick list"
-msgstr "قائمة التجزئة المتغيرة"
+msgid "Symbol’s lot size"
+msgstr "حجم اللوت للرمز"
 
 msgid "Lot step"
 msgstr "الخطوة بين الحصص"
 
+msgid "Symbol’s lot step"
+msgstr "خطوة الكثير للرمز"
+
 msgid "Tick size"
 msgstr "حجم حركة السعر"
+
+msgid "Tick cost"
+msgstr "تكلفة حركة السعر"
 
 msgid "Expiration date"
 msgstr "تاريخ الانتهاء"
 
+msgid "Expiration date of the symbol"
+msgstr "تاريخ انتهاء صلاحية الرمز"
+
 msgid "Last trading date"
 msgstr "تاريخ آخر تداول"
+
+msgid "Last trading date of the symbol"
+msgstr "تاريخ التداول الأخير للرمز"
 
 msgid "Maturity date"
 msgstr "تاريخ النضج"
 
+msgid "Maturity date of the symbol"
+msgstr "تاريخ الاستحقاق للرمز"
+
 msgid "Strike price"
 msgstr "سعر الضربة"
+
+msgid "Option’s strike price"
+msgstr "سعر إضراب الخيار"
 
 msgid "Option style"
 msgstr "نمط الخيار"
 
-msgid "Option series"
-msgstr "سلسلة الخيارات"
+msgid "The style of the option: American, European "
+msgstr "أسلوب الخيار: أمريكي، أوروبي "
 
-msgid "Underlier name"
-msgstr "اسم مجتهد"
+msgid "Option serie"
+msgstr "خيار الدوري الإيطالي"
 
 msgid "Underlier"
 msgstr "الورقة المالية"
+
+msgid "The name of underlying symbol"
+msgstr "اسم الرمز الكامن"
 
 msgid "Symbol info"
 msgstr "معلومات الرمز"
@@ -91,20 +145,20 @@ msgstr "معلومات الرمز"
 msgid "Show toolbar"
 msgstr "إظهار شريط الأدوات"
 
+msgid "Copy RTD formula"
+msgstr "نسخ صيغة RTD"
+
+msgid "Label"
+msgstr "تسميه"
+
+msgid "Value"
+msgstr "القيمة"
+
+msgid "All above"
+msgstr "كل ما سبق"
+
 msgid "General"
 msgstr "عام"
 
 msgid "Trading info"
 msgstr "معلومات التداول"
-
-msgid "Name"
-msgstr "الاسم"
-
-msgid "Value"
-msgstr "القيمة"
-
-msgid "Group"
-msgstr "المجموعة"
-
-msgid "SortIndex"
-msgstr "SortIndex"

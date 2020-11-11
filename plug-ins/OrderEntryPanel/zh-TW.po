@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:09+0300\n"
+"POT-Creation-Date: 2020-11-10 23:19+0200\n"
 "PO-Revision-Date: 2018-12-04 15:35+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -15,6 +15,265 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Account"
+msgstr "帳戶"
+
+msgid "Account name"
+msgstr "帳戶名稱"
+
+msgid "Symbol"
+msgstr "商品"
+
+msgid "Symbol name"
+msgstr "商品名稱"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "The description of the symbol"
+msgstr "符號的描述"
+
+msgid "Side"
+msgstr "方向"
+
+msgid "The order side"
+msgstr "訂單方"
+
+msgid "Order type"
+msgstr "訂單類型"
+
+msgid "The order type"
+msgstr "訂單類型"
+
+msgid "Quantity"
+msgstr "數量"
+
+msgid "Price"
+msgstr "價格"
+
+msgid "Trigger price"
+msgstr "觸發價格"
+
+msgid "TIF"
+msgstr "時效"
+
+msgid "SL"
+msgstr "停損"
+
+msgid "Stop loss"
+msgstr "止損"
+
+msgid "TP"
+msgstr "停利"
+
+msgid "Take profit"
+msgstr "從中受益"
+
+msgid "Connection name"
+msgstr "連接名稱"
+
+msgid "Select"
+msgstr "選擇"
+
+msgid "Modify"
+msgstr "修改"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Group"
+msgstr "群組"
+
+msgid "Actions"
+msgstr "動作"
+
+msgid "Multiple"
+msgstr "多個"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Multiple order entry"
+msgstr "多個訂單輸入"
+
+msgid "reverse"
+msgstr "反向"
+
+msgid "Add to basket"
+msgstr "添加到購物籃"
+
+msgid "Create new"
+msgstr "創建新"
+
+msgid "Group actions"
+msgstr "組操作"
+
+msgid "Move to"
+msgstr "移動到"
+
+msgid "Rename"
+msgstr "重命名"
+
+msgid "Exclude from group"
+msgstr "從組排除"
+
+msgid "Ungroup"
+msgstr "取消分組"
+
+msgid "Portfolio"
+msgstr "交易組合"
+
+msgid "No order requests to show"
+msgstr "沒有要顯示的訂單請求"
+
+msgid "Add some order requests to watch them"
+msgstr "添加一些訂單請求來觀看它們"
+
+msgid "Collapse OE"
+msgstr "摺疊 Oe"
+
+msgid "+/-"
+msgstr "+/-"
+
+msgid "+"
+msgstr "+"
+
+msgid "-"
+msgstr "-"
+
+msgid "Create group"
+msgstr "建立組"
+
+msgid "Name"
+msgstr "名稱"
+
+msgid "Buy"
+msgstr "買入"
+
+msgid "Sell"
+msgstr "賣出"
+
+msgid "Submit"
+msgstr "批准"
+
+msgid "Cancel modifying"
+msgstr "取消修改"
+
+#, csharp-format
+msgid "Are you sure want to cancel all orders on {0}?"
+msgstr "是否確實要取消所有訂單{0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all buy orders on {0}?"
+msgstr "是否確實要取消所有購買訂單{0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all limit orders on {0}?"
+msgstr "是否確實要取消其上的所有{0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all sell orders on {0}?"
+msgstr "是否確實要取消所有銷售訂單{0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all stop orders on {0}?"
+msgstr "是否確實要取消其上的所有止損{0}?"
+
+msgid "Show close position"
+msgstr "顯示關閉位置"
+
+msgid "Show close positions"
+msgstr "顯示關閉位置"
+
+msgid "Close position"
+msgstr "平倉"
+
+msgid "Close all positions"
+msgstr "全部平倉"
+
+#, csharp-format
+msgid "Are you sure want to close position on {0}?"
+msgstr "是否確實要在{0}?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions on {0}?"
+msgstr "是否確實要關閉其上的所有{0}?"
+
+#, csharp-format
+msgid "Are you sure want to close position and cancel all orders on {0}?"
+msgstr "是否確實要關閉倉位並取消其上{0}?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions and cancel all orders on {0}?"
+msgstr "是否確實要關閉所有頭寸並取消所有訂單{0}?"
+
+#, csharp-format
+msgid "Are you sure want to reverse position on {0}?"
+msgstr "是否確實要反轉{0}?"
+
+msgid "Order entry small"
+msgstr "訂單輸入很小"
+
+msgid "Slim mode"
+msgstr "超薄模式"
+
+msgid "No labels"
+msgstr "無標籤"
+
+msgid "Show additional order parameters"
+msgstr "顯示其他訂單參數"
+
+msgid "View"
+msgstr "查看"
+
+msgid "Ask"
+msgstr "賣價"
+
+msgid "Bid"
+msgstr "買價"
+
+msgid "Mkt"
+msgstr "市場"
+
+msgid "Flatten"
+msgstr "扁平化"
+
+msgid "Close positions"
+msgstr "關閉倉位"
+
+msgid "Reverse"
+msgstr "反向"
+
+msgid "Cancel orders"
+msgstr "取消掛單"
+
+msgid "Cancel buy"
+msgstr "取消買單"
+
+msgid "Cancel sell"
+msgstr "取消賣單"
+
+msgid "Cancel limits"
+msgstr "取消限制"
+
+msgid "Cancel stops"
+msgstr "取消停止"
+
+msgid "Hide"
+msgstr "隱藏"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Convert to {this.ProductTypeLabel}"
+msgstr "轉換為 \\this。產品類型標籤|"
+
+msgid "No {shortName}"
+msgstr "否 [短名稱]"
+
+msgid "Activate trailing {this.behavior.Name.ToLower()}"
+msgstr "啟動尾隨 [此. behavior. name. ToLower()]"
 
 msgid "Show VWAP"
 msgstr "顯示VWAP"
@@ -24,18 +283,6 @@ msgstr "隱藏VWAP"
 
 msgid "VWAP option allows you to see what will be the Average open price if you send order with selected quantity"
 msgstr "如果您發送包含所選數量的訂單，VWAP選項可讓您查看平均開盤價"
-
-msgid "Take profit"
-msgstr "從中受益"
-
-msgid "Stop loss"
-msgstr "止損"
-
-msgid "Activate trailing stop loss"
-msgstr "激活追踪止損"
-
-msgid "Close position"
-msgstr "平倉"
 
 msgid "Quantity to close"
 msgstr "平倉數量"
@@ -55,9 +302,6 @@ msgstr "本地 SL/TP"
 msgid "Place"
 msgstr "下單"
 
-msgid "Modify"
-msgstr "修改"
-
 msgid "LSL"
 msgstr "LSL"
 
@@ -73,23 +317,11 @@ msgstr "本地獲利"
 msgid "Modify order"
 msgstr "修改訂單"
 
-msgid "Account"
-msgstr "帳戶"
-
 msgid "Order ID"
 msgstr "訂單編號"
 
 msgid "Connection"
 msgstr "連接"
-
-msgid "Symbol"
-msgstr "商品"
-
-msgid "Order type"
-msgstr "訂單類型"
-
-msgid "Side"
-msgstr "方向"
 
 msgid "Order was cancelled"
 msgstr "訂單已取消"
@@ -105,9 +337,6 @@ msgstr "做多"
 
 msgid "Short"
 msgstr "短"
-
-msgid "Quantity"
-msgstr "數量"
 
 msgid "Open price"
 msgstr "開倉價"
@@ -130,11 +359,14 @@ msgstr "日期/時間"
 msgid "Position was closed"
 msgstr "位置已關閉"
 
-msgid "Cancel"
-msgstr "取消"
-
 msgid "Time in force"
 msgstr "有效時間"
+
+msgid "Brackets setup"
+msgstr "支架設置"
+
+msgid "OE dialog"
+msgstr "OE 對話框"
 
 msgid "Order entry"
 msgstr "訂單輸入"
@@ -145,29 +377,17 @@ msgstr "過期"
 msgid "Place order"
 msgstr "下訂單"
 
-msgid "Bid"
-msgstr "買價"
+msgid "Incorrect quantity: 0"
+msgstr "數量不正確: 0"
 
-msgid "Ask"
-msgstr "賣價"
+msgid "Set order as default"
+msgstr "將順序設置為預設值"
 
-msgid "Order entry small"
-msgstr "訂單輸入很小"
+msgid "Save order template"
+msgstr "保存訂單範本"
 
-msgid "Send Limit order on Ask price"
-msgstr "以賣價發送限價盤"
+msgid "Create template"
+msgstr "創建範本"
 
-msgid "Send Limit order on Bid price"
-msgstr "發送限價訂單出價"
-
-msgid "Send Market order"
-msgstr "發送市價單"
-
-msgid "Mkt"
-msgstr "市場"
-
-msgid "Buy"
-msgstr "買入"
-
-msgid "Sell"
-msgstr "賣出"
+msgid "Apply"
+msgstr "應用"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:50+0300\n"
+"POT-Creation-Date: 2020-11-10 21:24+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -30,24 +30,6 @@ msgstr "Схема моделирования"
 
 msgid "General"
 msgstr "Общие"
-
-msgid "Multiple per side"
-msgstr "Несколько на каждую сторону"
-
-msgid "Multiple positions"
-msgstr "Несколько позиций"
-
-msgid "One Position"
-msgstr "Одна позиция"
-
-msgid "Fee per side, quoting currency"
-msgstr "Комиссия за сторону, в валюте котирования"
-
-msgid "Margin"
-msgstr "Маржа"
-
-msgid "Netting type"
-msgstr "Тип неттинга"
 
 msgid "Initial balance"
 msgstr "Начальный баланс"
@@ -79,59 +61,50 @@ msgstr "Удалить символ"
 msgid "Open panel"
 msgstr "Открыть панель"
 
-msgid "Tick"
-msgstr "Тик"
-
-msgid "1 minute"
-msgstr "1 минута"
-
-msgid "1 day"
-msgstr "1 день"
-
-msgid "Bid/Ask/Last"
-msgstr "Бид/Аск/Ласт"
-
-msgid "Last"
-msgstr "Ласт"
+msgid "Order entry"
+msgstr "Создать Ордер"
 
 msgid "Chart"
 msgstr "График"
 
-msgid "Order entry"
-msgstr "Создать Ордер"
+msgid "DOM Trader"
+msgstr "DOM Трейдер"
 
 msgid "Market Depth"
 msgstr "Стакан Ордеров"
 
-msgid "DOM Trader"
-msgstr "DOM Трейдер"
-
 msgid "Time & Sales"
 msgstr "Лента Сделок"
+
+msgid "DOM surface"
+msgstr "Поверхность DOM"
+
+msgid "TPO Chart"
+msgstr "Диаграмма TPO"
 
 msgid "Account performance"
 msgstr "Показатели Счета"
 
-msgid "Order Flow Surface"
-msgstr "Заказать поверхность потока"
+msgid "Market Replay"
+msgstr "Рыночный повтор"
 
-msgid "History Player"
-msgstr "Исторический Плеер"
+msgid "Range of replay:"
+msgstr "Диапазон:"
 
-msgid "Maximal limit is reached."
-msgstr "Достигнут максимальный лимит."
+msgid "Symbol"
+msgstr "Символ"
 
-msgid "Add symbol"
-msgstr "Добавить символ"
+msgid "Build from"
+msgstr "Построить из"
+
+msgid "Executing type"
+msgstr "Тип исполнения"
+
+msgid "Do you really want to stop Market Replay? This action will delete all test results."
+msgstr "Вы действительно хотите, чтобы остановить рынок Replay? Это действие удалит все результаты теста."
 
 msgid "Symbols"
 msgstr "Символы"
-
-msgid "One step forward"
-msgstr "Один шаг вперед"
-
-msgid "Pause simulation"
-msgstr "Пауза"
 
 msgid "Ready to start simulation"
 msgstr "Готов к запуску моделирования"
@@ -160,50 +133,23 @@ msgstr "Остановить моделирование"
 msgid "Simulation is active"
 msgstr "Моделирование активно"
 
-msgid "Switch between full/short mode"
-msgstr "Переключение между полным/коротким режимом"
+msgid "One step forward"
+msgstr "Один шаг вперед"
 
-msgid "Specify History Player advanced settings"
-msgstr "Дополнительные параметры Исторического Плеера"
-
-msgid "Add"
-msgstr "Добавить"
-
-msgid "Left border of history range"
-msgstr "Стартовая точка исторического диапазона"
-
-msgid "Right border of history range"
-msgstr "Конечная точка исторического диапазона"
-
-msgid "Range of replay:"
-msgstr "Диапазон:"
-
-msgid "Symbol"
-msgstr "Символ"
-
-msgid "Build from"
-msgstr "Построить из"
-
-msgid "Executing type"
-msgstr "Тип исполнения"
-
-msgid "Please specify correct dates."
-msgstr "Укажите правильные даты."
-
-msgid "Do you really want to stop History Player? This action will delete all test results."
-msgstr "Вы действительно хотите остановить Исторический Плеер? Это действие удалит все результаты тестирования."
-
-msgid "Please select symbols from one connection"
-msgstr "Выберите символы из одного соединения."
+msgid "Pause simulation"
+msgstr "Пауза"
 
 msgid "Caching history: "
 msgstr "Кеширование истории:"
 
-msgid "Trading Simulator"
-msgstr "Торговый Симулятор"
+msgid "Trading simulator"
+msgstr "Торговый симулятор"
 
-msgid "add"
-msgstr "Добавить"
+msgid "add symbol"
+msgstr "добавить символ"
+
+msgid "Switch between full/short mode"
+msgstr "Переключение между полным/коротким режимом"
 
 msgid "Specify Trading Simulator advanced settings"
 msgstr "Расширенные настройки Торгового Симулятора"

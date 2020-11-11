@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:52+0300\n"
+"POT-Creation-Date: 2020-11-10 21:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:11+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -24,6 +24,111 @@ msgstr "Експортувати файл"
 
 msgid "Close"
 msgstr "Закрити"
+
+msgid "All settings"
+msgstr "Усі налаштування"
+
+msgid "Apply"
+msgstr "Застосувати"
+
+msgid "Build from"
+msgstr "Побудувати з"
+
+msgid "Profile aggregation"
+msgstr "Агрегація профілів"
+
+msgid "Custom step (ticks)"
+msgstr "Нетиповий крок (кліщі)"
+
+msgid "Initial balance"
+msgstr "Початковий баланс"
+
+msgid "Show singles"
+msgstr "Показати сингли"
+
+msgid "Midpoint"
+msgstr "Середнє"
+
+msgid "Show value area"
+msgstr "Показати область значень"
+
+msgid "Show POC"
+msgstr "Показати POC"
+
+msgid "Incorrect parameters: build from should be less than the profile."
+msgstr "Неправильні параметри: збірка має бути меншою за профіль."
+
+msgid "Incorrect parameters: build from should be a multiple of the profile."
+msgstr "Неправильні параметри: збірка має бути кратна профілю."
+
+msgid "Boxes"
+msgstr "Коробки"
+
+msgid "Letters"
+msgstr "Літери"
+
+msgid "Right Front"
+msgstr "Правий передній"
+
+msgid "Right Rear"
+msgstr "Права задня частина"
+
+msgid "Left Rear"
+msgstr "Ліва задня"
+
+msgid "Single Color"
+msgstr "Один колір"
+
+msgid "Up/Down Profile"
+msgstr "Профіль вгору/вниз"
+
+msgid "Up/Down Bars"
+msgstr "Смуги вгору/вниз"
+
+msgid "Heatmap"
+msgstr "Теплова карта"
+
+msgid "Delta Profile"
+msgstr "Дельта-профіль"
+
+msgid "Delta Price"
+msgstr "Дельта Ціна"
+
+msgid "Delta Bars"
+msgstr "4-зірковий готель"
+
+msgid "Volume Profile"
+msgstr "Профіль гучності"
+
+msgid "Volume Price"
+msgstr "Ціна об'єму"
+
+msgid "Volume Bars"
+msgstr "Смуги гучності"
+
+msgid "None"
+msgstr "Ніхто"
+
+msgid "Final"
+msgstr "Остаточний"
+
+msgid "Migrating"
+msgstr "Перехід"
+
+msgid "Minute"
+msgstr "1 хвилина"
+
+msgid "Hour"
+msgstr "Години"
+
+msgid "Day"
+msgstr "День"
+
+msgid "Week"
+msgstr "Тиждень"
+
+msgid "Month"
+msgstr "Місяць"
 
 msgid "Object manager"
 msgstr "Менеджер об'єктів"
@@ -64,8 +169,29 @@ msgstr "Показати на графіку"
 msgid "Overlay settings"
 msgstr "Накладання налаштувань"
 
-msgid "Apply"
-msgstr "Застосувати"
+msgid "DOM levels count"
+msgstr "Кількість рівнів DOM"
+
+msgid "Maximal level2 size"
+msgstr "Максимальний розмір рівня 2"
+
+msgid "Maximal trade size"
+msgstr "Максимальний розмір торгівлі"
+
+msgid "DOM levels contrast"
+msgstr "Контрастність рівнів DOM"
+
+msgid "Trades marker size"
+msgstr "Розмір маркера торгів"
+
+msgid "Trades marker opacity"
+msgstr "Непрозорість маркера торгів"
+
+msgid "Auto"
+msgstr "Автоматичного"
+
+msgid "Custom"
+msgstr "Користувача"
 
 msgid "Apply overlay"
 msgstr "Застосувати накладення"
@@ -97,9 +223,6 @@ msgstr "Розмальовки за об'ємом"
 msgid "Coloring by ticks"
 msgstr "Розмальовки по кліщів"
 
-msgid "None"
-msgstr "Ніхто"
-
 msgid "Coloring by delta"
 msgstr "Розмальовки Дельта"
 
@@ -109,8 +232,23 @@ msgstr "Розмальовки по торгів"
 msgid "Histogram"
 msgstr "Gistogramm"
 
+msgid "Single"
+msgstr "Одного"
+
+msgid "Double"
+msgstr "Подвійний"
+
+msgid "Imbalance"
+msgstr "Дисбаланс"
+
 msgid "Enabled"
 msgstr "Включений"
+
+msgid "Buy"
+msgstr "Купити"
+
+msgid "Sell"
+msgstr "Продаємо"
 
 msgid "Bids"
 msgstr "Ставки"
@@ -166,9 +304,6 @@ msgstr "Розмір"
 msgid "Price"
 msgstr "Ціна"
 
-msgid "Imbalance"
-msgstr "Дисбаланс"
-
 msgid "Imb. bar"
 msgstr "IMB. Бар"
 
@@ -190,11 +325,14 @@ msgstr "Глибина історії"
 msgid "Mouse trading"
 msgstr "Торгівля мишею"
 
+msgid "Enable keyboard trading"
+msgstr "Увімкнути торгівлю клавіатурою"
+
 msgid "Show/Hide Quick OE"
 msgstr "Показати/приховати швидкий е"
 
-msgid "Mouse trading settings: TIF, Amount"
-msgstr "Налаштування миші торгівлі: TIF, сума"
+msgid "Show/Hide End of Bar"
+msgstr "Відобразити або приховати кінець панелі"
 
 msgid "Show/Hide Volume Analysis toolbar"
 msgstr "Показати/приховати панель інструментів \"аналіз гучності\""
@@ -223,11 +361,23 @@ msgstr "Відображати панель інструментів \"анал�
 msgid "Show Quick OE"
 msgstr "Показувати Експрес-е"
 
+msgid "Show End of Bar"
+msgstr "Показати кінець панелі"
+
+msgid "Show symbol description"
+msgstr "Показати опис символу"
+
+msgid "Confirm on panel's close"
+msgstr "Підтвердження закриття панелі"
+
 msgid "Visibility"
 msgstr "Видимість"
 
 msgid "Data type"
 msgstr "Тип даних"
+
+msgid "OE qty buttons"
+msgstr "Кнопки OE qty"
 
 msgid "View"
 msgstr "Вид"
@@ -244,8 +394,8 @@ msgstr "Шкала ціни"
 msgid "Visual trading"
 msgstr "Візуальна торгівля"
 
-msgid "Chart order entry"
-msgstr "Внесення порядку діалогу"
+msgid "Order Entry"
+msgstr "Запис замовлення"
 
 msgid "Info window"
 msgstr "Інформаційне вікно"
@@ -367,6 +517,33 @@ msgstr "Звернути увагу"
 msgid "Draw comment"
 msgstr "Намалювати коментар"
 
+msgid "Sell Market"
+msgstr "Продати ринок"
+
+msgid "Sell Bid"
+msgstr "Продати ставку"
+
+msgid "Sell Ask"
+msgstr "Продати Запитати"
+
+msgid "Buy Market"
+msgstr "Купити ринок"
+
+msgid "Buy Bid"
+msgstr "Купити ставку"
+
+msgid "Buy Ask"
+msgstr "Купити Запитати"
+
+msgid "Cancel Orders"
+msgstr "Скасувати замовлення"
+
+msgid "Close Positions"
+msgstr "Закрити позиції"
+
+msgid "Flatten"
+msgstr "Розплющите"
+
 msgid "Remove indicators"
 msgstr "Видалити індикатори"
 
@@ -421,6 +598,12 @@ msgstr "Бар в барі рухається"
 msgid "Change symbol"
 msgstr "Змінити символ"
 
+msgid "Copy selected tools"
+msgstr "Копіювати вибрані інструменти"
+
+msgid "Paste tools"
+msgstr "Вставити інструменти"
+
 msgid "Show Object manager"
 msgstr "Показати менеджер об'єктів"
 
@@ -430,8 +613,32 @@ msgstr "Зробити Знімок екрану"
 msgid "Volume Analysis settings"
 msgstr "Параметри аналізу гучності"
 
-msgid "Order Flow Surface"
-msgstr "Порядок потоку поверхні"
+msgid "Quick settings"
+msgstr "Швидкі налаштування"
+
+msgid "Show/Hide Order Book"
+msgstr "Відобразити або приховати книгу замовлень"
+
+msgid "Enable auto centering"
+msgstr "Увімкнути автоматичне центрування"
+
+msgid "Switch info window mode"
+msgstr "Перемкнути режим вікна інформації"
+
+msgid "Show Order Book"
+msgstr "Показати книгу замовлень"
+
+msgid "General"
+msgstr "Загальне"
+
+msgid "Monochome"
+msgstr "Монохомний"
+
+msgid "Bichrome"
+msgstr "Біхром (Ена)"
+
+msgid "Order flow surface"
+msgstr "Замовити поверхню потоку"
 
 msgid "Last color"
 msgstr "Останній колір"
@@ -447,6 +654,18 @@ msgstr "Додати накладання"
 
 msgid "Remove all"
 msgstr "Видалити всі"
+
+msgid "AGGREGATION"
+msgstr "Агрегації"
+
+msgid "STYLE"
+msgstr "Стиль"
+
+msgid "VOLUME ANALYSIS"
+msgstr "АНАЛІЗ ОБ'ЄМУ"
+
+msgid "Show/Hide TPO statistics"
+msgstr "Відображення або приховання статистики TPO"
 
 msgid "Cluster"
 msgstr "Кластера"
@@ -472,6 +691,9 @@ msgstr "T&S"
 msgid "Custom profile"
 msgstr "Користувацький профіль"
 
+msgid "Custom VWAP"
+msgstr "Користувальницькі VWAP"
+
 msgid "Volume Analysis Settings"
 msgstr "Параметри аналізу гучності"
 
@@ -483,3 +705,6 @@ msgstr "Час і продаж"
 
 msgid "Custom profile tool"
 msgstr "Інструмент \"користувацький профіль\""
+
+msgid "Custom VWAP tool"
+msgstr "Користувальницький інструмент VWAP"

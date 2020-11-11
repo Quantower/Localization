@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 12:50+0300\n"
+"POT-Creation-Date: 2020-11-10 21:24+0200\n"
 "PO-Revision-Date: 2018-12-04 14:58+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -30,24 +30,6 @@ msgstr "Esquema de modelagem"
 
 msgid "General"
 msgstr "Geral"
-
-msgid "Multiple per side"
-msgstr "Múltipla por lado"
-
-msgid "Multiple positions"
-msgstr "Posições múltiplas"
-
-msgid "One Position"
-msgstr "Uma posição"
-
-msgid "Fee per side, quoting currency"
-msgstr "Taxa por lado, cotação de moeda"
-
-msgid "Margin"
-msgstr "Margem"
-
-msgid "Netting type"
-msgstr "Tipo de compensação"
 
 msgid "Initial balance"
 msgstr "Saldo inicial"
@@ -79,59 +61,50 @@ msgstr "Remover Ativo"
 msgid "Open panel"
 msgstr "Painel aberto"
 
-msgid "Tick"
-msgstr "Carraça"
-
-msgid "1 minute"
-msgstr "1 minuto"
-
-msgid "1 day"
-msgstr "1 dia"
-
-msgid "Bid/Ask/Last"
-msgstr "Licitar / Perguntar / Último"
-
-msgid "Last"
-msgstr "Último"
+msgid "Order entry"
+msgstr "Entrada de ordem"
 
 msgid "Chart"
 msgstr "Gráfico"
 
-msgid "Order entry"
-msgstr "Entrada de ordem"
+msgid "DOM Trader"
+msgstr "Comerciante DOM"
 
 msgid "Market Depth"
 msgstr "Profundidade de mercado"
 
-msgid "DOM Trader"
-msgstr "Comerciante DOM"
-
 msgid "Time & Sales"
 msgstr "Tempo e vendas"
+
+msgid "DOM surface"
+msgstr "Superfície DOM"
+
+msgid "TPO Chart"
+msgstr "Gráfico de TPO"
 
 msgid "Account performance"
 msgstr "Desempenho da conta"
 
-msgid "Order Flow Surface"
-msgstr "Superfície do fluxo da ordem"
+msgid "Market Replay"
+msgstr "Repetição de mercado"
 
-msgid "History Player"
-msgstr "Jogador da história"
+msgid "Range of replay:"
+msgstr "Gama de replay:"
 
-msgid "Maximal limit is reached."
-msgstr "O limite máximo é alcançado."
+msgid "Symbol"
+msgstr "Ativo"
 
-msgid "Add symbol"
-msgstr "Adicionar Ativo"
+msgid "Build from"
+msgstr "Cria a partir de"
+
+msgid "Executing type"
+msgstr "Tipo de execução"
+
+msgid "Do you really want to stop Market Replay? This action will delete all test results."
+msgstr "Quer mesmo parar a repetição do mercado? Esta ação eliminará todos os resultados dos testes."
 
 msgid "Symbols"
 msgstr "Ativos"
-
-msgid "One step forward"
-msgstr "Um passo a frente"
-
-msgid "Pause simulation"
-msgstr "Simulação de pausa"
 
 msgid "Ready to start simulation"
 msgstr "Pronto para iniciar a simulação"
@@ -160,50 +133,23 @@ msgstr "Pare a simulação"
 msgid "Simulation is active"
 msgstr "A simulação está ativa"
 
-msgid "Switch between full/short mode"
-msgstr "Alternar entre o modo completo / curto"
+msgid "One step forward"
+msgstr "Um passo a frente"
 
-msgid "Specify History Player advanced settings"
-msgstr "Especifique as configurações avançadas do History Player"
-
-msgid "Add"
-msgstr "Adicionar"
-
-msgid "Left border of history range"
-msgstr "Fronteira esquerda do intervalo histórico"
-
-msgid "Right border of history range"
-msgstr "Fronteira direita do intervalo histórico"
-
-msgid "Range of replay:"
-msgstr "Gama de replay:"
-
-msgid "Symbol"
-msgstr "Ativo"
-
-msgid "Build from"
-msgstr "Cria a partir de"
-
-msgid "Executing type"
-msgstr "Tipo de execução"
-
-msgid "Please specify correct dates."
-msgstr "Por favor, especifique as datas corretas."
-
-msgid "Do you really want to stop History Player? This action will delete all test results."
-msgstr "Você realmente quer parar o jogador de história? Essa ação excluirá todos os resultados de teste."
-
-msgid "Please select symbols from one connection"
-msgstr "Por favor selecione símbolos de uma conexão"
+msgid "Pause simulation"
+msgstr "Simulação de pausa"
 
 msgid "Caching history: "
 msgstr "Histórico de Cache:"
 
-msgid "Trading Simulator"
-msgstr "Simulador de Negociação"
+msgid "Trading simulator"
+msgstr "Simulador de trading"
 
-msgid "add"
-msgstr "adicionar"
+msgid "add symbol"
+msgstr "adicionar símbolo"
+
+msgid "Switch between full/short mode"
+msgstr "Alternar entre o modo completo / curto"
 
 msgid "Specify Trading Simulator advanced settings"
 msgstr "Especifique as configurações avançadas do Trading Simulator"

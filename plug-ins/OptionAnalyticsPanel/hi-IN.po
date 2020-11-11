@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:06+0300\n"
+"POT-Creation-Date: 2020-11-10 22:58+0200\n"
 "PO-Revision-Date: 2019-04-02 16:11+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -28,11 +28,23 @@ msgstr "समय क्षय, दिन:"
 msgid "Volatility shift, %:"
 msgstr "अस्थिरता बदलाव,%:"
 
+msgid "All visible"
+msgstr "सभी दिखाई दे रहे हैं"
+
+msgid "No selected"
+msgstr "कोई चयनित नहीं"
+
+msgid "Strategies"
+msgstr "रणनीतियों"
+
 msgid "Test & Real positions"
 msgstr "टेस्ट और वास्तविक स्थितियां"
 
 msgid "Add underlier"
 msgstr "अंडरलियर जोड़ें"
+
+msgid "Add strategy"
+msgstr "रणनीति जोड़ें"
 
 msgid "Place paper"
 msgstr "प्लेस पेपर"
@@ -55,14 +67,71 @@ msgstr "सभी कागजी पदों को रद्द करें"
 msgid "Close all real positions"
 msgstr "सभी वास्तविक पदों को बंद"
 
+msgid "Close Position"
+msgstr "क्लोज पोजीशन"
+
+msgid "Remove strategy"
+msgstr "रणनीति निकालें"
+
+msgid "Create strategy"
+msgstr "रणनीति बनाएं"
+
+msgid "Exclude from strategy"
+msgstr "रणनीति से बाहर"
+
+msgid "Ungroup strategy"
+msgstr "संयुक्त राष्ट्र समूह रणनीति"
+
+msgid "Analyse paper"
+msgstr "पेपर का विश्लेषण करें"
+
+msgid "Remove paper"
+msgstr "कागज निकालें"
+
+msgid "Paper  positions"
+msgstr "कागज पदों"
+
+msgid "Real positions"
+msgstr "वास्तविक स्थितियां"
+
+msgid "+"
+msgstr "+"
+
+msgid "-"
+msgstr "-"
+
+msgid "reverse"
+msgstr "उल्टा"
+
+msgid "Place"
+msgstr "जगह"
+
+msgid "Buy"
+msgstr "खरीद"
+
+msgid "Sell"
+msgstr "बेचना"
+
+msgid "qnt"
+msgstr "क्यूएनटी"
+
 msgid "Option desk"
 msgstr "विकल्प डेस्क"
 
 msgid "Analyzer"
 msgstr "विश्लेषक"
 
-msgid "Desk & Analyzer"
-msgstr "डेस्क और विश्लेषक"
+msgid "Volatility smile"
+msgstr "अस्थिरता मुस्कान"
+
+msgid "Call"
+msgstr "कॉल"
+
+msgid "Put"
+msgstr "डाल"
+
+msgid "Call & Put"
+msgstr "कॉल और पुट"
 
 msgid "P&L"
 msgstr "गर्भवती तथा धात्री"
@@ -87,6 +156,231 @@ msgstr "अस्थिरता परिवर्तन"
 
 msgid "Time change"
 msgstr "समय परिवर्तन"
+
+msgid "Option watchlist"
+msgstr "विकल्प वॉचलिस्ट"
+
+msgid "No symbols to show"
+msgstr "दिखाने के लिए कोई प्रतीक नहीं"
+
+msgid "Add some symbols to watch them"
+msgstr "उन्हें देखने के लिए कुछ प्रतीक जोड़ें"
+
+msgid "Add symbols"
+msgstr "प्रतीक जोड़ें"
+
+msgid "Remove selected"
+msgstr "चयनित निकालें"
+
+msgid "Clear all"
+msgstr "सभी साफ करें"
+
+msgid "Reset order number"
+msgstr "रीसेट ऑर्डर नंबर"
+
+msgid "Interest rate, %"
+msgstr "ब्याज दर,%"
+
+msgid "Bid"
+msgstr "बोली"
+
+msgid "Ask"
+msgstr "पूछो"
+
+msgid "Last"
+msgstr "पिछला"
+
+msgid "(Bid+Ask)/2"
+msgstr "(बोली + पूछो)/"
+
+msgid "IV calculation price"
+msgstr "चतुर्थ परिकलन मूल्य"
+
+msgid "Black Scholes"
+msgstr "ब्लैक स्कॉल्स"
+
+msgid "Connection based"
+msgstr "कनेक्शन आधारित"
+
+msgid "Pricing model"
+msgstr "मूल्य निर्धारण मॉडल"
+
+msgid "Show toolbar"
+msgstr "उपकरण पट्टी दिखाएं"
+
+msgid "Locked"
+msgstr "अवरोधित"
+
+msgid "Unlock panel"
+msgstr "पैनल अनलॉक"
+
+msgid "Lock panel"
+msgstr "लॉक पैनल"
+
+msgid "Account"
+msgstr "खाता"
+
+msgid "Account name"
+msgstr "खाता नाम"
+
+msgid "Symbol"
+msgstr "प्रतीक"
+
+msgid "Symbol name"
+msgstr "प्रतीक नाम"
+
+msgid "Description"
+msgstr "विवरण"
+
+msgid "The description of the symbol"
+msgstr "प्रतीक का वर्णन"
+
+msgid "Symbol type"
+msgstr "प्रतीक प्रकार"
+
+msgid "Symbol’s asset class"
+msgstr "प्रतीक है परिसंपत्ति वर्ग"
+
+msgid "Expiration date"
+msgstr "समय सीमा समाप्ति दिनांक"
+
+msgid "Expiration date of derivative symbol"
+msgstr "व्युत्पंन प्रतीक की समाप्ति तिथि"
+
+msgid "Days to expire"
+msgstr "दिनों की समयसीमा समाप्त"
+
+msgid "Strike price"
+msgstr "स्ट्राइक प्राइस"
+
+msgid "Option’s strike price"
+msgstr "विकल्प का स्ट्राइक प्राइस"
+
+msgid "Side"
+msgstr "पक्ष"
+
+msgid "The direction of the position"
+msgstr "स्थिति की दिशा"
+
+msgid "Quantity"
+msgstr "मात्रा"
+
+msgid "Postion’s quantity"
+msgstr "पोशन मात्रा"
+
+msgid "IV"
+msgstr "Iv"
+
+msgid "Delta"
+msgstr "डेल्टा"
+
+msgid "Gamma"
+msgstr "गामा"
+
+msgid "Theta"
+msgstr "थीटा"
+
+msgid "Vega"
+msgstr "वेगा"
+
+msgid "Rho"
+msgstr "Rho"
+
+msgid "Exchange"
+msgstr "बदलना"
+
+msgid "Last size"
+msgstr "अंतिम आकार"
+
+msgid "Last date/time"
+msgstr "अंतिम तिथि/समय"
+
+msgid "Update time"
+msgstr "अपडेट समय"
+
+msgid "Bid size"
+msgstr "बोली का आकार"
+
+msgid "Ask size"
+msgstr "आकार पूछें"
+
+msgid "Spread"
+msgstr "फैलना"
+
+msgid "Spread, %"
+msgstr "स्प्रेड, %"
+
+msgid "Open"
+msgstr "खोलें"
+
+msgid "High"
+msgstr "उच्च"
+
+msgid "Low"
+msgstr "संख्‍या आदि"
+
+msgid "Prev. close"
+msgstr "Prev. बंद"
+
+msgid "Prev. settlement"
+msgstr "प्रीव सेटलमेंट"
+
+msgid "Volume"
+msgstr "आयतन"
+
+msgid "Open Interest"
+msgstr "ओपन इंटरेस्ट"
+
+msgid "Average traded price"
+msgstr "औसत कारोबार मूल्य"
+
+msgid "Trades"
+msgstr "ट्रेडों"
+
+msgid "Ticks"
+msgstr "टिक्स"
+
+msgid "Open quantity"
+msgstr "खुली मात्रा"
+
+msgid "Open price"
+msgstr "खुला मूल्य"
+
+msgid "Aggregated P/L"
+msgstr "एग्रीगेट पी/एल"
+
+msgid "Comment"
+msgstr "सम्‍मति देना"
+
+msgid "Connection name"
+msgstr "कनेक्शन का नाम"
+
+msgid "Underlier"
+msgstr "अंडरलियर"
+
+msgid "Underlier last"
+msgstr "अंडरलियर पिछले"
+
+msgid "Underlier bid"
+msgstr "अंडरलियर बोली"
+
+msgid "Underlier ask"
+msgstr "अंडरलियर पूछो"
+
+msgid "Action 1"
+msgstr "कार्रवाई 1"
+
+msgid "Action 2"
+msgstr "कार्रवाई 2"
+
+msgid "Action 3"
+msgstr "कार्रवाई 3"
+
+msgid "Group"
+msgstr "समूह"
+
+msgid "Trading quantity"
+msgstr "ट्रेडिंग मात्रा"
 
 msgid "Call Positions"
 msgstr "कॉल पोजिशन"
@@ -172,8 +466,26 @@ msgstr "Prev. सेटलमेंट कॉल करें"
 msgid "Call Open interest"
 msgstr "कॉल ओपन इंटरेस्ट"
 
+msgid "Call Call/Put OI Ratio"
+msgstr "कॉल कॉल/रखो ओआई अनुपात"
+
+msgid "Call Call/Put Volume Ratio"
+msgstr "कॉल कॉल/पुट वॉल्यूम रेशियो"
+
+msgid "Call OV Ratio %"
+msgstr "कॉल OV अनुपात %"
+
 msgid "Strike"
 msgstr "हड़ताल"
+
+msgid "Put OV Ratio %"
+msgstr "ओवी अनुपात % रखो"
+
+msgid "Put Put/Call Volume Ratio"
+msgstr "रखो डाल/कॉल वॉल्यूम अनुपात"
+
+msgid "Put Put/Call OI Ratio"
+msgstr "रखो/कॉल ओआई अनुपात"
 
 msgid "Put Open interest"
 msgstr "खुला हित रखो"
@@ -259,17 +571,8 @@ msgstr "डाल बोली"
 msgid "Put Positions"
 msgstr "पदों डाल"
 
-msgid "Group"
-msgstr "समूह"
-
-msgid "Call"
-msgstr "कॉल"
-
 msgid "None"
 msgstr "कोई नहीं"
-
-msgid "Put"
-msgstr "डाल"
 
 msgid "Select visible series and strikes"
 msgstr "दृश्यमान श्रृंखला और स्ट्राइक का चयन करें"
@@ -279,6 +582,18 @@ msgstr "धन में"
 
 msgid "Out-of-money"
 msgstr "बाहर के पैसे"
+
+msgid "Text"
+msgstr "टेक्स्ट"
+
+msgid "Back"
+msgstr "शर्त लगाना"
+
+msgid "Highlight max volume"
+msgstr "अधिकतम मात्रा को हाइलाइट करें"
+
+msgid "Highlight max open interest"
+msgstr "अधिकतम खुली रुचि को हाइलाइट करें"
 
 msgid "Chart"
 msgstr "चार्ट"
@@ -298,14 +613,8 @@ msgstr "समय और बिक्री"
 msgid "Symbol info"
 msgstr "प्रतीक जानकारी"
 
-msgid "Place"
-msgstr "जगह"
-
 msgid "Remove"
 msgstr "निकालें"
-
-msgid "Paper  positions"
-msgstr "कागज पदों"
 
 msgid "Long"
 msgstr "लंबी"
@@ -313,59 +622,8 @@ msgstr "लंबी"
 msgid "Short"
 msgstr "कम"
 
-msgid "Real positions"
-msgstr "वास्तविक स्थितियां"
-
-msgid "Account"
-msgstr "खाता"
-
-msgid "Account name"
-msgstr "खाता नाम"
-
-msgid "Symbol"
-msgstr "प्रतीक"
-
-msgid "Symbol name"
-msgstr "प्रतीक नाम"
-
-msgid "Description"
-msgstr "विवरण"
-
-msgid "The description of the symbol"
-msgstr "प्रतीक का वर्णन"
-
-msgid "Symbol type"
-msgstr "प्रतीक प्रकार"
-
-msgid "Symbol’s asset class"
-msgstr "प्रतीक है परिसंपत्ति वर्ग"
-
-msgid "Expiration date"
-msgstr "समय सीमा समाप्ति दिनांक"
-
-msgid "Expiration date of derivative symbol"
-msgstr "व्युत्पंन प्रतीक की समाप्ति तिथि"
-
-msgid "Strike price"
-msgstr "स्ट्राइक प्राइस"
-
-msgid "Option’s strike price"
-msgstr "विकल्प का स्ट्राइक प्राइस"
-
-msgid "Side"
-msgstr "पक्ष"
-
-msgid "The direction of the position"
-msgstr "स्थिति की दिशा"
-
-msgid "Quantity"
-msgstr "मात्रा"
-
-msgid "Postion’s quantity"
-msgstr "पोशन मात्रा"
-
-msgid "Open price"
-msgstr "खुला मूल्य"
+msgid "Close"
+msgstr "बंद करना"
 
 msgid "The open/average open price of the position"
 msgstr "स्थिति का खुला/औसत खुला मूल्य"
@@ -451,27 +709,6 @@ msgstr "ट्रिगर मूल्य (ऑफ़सेट)"
 msgid "TIF"
 msgstr "Tif"
 
-msgid "IV"
-msgstr "Iv"
-
-msgid "Delta"
-msgstr "डेल्टा"
-
-msgid "Gamma"
-msgstr "गामा"
-
-msgid "Theta"
-msgstr "थीटा"
-
-msgid "Vega"
-msgstr "वेगा"
-
-msgid "Rho"
-msgstr "Rho"
-
-msgid "Days to expire"
-msgstr "दिनों की समयसीमा समाप्त"
-
 msgid "Analyse"
 msgstr "विश्लेषण"
 
@@ -500,6 +737,18 @@ msgstr "समय मान"
 msgid "Inner value"
 msgstr "भीतरी मान"
 
+msgid "Option analytics mode"
+msgstr "विकल्प analytics मोड"
+
+msgid "Show Option desk"
+msgstr "विकल्प डेस्क दिखाएं"
+
+msgid "Show Analyser"
+msgstr "एनालाइजर दिखाएं"
+
+msgid "Show Volatility smile"
+msgstr "अस्थिरता मुस्कान दिखाएं"
+
 #, csharp-format
 msgid "{0}/{1} Series, {2}"
 msgstr "{0}/{1} श्रृंखला, {2}"
@@ -507,38 +756,14 @@ msgstr "{0}/{1} श्रृंखला, {2}"
 msgid "Option analytics"
 msgstr "विकल्प विश्लेषिकी"
 
-msgid "Switch Option Analytics mode"
-msgstr "विकल्प Analytics मोड स्विच करें"
-
-msgid "Desk & Analyser"
-msgstr "डेस्क और विश्लेषक"
-
-msgid "Option analytics mode"
-msgstr "विकल्प analytics मोड"
-
-msgid "Show toolbar"
-msgstr "उपकरण पट्टी दिखाएं"
+msgid "Mode"
+msgstr "मोड समूह"
 
 msgid "Show Level1"
 msgstr "शो Level1"
 
-msgid "Interest rate, %"
-msgstr "ब्याज दर,%"
-
-msgid "Bid"
-msgstr "बोली"
-
-msgid "Ask"
-msgstr "पूछो"
-
-msgid "Last"
-msgstr "पिछला"
-
-msgid "(Bid+Ask)/2"
-msgstr "(बोली + पूछो)/"
-
-msgid "IV calculation price"
-msgstr "चतुर्थ परिकलन मूल्य"
+msgid "Confirm on panel's close"
+msgstr "पैनल के बंद पर पुष्टि करें"
 
 msgid "General"
 msgstr "सामान्य"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:22+0300\n"
+"POT-Creation-Date: 2020-11-11 00:01+0200\n"
 "PO-Revision-Date: 2018-12-04 15:48+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -19,71 +19,125 @@ msgstr ""
 msgid "ID"
 msgstr "ID"
 
+msgid "Symbol’s ID"
+msgstr "シンボルの ID"
+
 msgid "Symbol"
 msgstr "シンボル"
+
+msgid "Symbol's name"
+msgstr "シンボルの名前"
 
 msgid "Description"
 msgstr "説明"
 
+msgid "The description of the symbol"
+msgstr "シンボルの説明"
+
 msgid "Symbol type"
 msgstr "シンボルの種類"
 
-msgid "Quoting currency"
-msgstr "取引通貨"
+msgid "Symbol’s asset class"
+msgstr "シンボルの資産クラス"
 
 msgid "Exchange"
 msgstr "取引所"
 
+msgid "The exchange of the symbol"
+msgstr "シンボルの交換"
+
+msgid "Product currency"
+msgstr "製品通貨"
+
+msgid "The product of the symbol"
+msgstr "シンボルの積"
+
+msgid "Quoting currency"
+msgstr "取引通貨"
+
+msgid "The quoting currency of the symbol"
+msgstr "シンボルの引用通貨"
+
 msgid "Quote delay"
 msgstr "見積りの遅延"
 
-msgid "Max lot"
-msgstr "最大ロット"
+msgid "The quotes delay"
+msgstr "見積もりの遅延"
 
 msgid "Min lot"
 msgstr "最小ロット"
 
+msgid "Minimal tradable lot of symbol"
+msgstr "最小限の取引可能なシンボルロット"
+
+msgid "Max lot"
+msgstr "最大ロット"
+
+msgid "Maximal tradable lot of symbol"
+msgstr "最大の取引可能なシンボル"
+
 msgid "Netting type"
 msgstr "ネットタイプ"
 
-msgid "Quoting type"
-msgstr "引用型"
+msgid "Symbol’s nettinig type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "シンボルのネッティニッヒタイプ、可能な値:1つの位置、複数の位置、1辺あたりの複数の位置"
 
 msgid "Lot size"
 msgstr "最小取引単位"
 
-msgid "Variable tick list"
-msgstr "可変ティックリスト"
+msgid "Symbol’s lot size"
+msgstr "シンボルのロットサイズ"
 
 msgid "Lot step"
 msgstr "ロット・ステップ"
 
+msgid "Symbol’s lot step"
+msgstr "シンボルのロットステップ"
+
 msgid "Tick size"
 msgstr "ティックのサイズ"
+
+msgid "Tick cost"
+msgstr "ティックのコスト"
 
 msgid "Expiration date"
 msgstr "満期日"
 
+msgid "Expiration date of the symbol"
+msgstr "シンボルの有効期限"
+
 msgid "Last trading date"
 msgstr "最終取引日"
+
+msgid "Last trading date of the symbol"
+msgstr "銘柄の最終取引日"
 
 msgid "Maturity date"
 msgstr "満期日"
 
+msgid "Maturity date of the symbol"
+msgstr "記号の満期日"
+
 msgid "Strike price"
 msgstr "権利行使価格"
+
+msgid "Option’s strike price"
+msgstr "オプションのストライク価格"
 
 msgid "Option style"
 msgstr "オプションのスタイル"
 
-msgid "Option series"
-msgstr "オプションシリーズ"
+msgid "The style of the option: American, European "
+msgstr "オプションのスタイル:アメリカ、ヨーロッパ"
 
-msgid "Underlier name"
-msgstr "下位の名前"
+msgid "Option serie"
+msgstr "オプションセリエ"
 
 msgid "Underlier"
 msgstr "原資産"
+
+msgid "The name of underlying symbol"
+msgstr "基になるシンボルの名前"
 
 msgid "Symbol info"
 msgstr "シンボル情報"
@@ -91,20 +145,20 @@ msgstr "シンボル情報"
 msgid "Show toolbar"
 msgstr "ツールバーを表示する"
 
+msgid "Copy RTD formula"
+msgstr "RTD 数式をコピーする"
+
+msgid "Label"
+msgstr "ラベル"
+
+msgid "Value"
+msgstr "値"
+
+msgid "All above"
+msgstr "上記のすべて"
+
 msgid "General"
 msgstr "一般"
 
 msgid "Trading info"
 msgstr "取引情報"
-
-msgid "Name"
-msgstr "名前"
-
-msgid "Value"
-msgstr "値"
-
-msgid "Group"
-msgstr "グループ"
-
-msgid "SortIndex"
-msgstr "SortIndex"

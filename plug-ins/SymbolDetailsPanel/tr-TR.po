@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2019-06-25 13:22+0300\n"
+"POT-Creation-Date: 2020-11-11 00:01+0200\n"
 "PO-Revision-Date: 2018-12-04 15:47+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -19,71 +19,125 @@ msgstr ""
 msgid "ID"
 msgstr "Kimlik"
 
+msgid "Symbol’s ID"
+msgstr "Sembolün Kimliği"
+
 msgid "Symbol"
 msgstr "Sembol"
+
+msgid "Symbol's name"
+msgstr "Sembolün adı"
 
 msgid "Description"
 msgstr "Açıklama"
 
+msgid "The description of the symbol"
+msgstr "Sembolün açıklaması"
+
 msgid "Symbol type"
 msgstr "Sembol türü"
 
-msgid "Quoting currency"
-msgstr "Kota para birimi"
+msgid "Symbol’s asset class"
+msgstr "Sembolün varlık sınıfı"
 
 msgid "Exchange"
 msgstr "Değiştir"
 
+msgid "The exchange of the symbol"
+msgstr "Sembolün değişimi"
+
+msgid "Product currency"
+msgstr "Ürün para birimi"
+
+msgid "The product of the symbol"
+msgstr "Sembolün ürünü"
+
+msgid "Quoting currency"
+msgstr "Kota para birimi"
+
+msgid "The quoting currency of the symbol"
+msgstr "Sembolün alıntı para birimi"
+
 msgid "Quote delay"
 msgstr "Alıntı gecikmesi"
 
-msgid "Max lot"
-msgstr "Maks lot"
+msgid "The quotes delay"
+msgstr "Tırnak lar gecikme"
 
 msgid "Min lot"
 msgstr "Min lot"
 
+msgid "Minimal tradable lot of symbol"
+msgstr "Sembol minimal takas edilebilir çok"
+
+msgid "Max lot"
+msgstr "Maks lot"
+
+msgid "Maximal tradable lot of symbol"
+msgstr "Sembol Maksimal takas çok"
+
 msgid "Netting type"
 msgstr "Örgü tipi"
 
-msgid "Quoting type"
-msgstr "Tırnak tipi"
+msgid "Symbol’s nettinig type, possible values: One position, Multiple positions, Multiple positions per side"
+msgstr "Sembolün nettinig türü, olası değerler: Bir pozisyon, Birden fazla pozisyon, yan başına birden fazla pozisyon"
 
 msgid "Lot size"
 msgstr "Lot büyüklüğü"
 
-msgid "Variable tick list"
-msgstr "Değişken kene listesi"
+msgid "Symbol’s lot size"
+msgstr "Sembolün lot boyutu"
 
 msgid "Lot step"
 msgstr "Lot adımı"
 
+msgid "Symbol’s lot step"
+msgstr "Sembol'ün çok adım"
+
 msgid "Tick size"
 msgstr "Aralık büyüklüğü"
+
+msgid "Tick cost"
+msgstr "Aralık maliyeti"
 
 msgid "Expiration date"
 msgstr "Sona erme tarihi"
 
+msgid "Expiration date of the symbol"
+msgstr "Sembolün son kullanma tarihi"
+
 msgid "Last trading date"
 msgstr "Son işlem tarihi"
+
+msgid "Last trading date of the symbol"
+msgstr "Sembolün son işlem tarihi"
 
 msgid "Maturity date"
 msgstr "Vade tarihi"
 
+msgid "Maturity date of the symbol"
+msgstr "Sembolün vade tarihi"
+
 msgid "Strike price"
 msgstr "İşlem fiyatı"
+
+msgid "Option’s strike price"
+msgstr "Opsiyonun vuruş fiyatı"
 
 msgid "Option style"
 msgstr "Seçenek stili"
 
-msgid "Option series"
-msgstr "Seçenek serisi"
+msgid "The style of the option: American, European "
+msgstr "Seçeneğin tarzı: Amerikan, Avrupa "
 
-msgid "Underlier name"
-msgstr "Önceki adı"
+msgid "Option serie"
+msgstr "Opsiyon serie"
 
 msgid "Underlier"
 msgstr "Temel varlık"
+
+msgid "The name of underlying symbol"
+msgstr "Altta yatan sembolün adı"
 
 msgid "Symbol info"
 msgstr "Sembol Bilgisi"
@@ -91,20 +145,20 @@ msgstr "Sembol Bilgisi"
 msgid "Show toolbar"
 msgstr "Araç çubuğunu göster"
 
+msgid "Copy RTD formula"
+msgstr "RTD formüllerini kopyala"
+
+msgid "Label"
+msgstr "Etiket"
+
+msgid "Value"
+msgstr "Değer"
+
+msgid "All above"
+msgstr "Tüm yukarıda"
+
 msgid "General"
 msgstr "Genel"
 
 msgid "Trading info"
 msgstr "İşlem bilgisi"
-
-msgid "Name"
-msgstr "İsim"
-
-msgid "Value"
-msgstr "Değer"
-
-msgid "Group"
-msgstr "Grup"
-
-msgid "SortIndex"
-msgstr "sortIndex"
