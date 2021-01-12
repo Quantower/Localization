@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-09 22:49+0200\n"
+"POT-Creation-Date: 2021-01-12 12:48+0200\n"
 "PO-Revision-Date: 2019-03-18 10:52+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -463,6 +463,9 @@ msgstr "हिस्टोग्राम रंग"
 msgid "Area colors"
 msgstr "क्षेत्र के रंग"
 
+msgid "Loading volume analysis data..."
+msgstr "वॉल्यूम विश्लेषण डेटा लोड हो रहा है ..."
+
 msgid "Lot"
 msgstr "बहुत"
 
@@ -514,6 +517,12 @@ msgstr "अधिकतम"
 msgid "Restore"
 msgstr "पुनर्स्थापित करना"
 
+msgid "Workspace"
+msgstr "कार्यस्थान"
+
+msgid "locked"
+msgstr "अवरोधित"
+
 msgid "Custom title"
 msgstr "कस्टम शीर्षक"
 
@@ -560,11 +569,17 @@ msgstr "डोम सतह"
 msgid "TPO Chart"
 msgstr "टीपीओ चार्ट"
 
+msgid "Symbol Info"
+msgstr "प्रतीक जानकारी"
+
 msgid "Duplicate panel"
 msgstr "डुप्लिकेट पैनल"
 
 msgid "Save as template"
 msgstr "टेंपलेट के रूप में सहेजें"
+
+msgid "Apply template"
+msgstr "टेम्पलेट लागू करें"
 
 msgid "Set as default"
 msgstr "डिफ़ॉल्ट के रूप में सेट करें"
@@ -595,6 +610,9 @@ msgstr "कार्यों"
 
 msgid "Filter"
 msgstr "फ़िल्टर"
+
+msgid "Press Esc to exit Fullscreen mode"
+msgstr "फुलस्क्रीन मोड से बाहर निकलने के लिए ईएससी दबाएं"
 
 msgid "HISTORICAL SYMBOL"
 msgstr "ऐतिहासिक प्रतीक"
@@ -954,6 +972,9 @@ msgstr "स्थान अवरोधित करें"
 msgid "Font size"
 msgstr "फ़ॉंट आकार"
 
+msgid "Availability"
+msgstr "प्राप्‍यता"
+
 #, csharp-format
 msgid "Buy {0}"
 msgstr "{0} खरीदें"
@@ -1103,6 +1124,24 @@ msgstr "काल हिस्टोग्राम"
 msgid "VWAP"
 msgstr "वीडब्ल्यूएपी"
 
+msgid "Tick"
+msgstr "टिक"
+
+msgid "Current TF"
+msgstr "वर्तमान टीएफ"
+
+msgid "HL/2"
+msgstr "एचएल/2"
+
+msgid "HLC/3"
+msgstr "एचएलसी/3"
+
+msgid "OHLC/4"
+msgstr "OHLC/4"
+
+msgid "Price type"
+msgstr "मूल्य प्रकार"
+
 msgid "Forward extensions (past VWAPs)"
 msgstr "फॉरवर्ड एक्सटेंशन (पिछले VWAPs)"
 
@@ -1219,6 +1258,9 @@ msgstr "क्लस्टर विज़ुअलाइज़ेशन"
 msgid "Show POC"
 msgstr "पीओसी दिखाएं"
 
+msgid "POC type"
+msgstr "पीओसी प्रकार"
+
 msgid "Enabled"
 msgstr "सक्षम"
 
@@ -1333,6 +1375,9 @@ msgstr "लाइन"
 msgid "Area"
 msgstr "क्षेत्र"
 
+msgid "Line width"
+msgstr "लाइन की चौड़ाई"
+
 msgid "Data style"
 msgstr "डेटा शैली"
 
@@ -1371,6 +1416,9 @@ msgstr "कीमत के साथ लाइन"
 
 msgid "Label"
 msgstr "लेबल"
+
+msgid "Marker text style"
+msgstr "मार्कर टेक्स्ट स्टाइल"
 
 msgid "Spread type"
 msgstr "स्प्रेड प्रकार"
@@ -1501,6 +1549,9 @@ msgstr "वाम रे"
 msgid "Right ray"
 msgstr "सही रे"
 
+msgid "Reverse"
+msgstr "उल्टा"
+
 msgid "Fixed left"
 msgstr "नियत वाम"
 
@@ -1573,9 +1624,6 @@ msgstr "मध्यम"
 msgid "Weighted"
 msgstr "भारित"
 
-msgid "Price type"
-msgstr "मूल्य प्रकार"
-
 msgid "Top line"
 msgstr "शीर्ष पंक्ति"
 
@@ -1608,6 +1656,64 @@ msgstr "फ़ॉंट शैली"
 
 msgid "Border"
 msgstr "सीमा रेखा"
+
+msgid "Invalid price"
+msgstr "अमांय मूल्य"
+
+msgid "Net:"
+msgstr "नेट:"
+
+msgid "Gross:"
+msgstr "सकल:"
+
+#, csharp-format
+msgid "TP price: {0}"
+msgstr "TP मूल्य: {0}"
+
+msgid "Tr.Stop"
+msgstr "Tr. Stop"
+
+msgid "SL price"
+msgstr "SL कीमत"
+
+#, csharp-format
+msgid "{0} TP price: {1}"
+msgstr "{0} TP मूल्य: {1}"
+
+msgid "is locked"
+msgstr "अवरोधित किया गया है"
+
+msgid "VA"
+msgstr "Va"
+
+msgid "POC ray"
+msgstr "poc रे"
+
+msgid "Waiting for data loading"
+msgstr "डेटा लोड िंग की प्रतीक्षा कर रहा है"
+
+msgid "Loading data..."
+msgstr "डेटा लोड हो रहा है..."
+
+msgid "No data"
+msgstr "कोई डेटा नहीं"
+
+#, csharp-format
+msgid "{0} ticks"
+msgstr "{0} ticks"
+
+msgid "Overlay"
+msgstr "उपरिशायी"
+
+msgid "Empty symbol"
+msgstr "रिक् त प्रतीक"
+
+msgid "Full"
+msgstr "पूर्ण"
+
+#, csharp-format
+msgid "{0} %"
+msgstr "{0} %"
 
 msgid "Trading tool"
 msgstr "ट्रेडिंग टूल"
@@ -1642,8 +1748,8 @@ msgstr "मूल्य चैनल"
 msgid "Fibonacci retracement"
 msgstr "फिबोनैकी रिट्रेसमेंट"
 
-msgid "Fibonacci expansion"
-msgstr "फिबोनैकी प्रसार"
+msgid "Fibonacci price expansion"
+msgstr "फिबोनाची मूल्य विस्तार"
 
 msgid "Fibonacci arc"
 msgstr "फिबोनैकी आर्क"
@@ -1660,8 +1766,8 @@ msgstr "फिबोनैकी प्रशंसक"
 msgid "Fibonacci phi-channel"
 msgstr "फिबोनैकी phi-चैनल"
 
-msgid "Fibonacci time goal"
-msgstr "फिबोनैकी समय लक्ष्य"
+msgid "Fibonacci time extension"
+msgstr "फिबोनासीई समय विस्तार"
 
 msgid "Fibonacci time zone"
 msgstr "फिबोनैकी समय क्षेत्र"
@@ -1756,60 +1862,11 @@ msgstr "एंकर वीडब्ल्यूएपी"
 msgid "Whale Splash"
 msgstr "व्हेल छप"
 
-msgid "Invalid price"
-msgstr "अमांय मूल्य"
+msgid "Fibonacci time expansion"
+msgstr "फिबोनासीई समय विस्तार"
 
-msgid "Net:"
-msgstr "नेट:"
-
-msgid "Gross:"
-msgstr "सकल:"
-
-#, csharp-format
-msgid "TP price: {0}"
-msgstr "TP मूल्य: {0}"
-
-msgid "Tr.Stop"
-msgstr "Tr. Stop"
-
-msgid "SL price"
-msgstr "SL कीमत"
-
-#, csharp-format
-msgid "{0} TP price: {1}"
-msgstr "{0} TP मूल्य: {1}"
-
-msgid "VA"
-msgstr "Va"
-
-msgid "POC ray"
-msgstr "poc रे"
-
-msgid "Waiting for data loading"
-msgstr "डेटा लोड िंग की प्रतीक्षा कर रहा है"
-
-msgid "Loading data..."
-msgstr "डेटा लोड हो रहा है..."
-
-msgid "No data"
-msgstr "कोई डेटा नहीं"
-
-#, csharp-format
-msgid "{0} ticks"
-msgstr "{0} ticks"
-
-msgid "Overlay"
-msgstr "उपरिशायी"
-
-msgid "Empty symbol"
-msgstr "रिक् त प्रतीक"
-
-msgid "Full"
-msgstr "पूर्ण"
-
-#, csharp-format
-msgid "{0} %"
-msgstr "{0} %"
+msgid "Fibonacci price extension"
+msgstr "फिबोनाची मूल्य विस्तार"
 
 msgid "Candle"
 msgstr "मोमबत्ती"
@@ -1863,6 +1920,12 @@ msgstr "चार्ट पर प्रदर्शित करने के �
 msgid "Please check your connection{0} or symbol availability"
 msgstr "कृपया अपने कनेक्शन की जांच करें {0} या प्रतीक उपलब्धता"
 
+msgid "Current chart"
+msgstr "वर्तमान चार्ट"
+
+msgid "All charts with same symbol"
+msgstr "एक ही प्रतीक के साथ सभी चार्ट"
+
 msgid "Window colors"
 msgstr "विंडो रंग"
 
@@ -1874,6 +1937,9 @@ msgstr "पिछला निचला रंग"
 
 msgid "Mouse wheel action"
 msgstr "माउस व्हील कार्रवाई"
+
+msgid "Drawings default availablity"
+msgstr "ड्रॉइंग डिफ़ॉल्ट लाभ"
 
 msgid "Scale type"
 msgstr "स्केल प्रकार"
@@ -1980,9 +2046,6 @@ msgstr "आयतन विश् लेषण"
 msgid "Show toolbar"
 msgstr "उपकरण पट्टी दिखाएं"
 
-msgid "Step Profile"
-msgstr "चरण प्रोफ़ाइल"
-
 msgid "Left Profile"
 msgstr "बाईं प्रोफ़ाइल"
 
@@ -2019,6 +2082,12 @@ msgstr "उपकरण पट्टी"
 msgid "Quick OE"
 msgstr "त्वरित ओई"
 
+msgid "Trading toolbar"
+msgstr "ट्रेडिंग टूलबार"
+
+msgid "Objects toolbar"
+msgstr "ऑब्जेक्ट्स टूलबार"
+
 msgid "Symbol description"
 msgstr "प्रतीक विवरण"
 
@@ -2031,9 +2100,6 @@ msgstr "ताज़ा"
 #, csharp-format
 msgid "{0} settings"
 msgstr "{0} सेटिंग्स"
-
-msgid "Modification will affect the position closing. Are you sure?"
-msgstr "संशोधन से स्थिति समापन प्रभावित होगा । क्या आपको यकीन है?"
 
 msgid "Are you sure you want to execute order at market price?"
 msgstr "क्या आप वाकई बाज़ार मूल्य पर ऑर्डर निष्पादित करना चाहते हैं?"
@@ -2138,6 +2204,9 @@ msgstr "रंग 4"
 msgid "Color 5"
 msgstr "रंग 5"
 
+msgid "Limit of points"
+msgstr "अंकों की सीमा"
+
 msgid "Show last line"
 msgstr "अंतिम पंक्ति दिखाएं"
 
@@ -2237,14 +2306,17 @@ msgstr "मूल्य क्षेत्र दिखाएं"
 msgid "Value Area, %"
 msgstr "मूल्य क्षेत्र, %"
 
+msgid "Extend VAL/VAH until intesection"
+msgstr "इंटेसेक्शन तक वैल/वीएएच का विस्तार करें"
+
 msgid "Show singles"
 msgstr "एकल दिखाएं"
 
 msgid "Show bar"
 msgstr "शो बार"
 
-msgid "POC type"
-msgstr "पीओसी प्रकार"
+msgid "Extend POC until intesection"
+msgstr "इंटेसेक्शन तक पीओसी का विस्तार करें"
 
 msgid "POC color"
 msgstr "पीओसी रंग"
@@ -2317,6 +2389,18 @@ msgstr "वीए रेंज"
 
 msgid "VA range (ticks)"
 msgstr "वीए रेंज (टिक)"
+
+msgid "IB High"
+msgstr "आईबी हाई"
+
+msgid "IB Low"
+msgstr "आईबी कम"
+
+msgid "IB range"
+msgstr "आईबी रेंज"
+
+msgid "IB range (ticks)"
+msgstr "आईबी रेंज (टिक)"
 
 msgid "TPO statistics"
 msgstr "टीपीओ आंकड़े"
@@ -2552,6 +2636,12 @@ msgstr "बोली/पूछो रीसेट"
 msgid "Last trade size"
 msgstr "अंतिम व्यापार आकार"
 
+msgid "Mouse Trading"
+msgstr "माउस ट्रेडिंग"
+
+msgid "Locked"
+msgstr "अवरोधित"
+
 msgid "Grid color"
 msgstr "ग्रिड रंग"
 
@@ -2578,6 +2668,9 @@ msgstr "दिन का नक्शा दिखाएं"
 
 msgid "Imbalance, %"
 msgstr "असंतुलन, %"
+
+msgid "Highlight values more than"
+msgstr "मूल्यों को अधिक से अधिक हाइलाइट करें"
 
 msgid "Show day high/low"
 msgstr "दिखाएं दिन उच्च/कम"
@@ -2813,9 +2906,6 @@ msgstr "नेटिंग प्रकार"
 msgid "Remove symbol"
 msgstr "प्रतीक निकालें"
 
-msgid "Tick"
-msgstr "टिक"
-
 msgid "1 minute"
 msgstr "1 मिनट"
 
@@ -2844,6 +2934,13 @@ msgstr "इस हॉटकी कोर द्वारा आरक्षि�
 #, csharp-format
 msgid "This Hotkey combination is already used for \"{0}\". Please use another one."
 msgstr "यह हॉटकुंजी संयोजन पहले से ही \"{0}\" के लिए उपयोग किया जा रहा है । कृपया एक दूसरे का उपयोग करें ।"
+
+#, csharp-format
+msgid "Are you sure want to remove {0}?"
+msgstr "क्या आप निश्चयपूर्वक {0} निकालना चाहते हैं?"
+
+msgid "You have no selected symbols yet"
+msgstr "आपके पास अभी तक कोई चयनित प्रतीक नहीं है"
 
 msgid "Exchanges & Assets"
 msgstr "एक्सचेंज और एसेट्स"
@@ -2884,10 +2981,6 @@ msgstr "बिंदु निर्देशांक"
 
 msgid "Point"
 msgstr "बिंदु"
-
-#, csharp-format
-msgid "Are you sure want to remove {0}?"
-msgstr "क्या आप निश्चयपूर्वक {0} निकालना चाहते हैं?"
 
 msgid "Custom sessions"
 msgstr "कस्टम सत्र"
@@ -3062,18 +3155,12 @@ msgstr "स्क्रीनशॉट"
 msgid "copied to clipboard"
 msgstr "क्लिपबोर्ड पर प्रतिलिपि बनाई गई"
 
-msgid "is locked"
-msgstr "अवरोधित किया गया है"
-
 #, csharp-format
 msgid "Are you sure you want to delete {0}?"
 msgstr "क्या आप निश्चयपूर्वक {0} को हटाना चाहते हैं?"
 
 msgid "is unlocked"
 msgstr "खुला है"
-
-msgid "locked"
-msgstr "अवरोधित"
 
 msgid "Sounds"
 msgstr "लगता"
@@ -3444,6 +3531,9 @@ msgstr "जानकारी"
 msgid "Trading info"
 msgstr "ट्रेडिंग जानकारी"
 
+msgid "Allow change leverage"
+msgstr "परिवर्तन का लाभ उठाने की अनुमति दें"
+
 msgid "WebSocket endpoint"
 msgstr "वेबसॉकेट एंडपॉइंट"
 
@@ -3617,6 +3707,45 @@ msgstr "नया पासवर्ड फेल"
 
 msgid "Must change password"
 msgstr "पासवर्ड बदलना होगा"
+
+msgid "Primary"
+msgstr "प्राथमिक"
+
+msgid "Collateral Value"
+msgstr "कोलैटरल वैल्यू"
+
+msgid "Open P/L"
+msgstr "ओपन पी/एल"
+
+msgid "Available Margin"
+msgstr "उपलब्ध मार्जिन"
+
+msgid "Used"
+msgstr "आदि"
+
+msgid "Reserved"
+msgstr "आरक्षित"
+
+msgid "Free"
+msgstr "मुफ्त"
+
+msgid "Ratio"
+msgstr "अनुपात"
+
+msgid "Market data only"
+msgstr "केवल बाजार के आंकड़े"
+
+msgid "Demo trading"
+msgstr "डेमो ट्रेडिंग"
+
+msgid "Real trading"
+msgstr "रियल ट्रेडिंग"
+
+msgid "Login"
+msgstr "लॉगिन"
+
+msgid "Two-Factor Authentication code"
+msgstr "टू-फैक्टर ऑथेंटिकेशन कोड"
 
 msgid "AON"
 msgstr "एऑन"
@@ -3855,9 +3984,6 @@ msgstr "कनेक्शन डेटा सर्वर गायब है"
 msgid "Authorization endpoint is missing"
 msgstr "प्राधिकरण अंत बिंदु गायब है"
 
-msgid "Login"
-msgstr "लॉगिन"
-
 msgid "Stop Limit"
 msgstr "स्टॉप लिमिट"
 
@@ -4067,6 +4193,9 @@ msgstr "स्थिति सीमा का उपयोग किया ज�
 
 msgid "API secret"
 msgstr "एपीआई सीक्रेट"
+
+msgid "Subaccount name (not required)"
+msgstr "सबअकाउंट नाम (आवश्यक नहीं)"
 
 msgid "Token"
 msgstr "टोकन"
@@ -4948,14 +5077,14 @@ msgstr "अमांय क्लाइंट कुंजी"
 msgid "Stop (Market)"
 msgstr "बंद करो (बाजार)"
 
+msgid "MIS"
+msgstr "एमआईएस"
+
 msgid "NRML"
 msgstr "एनआरएमएल"
 
 msgid "CNC"
 msgstr "सीएनसी"
-
-msgid "MIS"
-msgstr "एमआईएस"
 
 msgid "Reading master file..."
 msgstr "मास्टर फाइल पढ़ना..."
@@ -4965,18 +5094,6 @@ msgstr "लोड हो रहा है मास्टर फाइल..."
 
 msgid "Loading indices from {exch.Value}..."
 msgstr "{एक्सच से इंडिविजुअल्स लोड हो रहा है। मूल्य}..."
-
-msgid "Market data app key"
-msgstr "मार्केट डेटा ऐप की कुंजी"
-
-msgid "Market data secret key"
-msgstr "बाजार डेटा गुप्त कुंजी"
-
-msgid "Trading app key"
-msgstr "ट्रेडिंग ऐप की"
-
-msgid "Trading secret key"
-msgstr "ट्रेडिंग सीक्रेट कुंजी"
 
 msgid "Server url is empty"
 msgstr "सर्वर यूआरएल खाली है"
@@ -5001,9 +5118,6 @@ msgstr "शुरुआत उद्धरण सॉकेट..."
 
 msgid "Initializing trade socket..."
 msgstr "व्यापार सॉकेट शुरू..."
-
-msgid "Connecting to history server..."
-msgstr "इतिहास सर्वर से कनेक्ट..."
 
 msgid "CashMarginAvailable"
 msgstr "कैशमार्किन उपलब्ध"
@@ -5244,6 +5358,24 @@ msgstr "समस्या शुरू करने की तारीख"
 
 msgid "Remarks"
 msgstr "टिप्पणियां"
+
+msgid "History"
+msgstr "इतिहास"
+
+msgid "Market data app key"
+msgstr "मार्केट डेटा ऐप की कुंजी"
+
+msgid "Market data secret key"
+msgstr "बाजार डेटा गुप्त कुंजी"
+
+msgid "Trading app key"
+msgstr "ट्रेडिंग ऐप की"
+
+msgid "Trading secret key"
+msgstr "ट्रेडिंग सीक्रेट कुंजी"
+
+msgid "You need to have valid Broker API access and Quantower License to use History mode"
+msgstr "इतिहास मोड का उपयोग करने के लिए आपके पास वैध ब्रोकर एपीआई एक्सेस और क्वांटोअर लाइसेंस होना चाहिए"
 
 msgid "User principals..."
 msgstr "उपयोगकर्ता प्रिंसिपलों..."

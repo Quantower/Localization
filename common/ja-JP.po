@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-09 22:49+0200\n"
+"POT-Creation-Date: 2021-01-12 12:48+0200\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -463,6 +463,9 @@ msgstr "ヒストグラムの色"
 msgid "Area colors"
 msgstr "エリアの色"
 
+msgid "Loading volume analysis data..."
+msgstr "ボリューム分析データを読み込んでいます。"
+
 msgid "Lot"
 msgstr "ロット"
 
@@ -514,6 +517,12 @@ msgstr "最大化"
 msgid "Restore"
 msgstr "復元"
 
+msgid "Workspace"
+msgstr "ワークスペース"
+
+msgid "locked"
+msgstr "ロック"
+
 msgid "Custom title"
 msgstr "カスタムタイトル"
 
@@ -560,11 +569,17 @@ msgstr "DOM サーフェス"
 msgid "TPO Chart"
 msgstr "TPO チャート"
 
+msgid "Symbol Info"
+msgstr "シンボル情報"
+
 msgid "Duplicate panel"
 msgstr "パネルを複製する"
 
 msgid "Save as template"
 msgstr "テンプレートとして保存する"
+
+msgid "Apply template"
+msgstr "テンプレートの適用"
 
 msgid "Set as default"
 msgstr "デフォルトとして設定する"
@@ -595,6 +610,9 @@ msgstr "アクション"
 
 msgid "Filter"
 msgstr "フィルター"
+
+msgid "Press Esc to exit Fullscreen mode"
+msgstr "Esc キーを押してフルスクリーン モードを終了します。"
 
 msgid "HISTORICAL SYMBOL"
 msgstr "歴史的記号"
@@ -954,6 +972,9 @@ msgstr "ロックの場所"
 msgid "Font size"
 msgstr "フォントサイズ"
 
+msgid "Availability"
+msgstr "可用性"
+
 #, csharp-format
 msgid "Buy {0}"
 msgstr "{0}を購入する"
@@ -1103,6 +1124,24 @@ msgstr "時間ヒストグラム"
 msgid "VWAP"
 msgstr "VWAP"
 
+msgid "Tick"
+msgstr "ティック"
+
+msgid "Current TF"
+msgstr "現在のTF"
+
+msgid "HL/2"
+msgstr "HL/2"
+
+msgid "HLC/3"
+msgstr "HLC/3"
+
+msgid "OHLC/4"
+msgstr "OHLC/4"
+
+msgid "Price type"
+msgstr "価格タイプ"
+
 msgid "Forward extensions (past VWAPs)"
 msgstr "フォワードエクステンション(過去のVWAP)"
 
@@ -1219,6 +1258,9 @@ msgstr "クラスタの視覚化"
 msgid "Show POC"
 msgstr "POC を表示する"
 
+msgid "POC type"
+msgstr "POC タイプ"
+
 msgid "Enabled"
 msgstr "有効"
 
@@ -1333,6 +1375,9 @@ msgstr "線"
 msgid "Area"
 msgstr "エリア"
 
+msgid "Line width"
+msgstr "線幅"
+
 msgid "Data style"
 msgstr "データのスタイル"
 
@@ -1371,6 +1416,9 @@ msgstr "価格付き線"
 
 msgid "Label"
 msgstr "ラベル"
+
+msgid "Marker text style"
+msgstr "マーカー文字のスタイル"
 
 msgid "Spread type"
 msgstr "スプレッドの種類"
@@ -1501,6 +1549,9 @@ msgstr "左の光線"
 msgid "Right ray"
 msgstr "右レイ"
 
+msgid "Reverse"
+msgstr "ポジションをリバース"
+
 msgid "Fixed left"
 msgstr "左固定"
 
@@ -1573,9 +1624,6 @@ msgstr "中央"
 msgid "Weighted"
 msgstr "加重"
 
-msgid "Price type"
-msgstr "価格タイプ"
-
 msgid "Top line"
 msgstr "上昇線"
 
@@ -1608,6 +1656,64 @@ msgstr "フォントスタイル"
 
 msgid "Border"
 msgstr "境界"
+
+msgid "Invalid price"
+msgstr "無効な価格"
+
+msgid "Net:"
+msgstr "ネット："
+
+msgid "Gross:"
+msgstr "グロス："
+
+#, csharp-format
+msgid "TP price: {0}"
+msgstr "TP価格：{0}"
+
+msgid "Tr.Stop"
+msgstr "Tr.Stop"
+
+msgid "SL price"
+msgstr "ストップロス価格"
+
+#, csharp-format
+msgid "{0} TP price: {1}"
+msgstr "{0} TP価格：{1}"
+
+msgid "is locked"
+msgstr "がロックされ"
+
+msgid "VA"
+msgstr "バージニア 州"
+
+msgid "POC ray"
+msgstr "POC レイ"
+
+msgid "Waiting for data loading"
+msgstr "データの読み込みを待機中"
+
+msgid "Loading data..."
+msgstr "データ取得中..."
+
+msgid "No data"
+msgstr "データなし"
+
+#, csharp-format
+msgid "{0} ticks"
+msgstr "{0} ティック"
+
+msgid "Overlay"
+msgstr "オーバーレイ"
+
+msgid "Empty symbol"
+msgstr "空の記号"
+
+msgid "Full"
+msgstr "完全なフォーム"
+
+#, csharp-format
+msgid "{0} %"
+msgstr "{0} %"
 
 msgid "Trading tool"
 msgstr "取引ツール"
@@ -1642,8 +1748,8 @@ msgstr "価格チャネル"
 msgid "Fibonacci retracement"
 msgstr "フィボナッチリトレースメント"
 
-msgid "Fibonacci expansion"
-msgstr "フィボナッチの拡大"
+msgid "Fibonacci price expansion"
+msgstr "フィボナッチ価格の拡大"
 
 msgid "Fibonacci arc"
 msgstr "フィボナッチ アーク"
@@ -1660,8 +1766,8 @@ msgstr "フィボナッチファン"
 msgid "Fibonacci phi-channel"
 msgstr "フィボナッチ phiチャンネル"
 
-msgid "Fibonacci time goal"
-msgstr "フィボナッチタイムゴール"
+msgid "Fibonacci time extension"
+msgstr "フィボナッチ時間延長"
 
 msgid "Fibonacci time zone"
 msgstr "フィボナッチタイムゾーン"
@@ -1756,60 +1862,11 @@ msgstr "アンカー VWAP"
 msgid "Whale Splash"
 msgstr "クジラのスプラッシュ"
 
-msgid "Invalid price"
-msgstr "無効な価格"
+msgid "Fibonacci time expansion"
+msgstr "フィボナッチ時間拡大"
 
-msgid "Net:"
-msgstr "ネット："
-
-msgid "Gross:"
-msgstr "グロス："
-
-#, csharp-format
-msgid "TP price: {0}"
-msgstr "TP価格：{0}"
-
-msgid "Tr.Stop"
-msgstr "Tr.Stop"
-
-msgid "SL price"
-msgstr "ストップロス価格"
-
-#, csharp-format
-msgid "{0} TP price: {1}"
-msgstr "{0} TP価格：{1}"
-
-msgid "VA"
-msgstr "バージニア 州"
-
-msgid "POC ray"
-msgstr "POC レイ"
-
-msgid "Waiting for data loading"
-msgstr "データの読み込みを待機中"
-
-msgid "Loading data..."
-msgstr "データ取得中..."
-
-msgid "No data"
-msgstr "データなし"
-
-#, csharp-format
-msgid "{0} ticks"
-msgstr "{0} ティック"
-
-msgid "Overlay"
-msgstr "オーバーレイ"
-
-msgid "Empty symbol"
-msgstr "空の記号"
-
-msgid "Full"
-msgstr "完全なフォーム"
-
-#, csharp-format
-msgid "{0} %"
-msgstr "{0} %"
+msgid "Fibonacci price extension"
+msgstr "フィボナッチ価格延長"
 
 msgid "Candle"
 msgstr "ローソク足"
@@ -1863,6 +1920,12 @@ msgstr "グラフに表示するデータがありません"
 msgid "Please check your connection{0} or symbol availability"
 msgstr "あなたの接続{0}を確認してください。"
 
+msgid "Current chart"
+msgstr "現在のグラフ"
+
+msgid "All charts with same symbol"
+msgstr "同じシンボルを持つすべてのグラフ"
+
 msgid "Window colors"
 msgstr "ウィンドウ色"
 
@@ -1874,6 +1937,9 @@ msgstr "下部の背景色"
 
 msgid "Mouse wheel action"
 msgstr "マウスホイールアクション"
+
+msgid "Drawings default availablity"
+msgstr "図面のデフォルトの利用可能性"
 
 msgid "Scale type"
 msgstr "スケールの種類"
@@ -1980,9 +2046,6 @@ msgstr "体積分析"
 msgid "Show toolbar"
 msgstr "ツールバーを表示する"
 
-msgid "Step Profile"
-msgstr "ステッププロファイル"
-
 msgid "Left Profile"
 msgstr "左のプロファイル"
 
@@ -2019,6 +2082,12 @@ msgstr "ツールバー"
 msgid "Quick OE"
 msgstr "注文のクイック・エントリー"
 
+msgid "Trading toolbar"
+msgstr "取引ツールバー"
+
+msgid "Objects toolbar"
+msgstr "[オブジェクト] ツールバー"
+
 msgid "Symbol description"
 msgstr "シンボルの説明"
 
@@ -2031,9 +2100,6 @@ msgstr "更新"
 #, csharp-format
 msgid "{0} settings"
 msgstr "{0}の設定"
-
-msgid "Modification will affect the position closing. Are you sure?"
-msgstr "変更はポジション終了に影響します。"
 
 msgid "Are you sure you want to execute order at market price?"
 msgstr "本当に市場価格で注文を実行しますか？"
@@ -2138,6 +2204,9 @@ msgstr "カラー4"
 msgid "Color 5"
 msgstr "カラー5"
 
+msgid "Limit of points"
+msgstr "ポイントの制限"
+
 msgid "Show last line"
 msgstr "最後の行を表示"
 
@@ -2237,14 +2306,17 @@ msgstr "値領域の表示"
 msgid "Value Area, %"
 msgstr "値領域、%"
 
+msgid "Extend VAL/VAH until intesection"
+msgstr "VAL/VAH をインテセクションまで拡張"
+
 msgid "Show singles"
 msgstr "シングルを表示する"
 
 msgid "Show bar"
 msgstr "バーを表示する"
 
-msgid "POC type"
-msgstr "POC タイプ"
+msgid "Extend POC until intesection"
+msgstr "セクションまでPOCを拡張する"
 
 msgid "POC color"
 msgstr "POC カラー"
@@ -2317,6 +2389,18 @@ msgstr "VA範囲"
 
 msgid "VA range (ticks)"
 msgstr "VA範囲(ティック)"
+
+msgid "IB High"
+msgstr "IBハイ"
+
+msgid "IB Low"
+msgstr "IBロー"
+
+msgid "IB range"
+msgstr "IB範囲"
+
+msgid "IB range (ticks)"
+msgstr "IB範囲(ティック)"
 
 msgid "TPO statistics"
 msgstr "TPO 統計"
@@ -2552,6 +2636,12 @@ msgstr "入札/確認リセット"
 msgid "Last trade size"
 msgstr "最終取引サイズ"
 
+msgid "Mouse Trading"
+msgstr "マウス取引"
+
+msgid "Locked"
+msgstr "ロックされています"
+
 msgid "Grid color"
 msgstr "グリッド色"
 
@@ -2578,6 +2668,9 @@ msgstr "日の地図を表示する"
 
 msgid "Imbalance, %"
 msgstr "不均衡、%"
+
+msgid "Highlight values more than"
+msgstr "次の値を強調表示"
 
 msgid "Show day high/low"
 msgstr "表示日高/低"
@@ -2813,9 +2906,6 @@ msgstr "網の種類"
 msgid "Remove symbol"
 msgstr "シンボルを削除する"
 
-msgid "Tick"
-msgstr "ティック"
-
 msgid "1 minute"
 msgstr "1分"
 
@@ -2844,6 +2934,13 @@ msgstr "このホットキーはコアによって予約されています。"
 #, csharp-format
 msgid "This Hotkey combination is already used for \"{0}\". Please use another one."
 msgstr "このホットキーの組み合わせは、すでに「{0}」に使用されています。"
+
+#, csharp-format
+msgid "Are you sure want to remove {0}?"
+msgstr "{0}を削除してもよろしいですか？"
+
+msgid "You have no selected symbols yet"
+msgstr "シンボルが選択されていません"
 
 msgid "Exchanges & Assets"
 msgstr "取引所と資産"
@@ -2884,10 +2981,6 @@ msgstr "ポイント座標"
 
 msgid "Point"
 msgstr "点"
-
-#, csharp-format
-msgid "Are you sure want to remove {0}?"
-msgstr "{0}を削除してもよろしいですか？"
 
 msgid "Custom sessions"
 msgstr "カスタム セッション"
@@ -3062,18 +3155,12 @@ msgstr "スクリーンショット"
 msgid "copied to clipboard"
 msgstr "クリップボードにコピー"
 
-msgid "is locked"
-msgstr "がロックされ"
-
 #, csharp-format
 msgid "Are you sure you want to delete {0}?"
 msgstr "{0} を削除してもよろしいですか?"
 
 msgid "is unlocked"
 msgstr "がロック解除"
-
-msgid "locked"
-msgstr "ロック"
 
 msgid "Sounds"
 msgstr "サウンド"
@@ -3444,6 +3531,9 @@ msgstr "情報"
 msgid "Trading info"
 msgstr "取引情報"
 
+msgid "Allow change leverage"
+msgstr "変更レバレッジの許可"
+
 msgid "WebSocket endpoint"
 msgstr "ウェブソケットエンドポイント"
 
@@ -3617,6 +3707,45 @@ msgstr "新しいパスワードが失敗しました"
 
 msgid "Must change password"
 msgstr "パスワードを変更する必要があります"
+
+msgid "Primary"
+msgstr "プライマリ"
+
+msgid "Collateral Value"
+msgstr "担保価値"
+
+msgid "Open P/L"
+msgstr "オープンな損益"
+
+msgid "Available Margin"
+msgstr "利用可能なマージン"
+
+msgid "Used"
+msgstr "使用"
+
+msgid "Reserved"
+msgstr "予約"
+
+msgid "Free"
+msgstr "無料"
+
+msgid "Ratio"
+msgstr "レシオ"
+
+msgid "Market data only"
+msgstr "市場データのみ"
+
+msgid "Demo trading"
+msgstr "デモ取引"
+
+msgid "Real trading"
+msgstr "実質取引"
+
+msgid "Login"
+msgstr "ログイン"
+
+msgid "Two-Factor Authentication code"
+msgstr "2 要素認証コード"
 
 msgid "AON"
 msgstr "エーオン"
@@ -3855,9 +3984,6 @@ msgstr "接続データ サーバーが見つかりません"
 msgid "Authorization endpoint is missing"
 msgstr "承認エンドポイントが見つかりません"
 
-msgid "Login"
-msgstr "ログイン"
-
 msgid "Stop Limit"
 msgstr "ストップリミット"
 
@@ -4067,6 +4193,9 @@ msgstr "使用する位置制限"
 
 msgid "API secret"
 msgstr "API シークレット"
+
+msgid "Subaccount name (not required)"
+msgstr "サブアカウント名 (必須ではありません)"
 
 msgid "Token"
 msgstr "トークン"
@@ -4948,14 +5077,14 @@ msgstr "無効なクライアントキー"
 msgid "Stop (Market)"
 msgstr "ストップ(市場)"
 
+msgid "MIS"
+msgstr "Mis"
+
 msgid "NRML"
 msgstr "NRML"
 
 msgid "CNC"
 msgstr "Cnc"
-
-msgid "MIS"
-msgstr "Mis"
 
 msgid "Reading master file..."
 msgstr "マスターファイルを読み取っています。"
@@ -4965,18 +5094,6 @@ msgstr "マスターファイルを読み込んでいます。"
 
 msgid "Loading indices from {exch.Value}..."
 msgstr "{exch からインデックスを読み込んでいます。値}."
-
-msgid "Market data app key"
-msgstr "市場データ アプリキー"
-
-msgid "Market data secret key"
-msgstr "市場データの秘密鍵"
-
-msgid "Trading app key"
-msgstr "アプリキーの取引"
-
-msgid "Trading secret key"
-msgstr "取引秘密鍵"
 
 msgid "Server url is empty"
 msgstr "サーバー URL が空です"
@@ -5001,9 +5118,6 @@ msgstr "引用符ソケットを初期化します。"
 
 msgid "Initializing trade socket..."
 msgstr "トレードソケットの初期化."
-
-msgid "Connecting to history server..."
-msgstr "履歴サーバーへの接続."
 
 msgid "CashMarginAvailable"
 msgstr "現金利益率利用可能"
@@ -5244,6 +5358,24 @@ msgstr "発行開始日"
 
 msgid "Remarks"
 msgstr "発言"
+
+msgid "History"
+msgstr "履歴"
+
+msgid "Market data app key"
+msgstr "市場データ アプリキー"
+
+msgid "Market data secret key"
+msgstr "市場データの秘密鍵"
+
+msgid "Trading app key"
+msgstr "アプリキーの取引"
+
+msgid "Trading secret key"
+msgstr "取引秘密鍵"
+
+msgid "You need to have valid Broker API access and Quantower License to use History mode"
+msgstr "履歴モードを使用するには、有効なブローカーAPIアクセスとQuantowerライセンスが必要です。"
 
 msgid "User principals..."
 msgstr "ユーザー プリンシパル."

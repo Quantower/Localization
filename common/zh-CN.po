@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-09 22:49+0200\n"
+"POT-Creation-Date: 2021-01-12 12:48+0200\n"
 "PO-Revision-Date: 2018-12-04 16:01+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -463,6 +463,9 @@ msgstr "直方图颜色"
 msgid "Area colors"
 msgstr "区域颜色"
 
+msgid "Loading volume analysis data..."
+msgstr "正在加载卷分析数据..."
+
 msgid "Lot"
 msgstr "手数"
 
@@ -514,6 +517,12 @@ msgstr "最大"
 msgid "Restore"
 msgstr "恢复"
 
+msgid "Workspace"
+msgstr "工作区"
+
+msgid "locked"
+msgstr "锁"
+
 msgid "Custom title"
 msgstr "自定义标题"
 
@@ -560,11 +569,17 @@ msgstr "DOM 表面"
 msgid "TPO Chart"
 msgstr "TPO 图表"
 
+msgid "Symbol Info"
+msgstr "符号信息"
+
 msgid "Duplicate panel"
 msgstr "复制面板"
 
 msgid "Save as template"
 msgstr "另存为模板"
+
+msgid "Apply template"
+msgstr "应用模板"
 
 msgid "Set as default"
 msgstr "设为默认值"
@@ -595,6 +610,9 @@ msgstr "动作"
 
 msgid "Filter"
 msgstr "过滤"
+
+msgid "Press Esc to exit Fullscreen mode"
+msgstr "按 Esc 退出全屏模式"
 
 msgid "HISTORICAL SYMBOL"
 msgstr "历史符号"
@@ -954,6 +972,9 @@ msgstr "锁定位置"
 msgid "Font size"
 msgstr "字体大小"
 
+msgid "Availability"
+msgstr "可用 性"
+
 #, csharp-format
 msgid "Buy {0}"
 msgstr "购买{0}"
@@ -1103,6 +1124,24 @@ msgstr "时间直方图"
 msgid "VWAP"
 msgstr "VWAP"
 
+msgid "Tick"
+msgstr "点"
+
+msgid "Current TF"
+msgstr "当前 TF"
+
+msgid "HL/2"
+msgstr "HL/2"
+
+msgid "HLC/3"
+msgstr "HLC/3"
+
+msgid "OHLC/4"
+msgstr "OHLC/4"
+
+msgid "Price type"
+msgstr "价格类型"
+
 msgid "Forward extensions (past VWAPs)"
 msgstr "转发扩展（过去的 VWAP）"
 
@@ -1219,6 +1258,9 @@ msgstr "群集可视化"
 msgid "Show POC"
 msgstr "显示 POC"
 
+msgid "POC type"
+msgstr "POC 类型"
+
 msgid "Enabled"
 msgstr "启用"
 
@@ -1333,6 +1375,9 @@ msgstr "直线"
 msgid "Area"
 msgstr "实心图"
 
+msgid "Line width"
+msgstr "线宽"
+
 msgid "Data style"
 msgstr "风格"
 
@@ -1371,6 +1416,9 @@ msgstr "注线"
 
 msgid "Label"
 msgstr "标签"
+
+msgid "Marker text style"
+msgstr "标记文本样式"
 
 msgid "Spread type"
 msgstr "点差类型"
@@ -1501,6 +1549,9 @@ msgstr "左射线"
 msgid "Right ray"
 msgstr "右射线"
 
+msgid "Reverse"
+msgstr "反向"
+
 msgid "Fixed left"
 msgstr "固定左"
 
@@ -1573,9 +1624,6 @@ msgstr "中等"
 msgid "Weighted"
 msgstr "加权"
 
-msgid "Price type"
-msgstr "价格类型"
-
 msgid "Top line"
 msgstr "顶线"
 
@@ -1608,6 +1656,64 @@ msgstr "字体样式"
 
 msgid "Border"
 msgstr "边框"
+
+msgid "Invalid price"
+msgstr "无效价格"
+
+msgid "Net:"
+msgstr "净额:"
+
+msgid "Gross:"
+msgstr "总额:"
+
+#, csharp-format
+msgid "TP price: {0}"
+msgstr "止盈价格：{0}"
+
+msgid "Tr.Stop"
+msgstr "滑动止损"
+
+msgid "SL price"
+msgstr "止损价"
+
+#, csharp-format
+msgid "{0} TP price: {1}"
+msgstr "{0} 止盈价格：{1}"
+
+msgid "is locked"
+msgstr "已锁定"
+
+msgid "VA"
+msgstr "Va"
+
+msgid "POC ray"
+msgstr "poc 射线"
+
+msgid "Waiting for data loading"
+msgstr "等待数据加载"
+
+msgid "Loading data..."
+msgstr "上载数据"
+
+msgid "No data"
+msgstr "无数据"
+
+#, csharp-format
+msgid "{0} ticks"
+msgstr "{0} 刻度"
+
+msgid "Overlay"
+msgstr "覆盖"
+
+msgid "Empty symbol"
+msgstr "空的符号"
+
+msgid "Full"
+msgstr "全屏"
+
+#, csharp-format
+msgid "{0} %"
+msgstr "{0} %"
 
 msgid "Trading tool"
 msgstr "交易工具"
@@ -1642,8 +1748,8 @@ msgstr "价格通道"
 msgid "Fibonacci retracement"
 msgstr "斐波纳契回撤"
 
-msgid "Fibonacci expansion"
-msgstr "斐波那契扩展"
+msgid "Fibonacci price expansion"
+msgstr "斐波那契价格扩张"
 
 msgid "Fibonacci arc"
 msgstr "黄金分割弧形"
@@ -1660,8 +1766,8 @@ msgstr "斐波那契扇形线"
 msgid "Fibonacci phi-channel"
 msgstr "斐波那契通道"
 
-msgid "Fibonacci time goal"
-msgstr "斐波纳契时间目标"
+msgid "Fibonacci time extension"
+msgstr "斐波那契时间延长"
 
 msgid "Fibonacci time zone"
 msgstr "斐波那契时间区间"
@@ -1756,60 +1862,11 @@ msgstr "锚点 Vwap"
 msgid "Whale Splash"
 msgstr "鲸鱼飞溅"
 
-msgid "Invalid price"
-msgstr "无效价格"
+msgid "Fibonacci time expansion"
+msgstr "斐波那契时间扩展"
 
-msgid "Net:"
-msgstr "净额:"
-
-msgid "Gross:"
-msgstr "总额:"
-
-#, csharp-format
-msgid "TP price: {0}"
-msgstr "止盈价格：{0}"
-
-msgid "Tr.Stop"
-msgstr "滑动止损"
-
-msgid "SL price"
-msgstr "止损价"
-
-#, csharp-format
-msgid "{0} TP price: {1}"
-msgstr "{0} 止盈价格：{1}"
-
-msgid "VA"
-msgstr "Va"
-
-msgid "POC ray"
-msgstr "poc 射线"
-
-msgid "Waiting for data loading"
-msgstr "等待数据加载"
-
-msgid "Loading data..."
-msgstr "上载数据"
-
-msgid "No data"
-msgstr "无数据"
-
-#, csharp-format
-msgid "{0} ticks"
-msgstr "{0} 刻度"
-
-msgid "Overlay"
-msgstr "覆盖"
-
-msgid "Empty symbol"
-msgstr "空的符号"
-
-msgid "Full"
-msgstr "全屏"
-
-#, csharp-format
-msgid "{0} %"
-msgstr "{0} %"
+msgid "Fibonacci price extension"
+msgstr "斐波那契价格延期"
 
 msgid "Candle"
 msgstr "蜡烛"
@@ -1863,6 +1920,12 @@ msgstr "没有数据显示在图表上"
 msgid "Please check your connection{0} or symbol availability"
 msgstr "请检查您的连接{0}或符号可用性"
 
+msgid "Current chart"
+msgstr "当前图表"
+
+msgid "All charts with same symbol"
+msgstr "具有相同符号的所有图表"
+
 msgid "Window colors"
 msgstr "窗口"
 
@@ -1874,6 +1937,9 @@ msgstr "下背景"
 
 msgid "Mouse wheel action"
 msgstr "鼠标滚轮动作"
+
+msgid "Drawings default availablity"
+msgstr "图形默认可用性"
 
 msgid "Scale type"
 msgstr "缩放类型"
@@ -1980,9 +2046,6 @@ msgstr "容积分析"
 msgid "Show toolbar"
 msgstr "显示工具栏"
 
-msgid "Step Profile"
-msgstr "步骤配置文件"
-
 msgid "Left Profile"
 msgstr "左配置文件"
 
@@ -2019,6 +2082,12 @@ msgstr "工具栏"
 msgid "Quick OE"
 msgstr "快速下單"
 
+msgid "Trading toolbar"
+msgstr "交易工具栏"
+
+msgid "Objects toolbar"
+msgstr "对象工具栏"
+
 msgid "Symbol description"
 msgstr "商品描述"
 
@@ -2031,9 +2100,6 @@ msgstr "刷新"
 #, csharp-format
 msgid "{0} settings"
 msgstr "{0}设置"
-
-msgid "Modification will affect the position closing. Are you sure?"
-msgstr "修改将影响头寸平仓。"
 
 msgid "Are you sure you want to execute order at market price?"
 msgstr "您确定希望以市价执行此订单吗？"
@@ -2138,6 +2204,9 @@ msgstr "颜色 4"
 msgid "Color 5"
 msgstr "颜色 5"
 
+msgid "Limit of points"
+msgstr "积分限制"
+
 msgid "Show last line"
 msgstr "显示最后一行"
 
@@ -2237,14 +2306,17 @@ msgstr "显示值区域"
 msgid "Value Area, %"
 msgstr "值面积，%"
 
+msgid "Extend VAL/VAH until intesection"
+msgstr "延长 VAL/VAH 直到分段"
+
 msgid "Show singles"
 msgstr "显示单曲"
 
 msgid "Show bar"
 msgstr "显示栏"
 
-msgid "POC type"
-msgstr "POC 类型"
+msgid "Extend POC until intesection"
+msgstr "将 POC 延长至分段"
 
 msgid "POC color"
 msgstr "POC 颜色"
@@ -2317,6 +2389,18 @@ msgstr "VA 范围"
 
 msgid "VA range (ticks)"
 msgstr "VA 范围（刻度）"
+
+msgid "IB High"
+msgstr "IB 高"
+
+msgid "IB Low"
+msgstr "IB 低"
+
+msgid "IB range"
+msgstr "IB 范围"
+
+msgid "IB range (ticks)"
+msgstr "IB 范围（刻度）"
 
 msgid "TPO statistics"
 msgstr "TPO 统计信息"
@@ -2552,6 +2636,12 @@ msgstr "出价/询问重置"
 msgid "Last trade size"
 msgstr "最后交易规模"
 
+msgid "Mouse Trading"
+msgstr "鼠标交易"
+
+msgid "Locked"
+msgstr "锁定"
+
 msgid "Grid color"
 msgstr "格线颜色"
 
@@ -2578,6 +2668,9 @@ msgstr "显示日图"
 
 msgid "Imbalance, %"
 msgstr "不平衡， %"
+
+msgid "Highlight values more than"
+msgstr "突出显示值超过"
 
 msgid "Show day high/low"
 msgstr "显示日高/低"
@@ -2813,9 +2906,6 @@ msgstr "净额结算类型"
 msgid "Remove symbol"
 msgstr "刪除产品"
 
-msgid "Tick"
-msgstr "点"
-
 msgid "1 minute"
 msgstr "1 分"
 
@@ -2844,6 +2934,13 @@ msgstr "此热键由Core保留。"
 #, csharp-format
 msgid "This Hotkey combination is already used for \"{0}\". Please use another one."
 msgstr "此热键组合已用于“{0}”。"
+
+#, csharp-format
+msgid "Are you sure want to remove {0}?"
+msgstr "您确定要删除{0}吗？"
+
+msgid "You have no selected symbols yet"
+msgstr "您还没有选定的符号"
 
 msgid "Exchanges & Assets"
 msgstr "交易所和资产"
@@ -2884,10 +2981,6 @@ msgstr "点坐标"
 
 msgid "Point"
 msgstr "点图"
-
-#, csharp-format
-msgid "Are you sure want to remove {0}?"
-msgstr "您确定要删除{0}吗？"
 
 msgid "Custom sessions"
 msgstr "自定义会话"
@@ -3062,18 +3155,12 @@ msgstr "截图"
 msgid "copied to clipboard"
 msgstr "复制到剪贴板"
 
-msgid "is locked"
-msgstr "已锁定"
-
 #, csharp-format
 msgid "Are you sure you want to delete {0}?"
 msgstr "确实要删除 {0} 吗？"
 
 msgid "is unlocked"
 msgstr "已解锁"
-
-msgid "locked"
-msgstr "锁"
 
 msgid "Sounds"
 msgstr "声音"
@@ -3444,6 +3531,9 @@ msgstr "讯息"
 msgid "Trading info"
 msgstr "交易信息"
 
+msgid "Allow change leverage"
+msgstr "允许变更杠杆"
+
 msgid "WebSocket endpoint"
 msgstr "WebSocket 终结点"
 
@@ -3617,6 +3707,45 @@ msgstr "新密码失败"
 
 msgid "Must change password"
 msgstr "必须更改密码"
+
+msgid "Primary"
+msgstr "主要"
+
+msgid "Collateral Value"
+msgstr "抵押价值"
+
+msgid "Open P/L"
+msgstr "持仓盈亏"
+
+msgid "Available Margin"
+msgstr "可用保证金"
+
+msgid "Used"
+msgstr "使用"
+
+msgid "Reserved"
+msgstr "保留"
+
+msgid "Free"
+msgstr "自由"
+
+msgid "Ratio"
+msgstr "比例"
+
+msgid "Market data only"
+msgstr "仅市场数据"
+
+msgid "Demo trading"
+msgstr "演示交易"
+
+msgid "Real trading"
+msgstr "真实交易"
+
+msgid "Login"
+msgstr "登录:"
+
+msgid "Two-Factor Authentication code"
+msgstr "双重身份验证代码"
 
 msgid "AON"
 msgstr "永"
@@ -3855,9 +3984,6 @@ msgstr "连接数据服务器丢失"
 msgid "Authorization endpoint is missing"
 msgstr "缺少授权终结点"
 
-msgid "Login"
-msgstr "登录:"
-
 msgid "Stop Limit"
 msgstr "停止限制"
 
@@ -4067,6 +4193,9 @@ msgstr "使用的位置限制"
 
 msgid "API secret"
 msgstr "API 密钥"
+
+msgid "Subaccount name (not required)"
+msgstr "子帐户名称（不是必需的）"
 
 msgid "Token"
 msgstr "令 牌"
@@ -4948,14 +5077,14 @@ msgstr "无效的客户端密钥"
 msgid "Stop (Market)"
 msgstr "停止（市场）"
 
+msgid "MIS"
+msgstr "Mis"
+
 msgid "NRML"
 msgstr "Nrml"
 
 msgid "CNC"
 msgstr "数控"
-
-msgid "MIS"
-msgstr "Mis"
 
 msgid "Reading master file..."
 msgstr "正在读取主文件..."
@@ -4965,18 +5094,6 @@ msgstr "正在加载主文件..."
 
 msgid "Loading indices from {exch.Value}..."
 msgstr "从 \\exch 加载索引。值=..."
-
-msgid "Market data app key"
-msgstr "市场数据应用密钥"
-
-msgid "Market data secret key"
-msgstr "市场数据密钥"
-
-msgid "Trading app key"
-msgstr "交易应用程序密钥"
-
-msgid "Trading secret key"
-msgstr "交易密钥"
 
 msgid "Server url is empty"
 msgstr "服务器 URL 为空"
@@ -5001,9 +5118,6 @@ msgstr "初始化报价套接字..."
 
 msgid "Initializing trade socket..."
 msgstr "初始化交易套接字..."
-
-msgid "Connecting to history server..."
-msgstr "正在连接到历史记录服务器..."
 
 msgid "CashMarginAvailable"
 msgstr "现金马吉纳瓦利可"
@@ -5244,6 +5358,24 @@ msgstr "签发开始日期"
 
 msgid "Remarks"
 msgstr "言论"
+
+msgid "History"
+msgstr "请求完成"
+
+msgid "Market data app key"
+msgstr "市场数据应用密钥"
+
+msgid "Market data secret key"
+msgstr "市场数据密钥"
+
+msgid "Trading app key"
+msgstr "交易应用程序密钥"
+
+msgid "Trading secret key"
+msgstr "交易密钥"
+
+msgid "You need to have valid Broker API access and Quantower License to use History mode"
+msgstr "您需要具有有效的代理 API 访问和 Quantower 许可证才能使用历史记录模式"
 
 msgid "User principals..."
 msgstr "用户主体..."

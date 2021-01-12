@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-09 22:49+0200\n"
+"POT-Creation-Date: 2021-01-12 12:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -464,6 +464,9 @@ msgstr ""
 msgid "Area colors"
 msgstr ""
 
+msgid "Loading volume analysis data..."
+msgstr ""
+
 msgid "Lot"
 msgstr ""
 
@@ -515,6 +518,12 @@ msgstr ""
 msgid "Restore"
 msgstr ""
 
+msgid "Workspace"
+msgstr ""
+
+msgid "locked"
+msgstr ""
+
 msgid "Custom title"
 msgstr ""
 
@@ -561,10 +570,16 @@ msgstr ""
 msgid "TPO Chart"
 msgstr ""
 
+msgid "Symbol Info"
+msgstr ""
+
 msgid "Duplicate panel"
 msgstr ""
 
 msgid "Save as template"
+msgstr ""
+
+msgid "Apply template"
 msgstr ""
 
 msgid "Set as default"
@@ -595,6 +610,9 @@ msgid "Actions"
 msgstr ""
 
 msgid "Filter"
+msgstr ""
+
+msgid "Press Esc to exit Fullscreen mode"
 msgstr ""
 
 msgid "HISTORICAL SYMBOL"
@@ -955,6 +973,9 @@ msgstr ""
 msgid "Font size"
 msgstr ""
 
+msgid "Availability"
+msgstr ""
+
 #, csharp-format
 msgid "Buy {0}"
 msgstr ""
@@ -1104,6 +1125,24 @@ msgstr ""
 msgid "VWAP"
 msgstr ""
 
+msgid "Tick"
+msgstr ""
+
+msgid "Current TF"
+msgstr ""
+
+msgid "HL/2"
+msgstr ""
+
+msgid "HLC/3"
+msgstr ""
+
+msgid "OHLC/4"
+msgstr ""
+
+msgid "Price type"
+msgstr ""
+
 msgid "Forward extensions (past VWAPs)"
 msgstr ""
 
@@ -1220,6 +1259,9 @@ msgstr ""
 msgid "Show POC"
 msgstr ""
 
+msgid "POC type"
+msgstr ""
+
 msgid "Enabled"
 msgstr ""
 
@@ -1334,6 +1376,9 @@ msgstr ""
 msgid "Area"
 msgstr ""
 
+msgid "Line width"
+msgstr ""
+
 msgid "Data style"
 msgstr ""
 
@@ -1371,6 +1416,9 @@ msgid "Line with price"
 msgstr ""
 
 msgid "Label"
+msgstr ""
+
+msgid "Marker text style"
 msgstr ""
 
 msgid "Spread type"
@@ -1502,6 +1550,9 @@ msgstr ""
 msgid "Right ray"
 msgstr ""
 
+msgid "Reverse"
+msgstr ""
+
 msgid "Fixed left"
 msgstr ""
 
@@ -1574,9 +1625,6 @@ msgstr ""
 msgid "Weighted"
 msgstr ""
 
-msgid "Price type"
-msgstr ""
-
 msgid "Top line"
 msgstr ""
 
@@ -1608,6 +1656,64 @@ msgid "Font style"
 msgstr ""
 
 msgid "Border"
+msgstr ""
+
+msgid "Invalid price"
+msgstr ""
+
+msgid "Net:"
+msgstr ""
+
+msgid "Gross:"
+msgstr ""
+
+#, csharp-format
+msgid "TP price: {0}"
+msgstr ""
+
+msgid "Tr.Stop"
+msgstr ""
+
+msgid "SL price"
+msgstr ""
+
+#, csharp-format
+msgid "{0} TP price: {1}"
+msgstr ""
+
+msgid "is locked"
+msgstr ""
+
+msgid "VA"
+msgstr ""
+
+msgid "POC ray"
+msgstr ""
+
+msgid "Waiting for data loading"
+msgstr ""
+
+msgid "Loading data..."
+msgstr ""
+
+msgid "No data"
+msgstr ""
+
+#, csharp-format
+msgid "{0} ticks"
+msgstr ""
+
+msgid "Overlay"
+msgstr ""
+
+msgid "Empty symbol"
+msgstr ""
+
+msgid "Full"
+msgstr ""
+
+#, csharp-format
+msgid "{0} %"
 msgstr ""
 
 msgid "Trading tool"
@@ -1643,7 +1749,7 @@ msgstr ""
 msgid "Fibonacci retracement"
 msgstr ""
 
-msgid "Fibonacci expansion"
+msgid "Fibonacci price expansion"
 msgstr ""
 
 msgid "Fibonacci arc"
@@ -1661,7 +1767,7 @@ msgstr ""
 msgid "Fibonacci phi-channel"
 msgstr ""
 
-msgid "Fibonacci time goal"
+msgid "Fibonacci time extension"
 msgstr ""
 
 msgid "Fibonacci time zone"
@@ -1757,59 +1863,10 @@ msgstr ""
 msgid "Whale Splash"
 msgstr ""
 
-msgid "Invalid price"
+msgid "Fibonacci time expansion"
 msgstr ""
 
-msgid "Net:"
-msgstr ""
-
-msgid "Gross:"
-msgstr ""
-
-#, csharp-format
-msgid "TP price: {0}"
-msgstr ""
-
-msgid "Tr.Stop"
-msgstr ""
-
-msgid "SL price"
-msgstr ""
-
-#, csharp-format
-msgid "{0} TP price: {1}"
-msgstr ""
-
-msgid "VA"
-msgstr ""
-
-msgid "POC ray"
-msgstr ""
-
-msgid "Waiting for data loading"
-msgstr ""
-
-msgid "Loading data..."
-msgstr ""
-
-msgid "No data"
-msgstr ""
-
-#, csharp-format
-msgid "{0} ticks"
-msgstr ""
-
-msgid "Overlay"
-msgstr ""
-
-msgid "Empty symbol"
-msgstr ""
-
-msgid "Full"
-msgstr ""
-
-#, csharp-format
-msgid "{0} %"
+msgid "Fibonacci price extension"
 msgstr ""
 
 msgid "Candle"
@@ -1864,6 +1921,12 @@ msgstr ""
 msgid "Please check your connection{0} or symbol availability"
 msgstr ""
 
+msgid "Current chart"
+msgstr ""
+
+msgid "All charts with same symbol"
+msgstr ""
+
 msgid "Window colors"
 msgstr ""
 
@@ -1874,6 +1937,9 @@ msgid "Back bottom color"
 msgstr ""
 
 msgid "Mouse wheel action"
+msgstr ""
+
+msgid "Drawings default availablity"
 msgstr ""
 
 msgid "Scale type"
@@ -1981,9 +2047,6 @@ msgstr ""
 msgid "Show toolbar"
 msgstr ""
 
-msgid "Step Profile"
-msgstr ""
-
 msgid "Left Profile"
 msgstr ""
 
@@ -2020,6 +2083,12 @@ msgstr ""
 msgid "Quick OE"
 msgstr ""
 
+msgid "Trading toolbar"
+msgstr ""
+
+msgid "Objects toolbar"
+msgstr ""
+
 msgid "Symbol description"
 msgstr ""
 
@@ -2031,9 +2100,6 @@ msgstr ""
 
 #, csharp-format
 msgid "{0} settings"
-msgstr ""
-
-msgid "Modification will affect the position closing. Are you sure?"
 msgstr ""
 
 msgid "Are you sure you want to execute order at market price?"
@@ -2139,6 +2205,9 @@ msgstr ""
 msgid "Color 5"
 msgstr ""
 
+msgid "Limit of points"
+msgstr ""
+
 msgid "Show last line"
 msgstr ""
 
@@ -2238,13 +2307,16 @@ msgstr ""
 msgid "Value Area, %"
 msgstr ""
 
+msgid "Extend VAL/VAH until intesection"
+msgstr ""
+
 msgid "Show singles"
 msgstr ""
 
 msgid "Show bar"
 msgstr ""
 
-msgid "POC type"
+msgid "Extend POC until intesection"
 msgstr ""
 
 msgid "POC color"
@@ -2317,6 +2389,18 @@ msgid "VA range"
 msgstr ""
 
 msgid "VA range (ticks)"
+msgstr ""
+
+msgid "IB High"
+msgstr ""
+
+msgid "IB Low"
+msgstr ""
+
+msgid "IB range"
+msgstr ""
+
+msgid "IB range (ticks)"
 msgstr ""
 
 msgid "TPO statistics"
@@ -2553,6 +2637,12 @@ msgstr ""
 msgid "Last trade size"
 msgstr ""
 
+msgid "Mouse Trading"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
 msgid "Grid color"
 msgstr ""
 
@@ -2578,6 +2668,9 @@ msgid "Show day map"
 msgstr ""
 
 msgid "Imbalance, %"
+msgstr ""
+
+msgid "Highlight values more than"
 msgstr ""
 
 msgid "Show day high/low"
@@ -2814,9 +2907,6 @@ msgstr ""
 msgid "Remove symbol"
 msgstr ""
 
-msgid "Tick"
-msgstr ""
-
 msgid "1 minute"
 msgstr ""
 
@@ -2845,6 +2935,13 @@ msgstr ""
 #, csharp-format
 msgid ""
 "This Hotkey combination is already used for \"{0}\". Please use another one."
+msgstr ""
+
+#, csharp-format
+msgid "Are you sure want to remove {0}?"
+msgstr ""
+
+msgid "You have no selected symbols yet"
 msgstr ""
 
 msgid "Exchanges & Assets"
@@ -2885,10 +2982,6 @@ msgid "Point coordinates"
 msgstr ""
 
 msgid "Point"
-msgstr ""
-
-#, csharp-format
-msgid "Are you sure want to remove {0}?"
 msgstr ""
 
 msgid "Custom sessions"
@@ -3064,17 +3157,11 @@ msgstr ""
 msgid "copied to clipboard"
 msgstr ""
 
-msgid "is locked"
-msgstr ""
-
 #, csharp-format
 msgid "Are you sure you want to delete {0}?"
 msgstr ""
 
 msgid "is unlocked"
-msgstr ""
-
-msgid "locked"
 msgstr ""
 
 msgid "Sounds"
@@ -3446,6 +3533,9 @@ msgstr ""
 msgid "Trading info"
 msgstr ""
 
+msgid "Allow change leverage"
+msgstr ""
+
 msgid "WebSocket endpoint"
 msgstr ""
 
@@ -3628,6 +3718,45 @@ msgid "New password failed"
 msgstr ""
 
 msgid "Must change password"
+msgstr ""
+
+msgid "Primary"
+msgstr ""
+
+msgid "Collateral Value"
+msgstr ""
+
+msgid "Open P/L"
+msgstr ""
+
+msgid "Available Margin"
+msgstr ""
+
+msgid "Used"
+msgstr ""
+
+msgid "Reserved"
+msgstr ""
+
+msgid "Free"
+msgstr ""
+
+msgid "Ratio"
+msgstr ""
+
+msgid "Market data only"
+msgstr ""
+
+msgid "Demo trading"
+msgstr ""
+
+msgid "Real trading"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Two-Factor Authentication code"
 msgstr ""
 
 msgid "AON"
@@ -3869,9 +3998,6 @@ msgstr ""
 msgid "Authorization endpoint is missing"
 msgstr ""
 
-msgid "Login"
-msgstr ""
-
 msgid "Stop Limit"
 msgstr ""
 
@@ -4080,6 +4206,9 @@ msgid "Position limit used"
 msgstr ""
 
 msgid "API secret"
+msgstr ""
+
+msgid "Subaccount name (not required)"
 msgstr ""
 
 msgid "Token"
@@ -5000,13 +5129,13 @@ msgstr ""
 msgid "Stop (Market)"
 msgstr ""
 
+msgid "MIS"
+msgstr ""
+
 msgid "NRML"
 msgstr ""
 
 msgid "CNC"
-msgstr ""
-
-msgid "MIS"
 msgstr ""
 
 msgid "Reading master file..."
@@ -5016,18 +5145,6 @@ msgid "Loading master file..."
 msgstr ""
 
 msgid "Loading indices from {exch.Value}..."
-msgstr ""
-
-msgid "Market data app key"
-msgstr ""
-
-msgid "Market data secret key"
-msgstr ""
-
-msgid "Trading app key"
-msgstr ""
-
-msgid "Trading secret key"
 msgstr ""
 
 msgid "Server url is empty"
@@ -5052,9 +5169,6 @@ msgid "Initializing quotes socket..."
 msgstr ""
 
 msgid "Initializing trade socket..."
-msgstr ""
-
-msgid "Connecting to history server..."
 msgstr ""
 
 msgid "CashMarginAvailable"
@@ -5297,6 +5411,26 @@ msgid "Issue start date"
 msgstr ""
 
 msgid "Remarks"
+msgstr ""
+
+msgid "History"
+msgstr ""
+
+msgid "Market data app key"
+msgstr ""
+
+msgid "Market data secret key"
+msgstr ""
+
+msgid "Trading app key"
+msgstr ""
+
+msgid "Trading secret key"
+msgstr ""
+
+msgid ""
+"You need to have valid Broker API access and Quantower License to use "
+"History mode"
 msgstr ""
 
 msgid "User principals..."

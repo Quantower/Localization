@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-09 22:49+0200\n"
+"POT-Creation-Date: 2021-01-12 12:48+0200\n"
 "PO-Revision-Date: 2019-02-26 13:28+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -464,6 +464,9 @@ msgstr "Цвета гистограммы"
 msgid "Area colors"
 msgstr "Цвет области"
 
+msgid "Loading volume analysis data..."
+msgstr "Данные анализа объема загрузки..."
+
 msgid "Lot"
 msgstr "За лот"
 
@@ -515,6 +518,12 @@ msgstr "Развернуть"
 msgid "Restore"
 msgstr "Восстановить"
 
+msgid "Workspace"
+msgstr "Рабочее пространство"
+
+msgid "locked"
+msgstr "Заблокирован"
+
 msgid "Custom title"
 msgstr "Название панели"
 
@@ -561,11 +570,17 @@ msgstr "ПОВЕРХНОСТЬ DOM"
 msgid "TPO Chart"
 msgstr "Диаграмма TPO"
 
+msgid "Symbol Info"
+msgstr "Информация о символах"
+
 msgid "Duplicate panel"
 msgstr "Копировать панель"
 
 msgid "Save as template"
 msgstr "Сохранить как шаблон"
+
+msgid "Apply template"
+msgstr "Применить шаблон"
 
 msgid "Set as default"
 msgstr "Установить по умолчанию"
@@ -596,6 +611,9 @@ msgstr "Алерты"
 
 msgid "Filter"
 msgstr "Фильтр"
+
+msgid "Press Esc to exit Fullscreen mode"
+msgstr "Нажмите Esc, чтобы выйти из полноэкранного режима"
 
 msgid "HISTORICAL SYMBOL"
 msgstr "Исторический символ"
@@ -955,6 +973,9 @@ msgstr "Закрепить на месте"
 msgid "Font size"
 msgstr "Размер шрифта"
 
+msgid "Availability"
+msgstr "Доступности"
+
 #, csharp-format
 msgid "Buy {0}"
 msgstr "Покупка {0}"
@@ -1104,6 +1125,24 @@ msgstr "Гистограмма по времени"
 msgid "VWAP"
 msgstr "VWAP"
 
+msgid "Tick"
+msgstr "Тик"
+
+msgid "Current TF"
+msgstr "Текущий TF"
+
+msgid "HL/2"
+msgstr "HL/2"
+
+msgid "HLC/3"
+msgstr "HLC/3"
+
+msgid "OHLC/4"
+msgstr "OHLC/4"
+
+msgid "Price type"
+msgstr "Тип цены"
+
 msgid "Forward extensions (past VWAPs)"
 msgstr "Форвардные расширения (прошлые VWAPs)"
 
@@ -1220,6 +1259,9 @@ msgstr "Визуализация кластера"
 msgid "Show POC"
 msgstr "Показать POC"
 
+msgid "POC type"
+msgstr "Тип POC"
+
 msgid "Enabled"
 msgstr "Включено"
 
@@ -1334,6 +1376,9 @@ msgstr "Линия"
 msgid "Area"
 msgstr "Область"
 
+msgid "Line width"
+msgstr "Толщина линии"
+
 msgid "Data style"
 msgstr "Стиль данных"
 
@@ -1372,6 +1417,9 @@ msgstr "Линия с ценой"
 
 msgid "Label"
 msgstr "Значение"
+
+msgid "Marker text style"
+msgstr "Маркерный стиль текста"
 
 msgid "Spread type"
 msgstr "Тип спреда"
@@ -1502,6 +1550,9 @@ msgstr "Левый луч"
 msgid "Right ray"
 msgstr "Правый луч"
 
+msgid "Reverse"
+msgstr "Реверс"
+
 msgid "Fixed left"
 msgstr "Зафиксированные слева"
 
@@ -1574,9 +1625,6 @@ msgstr "Средний"
 msgid "Weighted"
 msgstr "Взвешенный"
 
-msgid "Price type"
-msgstr "Тип цены"
-
 msgid "Top line"
 msgstr "Верхняя линия"
 
@@ -1609,6 +1657,64 @@ msgstr "Стиль шрифта"
 
 msgid "Border"
 msgstr "Граница"
+
+msgid "Invalid price"
+msgstr "Неверная цена"
+
+msgid "Net:"
+msgstr "Чистая прибыль:"
+
+msgid "Gross:"
+msgstr "Общая прибыль:"
+
+#, csharp-format
+msgid "TP price: {0}"
+msgstr "Цена TP: {0}"
+
+msgid "Tr.Stop"
+msgstr "Tр.Стоп"
+
+msgid "SL price"
+msgstr "СЛ цена"
+
+#, csharp-format
+msgid "{0} TP price: {1}"
+msgstr "{0} цена TP: {1}"
+
+msgid "is locked"
+msgstr "заблокирована"
+
+msgid "VA"
+msgstr "Va"
+
+msgid "POC ray"
+msgstr "Луч ВОУ"
+
+msgid "Waiting for data loading"
+msgstr "Ожидание загрузки данных"
+
+msgid "Loading data..."
+msgstr "Загрузка данных..."
+
+msgid "No data"
+msgstr "Нет данных"
+
+#, csharp-format
+msgid "{0} ticks"
+msgstr "{0} тиков"
+
+msgid "Overlay"
+msgstr "Наложение"
+
+msgid "Empty symbol"
+msgstr "Пустой символ"
+
+msgid "Full"
+msgstr "Полная"
+
+#, csharp-format
+msgid "{0} %"
+msgstr "{0} %"
 
 msgid "Trading tool"
 msgstr "Торговый инструмент"
@@ -1643,8 +1749,8 @@ msgstr "Ценовой канал"
 msgid "Fibonacci retracement"
 msgstr "Коррекция по Фибоначчи"
 
-msgid "Fibonacci expansion"
-msgstr "Расширение по Фибоначчи"
+msgid "Fibonacci price expansion"
+msgstr "Расширение цен на Фибоначчи"
 
 msgid "Fibonacci arc"
 msgstr "Дуги по Фибоначчи"
@@ -1661,8 +1767,8 @@ msgstr "Веер по Фибоначчи"
 msgid "Fibonacci phi-channel"
 msgstr "Фи-канал по Фибоначчи"
 
-msgid "Fibonacci time goal"
-msgstr "Временные цели Фибоначчи"
+msgid "Fibonacci time extension"
+msgstr "Продление времени Фибоначчи"
 
 msgid "Fibonacci time zone"
 msgstr "Временные периоды Фибоначчи"
@@ -1757,60 +1863,11 @@ msgstr "Якорь VWAP"
 msgid "Whale Splash"
 msgstr "Всплеск китов"
 
-msgid "Invalid price"
-msgstr "Неверная цена"
+msgid "Fibonacci time expansion"
+msgstr "Расширение времени Фибоначчи"
 
-msgid "Net:"
-msgstr "Чистая прибыль:"
-
-msgid "Gross:"
-msgstr "Общая прибыль:"
-
-#, csharp-format
-msgid "TP price: {0}"
-msgstr "Цена TP: {0}"
-
-msgid "Tr.Stop"
-msgstr "Tр.Стоп"
-
-msgid "SL price"
-msgstr "СЛ цена"
-
-#, csharp-format
-msgid "{0} TP price: {1}"
-msgstr "{0} цена TP: {1}"
-
-msgid "VA"
-msgstr "Va"
-
-msgid "POC ray"
-msgstr "Луч ВОУ"
-
-msgid "Waiting for data loading"
-msgstr "Ожидание загрузки данных"
-
-msgid "Loading data..."
-msgstr "Загрузка данных..."
-
-msgid "No data"
-msgstr "Нет данных"
-
-#, csharp-format
-msgid "{0} ticks"
-msgstr "{0} тиков"
-
-msgid "Overlay"
-msgstr "Наложение"
-
-msgid "Empty symbol"
-msgstr "Пустой символ"
-
-msgid "Full"
-msgstr "Полная"
-
-#, csharp-format
-msgid "{0} %"
-msgstr "{0} %"
+msgid "Fibonacci price extension"
+msgstr "Продление цены Фибоначчи"
 
 msgid "Candle"
 msgstr "Свеча"
@@ -1864,6 +1921,12 @@ msgstr "Нет данных для отображения на графике"
 msgid "Please check your connection{0} or symbol availability"
 msgstr "Проверьте наличие подключения {0} или символа"
 
+msgid "Current chart"
+msgstr "Текущий график"
+
+msgid "All charts with same symbol"
+msgstr "Все диаграммы с одним и тем же символом"
+
 msgid "Window colors"
 msgstr "Цвет окна"
 
@@ -1875,6 +1938,9 @@ msgstr "Цвет фона снизу"
 
 msgid "Mouse wheel action"
 msgstr "Действие скрола мыши"
+
+msgid "Drawings default availablity"
+msgstr "Рисунки по умолчанию availablity"
 
 msgid "Scale type"
 msgstr "Тип шкалы"
@@ -1981,9 +2047,6 @@ msgstr "Объемный анализ"
 msgid "Show toolbar"
 msgstr "Показать панель инструментов"
 
-msgid "Step Profile"
-msgstr "Пошаговый профиль"
-
 msgid "Left Profile"
 msgstr "Левый профиль"
 
@@ -2020,6 +2083,12 @@ msgstr "Панель инструментов"
 msgid "Quick OE"
 msgstr "Создать ордер"
 
+msgid "Trading toolbar"
+msgstr "Панель торговых инструментов"
+
+msgid "Objects toolbar"
+msgstr "Панель инструментов объектов"
+
 msgid "Symbol description"
 msgstr "Описание инструмента"
 
@@ -2032,9 +2101,6 @@ msgstr "Обновить график"
 #, csharp-format
 msgid "{0} settings"
 msgstr "{0} настройки"
-
-msgid "Modification will affect the position closing. Are you sure?"
-msgstr "Изменение повлияет на закрытие позиции. Вы уверены?"
 
 msgid "Are you sure you want to execute order at market price?"
 msgstr "Вы действительно хотите исполнить ордер по рыночной цене?"
@@ -2139,6 +2205,9 @@ msgstr "Цвет 4"
 msgid "Color 5"
 msgstr "Цвет 5"
 
+msgid "Limit of points"
+msgstr "Ограничение очков"
+
 msgid "Show last line"
 msgstr "Показать последнюю строку"
 
@@ -2238,14 +2307,17 @@ msgstr "Показать значение области"
 msgid "Value Area, %"
 msgstr "Площадь стоимости, %"
 
+msgid "Extend VAL/VAH until intesection"
+msgstr "Продлить VAL/VAH до интесакции"
+
 msgid "Show singles"
 msgstr "Показать одиночные"
 
 msgid "Show bar"
 msgstr "Показать бар"
 
-msgid "POC type"
-msgstr "Тип POC"
+msgid "Extend POC until intesection"
+msgstr "Продлить POC до интесакции"
 
 msgid "POC color"
 msgstr "Цвет POC"
@@ -2318,6 +2390,18 @@ msgstr "Диапазон VA"
 
 msgid "VA range (ticks)"
 msgstr "Диапазон В. А. (тики)"
+
+msgid "IB High"
+msgstr "IB Высокий"
+
+msgid "IB Low"
+msgstr "IB Низкий"
+
+msgid "IB range"
+msgstr "Диапазон IB"
+
+msgid "IB range (ticks)"
+msgstr "Диапазон IB (тики)"
 
 msgid "TPO statistics"
 msgstr "Статистика TPO"
@@ -2553,6 +2637,12 @@ msgstr "Сброс с bid/Ask"
 msgid "Last trade size"
 msgstr "Последний размер сделки"
 
+msgid "Mouse Trading"
+msgstr "Торговля мышью"
+
+msgid "Locked"
+msgstr "Блокирован"
+
 msgid "Grid color"
 msgstr "Цвет сетки"
 
@@ -2579,6 +2669,9 @@ msgstr "Показать ценовой диапазон дня"
 
 msgid "Imbalance, %"
 msgstr "Дисбаланс, %"
+
+msgid "Highlight values more than"
+msgstr "Выделите значения больше, чем"
 
 msgid "Show day high/low"
 msgstr "Показать день высокий/низкий"
@@ -2814,9 +2907,6 @@ msgstr "Тип сетки"
 msgid "Remove symbol"
 msgstr "Удалить инструмент"
 
-msgid "Tick"
-msgstr "Тик"
-
 msgid "1 minute"
 msgstr "1 минута"
 
@@ -2845,6 +2935,13 @@ msgstr "Эта горячая клавиша зарезервирована. У�
 #, csharp-format
 msgid "This Hotkey combination is already used for \"{0}\". Please use another one."
 msgstr "Эта комбинация горячих клавиш уже используется для «{0}». Укажите другую."
+
+#, csharp-format
+msgid "Are you sure want to remove {0}?"
+msgstr "Вы действительно хотите удалить {0}?"
+
+msgid "You have no selected symbols yet"
+msgstr "У вас еще нет выбранных символов"
 
 msgid "Exchanges & Assets"
 msgstr "Обмены и активы"
@@ -2885,10 +2982,6 @@ msgstr "Координаты точки"
 
 msgid "Point"
 msgstr "Точка"
-
-#, csharp-format
-msgid "Are you sure want to remove {0}?"
-msgstr "Вы действительно хотите удалить {0}?"
 
 msgid "Custom sessions"
 msgstr "Пользовательские сеансы"
@@ -3063,18 +3156,12 @@ msgstr "Снимок экрана"
 msgid "copied to clipboard"
 msgstr "скопировано в буфер обмена"
 
-msgid "is locked"
-msgstr "заблокирована"
-
 #, csharp-format
 msgid "Are you sure you want to delete {0}?"
 msgstr "Вы действительно хотите удалить {0}?"
 
 msgid "is unlocked"
 msgstr "разблокирована"
-
-msgid "locked"
-msgstr "Заблокирован"
 
 msgid "Sounds"
 msgstr "Звуки"
@@ -3445,6 +3532,9 @@ msgstr "Информация"
 msgid "Trading info"
 msgstr "Торговая информация"
 
+msgid "Allow change leverage"
+msgstr "Разрешить изменение кредитного плеча"
+
 msgid "WebSocket endpoint"
 msgstr "Конечная точка WebSocket"
 
@@ -3618,6 +3708,45 @@ msgstr "Новый пароль не удалось"
 
 msgid "Must change password"
 msgstr "Необходимо изменить пароль"
+
+msgid "Primary"
+msgstr "Основной"
+
+msgid "Collateral Value"
+msgstr "Залоговая стоимость"
+
+msgid "Open P/L"
+msgstr "Прибыль по открытым позициям"
+
+msgid "Available Margin"
+msgstr "Доступная маржа"
+
+msgid "Used"
+msgstr "Использовать"
+
+msgid "Reserved"
+msgstr "Защищены"
+
+msgid "Free"
+msgstr "Бесплатный"
+
+msgid "Ratio"
+msgstr "Соотношение"
+
+msgid "Market data only"
+msgstr "Только рыночные данные"
+
+msgid "Demo trading"
+msgstr "Демо-торговля"
+
+msgid "Real trading"
+msgstr "Реальная торговля"
+
+msgid "Login"
+msgstr "Логин"
+
+msgid "Two-Factor Authentication code"
+msgstr "Двухфакторный код аутентификации"
 
 msgid "AON"
 msgstr "Аон"
@@ -3856,9 +3985,6 @@ msgstr "Отсутствует сервер данных подключения"
 msgid "Authorization endpoint is missing"
 msgstr "Конечная точка авторизации отсутствует"
 
-msgid "Login"
-msgstr "Логин"
-
 msgid "Stop Limit"
 msgstr "Стоп Лимит"
 
@@ -4068,6 +4194,9 @@ msgstr "Используемый лимит позиции"
 
 msgid "API secret"
 msgstr "Секрет API"
+
+msgid "Subaccount name (not required)"
+msgstr "Название субакконтата (не требуется)"
 
 msgid "Token"
 msgstr "Токен"
@@ -4949,14 +5078,14 @@ msgstr "Неверный ключ клиента"
 msgid "Stop (Market)"
 msgstr "Остановка (рынок)"
 
+msgid "MIS"
+msgstr "Mis"
+
 msgid "NRML"
 msgstr "NRML"
 
 msgid "CNC"
 msgstr "Чпу"
-
-msgid "MIS"
-msgstr "Mis"
 
 msgid "Reading master file..."
 msgstr "Чтение основного файла..."
@@ -4966,18 +5095,6 @@ msgstr "Загрузка главного файла..."
 
 msgid "Loading indices from {exch.Value}..."
 msgstr "Индексы загрузки от «exch». Значение..."
-
-msgid "Market data app key"
-msgstr "Ключ приложения рыночных данных"
-
-msgid "Market data secret key"
-msgstr "Секретный ключ рыночных данных"
-
-msgid "Trading app key"
-msgstr "Ключ торгового приложения"
-
-msgid "Trading secret key"
-msgstr "Торговый секретный ключ"
 
 msgid "Server url is empty"
 msgstr "URL-адрес сервера пуст"
@@ -5002,9 +5119,6 @@ msgstr "Инициализация котировки гнездо ..."
 
 msgid "Initializing trade socket..."
 msgstr "Инициализация торговой розетки..."
-
-msgid "Connecting to history server..."
-msgstr "Подключение к серверу истории..."
 
 msgid "CashMarginAvailable"
 msgstr "CashMarginДоступный"
@@ -5245,6 +5359,24 @@ msgstr "Дата начала выпуска"
 
 msgid "Remarks"
 msgstr "Замечания"
+
+msgid "History"
+msgstr "История"
+
+msgid "Market data app key"
+msgstr "Ключ приложения рыночных данных"
+
+msgid "Market data secret key"
+msgstr "Секретный ключ рыночных данных"
+
+msgid "Trading app key"
+msgstr "Ключ торгового приложения"
+
+msgid "Trading secret key"
+msgstr "Торговый секретный ключ"
+
+msgid "You need to have valid Broker API access and Quantower License to use History mode"
+msgstr "Для использования режима «История» необходимо иметь действительный доступ к API брокера и лицензию на использование"
 
 msgid "User principals..."
 msgstr "Принципы пользователей..."
