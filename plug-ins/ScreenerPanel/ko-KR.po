@@ -1,0 +1,79 @@
+# Language ko-KR translations for Quantower package.
+# Copyright (C) 2020 Quantower LLC
+# This file is distributed under the same license as the Quantower package.
+# <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Quantower\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2021-01-12 15:02+0200\n"
+"PO-Revision-Date: 2020-11-10 23:56+0200\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
+"Language: ko-KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Loading symbol {i + 1}/{Math.Min(filtrationMessage.MaxSymbolsLimit, filtrationMessage.SymbolIDs.Length)}..."
+msgstr "로드 기호 {i + 1}/{Math.Min (여과 메시지.MaxSymbolsLimit, 여과 메시지.symbolID.length)}..."
+
+#, csharp-format
+msgid "Too much symbols in result ({0}). First {1} symbols will be displayed."
+msgstr "결과에 너무 많은 기호 ({0}). 첫 번째 {1} 기호가 표시됩니다."
+
+msgid "In Symbols list"
+msgstr "기호 목록에서"
+
+msgid "No symbols..."
+msgstr "기호가 없습니다..."
+
+msgid "Wait to scan response..."
+msgstr "응답을 스캔하기 위해 기다립니다 ..."
+
+msgid "TimeOut"
+msgstr "타임 아웃"
+
+msgid "Error"
+msgstr "오류"
+
+msgid "Screener Beta"
+msgstr "스크리너 베타"
+
+msgid "Screener filters"
+msgstr "스크리너 필터"
+
+msgid "Auto scan"
+msgstr "자동 스캔"
+
+msgid "Use auto scan"
+msgstr "자동 스캔 사용"
+
+msgid "Time delay, in sec"
+msgstr "시간 지연, 초"
+
+msgid "Import"
+msgstr "가져오기"
+
+msgid "Rename"
+msgstr "이름을 바꿀"
+
+msgid "Name"
+msgstr "이름"
+
+msgid "Delete"
+msgstr "삭제"
+
+#, csharp-format
+msgid "Are you sure you want to delete '{0}'?"
+msgstr "'{0} 삭제하시겠습니까?"
+
+msgid "Create expressions"
+msgstr "식 만들기"
+
+msgid "Create expression set"
+msgstr "식 세트 만들기"
+
+msgid "Updating components..."
+msgstr "구성 요소 업데이트 중..."

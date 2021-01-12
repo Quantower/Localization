@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 21:27+0200\n"
+"POT-Creation-Date: 2021-01-12 14:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:10+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -250,6 +250,9 @@ msgstr "Купить"
 msgid "Sell"
 msgstr "Продать"
 
+msgid "Visible"
+msgstr "Видимый"
+
 msgid "Bids"
 msgstr "Биды"
 
@@ -445,8 +448,11 @@ msgstr "Нарисовать многоугольник"
 msgid "Draw fibonacci retracement"
 msgstr "Нарисовать коррекцию по Фибоначчи"
 
-msgid "Draw fibonacci expansion"
-msgstr "Нарисовать расширение по Фибоначчи"
+msgid "Draw fibonacci price extension"
+msgstr "Нарисуйте продление цены фибоначчи"
+
+msgid "Draw fibonacci price expansion"
+msgstr "Нарисуйте расширение цен фибоначчи"
 
 msgid "Draw fibonacci arc"
 msgstr "Нарисовать дуги по Фибоначчи"
@@ -463,8 +469,11 @@ msgstr "Нарисовать веер по Фибоначчи"
 msgid "Draw fibonacci phi-channel"
 msgstr "Нарисовать фи-канала по Фибоначчи"
 
-msgid "Draw fibonacci time goal"
-msgstr "Нарисовать временные цели Фибоначчи"
+msgid "Draw fibonacci time extension"
+msgstr "Нарисуйте продление времени фибоначчи"
+
+msgid "Draw fibonacci time expansion"
+msgstr "Нарисуйте расширение времени фибоначчи"
 
 msgid "Draw fibonacci time zone"
 msgstr "Нарисовать временные периоды Фибоначчи"
@@ -517,6 +526,15 @@ msgstr "Нарисовать заметку"
 msgid "Draw comment"
 msgstr "Нарисовать комментарий"
 
+msgid "Add custom profile"
+msgstr "Добавление пользовательского профиля"
+
+msgid "Add custom VWAP"
+msgstr "Добавить пользовательские VWAP"
+
+msgid "Add alert"
+msgstr "Добавление оповещения"
+
 msgid "Sell Market"
 msgstr "Продать"
 
@@ -538,11 +556,32 @@ msgstr "Купить Аск"
 msgid "Cancel Orders"
 msgstr "Отмена заказов"
 
+msgid "Cancel Buy orders"
+msgstr "Отмена заказов на покупку"
+
+msgid "Cancel Sell orders"
+msgstr "Отмена заказов на продажу"
+
 msgid "Close Positions"
 msgstr "Близкие позиции"
 
 msgid "Flatten"
 msgstr "Выровнять"
+
+msgid "Cancel Limit orders"
+msgstr "Отменить Лимит ордера"
+
+msgid "Cancel Stop orders"
+msgstr "Отменить Стоп ордера"
+
+msgid "Reverse position"
+msgstr "Реверс позиции"
+
+msgid "Break even"
+msgstr "Оставаться при своих"
+
+msgid "Set Quantity to match position size"
+msgstr "Установите количество, чтобы соответствовать размеру позиции"
 
 msgid "Remove indicators"
 msgstr "Удалить индикаторы"
@@ -645,9 +684,6 @@ msgstr "Цвет ласта"
 
 msgid "Drawings library"
 msgstr "Библиотека инструментов рисования"
-
-msgid "Add alert"
-msgstr "Добавление оповещения"
 
 msgid "Add overlay"
 msgstr "Добавить наложение"

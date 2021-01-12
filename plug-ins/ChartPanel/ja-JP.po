@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 21:27+0200\n"
+"POT-Creation-Date: 2021-01-12 14:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:06+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -250,6 +250,9 @@ msgstr "買い"
 msgid "Sell"
 msgstr "売り"
 
+msgid "Visible"
+msgstr "表示"
+
 msgid "Bids"
 msgstr "Bid"
 
@@ -445,8 +448,11 @@ msgstr "ドロー poligon"
 msgid "Draw fibonacci retracement"
 msgstr "フィボナッチリトレースメントを描く"
 
-msgid "Draw fibonacci expansion"
-msgstr "フィボナッチ拡大の描画"
+msgid "Draw fibonacci price extension"
+msgstr "フィボナッチ価格延長を描く"
+
+msgid "Draw fibonacci price expansion"
+msgstr "フィボナッチ価格の拡大を描く"
 
 msgid "Draw fibonacci arc"
 msgstr "フィボナッチ弧を描く"
@@ -463,8 +469,11 @@ msgstr "フィボナッチのファンを描画"
 msgid "Draw fibonacci phi-channel"
 msgstr "フィボナッチファイ-チャンネルを描画する"
 
-msgid "Draw fibonacci time goal"
-msgstr "フィボナッチの時間目標を描く"
+msgid "Draw fibonacci time extension"
+msgstr "フィボナッチ時間延長を描く"
+
+msgid "Draw fibonacci time expansion"
+msgstr "フィボナッチ時間拡張を描く"
 
 msgid "Draw fibonacci time zone"
 msgstr "フィボナッチのタイムゾーンを描画する"
@@ -517,6 +526,15 @@ msgstr "注記の描画"
 msgid "Draw comment"
 msgstr "コメントの描画"
 
+msgid "Add custom profile"
+msgstr "カスタム プロファイルの追加"
+
+msgid "Add custom VWAP"
+msgstr "カスタム VWAP を追加する"
+
+msgid "Add alert"
+msgstr "アラートの追加"
+
 msgid "Sell Market"
 msgstr "成行き売り"
 
@@ -538,11 +556,32 @@ msgstr "Askを買いする"
 msgid "Cancel Orders"
 msgstr "注文のキャンセル"
 
+msgid "Cancel Buy orders"
+msgstr "購入注文のキャンセル"
+
+msgid "Cancel Sell orders"
+msgstr "販売注文のキャンセル"
+
 msgid "Close Positions"
 msgstr "ポジションを閉じる"
 
 msgid "Flatten"
 msgstr "平ら"
+
+msgid "Cancel Limit orders"
+msgstr "リミット注文をキャンセルする"
+
+msgid "Cancel Stop orders"
+msgstr "ストップ注文をキャンセルする"
+
+msgid "Reverse position"
+msgstr "ポジションをリバースする"
+
+msgid "Break even"
+msgstr "トントン"
+
+msgid "Set Quantity to match position size"
+msgstr "位置サイズに合わせて数量を設定"
 
 msgid "Remove indicators"
 msgstr "インジケーターの削除"
@@ -645,9 +684,6 @@ msgstr "最後の色"
 
 msgid "Drawings library"
 msgstr "図面ライブラリ"
-
-msgid "Add alert"
-msgstr "アラートの追加"
 
 msgid "Add overlay"
 msgstr "オーバーレイを追加する"

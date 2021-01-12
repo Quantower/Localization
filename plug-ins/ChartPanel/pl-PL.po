@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 21:27+0200\n"
+"POT-Creation-Date: 2021-01-12 14:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:10+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -250,6 +250,9 @@ msgstr "Kupię"
 msgid "Sell"
 msgstr "Sprzedają"
 
+msgid "Visible"
+msgstr "Widoczne"
+
 msgid "Bids"
 msgstr "Oferty"
 
@@ -445,8 +448,11 @@ msgstr "Rysowanie poligon"
 msgid "Draw fibonacci retracement"
 msgstr "Wyciągnij zniesienie fibonacci"
 
-msgid "Draw fibonacci expansion"
-msgstr "Draw ekspansji Fibonacciego"
+msgid "Draw fibonacci price extension"
+msgstr "Narysuj przedłużenie ceny fibonacciego"
+
+msgid "Draw fibonacci price expansion"
+msgstr "Narysuj wzrost cen fibonacciego"
 
 msgid "Draw fibonacci arc"
 msgstr "Rysuj łuk Fibonacciego"
@@ -463,8 +469,11 @@ msgstr "Losowanie kibiców Fibonacciego"
 msgid "Draw fibonacci phi-channel"
 msgstr "Remis Fibonacciego Phi-Channel"
 
-msgid "Draw fibonacci time goal"
-msgstr "WyCiągnij cel czasu Fibonacciego"
+msgid "Draw fibonacci time extension"
+msgstr "Rysowanie przedłużenia czasu fibonacciego"
+
+msgid "Draw fibonacci time expansion"
+msgstr "Narysuj rozszerzenie czasu fibonacciego"
 
 msgid "Draw fibonacci time zone"
 msgstr "NaRysuj strefę czasową Fibonacciego"
@@ -517,6 +526,15 @@ msgstr "Uwaga do rysowania"
 msgid "Draw comment"
 msgstr "Rysowanie komentarza"
 
+msgid "Add custom profile"
+msgstr "Dodawanie profilu niestandardowego"
+
+msgid "Add custom VWAP"
+msgstr "Dodawanie niestandardowego programu VWAP"
+
+msgid "Add alert"
+msgstr "Dodaj alert"
+
 msgid "Sell Market"
 msgstr "Rynek sprzedaży"
 
@@ -538,11 +556,32 @@ msgstr "Kup Ask"
 msgid "Cancel Orders"
 msgstr "Anuluj zamówienia"
 
+msgid "Cancel Buy orders"
+msgstr "Anuluj zamówienia kupna"
+
+msgid "Cancel Sell orders"
+msgstr "Anuluj zamówienia sprzedaży"
+
 msgid "Close Positions"
 msgstr "Zamykanie pozycji"
 
 msgid "Flatten"
 msgstr "Spłaszczyć"
+
+msgid "Cancel Limit orders"
+msgstr "Anuluj zamówienia z limitem"
+
+msgid "Cancel Stop orders"
+msgstr "Anuluj zlecenia zatrzymania"
+
+msgid "Reverse position"
+msgstr "Pozycja odwrotna"
+
+msgid "Break even"
+msgstr "Złamać nawet"
+
+msgid "Set Quantity to match position size"
+msgstr "Ustawianie ilości w celu dopasowania rozmiaru pozycji"
 
 msgid "Remove indicators"
 msgstr "Usuwanie wskaźników"
@@ -645,9 +684,6 @@ msgstr "Ostatni kolor"
 
 msgid "Drawings library"
 msgstr "Biblioteka rysunków"
-
-msgid "Add alert"
-msgstr "Dodaj alert"
 
 msgid "Add overlay"
 msgstr "Dodaj nowy"

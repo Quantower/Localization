@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 21:27+0200\n"
+"POT-Creation-Date: 2021-01-12 14:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:09+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -250,6 +250,9 @@ msgstr "شراء"
 msgid "Sell"
 msgstr "بيع"
 
+msgid "Visible"
+msgstr "اظهار"
+
 msgid "Bids"
 msgstr "أسعار العرض"
 
@@ -445,8 +448,11 @@ msgstr "رسم بوليغون"
 msgid "Draw fibonacci retracement"
 msgstr "ارسم تصحيح فيبوناتشي"
 
-msgid "Draw fibonacci expansion"
-msgstr "رسم توسع فيبوناتشي"
+msgid "Draw fibonacci price extension"
+msgstr "رسم تمديد سعر فيبوناتشي"
+
+msgid "Draw fibonacci price expansion"
+msgstr "رسم توسع سعر فيبوناتشي"
 
 msgid "Draw fibonacci arc"
 msgstr "رسم قوس فيبوناتشي"
@@ -463,8 +469,11 @@ msgstr "رسم مراوح فيبوناتشي"
 msgid "Draw fibonacci phi-channel"
 msgstr "رسم فيبوناتشي فاي القناة"
 
-msgid "Draw fibonacci time goal"
-msgstr "رسم الهدف فيبوناتشي الوقت"
+msgid "Draw fibonacci time extension"
+msgstr "رسم تمديد الوقت فيبوناتشي"
+
+msgid "Draw fibonacci time expansion"
+msgstr "رسم فيبوناتشي توسيع الوقت"
 
 msgid "Draw fibonacci time zone"
 msgstr "رسم المنطقة الزمنيه فيبوناتشي"
@@ -517,6 +526,15 @@ msgstr "رسم ملاحظه"
 msgid "Draw comment"
 msgstr "رسم التعليق"
 
+msgid "Add custom profile"
+msgstr "إضافة ملف تعريف مخصص"
+
+msgid "Add custom VWAP"
+msgstr "إضافة VWAP مخصص"
+
+msgid "Add alert"
+msgstr "إضافة تنبيه"
+
 msgid "Sell Market"
 msgstr "بيع السوق"
 
@@ -538,11 +556,32 @@ msgstr "شراء طلب"
 msgid "Cancel Orders"
 msgstr "إلغاء الطلبات"
 
+msgid "Cancel Buy orders"
+msgstr "إلغاء أوامر الشراء"
+
+msgid "Cancel Sell orders"
+msgstr "إلغاء أوامر البيع"
+
 msgid "Close Positions"
 msgstr "إغلاق المراكز"
 
 msgid "Flatten"
 msgstr "تتسطح"
+
+msgid "Cancel Limit orders"
+msgstr "إلغاء أوامر الحد"
+
+msgid "Cancel Stop orders"
+msgstr "إلغاء أوامر الإيقاف"
+
+msgid "Reverse position"
+msgstr "عكس المركز"
+
+msgid "Break even"
+msgstr "يخرج بلا مكسب أو خسارة"
+
+msgid "Set Quantity to match position size"
+msgstr "تعيين الكمية لمطابقة حجم المنصب"
 
 msgid "Remove indicators"
 msgstr "أزاله المؤشرات"
@@ -645,9 +684,6 @@ msgstr "اللون الأخير"
 
 msgid "Drawings library"
 msgstr "مكتبة الرسومات"
-
-msgid "Add alert"
-msgstr "إضافة تنبيه"
 
 msgid "Add overlay"
 msgstr "إضافة تراكب"

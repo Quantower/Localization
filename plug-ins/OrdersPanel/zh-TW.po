@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 23:41+0200\n"
+"POT-Creation-Date: 2021-01-12 14:53+0200\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -295,6 +295,54 @@ msgstr "轉換為"
 msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
 msgstr "下訂單時,您需要選擇產品代碼。這些產品代碼標識訂單的類別。例如,您可以將以下提到的產品代碼(CNC = 用於交割 MIS 中的股票交易 MIS = 在日內 NRML 中交易股票和 F&O = 用於隔夜頭寸的 F&O、貨幣和商品交易。由於這些頭寸不是日內頭寸,因此這些頭寸的保證金要求將符合隔夜保證金。此外,在交易結束時,我們的系統不會將它們平方。"
 
+msgid "Realized MTM"
+msgstr "實現 MTM"
+
+msgid "It's realized profit or loss which has been booked by client"
+msgstr "已客戶預訂的已實現損益"
+
+msgid "MTM"
+msgstr "Mtm。"
+
+msgid "It's profit or loss of position"
+msgstr "是盈利還是虧損"
+
+msgid "Buy Quantity"
+msgstr "購買數量"
+
+msgid "Total bought quantity"
+msgstr "購買總量"
+
+msgid "Buy Average Price"
+msgstr "購買平均價格"
+
+msgid "Average buy price of position"
+msgstr "平均買入價格"
+
+msgid "Buy Value"
+msgstr "購買價值"
+
+msgid "Total buy value of position in rupees"
+msgstr "以盧比表示的頭寸總買入價值"
+
+msgid "Sell Quantity"
+msgstr "銷售數量"
+
+msgid "Total sold quantity"
+msgstr "銷售總量"
+
+msgid "Sell AveragePrice"
+msgstr "銷售平均價格"
+
+msgid "Average sell price of position"
+msgstr "平均倉位銷售價格"
+
+msgid "Sell Value"
+msgstr "銷售價值"
+
+msgid "Total sell value of position in rupees"
+msgstr "以盧比表示的頭寸總賣出價值"
+
 msgid "Settlement price"
 msgstr "結算價格"
 
@@ -366,9 +414,6 @@ msgstr "全部平倉"
 
 msgid "Modify position"
 msgstr "修改位置"
-
-msgid "Modification will affect the position closing. Are you sure?"
-msgstr "修改將影響頭寸平倉。"
 
 msgid "Breakeven"
 msgstr "收支平衡"

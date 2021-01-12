@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 21:27+0200\n"
+"POT-Creation-Date: 2021-01-12 14:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:08+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -250,6 +250,9 @@ msgstr "구입"
 msgid "Sell"
 msgstr "판매"
 
+msgid "Visible"
+msgstr "표시"
+
 msgid "Bids"
 msgstr "입찰가"
 
@@ -445,8 +448,11 @@ msgstr "폴 리 곤을 그립니다"
 msgid "Draw fibonacci retracement"
 msgstr "피보나치 retracement 그리기"
 
-msgid "Draw fibonacci expansion"
-msgstr "피보나치 확장 그리기"
+msgid "Draw fibonacci price extension"
+msgstr "그리기 피보나치 가격 연장"
+
+msgid "Draw fibonacci price expansion"
+msgstr "그리기 피보나치 가격 확장"
 
 msgid "Draw fibonacci arc"
 msgstr "피보나치 아크 그리기"
@@ -463,8 +469,11 @@ msgstr "피보나치 팬 그리기"
 msgid "Draw fibonacci phi-channel"
 msgstr "피보나치 피-채널"
 
-msgid "Draw fibonacci time goal"
-msgstr "피보나치 시간 목표를 그리기"
+msgid "Draw fibonacci time extension"
+msgstr "그리기 피보나치 시간 연장"
+
+msgid "Draw fibonacci time expansion"
+msgstr "그리기 피보나치 시간 확장"
 
 msgid "Draw fibonacci time zone"
 msgstr "피보나치 시간대 그리기"
@@ -517,6 +526,15 @@ msgstr "메모 그리기"
 msgid "Draw comment"
 msgstr "코멘트 그리기"
 
+msgid "Add custom profile"
+msgstr "사용자 지정 프로필 추가"
+
+msgid "Add custom VWAP"
+msgstr "사용자 정의 VWAP 추가"
+
+msgid "Add alert"
+msgstr "경고 추가"
+
 msgid "Sell Market"
 msgstr "시장 판매"
 
@@ -538,11 +556,32 @@ msgstr "질문 구매"
 msgid "Cancel Orders"
 msgstr "주문 취소"
 
+msgid "Cancel Buy orders"
+msgstr "구매 주문 취소"
+
+msgid "Cancel Sell orders"
+msgstr "판매 주문 취소"
+
 msgid "Close Positions"
 msgstr "위치 닫기"
 
 msgid "Flatten"
 msgstr "평평"
+
+msgid "Cancel Limit orders"
+msgstr "제한 주문 취소"
+
+msgid "Cancel Stop orders"
+msgstr "중지 주문 취소"
+
+msgid "Reverse position"
+msgstr "역위치"
+
+msgid "Break even"
+msgstr "본전치기를 하다"
+
+msgid "Set Quantity to match position size"
+msgstr "위치 크기에 맞게 수량 설정"
 
 msgid "Remove indicators"
 msgstr "표시기 제거"
@@ -645,9 +684,6 @@ msgstr "마지막 색상"
 
 msgid "Drawings library"
 msgstr "드로잉 라이브러리"
-
-msgid "Add alert"
-msgstr "경고 추가"
 
 msgid "Add overlay"
 msgstr "오버레이 추가"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 21:27+0200\n"
+"POT-Creation-Date: 2021-01-12 14:27+0200\n"
 "PO-Revision-Date: 2019-06-25 12:54+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -250,6 +250,9 @@ msgstr "فروش"
 msgid "Sell"
 msgstr "فروش"
 
+msgid "Visible"
+msgstr "قابل رویت"
+
 msgid "Bids"
 msgstr "مناقصه"
 
@@ -445,8 +448,11 @@ msgstr "قرعه کشی poligon"
 msgid "Draw fibonacci retracement"
 msgstr "قرعه کشی فیبوناچی اصلاحی"
 
-msgid "Draw fibonacci expansion"
-msgstr "قرعه کشی توسعه فیبوناچی"
+msgid "Draw fibonacci price extension"
+msgstr "قرعه کشی تمدید قیمت فیبوناچی"
+
+msgid "Draw fibonacci price expansion"
+msgstr "قرعه کشی گسترش قیمت فیبوناچی"
 
 msgid "Draw fibonacci arc"
 msgstr "قرعه کشی کمان فیبوناچی"
@@ -463,8 +469,11 @@ msgstr "قرعه کشی طرفداران فیبوناچی"
 msgid "Draw fibonacci phi-channel"
 msgstr "قرعه کشی فیبوناچی فی کانال"
 
-msgid "Draw fibonacci time goal"
-msgstr "رسم هدف زمان فیبوناچی"
+msgid "Draw fibonacci time extension"
+msgstr "قرعه کشی پسوند زمان فیبوناچی"
+
+msgid "Draw fibonacci time expansion"
+msgstr "رسم گسترش زمان فیبوناچی"
 
 msgid "Draw fibonacci time zone"
 msgstr "قرعه کشی منطقه زمانی فیبوناچی"
@@ -517,6 +526,15 @@ msgstr "رسم یادداشت"
 msgid "Draw comment"
 msgstr "رسم نظر"
 
+msgid "Add custom profile"
+msgstr "افزودن نمایه سفارشی"
+
+msgid "Add custom VWAP"
+msgstr "اضافه کردن VWAP سفارشی"
+
+msgid "Add alert"
+msgstr "اضافه کردن هشدار"
+
 msgid "Sell Market"
 msgstr "فروش بازار"
 
@@ -538,11 +556,32 @@ msgstr "خرید بپرسید"
 msgid "Cancel Orders"
 msgstr "لغو دستورات"
 
+msgid "Cancel Buy orders"
+msgstr "لغو سفارشات خرید"
+
+msgid "Cancel Sell orders"
+msgstr "لغو سفارشات فروش"
+
 msgid "Close Positions"
 msgstr "بستن موقعیت ها"
 
 msgid "Flatten"
 msgstr "صاف"
+
+msgid "Cancel Limit orders"
+msgstr "لغو دستورات محدود"
+
+msgid "Cancel Stop orders"
+msgstr "لغو دستورات توقف"
+
+msgid "Reverse position"
+msgstr "موقعیت معکوس"
+
+msgid "Break even"
+msgstr "شکستن حتی"
+
+msgid "Set Quantity to match position size"
+msgstr "تنظیم کمیت برای مطابقت با اندازه موقعیت"
 
 msgid "Remove indicators"
 msgstr "حذف شاخص"
@@ -645,9 +684,6 @@ msgstr "آخرین رنگ"
 
 msgid "Drawings library"
 msgstr "کتابخانه نقاشی"
-
-msgid "Add alert"
-msgstr "اضافه کردن هشدار"
 
 msgid "Add overlay"
 msgstr "افزودن رویه"

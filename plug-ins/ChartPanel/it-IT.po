@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 21:27+0200\n"
+"POT-Creation-Date: 2021-01-12 14:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:05+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -250,6 +250,9 @@ msgstr "Acquistare"
 msgid "Sell"
 msgstr "Vendere"
 
+msgid "Visible"
+msgstr "Visibile"
+
 msgid "Bids"
 msgstr "Offerte"
 
@@ -445,8 +448,11 @@ msgstr "Disegnare Poligon"
 msgid "Draw fibonacci retracement"
 msgstr "Disegna il ritracciamento di Fibonacci"
 
-msgid "Draw fibonacci expansion"
-msgstr "Attirare l'espansione di Fibonacci"
+msgid "Draw fibonacci price extension"
+msgstr "Disegnare l'estensione del prezzo di Fibonacci"
+
+msgid "Draw fibonacci price expansion"
+msgstr "Disegna l'espansione dei prezzi di Fibonacci"
 
 msgid "Draw fibonacci arc"
 msgstr "Disegnare arco di Fibonacci"
@@ -463,8 +469,11 @@ msgstr "Disegnare i fan di Fibonacci"
 msgid "Draw fibonacci phi-channel"
 msgstr "Disegnare Fibonacci Phi-Channel"
 
-msgid "Draw fibonacci time goal"
-msgstr "Disegna obiettivo tempo Fibonacci"
+msgid "Draw fibonacci time extension"
+msgstr "Disegnare l'estensione del tempo di Fibonacci"
+
+msgid "Draw fibonacci time expansion"
+msgstr "Disegna l'espansione del tempo di Fibonacci"
 
 msgid "Draw fibonacci time zone"
 msgstr "Disegna fuso orario Fibonacci"
@@ -517,6 +526,15 @@ msgstr "Nota di tiraggio"
 msgid "Draw comment"
 msgstr "Disegnare commento"
 
+msgid "Add custom profile"
+msgstr "Aggiungere un profilo personalizzato"
+
+msgid "Add custom VWAP"
+msgstr "Aggiungere VWAP personalizzato"
+
+msgid "Add alert"
+msgstr "Aggiungi avviso"
+
 msgid "Sell Market"
 msgstr "Mercato delle vendere"
 
@@ -538,11 +556,32 @@ msgstr "Acquista Chiedi"
 msgid "Cancel Orders"
 msgstr "Annulla ordini"
 
+msgid "Cancel Buy orders"
+msgstr "Annulla ordini di acquisto"
+
+msgid "Cancel Sell orders"
+msgstr "Annulla ordini di vendita"
+
 msgid "Close Positions"
 msgstr "Chiudi posizioni"
 
 msgid "Flatten"
 msgstr "Appiattire"
+
+msgid "Cancel Limit orders"
+msgstr "Annulla ordini limite"
+
+msgid "Cancel Stop orders"
+msgstr "Annulla stop ordini"
+
+msgid "Reverse position"
+msgstr "Posizione inversa"
+
+msgid "Break even"
+msgstr "Chiudere in pareggio"
+
+msgid "Set Quantity to match position size"
+msgstr "Imposta quantità in base alle dimensioni della posizione"
 
 msgid "Remove indicators"
 msgstr "Rimuovere gli indicatori"
@@ -645,9 +684,6 @@ msgstr "Ultimo colore"
 
 msgid "Drawings library"
 msgstr "Libreria di disegni"
-
-msgid "Add alert"
-msgstr "Aggiungi avviso"
 
 msgid "Add overlay"
 msgstr "Aggiungi sovrapposizione"

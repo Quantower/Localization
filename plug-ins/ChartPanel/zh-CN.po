@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 21:27+0200\n"
+"POT-Creation-Date: 2021-01-12 14:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:08+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -250,6 +250,9 @@ msgstr "买入"
 msgid "Sell"
 msgstr "卖出"
 
+msgid "Visible"
+msgstr "可见"
+
 msgid "Bids"
 msgstr "买价"
 
@@ -445,8 +448,11 @@ msgstr "绘制波利贡"
 msgid "Draw fibonacci retracement"
 msgstr "绘制斐波那契回撤"
 
-msgid "Draw fibonacci expansion"
-msgstr "绘制斐波那契扩展"
+msgid "Draw fibonacci price extension"
+msgstr "绘制斐波那契价格延期"
+
+msgid "Draw fibonacci price expansion"
+msgstr "绘制斐波那契价格扩张"
 
 msgid "Draw fibonacci arc"
 msgstr "绘制斐波那契弧线"
@@ -463,8 +469,11 @@ msgstr "画斐波那契球迷"
 msgid "Draw fibonacci phi-channel"
 msgstr "绘制斐波那契凤凰通道"
 
-msgid "Draw fibonacci time goal"
-msgstr "绘制斐波那契时间目标"
+msgid "Draw fibonacci time extension"
+msgstr "绘制斐波那契时间延长"
+
+msgid "Draw fibonacci time expansion"
+msgstr "绘制斐波那契时间扩展"
 
 msgid "Draw fibonacci time zone"
 msgstr "绘制斐波那契时区"
@@ -517,6 +526,15 @@ msgstr "抽奖注意事项"
 msgid "Draw comment"
 msgstr "绘制评论"
 
+msgid "Add custom profile"
+msgstr "添加自定义配置文件"
+
+msgid "Add custom VWAP"
+msgstr "添加自定义 VWAP"
+
+msgid "Add alert"
+msgstr "添加警报"
+
 msgid "Sell Market"
 msgstr "市价卖出"
 
@@ -538,11 +556,32 @@ msgstr "买进卖价"
 msgid "Cancel Orders"
 msgstr "取消订单"
 
+msgid "Cancel Buy orders"
+msgstr "取消购买订单"
+
+msgid "Cancel Sell orders"
+msgstr "取消销售订单"
+
 msgid "Close Positions"
 msgstr "关闭仓位"
 
 msgid "Flatten"
 msgstr "扁平 化"
+
+msgid "Cancel Limit orders"
+msgstr "取消限价单"
+
+msgid "Cancel Stop orders"
+msgstr "取消止损单"
+
+msgid "Reverse position"
+msgstr "反向位置"
+
+msgid "Break even"
+msgstr "收支平衡"
+
+msgid "Set Quantity to match position size"
+msgstr "将数量设置为匹配位置大小"
 
 msgid "Remove indicators"
 msgstr "删除指示器"
@@ -645,9 +684,6 @@ msgstr "最后一种颜色"
 
 msgid "Drawings library"
 msgstr "图纸库"
-
-msgid "Add alert"
-msgstr "添加警报"
 
 msgid "Add overlay"
 msgstr "新增商品迭图"

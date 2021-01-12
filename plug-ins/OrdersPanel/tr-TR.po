@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 23:41+0200\n"
+"POT-Creation-Date: 2021-01-12 14:53+0200\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -295,6 +295,54 @@ msgstr "Dönüştürme "
 msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
 msgstr "Sipariş verirken bir ürün kodu seçmeniz gerekir. Bu ürün kodları siparişin kategorisini tanımlar. Örneğin, aşağıda belirtilen ürün kodu, CNC - TeslimatMis'te Hisse Senedi ticareti için – Gün içi NRML'de Equity & F&O ticareti için – F&O, Para birimi ve Emtia ticareti için gecelik pozisyon için. Bu pozisyonlar gün içi pozisyonlar olmadığından, bunlar için marj gereksinimleri gecelik marjları göre olacaktır. Ayrıca, işlem oturumunun sonunda sistemimiz tarafından karşılanmayacaktır."
 
+msgid "Realized MTM"
+msgstr "Gerçekleşen MTM"
+
+msgid "It's realized profit or loss which has been booked by client"
+msgstr "Müşteri tarafından rezerve edilmiş kar veya zarar gerçekleşmiş"
+
+msgid "MTM"
+msgstr "Mtm"
+
+msgid "It's profit or loss of position"
+msgstr "Bu kar veya pozisyon kaybı"
+
+msgid "Buy Quantity"
+msgstr "Satın Alma Miktarı"
+
+msgid "Total bought quantity"
+msgstr "Toplam satın alma miktarı"
+
+msgid "Buy Average Price"
+msgstr "Ortalama Fiyat Satın Al"
+
+msgid "Average buy price of position"
+msgstr "Pozisyonun ortalama alış fiyatı"
+
+msgid "Buy Value"
+msgstr "Satın Alma Değeri"
+
+msgid "Total buy value of position in rupees"
+msgstr "Rupi pozisyonunun toplam satın alma değeri"
+
+msgid "Sell Quantity"
+msgstr "Satış Miktarı"
+
+msgid "Total sold quantity"
+msgstr "Toplam satılan miktar"
+
+msgid "Sell AveragePrice"
+msgstr "Ortalama Fiyat Sat"
+
+msgid "Average sell price of position"
+msgstr "Pozisyonun ortalama satış fiyatı"
+
+msgid "Sell Value"
+msgstr "Satış Değeri"
+
+msgid "Total sell value of position in rupees"
+msgstr "Rupi pozisyonunun toplam satış değeri"
+
 msgid "Settlement price"
 msgstr "Uzlaşma fiyatı"
 
@@ -366,9 +414,6 @@ msgstr "Tüm pozisyonları kapat"
 
 msgid "Modify position"
 msgstr "Pozisyonu değiştir"
-
-msgid "Modification will affect the position closing. Are you sure?"
-msgstr "Modifikasyon pozisyon kapamasını etkileyecektir."
 
 msgid "Breakeven"
 msgstr "Başa baş"

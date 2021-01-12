@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 23:19+0200\n"
+"POT-Creation-Date: 2021-01-12 14:51+0200\n"
 "PO-Revision-Date: 2018-12-04 15:35+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -180,6 +180,10 @@ msgstr "{0} 모든 판매 주문을 취소하시겠습니까?"
 msgid "Are you sure want to cancel all stop orders on {0}?"
 msgstr "{0} 모든 정지 주문을 취소하시겠습니까?"
 
+#, csharp-format
+msgid "Are you sure want to break even position on {0}?"
+msgstr "당신은 확실히 {0} 심지어 위치를 깰 하시겠습니까?"
+
 msgid "Show close position"
 msgstr "가까운 위치 표시"
 
@@ -244,6 +248,9 @@ msgstr "위치 닫기"
 
 msgid "Reverse"
 msgstr "역방향"
+
+msgid "Break even"
+msgstr "본전치기를 하다"
 
 msgid "Cancel orders"
 msgstr "주문 취소"

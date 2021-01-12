@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 21:27+0200\n"
+"POT-Creation-Date: 2021-01-12 14:27+0200\n"
 "PO-Revision-Date: 2018-12-04 15:05+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -250,6 +250,9 @@ msgstr "Al"
 msgid "Sell"
 msgstr "Sat"
 
+msgid "Visible"
+msgstr "Görünür"
+
 msgid "Bids"
 msgstr "Alışlar"
 
@@ -445,8 +448,11 @@ msgstr "Poligon çiz"
 msgid "Draw fibonacci retracement"
 msgstr "Fibonacci retracement çiz"
 
-msgid "Draw fibonacci expansion"
-msgstr "Fıbonacci genişleme çiz"
+msgid "Draw fibonacci price extension"
+msgstr "Fibonacci fiyat uzatma çizin"
+
+msgid "Draw fibonacci price expansion"
+msgstr "Fibonacci fiyat genişlemesi çizin"
 
 msgid "Draw fibonacci arc"
 msgstr "Fıbonacci Arc çiz"
@@ -463,8 +469,11 @@ msgstr "Fıbonacci hayranları çiz"
 msgid "Draw fibonacci phi-channel"
 msgstr "Fıbonacci Phi-Channel çiz"
 
-msgid "Draw fibonacci time goal"
-msgstr "Çizmek Fibonacci zaman gol"
+msgid "Draw fibonacci time extension"
+msgstr "Fibonacci zaman uzatma çizin"
+
+msgid "Draw fibonacci time expansion"
+msgstr "Fibonacci zaman genişlemesi çizin"
 
 msgid "Draw fibonacci time zone"
 msgstr "Fıbonacci saat dilimini çiz"
@@ -517,6 +526,15 @@ msgstr "Not çiz"
 msgid "Draw comment"
 msgstr "Yorum çiz"
 
+msgid "Add custom profile"
+msgstr "Özel profil ekle"
+
+msgid "Add custom VWAP"
+msgstr "Özel VWAP ekle"
+
+msgid "Add alert"
+msgstr "Uyarı ekle"
+
 msgid "Sell Market"
 msgstr "Piyasa (Market) Fiyatından Sat"
 
@@ -538,11 +556,32 @@ msgstr "Satış (Ask) Fiyatından Al"
 msgid "Cancel Orders"
 msgstr "Emirleri İptal Et"
 
+msgid "Cancel Buy orders"
+msgstr "Satın alma siparişlerini iptal et"
+
+msgid "Cancel Sell orders"
+msgstr "Satış siparişlerini iptal et"
+
 msgid "Close Positions"
 msgstr "Pozisyonları Kapat"
 
 msgid "Flatten"
 msgstr "Flat ol"
+
+msgid "Cancel Limit orders"
+msgstr "Limit emirlerini iptal et"
+
+msgid "Cancel Stop orders"
+msgstr "Durdurma emirlerini iptal et"
+
+msgid "Reverse position"
+msgstr "Pozisyonu tersine çevir"
+
+msgid "Break even"
+msgstr "Ne kâr ne zarar etmek"
+
+msgid "Set Quantity to match position size"
+msgstr "Miktar'ı konum boyutuyla eşleşecek şekilde ayarlama"
 
 msgid "Remove indicators"
 msgstr "Göstergeleri kaldır"
@@ -645,9 +684,6 @@ msgstr "Son renk"
 
 msgid "Drawings library"
 msgstr "Çizim kütüphanesi"
-
-msgid "Add alert"
-msgstr "Uyarı ekle"
 
 msgid "Add overlay"
 msgstr "Katman ekle"

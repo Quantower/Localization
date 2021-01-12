@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 23:41+0200\n"
+"POT-Creation-Date: 2021-01-12 14:53+0200\n"
 "PO-Revision-Date: 2018-12-04 15:38+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -295,6 +295,54 @@ msgstr "Преобразовать в "
 msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
 msgstr "При размещении заказа необходимо выбрать код продукта. Эти коды продуктов определяют категорию заказа. Например, вы можете разместить ниже упомянутый код продукта, CNC - Для торговли акциями в доставке MIS - Для торговли акциями и F'O во внутридневной NRML - Для торговли F'O, Валюты и сырьевых товаров для ночной позиции. Поскольку эти позиции не являются внутридневные позиции, маржинальные требования к ним будут в соответствии с ночной маржи. Кроме того, они не будут в квадрате от нашей системы в конце торговой сессии."
 
+msgid "Realized MTM"
+msgstr "Реализованный MTM"
+
+msgid "It's realized profit or loss which has been booked by client"
+msgstr "Это реализованная прибыль или убыток, который был забронирован клиентом"
+
+msgid "MTM"
+msgstr "Mtm"
+
+msgid "It's profit or loss of position"
+msgstr "Это прибыль или потеря позиции"
+
+msgid "Buy Quantity"
+msgstr "Купить количество"
+
+msgid "Total bought quantity"
+msgstr "Общее количество купленных"
+
+msgid "Buy Average Price"
+msgstr "Купить Средняя цена"
+
+msgid "Average buy price of position"
+msgstr "Средняя цена покупки позиции"
+
+msgid "Buy Value"
+msgstr "Купить значение"
+
+msgid "Total buy value of position in rupees"
+msgstr "Общая стоимость покупки позиции в рупиях"
+
+msgid "Sell Quantity"
+msgstr "Продажа количества"
+
+msgid "Total sold quantity"
+msgstr "Общее количество проданных"
+
+msgid "Sell AveragePrice"
+msgstr "Продать AveragePrice"
+
+msgid "Average sell price of position"
+msgstr "Средняя цена продажи позиции"
+
+msgid "Sell Value"
+msgstr "Продажа стоимости"
+
+msgid "Total sell value of position in rupees"
+msgstr "Общая стоимость продажи позиции в рупиях"
+
 msgid "Settlement price"
 msgstr "Расчетная цена"
 
@@ -366,9 +414,6 @@ msgstr "Закрыть все позиции"
 
 msgid "Modify position"
 msgstr "Изменить позицию"
-
-msgid "Modification will affect the position closing. Are you sure?"
-msgstr "Изменение повлияет на закрытие позиции. Вы уверены?"
 
 msgid "Breakeven"
 msgstr "Безубыток"

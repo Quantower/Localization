@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 21:27+0200\n"
+"POT-Creation-Date: 2021-01-12 14:27+0200\n"
 "PO-Revision-Date: 2019-04-02 11:57+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -250,6 +250,9 @@ msgstr "खरीद"
 msgid "Sell"
 msgstr "बेचना"
 
+msgid "Visible"
+msgstr "प्रकट"
+
 msgid "Bids"
 msgstr "बोली"
 
@@ -445,8 +448,11 @@ msgstr "आकर्षित पॉलिगॉन"
 msgid "Draw fibonacci retracement"
 msgstr "फिबोनैकी रिट्रेसमेंट ड्रा"
 
-msgid "Draw fibonacci expansion"
-msgstr "फिबोनैकी विस्तार ड्रा"
+msgid "Draw fibonacci price extension"
+msgstr "फिबोनाची मूल्य विस्तार ड्रा करें"
+
+msgid "Draw fibonacci price expansion"
+msgstr "ड्रा फिबोनाची मूल्य विस्तार"
 
 msgid "Draw fibonacci arc"
 msgstr "फिबोनैकी आर्क ड्रा"
@@ -463,8 +469,11 @@ msgstr "फिबोनैकी प्रशंसक ड्रा"
 msgid "Draw fibonacci phi-channel"
 msgstr "फिबोनैकी फी-चैनल ड्रा"
 
-msgid "Draw fibonacci time goal"
-msgstr "फिबोनैकी समय लक्ष्य ड्रा"
+msgid "Draw fibonacci time extension"
+msgstr "फिबोनासीई समय विस्तार ड्रा करें"
+
+msgid "Draw fibonacci time expansion"
+msgstr "फिबोनासीई समय विस्तार ड्रा करें"
 
 msgid "Draw fibonacci time zone"
 msgstr "फिबोनैकी समय क्षेत्र ड्रा"
@@ -517,6 +526,15 @@ msgstr "नोट आरेखित करें"
 msgid "Draw comment"
 msgstr "टिप्पणी ड्रा"
 
+msgid "Add custom profile"
+msgstr "कस्टम प्रोफाइल जोड़ें"
+
+msgid "Add custom VWAP"
+msgstr "कस्टम वीडब्ल्यूएपी जोड़ें"
+
+msgid "Add alert"
+msgstr "चेतावनी जोड़ें"
+
 msgid "Sell Market"
 msgstr "बाजार बेचें"
 
@@ -538,11 +556,32 @@ msgstr "खरीदें पूछो"
 msgid "Cancel Orders"
 msgstr "आदेश रद्द करें"
 
+msgid "Cancel Buy orders"
+msgstr "आदेश खरीदें रद्द करें"
+
+msgid "Cancel Sell orders"
+msgstr "बिक्री आदेश रद्द करें"
+
 msgid "Close Positions"
 msgstr "क्लोज पोजीशन"
 
 msgid "Flatten"
 msgstr "समतल"
+
+msgid "Cancel Limit orders"
+msgstr "सीमा आदेश रद्द करें"
+
+msgid "Cancel Stop orders"
+msgstr "स्टॉप ऑर्डर रद्द करें"
+
+msgid "Reverse position"
+msgstr "रिवर्स स्थिति"
+
+msgid "Break even"
+msgstr "लाभ-अलाभ स्थिति"
+
+msgid "Set Quantity to match position size"
+msgstr "स्थिति आकार से मेल खाने के लिए मात्रा निर्धारित करें"
 
 msgid "Remove indicators"
 msgstr "संकेतक निकालें"
@@ -645,9 +684,6 @@ msgstr "अंतिम रंग"
 
 msgid "Drawings library"
 msgstr "आरेखण लायब्रेरी"
-
-msgid "Add alert"
-msgstr "चेतावनी जोड़ें"
 
 msgid "Add overlay"
 msgstr "ओवरले जोड़ें"

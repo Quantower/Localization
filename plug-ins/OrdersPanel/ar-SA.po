@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 23:41+0200\n"
+"POT-Creation-Date: 2021-01-12 14:53+0200\n"
 "PO-Revision-Date: 2018-12-04 15:38+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -295,6 +295,54 @@ msgstr "تحويل إلى "
 msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
 msgstr "عند وضع أمر، تحتاج إلى تحديد رمز المنتج. تحدد أكواد المنتج هذه فئة الأمر. على سبيل المثال، يمكنك وضع أدناه رمز المنتج المذكور، CNC - لتداول الأسهم في التسليم MIS – لتداول الأسهم و F &amp; O في NRML خلال اليوم – لتداول F&amp;O، العملة والسلع لمركز ليلة وضحاها. وبما أن هذه المراكز ليست مراكز خلال اليوم، فإن متطلبات الهامش لهذه ستكون حسب الهوامش لليلة واحدة. أيضا، لن تكون مربعة قبالة من قبل نظامنا في نهاية جلسة التداول."
 
+msgid "Realized MTM"
+msgstr "أدركت MTM"
+
+msgid "It's realized profit or loss which has been booked by client"
+msgstr "انها الربح أو الخسارة المحققة التي تم حجزها من قبل العميل"
+
+msgid "MTM"
+msgstr "MTM"
+
+msgid "It's profit or loss of position"
+msgstr "انها الربح أو خسارة المركز"
+
+msgid "Buy Quantity"
+msgstr "شراء الكمية"
+
+msgid "Total bought quantity"
+msgstr "إجمالي الكمية المشتراة"
+
+msgid "Buy Average Price"
+msgstr "شراء متوسط السعر"
+
+msgid "Average buy price of position"
+msgstr "متوسط سعر الشراء للموقف"
+
+msgid "Buy Value"
+msgstr "قيمة الشراء"
+
+msgid "Total buy value of position in rupees"
+msgstr "إجمالي قيمة الشراء للمركز بالروبية"
+
+msgid "Sell Quantity"
+msgstr "كمية البيع"
+
+msgid "Total sold quantity"
+msgstr "مجموع الكمية المباعة"
+
+msgid "Sell AveragePrice"
+msgstr "بيع متوسط سعر"
+
+msgid "Average sell price of position"
+msgstr "متوسط سعر البيع للمركز"
+
+msgid "Sell Value"
+msgstr "قيمة البيع"
+
+msgid "Total sell value of position in rupees"
+msgstr "إجمالي قيمة بيع المركز بالروبية"
+
 msgid "Settlement price"
 msgstr "سعر التسوية"
 
@@ -366,9 +414,6 @@ msgstr "إغلاق جميع الوضعيات"
 
 msgid "Modify position"
 msgstr "تعديل المركز"
-
-msgid "Modification will affect the position closing. Are you sure?"
-msgstr "سوف يؤثر التعديل على إغلاق الموقع."
 
 msgid "Breakeven"
 msgstr "التعادل"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 23:41+0200\n"
+"POT-Creation-Date: 2021-01-12 14:53+0200\n"
 "PO-Revision-Date: 2019-04-02 16:35+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -295,6 +295,54 @@ msgstr "बदलने के लिए "
 msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
 msgstr "ऑर्डर करते समय, आपको एक उत्पाद कोड का चयन करना होगा। ये उत्पाद कोड आदेश की श्रेणी की पहचान करते हैं। उदाहरण के लिए, आप नीचे उल्लिखित उत्पाद कोड, सीएनसी - डिलीवरी एमआईएस में इक्विटी ट्रेडिंग के लिए - इंट्राडे एनआरएमएल में ट्रेडिंग इक्विटी और एफएंडओ के लिए - ट्रेडिंग एफएंडओ, मुद्रा और कमोडिटीज के लिए रातोंरात स्थिति के लिए जगह दे सकते हैं। चूंकि ये स्थितियां इंट्राडे पोजिशन नहीं हैं, इसलिए इनके लिए मार्जिन की जरूरतें रातोंरात मार्जिन के हिसाब से होंगी । इसके अलावा, वे व्यापार सत्र के अंत में हमारे सिस्टम से चुकता नहीं किया जाएगा ।"
 
+msgid "Realized MTM"
+msgstr "एमटीएम का एहसास"
+
+msgid "It's realized profit or loss which has been booked by client"
+msgstr "यह लाभ या हानि का एहसास है जो ग्राहक द्वारा बुक किया गया है"
+
+msgid "MTM"
+msgstr "एमटीएम"
+
+msgid "It's profit or loss of position"
+msgstr "यह लाभ या स्थिति की हानि है"
+
+msgid "Buy Quantity"
+msgstr "मात्रा खरीदें"
+
+msgid "Total bought quantity"
+msgstr "कुल खरीदी गई मात्रा"
+
+msgid "Buy Average Price"
+msgstr "औसत मूल्य खरीदें"
+
+msgid "Average buy price of position"
+msgstr "स्थिति की औसत खरीद मूल्य"
+
+msgid "Buy Value"
+msgstr "मूल्य खरीदें"
+
+msgid "Total buy value of position in rupees"
+msgstr "रुपये में स्थिति का कुल खरीद मूल्य"
+
+msgid "Sell Quantity"
+msgstr "मात्रा बेचें"
+
+msgid "Total sold quantity"
+msgstr "कुल बेची गई मात्रा"
+
+msgid "Sell AveragePrice"
+msgstr "औसत मूल्य बेचें"
+
+msgid "Average sell price of position"
+msgstr "स्थिति की औसत बिक्री मूल्य"
+
+msgid "Sell Value"
+msgstr "मूल्य बेचें"
+
+msgid "Total sell value of position in rupees"
+msgstr "रुपये में स्थिति का कुल बिक्री मूल्य"
+
 msgid "Settlement price"
 msgstr "निपटान कीमत"
 
@@ -366,9 +414,6 @@ msgstr "सभी स्थितियां बंद करें"
 
 msgid "Modify position"
 msgstr "स्थिति संशोधित करें"
-
-msgid "Modification will affect the position closing. Are you sure?"
-msgstr "संशोधन स्थिति समापन को प्रभावित करेगा । क्या आपको यकीन है?"
 
 msgid "Breakeven"
 msgstr "Breakeven"

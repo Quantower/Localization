@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 23:19+0200\n"
+"POT-Creation-Date: 2021-01-12 14:51+0200\n"
 "PO-Revision-Date: 2018-12-04 15:35+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -180,6 +180,10 @@ msgstr "Ви дійсно хочете скасувати всі замовле�
 msgid "Are you sure want to cancel all stop orders on {0}?"
 msgstr "Ви дійсно бажаєте скасувати всі зупинки замовлень на {0}?"
 
+#, csharp-format
+msgid "Are you sure want to break even position on {0}?"
+msgstr "Ви дійсно хочете зламати навіть позицію на {0}?"
+
 msgid "Show close position"
 msgstr "Показати близьку позицію"
 
@@ -244,6 +248,9 @@ msgstr "Закрити позиції"
 
 msgid "Reverse"
 msgstr "Зворотний"
+
+msgid "Break even"
+msgstr "Перерва навіть"
 
 msgid "Cancel orders"
 msgstr "Відмінити Замовлення"

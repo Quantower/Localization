@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2020-11-10 23:41+0200\n"
+"POT-Creation-Date: 2021-01-12 14:53+0200\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -295,6 +295,54 @@ msgstr "Convertir en "
 msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
 msgstr "Lors de la commande, vous devez sélectionner un code de produit. Ces codes de produit identifient la catégorie de la commande. Par exemple, vous pouvez placer le code de produit mentionné ci-dessous, CNC – Pour la négociation d’actions dans la livraison MIS - Pour la négociation des actions - F &amp; O dans intraday NRML – Pour le commerce F &amp; O, devises et matières premières pour la position du jour au lendemain. Étant donné que ces positions ne sont pas des positions intrajournalées, les exigences de marge pour celles-ci seront selon les marges du jour au jour le jour. En outre, ils ne seront pas au carré par notre système à la fin de la session de négociation."
 
+msgid "Realized MTM"
+msgstr "Réalisé MTM"
+
+msgid "It's realized profit or loss which has been booked by client"
+msgstr "C’est le bénéfice réalisé ou la perte qui a été réservé par le client"
+
+msgid "MTM"
+msgstr "Mtm"
+
+msgid "It's profit or loss of position"
+msgstr "C’est le profit ou la perte de position"
+
+msgid "Buy Quantity"
+msgstr "Acheter quantity"
+
+msgid "Total bought quantity"
+msgstr "Quantité totale achetée"
+
+msgid "Buy Average Price"
+msgstr "Acheter Prix moyen"
+
+msgid "Average buy price of position"
+msgstr "Prix moyen d’achat de la position"
+
+msgid "Buy Value"
+msgstr "Acheter de la valeur"
+
+msgid "Total buy value of position in rupees"
+msgstr "Valeur totale d’achat de la position en roupies"
+
+msgid "Sell Quantity"
+msgstr "Vendre la quantité"
+
+msgid "Total sold quantity"
+msgstr "Quantité totale vendue"
+
+msgid "Sell AveragePrice"
+msgstr "Vendre AveragePrice"
+
+msgid "Average sell price of position"
+msgstr "Prix de vente moyen de la position"
+
+msgid "Sell Value"
+msgstr "Valeur de vente"
+
+msgid "Total sell value of position in rupees"
+msgstr "Valeur totale de vente de la position dans les roupies"
+
 msgid "Settlement price"
 msgstr "Prix de règlement"
 
@@ -366,9 +414,6 @@ msgstr "Fermer toutes les positions"
 
 msgid "Modify position"
 msgstr "Modifier la position"
-
-msgid "Modification will affect the position closing. Are you sure?"
-msgstr "La modification affectera la fermeture de la position."
 
 msgid "Breakeven"
 msgstr "Seuil de rentabilité"
