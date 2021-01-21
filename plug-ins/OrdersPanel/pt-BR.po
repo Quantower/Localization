@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit"
 
 msgid "Show toolbar"
-msgstr "Mostrar barra de ferramentas"
+msgstr "Mostrar Ferramentas"
 
 msgid "Remove SL"
 msgstr "Remover SL"
@@ -26,7 +26,7 @@ msgid "Remove TP"
 msgstr "Remover TP"
 
 msgid "Working orders"
-msgstr "Ordens de trabalho"
+msgstr "Ordens no book"
 
 msgid "Identify the category of the order: MIS – for trading in intraday, NRML – for trading for overnight position"
 msgstr "Identificar a categoria da ordem: MIS – para negociação intraday, NRML – para negociação por posição overnight"
@@ -47,10 +47,10 @@ msgid "Quick SL/TP"
 msgstr "SL/TP rápido"
 
 msgid "Change to Market"
-msgstr "Mudança para Mercado"
+msgstr "Mudar para Mercado"
 
 msgid "Change to Market all"
-msgstr "Mudar para mercado todos"
+msgstr "Mudar todas para o Mercado"
 
 msgid "Cancel all by selected symbol"
 msgstr "Cancele tudo por símbolo selecionado"
@@ -59,7 +59,7 @@ msgid "Cancel all for selected account"
 msgstr "Cancele tudo para conta selecionada"
 
 msgid "Cancel all"
-msgstr "Cancele todos"
+msgstr "Cancelar todas"
 
 msgid "Cancel order"
 msgstr "Cancelar ordem"
@@ -68,28 +68,28 @@ msgid "Link OCO"
 msgstr "Link OCO"
 
 msgid "Are you sure you want to execute all orders at market price?"
-msgstr "Tem certeza que quer executar todas as encomendas a preço de mercado?"
+msgstr "Tem certeza que quer executar todas as ordems a preço de mercado?"
 
 msgid "Cancel selected orders"
 msgstr "Cancelar ordens selecionadas"
 
 msgid "Cancel all orders"
-msgstr "Cancele todos os pedidos"
+msgstr "Cancelar todas as ordens"
 
 msgid "Modify order"
 msgstr "Modificar a ordem"
 
 msgid "Change to market"
-msgstr "Mudança para mercado"
+msgstr "Mudar para mercado"
 
 msgid "Cancel buy"
-msgstr "Cancelar compra"
+msgstr "Cancelar Compra"
 
 msgid "Cancel buy orders"
-msgstr "Cancelar ordens de compra"
+msgstr "Cancelar ordens de Compra"
 
 msgid "Cancel sell"
-msgstr "Cancelar venda"
+msgstr "Cancelar Venda"
 
 msgid "Cancel sell orders"
 msgstr "Cancelar ordens de venda"
@@ -101,16 +101,16 @@ msgid "Cancel Limit orders"
 msgstr "Cancelar ordens de limite"
 
 msgid "Cancel Stops"
-msgstr "Cancelar paradas"
+msgstr "Cancelar stops"
 
 msgid "Cancel Stop orders"
-msgstr "Cancelar ordens de parada"
+msgstr "Cancelar ordens de stop"
 
 msgid "Cancel Days"
 msgstr "Dias de cancelamento"
 
 msgid "Cancel Day orders"
-msgstr "Cancelar pedidos do Dia"
+msgstr "Cancelar ordens do Dia"
 
 msgid "Cancel GTCs"
 msgstr "Cancelar GTCs"
@@ -122,7 +122,7 @@ msgid "Cancel selected"
 msgstr "Cancelar selecionado"
 
 msgid "Cancel all orders by selected (symbol + account)"
-msgstr "Cancele todos os pedidos selecionados (símbolo + conta)"
+msgstr "Cancele todos as ordens selecionados (símbolo + conta)"
 
 msgid "Modify selected order"
 msgstr "Modificar a ordem selecionada"
@@ -131,49 +131,49 @@ msgid "Modify selected orders type to Market"
 msgstr "Modificar o tipo de pedidos selecionados para o Mercado"
 
 msgid "Account"
-msgstr "Conta"
+msgstr "Conta Selecionada"
 
 msgid "Account name"
 msgstr "Nome da conta"
 
 msgid "Symbol"
-msgstr "Símbolo"
+msgstr "Ativo"
 
 msgid "Symbol name"
-msgstr "Nome do símbolo"
+msgstr "Nome do Ativo"
 
 msgid "Description"
 msgstr "Descrição"
 
 msgid "The description of the symbol"
-msgstr "A descrição do símbolo"
+msgstr "A descrição do ativo"
 
 msgid "Symbol type"
-msgstr "Tipo de símbolo"
+msgstr "Tipo de Ativo"
 
 msgid "Symbol’s asset class"
-msgstr "Classe de ativos do Símbolo"
+msgstr "Classe de ativos"
 
 msgid "Expiration date"
 msgstr "Data de validade"
 
 msgid "Expiration date of derivative symbol"
-msgstr "Data de validade do símbolo derivativo"
+msgstr "Data de validade do derivativo"
 
 msgid "Strike price"
-msgstr "Preço de greve"
+msgstr "Preço de strike"
 
 msgid "Option’s strike price"
-msgstr "Preço de greve da opção"
+msgstr "Preço de strike da opção"
 
 msgid "Side"
-msgstr "Lado"
+msgstr "Tipo de Trade"
 
 msgid "The direction of the order"
 msgstr "A direção da ordem"
 
 msgid "Order type"
-msgstr "Tipo de pedido"
+msgstr "Tipo de ordem"
 
 msgid "The type of the order"
 msgstr "O tipo de ordem"
@@ -185,10 +185,10 @@ msgid "Order’s quantity"
 msgstr "Quantidade da ordem"
 
 msgid "Qty. filled"
-msgstr "Qty. preenchido"
+msgstr "Qty. executada"
 
 msgid "Filled quantity of the order"
-msgstr "Quantidade preenchida da ordem"
+msgstr "Quantidade executada da ordem"
 
 msgid "Qty. remaining"
 msgstr "Qty."
@@ -203,16 +203,16 @@ msgid "Order’s price"
 msgstr "Preço da ordem"
 
 msgid "Trigger price"
-msgstr "Preço do gatilho"
+msgstr "Preço do disparo"
 
 msgid "Trigger price of the order, applicable for stop, stop-limit... orders"
-msgstr "Preço de gatilho da ordem, aplicável para parar, stop-limit ... Ordens"
+msgstr "Preço de disparo da ordem, aplicável para parar, stop-limit ... Ordens"
 
 msgid "TIF"
 msgstr "Tif"
 
 msgid "Time in force of the order"
-msgstr "Tempo em vigor da ordem"
+msgstr "Tempo em validade da ordem"
 
 msgid "Status"
 msgstr "Status"
@@ -224,13 +224,13 @@ msgid "Original status"
 msgstr "Status original"
 
 msgid "Original order status from vendor"
-msgstr "Status de pedido original do fornecedor"
+msgstr "Status da ordem original da corretora"
 
 msgid "Current price"
 msgstr "Preço atual"
 
 msgid "Current price of the symbol."
-msgstr "Preço atual do símbolo."
+msgstr "Preço atual do ativo."
 
 msgid "Stop loss"
 msgstr "Stop loss"
@@ -239,7 +239,7 @@ msgid "Stop loss value"
 msgstr "Valor de stop loss"
 
 msgid "Take profit"
-msgstr "Obter lucro"
+msgstr "Sair no Lucro"
 
 msgid "Take profit value"
 msgstr "Obter valor de lucro"
@@ -248,7 +248,7 @@ msgid "Date/Time"
 msgstr "Data/hora"
 
 msgid "The date/time when order was placed"
-msgstr "A data/hora em que o pedido foi colocado"
+msgstr "A data/hora em que ordem foi colocado"
 
 msgid "Order ID"
 msgstr "ID de ordem"
@@ -278,10 +278,10 @@ msgid "Order's comment"
 msgstr "Comentário da ordem"
 
 msgid "Exchange"
-msgstr "Exchange"
+msgstr "Bolsa"
 
 msgid "Exchange name"
-msgstr "Nome de troca"
+msgstr "Nome da Bolsa"
 
 msgid "Positions"
 msgstr "Posições"
@@ -293,7 +293,7 @@ msgid "Convert to "
 msgstr "Converta para "
 
 msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
-msgstr "Ao fazer um pedido, você precisa selecionar um código de produto. Esses códigos de produto identificam a categoria do pedido. Por exemplo, você pode colocar o código do produto abaixo mencionado, CNC – Para negociar Ações na entrega MIS – Para negociação de Equity & F&O na NRML intraday – para negociação de F&O, Moeda e Commodities para posição overnight. Como essas posições não são posições intradiárias, os requisitos de margem para estes serão de acordo com as margens overnight. Além disso, eles não serão acertados pelo nosso sistema no final do pregão."
+msgstr "Ao colocar a ordem, você precisa selecionar um código de ativo. Esses ativos tem código que identificam a categoria da ordem. Por exemplo, você pode coloca o código do ativo abaixo mencionado, CNC – Para negociar Ações na entrega MIS – Para negociação de Ações & F&O na NRML intraday – para negociação de F&O, Moeda e Commodities para posição overnight. Como essas posições não são posições intradiárias, os requisitos de margem para estes serão de acordo com as margens overnight. Além disso, eles não serão acertados pelo nosso sistema no final do pregão."
 
 msgid "Realized MTM"
 msgstr "MTM realizado"
@@ -314,7 +314,7 @@ msgid "Total bought quantity"
 msgstr "Quantidade total comprada"
 
 msgid "Buy Average Price"
-msgstr "Comprar preço médio"
+msgstr "Preço médio/Comprar"
 
 msgid "Average buy price of position"
 msgstr "Preço médio de compra de posição"
@@ -326,7 +326,7 @@ msgid "Total buy value of position in rupees"
 msgstr "Valor total de compra de posição em rúpias"
 
 msgid "Sell Quantity"
-msgstr "Vender quantidade"
+msgstr "Quantidade Venda"
 
 msgid "Total sold quantity"
 msgstr "Quantidade total vendida"
@@ -350,7 +350,7 @@ msgid "Unsettled VM"
 msgstr "VM instável"
 
 msgid "Init. margin"
-msgstr "Init. Margem"
+msgstr "Margem Inicial"
 
 msgid "Maintenance"
 msgstr "Manutenção"
@@ -359,16 +359,16 @@ msgid "Maint. margin"
 msgstr "Maint. margem"
 
 msgid "Close"
-msgstr "Perto"
+msgstr "Fechar"
 
 msgid "Modify SL to breakeven"
 msgstr "Modificar SL para breakeven"
 
 msgid "Close all by selected symbol"
-msgstr "Feche tudo por símbolo selecionado"
+msgstr "Zerar tudo por ativo selecionado"
 
 msgid "Close all for selected account"
-msgstr "Feche tudo para conta selecionada"
+msgstr "Feche tudo pela conta selecionada"
 
 msgid "Close all positions..."
 msgstr "Feche todas as posições..."
@@ -380,16 +380,16 @@ msgid "Reverse"
 msgstr "Reverter"
 
 msgid "Reverse all by selected (symbol + account)"
-msgstr "Reverter tudo por selecionado (símbolo + conta)"
+msgstr "Reverter tudo selecionado (Ativo + conta)"
 
 msgid "Reverse all for selected account"
-msgstr "Reverter tudo para conta selecionada"
+msgstr "Reverter tudo pela conta selecionada"
 
 msgid "Reverse all positions..."
 msgstr "Inverter todas as posições..."
 
 msgid "Are you sure want to close positions by {symbol.Name}?"
-msgstr "Você quer fechar posições por {symbol. Nome}?"
+msgstr "Você quer fechar posições por {Ativo. Nome}?"
 
 msgid "Are you sure want to close positions by {account}?"
 msgstr "Você tem certeza de fechar posições por {conta}?"
@@ -398,7 +398,7 @@ msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
 msgstr "Você tem certeza de que deseja reverter {selectedPositions.Single(). Id}?"
 
 msgid "Are you sure want to reverse positions by {symbol.Name}?"
-msgstr "Você está certo de querer reverter posições por {símbolo. Nome}?"
+msgstr "Você está certo de querer reverter posições por {Ativo. Nome}?"
 
 msgid "Are you sure want to reverse positions by {account}?"
 msgstr "Você tem certeza de inverter posições por {conta}?"
@@ -422,40 +422,40 @@ msgid "Modify Stop loss to breakeven"
 msgstr "Modificar stop loss para breakeven"
 
 msgid "Close all"
-msgstr "Feche todos"
+msgstr "Zerar todos"
 
 msgid "Flatten all"
 msgstr "Achate todos"
 
 msgid "Close all positions and cancel all orders"
-msgstr "Feche todas as posições e cancele todos os pedidos"
+msgstr "Zerar todas as posições e cancele todos as orders"
 
 msgid "Close negative"
-msgstr "Fechar negativo"
+msgstr "Zerar negativo"
 
 msgid "Close positions with negative Net P/L"
-msgstr "Fechar posições com P/L líquido negativo"
+msgstr "Zerar posições com P/L líquido negativo"
 
 msgid "Close positive"
-msgstr "Fechar positivo"
+msgstr "Zerar positivo"
 
 msgid "Close positions with positive Net P/L"
-msgstr "Fechar posições com P/L líquido positivo"
+msgstr "Zerar posições com P/L líquido positivo"
 
 msgid "Close long"
-msgstr "Feche por muito tempo"
+msgstr "Zerar compra"
 
 msgid "Close positions with Side=long"
-msgstr "Fechar posições com Side=long"
+msgstr "Fechar posições com Compra/Side"
 
 msgid "Close short"
-msgstr "Fechar curto"
+msgstr "Zerar Venda"
 
 msgid "Close positions with Side=short"
-msgstr "Fechar posições com Side=short"
+msgstr "Zerar posições com Venda/Side"
 
 msgid "Close all positions by selected (symbol + account)"
-msgstr "Feche todas as posições por selecionados (símbolo + conta)"
+msgstr "Zerar todas as posições por selecionados (símbolo + conta)"
 
 msgid "Close selected"
 msgstr "Feche selecionado"
@@ -464,7 +464,7 @@ msgid "Flatten"
 msgstr "Achatar"
 
 msgid "Close all positions and cancel all orders by selected (symbol + account)"
-msgstr "Feche todas as posições e cancele todos os pedidos selecionados (símbolo + conta)"
+msgstr "Zerar todas as posições e cancele todos os pedidos selecionados (símbolo + conta)"
 
 msgid "The direction of the position"
 msgstr "A direção da posição"
@@ -488,7 +488,7 @@ msgid "Current profit/loss value, before fee/commission applying"
 msgstr "Valor atual de lucro/perda, antes da aplicação da taxa/comissão"
 
 msgid "Fee"
-msgstr "Taxa"
+msgstr "Corretagem"
 
 msgid "Fee value"
 msgstr "Valor da taxa"
@@ -539,13 +539,13 @@ msgid "State"
 msgstr "Estado"
 
 msgid "Open or closed"
-msgstr "Aberto ou fechado"
+msgstr "Aberto ou Fechado"
 
 msgid "Long"
-msgstr "Longas"
+msgstr "Compra"
 
 msgid "Short"
-msgstr "Curto"
+msgstr "Venda"
 
 msgid "Closed"
 msgstr "Fechado"
