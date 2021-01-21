@@ -23,28 +23,28 @@ msgid "Account name"
 msgstr "Nome da conta"
 
 msgid "Symbol"
-msgstr "Símbolo"
+msgstr "Ativo"
 
 msgid "Symbol name"
-msgstr "Nome do símbolo"
+msgstr "Nome do Ativo"
 
 msgid "Description"
 msgstr "Descrição"
 
 msgid "The description of the symbol"
-msgstr "A descrição do símbolo"
+msgstr "A descrição do Ativo"
 
 msgid "Side"
-msgstr "Lado"
+msgstr "Tipo de Trade"
 
 msgid "The order side"
-msgstr "O lado da ordem"
+msgstr "Direção da ordem"
 
 msgid "Order type"
-msgstr "Tipo de pedido"
+msgstr "Tipo de ordem"
 
 msgid "The order type"
-msgstr "O tipo de pedido"
+msgstr "O tipo de ordem"
 
 msgid "Quantity"
 msgstr "Quantidade"
@@ -53,7 +53,7 @@ msgid "Price"
 msgstr "Preço"
 
 msgid "Trigger price"
-msgstr "Preço do gatilho"
+msgstr "Preço do disparo"
 
 msgid "TIF"
 msgstr "Tif"
@@ -185,39 +185,39 @@ msgid "Are you sure want to break even position on {0}?"
 msgstr "Você quer quebrar a posição em {0}?"
 
 msgid "Show close position"
-msgstr "Mostrar posição próxima"
+msgstr "Mostrar próxima posição"
 
 msgid "Show close positions"
-msgstr "Mostrar posições próximas"
+msgstr "Mostrar próximas posições"
 
 msgid "Close position"
-msgstr "Posição próxima"
+msgstr "Zerar posição"
 
 msgid "Close all positions"
-msgstr "Feche todas as posições"
+msgstr "Zerar todas as posições"
 
 #, csharp-format
 msgid "Are you sure want to close position on {0}?"
-msgstr "Você quer fechar a posição sobre {0}?"
+msgstr "Você quer zerar a posição sobre {0}?"
 
 #, csharp-format
 msgid "Are you sure want to close all positions on {0}?"
-msgstr "Você quer fechar todas as posições em {0}?"
+msgstr "Você quer zerar todas as posições em {0}?"
 
 #, csharp-format
 msgid "Are you sure want to close position and cancel all orders on {0}?"
-msgstr "Você tem certeza de fechar posição e cancelar todos os pedidos em {0}?"
+msgstr "Você tem certeza de zerar posição e cancelar todos os pedidos em {0}?"
 
 #, csharp-format
 msgid "Are you sure want to close all positions and cancel all orders on {0}?"
-msgstr "Você tem certeza de fechar todas as posições e cancelar todos os pedidos em {0}?"
+msgstr "Você tem certeza de zerar todas as posições e cancelar todos os pedidos em {0}?"
 
 #, csharp-format
 msgid "Are you sure want to reverse position on {0}?"
 msgstr "Você quer reverter a posição em {0}?"
 
 msgid "Order entry small"
-msgstr "Entrada de pedido pequena"
+msgstr "Entrar com pequena ordem"
 
 msgid "Slim mode"
 msgstr "Modo slim"
@@ -232,10 +232,10 @@ msgid "View"
 msgstr "Ver"
 
 msgid "Ask"
-msgstr "Perguntar"
+msgstr "Comprar"
 
 msgid "Bid"
-msgstr "Oferta"
+msgstr "Vender"
 
 msgid "Mkt"
 msgstr "Mkt"
@@ -244,7 +244,7 @@ msgid "Flatten"
 msgstr "Achatar"
 
 msgid "Close positions"
-msgstr "Posições próximas"
+msgstr "Zerar Posições"
 
 msgid "Reverse"
 msgstr "Reverter"
@@ -295,7 +295,7 @@ msgid "Quantity to close"
 msgstr "Quantidade para fechar"
 
 msgid "Crypto ОЕ"
-msgstr "Cripto"
+msgstr "Crypto"
 
 msgid "BUY"
 msgstr "Comprar"
@@ -307,7 +307,7 @@ msgid "Local SL/TP"
 msgstr "Local SL/TP"
 
 msgid "Place"
-msgstr "Lugar"
+msgstr "Executar"
 
 msgid "LSL"
 msgstr "Lsl"
@@ -316,10 +316,10 @@ msgid "TSL"
 msgstr "Tsl"
 
 msgid "Local Stop loss"
-msgstr "Perda de parada local"
+msgstr "Stop perda local"
 
 msgid "Local Take profit"
-msgstr "Local Obter lucro"
+msgstr "Obter lucro local"
 
 msgid "Modify order"
 msgstr "Modificar a ordem"
@@ -340,10 +340,10 @@ msgid "Position ID"
 msgstr "ID de posição"
 
 msgid "Long"
-msgstr "Longas"
+msgstr "Compra"
 
 msgid "Short"
-msgstr "Curto"
+msgstr "Venda"
 
 msgid "Open price"
 msgstr "Preço aberto"
@@ -376,13 +376,13 @@ msgid "OE dialog"
 msgstr "Diálogo OE"
 
 msgid "Order entry"
-msgstr "Entrada do pedido"
+msgstr "Boleta"
 
 msgid "Expiration date"
 msgstr "Data de validade"
 
 msgid "Place order"
-msgstr "Fazer o pedido"
+msgstr "Executar ordem"
 
 msgid "Incorrect quantity: 0"
 msgstr "Quantidade incorreta: 0"

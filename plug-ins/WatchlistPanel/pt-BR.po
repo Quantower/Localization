@@ -57,13 +57,13 @@ msgid "Loading indicators"
 msgstr "Indicadores de carregamento"
 
 msgid "Watchlist"
-msgstr "Watchlist"
+msgstr "Cotações"
 
 msgid "Show toolbar"
 msgstr "Mostrar barra de ferramentas"
 
 msgid "Add symbols"
-msgstr "Adicionar símbolos"
+msgstr "Adicionar Ativos"
 
 msgid "Remove selected"
 msgstr "Remover selecionados"
@@ -72,7 +72,7 @@ msgid "Clear all"
 msgstr "Apagar tudo"
 
 msgid "Lock panel"
-msgstr "Painel de bloqueio"
+msgstr "Bloquear Painel"
 
 msgid "Add alert"
 msgstr "Adicionar alerta"
@@ -87,16 +87,16 @@ msgid "All above + Headers"
 msgstr "Tudo acima + Cabeçalhos"
 
 msgid "No symbols to show"
-msgstr "Sem símbolos para mostrar"
+msgstr "Sem Ativos para mostrar"
 
 msgid "Add some symbols to watch them"
-msgstr "Adicione alguns símbolos para observá-los"
+msgstr "Adicione alguns ativos para lista"
 
 msgid "Saved lists"
 msgstr "Listas salvas"
 
 msgid "Add new symbol"
-msgstr "Adicionar novo símbolo"
+msgstr "Adicionar novo Ativo"
 
 msgid "Added indicators"
 msgstr "Indicadores adicionados"
@@ -105,19 +105,19 @@ msgid "Unlock panel"
 msgstr "Painel de desbloqueio"
 
 msgid "Save symbol list"
-msgstr "Salvar lista de símbolos"
+msgstr "Salvar lista de Ativos"
 
 msgid "Add symbol"
-msgstr "Adicionar símbolo"
+msgstr "Adicionar Ativo"
 
 msgid "Clear table"
-msgstr "Mesa limpa"
+msgstr "Limpar Lista"
 
 msgid "Symbol"
-msgstr "Símbolo"
+msgstr "Ativo"
 
 msgid "Symbol name"
-msgstr "Nome do símbolo"
+msgstr "Nome do Ativo"
 
 msgid "Description"
 msgstr "Descrição"
@@ -126,28 +126,28 @@ msgid "The description of the symbol"
 msgstr "A descrição do símbolo"
 
 msgid "Symbol type"
-msgstr "Tipo de símbolo"
+msgstr "Tipo de ativo"
 
 msgid "Symbol’s asset class"
-msgstr "Classe de ativos do Símbolo"
+msgstr "Classe de ativos"
 
 msgid "Expiration date"
 msgstr "Data de validade"
 
 msgid "Expiration date of derivative symbol"
-msgstr "Data de validade do símbolo derivativo"
+msgstr "Data de validade do derivativo"
 
 msgid "Strike price"
-msgstr "Preço de greve"
+msgstr "Preço de strike"
 
 msgid "Option’s strike price"
-msgstr "Preço de greve da opção"
+msgstr "Preço de strike da opção"
 
 msgid "Exchange"
-msgstr "Exchange"
+msgstr "Bolsa"
 
 msgid "The exchange of the symbol"
-msgstr "A troca do símbolo"
+msgstr "Bolsa negociada"
 
 msgid "Last"
 msgstr "Última"
@@ -168,49 +168,49 @@ msgid " Date/Time of the last trade"
 msgstr " Data/Hora da última negociação"
 
 msgid "Bid"
-msgstr "Oferta"
+msgstr "Compra"
 
 msgid "Current bid price"
-msgstr "Preço atual da oferta"
+msgstr "Preço atual da compra"
 
 msgid "Bid size"
-msgstr "Tamanho da licitação"
+msgstr "Tamanho da compra"
 
 msgid "Current bid size"
-msgstr "Tamanho atual da oferta"
+msgstr "Tamanho oferta na compra"
 
 msgid "Ask"
-msgstr "Perguntar"
+msgstr "Venda"
 
 msgid "Current ask price"
-msgstr "Preço de pedido atual"
+msgstr "Preço de venda atual"
 
 msgid "Ask size"
-msgstr "Pergunte tamanho"
+msgstr "Tamanho da venda"
 
 msgid "Current ask size"
-msgstr "Tamanho de pedido atual"
+msgstr "Tamanho oferta na venda"
 
 msgid "Spread"
-msgstr "Espalhar"
+msgstr "Diferença"
 
 msgid "The current difference between ask and bid prices"
-msgstr "A diferença atual entre os preços de ask e bid"
+msgstr "A diferença atual entre os preços de Compra e Venda"
 
 msgid "Spread, %"
-msgstr "Espalhe, %"
+msgstr "Spread, %"
 
 msgid "The percentage value of spread"
 msgstr "O valor percentual do spread"
 
 msgid "Change"
-msgstr "Mudar"
+msgstr "Oscila"
 
 msgid "The difference between current price and previous close/settlement price"
 msgstr "A diferença entre o preço atual e o preço de fechamento/liquidação anterior"
 
 msgid "Change, %"
-msgstr "Mudança, %"
+msgstr "Oscilação, %"
 
 msgid "The percentage value of difference between current price and previous close/settlement price"
 msgstr "O valor percentual da diferença entre o preço atual e o preço anterior de fechamento/liquidação"
@@ -219,19 +219,19 @@ msgid "Open"
 msgstr "Aberto"
 
 msgid "Current day open price"
-msgstr "Preço de abertura atual"
+msgstr "Preço de abertura"
 
 msgid "High"
-msgstr "Alta"
+msgstr "Máxima"
 
 msgid "Current day high price"
-msgstr "Preço atual"
+msgstr "Máxima do Hoje"
 
 msgid "Low"
-msgstr "Baixo"
+msgstr "Mínima"
 
 msgid "Current day low price"
-msgstr "Preço baixo do dia atual"
+msgstr "Mínima de Hoje"
 
 msgid "Prev. close"
 msgstr "Prev. perto"
@@ -249,19 +249,19 @@ msgid "Volume"
 msgstr "Volume"
 
 msgid "Current day total volume"
-msgstr "Volume total do dia atual"
+msgstr "Volume total do dia"
 
 msgid "Open interest"
-msgstr "Interesse aberto"
+msgstr "Taxa Aberta"
 
 msgid "Trades"
-msgstr "Comércios"
+msgstr "Trades"
 
 msgid "Current day number of trades"
-msgstr "Número atual de negociações"
+msgstr "Número de Trades"
 
 msgid "Ticks"
-msgstr "Carrapatos"
+msgstr "Ticks"
 
 msgid "Current day number of price changes, applicable for asset classes that do not have real volume"
 msgstr "Número atual de variações de preços, aplicável para classes de ativos que não possuem volume real"
@@ -273,46 +273,46 @@ msgid "User’s comment"
 msgstr "Comentário do usuário"
 
 msgid "Connection name"
-msgstr "Nome de conexão"
+msgstr "Provedor de Dados"
 
 msgid "The name of symbol’s connection"
-msgstr "O nome da conexão do símbolo"
+msgstr "Provedor dados do Ativo"
 
 msgid "Last time"
-msgstr "Última vez"
+msgstr "Último registro"
 
 msgid "Time of the last trade"
-msgstr "Hora da última troca"
+msgstr "Hora da último trade"
 
 msgid "Update time"
-msgstr "Tempo de atualização"
+msgstr "Tempo Atualizado"
 
 msgid "Time of the price update"
 msgstr "Hora da atualização do preço"
 
 msgid "Action 1"
-msgstr "Ação 1"
+msgstr "Botão 1"
 
 msgid "Action 2"
-msgstr "Ação 2"
+msgstr "Botão 2"
 
 msgid "Action 3"
-msgstr "Ação 3"
+msgstr "Botão 3"
 
 msgid "Average Traded Price"
 msgstr "Preço médio negociado"
 
 msgid "Underlier"
-msgstr "Underlier"
+msgstr "Subjacentes _"
 
-msgid "Underlier name"
-msgstr "Nome mais discreto"
+msgid "Underlier nam"
+msgstr "Nome do Contrato_"
 
 msgid "Underlier price"
-msgstr "Preço mais baixo"
+msgstr "Preço do Contrato_"
 
 msgid "Cost of carry"
-msgstr "Custo do transporte"
+msgstr "Custo do carregamento"
 
 msgid "Position Qty."
 msgstr "Posição Qty."
@@ -324,4 +324,4 @@ msgid "Position PnL"
 msgstr "Posição PnL"
 
 msgid "Position profit and loss"
-msgstr "Lucro e perda de posição"
+msgstr "Lucro e perda da posição"
