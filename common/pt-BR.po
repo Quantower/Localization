@@ -128,10 +128,10 @@ msgid "Undefined"
 msgstr "Indefinido"
 
 msgid "Multiple positions"
-msgstr "Múltiplas posições"
+msgstr "Múltiplas pPsições"
 
 msgid "Multiple positions per side"
-msgstr "Múltiplas posições por direção"
+msgstr "Múltiplas Posições por direção"
 
 msgid "One position"
 msgstr "Uma posição"
@@ -497,7 +497,7 @@ msgid "Time & Sales"
 msgstr "Trade realizados"
 
 msgid "Market Depth"
-msgstr "Profundidade de Mercado"
+msgstr "BOOK de Orderns"
 
 msgid "DOM Trader"
 msgstr "DOM Trader"
@@ -588,7 +588,7 @@ msgid "Setup Actions"
 msgstr "Ações de configuração"
 
 msgid "Export Data"
-msgstr "Dados de exportação"
+msgstr "Dados de Exportação"
 
 msgid "Make screenshot"
 msgstr "Faça captura de tela"
@@ -763,7 +763,7 @@ msgid "New sub window"
 msgstr "Nova sub janela"
 
 msgid "Position on chart"
-msgstr "Posição no gráfico"
+msgstr "Posição no Gráfico"
 
 msgid "Bar"
 msgstr "Barra"
@@ -781,7 +781,7 @@ msgid "T"
 msgstr "T"
 
 msgid "Open"
-msgstr "Aberto"
+msgstr "Abertura"
 
 msgid "O"
 msgstr "O"
@@ -1107,13 +1107,13 @@ msgid "Cluster"
 msgstr "Cluster"
 
 msgid "Step profile"
-msgstr "ProStrat de passo"
+msgstr "PROF Step"
 
 msgid "Left profile"
-msgstr "ProStrat esquerdo"
+msgstr "PROF esquerdo"
 
 msgid "Right profile"
-msgstr "ProStrat certo"
+msgstr "PROF certo"
 
 msgid "Time statistics"
 msgstr "Estatísticas do tempo"
@@ -1122,7 +1122,7 @@ msgid "Time histogram"
 msgstr "Histograma do tempo"
 
 msgid "VWAP"
-msgstr "Vwap"
+msgstr "VWAP"
 
 msgid "Tick"
 msgstr "Tick"
@@ -1505,7 +1505,7 @@ msgid "Fibonacci levels"
 msgstr "Níveis de Fibonacci"
 
 msgid "Show total"
-msgstr "Mostrar total"
+msgstr "Somente Totais"
 
 msgid "Profile controllers style"
 msgstr "Estilo de controladores de perfil"
@@ -2142,7 +2142,7 @@ msgid "Trade Price: "
 msgstr "Preço de negociação: "
 
 msgid "Trade Size: "
-msgstr "Tamanho do comércio: "
+msgstr "Tamanho do Trade: "
 
 msgid "Data gap:"
 msgstr "Lacuna de dados:"
@@ -2418,16 +2418,16 @@ msgid "Split size columns"
 msgstr "Colunas de tamanho dividido"
 
 msgid "Show last trade size"
-msgstr "Mostrar o último tamanho comercial"
+msgstr "Mostrar o último tamanho trade"
 
 msgid "Type of last trade"
 msgstr "Tipo de última negociação"
 
 msgid "Show Last Bid Trades"
-msgstr "Feira Última Oferta De Comércios"
+msgstr "Mostra Últimas Compras"
 
 msgid "Show Last Ask Trades"
-msgstr "Show Last Ask Trades"
+msgstr "Mostra Últimas Vendas"
 
 msgid "Cumulative size"
 msgstr "Tamanho cumulativo"
@@ -2547,16 +2547,16 @@ msgid "Bid price"
 msgstr "Venda preço "
 
 msgid "Ask size"
-msgstr "Tamanho da Compra"
+msgstr "Qtd Compra"
 
 msgid "Bid size"
-msgstr "Tamanho da Venda"
+msgstr "Qtd Venda"
 
 msgid "Time ask"
-msgstr " Compra/Tempo"
+msgstr "Tempo/Compra"
 
 msgid "Time bid"
-msgstr "Venda/Tempo"
+msgstr "Tempo/Venda"
 
 msgid "Last updated ask time"
 msgstr "Última hora da compra atualizada"
@@ -2577,10 +2577,10 @@ msgid "Cumulative size of every bid price level"
 msgstr "Tamanho cumulativo de cada nível de preço de lance"
 
 msgid "VWAP ask"
-msgstr "VWAP perguntar"
+msgstr "VWAP Compra"
 
 msgid "VWAP bid"
-msgstr "Licitação da VWAP"
+msgstr "VWAP Venda"
 
 msgid "Volume weighted average ask price"
 msgstr "Preço médio ponderado do volume"
@@ -2664,7 +2664,7 @@ msgid "Show table header"
 msgstr "Mostrar cabeçalho de mesa"
 
 msgid "Show day map"
-msgstr "Mapa do dia do show"
+msgstr "Linha Oscilação"
 
 msgid "Imbalance, %"
 msgstr "Desequilíbrio, %"
@@ -2811,7 +2811,7 @@ msgid "Place Buy Market order"
 msgstr "Encomenda do Mercado de Compra de Lugar"
 
 msgid "Place Sell Market order"
-msgstr "Encomenda do Mercado de Venda de Lugar"
+msgstr "Encomenda do Mercado de Venda Lugar"
 
 msgid "Close position by symbol"
 msgstr "Fechar posição por Ativo"
@@ -2865,13 +2865,13 @@ msgid "List name"
 msgstr "Nome da lista"
 
 msgid "Save current watchlist"
-msgstr "Salvar lista de observação atual"
+msgstr "Salvar lista de cotação atual"
 
 msgid "Add to watchlist"
-msgstr "Adicionar à lista de observação"
+msgstr "Adicionar à lista de cotação"
 
 msgid "Replace watchlist"
-msgstr "Substitua a lista de observação"
+msgstr "Substitua à lista de cotação"
 
 msgid "Rename"
 msgstr "Renomear"
@@ -2943,7 +2943,7 @@ msgid "You have no selected symbols yet"
 msgstr "Você ainda não tem Ativos selecionados"
 
 msgid "Exchanges & Assets"
-msgstr "Exchanges & Ativos"
+msgstr "Bolsas & Ativos"
 
 msgid "Add symbols"
 msgstr "Adicionar Ativos"
@@ -3214,10 +3214,10 @@ msgid "Display quantity in lots"
 msgstr "Quantidade de exibição em lotes"
 
 msgid "Abbreviate volume & ticks"
-msgstr "Abreviar volume e ticks"
+msgstr "Abreviar volume e Ticks"
 
 msgid "Abbreviate crypto prices"
-msgstr "Abreviar preços cripto"
+msgstr "Abreviar preços Crypto"
 
 msgid "Timeout (min)"
 msgstr "Tempo limite (min)"
@@ -3511,13 +3511,13 @@ msgid "Stop price should be positive non-zero value"
 msgstr "O preço de parada deve ser positivo, valor não-zero"
 
 msgid "Allowed order types"
-msgstr "Tipos de pedidos permitidos"
+msgstr "Tipos de ordens permitidas"
 
 msgid "Max price"
-msgstr "Preço máximo"
+msgstr "Preço Máximo"
 
 msgid "Min notional"
-msgstr "Min nocional"
+msgstr "Min Notional "
 
 msgid "Iceberg allowed"
 msgstr "Iceberg permitido"
@@ -3553,7 +3553,7 @@ msgid "Market data connection. Trading coming soon."
 msgstr "Conexão de dados de mercado. Negociação em breve."
 
 msgid "Can't connect via socket"
-msgstr "Não pode se conectar via soquete"
+msgstr "Não pode se conectar via servidor"
 
 msgid "Allow margin trading"
 msgstr "Permitir negociação de margem"
@@ -3565,13 +3565,13 @@ msgid "Index"
 msgstr "Índice"
 
 msgid "Spot symbol"
-msgstr "Ativo de ponto"
+msgstr "Spot do Ativo"
 
 msgid "Transaction History"
 msgstr "Histórico de transações"
 
 msgid "Trade history"
-msgstr "História do comércio"
+msgstr "Trade Histórico"
 
 msgid "Order history"
 msgstr "Histórico de pedidos"
@@ -4042,10 +4042,10 @@ msgid "TargetCompId"
 msgstr "TargetCompId"
 
 msgid "Orders history"
-msgstr "Histórico de pedidos"
+msgstr "Histórico de ordens"
 
 msgid "Trades history"
-msgstr "História dos negócios"
+msgstr "Histórico dos Trades"
 
 msgid "Transactions history"
 msgstr "Histórico de transações"
@@ -4069,7 +4069,7 @@ msgid "Instrument"
 msgstr "Instrumento"
 
 msgid "Stop price"
-msgstr "Preço de parada"
+msgstr "Preço de Stop"
 
 msgid "Average price"
 msgstr "Preço médio"
@@ -4111,7 +4111,7 @@ msgid "Subaccount"
 msgstr "Subconta"
 
 msgid "Source Account"
-msgstr "Conta de origem"
+msgstr "Conta de Origem"
 
 msgid "Destination Account"
 msgstr "Conta de destino"
@@ -4336,10 +4336,10 @@ msgid "Custom port value"
 msgstr "Número da porta personalizada"
 
 msgid "Market Depth levels count"
-msgstr "Contagem de níveis de profundidade de mercado"
+msgstr "Book de Orderns Nível/Contagem "
 
 msgid "Smart Market Depth"
-msgstr "Profundidade inteligente do mercado"
+msgstr "Smart Book de Orders"
 
 msgid "Net liquidation value"
 msgstr "Valor de liquidação líquida"
@@ -5546,7 +5546,7 @@ msgid "Day trading equity call"
 msgstr "DayTrade Ação/Call"
 
 msgid "Equity percentage"
-msgstr "Percentual de patrimônio líquido"
+msgstr "Percentual de Patrimônio Líquido"
 
 msgid "Liquidation value"
 msgstr "Valor de liquidação"
@@ -5555,10 +5555,10 @@ msgid "Long margin value"
 msgstr "Valor de margem/compra"
 
 msgid "Long option market value"
-msgstr "Longo valor de mercado de opções"
+msgstr "Opções em Vendas em Valor"
 
 msgid "Long stock value"
-msgstr "Valor de ações vendas"
+msgstr "Valor de Ações Vendas"
 
 msgid "Maintenance call"
 msgstr "Chamada de Margem"
@@ -5588,7 +5588,7 @@ msgid "Short stock value"
 msgstr "Valor em venda"
 
 msgid "Total cash"
-msgstr "Total do dinheiro"
+msgstr "Total do Dinheiro"
 
 msgid "Is in call"
 msgstr "Está em call"
@@ -5636,40 +5636,40 @@ msgid "Open positions count"
 msgstr "Posição Abertas"
 
 msgid "Open orders count"
-msgstr "Números de ordens abertas"
+msgstr "Números de Ordens Abertas"
 
 msgid "Realized P/L"
 msgstr "P/L realizado"
 
 msgid "Provides simulated data, allowing to test platform’s functionality"
-msgstr "Fornece dados simulados, permitindo testar a funcionalidade da plataforma"
+msgstr "Fornece dados Simulados, permitindo testar a funcionalidade da plataforma"
 
 msgid "Spot"
 msgstr "Spot"
 
 msgid "Xena Listed Perpetuals"
-msgstr "Perpétuos listados em Xena"
+msgstr "Perpétuos Listados em Xena"
 
 msgid "Positions and orders"
-msgstr "Posições e ordens"
+msgstr "Posições e Ordens"
 
 msgid "Maintenance"
 msgstr "Manutenção"
 
 msgid "Maximal deviation from mid price"
-msgstr "Desvio máximo do preço médio"
+msgstr "Desvio Máximo do Preço Médio"
 
 msgid "Settlement currency"
-msgstr "Moeda de liquidação"
+msgstr "Moeda de Liquidação"
 
 msgid "Max position volume"
-msgstr "Volume máximo da posição"
+msgstr "Volume Máximo da Posição"
 
 msgid "Contract value"
-msgstr "Valor do contrato"
+msgstr "Valor do Contrato"
 
 msgid "Contract currency"
-msgstr "Moeda do contrato"
+msgstr "Moeda do Contrato"
 
 msgid "Netting"
 msgstr "Rede"
@@ -5681,10 +5681,10 @@ msgid "Distance"
 msgstr "Distância"
 
 msgid "Moving boundary"
-msgstr "Limite móvel"
+msgstr "Limite Móvel"
 
 msgid "Moving time"
-msgstr "Tempo de movimento"
+msgstr "Tempo de Movimento"
 
 msgid "Low index"
 msgstr "Mínima/índice"
