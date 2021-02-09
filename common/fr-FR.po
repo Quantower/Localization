@@ -41,43 +41,43 @@ msgid "Limit"
 msgstr "Limite"
 
 msgid "Stop loss price should be less then limit price"
-msgstr "Stop loss prix devrait être moins que le prix limite"
+msgstr "Le Stop loss prix devrait être inférieur au prix limite"
 
 msgid "Take profit price should be more then limit price"
-msgstr "Prendre le prix du profit devrait être plus que le prix limite"
+msgstr "Le Take profit devrait être supérieur au prix limite"
 
 msgid "Stop loss price should be more then limit price"
-msgstr "Stop loss prix devrait être plus que le prix limite"
+msgstr "Le Stop loss prix devrait être supérieur au prix limite"
 
 msgid "Take profit price should be less then limit price"
-msgstr "Le prix du profit doit être inférieur au prix limite"
+msgstr "Le Take profit devrait être inférieur au prix limite"
 
 msgid "Market if touched"
-msgstr "Marché s’il est touché"
+msgstr "Ordre Marché s’il est touché"
 
 msgid "Market"
-msgstr "Marché"
+msgstr "Ordre au prix du Marché"
 
 msgid "Stop loss price should be less then market ask price"
-msgstr "Stop loss le prix devrait être moins que le prix demandé du marché"
+msgstr "le Stop loss le prix devrait être inférieur au prix demandé"  XXX
 
 msgid "Take profit price should be more then market ask price"
-msgstr "Prendre le prix du profit devrait être plus que le prix demandé du marché"
+msgstr "Le Take profit devrait être supérieur au prix demandé"
 
 msgid "Stop loss price should be more then market bid price"
-msgstr "Stop loss prix devrait être plus que le prix du marché"
+msgstr "Le Stop loss prix devrait être supérieur au prix du marché"
 
 msgid "Take profit price should be less then market bid price"
-msgstr "Le prix de prise de profit devrait être inférieur au prix de l'offre du marché"
+msgstr "Le Take profit devrait être inférieur au prix de l'offre du marché"
 
-msgid "Stop limit"
+msgid "Stop limit"  XXX
 msgstr "Limite stop"
 
 msgid "Stop"
 msgstr "Arrêter"
 
 msgid "Stop loss price should be less then trigger price"
-msgstr "Arrêter le prix de perte devrait être moins alors déclencher le prix"
+msgstr "Le Stop loss devrait être inférieur au prix déclencheur"
 
 msgid "Take profit price should be more then trigger price"
 msgstr "Prendre le prix de profit devrait être plus alors déclencher le prix"
@@ -89,9 +89,9 @@ msgid "Take profit price should be less then trigger price"
 msgstr "Prendre le prix de profit devrait être moins alors déclencher le prix"
 
 msgid "Trailing Stop"
-msgstr "Arrêt de fuite"
+msgstr "Stop suiveur"
 
-msgid "Trailing offset"
+msgid "Trailing offset"   XXX
 msgstr "Décalage de fuite"
 
 msgid "Unspecified"
@@ -122,7 +122,7 @@ msgid "Inactive"
 msgstr "Inactif"
 
 msgid "Working"
-msgstr "Travail"
+msgstr "En cour"
 
 msgid "Undefined"
 msgstr "Indéfini"
@@ -130,32 +130,32 @@ msgstr "Indéfini"
 msgid "Multiple positions"
 msgstr "Positions multiples"
 
-msgid "Multiple positions per side"
+msgid "Multiple positions per side"   XXX
 msgstr "Plusieurs positions par côté"
 
 msgid "One position"
 msgstr "Une position"
 
 msgid "Aggressor flag"
-msgstr "Drapeau de l'agresseur"
+msgstr "Alert d'agression"
 
 msgid "Tick direction"
-msgstr "Direction des tiques"
+msgstr "Direction des ticks"
 
 msgid "Loading sessions..."
-msgstr "Séances de chargement..."
+msgstr "Chargement de la sessiont..."
 
 msgid "Loading exchanges..."
-msgstr "Échanges de chargement..."
+msgstr "Chargement des places de marché..."
 
 msgid "Loading symbol groups..."
 msgstr "Chargement de groupes de symboles..."
 
 msgid "Loading order types..."
-msgstr "Types de commandes de chargement..."
+msgstr "Chargement des Types d'ordres..."
 
 msgid "Loading assets..."
-msgstr "Chargement d’actifs..."
+msgstr "Chargement des actifs..."
 
 msgid "Loading accounts..."
 msgstr "Chargement des comptes..."
@@ -170,7 +170,7 @@ msgid "Loading positions..."
 msgstr "Chargement des positions..."
 
 msgid "Loading closed positions..."
-msgstr "Chargement des positions fermées..."
+msgstr "Chargement des positions cloturées..."
 
 msgid "Loading reports..."
 msgstr "Chargement des rapports..."
@@ -188,10 +188,10 @@ msgid "Value"
 msgstr "Valeur"
 
 msgid "Build from"
-msgstr "Construire à partir de"
+msgstr "Construit à partir de"
 
 msgid "Box size"
-msgstr "Taille de la case"
+msgstr "Taille des boxes"
 
 msgid "Reversal"
 msgstr "Inversion"
@@ -206,7 +206,7 @@ msgid "High/Low"
 msgstr "Haut/Bas"
 
 msgid "ticks"
-msgstr "tiques"
+msgstr "tticks"
 
 msgid "s"
 msgstr "s"
@@ -245,7 +245,7 @@ msgid "SL"
 msgstr "Stop Loss"
 
 msgid "TP"
-msgstr "TP"
+msgstr "Take Profit"
 
 #, csharp-format
 msgid "Data series #{0}"
@@ -317,7 +317,7 @@ msgid "Ask"
 msgstr "Demande"
 
 msgid "Bid/Ask average"
-msgstr "Moyenne d'offre/de demande"
+msgstr "Moyenne de l'offre et de la demande"
 
 msgid "Last"
 msgstr "Dernier"
@@ -383,34 +383,34 @@ msgid "Cross"
 msgstr "Croiser"
 
 msgid "Cross Above"
-msgstr "Croix ci-dessus"
+msgstr "Croisement au dessus"
 
 msgid "Cross Below"
-msgstr "Croix ci-dessous"
+msgstr "Croisement en dessous"
 
 msgid "Full chart range"
 msgstr "Gamme complète de graphiques"
 
 msgid "Daily"
-msgstr "Quotidiennement"
+msgstr "Quotidien"
 
 msgid "Weekly"
 msgstr "Hebdomadaire"
 
 msgid "Histogram style"
-msgstr "Style histogramme"
+msgstr "Histogramme"
 
 msgid "Line style"
-msgstr "Style de la ligne"
+msgstr "Type de ligne"
 
 msgid "Show labels"
 msgstr "Afficher les étiquettes"
 
 msgid "Label font"
-msgstr "Police d’étiquette"
+msgstr "Police"
 
 msgid "Volume Impact"
-msgstr "Impact sur le volume"
+msgstr "Impact du volume"
 
 msgid "Back"
 msgstr "Précédent"
@@ -5666,7 +5666,7 @@ msgid "Max position volume"
 msgstr "Volume de position Max."
 
 msgid "Contract value"
-msgstr "Valeur contractuelle"
+msgstr "Valeur du contrat"
 
 msgid "Contract currency"
 msgstr "Devise du contrat"
