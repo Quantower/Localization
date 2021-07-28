@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:53+0200\n"
+"POT-Creation-Date: 2021-07-28 15:59+0300\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -66,9 +66,6 @@ msgstr "注文をキャンセルする"
 
 msgid "Link OCO"
 msgstr "リンク OCO"
-
-msgid "Are you sure you want to execute all orders at market price?"
-msgstr "すべての注文を市場価格で実行してもよろしいですか？"
 
 msgid "Cancel selected orders"
 msgstr "選択された注文をキャンセルする"
@@ -289,8 +286,15 @@ msgstr "決済注文/ポジション一覧"
 msgid "Convert"
 msgstr "変換"
 
+msgid "Place at Breakeven"
+msgstr "ブレイクヴェンでの場所"
+
 msgid "Convert to "
 msgstr "に変換"
+
+#, csharp-format
+msgid "Are you sure want to break even position on {0}?"
+msgstr "あなたは本当に{0}上の偶数の位置を破りたいですか?"
 
 msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
 msgstr "注文を行う際には、製品コードを選択する必要があります。これらの製品コードは、注文のカテゴリを識別します。たとえば、以下の製品コード、CNC – 配達中の株式の取引のために MIS – 日中のNRMLでの株式&F&Oの取引のため – 一晩ポジションの取引F&O、通貨、商品のために。これらのポジションは日中のポジションではないため、これらのマージン要件は一晩のマージンに従います。また、取引セッションの終了時にシステムによって二乗されることはしません。"
@@ -387,12 +391,6 @@ msgstr "選択された口座のすべてをリバース"
 
 msgid "Reverse all positions..."
 msgstr "すべてのポジションをリバース…"
-
-msgid "Are you sure want to close positions by {symbol.Name}?"
-msgstr "{記号で位置を閉じてもよろしいですか?名前}?"
-
-msgid "Are you sure want to close positions by {account}?"
-msgstr "{Account} でポジションをクローズしますか?"
 
 msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
 msgstr "{SelectedPositions () を逆にしてもよろしいですか?Id}?"
@@ -540,6 +538,18 @@ msgstr "県"
 
 msgid "Open or closed"
 msgstr "開くまたは閉じる"
+
+msgid "Gross P/L, %"
+msgstr "総P/L、%"
+
+msgid "Current profit/loss percent value, before fee/commission applying"
+msgstr "現在の損益率値(手数料/手数料適用前)"
+
+msgid "Net P/L, %"
+msgstr "純P/L、%"
+
+msgid "Current profit/loss percent value that includes fee/commission"
+msgstr "手数料/手数料を含む現在の損益率の値"
 
 msgid "Long"
 msgstr "ロング"

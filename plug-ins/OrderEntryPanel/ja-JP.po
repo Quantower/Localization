@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:51+0200\n"
+"POT-Creation-Date: 2021-07-28 15:47+0300\n"
 "PO-Revision-Date: 2018-12-04 15:35+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -94,29 +94,148 @@ msgstr "複数"
 msgid "Cancel"
 msgstr "キャンセル"
 
-msgid "Multiple order entry"
-msgstr "複数の注文入力"
+msgid "Brackets setup"
+msgstr "ブラケットのセットアップ"
 
-msgid "reverse"
-msgstr "逆"
+msgid "Quantity, %"
+msgstr "数量、%"
+
+msgid "No brackets set up yet. Press the “Plus” button to create one"
+msgstr "ブラケットはまだ設定されていません。「プラス」ボタンを押して作成します"
+
+msgid "Level {this.bracketItemsControllers.IndexOf(controller) + 1} is configured incorrectly: at least one order must be active"
+msgstr "レベル {this.bracketItemsControllers.IndexOf(コントローラ) + 1} が正しく構成されていません: 少なくとも 1 つの注文がアクティブである必要があります"
+
+msgid "Current Total Quantity ({totalSum}%) is incorrect - should be less then 100%"
+msgstr "現在の合計数量 ({合計合計}%)間違っています - 100% 未満でなければなりません"
+
+msgid "Note: In case of multiple SL/TP levels, offset in ticks will be calculated from the price of the parent order, not the filled price."
+msgstr "注: 複数の SL/TP レベルの場合、ティックのオフセットは、満たされた価格ではなく親注文の価格から計算されます。"
+
+msgid "Activate trailing {this.behavior.Name.ToLower()}"
+msgstr "トレーリング {this.behavior.Name.ToLower()} をアクティブにします。"
+
+msgid "No {shortName}"
+msgstr "{短い名前} がありません"
+
+msgid "Bid"
+msgstr "入札"
+
+msgid "Ask"
+msgstr "尋ねる"
+
+msgid "Order was cancelled"
+msgstr "注文がキャンセルされました"
+
+msgid "Position was closed"
+msgstr "ポジションが閉じられた"
+
+msgid "Slim mode"
+msgstr "スリムモード"
+
+msgid "No labels"
+msgstr "ラベルなし"
+
+msgid "Show additional order parameters"
+msgstr "追加の注文パラメータの表示"
+
+msgid "OE qty buttons"
+msgstr "OE 数量ボタン"
+
+#, csharp-format
+msgid "Are you sure want to close position and cancel all orders on {0}?"
+msgstr "ポジションをクローズして、{0}のすべての注文をキャンセルしますか?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions and cancel all orders on {0}?"
+msgstr "すべての職位をクローズし、{0}のすべての注文をキャンセルしますか?"
+
+#, csharp-format
+msgid "Are you sure want to close position on {0}?"
+msgstr "{0}のポジションを閉じますか?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions on {0}?"
+msgstr "{0}のすべてのポジションをクローズしますか?"
+
+#, csharp-format
+msgid "Are you sure want to reverse position on {0}?"
+msgstr "{0}上の位置を逆にしますか?"
+
+#, csharp-format
+msgid "Are you sure want to break even position on {0}?"
+msgstr "あなたは本当に{0}上の偶数の位置を破りたいですか?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all orders on {0}?"
+msgstr "{0}のすべての注文をキャンセルしますか?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all buy orders on {0}?"
+msgstr "{0}のすべての購入注文をキャンセルしますか?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all sell orders on {0}?"
+msgstr "{0}のすべての売り注文をキャンセルしますか?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all limit orders on {0}?"
+msgstr "{0}のすべての制限注文をキャンセルしますか?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all stop orders on {0}?"
+msgstr "{0}のすべてのストップ注文をキャンセルしますか?"
+
+msgid "Show OE"
+msgstr "OE を表示する"
+
+msgid "Create group"
+msgstr "グループを作成する"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Rename group"
+msgstr "グループ名の変更"
+
+msgid "Show account lookup"
+msgstr "アカウントのルックアップを表示"
+
+msgid "Show symbol lookup"
+msgstr "シンボル検索の表示"
+
+msgid "Show margin info (if available)"
+msgstr "余白情報を表示する (可能な場合)"
+
+msgid "Buy"
+msgstr "買い"
+
+msgid "Sell"
+msgstr "売り"
 
 msgid "Add to basket"
 msgstr "バスケットに追加"
 
-msgid "Create new"
-msgstr "新規作成"
+msgid "Show/hide order entry"
+msgstr "注文入力の表示/非表示"
+
+msgid "Submit as OCO"
+msgstr "OCO として送信"
 
 msgid "Group actions"
 msgstr "グループアクション"
+
+msgid "Create new"
+msgstr "新規作成"
+
+msgid "Exclude from group"
+msgstr "グループから除外"
 
 msgid "Move to"
 msgstr "移動先"
 
 msgid "Rename"
 msgstr "名前の変更"
-
-msgid "Exclude from group"
-msgstr "グループから除外"
 
 msgid "Ungroup"
 msgstr "解除"
@@ -130,262 +249,38 @@ msgstr "表示する注文要求はありません"
 msgid "Add some order requests to watch them"
 msgstr "それらを見るためにいくつかの注文要求を追加します。"
 
-msgid "Collapse OE"
-msgstr "OE を折りたたむ"
+msgid "reverse"
+msgstr "逆"
 
 msgid "+/-"
 msgstr "+/-"
 
-msgid "+"
-msgstr "+"
+msgid "Place order"
+msgstr "注文を行う"
 
-msgid "-"
-msgstr "-"
-
-msgid "Create group"
-msgstr "グループを作成する"
-
-msgid "Name"
-msgstr "名前"
-
-msgid "Buy"
-msgstr "買い"
-
-msgid "Sell"
-msgstr "売り"
-
-msgid "Submit"
-msgstr "送信"
-
-msgid "Cancel modifying"
-msgstr "変更をキャンセルする"
-
-#, csharp-format
-msgid "Are you sure want to cancel all orders on {0}?"
-msgstr "{0}のすべての注文をキャンセルしますか?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all buy orders on {0}?"
-msgstr "{0}のすべての購入注文をキャンセルしますか?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all limit orders on {0}?"
-msgstr "{0}のすべての制限注文をキャンセルしますか?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all sell orders on {0}?"
-msgstr "{0}のすべての売り注文をキャンセルしますか?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all stop orders on {0}?"
-msgstr "{0}のすべてのストップ注文をキャンセルしますか?"
-
-#, csharp-format
-msgid "Are you sure want to break even position on {0}?"
-msgstr "あなたは本当に{0}上の偶数の位置を破りたいですか?"
-
-msgid "Show close position"
-msgstr "クローズ位置を表示"
-
-msgid "Show close positions"
-msgstr "クローズポジションの表示"
+msgid "Save"
+msgstr "保存する"
 
 msgid "Close position"
 msgstr "ポジションをクローズする"
 
-msgid "Close all positions"
-msgstr "すべてのポジションをクローズする"
-
-#, csharp-format
-msgid "Are you sure want to close position on {0}?"
-msgstr "{0}のポジションを閉じますか?"
-
-#, csharp-format
-msgid "Are you sure want to close all positions on {0}?"
-msgstr "{0}のすべてのポジションをクローズしますか?"
-
-#, csharp-format
-msgid "Are you sure want to close position and cancel all orders on {0}?"
-msgstr "ポジションをクローズして、{0}のすべての注文をキャンセルしますか?"
-
-#, csharp-format
-msgid "Are you sure want to close all positions and cancel all orders on {0}?"
-msgstr "すべての職位をクローズし、{0}のすべての注文をキャンセルしますか?"
-
-#, csharp-format
-msgid "Are you sure want to reverse position on {0}?"
-msgstr "{0}上の位置を逆にしますか?"
-
-msgid "Order entry small"
-msgstr "小口注文"
-
-msgid "Slim mode"
-msgstr "スリムモード"
-
-msgid "No labels"
-msgstr "ラベルなし"
-
-msgid "Show additional order parameters"
-msgstr "追加の注文パラメータの表示"
+msgid "Hide"
+msgstr "隠す"
 
 msgid "View"
 msgstr "ビュー"
 
-msgid "Ask"
-msgstr "尋ねる"
-
-msgid "Bid"
-msgstr "入札"
-
-msgid "Mkt"
-msgstr "成行"
-
-msgid "Flatten"
-msgstr "平ら"
-
-msgid "Close positions"
-msgstr "ポジションをクローズする"
-
-msgid "Reverse"
-msgstr "ポジションをリバース"
-
-msgid "Break even"
-msgstr "トントン"
-
-msgid "Cancel orders"
-msgstr "注文を取り消す"
-
-msgid "Cancel buy"
-msgstr "買いをキャンセルする"
-
-msgid "Cancel sell"
-msgstr "Askをキャンセルする"
-
-msgid "Cancel limits"
-msgstr "制限を取り消す"
-
-msgid "Cancel stops"
-msgstr "停止をキャンセル"
-
-msgid "Hide"
-msgstr "隠す"
-
 msgid "Settings"
 msgstr "設定"
-
-msgid "Convert to {this.ProductTypeLabel}"
-msgstr "{this に変換します。製品タイプラベル}"
-
-msgid "No {shortName}"
-msgstr "{短い名前} がありません"
-
-msgid "Activate trailing {this.behavior.Name.ToLower()}"
-msgstr "トレーリング {this.behavior.Name.ToLower()} をアクティブにします。"
-
-msgid "Show VWAP"
-msgstr "出来高加重平均価格を表示する"
-
-msgid "Hide VWAP"
-msgstr "VWAPを隠す"
-
-msgid "VWAP option allows you to see what will be the Average open price if you send order with selected quantity"
-msgstr "VWAPオプションを使用すると、選択した数量で注文を送信した場合の平均オープン価格は何ですか？"
-
-msgid "Quantity to close"
-msgstr "クローズする分量"
-
-msgid "Crypto ОЕ"
-msgstr "暗号ОЕ"
-
-msgid "BUY"
-msgstr "買い"
-
-msgid "SELL"
-msgstr "売り"
-
-msgid "Local SL/TP"
-msgstr "ローカル SL/TP"
-
-msgid "Place"
-msgstr "発注"
-
-msgid "LSL"
-msgstr "Lsl"
-
-msgid "TSL"
-msgstr "Tsl"
-
-msgid "Local Stop loss"
-msgstr "ローカルストップロス"
-
-msgid "Local Take profit"
-msgstr "ローカルテイクプロフィット"
 
 msgid "Modify order"
 msgstr "注文の修正"
 
-msgid "Order ID"
-msgstr "注文ID"
-
-msgid "Connection"
-msgstr "接続"
-
-msgid "Order was cancelled"
-msgstr "注文がキャンセルされました"
-
 msgid "Modify position"
 msgstr "決済指定注文の設定・変更・取消"
 
-msgid "Position ID"
-msgstr "注文番号"
-
-msgid "Long"
-msgstr "ロング"
-
-msgid "Short"
-msgstr "ショート"
-
-msgid "Open price"
-msgstr "オープン価格"
-
-msgid "Current price"
-msgstr "現在価格"
-
-msgid "Gross P/L to close"
-msgstr "クローズする粗損益"
-
-msgid "Fee"
-msgstr "手数料"
-
-msgid "Net P/L"
-msgstr "ネット損益"
-
-msgid "Date/Time"
-msgstr "日時"
-
-msgid "Position was closed"
-msgstr "ポジションが閉じられた"
-
-msgid "Time in force"
-msgstr "発効時間"
-
-msgid "Brackets setup"
-msgstr "ブラケットのセットアップ"
-
-msgid "OE dialog"
-msgstr "OE ダイアログ"
-
-msgid "Order entry"
-msgstr "注文エントリー"
-
-msgid "Expiration date"
-msgstr "満期日"
-
-msgid "Place order"
-msgstr "注文を行う"
-
-msgid "Incorrect quantity: 0"
-msgstr "正しくない数量: 0"
+msgid "Multiple order entry"
+msgstr "複数の注文入力"
 
 msgid "Set order as default"
 msgstr "注文を既定として設定"
@@ -398,3 +293,9 @@ msgstr "テンプレートの作成"
 
 msgid "Apply"
 msgstr "適用"
+
+msgid "Order entry"
+msgstr "注文エントリー"
+
+msgid "Convert to {this.ViewModel.Product}"
+msgstr "{this に変換します。ビューモデル.製品}"

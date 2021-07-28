@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:27+0200\n"
+"POT-Creation-Date: 2021-07-28 15:21+0300\n"
 "PO-Revision-Date: 2018-12-04 15:06+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -187,6 +187,9 @@ msgstr "トレードマーカーサイズ"
 msgid "Trades marker opacity"
 msgstr "トレードマーカーの不透明度"
 
+msgid "Use custom tick size"
+msgstr "カスタム目盛りのサイズを使用する"
+
 msgid "Auto"
 msgstr "自動"
 
@@ -213,6 +216,9 @@ msgstr "集約タイプの変更"
 
 msgid "Favorites"
 msgstr "お気に入り"
+
+msgid "Range"
+msgstr "範囲"
 
 msgid "Similar settings already exist. Do you want to add one more?"
 msgstr "同様の設定が既に存在します。"
@@ -378,9 +384,6 @@ msgstr "可視性"
 
 msgid "Data type"
 msgstr "ソースの種類"
-
-msgid "OE qty buttons"
-msgstr "OE 数量ボタン"
 
 msgid "View"
 msgstr "ビュー"
@@ -595,6 +598,30 @@ msgstr "図面を削除する"
 msgid "Remove all chart objects"
 msgstr "すべてのグラフオブジェクトを削除する"
 
+msgid "Show all indicators"
+msgstr "すべてのインジケータを表示"
+
+msgid "Hide all indicators"
+msgstr "すべてのインジケータを非表示にする"
+
+msgid "Show all drawings"
+msgstr "すべての図面を表示"
+
+msgid "Hide all drawings"
+msgstr "すべての図面を非表示にする"
+
+msgid "Show all overlays"
+msgstr "すべてのオーバーレイを表示"
+
+msgid "Hide all overlays"
+msgstr "すべてのオーバーレイを非表示にする"
+
+msgid "Show all chart objects"
+msgstr "すべてのグラフ オブジェクトを表示"
+
+msgid "Hide all chart objects"
+msgstr "すべてのグラフ オブジェクトを非表示にする"
+
 msgid "Set period (Tick)"
 msgstr "期間を設定する（ティック）"
 
@@ -667,6 +694,9 @@ msgstr "情報ウィンドウモードの切り替え"
 msgid "Show Order Book"
 msgstr "注文書の表示"
 
+msgid "Cumulative size"
+msgstr "累積サイズ"
+
 msgid "General"
 msgstr "一般"
 
@@ -687,6 +717,15 @@ msgstr "図面ライブラリ"
 
 msgid "Add overlay"
 msgstr "オーバーレイを追加する"
+
+msgid "Change visibility of all chart objects"
+msgstr "すべてのグラフ オブジェクトの表示設定を変更する"
+
+msgid "Show all objects"
+msgstr "すべてのオブジェクトを表示"
+
+msgid "Hide all objects"
+msgstr "すべてのオブジェクトを非表示にする"
 
 msgid "Remove all"
 msgstr "すべて削除する"

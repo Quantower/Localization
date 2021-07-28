@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:51+0200\n"
+"POT-Creation-Date: 2021-07-28 15:47+0300\n"
 "PO-Revision-Date: 2019-06-25 13:11+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -94,29 +94,148 @@ msgstr "متعدد"
 msgid "Cancel"
 msgstr "لغو"
 
-msgid "Multiple order entry"
-msgstr "ورود چند منظوره"
+msgid "Brackets setup"
+msgstr "راه اندازی پرانتز"
 
-msgid "reverse"
-msgstr "معکوس"
+msgid "Quantity, %"
+msgstr "کمیت، ٪"
+
+msgid "No brackets set up yet. Press the “Plus” button to create one"
+msgstr "هنوز پرانتز راه اندازی نشده است. دکمه \"پلاس\" را فشار دهید تا یکی ایجاد شود"
+
+msgid "Level {this.bracketItemsControllers.IndexOf(controller) + 1} is configured incorrectly: at least one order must be active"
+msgstr "Level {this.bracketItemsControllers.IndexOf(controller) + 1} is configured incorrectly: at least one order must be active"
+
+msgid "Current Total Quantity ({totalSum}%) is incorrect - should be less then 100%"
+msgstr "مقدار کل فعلی ({totalSum}٪) نادرست است -- باید کمتر و سپس 100 ٪"
+
+msgid "Note: In case of multiple SL/TP levels, offset in ticks will be calculated from the price of the parent order, not the filled price."
+msgstr "توجه: در صورت وجود سطوح متعدد SL/TP، افست در کنه ها از قیمت سفارش والد محاسبه خواهد شد، نه قیمت پر شده."
+
+msgid "Activate trailing {this.behavior.Name.ToLower()}"
+msgstr "فعال کردن دنباله دار {this.behavior.Name.ToLower()}"
+
+msgid "No {shortName}"
+msgstr "بدون {shortName}"
+
+msgid "Bid"
+msgstr "پیشنهاد"
+
+msgid "Ask"
+msgstr "بپرسید"
+
+msgid "Order was cancelled"
+msgstr "سفارش لغو شد"
+
+msgid "Position was closed"
+msgstr "موقعیت بسته شد"
+
+msgid "Slim mode"
+msgstr "حالت باریک"
+
+msgid "No labels"
+msgstr "بدون برچسب"
+
+msgid "Show additional order parameters"
+msgstr "نمایش پارامترهای سفارش اضافی"
+
+msgid "OE qty buttons"
+msgstr "دکمه های OE qty"
+
+#, csharp-format
+msgid "Are you sure want to close position and cancel all orders on {0}?"
+msgstr "آیا شما مطمئن هستید که می خواهید برای بستن موقعیت و لغو تمام سفارشات در {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to close all positions and cancel all orders on {0}?"
+msgstr "آیا مطمئن هستید که می خواهید تمام موقعیت ها را ببندید و تمام دستورات روی {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to close position on {0}?"
+msgstr "مطمئني ميخواي موقعيت رو روي {0} ببندي؟"
+
+#, csharp-format
+msgid "Are you sure want to close all positions on {0}?"
+msgstr "آیا مطمئن هستید که می خواهید تمام موقعیت ها را روی {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to reverse position on {0}?"
+msgstr "مطمئني ميخواي موقعيت رو روي {0} کني؟"
+
+#, csharp-format
+msgid "Are you sure want to break even position on {0}?"
+msgstr "آیا شما مطمئن هستید که می خواهید برای شکستن حتی موقعیت در {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to cancel all orders on {0}?"
+msgstr "آیا مطمئن هستید که می خواهید تمام دستورات را در {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to cancel all buy orders on {0}?"
+msgstr "آیا شما مطمئن هستید که می خواهید برای لغو تمام سفارشات خرید در {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to cancel all sell orders on {0}?"
+msgstr "آیا شما مطمئن هستید که می خواهید برای لغو تمام سفارشات فروش {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to cancel all limit orders on {0}?"
+msgstr "آیا مطمئن هستید که می خواهید تمام دستورات محدود در مورد {0}؟"
+
+#, csharp-format
+msgid "Are you sure want to cancel all stop orders on {0}?"
+msgstr "آیا شما مطمئن هستید که می خواهید برای لغو تمام دستورات توقف در {0}؟"
+
+msgid "Show OE"
+msgstr "نمایش OE"
+
+msgid "Create group"
+msgstr "ایجاد گروه"
+
+msgid "Name"
+msgstr "نام"
+
+msgid "Rename group"
+msgstr "تغییر نام گروه"
+
+msgid "Show account lookup"
+msgstr "نمایش نگاه کردن به حساب"
+
+msgid "Show symbol lookup"
+msgstr "نمایش نماد lookup"
+
+msgid "Show margin info (if available)"
+msgstr "نمایش اطلاعات حاشیه (در صورت موجود)"
+
+msgid "Buy"
+msgstr "فروش"
+
+msgid "Sell"
+msgstr "فروش"
 
 msgid "Add to basket"
 msgstr "اضافه کردن به سبد"
 
-msgid "Create new"
-msgstr "ایجاد جدید"
+msgid "Show/hide order entry"
+msgstr "نمایش/ پنهان کردن ورود سفارش"
+
+msgid "Submit as OCO"
+msgstr "ارسال به عنوان OCO"
 
 msgid "Group actions"
 msgstr "اقدامات گروهی"
+
+msgid "Create new"
+msgstr "ایجاد جدید"
+
+msgid "Exclude from group"
+msgstr "خارج شدن از گروه"
 
 msgid "Move to"
 msgstr "حرکت به"
 
 msgid "Rename"
 msgstr "نام"
-
-msgid "Exclude from group"
-msgstr "خارج شدن از گروه"
 
 msgid "Ungroup"
 msgstr "گروه بندی نشده"
@@ -130,262 +249,38 @@ msgstr "بدون درخواست سفارش برای نشان دادن"
 msgid "Add some order requests to watch them"
 msgstr "اضافه کردن برخی از درخواست سفارش به تماشای آنها"
 
-msgid "Collapse OE"
-msgstr "فروپاشی OE"
+msgid "reverse"
+msgstr "معکوس"
 
 msgid "+/-"
 msgstr "+/-"
 
-msgid "+"
-msgstr "+"
+msgid "Place order"
+msgstr "سفارش مکان"
 
-msgid "-"
-msgstr "-"
-
-msgid "Create group"
-msgstr "ایجاد گروه"
-
-msgid "Name"
-msgstr "نام"
-
-msgid "Buy"
-msgstr "فروش"
-
-msgid "Sell"
-msgstr "فروش"
-
-msgid "Submit"
-msgstr "ارسال"
-
-msgid "Cancel modifying"
-msgstr "لغو اصلاح"
-
-#, csharp-format
-msgid "Are you sure want to cancel all orders on {0}?"
-msgstr "آیا مطمئن هستید که می خواهید تمام دستورات را در {0}؟"
-
-#, csharp-format
-msgid "Are you sure want to cancel all buy orders on {0}?"
-msgstr "آیا شما مطمئن هستید که می خواهید برای لغو تمام سفارشات خرید در {0}؟"
-
-#, csharp-format
-msgid "Are you sure want to cancel all limit orders on {0}?"
-msgstr "آیا مطمئن هستید که می خواهید تمام دستورات محدود در مورد {0}؟"
-
-#, csharp-format
-msgid "Are you sure want to cancel all sell orders on {0}?"
-msgstr "آیا شما مطمئن هستید که می خواهید برای لغو تمام سفارشات فروش {0}؟"
-
-#, csharp-format
-msgid "Are you sure want to cancel all stop orders on {0}?"
-msgstr "آیا شما مطمئن هستید که می خواهید برای لغو تمام دستورات توقف در {0}؟"
-
-#, csharp-format
-msgid "Are you sure want to break even position on {0}?"
-msgstr "آیا شما مطمئن هستید که می خواهید برای شکستن حتی موقعیت در {0}؟"
-
-msgid "Show close position"
-msgstr "نشان دادن موقعیت نزدیک"
-
-msgid "Show close positions"
-msgstr "نشان دادن موقعیت های نزدیک"
+msgid "Save"
+msgstr "ذخیره"
 
 msgid "Close position"
 msgstr "بستن موقعیت"
 
-msgid "Close all positions"
-msgstr "بستن تمام موقعیت ها"
-
-#, csharp-format
-msgid "Are you sure want to close position on {0}?"
-msgstr "مطمئني ميخواي موقعيت رو روي {0} ببندي؟"
-
-#, csharp-format
-msgid "Are you sure want to close all positions on {0}?"
-msgstr "آیا مطمئن هستید که می خواهید تمام موقعیت ها را روی {0}؟"
-
-#, csharp-format
-msgid "Are you sure want to close position and cancel all orders on {0}?"
-msgstr "آیا شما مطمئن هستید که می خواهید برای بستن موقعیت و لغو تمام سفارشات در {0}؟"
-
-#, csharp-format
-msgid "Are you sure want to close all positions and cancel all orders on {0}?"
-msgstr "آیا مطمئن هستید که می خواهید تمام موقعیت ها را ببندید و تمام دستورات روی {0}؟"
-
-#, csharp-format
-msgid "Are you sure want to reverse position on {0}?"
-msgstr "مطمئني ميخواي موقعيت رو روي {0} کني؟"
-
-msgid "Order entry small"
-msgstr "ورود سفارش کوچک"
-
-msgid "Slim mode"
-msgstr "حالت باریک"
-
-msgid "No labels"
-msgstr "بدون برچسب"
-
-msgid "Show additional order parameters"
-msgstr "نمایش پارامترهای سفارش اضافی"
+msgid "Hide"
+msgstr "مخفی کردن"
 
 msgid "View"
 msgstr "مشاهده"
 
-msgid "Ask"
-msgstr "بپرسید"
-
-msgid "Bid"
-msgstr "پیشنهاد"
-
-msgid "Mkt"
-msgstr "Mkt"
-
-msgid "Flatten"
-msgstr "صاف"
-
-msgid "Close positions"
-msgstr "موقعیت های نزدیک"
-
-msgid "Reverse"
-msgstr "معکوس"
-
-msgid "Break even"
-msgstr "شکستن حتی"
-
-msgid "Cancel orders"
-msgstr "لغو دستورات"
-
-msgid "Cancel buy"
-msgstr "لغو خرید"
-
-msgid "Cancel sell"
-msgstr "لغو فروش"
-
-msgid "Cancel limits"
-msgstr "لغو محدودیت ها"
-
-msgid "Cancel stops"
-msgstr "لغو توقف"
-
-msgid "Hide"
-msgstr "مخفی کردن"
-
 msgid "Settings"
 msgstr "تنظیمات"
-
-msgid "Convert to {this.ProductTypeLabel}"
-msgstr "تبدیل به {این. ProductTypeLabel}"
-
-msgid "No {shortName}"
-msgstr "بدون {shortName}"
-
-msgid "Activate trailing {this.behavior.Name.ToLower()}"
-msgstr "فعال کردن دنباله دار {this.behavior.Name.ToLower()}"
-
-msgid "Show VWAP"
-msgstr "نمایش VWAP"
-
-msgid "Hide VWAP"
-msgstr "مخفی کردن VWAP"
-
-msgid "VWAP option allows you to see what will be the Average open price if you send order with selected quantity"
-msgstr "گزینه VWAP به شما اجازه می دهد تا ببینید که چه خواهد شد میانگین قیمت باز اگر شما سفارش را با مقدار انتخاب شده ارسال کنید"
-
-msgid "Quantity to close"
-msgstr "تعداد برای بستن"
-
-msgid "Crypto ОЕ"
-msgstr "رمزنگاری ОЕ"
-
-msgid "BUY"
-msgstr "فروش"
-
-msgid "SELL"
-msgstr "فروش"
-
-msgid "Local SL/TP"
-msgstr "SL/TP محلی"
-
-msgid "Place"
-msgstr "محل"
-
-msgid "LSL"
-msgstr "LSL"
-
-msgid "TSL"
-msgstr "TSL"
-
-msgid "Local Stop loss"
-msgstr "توقف از دست دادن محلی"
-
-msgid "Local Take profit"
-msgstr "سود بردن محلی"
 
 msgid "Modify order"
 msgstr "تغییر ترتیب"
 
-msgid "Order ID"
-msgstr "شناسه سفارش"
-
-msgid "Connection"
-msgstr "اتصال"
-
-msgid "Order was cancelled"
-msgstr "سفارش لغو شد"
-
 msgid "Modify position"
 msgstr "تغییر موقعیت"
 
-msgid "Position ID"
-msgstr "شناسه موقعیت"
-
-msgid "Long"
-msgstr "طولانی"
-
-msgid "Short"
-msgstr "کوتاه"
-
-msgid "Open price"
-msgstr "قیمت باز کردن"
-
-msgid "Current price"
-msgstr "قیمت فعلی"
-
-msgid "Gross P/L to close"
-msgstr "ناخالص P/L برای بستن"
-
-msgid "Fee"
-msgstr "هزینه"
-
-msgid "Net P/L"
-msgstr "خالص P/L"
-
-msgid "Date/Time"
-msgstr "تاریخ/زمان"
-
-msgid "Position was closed"
-msgstr "موقعیت بسته شد"
-
-msgid "Time in force"
-msgstr "زمان در نیروی"
-
-msgid "Brackets setup"
-msgstr "راه اندازی پرانتز"
-
-msgid "OE dialog"
-msgstr "گفتگوی OE"
-
-msgid "Order entry"
-msgstr "ورود سفارش"
-
-msgid "Expiration date"
-msgstr "تاریخ انقضا"
-
-msgid "Place order"
-msgstr "سفارش مکان"
-
-msgid "Incorrect quantity: 0"
-msgstr "کمیت نادرست: 0"
+msgid "Multiple order entry"
+msgstr "ورود چند منظوره"
 
 msgid "Set order as default"
 msgstr "ترتیب را به صورت پیش فرض تنظیم کنید"
@@ -398,3 +293,9 @@ msgstr "ایجاد قالب"
 
 msgid "Apply"
 msgstr "درخواست"
+
+msgid "Order entry"
+msgstr "ورود سفارش"
+
+msgid "Convert to {this.ViewModel.Product}"
+msgstr "تبدیل به {این. ViewModel.Product}"

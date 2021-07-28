@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:51+0200\n"
+"POT-Creation-Date: 2021-07-28 15:47+0300\n"
 "PO-Revision-Date: 2018-12-04 15:35+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -94,29 +94,148 @@ msgstr "Birden çok"
 msgid "Cancel"
 msgstr "İptal et"
 
-msgid "Multiple order entry"
-msgstr "Çoklu emir girişi"
+msgid "Brackets setup"
+msgstr "Braketler kurulumu"
 
-msgid "reverse"
-msgstr "ters"
+msgid "Quantity, %"
+msgstr "Miktar, %"
+
+msgid "No brackets set up yet. Press the “Plus” button to create one"
+msgstr "Henüz köşeli ayraç kurulmadı. Oluşturmak için \"Artı\" düğmesine basın"
+
+msgid "Level {this.bracketItemsControllers.IndexOf(controller) + 1} is configured incorrectly: at least one order must be active"
+msgstr "Düzey {this.bracketItemsControllers.IndexOf(controller) + 1} yanlış yapılandırılmış: en az bir sipariş etkin olmalıdır"
+
+msgid "Current Total Quantity ({totalSum}%) is incorrect - should be less then 100%"
+msgstr "Geçerli Toplam Miktar ({totalSum}%) yanlış - %100'den az olmalıdır"
+
+msgid "Note: In case of multiple SL/TP levels, offset in ticks will be calculated from the price of the parent order, not the filled price."
+msgstr "Not: Birden fazla SL/TP seviyesi olması durumunda, kenelerdeki mahsuplaşma, doldurulan fiyattan değil, ana siparişin fiyatından hesaplanır."
+
+msgid "Activate trailing {this.behavior.Name.ToLower()}"
+msgstr "İzleyen {this.behavior.Name.ToLower()} etkinleştir"
+
+msgid "No {shortName}"
+msgstr "{shortName} yok"
+
+msgid "Bid"
+msgstr "Alış"
+
+msgid "Ask"
+msgstr "Satış"
+
+msgid "Order was cancelled"
+msgstr "Emir iptal edildi"
+
+msgid "Position was closed"
+msgstr "Pozisyon kapatıldı"
+
+msgid "Slim mode"
+msgstr "İnce mod"
+
+msgid "No labels"
+msgstr "Etiket yok"
+
+msgid "Show additional order parameters"
+msgstr "Ek emir parametrelerini göster"
+
+msgid "OE qty buttons"
+msgstr "OE miktar düğmeleri"
+
+#, csharp-format
+msgid "Are you sure want to close position and cancel all orders on {0}?"
+msgstr "Pozisyonunu kapatıp {0} tüm emirleri iptal etmek istediğinizden emin misiniz?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions and cancel all orders on {0}?"
+msgstr "Tüm pozisyonları kapatıp {0} tüm emirleri iptal etmek istediğinizden emin misiniz?"
+
+#, csharp-format
+msgid "Are you sure want to close position on {0}?"
+msgstr "{0} pozisyonunu kapatmak istediğine emin misin?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions on {0}?"
+msgstr "{0} tüm pozisyonları kapatmak istediğinizden emin misiniz?"
+
+#, csharp-format
+msgid "Are you sure want to reverse position on {0}?"
+msgstr "{0} pozisyonunu tersine çevirmek istediğinden emin misin?"
+
+#, csharp-format
+msgid "Are you sure want to break even position on {0}?"
+msgstr "{0}'da eşit pozisyon kırmak istediğine emin misin?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all orders on {0}?"
+msgstr "{0}'daki tüm emir iptal etmek istediğinizden emin misiniz?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all buy orders on {0}?"
+msgstr "{0}'daki tüm alış emirleri iptal etmek istediğinizden emin misiniz?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all sell orders on {0}?"
+msgstr "{0}'daki tüm satış emirlerini iptal etmek istediğinden emin misin?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all limit orders on {0}?"
+msgstr "{0}'daki tüm limit emirlerini iptal etmek istediğinizden emin misiniz?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all stop orders on {0}?"
+msgstr "{0}'daki tüm durdurma emirlerini iptal etmek istediğinden emin misin?"
+
+msgid "Show OE"
+msgstr "OE'yi Göster"
+
+msgid "Create group"
+msgstr "Grup oluştur"
+
+msgid "Name"
+msgstr "İsim"
+
+msgid "Rename group"
+msgstr "Grubu yeniden adlandır"
+
+msgid "Show account lookup"
+msgstr "Hesap aramalarını göster"
+
+msgid "Show symbol lookup"
+msgstr "Sembol aramalarını göster"
+
+msgid "Show margin info (if available)"
+msgstr "Kenar boşluğu bilgilerini göster (varsa)"
+
+msgid "Buy"
+msgstr "Al"
+
+msgid "Sell"
+msgstr "Sat"
 
 msgid "Add to basket"
 msgstr "Sepete ekle"
 
-msgid "Create new"
-msgstr "Yeni oluştur"
+msgid "Show/hide order entry"
+msgstr "Sipariş girişini göster/gizle"
+
+msgid "Submit as OCO"
+msgstr "OCO Olarak Gönder"
 
 msgid "Group actions"
 msgstr "Grup eylemleri"
+
+msgid "Create new"
+msgstr "Yeni oluştur"
+
+msgid "Exclude from group"
+msgstr "Gruptan hariç tut"
 
 msgid "Move to"
 msgstr "Taşı"
 
 msgid "Rename"
 msgstr "Yeniden adlandır"
-
-msgid "Exclude from group"
-msgstr "Gruptan hariç tut"
 
 msgid "Ungroup"
 msgstr "Çöz"
@@ -130,262 +249,38 @@ msgstr "Gösterilecek emir isteği yok"
 msgid "Add some order requests to watch them"
 msgstr "İzlemek için bazı emir istekleri ekle"
 
-msgid "Collapse OE"
-msgstr "EG'yi Daralt"
+msgid "reverse"
+msgstr "ters"
 
 msgid "+/-"
 msgstr "+/-"
 
-msgid "+"
-msgstr "+"
+msgid "Place order"
+msgstr "Emir ver"
 
-msgid "-"
-msgstr "-"
-
-msgid "Create group"
-msgstr "Grup oluştur"
-
-msgid "Name"
-msgstr "İsim"
-
-msgid "Buy"
-msgstr "Al"
-
-msgid "Sell"
-msgstr "Sat"
-
-msgid "Submit"
-msgstr "Gönder"
-
-msgid "Cancel modifying"
-msgstr "Değiştirmeyi iptal et"
-
-#, csharp-format
-msgid "Are you sure want to cancel all orders on {0}?"
-msgstr "{0}'daki tüm emir iptal etmek istediğinizden emin misiniz?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all buy orders on {0}?"
-msgstr "{0}'daki tüm alış emirleri iptal etmek istediğinizden emin misiniz?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all limit orders on {0}?"
-msgstr "{0}'daki tüm limit emirlerini iptal etmek istediğinizden emin misiniz?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all sell orders on {0}?"
-msgstr "{0}'daki tüm satış emirlerini iptal etmek istediğinden emin misin?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all stop orders on {0}?"
-msgstr "{0}'daki tüm durdurma emirlerini iptal etmek istediğinden emin misin?"
-
-#, csharp-format
-msgid "Are you sure want to break even position on {0}?"
-msgstr "{0}'da eşit pozisyon kırmak istediğine emin misin?"
-
-msgid "Show close position"
-msgstr "Kapalı pozisyonu göster"
-
-msgid "Show close positions"
-msgstr "Kapalı pozisyonları göster"
+msgid "Save"
+msgstr "Kaydet"
 
 msgid "Close position"
 msgstr "Pozisyonu kapat"
 
-msgid "Close all positions"
-msgstr "Tüm pozisyonları kapat"
-
-#, csharp-format
-msgid "Are you sure want to close position on {0}?"
-msgstr "{0} pozisyonunu kapatmak istediğine emin misin?"
-
-#, csharp-format
-msgid "Are you sure want to close all positions on {0}?"
-msgstr "{0} tüm pozisyonları kapatmak istediğinizden emin misiniz?"
-
-#, csharp-format
-msgid "Are you sure want to close position and cancel all orders on {0}?"
-msgstr "Pozisyonunu kapatıp {0} tüm emirleri iptal etmek istediğinizden emin misiniz?"
-
-#, csharp-format
-msgid "Are you sure want to close all positions and cancel all orders on {0}?"
-msgstr "Tüm pozisyonları kapatıp {0} tüm emirleri iptal etmek istediğinizden emin misiniz?"
-
-#, csharp-format
-msgid "Are you sure want to reverse position on {0}?"
-msgstr "{0} pozisyonunu tersine çevirmek istediğinden emin misin?"
-
-msgid "Order entry small"
-msgstr "Emir girişi küçük"
-
-msgid "Slim mode"
-msgstr "İnce mod"
-
-msgid "No labels"
-msgstr "Etiket yok"
-
-msgid "Show additional order parameters"
-msgstr "Ek emir parametrelerini göster"
+msgid "Hide"
+msgstr "Gizle"
 
 msgid "View"
 msgstr "Görüntüle"
 
-msgid "Ask"
-msgstr "Satış"
-
-msgid "Bid"
-msgstr "Alış"
-
-msgid "Mkt"
-msgstr "Pys"
-
-msgid "Flatten"
-msgstr "Flat ol"
-
-msgid "Close positions"
-msgstr "Pozisyonları kapat"
-
-msgid "Reverse"
-msgstr "Ters"
-
-msgid "Break even"
-msgstr "Ne kâr ne zarar etmek"
-
-msgid "Cancel orders"
-msgstr "Emirleri iptal et"
-
-msgid "Cancel buy"
-msgstr "Alışı iptal et"
-
-msgid "Cancel sell"
-msgstr "Satışı iptal et"
-
-msgid "Cancel limits"
-msgstr "Limit emirleri iptal et"
-
-msgid "Cancel stops"
-msgstr "Durdurma emirlerini iptal etme"
-
-msgid "Hide"
-msgstr "Gizle"
-
 msgid "Settings"
 msgstr "Ayarlar"
-
-msgid "Convert to {this.ProductTypeLabel}"
-msgstr "{this.ProductTypeLabel}'a dönüştür"
-
-msgid "No {shortName}"
-msgstr "{shortName} yok"
-
-msgid "Activate trailing {this.behavior.Name.ToLower()}"
-msgstr "İzleyen {this.behavior.Name.ToLower()} etkinleştir"
-
-msgid "Show VWAP"
-msgstr "VWAP'i göster"
-
-msgid "Hide VWAP"
-msgstr "VWAP'ı gizle"
-
-msgid "VWAP option allows you to see what will be the Average open price if you send order with selected quantity"
-msgstr "VWAP seçeneği, seçilen miktarla emir gönderirseniz Ortalama açılış fiyatının ne olacağını görmenizi sağlar"
-
-msgid "Quantity to close"
-msgstr "Kapatılacak miktar"
-
-msgid "Crypto ОЕ"
-msgstr "Kripto EG"
-
-msgid "BUY"
-msgstr "AL"
-
-msgid "SELL"
-msgstr "SAT"
-
-msgid "Local SL/TP"
-msgstr "Yerel SL/TP"
-
-msgid "Place"
-msgstr "Emir ver"
-
-msgid "LSL"
-msgstr "LSL"
-
-msgid "TSL"
-msgstr "TSL"
-
-msgid "Local Stop loss"
-msgstr "Yerel Zarar durdur"
-
-msgid "Local Take profit"
-msgstr "Yerel Kar al"
 
 msgid "Modify order"
 msgstr "Emri değiştir"
 
-msgid "Order ID"
-msgstr "Emir No"
-
-msgid "Connection"
-msgstr "Bağlantı"
-
-msgid "Order was cancelled"
-msgstr "Emir iptal edildi"
-
 msgid "Modify position"
 msgstr "Pozisyonu değiştir"
 
-msgid "Position ID"
-msgstr "Pozisyon No"
-
-msgid "Long"
-msgstr "Uzun"
-
-msgid "Short"
-msgstr "Kısa"
-
-msgid "Open price"
-msgstr "Açılış fiyatı"
-
-msgid "Current price"
-msgstr "Cari fiyat"
-
-msgid "Gross P/L to close"
-msgstr "Kapatılacak brüt K/Z"
-
-msgid "Fee"
-msgstr "Komisyon"
-
-msgid "Net P/L"
-msgstr "Net K/Z"
-
-msgid "Date/Time"
-msgstr "Tarih/Saat"
-
-msgid "Position was closed"
-msgstr "Pozisyon kapatıldı"
-
-msgid "Time in force"
-msgstr "Geçerlilik süresi"
-
-msgid "Brackets setup"
-msgstr "Braketler kurulumu"
-
-msgid "OE dialog"
-msgstr "EG iletişim kutusu"
-
-msgid "Order entry"
-msgstr "Emir girişi"
-
-msgid "Expiration date"
-msgstr "Sona erme tarihi"
-
-msgid "Place order"
-msgstr "Emir ver"
-
-msgid "Incorrect quantity: 0"
-msgstr "Yanlış miktar: 0"
+msgid "Multiple order entry"
+msgstr "Çoklu emir girişi"
 
 msgid "Set order as default"
 msgstr "Emri varsayılan olarak ayarla"
@@ -398,3 +293,9 @@ msgstr "Şablon oluşturma"
 
 msgid "Apply"
 msgstr "Uygula"
+
+msgid "Order entry"
+msgstr "Emir girişi"
+
+msgid "Convert to {this.ViewModel.Product}"
+msgstr "{this konumuna dönüştürün. ViewModel.Product}"

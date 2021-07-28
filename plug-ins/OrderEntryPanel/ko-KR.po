@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:51+0200\n"
+"POT-Creation-Date: 2021-07-28 15:47+0300\n"
 "PO-Revision-Date: 2018-12-04 15:35+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -94,29 +94,148 @@ msgstr "여러"
 msgid "Cancel"
 msgstr "취소"
 
-msgid "Multiple order entry"
-msgstr "여러 주문 항목"
+msgid "Brackets setup"
+msgstr "브래킷 설정"
 
-msgid "reverse"
-msgstr "역방향"
+msgid "Quantity, %"
+msgstr "수량, %"
+
+msgid "No brackets set up yet. Press the “Plus” button to create one"
+msgstr "아직 브래킷이 설정되지 않았습니다. \"플러스\" 버튼을 눌러 하나를 만듭니다."
+
+msgid "Level {this.bracketItemsControllers.IndexOf(controller) + 1} is configured incorrectly: at least one order must be active"
+msgstr "수준 {this.bracketItemsControllers.IndexOf(컨트롤러) + 1}이 잘못 구성됩니다: 하나 이상의 주문이 활성화되어야 합니다."
+
+msgid "Current Total Quantity ({totalSum}%) is incorrect - should be less then 100%"
+msgstr "현재 총 수량({totalSum}%) 올바르지 않습니다 - 100% 더 적어야 합니다."
+
+msgid "Note: In case of multiple SL/TP levels, offset in ticks will be calculated from the price of the parent order, not the filled price."
+msgstr "참고: 여러 SL/TP 레벨의 경우, 체크오프셋은 채워진 가격이 아닌 상위 주문의 가격에서 계산됩니다."
+
+msgid "Activate trailing {this.behavior.Name.ToLower()}"
+msgstr "후행 {this.behavior.name.ToLower()}"
+
+msgid "No {shortName}"
+msgstr "{쇼트네임 없음}"
+
+msgid "Bid"
+msgstr "매기다"
+
+msgid "Ask"
+msgstr "청하다"
+
+msgid "Order was cancelled"
+msgstr "주문이 취소되었습니다."
+
+msgid "Position was closed"
+msgstr "직위가 폐쇄되었습니다."
+
+msgid "Slim mode"
+msgstr "슬림 모드"
+
+msgid "No labels"
+msgstr "레이블 없음"
+
+msgid "Show additional order parameters"
+msgstr "추가 주문 매개 변수 표시"
+
+msgid "OE qty buttons"
+msgstr "OE qty 버튼"
+
+#, csharp-format
+msgid "Are you sure want to close position and cancel all orders on {0}?"
+msgstr "{0} 모든 주문을 취소하고 위치를 닫고 취소하시겠습니까?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions and cancel all orders on {0}?"
+msgstr "모든 직책을 닫고 {0} 모든 주문을 취소하시겠습니까?"
+
+#, csharp-format
+msgid "Are you sure want to close position on {0}?"
+msgstr "{0} 대한 입장을 닫으시겠습니까?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions on {0}?"
+msgstr "{0} 모든 포지션을 닫으시겠습니까?"
+
+#, csharp-format
+msgid "Are you sure want to reverse position on {0}?"
+msgstr "{0} 포지션을 되돌리고 싶으신가요?"
+
+#, csharp-format
+msgid "Are you sure want to break even position on {0}?"
+msgstr "당신은 확실히 {0} 심지어 위치를 깰 하시겠습니까?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all orders on {0}?"
+msgstr "{0} 모든 주문을 취소하시겠습니까?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all buy orders on {0}?"
+msgstr "{0} 모든 구매 주문을 취소하시겠습니까?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all sell orders on {0}?"
+msgstr "{0} 모든 판매 주문을 취소하시겠습니까?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all limit orders on {0}?"
+msgstr "{0} 모든 제한 주문을 취소하시겠습니까?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all stop orders on {0}?"
+msgstr "{0} 모든 정지 주문을 취소하시겠습니까?"
+
+msgid "Show OE"
+msgstr "OE 표시"
+
+msgid "Create group"
+msgstr "그룹 만들기"
+
+msgid "Name"
+msgstr "이름"
+
+msgid "Rename group"
+msgstr "이름 바꾸기 그룹"
+
+msgid "Show account lookup"
+msgstr "계정 조회 표시"
+
+msgid "Show symbol lookup"
+msgstr "기호 조회 표시"
+
+msgid "Show margin info (if available)"
+msgstr "여백 정보 표시(사용 가능한 경우)"
+
+msgid "Buy"
+msgstr "사다"
+
+msgid "Sell"
+msgstr "팔다"
 
 msgid "Add to basket"
 msgstr "바구니에 추가"
 
-msgid "Create new"
-msgstr "새 만들기"
+msgid "Show/hide order entry"
+msgstr "주문 항목 표시/숨기기"
+
+msgid "Submit as OCO"
+msgstr "OCO로 제출"
 
 msgid "Group actions"
 msgstr "그룹 작업"
+
+msgid "Create new"
+msgstr "새 만들기"
+
+msgid "Exclude from group"
+msgstr "그룹에서 제외"
 
 msgid "Move to"
 msgstr "로 이동"
 
 msgid "Rename"
 msgstr "이름을 바꿀"
-
-msgid "Exclude from group"
-msgstr "그룹에서 제외"
 
 msgid "Ungroup"
 msgstr "해제"
@@ -130,262 +249,38 @@ msgstr "표시주문 요청 없음"
 msgid "Add some order requests to watch them"
 msgstr "일부 주문 요청을 추가하여 시청"
 
-msgid "Collapse OE"
-msgstr "붕괴 OE"
+msgid "reverse"
+msgstr "역방향"
 
 msgid "+/-"
 msgstr "+/-"
 
-msgid "+"
-msgstr "+"
+msgid "Place order"
+msgstr "주문하기"
 
-msgid "-"
-msgstr "-"
-
-msgid "Create group"
-msgstr "그룹 만들기"
-
-msgid "Name"
-msgstr "이름"
-
-msgid "Buy"
-msgstr "사다"
-
-msgid "Sell"
-msgstr "팔다"
-
-msgid "Submit"
-msgstr "제출"
-
-msgid "Cancel modifying"
-msgstr "수정 취소"
-
-#, csharp-format
-msgid "Are you sure want to cancel all orders on {0}?"
-msgstr "{0} 모든 주문을 취소하시겠습니까?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all buy orders on {0}?"
-msgstr "{0} 모든 구매 주문을 취소하시겠습니까?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all limit orders on {0}?"
-msgstr "{0} 모든 제한 주문을 취소하시겠습니까?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all sell orders on {0}?"
-msgstr "{0} 모든 판매 주문을 취소하시겠습니까?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all stop orders on {0}?"
-msgstr "{0} 모든 정지 주문을 취소하시겠습니까?"
-
-#, csharp-format
-msgid "Are you sure want to break even position on {0}?"
-msgstr "당신은 확실히 {0} 심지어 위치를 깰 하시겠습니까?"
-
-msgid "Show close position"
-msgstr "가까운 위치 표시"
-
-msgid "Show close positions"
-msgstr "가까운 위치 표시"
+msgid "Save"
+msgstr "구해내다"
 
 msgid "Close position"
 msgstr "위치 닫기"
 
-msgid "Close all positions"
-msgstr "모든 위치 닫기"
-
-#, csharp-format
-msgid "Are you sure want to close position on {0}?"
-msgstr "{0} 대한 입장을 닫으시겠습니까?"
-
-#, csharp-format
-msgid "Are you sure want to close all positions on {0}?"
-msgstr "{0} 모든 포지션을 닫으시겠습니까?"
-
-#, csharp-format
-msgid "Are you sure want to close position and cancel all orders on {0}?"
-msgstr "{0} 모든 주문을 취소하고 위치를 닫고 취소하시겠습니까?"
-
-#, csharp-format
-msgid "Are you sure want to close all positions and cancel all orders on {0}?"
-msgstr "모든 직책을 닫고 {0} 모든 주문을 취소하시겠습니까?"
-
-#, csharp-format
-msgid "Are you sure want to reverse position on {0}?"
-msgstr "{0} 포지션을 되돌리고 싶으신가요?"
-
-msgid "Order entry small"
-msgstr "주문 작은 항목"
-
-msgid "Slim mode"
-msgstr "슬림 모드"
-
-msgid "No labels"
-msgstr "레이블 없음"
-
-msgid "Show additional order parameters"
-msgstr "추가 주문 매개 변수 표시"
+msgid "Hide"
+msgstr "숨기기"
 
 msgid "View"
 msgstr "보기"
 
-msgid "Ask"
-msgstr "청하다"
-
-msgid "Bid"
-msgstr "매기다"
-
-msgid "Mkt"
-msgstr "시장"
-
-msgid "Flatten"
-msgstr "평평"
-
-msgid "Close positions"
-msgstr "위치 닫기"
-
-msgid "Reverse"
-msgstr "역방향"
-
-msgid "Break even"
-msgstr "본전치기를 하다"
-
-msgid "Cancel orders"
-msgstr "주문 취소"
-
-msgid "Cancel buy"
-msgstr "구매 취소"
-
-msgid "Cancel sell"
-msgstr "Cancel asks"
-
-msgid "Cancel limits"
-msgstr "제한 취소"
-
-msgid "Cancel stops"
-msgstr "중지 취소"
-
-msgid "Hide"
-msgstr "숨기기"
-
 msgid "Settings"
 msgstr "설정"
-
-msgid "Convert to {this.ProductTypeLabel}"
-msgstr "{이로 변환합니다. 제품TypeLabel}"
-
-msgid "No {shortName}"
-msgstr "{쇼트네임 없음}"
-
-msgid "Activate trailing {this.behavior.Name.ToLower()}"
-msgstr "후행 {this.behavior.name.ToLower()}"
-
-msgid "Show VWAP"
-msgstr "VWAP 표시"
-
-msgid "Hide VWAP"
-msgstr "VWAP 숨기기"
-
-msgid "VWAP option allows you to see what will be the Average open price if you send order with selected quantity"
-msgstr "VWAP 옵션을 사용하면 선택한 수량으로 주문을 보내면 평균 공개 가격이 표시됩니다"
-
-msgid "Quantity to close"
-msgstr "닫기 수량"
-
-msgid "Crypto ОЕ"
-msgstr "Crypto ОЕ"
-
-msgid "BUY"
-msgstr "구입"
-
-msgid "SELL"
-msgstr "판매"
-
-msgid "Local SL/TP"
-msgstr "로컬 SL/TP"
-
-msgid "Place"
-msgstr "주문을 넣는 것"
-
-msgid "LSL"
-msgstr "Lsl"
-
-msgid "TSL"
-msgstr "Tsl"
-
-msgid "Local Stop loss"
-msgstr "로컬 정지 손실"
-
-msgid "Local Take profit"
-msgstr "로컬 테이크 이익"
 
 msgid "Modify order"
 msgstr "주문 수정"
 
-msgid "Order ID"
-msgstr "주문 아이디"
-
-msgid "Connection"
-msgstr "연결"
-
-msgid "Order was cancelled"
-msgstr "주문이 취소되었습니다."
-
 msgid "Modify position"
 msgstr "포지션 수정"
 
-msgid "Position ID"
-msgstr "포지션 id"
-
-msgid "Long"
-msgstr "긴"
-
-msgid "Short"
-msgstr "짧은"
-
-msgid "Open price"
-msgstr "시초 가격"
-
-msgid "Current price"
-msgstr "현재가"
-
-msgid "Gross P/L to close"
-msgstr "총 P / L로 마감"
-
-msgid "Fee"
-msgstr "수수료"
-
-msgid "Net P/L"
-msgstr "순자산"
-
-msgid "Date/Time"
-msgstr "날자/시간"
-
-msgid "Position was closed"
-msgstr "직위가 폐쇄되었습니다."
-
-msgid "Time in force"
-msgstr "시행중인 시간"
-
-msgid "Brackets setup"
-msgstr "브래킷 설정"
-
-msgid "OE dialog"
-msgstr "OE 대화 상자"
-
-msgid "Order entry"
-msgstr "주문 엔트리"
-
-msgid "Expiration date"
-msgstr "만료일"
-
-msgid "Place order"
-msgstr "주문하기"
-
-msgid "Incorrect quantity: 0"
-msgstr "잘못된 수량: 0"
+msgid "Multiple order entry"
+msgstr "여러 주문 항목"
 
 msgid "Set order as default"
 msgstr "기본값으로 주문 설정"
@@ -398,3 +293,9 @@ msgstr "템플릿 만들기"
 
 msgid "Apply"
 msgstr "적용"
+
+msgid "Order entry"
+msgstr "주문 엔트리"
+
+msgid "Convert to {this.ViewModel.Product}"
+msgstr "{이로 변환합니다. 뷰모델.제품}"

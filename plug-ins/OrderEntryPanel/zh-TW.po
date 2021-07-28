@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:51+0200\n"
+"POT-Creation-Date: 2021-07-28 15:47+0300\n"
 "PO-Revision-Date: 2018-12-04 15:35+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -94,29 +94,148 @@ msgstr "多個"
 msgid "Cancel"
 msgstr "取消"
 
-msgid "Multiple order entry"
-msgstr "多個訂單輸入"
+msgid "Brackets setup"
+msgstr "支架設置"
 
-msgid "reverse"
-msgstr "反向"
+msgid "Quantity, %"
+msgstr "數量， 百分比"
+
+msgid "No brackets set up yet. Press the “Plus” button to create one"
+msgstr "尚未設置括弧。按「加號」按鈕創建一個"
+
+msgid "Level {this.bracketItemsControllers.IndexOf(controller) + 1} is configured incorrectly: at least one order must be active"
+msgstr "級別{此.支架控件控制器。IndexOf（控制器）+1}配置不正確：至少必須啟動一個訂單"
+
+msgid "Current Total Quantity ({totalSum}%) is incorrect - should be less then 100%"
+msgstr "當前總數量（[總蘇姆]%）是不正確的-應該少於100%"
+
+msgid "Note: In case of multiple SL/TP levels, offset in ticks will be calculated from the price of the parent order, not the filled price."
+msgstr "注意：在多個 SL/TP 級別的情況下，將根據父訂單的價格而不是填充價格計算刻度中的偏移。"
+
+msgid "Activate trailing {this.behavior.Name.ToLower()}"
+msgstr "啟動尾隨 [此. behavior. name. ToLower()]"
+
+msgid "No {shortName}"
+msgstr "否 [短名稱]"
+
+msgid "Bid"
+msgstr "買價"
+
+msgid "Ask"
+msgstr "賣價"
+
+msgid "Order was cancelled"
+msgstr "訂單已取消"
+
+msgid "Position was closed"
+msgstr "位置已關閉"
+
+msgid "Slim mode"
+msgstr "超薄模式"
+
+msgid "No labels"
+msgstr "無標籤"
+
+msgid "Show additional order parameters"
+msgstr "顯示其他訂單參數"
+
+msgid "OE qty buttons"
+msgstr "OE按鈕"
+
+#, csharp-format
+msgid "Are you sure want to close position and cancel all orders on {0}?"
+msgstr "是否確實要關閉倉位並取消其上{0}?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions and cancel all orders on {0}?"
+msgstr "是否確實要關閉所有頭寸並取消所有訂單{0}?"
+
+#, csharp-format
+msgid "Are you sure want to close position on {0}?"
+msgstr "是否確實要在{0}?"
+
+#, csharp-format
+msgid "Are you sure want to close all positions on {0}?"
+msgstr "是否確實要關閉其上的所有{0}?"
+
+#, csharp-format
+msgid "Are you sure want to reverse position on {0}?"
+msgstr "是否確實要反轉{0}?"
+
+#, csharp-format
+msgid "Are you sure want to break even position on {0}?"
+msgstr "是否確實要在產品上{0}？"
+
+#, csharp-format
+msgid "Are you sure want to cancel all orders on {0}?"
+msgstr "是否確實要取消所有訂單{0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all buy orders on {0}?"
+msgstr "是否確實要取消所有購買訂單{0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all sell orders on {0}?"
+msgstr "是否確實要取消所有銷售訂單{0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all limit orders on {0}?"
+msgstr "是否確實要取消其上的所有{0}?"
+
+#, csharp-format
+msgid "Are you sure want to cancel all stop orders on {0}?"
+msgstr "是否確實要取消其上的所有止損{0}?"
+
+msgid "Show OE"
+msgstr "顯示OE"
+
+msgid "Create group"
+msgstr "建立組"
+
+msgid "Name"
+msgstr "名稱"
+
+msgid "Rename group"
+msgstr "重新命名組"
+
+msgid "Show account lookup"
+msgstr "顯示帳戶查找"
+
+msgid "Show symbol lookup"
+msgstr "顯示符號查找"
+
+msgid "Show margin info (if available)"
+msgstr "顯示保證金資訊（如有）"
+
+msgid "Buy"
+msgstr "買入"
+
+msgid "Sell"
+msgstr "賣出"
 
 msgid "Add to basket"
 msgstr "添加到購物籃"
 
-msgid "Create new"
-msgstr "創建新"
+msgid "Show/hide order entry"
+msgstr "顯示/隱藏訂單條目"
+
+msgid "Submit as OCO"
+msgstr "提交為 OCO"
 
 msgid "Group actions"
 msgstr "組操作"
+
+msgid "Create new"
+msgstr "創建新"
+
+msgid "Exclude from group"
+msgstr "從組排除"
 
 msgid "Move to"
 msgstr "移動到"
 
 msgid "Rename"
 msgstr "重命名"
-
-msgid "Exclude from group"
-msgstr "從組排除"
 
 msgid "Ungroup"
 msgstr "取消分組"
@@ -130,262 +249,38 @@ msgstr "沒有要顯示的訂單請求"
 msgid "Add some order requests to watch them"
 msgstr "添加一些訂單請求來觀看它們"
 
-msgid "Collapse OE"
-msgstr "摺疊 Oe"
+msgid "reverse"
+msgstr "反向"
 
 msgid "+/-"
 msgstr "+/-"
 
-msgid "+"
-msgstr "+"
+msgid "Place order"
+msgstr "下訂單"
 
-msgid "-"
-msgstr "-"
-
-msgid "Create group"
-msgstr "建立組"
-
-msgid "Name"
-msgstr "名稱"
-
-msgid "Buy"
-msgstr "買入"
-
-msgid "Sell"
-msgstr "賣出"
-
-msgid "Submit"
-msgstr "批准"
-
-msgid "Cancel modifying"
-msgstr "取消修改"
-
-#, csharp-format
-msgid "Are you sure want to cancel all orders on {0}?"
-msgstr "是否確實要取消所有訂單{0}?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all buy orders on {0}?"
-msgstr "是否確實要取消所有購買訂單{0}?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all limit orders on {0}?"
-msgstr "是否確實要取消其上的所有{0}?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all sell orders on {0}?"
-msgstr "是否確實要取消所有銷售訂單{0}?"
-
-#, csharp-format
-msgid "Are you sure want to cancel all stop orders on {0}?"
-msgstr "是否確實要取消其上的所有止損{0}?"
-
-#, csharp-format
-msgid "Are you sure want to break even position on {0}?"
-msgstr "是否確實要在產品上{0}？"
-
-msgid "Show close position"
-msgstr "顯示關閉位置"
-
-msgid "Show close positions"
-msgstr "顯示關閉位置"
+msgid "Save"
+msgstr "儲存"
 
 msgid "Close position"
 msgstr "平倉"
 
-msgid "Close all positions"
-msgstr "全部平倉"
-
-#, csharp-format
-msgid "Are you sure want to close position on {0}?"
-msgstr "是否確實要在{0}?"
-
-#, csharp-format
-msgid "Are you sure want to close all positions on {0}?"
-msgstr "是否確實要關閉其上的所有{0}?"
-
-#, csharp-format
-msgid "Are you sure want to close position and cancel all orders on {0}?"
-msgstr "是否確實要關閉倉位並取消其上{0}?"
-
-#, csharp-format
-msgid "Are you sure want to close all positions and cancel all orders on {0}?"
-msgstr "是否確實要關閉所有頭寸並取消所有訂單{0}?"
-
-#, csharp-format
-msgid "Are you sure want to reverse position on {0}?"
-msgstr "是否確實要反轉{0}?"
-
-msgid "Order entry small"
-msgstr "訂單輸入很小"
-
-msgid "Slim mode"
-msgstr "超薄模式"
-
-msgid "No labels"
-msgstr "無標籤"
-
-msgid "Show additional order parameters"
-msgstr "顯示其他訂單參數"
+msgid "Hide"
+msgstr "隱藏"
 
 msgid "View"
 msgstr "查看"
 
-msgid "Ask"
-msgstr "賣價"
-
-msgid "Bid"
-msgstr "買價"
-
-msgid "Mkt"
-msgstr "市場"
-
-msgid "Flatten"
-msgstr "扁平化"
-
-msgid "Close positions"
-msgstr "關閉倉位"
-
-msgid "Reverse"
-msgstr "反向"
-
-msgid "Break even"
-msgstr "收支平衡"
-
-msgid "Cancel orders"
-msgstr "取消掛單"
-
-msgid "Cancel buy"
-msgstr "取消買單"
-
-msgid "Cancel sell"
-msgstr "取消賣單"
-
-msgid "Cancel limits"
-msgstr "取消限制"
-
-msgid "Cancel stops"
-msgstr "取消停止"
-
-msgid "Hide"
-msgstr "隱藏"
-
 msgid "Settings"
 msgstr "設定"
-
-msgid "Convert to {this.ProductTypeLabel}"
-msgstr "轉換為 \\this。產品類型標籤|"
-
-msgid "No {shortName}"
-msgstr "否 [短名稱]"
-
-msgid "Activate trailing {this.behavior.Name.ToLower()}"
-msgstr "啟動尾隨 [此. behavior. name. ToLower()]"
-
-msgid "Show VWAP"
-msgstr "顯示VWAP"
-
-msgid "Hide VWAP"
-msgstr "隱藏VWAP"
-
-msgid "VWAP option allows you to see what will be the Average open price if you send order with selected quantity"
-msgstr "如果您發送包含所選數量的訂單，VWAP選項可讓您查看平均開盤價"
-
-msgid "Quantity to close"
-msgstr "平倉數量"
-
-msgid "Crypto ОЕ"
-msgstr "加密ОЕ"
-
-msgid "BUY"
-msgstr "買入"
-
-msgid "SELL"
-msgstr "賣"
-
-msgid "Local SL/TP"
-msgstr "本地 SL/TP"
-
-msgid "Place"
-msgstr "下單"
-
-msgid "LSL"
-msgstr "LSL"
-
-msgid "TSL"
-msgstr "TSL"
-
-msgid "Local Stop loss"
-msgstr "本地止損"
-
-msgid "Local Take profit"
-msgstr "本地獲利"
 
 msgid "Modify order"
 msgstr "修改訂單"
 
-msgid "Order ID"
-msgstr "訂單編號"
-
-msgid "Connection"
-msgstr "連接"
-
-msgid "Order was cancelled"
-msgstr "訂單已取消"
-
 msgid "Modify position"
 msgstr "修改位置"
 
-msgid "Position ID"
-msgstr "倉位編號"
-
-msgid "Long"
-msgstr "做多"
-
-msgid "Short"
-msgstr "短"
-
-msgid "Open price"
-msgstr "開倉價"
-
-msgid "Current price"
-msgstr "市價"
-
-msgid "Gross P/L to close"
-msgstr "平倉總損益"
-
-msgid "Fee"
-msgstr "費用"
-
-msgid "Net P/L"
-msgstr "淨額"
-
-msgid "Date/Time"
-msgstr "日期/時間"
-
-msgid "Position was closed"
-msgstr "位置已關閉"
-
-msgid "Time in force"
-msgstr "有效時間"
-
-msgid "Brackets setup"
-msgstr "支架設置"
-
-msgid "OE dialog"
-msgstr "OE 對話框"
-
-msgid "Order entry"
-msgstr "訂單輸入"
-
-msgid "Expiration date"
-msgstr "過期"
-
-msgid "Place order"
-msgstr "下訂單"
-
-msgid "Incorrect quantity: 0"
-msgstr "數量不正確: 0"
+msgid "Multiple order entry"
+msgstr "多個訂單輸入"
 
 msgid "Set order as default"
 msgstr "將順序設置為預設值"
@@ -398,3 +293,9 @@ msgstr "創建範本"
 
 msgid "Apply"
 msgstr "應用"
+
+msgid "Order entry"
+msgstr "訂單輸入"
+
+msgid "Convert to {this.ViewModel.Product}"
+msgstr "轉換為{此。視圖模型.產品}"

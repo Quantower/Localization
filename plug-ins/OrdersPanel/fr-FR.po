@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:53+0200\n"
+"POT-Creation-Date: 2021-07-28 15:59+0300\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -66,9 +66,6 @@ msgstr "Annuler l'ordre"
 
 msgid "Link OCO"
 msgstr "Lien OCO"
-
-msgid "Are you sure you want to execute all orders at market price?"
-msgstr "Êtes-vous sûr de vouloir exécuter toutes les commandes au prix du marché?"
 
 msgid "Cancel selected orders"
 msgstr "Annuler les ordres sélectionnés"
@@ -289,8 +286,15 @@ msgstr "Positions"
 msgid "Convert"
 msgstr "Convertir"
 
+msgid "Place at Breakeven"
+msgstr "Place au seuil de rentabilité"
+
 msgid "Convert to "
 msgstr "Convertir en "
+
+#, csharp-format
+msgid "Are you sure want to break even position on {0}?"
+msgstr "Voulez-vous vraiment atteindre le seuil de rentabilité de la position sur {0}?"
 
 msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
 msgstr "Lors de la commande, vous devez sélectionner un code de produit. Ces codes de produit identifient la catégorie de la commande. Par exemple, vous pouvez placer le code de produit mentionné ci-dessous, CNC – Pour la négociation d’actions dans la livraison MIS - Pour la négociation des actions - F &amp; O dans intraday NRML – Pour le commerce F &amp; O, devises et matières premières pour la position du jour au lendemain. Étant donné que ces positions ne sont pas des positions intrajournalées, les exigences de marge pour celles-ci seront selon les marges du jour au jour le jour. En outre, ils ne seront pas au carré par notre système à la fin de la session de négociation."
@@ -387,12 +391,6 @@ msgstr "Inverser tout pour le compte sélectionné"
 
 msgid "Reverse all positions..."
 msgstr "Inverser toutes les positions..."
-
-msgid "Are you sure want to close positions by {symbol.Name}?"
-msgstr "Êtes-vous sûr de vouloir fermer les positions par {Symbol. Nom}?"
-
-msgid "Are you sure want to close positions by {account}?"
-msgstr "Êtes-vous sûr de vouloir fermer les positions par {Account}?"
 
 msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
 msgstr "Êtes-vous sûr de vouloir inverser {selectedPositions. Single (). ID}?"
@@ -540,6 +538,18 @@ msgstr "État"
 
 msgid "Open or closed"
 msgstr "Ouvert ou fermé"
+
+msgid "Gross P/L, %"
+msgstr "P/L brut, %"
+
+msgid "Current profit/loss percent value, before fee/commission applying"
+msgstr "Valeur en pourcentage du bénéfice/de la perte actuelle, avant l’application des frais/commissions"
+
+msgid "Net P/L, %"
+msgstr "P/L net, %"
+
+msgid "Current profit/loss percent value that includes fee/commission"
+msgstr "Valeur en pourcentage du profit/de la perte actuelle qui comprend les frais/commissions"
 
 msgid "Long"
 msgstr "Longue"

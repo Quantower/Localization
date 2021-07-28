@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:53+0200\n"
+"POT-Creation-Date: 2021-07-28 15:59+0300\n"
 "PO-Revision-Date: 2018-12-04 15:37+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -66,9 +66,6 @@ msgstr "取消訂單"
 
 msgid "Link OCO"
 msgstr "連結 Oco"
-
-msgid "Are you sure you want to execute all orders at market price?"
-msgstr "您確定要以市場價格執行所有訂單嗎？"
 
 msgid "Cancel selected orders"
 msgstr "取消所選訂單"
@@ -289,8 +286,15 @@ msgstr "倉位"
 msgid "Convert"
 msgstr "轉換"
 
+msgid "Place at Breakeven"
+msgstr "地點在佈雷克文"
+
 msgid "Convert to "
 msgstr "轉換為"
+
+#, csharp-format
+msgid "Are you sure want to break even position on {0}?"
+msgstr "你確定要在{0}上打破收支平衡嗎？"
 
 msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
 msgstr "下訂單時,您需要選擇產品代碼。這些產品代碼標識訂單的類別。例如,您可以將以下提到的產品代碼(CNC = 用於交割 MIS 中的股票交易 MIS = 在日內 NRML 中交易股票和 F&O = 用於隔夜頭寸的 F&O、貨幣和商品交易。由於這些頭寸不是日內頭寸,因此這些頭寸的保證金要求將符合隔夜保證金。此外,在交易結束時,我們的系統不會將它們平方。"
@@ -387,12 +391,6 @@ msgstr "按帳戶全部反轉"
 
 msgid "Reverse all positions..."
 msgstr "反轉全部倉位..."
-
-msgid "Are you sure want to close positions by {symbol.Name}?"
-msgstr "確實要通過 {符號關閉倉位嗎？姓名}？"
-
-msgid "Are you sure want to close positions by {account}?"
-msgstr "確實要通過 {帳戶} 平倉嗎？"
 
 msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
 msgstr "確實要反轉 {選擇的位置。我在嗎？"
@@ -540,6 +538,18 @@ msgstr "省"
 
 msgid "Open or closed"
 msgstr "打開或關閉"
+
+msgid "Gross P/L, %"
+msgstr "毛市盈率， 百分比"
+
+msgid "Current profit/loss percent value, before fee/commission applying"
+msgstr "當前損益百分比值，在申請費用/傭金之前"
+
+msgid "Net P/L, %"
+msgstr "淨市盈率， 百分比"
+
+msgid "Current profit/loss percent value that includes fee/commission"
+msgstr "當前損益百分比值，包括費用/傭金"
 
 msgid "Long"
 msgstr "做多"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 16:40+0200\n"
+"POT-Creation-Date: 2021-07-28 15:59+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,9 +68,6 @@ msgid "Cancel order"
 msgstr ""
 
 msgid "Link OCO"
-msgstr ""
-
-msgid "Are you sure you want to execute all orders at market price?"
 msgstr ""
 
 msgid "Cancel selected orders"
@@ -292,7 +289,14 @@ msgstr ""
 msgid "Convert"
 msgstr ""
 
+msgid "Place at Breakeven"
+msgstr ""
+
 msgid "Convert to "
+msgstr ""
+
+#, csharp-format
+msgid "Are you sure want to break even position on {0}?"
 msgstr ""
 
 msgid ""
@@ -397,12 +401,6 @@ msgid "Reverse all for selected account"
 msgstr ""
 
 msgid "Reverse all positions..."
-msgstr ""
-
-msgid "Are you sure want to close positions by {symbol.Name}?"
-msgstr ""
-
-msgid "Are you sure want to close positions by {account}?"
 msgstr ""
 
 msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
@@ -553,6 +551,18 @@ msgid "State"
 msgstr ""
 
 msgid "Open or closed"
+msgstr ""
+
+msgid "Gross P/L, %"
+msgstr ""
+
+msgid "Current profit/loss percent value, before fee/commission applying"
+msgstr ""
+
+msgid "Net P/L, %"
+msgstr ""
+
+msgid "Current profit/loss percent value that includes fee/commission"
 msgstr ""
 
 msgid "Long"
