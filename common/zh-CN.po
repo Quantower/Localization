@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 12:48+0200\n"
+"POT-Creation-Date: 2021-07-28 13:21+0300\n"
 "PO-Revision-Date: 2018-12-04 16:01+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -70,6 +70,24 @@ msgstr "止损价格应该高于市场买入价"
 msgid "Take profit price should be less then market bid price"
 msgstr "获利价格应低于市场买入价"
 
+msgid "Time in force"
+msgstr "生效时间"
+
+msgid "Expiration"
+msgstr "默认时效"
+
+msgid "Side"
+msgstr "方向"
+
+msgid "lots"
+msgstr "手"
+
+msgid "Quantity"
+msgstr "数量"
+
+msgid "Total"
+msgstr "合计"
+
 msgid "Stop limit"
 msgstr "停止限制"
 
@@ -123,6 +141,36 @@ msgstr "待用"
 
 msgid "Working"
 msgstr "进行中"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Day"
+msgstr "日"
+
+msgid "Fill Or Kill"
+msgstr "填充或杀死"
+
+msgid "Good Till Cancel"
+msgstr "好到取消"
+
+msgid "Immediate Or Cancel"
+msgstr "立即或取消"
+
+msgid "Good Till Date"
+msgstr "好到日期"
+
+msgid "Good Till Time"
+msgstr "好到时间"
+
+msgid "Fill And Kill"
+msgstr "填充和杀死"
+
+msgid "At The Open"
+msgstr "在公开赛上"
+
+msgid "At The Close"
+msgstr "在关闭"
 
 msgid "Undefined"
 msgstr "未定义"
@@ -277,9 +325,6 @@ msgstr "直方图"
 msgid "Points"
 msgstr "点"
 
-msgid "Default"
-msgstr "默认"
-
 msgid "Custom"
 msgstr "自订"
 
@@ -397,8 +442,26 @@ msgstr "每日"
 msgid "Weekly"
 msgstr "每周"
 
+msgid "Bar style"
+msgstr "酒吧风格"
+
+msgid "Loading volume analysis data..."
+msgstr "正在加载卷分析数据..."
+
 msgid "Histogram style"
 msgstr "直方图样式"
+
+msgid "Main line style"
+msgstr "主线风格"
+
+msgid "Extend line style"
+msgstr "扩展线式"
+
+msgid "Show line label"
+msgstr "显示行标签"
+
+msgid "Font"
+msgstr "字体:"
 
 msgid "Line style"
 msgstr "线型"
@@ -408,6 +471,24 @@ msgstr "显示标签"
 
 msgid "Label font"
 msgstr "标签字体"
+
+msgid "Regular bullish line style"
+msgstr "定期看涨线风格"
+
+msgid "Hidden bullish line style"
+msgstr "隐藏看涨线风格"
+
+msgid "Regular bearish line style"
+msgstr "定期看跌线风格"
+
+msgid "Hidden bearish line style"
+msgstr "隐藏的看跌线风格"
+
+msgid "Oscillator"
+msgstr "振荡器"
+
+msgid "Mode for the RSI line"
+msgstr "RSI 线的模式"
 
 msgid "Volume Impact"
 msgstr "成交量影响"
@@ -463,8 +544,47 @@ msgstr "直方图颜色"
 msgid "Area colors"
 msgstr "区域颜色"
 
-msgid "Loading volume analysis data..."
-msgstr "正在加载卷分析数据..."
+msgid "Highlight values more than"
+msgstr "突出显示值超过"
+
+msgid "Color"
+msgstr "颜色"
+
+msgid "MIS"
+msgstr "Mis"
+
+msgid "CNC"
+msgstr "数控"
+
+msgid "NRNL"
+msgstr "恩内尔"
+
+msgid "Strategy is ready"
+msgstr "策略已准备就绪"
+
+msgid "Waiting for indicator calculation finished"
+msgstr "等待指标计算完成"
+
+msgid "Waiting for strategy start time"
+msgstr "等待策略启动时间"
+
+msgid "Find entry point"
+msgstr "查找切入点"
+
+msgid "Waiting for the position to be placed"
+msgstr "等待放置位置"
+
+msgid "Control position. Check SL/TP/TS"
+msgstr "控制位置。检查 SL/TP/T"
+
+msgid "Waiting for the position to be partially closed"
+msgstr "等待部分关闭位置"
+
+msgid "Waiting for the position to be fully closed"
+msgstr "等待位置完全关闭"
+
+msgid "Stop trading"
+msgstr "停止交易金"
 
 msgid "Lot"
 msgstr "手数"
@@ -508,20 +628,11 @@ msgstr "打开面板"
 msgid "Button text"
 msgstr "按钮文本"
 
-msgid "Color"
-msgstr "颜色"
-
 msgid "Maximize"
 msgstr "最大"
 
 msgid "Restore"
 msgstr "恢复"
-
-msgid "Workspace"
-msgstr "工作区"
-
-msgid "locked"
-msgstr "锁"
 
 msgid "Custom title"
 msgstr "自定义标题"
@@ -556,9 +667,6 @@ msgstr "创建绑定"
 
 msgid "Create panel"
 msgstr "创建面板"
-
-msgid "Crypto ОЕ"
-msgstr "加密 |"
 
 msgid "Order entry"
 msgstr "显示下单"
@@ -602,11 +710,17 @@ msgstr "设置"
 msgid "Always On Top"
 msgstr "总在最前面"
 
-msgid "Do you really want to reset to default settings?"
-msgstr "你真的想重置为默认设置吗？"
-
 msgid "Actions"
 msgstr "动作"
+
+msgid "Duplicate action"
+msgstr "重复操作"
+
+msgid "Are you sure want to delete this item?"
+msgstr "您是否确定要删除此项目？"
+
+msgid "Remove action"
+msgstr "删除操作"
 
 msgid "Filter"
 msgstr "过滤"
@@ -840,6 +954,24 @@ msgstr "信息窗"
 msgid "Settlement"
 msgstr "结算"
 
+msgid "Visible"
+msgstr "可见"
+
+msgid "Duplicate"
+msgstr "重复"
+
+msgid "Remove"
+msgstr "删除颜色"
+
+msgid "Edit"
+msgstr "设置"
+
+msgid "Set active"
+msgstr "设置活动"
+
+msgid "Change visibility"
+msgstr "更改可见性"
+
 msgid "Auto"
 msgstr "自动"
 
@@ -876,9 +1008,6 @@ msgstr "价格(垂直)"
 msgid "Appearance"
 msgstr "外观"
 
-msgid "Font"
-msgstr "字体:"
-
 msgid "Text color"
 msgstr "文本颜色"
 
@@ -887,9 +1016,6 @@ msgstr "坐标前景"
 
 msgid "Axis background"
 msgstr "坐标背景"
-
-msgid "Day"
-msgstr "日"
 
 msgid "Week"
 msgstr "周"
@@ -963,9 +1089,6 @@ msgstr "移至背景"
 msgid "Clone mode"
 msgstr "克隆模式"
 
-msgid "Remove"
-msgstr "删除颜色"
-
 msgid "Lock location"
 msgstr "锁定位置"
 
@@ -982,6 +1105,9 @@ msgstr "购买{0}"
 #, csharp-format
 msgid "Sell {0}"
 msgstr "卖{0}"
+
+msgid "Synchronizing trades"
+msgstr "同步交易"
 
 msgid "Modify"
 msgstr "修改"
@@ -1007,11 +1133,56 @@ msgstr "PnL 类型："
 msgid "Show orders"
 msgstr "显示待执行订单"
 
-msgid "Show filled orders"
-msgstr "显示成交历史"
-
 msgid "Trade through Order entry"
 msgstr "通过订单输入交易"
+
+msgid "Single order"
+msgstr "单个订单"
+
+msgid "Multiple orders"
+msgstr "多个订单"
+
+msgid "Mouse trading mode"
+msgstr "鼠标交易模式"
+
+msgid "Trades"
+msgstr "成交"
+
+msgid "Show trades"
+msgstr "显示交易"
+
+msgid "Marker color"
+msgstr "标记颜色"
+
+msgid "Marker"
+msgstr "标记"
+
+msgid "Marker + Label"
+msgstr "标记 + 标签"
+
+msgid "Display type"
+msgstr "显示类型"
+
+msgid "Small"
+msgstr "小"
+
+msgid "Middle"
+msgstr "中"
+
+msgid "Large"
+msgstr "大"
+
+msgid "Size"
+msgstr "数量"
+
+msgid "Text"
+msgstr "文字"
+
+msgid "Label Buy style"
+msgstr "标签购买风格"
+
+msgid "Label Sell style"
+msgstr "标签销售风格"
 
 msgid "Imbalance ratio"
 msgstr "不平衡比"
@@ -1024,9 +1195,6 @@ msgstr "区域计数"
 
 msgid "Filtered volume"
 msgstr "筛选的卷"
-
-msgid "Text"
-msgstr "文字"
 
 msgid "Highlight zeros"
 msgstr "突出显示零"
@@ -1191,12 +1359,6 @@ msgstr "步骤期间"
 msgid "Step coefficient"
 msgstr "步长系数"
 
-msgid "Minute"
-msgstr "分"
-
-msgid "Hour"
-msgstr "时"
-
 msgid "Volume aggregation does not support Time Histogram"
 msgstr "卷聚合不支持时间直方图"
 
@@ -1261,6 +1423,12 @@ msgstr "显示 POC"
 msgid "POC type"
 msgstr "POC 类型"
 
+msgid "Minute"
+msgstr "分"
+
+msgid "Hour"
+msgstr "时"
+
 msgid "Enabled"
 msgstr "启用"
 
@@ -1311,9 +1479,6 @@ msgstr "显示总计"
 
 msgid "Crosshair"
 msgstr "十字线"
-
-msgid "Visible"
-msgstr "可见"
 
 msgid "Synchronize with other charts"
 msgstr "与其他图表同步"
@@ -1381,15 +1546,6 @@ msgstr "线宽"
 msgid "Data style"
 msgstr "风格"
 
-msgid "Duplicate"
-msgstr "重复"
-
-msgid "Edit"
-msgstr "设置"
-
-msgid "Set active"
-msgstr "设置活动"
-
 msgid "Additional"
 msgstr "额外"
 
@@ -1411,14 +1567,29 @@ msgstr "带线标识"
 msgid "Price indicator"
 msgstr "价格标识"
 
+msgid "Bid marker style"
+msgstr "投标标记样式"
+
+msgid "Ask marker style"
+msgstr "询问标记样式"
+
+msgid "Last marker style"
+msgstr "最后标记样式"
+
+msgid "Ask text style"
+msgstr "询问文本样式"
+
+msgid "Last text style"
+msgstr "最后文本样式"
+
+msgid "Bid text style"
+msgstr "投标文本样式"
+
 msgid "Line with price"
 msgstr "注线"
 
 msgid "Label"
 msgstr "标签"
-
-msgid "Marker text style"
-msgstr "标记文本样式"
 
 msgid "Spread type"
 msgstr "点差类型"
@@ -1576,6 +1747,9 @@ msgstr "镜像"
 msgid "Custom text"
 msgstr "自定义文字"
 
+msgid "Middle line style"
+msgstr "中线风格"
+
 msgid "Tool colors"
 msgstr "工具颜色"
 
@@ -1636,9 +1810,6 @@ msgstr "顶部区域"
 msgid "Bottom area"
 msgstr "底部区域"
 
-msgid "Marker color"
-msgstr "标记颜色"
-
 msgid "Add custom text"
 msgstr "添加自定义文本"
 
@@ -1656,6 +1827,15 @@ msgstr "字体样式"
 
 msgid "Border"
 msgstr "边框"
+
+msgid "Bottom"
+msgstr "底"
+
+msgid "Top"
+msgstr "返回页首"
+
+msgid "Control buttons position"
+msgstr "控制按钮位置"
 
 msgid "Invalid price"
 msgstr "无效价格"
@@ -1680,9 +1860,6 @@ msgstr "止损价"
 msgid "{0} TP price: {1}"
 msgstr "{0} 止盈价格：{1}"
 
-msgid "is locked"
-msgstr "已锁定"
-
 msgid "VA"
 msgstr "Va"
 
@@ -1702,14 +1879,20 @@ msgstr "无数据"
 msgid "{0} ticks"
 msgstr "{0} 刻度"
 
-msgid "Overlay"
-msgstr "覆盖"
-
 msgid "Empty symbol"
 msgstr "空的符号"
 
 msgid "Full"
 msgstr "全屏"
+
+msgid "Sup"
+msgstr "支持"
+
+msgid "Res"
+msgstr "里斯"
+
+msgid "TP&SL"
+msgstr "特普"
 
 #, csharp-format
 msgid "{0} %"
@@ -1898,6 +2081,12 @@ msgstr "配置"
 msgid "Keyboard trading is active"
 msgstr "键盘交易处于活动状态"
 
+msgid "Hold CTRL key to place more orders"
+msgstr "按住 CTRL 密钥以下更多订单"
+
+msgid "Hold CTRL key to add more drawings"
+msgstr "按住 CTRL 密钥以添加更多绘图"
+
 msgid "Data is loading..."
 msgstr "数据正在加载......"
 
@@ -1974,6 +2163,15 @@ msgstr "缩放行为"
 msgid "Fit Indicators"
 msgstr "指标"
 
+msgid "Vertical"
+msgstr "垂直"
+
+msgid "Horizontal"
+msgstr "水平线"
+
+msgid "Plates alignment mode"
+msgstr "板对齐模式"
+
 msgid "Symbols lookup"
 msgstr "查找商品"
 
@@ -1986,8 +2184,17 @@ msgstr "汇总"
 msgid "Range"
 msgstr "范围"
 
+msgid "Overlay"
+msgstr "覆盖"
+
 msgid "Add overlay…"
 msgstr "添加叠加..."
+
+msgid "Show all"
+msgstr "全部显示"
+
+msgid "Hide all"
+msgstr "隐藏全部"
 
 msgid "Remove all"
 msgstr "移除所有"
@@ -2101,9 +2308,6 @@ msgstr "刷新"
 msgid "{0} settings"
 msgstr "{0}设置"
 
-msgid "Are you sure you want to execute order at market price?"
-msgstr "您确定希望以市价执行此订单吗？"
-
 #, csharp-format
 msgid "Default by symbol ({0})"
 msgstr "默认为符号（{0}）"
@@ -2150,11 +2354,14 @@ msgstr "数据差距："
 msgid "Waiting for quote..."
 msgstr "正在等待报价..."
 
+msgid "Buy color"
+msgstr "购买颜色"
+
+msgid "Sell color"
+msgstr "销售颜色"
+
 msgid "Level2"
 msgstr "级别2"
-
-msgid "Trades"
-msgstr "成交"
 
 msgid "Show Bid/Ask line"
 msgstr "显示出价/询问行"
@@ -2182,12 +2389,6 @@ msgstr "自定义级别 2 最大大小"
 
 msgid "Level2 coloring mode"
 msgstr "级别 2 着色模式"
-
-msgid "Buy color"
-msgstr "购买颜色"
-
-msgid "Sell color"
-msgstr "销售颜色"
 
 msgid "Color 1"
 msgstr "颜色 1"
@@ -2348,6 +2549,9 @@ msgstr "协同化 VA/TPO 自定义步骤"
 msgid "VA position type"
 msgstr "VA 位置类型"
 
+msgid "Histogram width, %"
+msgstr "直方图宽度， %"
+
 msgid "TPO"
 msgstr "Tpo"
 
@@ -2417,32 +2621,8 @@ msgstr "数量"
 msgid "Split size columns"
 msgstr "拆分大小列"
 
-msgid "Show last trade size"
-msgstr "显示最后交易规模"
-
 msgid "Type of last trade"
 msgstr "最后交易类型"
-
-msgid "Show Last Bid Trades"
-msgstr "显示最后出价交易"
-
-msgid "Show Last Ask Trades"
-msgstr "显示最后询问交易"
-
-msgid "Cumulative size"
-msgstr "累计大小"
-
-msgid "Liquidity changes"
-msgstr "流动性变化"
-
-msgid "Number of changes"
-msgstr "更改数"
-
-msgid "Cumulative changes"
-msgstr "累积更改"
-
-msgid "Comments"
-msgstr "說明"
 
 msgid "No data to display"
 msgstr "没有数据显示"
@@ -2450,14 +2630,17 @@ msgstr "没有数据显示"
 msgid "Please check your connection or symbol availability"
 msgstr "请检查您的连接或符号可用性"
 
-msgid "Table background"
-msgstr "表背景"
-
 msgid "General Settings"
 msgstr "常规设置"
 
 msgid "Model settings"
 msgstr "型号设置"
+
+msgid "Short price format"
+msgstr "短价格格式"
+
+msgid "Hide digits"
+msgstr "隐藏数字"
 
 msgid "Auto center"
 msgstr "自动居中"
@@ -2516,14 +2699,11 @@ msgstr "按价格汇总大小"
 msgid "Coloring method"
 msgstr "着色方法"
 
+msgid "Table colors"
+msgstr "表颜色"
+
 msgid "Cancellation priority"
 msgstr "撤单优先"
-
-msgid "Day high"
-msgstr "天高"
-
-msgid "Day low"
-msgstr "日低"
 
 msgid "Allow new SLTP"
 msgstr "允许新的 SLTP"
@@ -2531,11 +2711,26 @@ msgstr "允许新的 SLTP"
 msgid "Use stop instead limit"
 msgstr "使用停止限制"
 
+msgid "Refresh rate (ms)"
+msgstr "刷新率（毫秒）"
+
+msgid "Cumulative changes"
+msgstr "累积更改"
+
 msgid "Unknown"
 msgstr "未知"
 
 msgid "Reset"
 msgstr "重置"
+
+msgid "Changes color"
+msgstr "更改颜色"
+
+msgid "Number of changes"
+msgstr "更改数"
+
+msgid "Liquidity changes"
+msgstr "流动性变化"
 
 msgid "Broker"
 msgstr "經紀商"
@@ -2597,9 +2792,6 @@ msgstr "毛利润/亏损"
 msgid "Average open price"
 msgstr "平均开放价格"
 
-msgid "Quantity"
-msgstr "数量"
-
 msgid "Break even level"
 msgstr "收支平衡"
 
@@ -2636,32 +2828,68 @@ msgstr "出价/询问重置"
 msgid "Last trade size"
 msgstr "最后交易规模"
 
-msgid "Mouse Trading"
-msgstr "鼠标交易"
+msgid "Order color"
+msgstr "订购颜色"
 
-msgid "Locked"
-msgstr "锁定"
+msgid "SL/TP color"
+msgstr "SL/TP 颜色"
+
+msgid "Column font"
+msgstr "列字体"
+
+msgid "Text alignment"
+msgstr "文字对齐"
+
+msgid "Custom colors"
+msgstr "自定义颜色"
+
+msgid "Custom Back Color"
+msgstr "自定义背面颜色"
+
+msgid "Total value"
+msgstr "总值"
+
+msgid "Highlight total value more than"
+msgstr "突出显示总价值超过"
+
+msgid "Highlight total value less than"
+msgstr "突出显示总值小于"
 
 msgid "Grid color"
 msgstr "格线颜色"
 
-msgid "Vertical"
-msgstr "垂直"
-
-msgid "Horizontal"
-msgstr "水平线"
-
 msgid "All"
 msgstr "全部"
+
+msgid "Comments"
+msgstr "說明"
 
 msgid "Clear"
 msgstr "清除"
 
-msgid "Custom tick size: "
-msgstr "自定义刻度大小："
+msgid "Cumulative size"
+msgstr "累计大小"
+
+msgid "Custom tick size:"
+msgstr "自定义滴答声大小："
+
+msgid "Hide digits:"
+msgstr "隐藏数字："
+
+msgid "Disabled"
+msgstr "禁用"
 
 msgid "Show table header"
 msgstr "显示表标题"
+
+msgid "Header font"
+msgstr "标题字体"
+
+msgid "Header colors"
+msgstr "标题颜色"
+
+msgid "Header grid color"
+msgstr "标题网格颜色"
 
 msgid "Show day map"
 msgstr "显示日图"
@@ -2669,11 +2897,23 @@ msgstr "显示日图"
 msgid "Imbalance, %"
 msgstr "不平衡， %"
 
-msgid "Highlight values more than"
-msgstr "突出显示值超过"
+msgid "Show position"
+msgstr "显示位置"
+
+msgid "Position width"
+msgstr "位置宽度"
+
+msgid "Position color"
+msgstr "位置颜色"
 
 msgid "Show day high/low"
 msgstr "显示日高/低"
+
+msgid "Day high"
+msgstr "天高"
+
+msgid "Day low"
+msgstr "日低"
 
 msgid "Bids/Asks"
 msgstr "出价/询问"
@@ -2684,6 +2924,12 @@ msgstr "买价"
 msgid "Asks"
 msgstr "卖价"
 
+msgid "Bid color"
+msgstr "买价颜色"
+
+msgid "Ask color"
+msgstr "卖价颜色"
+
 msgid "Gradient"
 msgstr "渐层"
 
@@ -2693,8 +2939,20 @@ msgstr "渐变/直方图"
 msgid "Size coloring scheme"
 msgstr "着色"
 
-msgid "Enable column"
-msgstr "启用列"
+msgid "Left"
+msgstr "左侧"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Histogram Alignment"
+msgstr "直方图对齐"
+
+msgid "Total font"
+msgstr "字体总"
+
+msgid "Total colors"
+msgstr "总颜色"
 
 msgid "Alignment"
 msgstr "对齐"
@@ -2816,6 +3074,18 @@ msgstr "下单 销售市场订单"
 msgid "Close position by symbol"
 msgstr "按符号关闭位置"
 
+msgid "Compact"
+msgstr "紧凑的"
+
+msgid "Normal"
+msgstr "正常"
+
+msgid "Line Spacing"
+msgstr "行距"
+
+msgid "Grid Color"
+msgstr "网格颜色"
+
 msgid "Sort order"
 msgstr "排序"
 
@@ -2837,14 +3107,8 @@ msgstr "列可见性"
 msgid "Header text"
 msgstr "表头"
 
-msgid "Header font"
-msgstr "标题字体"
-
 msgid "Header alignment"
 msgstr "标题对齐"
-
-msgid "Column font"
-msgstr "列字体"
 
 msgid "Column alignment"
 msgstr "列对齐"
@@ -2888,20 +3152,44 @@ msgstr "\"或\""
 msgid "Parameters"
 msgstr "参数"
 
+msgid "Save conditions"
+msgstr "保存条件"
+
+msgid "Apply saved conditions"
+msgstr "应用保存的条件"
+
+msgid "Are you sure you want to delete this condition?"
+msgstr "您是否确定要删除此条件？"
+
 msgid "Multiple per side"
 msgstr "每侧多个"
 
 msgid "One Position"
 msgstr "一个位置"
 
-msgid "Fee per side, quoting currency"
-msgstr "每边费用，报价货币"
+msgid "Absolute per lot"
+msgstr "每批绝对值"
 
-msgid "Margin"
-msgstr "保证金"
+msgid "Per side"
+msgstr "每侧"
+
+msgid "Per round"
+msgstr "每轮"
+
+msgid "Non marginal trading"
+msgstr "非边际交易"
 
 msgid "Netting type"
 msgstr "净额结算类型"
+
+msgid "Fee value"
+msgstr "佣金值"
+
+msgid "Fee measurement"
+msgstr "费用计量"
+
+msgid "Fee accrual"
+msgstr "费用应计"
 
 msgid "Remove symbol"
 msgstr "刪除产品"
@@ -2911,6 +3199,9 @@ msgstr "1 分"
 
 msgid "Bid/Ask/Last"
 msgstr "出价/出价/最后"
+
+msgid "Bid/Ask/Mark"
+msgstr "出价/询问/标记"
 
 msgid "Account performance"
 msgstr "交易效益"
@@ -3143,21 +3434,12 @@ msgstr "工作区名称可能包含: {0}"
 msgid "Same workspace name already exist"
 msgstr "已存在相同的工作区名称"
 
-msgid "All settings"
-msgstr "所有设置"
-
-msgid "Saved"
-msgstr "保存"
-
-msgid "Screenshot"
-msgstr "截图"
-
-msgid "copied to clipboard"
-msgstr "复制到剪贴板"
-
 #, csharp-format
 msgid "Are you sure you want to delete {0}?"
 msgstr "确实要删除 {0} 吗？"
+
+msgid "is locked"
+msgstr "已锁定"
 
 msgid "is unlocked"
 msgstr "已解锁"
@@ -3219,6 +3501,18 @@ msgstr "缩写成交量和刻度"
 msgid "Abbreviate crypto prices"
 msgstr "缩写加密价格"
 
+msgid "Unload inactive workspaces (reduces memory usage)"
+msgstr "卸载非活动工作空间（减少内存使用）"
+
+msgid "Hide part of Account name"
+msgstr "隐藏帐户名称的一部分"
+
+msgid "Symbols to hide"
+msgstr "要隐藏的符号"
+
+msgid "Default symbol"
+msgstr "默认商品"
+
 msgid "Timeout (min)"
 msgstr "超时（分钟）"
 
@@ -3272,6 +3566,9 @@ msgstr "电报"
 
 msgid "Duplicate alerts to Telegram"
 msgstr "对电报的重复警报"
+
+msgid "Duplicate trading notifications to Telegram"
+msgstr "重复交易通知电报"
 
 msgid "Excel RTD"
 msgstr "Excel RTD"
@@ -3417,8 +3714,11 @@ msgstr "佣金"
 msgid "Insurance clear"
 msgstr "保险明确"
 
-msgid "Normal"
-msgstr "正常"
+msgid "Coin swap deposit"
+msgstr "硬币掉期存款"
+
+msgid "Coin swap withdraw"
+msgstr "硬币掉期取款"
 
 msgid "Borrow"
 msgstr "借"
@@ -3432,11 +3732,41 @@ msgstr "在"
 msgid "OUT"
 msgstr "出"
 
+msgid "Total Balance"
+msgstr "总余额"
+
+msgid "Total Debt"
+msgstr "债务总额"
+
+msgid "Account Equity"
+msgstr "账户净值"
+
+msgid "Margin level"
+msgstr "保证金水平"
+
+msgid "Open position"
+msgstr "打开位置"
+
+msgid "Trigger price|Stop limit"
+msgstr "触发价格|触发价格|触发价格|触发价格停止限制"
+
+msgid "Limit|Stop limit"
+msgstr "限制|限制|限制|限制|停止限制"
+
+msgid "Price should be positive non-zero value"
+msgstr "价格应为正非零值"
+
+msgid "Stop price should be positive non-zero value"
+msgstr "止损价应为正非零值"
+
 msgid "Maintenance margin"
 msgstr "维持保证金"
 
 msgid "Required margin"
 msgstr "需要保证金量"
+
+msgid "Contract size"
+msgstr "合约"
 
 msgid "Leverage"
 msgstr "利用"
@@ -3446,6 +3776,9 @@ msgstr "保证金类型"
 
 msgid "Hedge mode"
 msgstr "对冲模式"
+
+msgid "Full license"
+msgstr "全许可证"
 
 msgid "Initial margin"
 msgstr "初始边距"
@@ -3486,30 +3819,6 @@ msgstr "调整杠杆"
 msgid "Adjust Margin Mode"
 msgstr "调整边距模式"
 
-msgid "Total Balance"
-msgstr "总余额"
-
-msgid "Total Debt"
-msgstr "债务总额"
-
-msgid "Account Equity"
-msgstr "账户净值"
-
-msgid "Margin level"
-msgstr "保证金水平"
-
-msgid "Trigger price|Stop limit"
-msgstr "触发价格|触发价格|触发价格|触发价格停止限制"
-
-msgid "Limit|Stop limit"
-msgstr "限制|限制|限制|限制|停止限制"
-
-msgid "Price should be positive non-zero value"
-msgstr "价格应为正非零值"
-
-msgid "Stop price should be positive non-zero value"
-msgstr "止损价应为正非零值"
-
 msgid "Allowed order types"
 msgstr "允许的订单类型"
 
@@ -3522,6 +3831,12 @@ msgstr "最小名义"
 msgid "Iceberg allowed"
 msgstr "允许冰山"
 
+msgid "Volume analysis step (ticks)"
+msgstr "体积分析步骤（勾选）"
+
+msgid "Margin"
+msgstr "保证金"
+
 msgid "Account activity"
 msgstr "账户活动"
 
@@ -3531,11 +3846,62 @@ msgstr "讯息"
 msgid "Trading info"
 msgstr "交易信息"
 
+msgid "Real-time"
+msgstr "实时"
+
+msgid "Real-time and history"
+msgstr "实时和历史"
+
+msgid "Once per minute"
+msgstr "每分钟一次"
+
+msgid "Once per 2 minutes"
+msgstr "每2分钟一次"
+
+msgid "Once per 3 minutes"
+msgstr "每3分钟一次"
+
+msgid "Once per 5 minutes"
+msgstr "每5分钟一次"
+
+msgid "Once per 15 minutes"
+msgstr "每15分钟一次"
+
+msgid "Once per 30 minutes"
+msgstr "每30分钟一次"
+
+msgid "Once per hour"
+msgstr "每小时一次"
+
+msgid "Mark price"
+msgstr "标记价格"
+
+msgid "Last price"
+msgstr "最后价格"
+
+msgid "Connection"
+msgstr "连接"
+
 msgid "Allow change leverage"
 msgstr "允许变更杠杆"
 
 msgid "WebSocket endpoint"
 msgstr "WebSocket 终结点"
+
+msgid "TP/SL trigger price"
+msgstr "TP/SL 触发价格"
+
+msgid "Open interest mode"
+msgstr "开放式兴趣模式"
+
+msgid "Open interest update period"
+msgstr "开放式利息更新期"
+
+msgid "Calculate PNL locally"
+msgstr "本地计算 PNL"
+
+msgid "PNL calculation basis"
+msgstr "PNL 计算基础"
 
 msgid "Load user trades history"
 msgstr "加载用户交易历史记录"
@@ -3590,9 +3956,6 @@ msgstr "钱包余额"
 
 msgid "Exec Type"
 msgstr "执行类型"
-
-msgid "Side"
-msgstr "方向"
 
 msgid "Exec Qty"
 msgstr "执行 Qty"
@@ -3675,6 +4038,105 @@ msgstr "总仓位值： [this. bitmexusermargin. 毛位置值. fromsatoshi （�
 msgid "Display quantity"
 msgstr "显示数量"
 
+msgid "Conditional limit"
+msgstr "有条件限制"
+
+msgid "Conditional market"
+msgstr "有条件市场"
+
+msgid "Index price"
+msgstr "指数价格"
+
+msgid "Trailing profit"
+msgstr "跟踪利润"
+
+msgid "Min price"
+msgstr "最低价格"
+
+msgid "Maker fee"
+msgstr "做市费用"
+
+msgid "Taker fee"
+msgstr "提取费用"
+
+msgid "Max leverage"
+msgstr "最大杠杆"
+
+msgid "Min leverage"
+msgstr "最小杠杆"
+
+msgid "Leverage step"
+msgstr "杠杆步骤"
+
+msgid "Asset exchange records"
+msgstr "资产交换记录"
+
+msgid "Active orders"
+msgstr "活动订单"
+
+msgid "Conditional orders"
+msgstr "有条件订单"
+
+msgid "Equity"
+msgstr "等于"
+
+msgid "Available balance"
+msgstr "可用余额"
+
+msgid "Used margin"
+msgstr "保证金"
+
+msgid "Order margin"
+msgstr "订单保证金"
+
+msgid "Pre-occupied order margin"
+msgstr "预占用订单保证金"
+
+msgid "Position margin"
+msgstr "仓位保证金"
+
+msgid "Position closing fee occupied"
+msgstr "仓位结算费占用"
+
+msgid "Pre-occupied funding fee"
+msgstr "预占用资金费"
+
+msgid "Daily realized PnL"
+msgstr "每日实现的PnL"
+
+msgid "Daily realized profit and loss"
+msgstr "每日实现损益"
+
+msgid "Daily unrealized PnL"
+msgstr "每日未实现的PnL"
+
+msgid "Daily unrealized profit and loss"
+msgstr "每日未实现损益"
+
+msgid "Accumulated realised PnL"
+msgstr "累计实现的 Pnl"
+
+msgid "Accumulated realised profit and loss (all-time total)"
+msgstr "累计实现损益（总亏损）"
+
+msgid "Register account"
+msgstr "注册帐户"
+
+msgid "Client Id"
+msgstr "客户端 ID"
+
+msgid "Secret Id"
+msgstr "秘密 ID"
+
+msgid "Can't find connection type parameters"
+msgstr "找不到连接类型参数"
+
+msgid "Client id is empty"
+msgstr "客户端 ID 为空"
+
+msgid "Secret id is empty"
+msgstr "机密 ID 为空"
+
 msgid "Trade user"
 msgstr "交易用户"
 
@@ -3707,6 +4169,9 @@ msgstr "新密码失败"
 
 msgid "Must change password"
 msgstr "必须更改密码"
+
+msgid "Cedro Market data license is required to use this connection."
+msgstr "使用此连接需要 Cedro 市场数据许可证。"
 
 msgid "Primary"
 msgstr "主要"
@@ -3747,6 +4212,9 @@ msgstr "登录:"
 msgid "Two-Factor Authentication code"
 msgstr "双重身份验证代码"
 
+msgid "Use saved token"
+msgstr "使用保存的令牌"
+
 msgid "AON"
 msgstr "永"
 
@@ -3773,6 +4241,96 @@ msgstr "波斯顿利"
 
 msgid "User name is empty."
 msgstr "用户名为空。"
+
+msgid "FCM id"
+msgstr "Fcm ID"
+
+msgid "Brokerage firm ID in CQG trade routing system."
+msgstr "CQG 交易路由系统中的经纪公司 ID。"
+
+msgid "FCM name"
+msgstr "FCM 名称"
+
+msgid "Brokerage firm name."
+msgstr "经纪公司名称。"
+
+msgid "FCM account id"
+msgstr "FCM帐户ID"
+
+msgid "Account ID in Brokerage Firm."
+msgstr "经纪公司的账户ID。"
+
+msgid "View only"
+msgstr "仅查看"
+
+msgid "True if user can only monitor this account without trading."
+msgstr "如果用户只能在不交易的情况下监控此帐户，则也是如此。"
+
+msgid "Sales series name"
+msgstr "销售系列名称"
+
+msgid "Sales series number"
+msgstr "销售系列编号"
+
+msgid "Sales series number in CQG trade routing system."
+msgstr "CQG 交易路由系统中的销售系列编号。"
+
+msgid "Collateral"
+msgstr "抵押品"
+
+msgid "Collateral on Deposit."
+msgstr "存款抵押品。"
+
+msgid "Open Trade Equity"
+msgstr "开放式交易权益"
+
+msgid "Open Trade Equity for Futures."
+msgstr "期货开放交易权益。"
+
+msgid "Initial Margin Requirements."
+msgstr "初始保证金要求。"
+
+msgid "Cash excess"
+msgstr "现金超额"
+
+msgid "Purchasing power"
+msgstr "购买力"
+
+msgid "Available account funds including balance, realized profit (or loss), collateral and credits. OTE and MVO are included regarding the account risk parameters."
+msgstr "可用账户资金，包括余额、已实现利润（或亏损）、抵押品和贷项。OTE 和 MVO 包含有关帐户风险参数。"
+
+msgid "Market value of futures"
+msgstr "期货市场价值"
+
+msgid "Market value of futures calculated as the current market trade/best bid/best ask (regarding to the risk account settings) times the number of futures (positive for long and negative for short) in the portfolio."
+msgstr "期货市场价值按当前市场交易/最佳出价/最佳要求（关于风险账户设置）计算，是投资组合中期货数量（正为多，负为空）。"
+
+msgid "Market value of options"
+msgstr "期权的市场价值"
+
+msgid "Market value of options calculated as the current market trade/best bid/best ask of the option (regarding to the risk account settings) times the number of options (positive for long options and negative for short options) in the portfolio. Included if purchasing power depends on it."
+msgstr "按当前市场交易/最佳出价/最佳期权要求计算的期权市场价值（关于风险账户设置）是投资组合中期权数（多头期权为正数，短期期权为负值）的数倍。包括购买力是否依赖于它。"
+
+msgid "Unrealized PnL (OTE)"
+msgstr "未实现的 Pnl （OTE）"
+
+msgid "Open trade equity, or potential profit (or loss) from futures and future-style options positions based on opening price of the position and the current future trade/best bid/best ask (regarding to the risk account settings) or settlement price if trade is not available. Included if purchasing power depends on it."
+msgstr "开放式交易权益，或期货和未来期权头寸的潜在利润（或亏损），基于头寸的开盘价和当前期货交易/最佳出价/最佳要求（有关风险账户设置）或结算价格（如果交易不可用）。包括购买力是否依赖于它。"
+
+msgid "Margin credit"
+msgstr "保证金信用"
+
+msgid "Allowable margin credit of the account"
+msgstr "允许的保证金信用帐户"
+
+msgid "Total margin"
+msgstr "总保证金"
+
+msgid "Margin requirement calculated for worst-case based on open positions and working orders."
+msgstr "根据空缺职位和工作订单计算最坏情况下的保证金要求。"
+
+msgid "Margin requirement based on current positions only."
+msgstr "仅基于当前职位的保证金要求。"
 
 msgid "Open orders"
 msgstr "打开订单"
@@ -3951,30 +4509,6 @@ msgstr "仅减少"
 msgid "Reduce"
 msgstr "减少"
 
-msgid "Last price"
-msgstr "最后价格"
-
-msgid "Mark price"
-msgstr "标记价格"
-
-msgid "Index price"
-msgstr "指数价格"
-
-msgid "Client Id"
-msgstr "客户端 ID"
-
-msgid "Secret Id"
-msgstr "秘密 ID"
-
-msgid "Can't find connection type parameters"
-msgstr "找不到连接类型参数"
-
-msgid "Client id is empty"
-msgstr "客户端 ID 为空"
-
-msgid "Secret id is empty"
-msgstr "机密 ID 为空"
-
 msgid "Invalid credentials"
 msgstr "无效凭据"
 
@@ -4119,9 +4653,6 @@ msgstr "目标帐户"
 msgid "Coin"
 msgstr "硬币"
 
-msgid "Size"
-msgstr "数量"
-
 msgid "Deposit history"
 msgstr "存款历史"
 
@@ -4139,9 +4670,6 @@ msgstr "平均填充价格"
 
 msgid "Trigger Price"
 msgstr "触发价格"
-
-msgid "Time in force"
-msgstr "生效时间"
 
 msgid "Fee rate"
 msgstr "费用率"
@@ -4164,12 +4692,6 @@ msgstr "笔记"
 msgid "Destination"
 msgstr "来源"
 
-msgid "Total value"
-msgstr "总值"
-
-msgid "Collateral"
-msgstr "抵押品"
-
 msgid "Free collateral"
 msgstr "免费抵押品"
 
@@ -4178,12 +4700,6 @@ msgstr "Init 保证金要求。"
 
 msgid "Maint. margin req."
 msgstr "总维持金"
-
-msgid "Maker fee"
-msgstr "做市费用"
-
-msgid "Taker fee"
-msgstr "提取费用"
 
 msgid "Position limit"
 msgstr "位置限制"
@@ -4194,8 +4710,11 @@ msgstr "使用的位置限制"
 msgid "API secret"
 msgstr "API 密钥"
 
-msgid "Subaccount name (not required)"
-msgstr "子帐户名称（不是必需的）"
+msgid "Account scheme"
+msgstr "账户计划"
+
+msgid "WARNING!!! This option can cause a significant delay during the trading"
+msgstr "警告！！！此选项可能会在交易期间造成重大延迟"
 
 msgid "Token"
 msgstr "令 牌"
@@ -4203,14 +4722,8 @@ msgstr "令 牌"
 msgid "Access token is empty."
 msgstr "访问令牌为空。"
 
-msgid "Equity"
-msgstr "等于"
-
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "账户上的资金数额，包括所有未平仓头寸的利润和亏损（账户的浮动余额）。"
-
-msgid "Used margin"
-msgstr "保证金"
 
 msgid "The amount of funds used to maintain all open positions on the account."
 msgstr "用于维持账户所有未平仓头寸的资金数额。"
@@ -4699,6 +5212,159 @@ msgstr "债券"
 msgid "Metals"
 msgstr "金属"
 
+msgid "Take profit type"
+msgstr "以利润类型为例"
+
+msgid "TP trigger price"
+msgstr "TP触发价格"
+
+msgid "TP price"
+msgstr "止盈/风险"
+
+msgid "Stop loss type"
+msgstr "停止损失类型"
+
+msgid "SL trigger price"
+msgstr "SL触发价格"
+
+msgid "Reduce only"
+msgstr "仅减少"
+
+msgid "Isolated"
+msgstr "孤立"
+
+msgid "Order behaviour"
+msgstr "秩序行为"
+
+msgid "Trade mode"
+msgstr "交易模式"
+
+msgid "Margin currency"
+msgstr "保证金货币"
+
+msgid "Post only"
+msgstr "仅发布"
+
+msgid "Linear"
+msgstr "线性设置:"
+
+msgid "Inverse"
+msgstr "逆"
+
+msgid "This week"
+msgstr "本周"
+
+msgid "Next week"
+msgstr "下个 星期"
+
+msgid "Quarter"
+msgstr "季度"
+
+msgid "Next quarter"
+msgstr "下个季度"
+
+msgid "Simple"
+msgstr "简单"
+
+msgid "Single currency margin"
+msgstr "单一货币保证金"
+
+msgid "Multi currency margin"
+msgstr "多货币保证金"
+
+msgid "Long/Short"
+msgstr "长/短"
+
+msgid "Net"
+msgstr "净值："
+
+msgid "Waiting for confirmation"
+msgstr "等待确认"
+
+msgid "Successful"
+msgstr "成功"
+
+msgid "Pending cancel"
+msgstr "待定取消"
+
+msgid "Failed"
+msgstr "失败"
+
+msgid "Sending"
+msgstr "发送"
+
+msgid "Sent"
+msgstr "送"
+
+msgid "Awaiting email verification"
+msgstr "等待电子邮件验证"
+
+msgid "Awaiting manual verification"
+msgstr "等待人工验证"
+
+msgid "Awaiting identity verification"
+msgstr "等待身份验证"
+
+msgid "Get orders history"
+msgstr "获取订单历史记录"
+
+msgid "Get algo orders history"
+msgstr "获取藻类订单历史记录"
+
+msgid "Get deposit history"
+msgstr "获取存款记录"
+
+msgid "Get withdrawal history"
+msgstr "获取取款历史记录"
+
+msgid "Account level"
+msgstr "帐户级别"
+
+msgid "Position mode"
+msgstr "位置模式"
+
+msgid "Display type of Greeks"
+msgstr "显示类型的希腊人"
+
+msgid "User level of the real trading volume"
+msgstr "实际交易量的用户级别"
+
+msgid "Temporary experience user level"
+msgstr "临时体验用户级别"
+
+msgid "Isolated margin equity"
+msgstr "孤立的保证金权益"
+
+msgid "Adjusted/Effective equity"
+msgstr "调整后/有效股本"
+
+msgid "Margin frozen for pending orders"
+msgstr "待定订单冻结保证金"
+
+msgid "Margin ratio"
+msgstr "保证金比率"
+
+msgid "Quantity of positions"
+msgstr "职位数量"
+
+msgid "ApiKey is empty"
+msgstr "阿皮基是空的"
+
+msgid "Passphase is empty"
+msgstr "传递阶段为空"
+
+msgid "12 words key is empty."
+msgstr "12 个字键是空的。"
+
+msgid "Unconfirmed balances"
+msgstr "未经确认的余额"
+
+msgid "Virtual balances"
+msgstr "虚拟余额"
+
+msgid "Balance"
+msgstr "账户余额"
+
 msgid "Deposit"
 msgstr "存款"
 
@@ -4740,6 +5406,12 @@ msgstr "总借款价值"
 
 msgid "Current margin"
 msgstr "当前保证金"
+
+msgid "Delayed"
+msgstr "延误"
+
+msgid "Real time"
+msgstr "实时"
 
 msgid "Central Index Key"
 msgstr "中央索引键"
@@ -4915,9 +5587,6 @@ msgstr "罢工操作员"
 msgid "If applicable, the strike price operator of the instrument."
 msgstr "如果适用，则是工具的执行价格操作者。"
 
-msgid "FCM id"
-msgstr "Fcm ID"
-
 msgid "The FCM (futures commission merchant) associated with this account."
 msgstr "与此账户关联的 FCM（期货佣金商户）。"
 
@@ -5077,14 +5746,8 @@ msgstr "无效的客户端密钥"
 msgid "Stop (Market)"
 msgstr "停止（市场）"
 
-msgid "MIS"
-msgstr "Mis"
-
 msgid "NRML"
 msgstr "Nrml"
-
-msgid "CNC"
-msgstr "数控"
 
 msgid "Reading master file..."
 msgstr "正在读取主文件..."
@@ -5359,6 +6022,18 @@ msgstr "签发开始日期"
 msgid "Remarks"
 msgstr "言论"
 
+msgid "Place order request"
+msgstr "下订单请求"
+
+msgid "Modify order request"
+msgstr "修改订单请求"
+
+msgid "Cancel order request"
+msgstr "取消订单请求"
+
+msgid "Position convert request"
+msgstr "位置转换请求"
+
 msgid "History"
 msgstr "请求完成"
 
@@ -5629,6 +6304,9 @@ msgstr "股票购买力"
 msgid "Option buying power"
 msgstr "期权购买力"
 
+msgid "Provides simulated data, allowing to test platform’s functionality"
+msgstr "提供模拟数据, 允许测试平台的功能"
+
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "公平。"
 
@@ -5641,8 +6319,17 @@ msgstr "未结订单数量"
 msgid "Realized P/L"
 msgstr "平仓盈亏"
 
-msgid "Provides simulated data, allowing to test platform’s functionality"
-msgstr "提供模拟数据, 允许测试平台的功能"
+msgid "Time out"
+msgstr "时间过时"
+
+msgid "Alias"
+msgstr "别名"
+
+msgid "Serie"
+msgstr "意甲"
+
+msgid "Username is empty"
+msgstr "用户名为空"
 
 msgid "Spot"
 msgstr "现货"

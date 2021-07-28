@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 12:48+0200\n"
+"POT-Creation-Date: 2021-07-28 13:21+0300\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -70,6 +70,24 @@ msgstr "Stop loss fiyatı, daha sonra piyasa teklif fiyatı olmalıdır"
 msgid "Take profit price should be less then market bid price"
 msgstr "Kâr fiyatının piyasa fiyatından daha az olması gerekir"
 
+msgid "Time in force"
+msgstr "Geçerlilik süresi"
+
+msgid "Expiration"
+msgstr "Süre"
+
+msgid "Side"
+msgstr "Yön"
+
+msgid "lots"
+msgstr "lotlar"
+
+msgid "Quantity"
+msgstr "Miktar"
+
+msgid "Total"
+msgstr "toplam"
+
 msgid "Stop limit"
 msgstr "Durdurma limiti"
 
@@ -123,6 +141,36 @@ msgstr "etkisiz"
 
 msgid "Working"
 msgstr "Çalışma"
+
+msgid "Default"
+msgstr "Varsayılan"
+
+msgid "Day"
+msgstr "Gün"
+
+msgid "Fill Or Kill"
+msgstr "Doldur veya Öldür"
+
+msgid "Good Till Cancel"
+msgstr "İptal Edene Kadar İyi"
+
+msgid "Immediate Or Cancel"
+msgstr "Hemen veya İptal Et"
+
+msgid "Good Till Date"
+msgstr "İyi Tarih"
+
+msgid "Good Till Time"
+msgstr "Zamana Kadar İyi"
+
+msgid "Fill And Kill"
+msgstr "Doldur ve Öldür"
+
+msgid "At The Open"
+msgstr "Açık'ta"
+
+msgid "At The Close"
+msgstr "Kapanışta"
 
 msgid "Undefined"
 msgstr "Tanımsız"
@@ -277,9 +325,6 @@ msgstr "Histogramm"
 msgid "Points"
 msgstr "Noktalar"
 
-msgid "Default"
-msgstr "Varsayılan"
-
 msgid "Custom"
 msgstr "Özel"
 
@@ -397,8 +442,26 @@ msgstr "Günlük"
 msgid "Weekly"
 msgstr "Hafta -lık"
 
+msgid "Bar style"
+msgstr "Çubuk stili"
+
+msgid "Loading volume analysis data..."
+msgstr "Hacim analizi verilerinin yüklenmesi..."
+
 msgid "Histogram style"
 msgstr "Histogram stili"
+
+msgid "Main line style"
+msgstr "Ana çizgi stili"
+
+msgid "Extend line style"
+msgstr "Çizgi stilini genişletme"
+
+msgid "Show line label"
+msgstr "Satır etiketini göster"
+
+msgid "Font"
+msgstr "Fon"
 
 msgid "Line style"
 msgstr "Satır stili"
@@ -408,6 +471,24 @@ msgstr "Etiketleri göster"
 
 msgid "Label font"
 msgstr "Etiket yazı tipi"
+
+msgid "Regular bullish line style"
+msgstr "Normal boğa çizgi stili"
+
+msgid "Hidden bullish line style"
+msgstr "Gizli boğa çizgi stili"
+
+msgid "Regular bearish line style"
+msgstr "Normal ayı çizgi stili"
+
+msgid "Hidden bearish line style"
+msgstr "Gizli ayı çizgi stili"
+
+msgid "Oscillator"
+msgstr "Osilatör"
+
+msgid "Mode for the RSI line"
+msgstr "RSI hattı modu"
 
 msgid "Volume Impact"
 msgstr "Hacim etkisi"
@@ -463,8 +544,47 @@ msgstr "Histogram renkleri"
 msgid "Area colors"
 msgstr "Alan renkleri"
 
-msgid "Loading volume analysis data..."
-msgstr "Hacim analizi verilerinin yüklenmesi..."
+msgid "Highlight values more than"
+msgstr "Değerleri daha fazla vurgulama"
+
+msgid "Color"
+msgstr "Renk"
+
+msgid "MIS"
+msgstr "Mıs"
+
+msgid "CNC"
+msgstr "Cnc"
+
+msgid "NRNL"
+msgstr "NRNL"
+
+msgid "Strategy is ready"
+msgstr "Strateji hazır"
+
+msgid "Waiting for indicator calculation finished"
+msgstr "Gösterge hesaplaması tamamlandı"
+
+msgid "Waiting for strategy start time"
+msgstr "Strateji başlangıç saati bekleniyor"
+
+msgid "Find entry point"
+msgstr "Giriş noktasını bul"
+
+msgid "Waiting for the position to be placed"
+msgstr "Pozisyonun yerleştirilmesi bekleniyor"
+
+msgid "Control position. Check SL/TP/TS"
+msgstr "Kontrol pozisyonu. SL/TP/TS'ye bakın"
+
+msgid "Waiting for the position to be partially closed"
+msgstr "Pozisyonun kısmen kapatılmasını bekliyor"
+
+msgid "Waiting for the position to be fully closed"
+msgstr "Pozisyonun tamamen kapanması bekleniyor"
+
+msgid "Stop trading"
+msgstr "İşlem durdurma seviyesi"
 
 msgid "Lot"
 msgstr "Çok"
@@ -508,20 +628,11 @@ msgstr "Paneli aç"
 msgid "Button text"
 msgstr "Düğme metni"
 
-msgid "Color"
-msgstr "Renk"
-
 msgid "Maximize"
 msgstr "Maksimize"
 
 msgid "Restore"
 msgstr "Geri al"
-
-msgid "Workspace"
-msgstr "Çalışma alanı"
-
-msgid "locked"
-msgstr "Kilitli"
 
 msgid "Custom title"
 msgstr "Özel Başlık"
@@ -556,9 +667,6 @@ msgstr "Bağ oluştur"
 
 msgid "Create panel"
 msgstr "Panel oluştur"
-
-msgid "Crypto ОЕ"
-msgstr "Kripto ОЕ"
 
 msgid "Order entry"
 msgstr "Emir girişi"
@@ -602,11 +710,17 @@ msgstr "Ayarlar"
 msgid "Always On Top"
 msgstr "Her zaman üstte"
 
-msgid "Do you really want to reset to default settings?"
-msgstr "Varsayılan ayarlara sıfırlamak istiyor musunuz?"
-
 msgid "Actions"
 msgstr "Eylemler"
+
+msgid "Duplicate action"
+msgstr "Yinelenen eylem"
+
+msgid "Are you sure want to delete this item?"
+msgstr "Bu öğeyi silmek istediğinizden emin misiniz?"
+
+msgid "Remove action"
+msgstr "Eylemi kaldır"
 
 msgid "Filter"
 msgstr "Filtrele"
@@ -840,6 +954,24 @@ msgstr "Bilgi penceresi"
 msgid "Settlement"
 msgstr "Yerleşme"
 
+msgid "Visible"
+msgstr "Görünür"
+
+msgid "Duplicate"
+msgstr "Çift"
+
+msgid "Remove"
+msgstr "Sil"
+
+msgid "Edit"
+msgstr "Düzenle"
+
+msgid "Set active"
+msgstr "Etkin ayarla"
+
+msgid "Change visibility"
+msgstr "Görünürlüğü değiştirme"
+
 msgid "Auto"
 msgstr "Otomatik"
 
@@ -876,9 +1008,6 @@ msgstr "Fiyat (yatay)"
 msgid "Appearance"
 msgstr "Görünüm"
 
-msgid "Font"
-msgstr "Fon"
-
 msgid "Text color"
 msgstr "Metin rengi"
 
@@ -887,9 +1016,6 @@ msgstr "Eksen"
 
 msgid "Axis background"
 msgstr "eksen arka planı"
-
-msgid "Day"
-msgstr "Gün"
 
 msgid "Week"
 msgstr "Hafta"
@@ -963,9 +1089,6 @@ msgstr "arkaplandır"
 msgid "Clone mode"
 msgstr "Klon modu"
 
-msgid "Remove"
-msgstr "Sil"
-
 msgid "Lock location"
 msgstr "Konumu kilitle"
 
@@ -982,6 +1105,9 @@ msgstr "{0} satın alın"
 #, csharp-format
 msgid "Sell {0}"
 msgstr "{0} sat"
+
+msgid "Synchronizing trades"
+msgstr "İşlemler eşitlenme"
 
 msgid "Modify"
 msgstr "Değiştir"
@@ -1007,11 +1133,56 @@ msgstr "PnL tipi:"
 msgid "Show orders"
 msgstr "Emirleri göster"
 
-msgid "Show filled orders"
-msgstr "Gerçekleştirilen emirleri göster"
-
 msgid "Trade through Order entry"
 msgstr "Sipariş girişi üzerinden ticaret"
+
+msgid "Single order"
+msgstr "Tek emir"
+
+msgid "Multiple orders"
+msgstr "Birden çok sipariş"
+
+msgid "Mouse trading mode"
+msgstr "Fare ticaret modu"
+
+msgid "Trades"
+msgstr "İşlemler"
+
+msgid "Show trades"
+msgstr "Esnafı göster"
+
+msgid "Marker color"
+msgstr "İşaretleyici rengi"
+
+msgid "Marker"
+msgstr "İmleyici"
+
+msgid "Marker + Label"
+msgstr "İşaretçi + Etiket"
+
+msgid "Display type"
+msgstr "Görüntü türü"
+
+msgid "Small"
+msgstr "küçük"
+
+msgid "Middle"
+msgstr "Orta"
+
+msgid "Large"
+msgstr "büyük"
+
+msgid "Size"
+msgstr "Büyüklük"
+
+msgid "Text"
+msgstr "Metin"
+
+msgid "Label Buy style"
+msgstr "Etiket Satın Alma stili"
+
+msgid "Label Sell style"
+msgstr "Etiket Satış stili"
 
 msgid "Imbalance ratio"
 msgstr "Dengesizlik oranı"
@@ -1024,9 +1195,6 @@ msgstr "Bölgeler sayısı"
 
 msgid "Filtered volume"
 msgstr "Filtre uygulanmış birim"
-
-msgid "Text"
-msgstr "Metin"
 
 msgid "Highlight zeros"
 msgstr "Sıfırları vurgulama"
@@ -1191,12 +1359,6 @@ msgstr "Adım dönemi"
 msgid "Step coefficient"
 msgstr "Adım katsayısı"
 
-msgid "Minute"
-msgstr "1 dakika"
-
-msgid "Hour"
-msgstr "Saat"
-
 msgid "Volume aggregation does not support Time Histogram"
 msgstr "Hacim toplama Zaman Histogramı desteklemez"
 
@@ -1261,6 +1423,12 @@ msgstr "POC'yi göster"
 msgid "POC type"
 msgstr "POC türü"
 
+msgid "Minute"
+msgstr "1 dakika"
+
+msgid "Hour"
+msgstr "Saat"
+
 msgid "Enabled"
 msgstr "Etkinleştirildi"
 
@@ -1311,9 +1479,6 @@ msgstr "Toplamları göster"
 
 msgid "Crosshair"
 msgstr "Artı gösterge"
-
-msgid "Visible"
-msgstr "Görünür"
 
 msgid "Synchronize with other charts"
 msgstr "Diğer grafiklerle eşitleme"
@@ -1381,15 +1546,6 @@ msgstr "Satır genişliği"
 msgid "Data style"
 msgstr "Veri stili"
 
-msgid "Duplicate"
-msgstr "Çift"
-
-msgid "Edit"
-msgstr "Düzenle"
-
-msgid "Set active"
-msgstr "Etkin ayarla"
-
 msgid "Additional"
 msgstr "Ek"
 
@@ -1411,14 +1567,29 @@ msgstr "Satıra göre ölçek işaretçisi"
 msgid "Price indicator"
 msgstr "Fiyat göstergesi"
 
+msgid "Bid marker style"
+msgstr "Teklif işaretçisi stili"
+
+msgid "Ask marker style"
+msgstr "İşaretçi stili sor"
+
+msgid "Last marker style"
+msgstr "Son işaretçi stili"
+
+msgid "Ask text style"
+msgstr "Metin stili sor"
+
+msgid "Last text style"
+msgstr "Son metin stili"
+
+msgid "Bid text style"
+msgstr "Teklif metni stili"
+
 msgid "Line with price"
 msgstr "Fiyatları içeren satırlar"
 
 msgid "Label"
 msgstr "Etiket"
-
-msgid "Marker text style"
-msgstr "İşaretçi metin stili"
 
 msgid "Spread type"
 msgstr "Dağılım türü"
@@ -1576,6 +1747,9 @@ msgstr "aynalı"
 msgid "Custom text"
 msgstr "Özel metin"
 
+msgid "Middle line style"
+msgstr "Orta çizgi stili"
+
 msgid "Tool colors"
 msgstr "Takım renkleri"
 
@@ -1636,9 +1810,6 @@ msgstr "En üst alan"
 msgid "Bottom area"
 msgstr "Alt alan"
 
-msgid "Marker color"
-msgstr "İşaretleyici rengi"
-
 msgid "Add custom text"
 msgstr "Özel metin ekleme"
 
@@ -1656,6 +1827,15 @@ msgstr "Yazı tipi stili"
 
 msgid "Border"
 msgstr "Sınır"
+
+msgid "Bottom"
+msgstr "dip"
+
+msgid "Top"
+msgstr "Sayfanın Üstü"
+
+msgid "Control buttons position"
+msgstr "Denetim düğmeleri konumu"
 
 msgid "Invalid price"
 msgstr "Geçersiz fiyat"
@@ -1680,9 +1860,6 @@ msgstr "SL fiyatı"
 msgid "{0} TP price: {1}"
 msgstr "{0} TP fiyatı: {1}"
 
-msgid "is locked"
-msgstr "kilitli"
-
 msgid "VA"
 msgstr "Va"
 
@@ -1702,14 +1879,20 @@ msgstr "Veri yok"
 msgid "{0} ticks"
 msgstr "{0} ticks"
 
-msgid "Overlay"
-msgstr "Katman"
-
 msgid "Empty symbol"
 msgstr "Boş sembolü"
 
 msgid "Full"
 msgstr "Tümü"
+
+msgid "Sup"
+msgstr "Sup"
+
+msgid "Res"
+msgstr "Res"
+
+msgid "TP&SL"
+msgstr "TP&SL"
 
 #, csharp-format
 msgid "{0} %"
@@ -1898,6 +2081,12 @@ msgstr "Profil"
 msgid "Keyboard trading is active"
 msgstr "Klavye ticareti etkin"
 
+msgid "Hold CTRL key to place more orders"
+msgstr "Daha fazla sipariş vermek için CTRL tuşunu basılı tutun"
+
+msgid "Hold CTRL key to add more drawings"
+msgstr "Daha fazla çizim eklemek için CTRL tuşunu basılı tutun"
+
 msgid "Data is loading..."
 msgstr "Veri yükleniyor..."
 
@@ -1974,6 +2163,15 @@ msgstr "Ölçek davranışı"
 msgid "Fit Indicators"
 msgstr "Göstergeleri sığdır"
 
+msgid "Vertical"
+msgstr "Dikey"
+
+msgid "Horizontal"
+msgstr "Yatay"
+
+msgid "Plates alignment mode"
+msgstr "Plaka hizalama modu"
+
 msgid "Symbols lookup"
 msgstr "Sembol arama"
 
@@ -1986,8 +2184,17 @@ msgstr "toplama"
 msgid "Range"
 msgstr "Aralık"
 
+msgid "Overlay"
+msgstr "Katman"
+
 msgid "Add overlay…"
 msgstr "Yer paylaşımı ekle…"
+
+msgid "Show all"
+msgstr "Hepsini göster"
+
+msgid "Hide all"
+msgstr "Tümünü Gizle"
 
 msgid "Remove all"
 msgstr "Tümünü sil"
@@ -2101,9 +2308,6 @@ msgstr "Yenile"
 msgid "{0} settings"
 msgstr "{0} ayar"
 
-msgid "Are you sure you want to execute order at market price?"
-msgstr "Piyasa fiyatı üzerinden emir vermek istediğinizden emin misiniz?"
-
 #, csharp-format
 msgid "Default by symbol ({0})"
 msgstr "Varsayılan olarak sembol ({0})"
@@ -2150,11 +2354,14 @@ msgstr "Veri boşluğu:"
 msgid "Waiting for quote..."
 msgstr "Teklif bekliyorum..."
 
+msgid "Buy color"
+msgstr "Renk satın al"
+
+msgid "Sell color"
+msgstr "Renk sat"
+
 msgid "Level2"
 msgstr "Seviye2"
-
-msgid "Trades"
-msgstr "İşlemler"
 
 msgid "Show Bid/Ask line"
 msgstr "Teklif/Sor satırLarını göster"
@@ -2182,12 +2389,6 @@ msgstr "Özel level2 max boyutu"
 
 msgid "Level2 coloring mode"
 msgstr "Level2 boyama modu"
-
-msgid "Buy color"
-msgstr "Renk satın al"
-
-msgid "Sell color"
-msgstr "Renk sat"
 
 msgid "Color 1"
 msgstr "Renk 1"
@@ -2348,6 +2549,9 @@ msgstr "Synhronize VA/ TPO özel adım"
 msgid "VA position type"
 msgstr "VA pozisyon türü"
 
+msgid "Histogram width, %"
+msgstr "Histogram genişliği, %"
+
 msgid "TPO"
 msgstr "Tpo"
 
@@ -2417,32 +2621,8 @@ msgstr "Miktar:"
 msgid "Split size columns"
 msgstr "Bölme boyutu sütunları"
 
-msgid "Show last trade size"
-msgstr "Son işlem boyutunu göster"
-
 msgid "Type of last trade"
 msgstr "Son ticaret türü"
-
-msgid "Show Last Bid Trades"
-msgstr "Son Teklif Alım Savesi'ni Göster"
-
-msgid "Show Last Ask Trades"
-msgstr "Son Sor İşlemleri Göster"
-
-msgid "Cumulative size"
-msgstr "Kümülatif boyut"
-
-msgid "Liquidity changes"
-msgstr "Likidite değişiklikleri"
-
-msgid "Number of changes"
-msgstr "Değişiklik sayısı"
-
-msgid "Cumulative changes"
-msgstr "Kümülatif değişiklikler"
-
-msgid "Comments"
-msgstr "Yorumlar"
 
 msgid "No data to display"
 msgstr "Görüntülenecek veri yok"
@@ -2450,14 +2630,17 @@ msgstr "Görüntülenecek veri yok"
 msgid "Please check your connection or symbol availability"
 msgstr "Lütfen bağlantınızı veya sembolün kullanılabilirliğini kontrol edin"
 
-msgid "Table background"
-msgstr "Tablo arka planı"
-
 msgid "General Settings"
 msgstr "Ayarlar"
 
 msgid "Model settings"
 msgstr "Model ayarları"
+
+msgid "Short price format"
+msgstr "Kısa fiyat biçimi"
+
+msgid "Hide digits"
+msgstr "Basamakları gizle"
 
 msgid "Auto center"
 msgstr "Otomatik merkezi"
@@ -2516,14 +2699,11 @@ msgstr "Toplam büyüklük fiyatı"
 msgid "Coloring method"
 msgstr "Renklendirme yöntemi"
 
+msgid "Table colors"
+msgstr "Tablo renkleri"
+
 msgid "Cancellation priority"
 msgstr "İptal etme önceliği"
-
-msgid "Day high"
-msgstr "Gün yüksek"
-
-msgid "Day low"
-msgstr "Gün düşük"
 
 msgid "Allow new SLTP"
 msgstr "Yeni SLTP'ye izin ver"
@@ -2531,11 +2711,26 @@ msgstr "Yeni SLTP'ye izin ver"
 msgid "Use stop instead limit"
 msgstr "Bunun yerine durdurma sınırını kullanın"
 
+msgid "Refresh rate (ms)"
+msgstr "Yenileme hızı (ms)"
+
+msgid "Cumulative changes"
+msgstr "Kümülatif değişiklikler"
+
 msgid "Unknown"
 msgstr "Bilinmiyor"
 
 msgid "Reset"
 msgstr "Sıfırla"
+
+msgid "Changes color"
+msgstr "Rengi değiştirir"
+
+msgid "Number of changes"
+msgstr "Değişiklik sayısı"
+
+msgid "Liquidity changes"
+msgstr "Likidite değişiklikleri"
 
 msgid "Broker"
 msgstr "Broker"
@@ -2597,9 +2792,6 @@ msgstr "Brüt Kar / Zarar"
 msgid "Average open price"
 msgstr "Ortalama açılış fiyatı"
 
-msgid "Quantity"
-msgstr "Miktar"
-
 msgid "Break even level"
 msgstr "Düz seviyeyi kırmak"
 
@@ -2636,32 +2828,68 @@ msgstr "Teklif/Sor sıfırlama"
 msgid "Last trade size"
 msgstr "Son işlem boyutu"
 
-msgid "Mouse Trading"
-msgstr "Fare Ticareti"
+msgid "Order color"
+msgstr "Sipariş rengi"
 
-msgid "Locked"
-msgstr "Kilitli"
+msgid "SL/TP color"
+msgstr "SL/TP rengi"
+
+msgid "Column font"
+msgstr "Sütun yazı tipi"
+
+msgid "Text alignment"
+msgstr "Metin hizalama"
+
+msgid "Custom colors"
+msgstr "Özel renkler"
+
+msgid "Custom Back Color"
+msgstr "Özel Arka Renk"
+
+msgid "Total value"
+msgstr "Toplam değer"
+
+msgid "Highlight total value more than"
+msgstr "Toplam değeri daha fazla vurgulayın"
+
+msgid "Highlight total value less than"
+msgstr "Toplam değeri daha küçük vurgula"
 
 msgid "Grid color"
 msgstr "Kılavuz rengi"
 
-msgid "Vertical"
-msgstr "Dikey"
-
-msgid "Horizontal"
-msgstr "Yatay"
-
 msgid "All"
 msgstr "Hepsi"
+
+msgid "Comments"
+msgstr "Yorumlar"
 
 msgid "Clear"
 msgstr "Temizle"
 
-msgid "Custom tick size: "
-msgstr "Özel kene boyutu: "
+msgid "Cumulative size"
+msgstr "Kümülatif boyut"
+
+msgid "Custom tick size:"
+msgstr "Özel onay boyutu:"
+
+msgid "Hide digits:"
+msgstr "Basamakları gizle:"
+
+msgid "Disabled"
+msgstr "Devre Dışı Bırakıldı"
 
 msgid "Show table header"
 msgstr "Tablo üstbilginin göster"
+
+msgid "Header font"
+msgstr "Üstbilgi yazı tipi"
+
+msgid "Header colors"
+msgstr "Üstbilgi renkleri"
+
+msgid "Header grid color"
+msgstr "Üstbilgi ızgarası rengi"
 
 msgid "Show day map"
 msgstr "Günü haritayı göster"
@@ -2669,11 +2897,23 @@ msgstr "Günü haritayı göster"
 msgid "Imbalance, %"
 msgstr "Dengesizlik, %"
 
-msgid "Highlight values more than"
-msgstr "Değerleri daha fazla vurgulama"
+msgid "Show position"
+msgstr "Konumu göster"
+
+msgid "Position width"
+msgstr "Konum genişliği"
+
+msgid "Position color"
+msgstr "Konum rengi"
 
 msgid "Show day high/low"
 msgstr "Gün yüksek/düşük göster"
+
+msgid "Day high"
+msgstr "Gün yüksek"
+
+msgid "Day low"
+msgstr "Gün düşük"
 
 msgid "Bids/Asks"
 msgstr "Teklifler/Sorar"
@@ -2684,6 +2924,12 @@ msgstr "Satışlar"
 msgid "Asks"
 msgstr "Alışlar"
 
+msgid "Bid color"
+msgstr "Alış Rengi"
+
+msgid "Ask color"
+msgstr "Satış Rengi"
+
 msgid "Gradient"
 msgstr "Gradyen"
 
@@ -2693,8 +2939,20 @@ msgstr "Degrade/Histogram"
 msgid "Size coloring scheme"
 msgstr "Büyüklük renklendirme şeması"
 
-msgid "Enable column"
-msgstr "Sütunu etkinleştir"
+msgid "Left"
+msgstr "Sol"
+
+msgid "Right"
+msgstr "Sol"
+
+msgid "Histogram Alignment"
+msgstr "Histogram Hizalaması"
+
+msgid "Total font"
+msgstr "Toplam yazı tipi"
+
+msgid "Total colors"
+msgstr "Toplam renk sayısı"
 
 msgid "Alignment"
 msgstr "Hizalama"
@@ -2816,6 +3074,18 @@ msgstr "Yer Satış Pazarı siparişi"
 msgid "Close position by symbol"
 msgstr "Simgeye göre yakın konum"
 
+msgid "Compact"
+msgstr "Kompakt"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Line Spacing"
+msgstr "Satır Aralığı"
+
+msgid "Grid Color"
+msgstr "Izgara Rengi"
+
 msgid "Sort order"
 msgstr "Sıralama düzeni"
 
@@ -2837,14 +3107,8 @@ msgstr "Sütun görünürlüğü"
 msgid "Header text"
 msgstr "Başlık metni"
 
-msgid "Header font"
-msgstr "Üstbilgi yazı tipi"
-
 msgid "Header alignment"
 msgstr "Başlık hizalaması"
-
-msgid "Column font"
-msgstr "Sütun yazı tipi"
 
 msgid "Column alignment"
 msgstr "Sütun hizalama"
@@ -2888,20 +3152,44 @@ msgstr "'Veya'"
 msgid "Parameters"
 msgstr "Parametreler"
 
+msgid "Save conditions"
+msgstr "Koşulları kaydet"
+
+msgid "Apply saved conditions"
+msgstr "Kaydedilmiş koşulları uygulama"
+
+msgid "Are you sure you want to delete this condition?"
+msgstr "Bu koşulu silmek istediğinizden emin misiniz?"
+
 msgid "Multiple per side"
 msgstr "Yan başına birden fazla"
 
 msgid "One Position"
 msgstr "Tek Pozisyon"
 
-msgid "Fee per side, quoting currency"
-msgstr "Para birimi alıntısı, yan başına ücret"
+msgid "Absolute per lot"
+msgstr "Lot başına mutlak"
 
-msgid "Margin"
-msgstr "Marj"
+msgid "Per side"
+msgstr "Taraf başına"
+
+msgid "Per round"
+msgstr "Tur başına"
+
+msgid "Non marginal trading"
+msgstr "Marjinal olmayan ticaret"
 
 msgid "Netting type"
 msgstr "Ağ tipi"
+
+msgid "Fee value"
+msgstr "Ücret miktarı"
+
+msgid "Fee measurement"
+msgstr "Ücret ölçümü"
+
+msgid "Fee accrual"
+msgstr "Ücret tahakkuku"
 
 msgid "Remove symbol"
 msgstr "Sembolü kaldır"
@@ -2911,6 +3199,9 @@ msgstr "1 dakika"
 
 msgid "Bid/Ask/Last"
 msgstr "Teklif/İste/Son"
+
+msgid "Bid/Ask/Mark"
+msgstr "Teklif/İste/İşaretle"
 
 msgid "Account performance"
 msgstr "Yeni Hesap performansı"
@@ -3143,21 +3434,12 @@ msgstr "Çalışma alanı adı içerir: {0}"
 msgid "Same workspace name already exist"
 msgstr "Aynı çalışma alanı adı zaten var"
 
-msgid "All settings"
-msgstr "Tüm ayarlar"
-
-msgid "Saved"
-msgstr "Kaydedilmiş"
-
-msgid "Screenshot"
-msgstr "Ekran görüntüsü"
-
-msgid "copied to clipboard"
-msgstr "panoya kopyalanır"
-
 #, csharp-format
 msgid "Are you sure you want to delete {0}?"
 msgstr "{0} öğesini silmek istediğinizden emin misiniz?"
+
+msgid "is locked"
+msgstr "kilitli"
 
 msgid "is unlocked"
 msgstr "kilitli değil"
@@ -3219,6 +3501,18 @@ msgstr "Hacim ve Ticks kısaltmak"
 msgid "Abbreviate crypto prices"
 msgstr "Kripto fiyatlarını kısaltmak"
 
+msgid "Unload inactive workspaces (reduces memory usage)"
+msgstr "Etkin olmayan çalışma alanlarını kaldırma (bellek kullanımını azaltır)"
+
+msgid "Hide part of Account name"
+msgstr "Hesap adının bir bölümünü gizle"
+
+msgid "Symbols to hide"
+msgstr "Gizlenecek simgeler"
+
+msgid "Default symbol"
+msgstr "Varsayılan simge"
+
 msgid "Timeout (min)"
 msgstr "Zaman arası (dk)"
 
@@ -3272,6 +3566,9 @@ msgstr "Telgraf"
 
 msgid "Duplicate alerts to Telegram"
 msgstr "Telegram için yinelenen uyarılar"
+
+msgid "Duplicate trading notifications to Telegram"
+msgstr "Telegram'a yinelenen işlem bildirimleri"
 
 msgid "Excel RTD"
 msgstr "Excel RTD"
@@ -3417,8 +3714,11 @@ msgstr "Komisyon"
 msgid "Insurance clear"
 msgstr "Sigorta açık"
 
-msgid "Normal"
-msgstr "Normal"
+msgid "Coin swap deposit"
+msgstr "Coin takas depozitosu"
+
+msgid "Coin swap withdraw"
+msgstr "Coin takası geri çekildi"
 
 msgid "Borrow"
 msgstr "Ödünç"
@@ -3432,11 +3732,41 @@ msgstr "Inç"
 msgid "OUT"
 msgstr "OUT"
 
+msgid "Total Balance"
+msgstr "Toplam Bakiye"
+
+msgid "Total Debt"
+msgstr "Toplam Borç"
+
+msgid "Account Equity"
+msgstr "Hesap Özsermayesi"
+
+msgid "Margin level"
+msgstr "Marj seviyesi"
+
+msgid "Open position"
+msgstr "Açık konum"
+
+msgid "Trigger price|Stop limit"
+msgstr "Tetik fiyatı| Durdurma sınırı"
+
+msgid "Limit|Stop limit"
+msgstr "Limit| Durdurma sınırı"
+
+msgid "Price should be positive non-zero value"
+msgstr "Fiyat pozitif sıfır olmayan değer olmalıdır"
+
+msgid "Stop price should be positive non-zero value"
+msgstr "Stop fiyat pozitif sıfır olmayan değer olmalıdır"
+
 msgid "Maintenance margin"
 msgstr "Sürdürme marjı"
 
 msgid "Required margin"
 msgstr "Gerekli marj"
+
+msgid "Contract size"
+msgstr "Sözleşme büyüklüğü"
 
 msgid "Leverage"
 msgstr "Kaldıraç"
@@ -3446,6 +3776,9 @@ msgstr "Marj türü"
 
 msgid "Hedge mode"
 msgstr "Koruma modu"
+
+msgid "Full license"
+msgstr "Tam lisans"
 
 msgid "Initial margin"
 msgstr "Başlangıç marjı"
@@ -3486,30 +3819,6 @@ msgstr "Kaldıracı Ayarla"
 msgid "Adjust Margin Mode"
 msgstr "Kenar Boşluğu Modunu Ayarlama"
 
-msgid "Total Balance"
-msgstr "Toplam Bakiye"
-
-msgid "Total Debt"
-msgstr "Toplam Borç"
-
-msgid "Account Equity"
-msgstr "Hesap Özsermayesi"
-
-msgid "Margin level"
-msgstr "Marj seviyesi"
-
-msgid "Trigger price|Stop limit"
-msgstr "Tetik fiyatı| Durdurma sınırı"
-
-msgid "Limit|Stop limit"
-msgstr "Limit| Durdurma sınırı"
-
-msgid "Price should be positive non-zero value"
-msgstr "Fiyat pozitif sıfır olmayan değer olmalıdır"
-
-msgid "Stop price should be positive non-zero value"
-msgstr "Stop fiyat pozitif sıfır olmayan değer olmalıdır"
-
 msgid "Allowed order types"
 msgstr "İzin verilen sipariş türleri"
 
@@ -3522,6 +3831,12 @@ msgstr "Minik yanlı"
 msgid "Iceberg allowed"
 msgstr "Buzdağı izin verilir"
 
+msgid "Volume analysis step (ticks)"
+msgstr "Ses analizi adımı (onaylar)"
+
+msgid "Margin"
+msgstr "Marj"
+
 msgid "Account activity"
 msgstr "Hesap haraketliliği"
 
@@ -3531,11 +3846,62 @@ msgstr "Bilgi"
 msgid "Trading info"
 msgstr "İşlem bilgisi"
 
+msgid "Real-time"
+msgstr "gerçek zamanlı"
+
+msgid "Real-time and history"
+msgstr "Gerçek zamanlı ve tarih"
+
+msgid "Once per minute"
+msgstr "Dakikada bir kez"
+
+msgid "Once per 2 minutes"
+msgstr "Dakikada bir"
+
+msgid "Once per 3 minutes"
+msgstr "3 dakikada bir"
+
+msgid "Once per 5 minutes"
+msgstr "Dakikada bir"
+
+msgid "Once per 15 minutes"
+msgstr "15 dakikada bir"
+
+msgid "Once per 30 minutes"
+msgstr "Dakikada bir 30 dakika"
+
+msgid "Once per hour"
+msgstr "Saatte bir kez"
+
+msgid "Mark price"
+msgstr "Fiyatı işaretle"
+
+msgid "Last price"
+msgstr "Son fiyat"
+
+msgid "Connection"
+msgstr "bağlantı"
+
 msgid "Allow change leverage"
 msgstr "Değişiklik kaldıracına izin ver"
 
 msgid "WebSocket endpoint"
 msgstr "WebSocket uç noktası"
+
+msgid "TP/SL trigger price"
+msgstr "TP/SL tetikleme fiyatı"
+
+msgid "Open interest mode"
+msgstr "Açık faiz modu"
+
+msgid "Open interest update period"
+msgstr "Açık faiz güncelleştirme dönemi"
+
+msgid "Calculate PNL locally"
+msgstr "PNL'i yerel olarak hesapla"
+
+msgid "PNL calculation basis"
+msgstr "PNL hesaplama temeli"
 
 msgid "Load user trades history"
 msgstr "Kullanıcı ticareti geçmişini yükleme"
@@ -3590,9 +3956,6 @@ msgstr "Cüzdan Bakiyesi"
 
 msgid "Exec Type"
 msgstr "Exec Türü"
-
-msgid "Side"
-msgstr "Yön"
 
 msgid "Exec Qty"
 msgstr "Exec Qty"
@@ -3675,6 +4038,105 @@ msgstr "Brüt Konum Değeri: {this.bitmexUserMargin.GrossPositionValue.FromSatos
 msgid "Display quantity"
 msgstr "Görüntü miktarı"
 
+msgid "Conditional limit"
+msgstr "Koşullu sınır"
+
+msgid "Conditional market"
+msgstr "Şartlı pazar"
+
+msgid "Index price"
+msgstr "Endeks fiyatı"
+
+msgid "Trailing profit"
+msgstr "Takip eden kar"
+
+msgid "Min price"
+msgstr "En az fiyat"
+
+msgid "Maker fee"
+msgstr "Maker ücreti"
+
+msgid "Taker fee"
+msgstr "Alıcı ücreti"
+
+msgid "Max leverage"
+msgstr "Maksimum kaldıraç"
+
+msgid "Min leverage"
+msgstr "En az kaldıraç"
+
+msgid "Leverage step"
+msgstr "Adımdan yararlanın"
+
+msgid "Asset exchange records"
+msgstr "Varlık değişim kayıtları"
+
+msgid "Active orders"
+msgstr "Etkin siparişler"
+
+msgid "Conditional orders"
+msgstr "Koşullu siparişler"
+
+msgid "Equity"
+msgstr "Özsermaye"
+
+msgid "Available balance"
+msgstr "Kullanılabilir bakiye"
+
+msgid "Used margin"
+msgstr "Kullanılan teminat"
+
+msgid "Order margin"
+msgstr "Sipariş marjı"
+
+msgid "Pre-occupied order margin"
+msgstr "Önceden dolu sipariş marjı"
+
+msgid "Position margin"
+msgstr "Konum kenar boşluğu"
+
+msgid "Position closing fee occupied"
+msgstr "Pozisyon kapatma ücreti dolu"
+
+msgid "Pre-occupied funding fee"
+msgstr "Önceden işgal edilmiş finansman ücreti"
+
+msgid "Daily realized PnL"
+msgstr "Günlük gerçekleşen PnL"
+
+msgid "Daily realized profit and loss"
+msgstr "Günlük gerçekleşen kar ve zarar"
+
+msgid "Daily unrealized PnL"
+msgstr "Günlük gerçekleşmemiş PnL"
+
+msgid "Daily unrealized profit and loss"
+msgstr "Günlük gerçekleşmemiş kar ve zarar"
+
+msgid "Accumulated realised PnL"
+msgstr "Birikmiş uzlatılmış PnL"
+
+msgid "Accumulated realised profit and loss (all-time total)"
+msgstr "Birikmiş gerçekleşen kar ve zarar (tüm zamanların toplamı)"
+
+msgid "Register account"
+msgstr "Hesabı kaydet"
+
+msgid "Client Id"
+msgstr "İstemci Kimliği"
+
+msgid "Secret Id"
+msgstr "Gizli Kimlik"
+
+msgid "Can't find connection type parameters"
+msgstr "Bağlantı türü parametrelerini bulamıyorum"
+
+msgid "Client id is empty"
+msgstr "İstemci kimliği boş"
+
+msgid "Secret id is empty"
+msgstr "Gizli kimlik boş"
+
 msgid "Trade user"
 msgstr "Takas kullanıcısı"
 
@@ -3707,6 +4169,9 @@ msgstr "Yeni parola başarısız oldu"
 
 msgid "Must change password"
 msgstr "Parolayı değiştirmeli"
+
+msgid "Cedro Market data license is required to use this connection."
+msgstr "Bu bağlantıyı kullanmak için Cedro Market veri lisansı gereklidir."
 
 msgid "Primary"
 msgstr "Birincil"
@@ -3747,6 +4212,9 @@ msgstr "Kullanıcı adı"
 msgid "Two-Factor Authentication code"
 msgstr "İki Faktörlü Kimlik Doğrulama kodu"
 
+msgid "Use saved token"
+msgstr "Kaydedilmiş belirteci kullan"
+
 msgid "AON"
 msgstr "AON"
 
@@ -3773,6 +4241,96 @@ msgstr "SADECE POSTONLY"
 
 msgid "User name is empty."
 msgstr "Kullanıcı adı boştur."
+
+msgid "FCM id"
+msgstr "FCM kimliği"
+
+msgid "Brokerage firm ID in CQG trade routing system."
+msgstr "CQG ticaret yönlendirme sisteminde aracı firma kimliği."
+
+msgid "FCM name"
+msgstr "FCM adı"
+
+msgid "Brokerage firm name."
+msgstr "Aracı kurum adı."
+
+msgid "FCM account id"
+msgstr "FCM hesap kimliği"
+
+msgid "Account ID in Brokerage Firm."
+msgstr "Aracı Kurumdaki Hesap Kimliği."
+
+msgid "View only"
+msgstr "Yalnızca görüntüle"
+
+msgid "True if user can only monitor this account without trading."
+msgstr "Kullanıcı bu hesabı yalnızca işlem yapmadan izleyebiliyorsa doğru."
+
+msgid "Sales series name"
+msgstr "Satış serisi adı"
+
+msgid "Sales series number"
+msgstr "Satış serisi numarası"
+
+msgid "Sales series number in CQG trade routing system."
+msgstr "CQG ticaret yönlendirme sistemindeki satış serisi numarası."
+
+msgid "Collateral"
+msgstr "Teminat"
+
+msgid "Collateral on Deposit."
+msgstr "Depozitoda teminat."
+
+msgid "Open Trade Equity"
+msgstr "Açık Ticaret Özkaynakları"
+
+msgid "Open Trade Equity for Futures."
+msgstr "Vadeli İşlemler için Açık Ticaret Özkaynakları."
+
+msgid "Initial Margin Requirements."
+msgstr "İlk Marj Gereksinimleri."
+
+msgid "Cash excess"
+msgstr "Nakit fazlalığı"
+
+msgid "Purchasing power"
+msgstr "Satın alma gücü"
+
+msgid "Available account funds including balance, realized profit (or loss), collateral and credits. OTE and MVO are included regarding the account risk parameters."
+msgstr "Bakiye, gerçekleşen kar (veya zarar), teminat ve krediler dahil olmak üzere kullanılabilir hesap fonları. OTE ve MVO, hesap riski parametrelerine dahildir."
+
+msgid "Market value of futures"
+msgstr "Vadeli işlem piyasa değeri"
+
+msgid "Market value of futures calculated as the current market trade/best bid/best ask (regarding to the risk account settings) times the number of futures (positive for long and negative for short) in the portfolio."
+msgstr "Mevcut piyasa ticareti/en iyi teklif/en iyi teklif (risk hesabı ayarlarına ilişkin) olarak hesaplanan vadeli işlemlerin piyasa değeri, portföydeki vadeli işlem sayısının (uzun için pozitif ve kısa için negatif) iki katıdır."
+
+msgid "Market value of options"
+msgstr "Seçeneklerin piyasa değeri"
+
+msgid "Market value of options calculated as the current market trade/best bid/best ask of the option (regarding to the risk account settings) times the number of options (positive for long options and negative for short options) in the portfolio. Included if purchasing power depends on it."
+msgstr "Mevcut piyasa ticareti/en iyi teklif/opsiyonun en iyi talebi olarak hesaplanan opsiyonların piyasa değeri (risk hesabı ayarlarına göre) portföydeki opsiyon sayısının (uzun seçenekler için pozitif ve kısa seçenekler için negatif) iki katıdır. Satın alma gücü buna bağlıysa dahildir."
+
+msgid "Unrealized PnL (OTE)"
+msgstr "Gerçekleşmemiş PnL (OTE)"
+
+msgid "Open trade equity, or potential profit (or loss) from futures and future-style options positions based on opening price of the position and the current future trade/best bid/best ask (regarding to the risk account settings) or settlement price if trade is not available. Included if purchasing power depends on it."
+msgstr "Pozisyonun açılış fiyatına ve gelecekteki ticaret/en iyi teklif/en iyi teklife (risk hesabı ayarlarına ilişkin) veya ticaret mevcut değilse uzlaşma fiyatına dayalı olarak vadeli işlemlerden ve vadeli opsiyon pozisyonlarından açık ticaret özkaynakları veya potansiyel kar (veya zarar). Satın alma gücü buna bağlıysa dahildir."
+
+msgid "Margin credit"
+msgstr "Marj kredisi"
+
+msgid "Allowable margin credit of the account"
+msgstr "Hesabın izin verebilir marj kredisi"
+
+msgid "Total margin"
+msgstr "Toplam marj"
+
+msgid "Margin requirement calculated for worst-case based on open positions and working orders."
+msgstr "Açık pozisyonlara ve çalışma emirlerine göre en kötü durum için hesaplanan marj gereksinimi."
+
+msgid "Margin requirement based on current positions only."
+msgstr "Marj gereksinimi yalnızca geçerli pozisyonlara göre."
 
 msgid "Open orders"
 msgstr "Siparişleri Aç"
@@ -3951,30 +4509,6 @@ msgstr "Yalnızca Azaltın"
 msgid "Reduce"
 msgstr "Azaltmak"
 
-msgid "Last price"
-msgstr "Son fiyat"
-
-msgid "Mark price"
-msgstr "Fiyatı işaretle"
-
-msgid "Index price"
-msgstr "Endeks fiyatı"
-
-msgid "Client Id"
-msgstr "İstemci Kimliği"
-
-msgid "Secret Id"
-msgstr "Gizli Kimlik"
-
-msgid "Can't find connection type parameters"
-msgstr "Bağlantı türü parametrelerini bulamıyorum"
-
-msgid "Client id is empty"
-msgstr "İstemci kimliği boş"
-
-msgid "Secret id is empty"
-msgstr "Gizli kimlik boş"
-
 msgid "Invalid credentials"
 msgstr "Geçersiz kimlik bilgileri"
 
@@ -4119,9 +4653,6 @@ msgstr "Hedef Hesabı"
 msgid "Coin"
 msgstr "Sikke"
 
-msgid "Size"
-msgstr "Büyüklük"
-
 msgid "Deposit history"
 msgstr "Mevduat geçmişi"
 
@@ -4139,9 +4670,6 @@ msgstr "Avg Dolum Fiyatı"
 
 msgid "Trigger Price"
 msgstr "Tetik Fiyatı"
-
-msgid "Time in force"
-msgstr "Geçerlilik süresi"
 
 msgid "Fee rate"
 msgstr "Ücret oranı"
@@ -4164,12 +4692,6 @@ msgstr "Notlar"
 msgid "Destination"
 msgstr "Hedef"
 
-msgid "Total value"
-msgstr "Toplam değer"
-
-msgid "Collateral"
-msgstr "Teminat"
-
 msgid "Free collateral"
 msgstr "Ücretsiz teminat"
 
@@ -4178,12 +4700,6 @@ msgstr "Init marjı req."
 
 msgid "Maint. margin req."
 msgstr "Toplam sürd. gere."
-
-msgid "Maker fee"
-msgstr "Maker ücreti"
-
-msgid "Taker fee"
-msgstr "Alıcı ücreti"
 
 msgid "Position limit"
 msgstr "Konum sınırı"
@@ -4194,8 +4710,11 @@ msgstr "Kullanılan konum sınırı"
 msgid "API secret"
 msgstr "API gizli"
 
-msgid "Subaccount name (not required)"
-msgstr "Alt hesap adı (gerekli değildir)"
+msgid "Account scheme"
+msgstr "Hesap düzeni"
+
+msgid "WARNING!!! This option can cause a significant delay during the trading"
+msgstr "uyarı!!! Bu seçenek işlem sırasında önemli bir gecikmeye neden olabilir"
 
 msgid "Token"
 msgstr "Belirte -ci"
@@ -4203,14 +4722,8 @@ msgstr "Belirte -ci"
 msgid "Access token is empty."
 msgstr "Erişim belirteci boştur."
 
-msgid "Equity"
-msgstr "Özsermaye"
-
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "Tüm açık pozisyonların karı ve zararı dahil olmak üzere hesaptaki fon tutarı (hesabın kayan bakiyesi)."
-
-msgid "Used margin"
-msgstr "Kullanılan teminat"
 
 msgid "The amount of funds used to maintain all open positions on the account."
 msgstr "Hesaptaki tüm açık pozisyonları korumak için kullanılan fon miktarı."
@@ -4699,6 +5212,159 @@ msgstr "tahviller"
 msgid "Metals"
 msgstr "madenler"
 
+msgid "Take profit type"
+msgstr "Kar türünü al"
+
+msgid "TP trigger price"
+msgstr "TP tetikleme fiyatı"
+
+msgid "TP price"
+msgstr "TP fiyatı"
+
+msgid "Stop loss type"
+msgstr "Zarar türünü durdur"
+
+msgid "SL trigger price"
+msgstr "SL tetikleyici fiyatı"
+
+msgid "Reduce only"
+msgstr "Yalnızca azalt"
+
+msgid "Isolated"
+msgstr "Izole"
+
+msgid "Order behaviour"
+msgstr "Sipariş davranışı"
+
+msgid "Trade mode"
+msgstr "Ticaret modu"
+
+msgid "Margin currency"
+msgstr "Marj para birimi"
+
+msgid "Post only"
+msgstr "Yalnızca deftere naklet"
+
+msgid "Linear"
+msgstr "Doğrusal"
+
+msgid "Inverse"
+msgstr "ters"
+
+msgid "This week"
+msgstr "Bu hafta"
+
+msgid "Next week"
+msgstr "Gelecek hafta"
+
+msgid "Quarter"
+msgstr "çeyrek"
+
+msgid "Next quarter"
+msgstr "Gelecek çeyrek"
+
+msgid "Simple"
+msgstr "Basit"
+
+msgid "Single currency margin"
+msgstr "Tek para birimi marjı"
+
+msgid "Multi currency margin"
+msgstr "Çoklu para birimi marjı"
+
+msgid "Long/Short"
+msgstr "Uzun/Kısa"
+
+msgid "Net"
+msgstr "net"
+
+msgid "Waiting for confirmation"
+msgstr "Onay bekleniyor"
+
+msgid "Successful"
+msgstr "Başarılı"
+
+msgid "Pending cancel"
+msgstr "İptal bekleniyor"
+
+msgid "Failed"
+msgstr "başarısız"
+
+msgid "Sending"
+msgstr "Gönderiyor"
+
+msgid "Sent"
+msgstr "Gönderilen"
+
+msgid "Awaiting email verification"
+msgstr "E-posta doğrulaması bekleniyor"
+
+msgid "Awaiting manual verification"
+msgstr "Manuel doğrulama bekleniyor"
+
+msgid "Awaiting identity verification"
+msgstr "Kimlik doğrulaması bekleniyor"
+
+msgid "Get orders history"
+msgstr "Sipariş geçmişini alma"
+
+msgid "Get algo orders history"
+msgstr "Algo siparişleri geçmişi alın"
+
+msgid "Get deposit history"
+msgstr "Para yatırma geçmişini alıp alma"
+
+msgid "Get withdrawal history"
+msgstr "Para çekme geçmişini alma"
+
+msgid "Account level"
+msgstr "Hesap düzeyi"
+
+msgid "Position mode"
+msgstr "Konum modu"
+
+msgid "Display type of Greeks"
+msgstr "Yunancayı görüntüleme türü"
+
+msgid "User level of the real trading volume"
+msgstr "Gerçek işlem hacminin kullanıcı seviyesi"
+
+msgid "Temporary experience user level"
+msgstr "Geçici deneyim kullanıcı düzeyi"
+
+msgid "Isolated margin equity"
+msgstr "Yalıtılmış marj özkaynakları"
+
+msgid "Adjusted/Effective equity"
+msgstr "Düzeltilmiş/Etkin özkaynak"
+
+msgid "Margin frozen for pending orders"
+msgstr "Bekleyen siparişler için dondurulan kenar boşluğu"
+
+msgid "Margin ratio"
+msgstr "Marj oranı"
+
+msgid "Quantity of positions"
+msgstr "Pozisyon miktarı"
+
+msgid "ApiKey is empty"
+msgstr "ApiKey boş"
+
+msgid "Passphase is empty"
+msgstr "Passphase boş"
+
+msgid "12 words key is empty."
+msgstr "12 kelime tuşu boş."
+
+msgid "Unconfirmed balances"
+msgstr "Onaylanmamış bakiyeler"
+
+msgid "Virtual balances"
+msgstr "Sanal bakiyeler"
+
+msgid "Balance"
+msgstr "Bakiye"
+
 msgid "Deposit"
 msgstr "Yatır"
 
@@ -4740,6 +5406,12 @@ msgstr "Toplam borç değeri"
 
 msgid "Current margin"
 msgstr "Mevcut marj"
+
+msgid "Delayed"
+msgstr "Ertelendi"
+
+msgid "Real time"
+msgstr "Gerçek zamanlı"
 
 msgid "Central Index Key"
 msgstr "Merkezi Dizin Anahtarı"
@@ -4915,9 +5587,6 @@ msgstr "Grev operatörü"
 msgid "If applicable, the strike price operator of the instrument."
 msgstr "Varsa, enstrümanın grev fiyat operatörü."
 
-msgid "FCM id"
-msgstr "FCM kimliği"
-
 msgid "The FCM (futures commission merchant) associated with this account."
 msgstr "FCM (vadeli işlem komisyonu tüccarı) bu hesapla ilişkilidir."
 
@@ -5077,14 +5746,8 @@ msgstr "Geçersiz istemci anahtarı"
 msgid "Stop (Market)"
 msgstr "Stop (Market)"
 
-msgid "MIS"
-msgstr "Mıs"
-
 msgid "NRML"
 msgstr "NRML"
-
-msgid "CNC"
-msgstr "Cnc"
 
 msgid "Reading master file..."
 msgstr "Okuma ana dosyası..."
@@ -5359,6 +6022,18 @@ msgstr "Sorun başlangıç tarihi"
 msgid "Remarks"
 msgstr "Açıklamalar"
 
+msgid "Place order request"
+msgstr "Sipariş isteğinde bulunun"
+
+msgid "Modify order request"
+msgstr "Sipariş isteğini değiştir"
+
+msgid "Cancel order request"
+msgstr "Sipariş isteğini iptal et"
+
+msgid "Position convert request"
+msgstr "Konum dönüştürme isteği"
+
 msgid "History"
 msgstr "Geçmiş"
 
@@ -5629,6 +6304,9 @@ msgstr "Hisse senedi satın alma gücü"
 msgid "Option buying power"
 msgstr "Opsiyon satın alma gücü"
 
+msgid "Provides simulated data, allowing to test platform’s functionality"
+msgstr "Platformun işlevselliğini test etmeye izin veren benzetimli veriler sağlar"
+
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "Eşitlik."
 
@@ -5641,8 +6319,17 @@ msgstr "Emir emrini aç"
 msgid "Realized P/L"
 msgstr "Gerçekleşen K/Z"
 
-msgid "Provides simulated data, allowing to test platform’s functionality"
-msgstr "Platformun işlevselliğini test etmeye izin veren benzetimli veriler sağlar"
+msgid "Time out"
+msgstr "Zaman dışında"
+
+msgid "Alias"
+msgstr "Diğer Ad"
+
+msgid "Serie"
+msgstr "Seri"
+
+msgid "Username is empty"
+msgstr "Kullanıcı adı boş"
 
 msgid "Spot"
 msgstr "Nokta"
