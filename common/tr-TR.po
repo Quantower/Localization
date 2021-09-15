@@ -41,16 +41,16 @@ msgid "Limit"
 msgstr "limit"
 
 msgid "Stop loss price should be less then limit price"
-msgstr "Stop loss fiyatı limit fiyatından daha az olmalı"
+msgstr "Stop loss fiyatı limit fiyatından daha az olmalıdır"
 
 msgid "Take profit price should be more then limit price"
-msgstr "Kar fiyatını daha sonra sınır fiyatı almalı"
+msgstr "Kar alma fiyatı limit fiyatının üzerinde olmalıdır"
 
 msgid "Stop loss price should be more then limit price"
-msgstr "Stop loss fiyatı daha sonra limit fiyat olmalıdır"
+msgstr "Stop loss fiyatı limit fiyatının üzerinde olmalıdır"
 
 msgid "Take profit price should be less then limit price"
-msgstr "Kar fiyatını sınırlamak daha düşük fiyat olmalıdır"
+msgstr "Kar alma fiyatı limit fiyatının altında olmalıdır"
 
 msgid "Market if touched"
 msgstr "Dokunulduğunda pazar"
@@ -59,22 +59,22 @@ msgid "Market"
 msgstr "Piyasa"
 
 msgid "Stop loss price should be less then market ask price"
-msgstr "Stop loss fiyatı piyasa fiyatından daha az olmalı"
+msgstr "Stop loss fiyatı, piyasa satış fiyatının altında olmalıdır"
 
 msgid "Take profit price should be more then market ask price"
-msgstr "Kar fiyatını al, daha sonra piyasa fiyatı sor"
+msgstr "Kar alma fiyatı, piyasa satış fiyatının altında olmalıdır"
 
 msgid "Stop loss price should be more then market bid price"
 msgstr "Stop loss fiyatı, daha sonra piyasa teklif fiyatı olmalıdır"
 
 msgid "Take profit price should be less then market bid price"
-msgstr "Kâr fiyatının piyasa fiyatından daha az olması gerekir"
+msgstr "Kâr alma fiyatın piyasa alış fiyatının altında olmalıdır"
 
 msgid "Time in force"
 msgstr "Geçerlilik süresi"
 
 msgid "Expiration"
-msgstr "Süre"
+msgstr "Vade"
 
 msgid "Side"
 msgstr "Yön"
@@ -86,7 +86,7 @@ msgid "Quantity"
 msgstr "Miktar"
 
 msgid "Total"
-msgstr "toplam"
+msgstr "Toplam"
 
 msgid "Stop limit"
 msgstr "Durdurma limiti"
@@ -95,16 +95,16 @@ msgid "Stop"
 msgstr "Durdur"
 
 msgid "Stop loss price should be less then trigger price"
-msgstr "Stop kaybı fiyat daha az sonra tetik fiyat olmalıdır"
+msgstr "Stop loss fiyatı tetik fiyatının altında olmalıdır"
 
 msgid "Take profit price should be more then trigger price"
-msgstr "Kar fiyat alın daha sonra tetik fiyat olmalıdır"
+msgstr "Kar alma fiyatı tetik fiyatının üzerinde olmalıdır"
 
 msgid "Stop loss price should be more then trigger price"
-msgstr "Stop kaybı fiyat daha sonra tetik fiyat olmalıdır"
+msgstr "Stop loss fiyatı tetik fiyatının üzerinde olmalıdır"
 
 msgid "Take profit price should be less then trigger price"
-msgstr "Kar fiyat almak daha az sonra tetik fiyat olmalıdır"
+msgstr "Kar alma fiyatı tetik fiyatının altında olmalıdır"
 
 msgid "Trailing Stop"
 msgstr "Sondaki Durak"
@@ -113,7 +113,7 @@ msgid "Trailing offset"
 msgstr "Sondaki uzaklık"
 
 msgid "Unspecified"
-msgstr "belirtilmemiş"
+msgstr "Belirtilmemiş"
 
 msgid "Pending"
 msgstr "Bekliyor"
@@ -191,46 +191,46 @@ msgid "Tick direction"
 msgstr "Tick yönü"
 
 msgid "Loading sessions..."
-msgstr "Yükleme seansları..."
+msgstr "Oturumlar yükleniyor..."
 
 msgid "Loading exchanges..."
-msgstr "Yükleme değişimleri..."
+msgstr "Borsalar yükleniyor..."
 
 msgid "Loading symbol groups..."
-msgstr "Yükleme sembol grupları..."
+msgstr "Sembol grupları yükleniyor..."
 
 msgid "Loading order types..."
-msgstr "Yükleme sipariş idesleri..."
+msgstr "Sipariş tipleri yükleniyor..."
 
 msgid "Loading assets..."
 msgstr "Varlıklar yükleniyor..."
 
 msgid "Loading accounts..."
-msgstr "Hesaplar yükleniyor"
+msgstr "Hesaplar yükleniyor..."
 
 msgid "Loading symbols..."
-msgstr "Enstrümanlar yükleniyor"
+msgstr "Enstrümanlar yükleniyor..."
 
 msgid "Loading rules..."
-msgstr "Kurallar yükleniyor"
+msgstr "Kurallar yükleniyor..."
 
 msgid "Loading positions..."
 msgstr "Pozisyonlar yükleniyor"
 
 msgid "Loading closed positions..."
-msgstr "Kapalı pozisyonları yükleme..."
+msgstr "Kapalı pozisyonlar yükleniyor..."
 
 msgid "Loading reports..."
-msgstr "Raporlar yükleniyor"
+msgstr "Raporlar yükleniyor..."
 
 msgid "Loading orders..."
-msgstr "Emirler yükleniyor"
+msgstr "Emirler yükleniyor..."
 
 msgid "Loading account operations..."
-msgstr "Hesap işlemlerini yükleme..."
+msgstr "Hesap işlemlerini yükleniyor..."
 
 msgid "Processing messages..."
-msgstr "İletileri işleme..."
+msgstr "İletileri işleniyor..."
 
 msgid "Value"
 msgstr "Değer"
@@ -320,7 +320,7 @@ msgid "Dash dot"
 msgstr "Çizgi nokta"
 
 msgid "Histogramm"
-msgstr "Histogramm"
+msgstr "Histogram"
 
 msgid "Points"
 msgstr "Noktalar"
@@ -729,13 +729,13 @@ msgid "Press Esc to exit Fullscreen mode"
 msgstr "Tam ekran modundan çıkmak için Esc tuşuna basın"
 
 msgid "HISTORICAL SYMBOL"
-msgstr "Tarihsel sembol"
+msgstr "TARİHSEL SEMBOL"
 
 msgid "EMULATOR"
-msgstr "Emülatör"
+msgstr "EMÜLATÖR"
 
 msgid "SIMULATOR"
-msgstr "Simülatörü"
+msgstr "SİMULATÖR"
 
 msgid "REPLAY"
 msgstr "Replay"
@@ -837,7 +837,7 @@ msgid "Use custom tick size"
 msgstr "Özel onay boyutu kullanma"
 
 msgid "Custom tick size"
-msgstr "Özel kene boyutu"
+msgstr "Özel tick boyutu"
 
 msgid "Time zone"
 msgstr "Zaman dilimi"
@@ -913,7 +913,7 @@ msgid "Change, %"
 msgstr "Değiştir %"
 
 msgid "Ch"
-msgstr "Caner"
+msgstr "Ch"
 
 msgid "Ticks"
 msgstr "Tikler"
@@ -985,7 +985,7 @@ msgid "Fit indicators"
 msgstr "Göstergeleri sığdır"
 
 msgid "Fit orders/positions"
-msgstr "emirleri/pozisyonları sığdır"
+msgstr "Emirleri/pozisyonları sığdır"
 
 msgid "Fit drawings"
 msgstr "Çizimleri sığdır"
@@ -1015,7 +1015,7 @@ msgid "Axis"
 msgstr "Eksen"
 
 msgid "Axis background"
-msgstr "eksen arka planı"
+msgstr "Eksen arka planı"
 
 msgid "Week"
 msgstr "Hafta"
@@ -1170,7 +1170,7 @@ msgid "Middle"
 msgstr "Orta"
 
 msgid "Large"
-msgstr "büyük"
+msgstr "Büyük"
 
 msgid "Size"
 msgstr "Büyüklük"
@@ -1712,7 +1712,7 @@ msgid "Label location"
 msgstr "Etiket yeri"
 
 msgid "Degree"
-msgstr "derece"
+msgstr "Derece"
 
 msgid "Left ray"
 msgstr "Sol ışın"
@@ -1739,10 +1739,10 @@ msgid "Background"
 msgstr "Arka Plan"
 
 msgid "Angles"
-msgstr "açılar"
+msgstr "Açılar"
 
 msgid "Mirrored"
-msgstr "aynalı"
+msgstr "Aynalı"
 
 msgid "Custom text"
 msgstr "Özel metin"
@@ -1829,7 +1829,7 @@ msgid "Border"
 msgstr "Sınır"
 
 msgid "Bottom"
-msgstr "dip"
+msgstr "Dip"
 
 msgid "Top"
 msgstr "Sayfanın Üstü"
@@ -2055,7 +2055,7 @@ msgid "Candle"
 msgstr "Mum"
 
 msgid "Dotes"
-msgstr "dotes"
+msgstr "Noktalar"
 
 msgid "Dotted line"
 msgstr "Noktalı Çizgi"
@@ -2064,10 +2064,10 @@ msgid "Quantower"
 msgstr "Quantower"
 
 msgid "P&F"
-msgstr "PnF"
+msgstr "P&F"
 
 msgid "Kagi line"
-msgstr "Kagi"
+msgstr "Kagi çizgisi"
 
 msgid "Lines break"
 msgstr "Çizgiler kırmak"
@@ -2179,7 +2179,7 @@ msgid "Object manager"
 msgstr "Nesne yöneticisi"
 
 msgid "Aggregation"
-msgstr "toplama"
+msgstr "Toplama"
 
 msgid "Range"
 msgstr "Aralık"
@@ -2230,7 +2230,7 @@ msgid "Gann Box"
 msgstr "Gann Kutusu"
 
 msgid "Patterns"
-msgstr "desenler"
+msgstr "Desenler"
 
 msgid "Head & Shoulders"
 msgstr "Baş ve Omuzlar"
@@ -2934,7 +2934,7 @@ msgid "Gradient"
 msgstr "Gradyen"
 
 msgid "Gradient/Histogram"
-msgstr "Degrade/Histogram"
+msgstr "Gradyan/Histogram"
 
 msgid "Size coloring scheme"
 msgstr "Büyüklük renklendirme şeması"
@@ -3060,19 +3060,19 @@ msgid "Close positive positions"
 msgstr "Pozitif pozisyonları kapat"
 
 msgid "Close long positions"
-msgstr "Yakın uzun pozisyonlar"
+msgstr "Long pozisyonunu kapat"
 
 msgid "Close short positions"
-msgstr "Kısa pozisyonları kapatın"
+msgstr "Short pozisyonunu kapat"
 
 msgid "Place Buy Market order"
-msgstr "Place Buy Market siparişi"
+msgstr "Alış piyasa emri yerleştir"
 
 msgid "Place Sell Market order"
-msgstr "Yer Satış Pazarı siparişi"
+msgstr "Satış piyasa emri yerleştir"
 
 msgid "Close position by symbol"
-msgstr "Simgeye göre yakın konum"
+msgstr "Simgeye göre pozisyon kapat"
 
 msgid "Compact"
 msgstr "Kompakt"
@@ -3162,7 +3162,7 @@ msgid "Are you sure you want to delete this condition?"
 msgstr "Bu koşulu silmek istediğinizden emin misiniz?"
 
 msgid "Multiple per side"
-msgstr "Yan başına birden fazla"
+msgstr "Yön başına birden fazla"
 
 msgid "One Position"
 msgstr "Tek Pozisyon"
@@ -3262,7 +3262,7 @@ msgid "Are you sure want to remove this level?"
 msgstr "Bu seviyeyi kaldırmak istediğinizden emin misiniz?"
 
 msgid "Use saved tokens"
-msgstr "Kaydedilmiş belirteçleri kullanma"
+msgstr "Kaydedilmiş Token'ları kullan"
 
 msgid "Alert target in $"
 msgstr "Uyarı hedefi $"
@@ -3277,7 +3277,7 @@ msgid "Custom sessions"
 msgstr "Özel oturumlar"
 
 msgid "No custom sessions were set up."
-msgstr "Özel oturumlar ayarlmandı."
+msgstr "Özel oturumlar ayarlanmandı."
 
 msgid "Incorrect sessions."
 msgstr "Yanlış oturumlar."
@@ -3517,7 +3517,7 @@ msgid "Timeout (min)"
 msgstr "Zaman arası (dk)"
 
 msgid "PIN"
-msgstr "Pin"
+msgstr "PIN"
 
 msgid "Slippage, ticks"
 msgstr "Kayma"
@@ -3529,16 +3529,16 @@ msgid "Confirm order cancellation"
 msgstr "Emir iptalini onayla"
 
 msgid "Confirm order/position modification"
-msgstr "EMir/pozisyon modifikasyonunu onayla"
+msgstr "Emir/pozisyon modifikasyonunu onayla"
 
 msgid "Confirm position reversing"
 msgstr "Pozisyonun tersine çevrilmesini onayla"
 
 msgid "Confirm application close"
-msgstr "Uygulamayı kapat Onayla"
+msgstr "Uygulamayı kapatmayı onayla"
 
 msgid "Confirm bind close"
-msgstr "Bağın kapanacağını Onayla"
+msgstr "Bağın kapanacağını onayla"
 
 msgid "Warn if close TSL with active strategies"
 msgstr "Aktif stratejileri olan TSL kapanışlarında uyar"
@@ -3562,7 +3562,7 @@ msgid "Custom argument separator"
 msgstr "Özel bağımsız değişken ayırıcısı"
 
 msgid "Telegram"
-msgstr "Telgraf"
+msgstr "Telegram"
 
 msgid "Duplicate alerts to Telegram"
 msgstr "Telegram için yinelenen uyarılar"
@@ -3661,7 +3661,7 @@ msgid "Gets nearest trading day open time"
 msgstr "En yakın işlem günü açık saatini alır"
 
 msgid "Next market close time"
-msgstr "Bir sonraki pazar kapanış saati"
+msgstr "Bir sonraki piyasa kapanış saati"
 
 msgid "Gets nearest trading day close time"
 msgstr "En yakın işlem günü kapanış saatini alır"
@@ -3835,7 +3835,7 @@ msgid "Volume analysis step (ticks)"
 msgstr "Ses analizi adımı (onaylar)"
 
 msgid "Margin"
-msgstr "Marj"
+msgstr "Marjin"
 
 msgid "Account activity"
 msgstr "Hesap haraketliliği"
@@ -3880,7 +3880,7 @@ msgid "Last price"
 msgstr "Son fiyat"
 
 msgid "Connection"
-msgstr "bağlantı"
+msgstr "Bağlantı"
 
 msgid "Allow change leverage"
 msgstr "Değişiklik kaldıracına izin ver"
@@ -3913,19 +3913,19 @@ msgid "Secret key"
 msgstr "Gizli anahtar"
 
 msgid "Rest api url not founded."
-msgstr "Rest api url kurulmamasın."
+msgstr "Rest api url bulunamadı."
 
 msgid "Market data connection. Trading coming soon."
-msgstr "Pazar veri bağlantısı. Ticaret yakında geliyor."
+msgstr "Piyasa veri bağlantısı. Ticaret yakında geliyor."
 
 msgid "Can't connect via socket"
 msgstr "Soket üzerinden bağlanamıyor"
 
 msgid "Allow margin trading"
-msgstr "Kenar boşluğu ticaretine izin ver"
+msgstr "Marjin ticaretine izin ver"
 
 msgid "Minimum margin"
-msgstr "Minimum kenar boşluğu"
+msgstr "Minimum Marjin"
 
 msgid "Index"
 msgstr "Dizin"
@@ -4015,7 +4015,7 @@ msgid "Your total equity held with the exchange. Margin balance = (Balance + Unr
 msgstr "Borsada tutulan toplam özsermayeniz. Marj bakiyesi = (Bakiye + Gerçekleşmemiş PNL)"
 
 msgid "Position Margin"
-msgstr "Pozisyon Marjı"
+msgstr "Pozisyon Marjini"
 
 msgid "The minimum equity you must retain with the exchange to keep your positions. "
 msgstr "Pozisyonlarınızı korumak için değişimde tutmanız gereken minimum özkaynak. "
@@ -4042,7 +4042,7 @@ msgid "Conditional limit"
 msgstr "Koşullu sınır"
 
 msgid "Conditional market"
-msgstr "Şartlı pazar"
+msgstr "Şartlı piyasa"
 
 msgid "Index price"
 msgstr "Endeks fiyatı"
@@ -4054,10 +4054,10 @@ msgid "Min price"
 msgstr "En az fiyat"
 
 msgid "Maker fee"
-msgstr "Maker ücreti"
+msgstr "Piyasa Yapıcı ücreti"
 
 msgid "Taker fee"
-msgstr "Alıcı ücreti"
+msgstr "Piyasa Alıcı ücreti"
 
 msgid "Max leverage"
 msgstr "Maksimum kaldıraç"
@@ -4093,7 +4093,7 @@ msgid "Pre-occupied order margin"
 msgstr "Önceden dolu sipariş marjı"
 
 msgid "Position margin"
-msgstr "Konum kenar boşluğu"
+msgstr "Marjin pozisyonu"
 
 msgid "Position closing fee occupied"
 msgstr "Pozisyon kapatma ücreti dolu"
@@ -4576,13 +4576,13 @@ msgid "TargetCompId"
 msgstr "HedefCompid"
 
 msgid "Orders history"
-msgstr "Emir kaydı"
+msgstr "Emir geçmişi"
 
 msgid "Trades history"
 msgstr "İşlem geçmişi"
 
 msgid "Transactions history"
-msgstr "İşlemgeçmişi"
+msgstr "İşlem geçmişi"
 
 msgid "Order ID"
 msgstr "Emir No"
@@ -4594,7 +4594,7 @@ msgid "Created"
 msgstr "Oluşturuldu"
 
 msgid "Updated"
-msgstr "Güncel -leştirilmiş"
+msgstr "Güncellendi"
 
 msgid "Duration"
 msgstr "Süre"
@@ -4627,7 +4627,7 @@ msgid "Available"
 msgstr "Kullanılabilir"
 
 msgid "Used for margin"
-msgstr "Kenar boşluğu için kullanılır"
+msgstr "Marjin için kullanılır"
 
 msgid "Margin utilization"
 msgstr "Marj kullanımı"
@@ -4651,7 +4651,7 @@ msgid "Destination Account"
 msgstr "Hedef Hesabı"
 
 msgid "Coin"
-msgstr "Sikke"
+msgstr "Coin"
 
 msgid "Deposit history"
 msgstr "Mevduat geçmişi"
@@ -4714,13 +4714,13 @@ msgid "Account scheme"
 msgstr "Hesap düzeni"
 
 msgid "WARNING!!! This option can cause a significant delay during the trading"
-msgstr "uyarı!!! Bu seçenek işlem sırasında önemli bir gecikmeye neden olabilir"
+msgstr "UYARI!!! Bu seçenek işlem sırasında önemli bir gecikmeye neden olabilir"
 
 msgid "Token"
-msgstr "Belirte -ci"
+msgstr "Token"
 
 msgid "Access token is empty."
-msgstr "Erişim belirteci boştur."
+msgstr "Erişim Token'i boştur."
 
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "Tüm açık pozisyonların karı ve zararı dahil olmak üzere hesaptaki fon tutarı (hesabın kayan bakiyesi)."
@@ -4768,7 +4768,7 @@ msgid "Allow to sell"
 msgstr "Satmaya izin ver"
 
 msgid "The usage of the sell price. It defines whether the sell price of the instrument is available for trading or not."
-msgstr "Satış fiyatının kullanımı."
+msgstr "Satış fiyatının kullanımı. Bu senetin satış fiyatının ticaret için uygun olup olmadığını belirler."
 
 msgid "Allow to buy"
 msgstr "Satın almama izin ver"
@@ -4801,7 +4801,7 @@ msgid "Currencies"
 msgstr "Kurlar"
 
 msgid "FX Indices"
-msgstr "Döviz Endeksleri"
+msgstr "FX Endeksleri"
 
 msgid "Indices"
 msgstr "Endeksler"
@@ -5047,7 +5047,7 @@ msgid "Margin call"
 msgstr "Marj çağrısı"
 
 msgid "Margin stop"
-msgstr "Kenar boşluğu durdurma"
+msgstr "Marjin durdurma"
 
 msgid "Fee volume currency"
 msgstr "Ücret birim para birimi"
@@ -5119,7 +5119,7 @@ msgid "Crypto"
 msgstr "Kripto"
 
 msgid "ISIN"
-msgstr "ısin"
+msgstr "ISIN"
 
 msgid "International Securities Identification Number"
 msgstr "Uluslararası Menkul Kıymetler Kimlik Numarası"
@@ -5774,10 +5774,10 @@ msgid "Requesting token from market data API..."
 msgstr "Piyasa verileri API'den belirteç isteniyor..."
 
 msgid "Requesting token from trading API..."
-msgstr "İşlem API'sinden belirteç isteyen..."
+msgstr "İşlem API'sinden Token isteniyor..."
 
 msgid "Initializing quotes socket..."
-msgstr "Tırnak soketi başlatma..."
+msgstr "Tırnak soketi başlatılıyor..."
 
 msgid "Initializing trade socket..."
 msgstr "Ticaret soketinin başlatılması..."
@@ -5795,7 +5795,7 @@ msgid "UnrealizedMTM"
 msgstr "Gerçekleşmemiş MTM"
 
 msgid "cashAvailable"
-msgstr "cashKullanılabilir"
+msgstr "hKullanılabilirNakit"
 
 msgid "collateral"
 msgstr "Teminat"
@@ -5804,16 +5804,16 @@ msgid "marginUtilized"
 msgstr "marginUtilized"
 
 msgid "netMarginAvailable"
-msgstr "netMarginMevcut"
+msgstr "MevcutnetMargin"
 
 msgid "BuyExposureFuturesLimit"
-msgstr "Satın AlmaExposureFuturesLimit"
+msgstr "AlışPozlamaVadeliLimiti"
 
 msgid "BuyExposureLimit"
-msgstr "Satın AlmaExposureLimit"
+msgstr "AlışPozlamaLimiti"
 
 msgid "BuyExposureOptionsLimit"
-msgstr "Satın AlmaExposureOptionsLimit"
+msgstr "AlışPozlamaAyarlarıLimiti"
 
 msgid "CNCLimit"
 msgstr "CNCLimit"
@@ -5828,13 +5828,13 @@ msgid "MTMLossLimitPresent"
 msgstr "MTMLossLimitPresent"
 
 msgid "SellExposureFuturesLimit"
-msgstr "SellExposureFuturesLimit"
+msgstr "SatışPozlamaVadeliLimiti"
 
 msgid "SellExposureLimit"
-msgstr "SellExposureLimit"
+msgstr "SatışPozlamaLimiti"
 
 msgid "SellExposureOptionsLimit"
-msgstr "SellExposureOptionsLimit"
+msgstr "SatışPozlamaAyarlarıLimiti"
 
 msgid "TurnoverLimitPresent"
 msgstr "TurnoverLimitPresent"
@@ -5855,10 +5855,10 @@ msgid "GrossExposureLimitPresent"
 msgstr "Brüt PozlamaLimitPresent"
 
 msgid "LimitUsed"
-msgstr "LimitUsed"
+msgstr "KullanılanLimit"
 
 msgid "MarginUsed"
-msgstr "Kullanılan Kenar Boşluğu"
+msgstr "KullanılanMarjin"
 
 msgid "SellExposureLimitPresent"
 msgstr "SellExposureLimitPresent"
