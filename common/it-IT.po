@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 13:21+0300\n"
+"POT-Creation-Date: 2022-02-01 22:56+0200\n"
 "PO-Revision-Date: 2018-12-04 15:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -27,6 +27,12 @@ msgstr "Fermato"
 
 msgid "Completed"
 msgstr "Completato"
+
+msgid "Basic"
+msgstr "Basico"
+
+msgid "Ln"
+msgstr "Ln"
 
 msgid "Limit if touched"
 msgstr "Limita se toccato"
@@ -115,9 +121,6 @@ msgstr "Offset finale"
 msgid "Unspecified"
 msgstr "Non specificato"
 
-msgid "Pending"
-msgstr "in attesa di"
-
 msgid "Opened"
 msgstr "Aperto"
 
@@ -127,20 +130,14 @@ msgstr "Parzialmente riempito"
 msgid "Filled"
 msgstr "pieno"
 
-msgid "Canceled"
+msgid "Cancelled"
 msgstr "Annullato"
 
 msgid "Refused"
 msgstr "rifiutato"
 
-msgid "Modified"
-msgstr "Modificata"
-
 msgid "Inactive"
 msgstr "Inattivo"
-
-msgid "Working"
-msgstr "Lavoro"
 
 msgid "Default"
 msgstr "Predefinito"
@@ -289,12 +286,6 @@ msgstr "Demo"
 msgid "Real"
 msgstr "Reale"
 
-msgid "SL"
-msgstr "SL"
-
-msgid "TP"
-msgstr "TP"
-
 #, csharp-format
 msgid "Data series #{0}"
 msgstr "Serie di dati # {0}"
@@ -306,6 +297,12 @@ msgstr "serie di dati ' {0}'"
 #, csharp-format
 msgid "Level data series #{0}"
 msgstr "Serie di dati di livello # {0}"
+
+msgid "Instance name"
+msgstr "Nome dell'istanza"
+
+msgid "General"
+msgstr "Generale"
 
 msgid "Solid"
 msgstr "Solido"
@@ -463,6 +460,9 @@ msgstr "Mostra etichetta riga"
 msgid "Font"
 msgstr "Font"
 
+msgid "Loading data..."
+msgstr "Caricamento dei dati in corso..."
+
 msgid "Line style"
 msgstr "Stile linea"
 
@@ -538,6 +538,15 @@ msgstr "alto"
 msgid "Enable alert"
 msgstr "Abilita avviso"
 
+msgid "Data type"
+msgstr "Tipo di dati"
+
+msgid "Cumulative"
+msgstr "Cumulativo"
+
+msgid "Imbalance, %"
+msgstr "Squilibrio, %"
+
 msgid "Histogram colors"
 msgstr "Colori istogramma"
 
@@ -549,6 +558,51 @@ msgstr "Evidenziare i valori più di"
 
 msgid "Color"
 msgstr "Colore"
+
+msgid "Stop loss"
+msgstr "Stop alla perdita"
+
+msgid "Take profit"
+msgstr "Prendere profitto"
+
+msgid "Is trailing"
+msgstr "È in ritardo"
+
+msgid "Simple"
+msgstr "semplice"
+
+msgid "Advanced"
+msgstr "Avanzato"
+
+msgid "Offset"
+msgstr "Compensare"
+
+msgid "Percentage"
+msgstr "Percentuale"
+
+msgid "Absolute"
+msgstr "Assoluto"
+
+msgid "Measurement"
+msgstr "Misurazione"
+
+msgid "Mode"
+msgstr "Modalità"
+
+msgid "Used order type"
+msgstr "Tipo di ordine utilizzato"
+
+msgid "Initial"
+msgstr "Iniziale"
+
+msgid "Whole position"
+msgstr "Intera posizione"
+
+msgid "Close quantity"
+msgstr "Chiudi quantità"
+
+msgid "Release time"
+msgstr "Tempo di rilascio"
 
 msgid "MIS"
 msgstr "Mis"
@@ -692,6 +746,9 @@ msgstr "Applica modello"
 msgid "Set as default"
 msgstr "Imposta come predefinito"
 
+msgid "Always On Top"
+msgstr "Sempre in cima"
+
 msgid "Setup Actions"
 msgstr "Azioni di configurazione"
 
@@ -706,9 +763,6 @@ msgstr "Aiuto"
 
 msgid "Settings"
 msgstr "impostazioni"
-
-msgid "Always On Top"
-msgstr "Sempre in cima"
 
 msgid "Actions"
 msgstr "Azioni"
@@ -847,9 +901,6 @@ msgstr "Mostra fuori dalla cronologia delle sessioni"
 
 msgid "Symbol"
 msgstr "Simbolo"
-
-msgid "Data type"
-msgstr "Tipo di dati"
 
 msgid "Main scale"
 msgstr "Scala principale"
@@ -990,9 +1041,6 @@ msgstr "Adatta ordini / posizioni"
 msgid "Fit drawings"
 msgstr "Montare i disegni"
 
-msgid "Absolute"
-msgstr "Assoluto"
-
 msgid "Relative"
 msgstr "Relativo"
 
@@ -1065,6 +1113,164 @@ msgstr "Tempo (verticale)"
 msgid "Time scale"
 msgstr "Scala temporale"
 
+msgid "No level1 quote"
+msgstr "Nessun preventivo di livello1"
+
+#, csharp-format
+msgid "Buy {0} {1}"
+msgstr "Acquista {0} {1}"
+
+#, csharp-format
+msgid "Sell {0} {1}"
+msgstr "Vendi {0} {1}"
+
+msgid "Synchronizing trades"
+msgstr "Sincronizzazione delle scambi"
+
+msgid "Modify"
+msgstr "Modificare"
+
+msgid "Modify SL to breakeven"
+msgstr "Modifica SL per pareggio"
+
+msgid "Cancel"
+msgstr "Annulla"
+
+msgid "Change to Market"
+msgstr "Passare al mercato"
+
+msgid "Trade through Order entry"
+msgstr "Commercio attraverso l'inserimento dell'ordine"
+
+msgid "Single order"
+msgstr "Ordine singolo"
+
+msgid "Multiple orders"
+msgstr "Più ordini"
+
+msgid "Mouse trading mode"
+msgstr "Modalità di trading del mouse"
+
+msgid "Trading zone color"
+msgstr "Colore della zona di trading"
+
+msgid "Show orders"
+msgstr "Mostra ordini"
+
+msgid "Show positions"
+msgstr "Mostra posizioni"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "PnL type:"
+msgstr "Tipo PnL:"
+
+msgid "Show Stop loss & Take profit"
+msgstr "Mostra Stop loss & Take profit"
+
+msgid "Tile background"
+msgstr "Sfondo del riquadro"
+
+msgid "Tile color"
+msgstr "Colore delle piastrelle"
+
+msgid "Tile hovered color"
+msgstr "Colore del riquadro sospeso"
+
+msgid "Tile font color"
+msgstr "Colore del carattere del riquadro"
+
+msgid "Text"
+msgstr "Testo"
+
+msgid "Tile hovered text color"
+msgstr "Colore del testo passato al riquadro"
+
+msgid "Show price label"
+msgstr "Mostra l'etichetta del prezzo"
+
+msgid "Price label background"
+msgstr "Sfondo dell'etichetta del prezzo"
+
+msgid "Price label font color"
+msgstr "Colore del carattere dell'etichetta del prezzo"
+
+msgid "Show price scale marker"
+msgstr "Mostra indicatore della scala dei prezzi"
+
+msgid "Price scale marker color"
+msgstr "Colore marcatore scala prezzi"
+
+msgid "Price scale marker font color"
+msgstr "Colore del carattere dell'indicatore della scala dei prezzi"
+
+msgid "Show price line"
+msgstr "Mostra linea di prezzo"
+
+msgid "Price line style"
+msgstr "Stile della linea di prezzo"
+
+msgid "Show trades"
+msgstr "Mostra mestieri"
+
+msgid "Marker color"
+msgstr "Colore dell'indicatore"
+
+msgid "Marker"
+msgstr "marcatore"
+
+msgid "Marker + Label"
+msgstr "Marcatore + Etichetta"
+
+msgid "Display type"
+msgstr "Tipo di visualizzazione"
+
+msgid "Small"
+msgstr "piccolo"
+
+msgid "Middle"
+msgstr "mezzo"
+
+msgid "Large"
+msgstr "grande"
+
+msgid "Size"
+msgstr "Dimensione"
+
+msgid "Label Buy style"
+msgstr "Stile acquisto etichette"
+
+msgid "Label Sell style"
+msgstr "Stile vendita etichette"
+
+msgid "Tile colors"
+msgstr "Colori delle piastrelle"
+
+msgid "Tile hovered colors"
+msgstr "Colori del riquadro sospesi"
+
+msgid "Tile font colors"
+msgstr "Colori dei caratteri dei riquadri"
+
+msgid "Tile hovered text colors"
+msgstr "Colori del testo con il riquadro sospeso"
+
+msgid "Price label font"
+msgstr "Carattere dell'etichetta del prezzo"
+
+msgid "Price scale marker colors"
+msgstr "Colori marcatori scala prezzi"
+
+msgid "Price scale marker font"
+msgstr "Carattere marcatore scala prezzi"
+
+msgid "Price scale marker font colors"
+msgstr "Colori dei caratteri marcatori della scala dei prezzi"
+
+msgid "Price line colors"
+msgstr "Colori della linea di prezzo"
+
 msgid "Stroke color"
 msgstr "Colore del tratto"
 
@@ -1095,94 +1301,44 @@ msgstr "Bloccare la posizione"
 msgid "Font size"
 msgstr "Dimensione del font"
 
+msgid "Bars"
+msgstr "Bar"
+
+msgid "Price, %"
+msgstr "Prezzo, %"
+
+msgid "Price range"
+msgstr "Fascia di prezzo"
+
+msgid "Line"
+msgstr "Linea"
+
+msgid "Background"
+msgstr "sfondo"
+
+msgid "Labels font"
+msgstr "Carattere Etichette"
+
+msgid "Values font"
+msgstr "Carattere Valori"
+
+msgid "Info area backbround"
+msgstr "Area informazioni backbround"
+
+msgid "Labels"
+msgstr "Etichette"
+
+msgid "Values"
+msgstr "Valori"
+
+msgid "Info area style"
+msgstr "Stile dell'area informazioni"
+
+msgid "Values to show"
+msgstr "Valori da mostrare"
+
 msgid "Availability"
 msgstr "Disponibilità"
-
-#, csharp-format
-msgid "Buy {0}"
-msgstr "Acquista {0}"
-
-#, csharp-format
-msgid "Sell {0}"
-msgstr "Vendi {0}"
-
-msgid "Synchronizing trades"
-msgstr "Sincronizzazione delle scambi"
-
-msgid "Modify"
-msgstr "Modificare"
-
-msgid "Modify SL to breakeven"
-msgstr "Modifica SL per pareggio"
-
-msgid "Cancel"
-msgstr "Annulla"
-
-msgid "Change to Market"
-msgstr "Passare al mercato"
-
-msgid "Show positions"
-msgstr "Mostra posizioni"
-
-msgid "Currency"
-msgstr "Valuta"
-
-msgid "PnL type:"
-msgstr "Tipo PnL:"
-
-msgid "Show orders"
-msgstr "Mostra ordini"
-
-msgid "Trade through Order entry"
-msgstr "Commercio attraverso l'inserimento dell'ordine"
-
-msgid "Single order"
-msgstr "Ordine singolo"
-
-msgid "Multiple orders"
-msgstr "Più ordini"
-
-msgid "Mouse trading mode"
-msgstr "Modalità di trading del mouse"
-
-msgid "Trades"
-msgstr "Mestieri"
-
-msgid "Show trades"
-msgstr "Mostra mestieri"
-
-msgid "Marker color"
-msgstr "Colore dell'indicatore"
-
-msgid "Marker"
-msgstr "marcatore"
-
-msgid "Marker + Label"
-msgstr "Marcatore + Etichetta"
-
-msgid "Display type"
-msgstr "Tipo di visualizzazione"
-
-msgid "Small"
-msgstr "piccolo"
-
-msgid "Middle"
-msgstr "mezzo"
-
-msgid "Large"
-msgstr "grande"
-
-msgid "Size"
-msgstr "Dimensione"
-
-msgid "Text"
-msgstr "Testo"
-
-msgid "Label Buy style"
-msgstr "Stile acquisto etichette"
-
-msgid "Label Sell style"
-msgstr "Stile vendita etichette"
 
 msgid "Imbalance ratio"
 msgstr "Rapporto di squilibrio"
@@ -1268,9 +1424,6 @@ msgstr "Tipo di calcolo delta"
 msgid "Cumulative Delta reset"
 msgstr "Reimpostazione cumulativa delta"
 
-msgid "General"
-msgstr "Generale"
-
 msgid "Cluster"
 msgstr "Grappolo"
 
@@ -1310,14 +1463,20 @@ msgstr "OHLC/4"
 msgid "Price type"
 msgstr "Tipo di prezzo"
 
+msgid "VWAP line"
+msgstr "Linea VWAP"
+
+msgid "Forward extensions"
+msgstr "Estensioni in avanti"
+
+msgid "Enable forward extensions"
+msgstr "Abilitare le estensioni in avanti"
+
 msgid "Forward extensions (past VWAPs)"
 msgstr "Estensioni in avanti (VWP precedenti)"
 
 msgid "Forward extensions type"
 msgstr "Tipo di estensioni in avanti"
-
-msgid "VWAP line"
-msgstr "Linea VWAP"
 
 msgid "Standart deviation"
 msgstr "Deviazione Standart"
@@ -1534,9 +1693,6 @@ msgstr "Colore stoppino"
 msgid "Doji"
 msgstr "Doji"
 
-msgid "Line"
-msgstr "Linea"
-
 msgid "Area"
 msgstr "La zona"
 
@@ -1735,9 +1891,6 @@ msgstr "Flottante sinistro"
 msgid "Floating right"
 msgstr "Flottante destro"
 
-msgid "Background"
-msgstr "sfondo"
-
 msgid "Angles"
 msgstr "angoli"
 
@@ -1756,6 +1909,12 @@ msgstr "Colori degli utensili"
 msgid "Tool color"
 msgstr "Colore dello strumento"
 
+msgid "TP"
+msgstr "TP"
+
+msgid "SL"
+msgstr "SL"
+
 msgid "Long"
 msgstr "Lungo"
 
@@ -1773,12 +1932,6 @@ msgstr "Posizione etichetta"
 
 msgid "Center"
 msgstr "Centro"
-
-msgid "Take profit"
-msgstr "Prendere profitto"
-
-msgid "Stop loss"
-msgstr "Stop alla perdita"
 
 msgid "Regression Line"
 msgstr "Linea di regressione"
@@ -1868,9 +2021,6 @@ msgstr "Raggio POC"
 
 msgid "Waiting for data loading"
 msgstr "In attesa del caricamento dei dati"
-
-msgid "Loading data..."
-msgstr "Caricamento dei dati in corso..."
 
 msgid "No data"
 msgstr "Nessun dato"
@@ -2087,6 +2237,12 @@ msgstr "Tenere premuto CTRL per effettuare più ordini"
 msgid "Hold CTRL key to add more drawings"
 msgstr "Tenere premuto CTRL per aggiungere altri disegni"
 
+msgid "Reduce-Only active"
+msgstr "Riduci solo attivo"
+
+msgid "Reduce-Only not allowed"
+msgstr "Riduci-Solo non consentito"
+
 msgid "Data is loading..."
 msgstr "I dati si stanno caricando..."
 
@@ -2274,9 +2430,6 @@ msgstr "VWAP personalizzato"
 msgid "Day high/low"
 msgstr "Giorno alto / basso"
 
-msgid "Price range"
-msgstr "Fascia di prezzo"
-
 msgid "Grid time"
 msgstr "Tempo della griglia"
 
@@ -2354,14 +2507,35 @@ msgstr "Divario di dati:"
 msgid "Waiting for quote..."
 msgstr "In attesa di preventivo..."
 
+msgid "Histogram aligment"
+msgstr "Aligment istogramma"
+
+msgid "Custom back color"
+msgstr "Colore posteriore personalizzato"
+
 msgid "Buy color"
 msgstr "Acquista colore"
 
 msgid "Sell color"
 msgstr "Vendi colore"
 
+msgid "Cumulative aligment"
+msgstr "Aligment cumulativo"
+
+msgid "Cumulative Buy color"
+msgstr "Colore di acquisto cumulativo"
+
+msgid "Cumulative Sell color"
+msgstr "Colore di vendita cumulativo"
+
 msgid "Level2"
 msgstr "Livello2"
+
+msgid "Trades"
+msgstr "Mestieri"
+
+msgid "Show DOM levels"
+msgstr "Mostra livelli DOM"
 
 msgid "Show Bid/Ask line"
 msgstr "Mostra riga offerta/richiesta"
@@ -2371,6 +2545,9 @@ msgstr "Colore linea offerta"
 
 msgid "Ask line color"
 msgstr "Chiedi colore linea"
+
+msgid "Extend price levels"
+msgstr "Estendere i livelli di prezzo"
 
 msgid "DOM levels count"
 msgstr "Conteggio livelli DOM"
@@ -2405,8 +2582,35 @@ msgstr "Colore 4"
 msgid "Color 5"
 msgstr "Colore 5"
 
+msgid "HeatmapColorSet1"
+msgstr "HeatmapColorSet1"
+
+msgid "HeatmapColorSet2"
+msgstr "HeatmapColorSet2"
+
+msgid "HeatmapColorSet3"
+msgstr "HeatmapColorSet3"
+
+msgid "HeatmapColorSet4"
+msgstr "HeatmapColorSet4"
+
 msgid "Limit of points"
 msgstr "Limite di punti"
+
+msgid "Marker size type"
+msgstr "Tipo di dimensione del marcatore"
+
+msgid "Marker size (px)"
+msgstr "Dimensione marcatore (px)"
+
+msgid "Markers maximal size (px)"
+msgstr "Dimensione massima dei marcatori (px)"
+
+msgid "Maximal trade size"
+msgstr "Dimensione massima del commercio"
+
+msgid "Custom trade size"
+msgstr "Dimensioni del commercio personalizzate"
 
 msgid "Show last line"
 msgstr "Mostra ultima riga"
@@ -2417,17 +2621,14 @@ msgstr "Colore ultima linea"
 msgid "Markers opacity"
 msgstr "Opacità marcatori"
 
-msgid "Markers maximum size (px)"
-msgstr "Dimensioni massime marcatori (px)"
-
-msgid "Maximal trade size"
-msgstr "Dimensione massima del commercio"
-
-msgid "Custom trade size"
-msgstr "Dimensioni del commercio personalizzate"
-
 msgid "None color"
 msgstr "Colore nessuno"
+
+msgid "Draw mode"
+msgstr "Modalità Draw"
+
+msgid "Minimal volume width, px (aggregate mode)"
+msgstr "Larghezza minima del volume, px (modalità aggregata)"
 
 msgid "Scroll"
 msgstr "Scorrere"
@@ -2636,17 +2837,38 @@ msgstr "impostazioni generali"
 msgid "Model settings"
 msgstr "Impostazioni del modello"
 
+msgid "No centering"
+msgstr "Nessun centraggio"
+
+msgid "Auto centering"
+msgstr "Centraggio automatico"
+
+msgid "Keep in view"
+msgstr "Tieniti in vista"
+
+msgid "Combined"
+msgstr "Combinato"
+
+msgid "Implied"
+msgstr "Sottinteso"
+
+msgid "Outright"
+msgstr "Completamente"
+
 msgid "Short price format"
 msgstr "Formato a prezzo breve"
 
 msgid "Hide digits"
 msgstr "Nascondere le cifre"
 
-msgid "Auto center"
-msgstr "Centro automatico"
+msgid "Price centering mode"
+msgstr "Modalità di centratura dei prezzi"
 
 msgid "Auto center type"
 msgstr "Tipo centro automatico"
+
+msgid "Book type"
+msgstr "Tipo di libro"
 
 msgid "Number of levels"
 msgstr "Numero di livelli"
@@ -2861,6 +3083,9 @@ msgstr "Colore griglia"
 msgid "All"
 msgstr "Tutto"
 
+msgid "Center line"
+msgstr "Asse"
+
 msgid "Comments"
 msgstr "Commenti"
 
@@ -2869,15 +3094,6 @@ msgstr "Chiaro"
 
 msgid "Cumulative size"
 msgstr "Dimensione cumulativa"
-
-msgid "Custom tick size:"
-msgstr "Dimensione tick personalizzata:"
-
-msgid "Hide digits:"
-msgstr "Nascondere le cifre:"
-
-msgid "Disabled"
-msgstr "disabile"
 
 msgid "Show table header"
 msgstr "Mostra intestazione tabella"
@@ -2894,8 +3110,71 @@ msgstr "Colore griglia intestazione"
 msgid "Show day map"
 msgstr "Mostra la mappa del giorno"
 
-msgid "Imbalance, %"
-msgstr "Squilibrio, %"
+msgid "Best bid"
+msgstr "Miglior offerta"
+
+msgid "Best ask"
+msgstr "Meglio chiedere"
+
+msgid "Spread"
+msgstr "Diffusione"
+
+msgid "Marked price"
+msgstr "Prezzo marcato"
+
+msgid "Current last"
+msgstr "Ultima corrente"
+
+msgid "Show last"
+msgstr "Mostra ultimo"
+
+msgid "Single color"
+msgstr "Monocolore"
+
+msgid "By bid/ask"
+msgstr "Per bid/ask"
+
+msgid "By last change"
+msgstr "Per ultima modifica"
+
+msgid "Last coloring mode"
+msgstr "Ultima modalità di colorazione"
+
+msgid "Show brackets"
+msgstr "Mostra parentesi"
+
+msgid "Ask border style"
+msgstr "Chiedi stile bordo"
+
+msgid "Ask custom style"
+msgstr "Chiedi stile personalizzato"
+
+msgid "Bid border style"
+msgstr "Stile del bordo dell'offerta"
+
+msgid "Bid custom style"
+msgstr "Stile personalizzato dell'offerta"
+
+msgid "Up border style"
+msgstr "Stile bordo superiore"
+
+msgid "Up custom style"
+msgstr "Stile personalizzato"
+
+msgid "Down border style"
+msgstr "Stile bordo inferiore"
+
+msgid "Down custom style"
+msgstr "Stile personalizzato Down"
+
+msgid "Default border style"
+msgstr "Stile di bordo predefinito"
+
+msgid "Default custom style"
+msgstr "Stile personalizzato predefinito"
+
+msgid "Position"
+msgstr "Posizione"
 
 msgid "Show position"
 msgstr "Mostra posizione"
@@ -2914,6 +3193,30 @@ msgstr "Giorno alto"
 
 msgid "Day low"
 msgstr "Giorno basso"
+
+msgid "Clear marked prices"
+msgstr "Prezzi chiari contrassegnati"
+
+msgid "Price marks"
+msgstr "Marchi di prezzo"
+
+msgid "Add mark"
+msgstr "Aggiungi segno"
+
+msgid "In profit range"
+msgstr "Nella gamma di profitto"
+
+msgid "Profit text color"
+msgstr "Colore del testo profit"
+
+msgid "In loss range"
+msgstr "Nell'intervallo di perdita"
+
+msgid "Loss text color"
+msgstr "Perdita di colore del testo"
+
+msgid "Profit & Loss"
+msgstr "Profitti e perdite"
 
 msgid "Bids/Asks"
 msgstr "Offerte/Offerte"
@@ -2948,6 +3251,18 @@ msgstr "A destra"
 msgid "Histogram Alignment"
 msgstr "Allineamento istogramma"
 
+msgid "Set price marker"
+msgstr "Imposta l'indicatore di prezzo"
+
+msgid "Custom tick size:"
+msgstr "Dimensione tick personalizzata:"
+
+msgid "Hide digits:"
+msgstr "Nascondere le cifre:"
+
+msgid "Disabled"
+msgstr "disabile"
+
 msgid "Total font"
 msgstr "Tipo di carattere totale"
 
@@ -2956,6 +3271,15 @@ msgstr "Colori totali"
 
 msgid "Alignment"
 msgstr "Allineamento"
+
+msgid "Trade"
+msgstr "Commercio"
+
+msgid "Delta Positive"
+msgstr "Delta Positivo"
+
+msgid "Delta Negative"
+msgstr "Delta Negativo"
 
 msgid "Reload data (server)"
 msgstr "Ricarica dati (server)"
@@ -3146,6 +3470,9 @@ msgstr "Elimina"
 msgid "Add selected symbols"
 msgstr "Aggiungi simboli selezionati"
 
+msgid "Data latency"
+msgstr "Latenza dei dati"
+
 msgid "'Or'"
 msgstr "'O'"
 
@@ -3160,54 +3487,6 @@ msgstr "Applicare le condizioni salvate"
 
 msgid "Are you sure you want to delete this condition?"
 msgstr "Eliminare questa condizione?"
-
-msgid "Multiple per side"
-msgstr "Multiplo per lato"
-
-msgid "One Position"
-msgstr "Una posizione"
-
-msgid "Absolute per lot"
-msgstr "Assoluto per lotto"
-
-msgid "Per side"
-msgstr "Per lato"
-
-msgid "Per round"
-msgstr "Per turno"
-
-msgid "Non marginal trading"
-msgstr "Trading non marginale"
-
-msgid "Netting type"
-msgstr "Tipo di rete"
-
-msgid "Fee value"
-msgstr "Valore della commissione"
-
-msgid "Fee measurement"
-msgstr "Misurazione delle commissioni"
-
-msgid "Fee accrual"
-msgstr "Attribuzione delle commissioni"
-
-msgid "Remove symbol"
-msgstr "Rimuovi simbolo"
-
-msgid "1 minute"
-msgstr "1 minuto"
-
-msgid "Bid/Ask/Last"
-msgstr "Offerta/Chiedi/Ultimo"
-
-msgid "Bid/Ask/Mark"
-msgstr "Offerta/Chiedi/Contrassegno"
-
-msgid "Account performance"
-msgstr "Prestazioni dell'account"
-
-msgid "DOM surface"
-msgstr "Superficie DOM"
 
 msgid "Unpin from toolbar"
 msgstr "rimuovi dalla barra degli strumenti"
@@ -3489,6 +3768,9 @@ msgstr "Tema"
 msgid "Language (Beta)"
 msgstr "Lingua (beta)"
 
+msgid "Data latency limit, ms"
+msgstr "Limite di latenza dei dati, ms"
+
 msgid "Autosave settings (every 5 minutes)"
 msgstr "Impostazioni di salvataggio automatico (ogni 5 minuti)"
 
@@ -3503,6 +3785,9 @@ msgstr "Abbreviare i prezzi crittografici"
 
 msgid "Unload inactive workspaces (reduces memory usage)"
 msgstr "Scaricare aree di lavoro inattive (riduce l'utilizzo della memoria)"
+
+msgid "Use software render mode (require application restart)"
+msgstr "Utilizzare la modalità di rendering software (richiedere il riavvio dell'applicazione)"
 
 msgid "Hide part of Account name"
 msgstr "Nascondere parte del nome dell'account"
@@ -3666,8 +3951,20 @@ msgstr "Prossimo orario di chiusura del mercato"
 msgid "Gets nearest trading day close time"
 msgstr "Ottiene l'ora di chiusura del giorno di negoziazione più vicino"
 
+msgid "API key"
+msgstr "Chiave API"
+
+msgid "Secret key"
+msgstr "Chiave segreta"
+
 msgid "Can't find connection parameters"
 msgstr "Impossibile trovare i parametri di connessione"
+
+msgid "ApiKey is empty"
+msgstr "ApiKey è vuoto"
+
+msgid "Secret id is empty"
+msgstr "L'id segreto è vuoto"
 
 msgid "Use realtime data (Require many request to api)"
 msgstr "Usa dati in tempo reale (Richiedi molte richieste all'API)"
@@ -3879,8 +4176,20 @@ msgstr "Segna prezzo"
 msgid "Last price"
 msgstr "Ultimo prezzo"
 
+msgid "Periodically"
+msgstr "Periodicamente"
+
+msgid "Binance server"
+msgstr "Server Binance"
+
+msgid "External server"
+msgstr "Server esterno"
+
 msgid "Connection"
 msgstr "connessione"
+
+msgid "Bid/Ask update frequency"
+msgstr "Frequenza di aggiornamento Bid/Ask"
 
 msgid "Allow change leverage"
 msgstr "Consenti leva di modifica"
@@ -3903,29 +4212,152 @@ msgstr "Calcola PNL localmente"
 msgid "PNL calculation basis"
 msgstr "Base di calcolo PNL"
 
+msgid "Real-time trades source"
+msgstr "Fonte di operazioni in tempo reale"
+
+msgid "Account custom name"
+msgstr "Nome personalizzato dell'account"
+
 msgid "Load user trades history"
 msgstr "Caricare la cronologia delle transazioni utente"
-
-msgid "API key"
-msgstr "Chiave API"
-
-msgid "Secret key"
-msgstr "Chiave segreta"
 
 msgid "Rest api url not founded."
 msgstr "Pause api url non fondato."
 
-msgid "Market data connection. Trading coming soon."
-msgstr "Connessione dati di mercato. Trading in arrivo."
+msgid "Reduce-only"
+msgstr "Riduci solo"
 
-msgid "Can't connect via socket"
-msgstr "Impossibile connettersi tramite socket"
+msgid "Post-only"
+msgstr "Post-solo"
+
+msgid "OCO"
+msgstr "OCO"
+
+msgid "OCO Stop price"
+msgstr "Prezzo OCO Stop"
+
+msgid "Can't connect."
+msgstr "Impossibile connettersi."
 
 msgid "Allow margin trading"
 msgstr "Consentire il trading di margine"
 
 msgid "Minimum margin"
 msgstr "Margine minimo"
+
+msgid "Insurance fund balance"
+msgstr "Saldo del fondo assicurativo"
+
+msgid "The balance available to the liquidation engine to absorb losses"
+msgstr "La bilancia disponibile per il motore di liquidazione per assorbire le perdite"
+
+msgid "Next funding"
+msgstr "Prossimo finanziamento"
+
+msgid "Timestamp of next funding event"
+msgstr "Timestamp del prossimo evento di finanziamento"
+
+msgid "Next funding accrued"
+msgstr "Prossimi finanziamenti maturati"
+
+msgid "Current accrued funding for next 8h period"
+msgstr "Finanziamenti attualmente maturati per il prossimo periodo di 8 ore"
+
+msgid "Next funding step"
+msgstr "Prossima fase di finanziamento"
+
+msgid "Incremental accrual counter"
+msgstr "Contatore incrementale per competenza"
+
+msgid "Current funding"
+msgstr "Finanziamenti attuali"
+
+msgid "Funding applied in the current 8h period"
+msgstr "Finanziamenti applicati nell'attuale periodo di 8h"
+
+msgid "Clamp min"
+msgstr "Morsetto min"
+
+msgid "Range in the average spread that does not require a funding payment"
+msgstr "Intervallo nello spread medio che non richiede un pagamento di finanziamento"
+
+msgid "Clamp max"
+msgstr "Morsetto max"
+
+msgid "Funding payment cap"
+msgstr "Limite di pagamento del finanziamento"
+
+msgid "Orders history"
+msgstr "Cronologia degli ordini"
+
+msgid "Order ID"
+msgstr "ID ordine"
+
+msgid "Group ID"
+msgstr "ID gruppo"
+
+msgid "Client Order ID"
+msgstr "ID ordine cliente"
+
+msgid "Creation time"
+msgstr "Tempo di creazione"
+
+msgid "Update time"
+msgstr "Tempo di aggiornamento"
+
+msgid "Amount"
+msgstr "Quantità"
+
+msgid "Orig. amount"
+msgstr "Importo orig."
+
+msgid "Average price"
+msgstr "Prezzo medio"
+
+msgid "Trailing price"
+msgstr "Prezzo finale"
+
+msgid "Auxiliary Limit price"
+msgstr "Prezzo limite ausiliario"
+
+msgid "Net margin"
+msgstr "Margine netto"
+
+msgid "User profit & loss"
+msgstr "Profitti e perdite degli utenti"
+
+msgid "User swaps"
+msgstr "Scambi di utenti"
+
+msgid "Verified"
+msgstr "Verificato"
+
+msgid "Verification level"
+msgstr "Livello di verifica"
+
+msgid "Merchant enabled"
+msgstr "Commerciante abilitato"
+
+msgid "Maker fee"
+msgstr "Tassa del produttore"
+
+msgid "Derivative rebate"
+msgstr "Sconto derivato"
+
+msgid "Taker fee to crypto"
+msgstr "Commissione taker per cripto"
+
+msgid "Taker fee to stable"
+msgstr "Taker commissione a stabile"
+
+msgid "Taker fee to fiat"
+msgstr "Tassa di presa a fiat"
+
+msgid "Derivative taker fee"
+msgstr "Commissione per l'acquirente di derivati"
+
+msgid "Market data connection. Trading coming soon."
+msgstr "Connessione dati di mercato. Trading in arrivo."
 
 msgid "Index"
 msgstr "Indice"
@@ -3941,9 +4373,6 @@ msgstr "Storia commerciale"
 
 msgid "Order history"
 msgstr "Cronologia degli ordini"
-
-msgid "Amount"
-msgstr "Quantità"
 
 msgid "Fee"
 msgstr "Commissione"
@@ -3996,9 +4425,6 @@ msgstr "Prezzo di arresto"
 msgid "Fill Price"
 msgstr "Prezzo di riempimento"
 
-msgid "Client Order ID"
-msgstr "ID ordine cliente"
-
 msgid "Risk limit"
 msgstr "Limite di rischio"
 
@@ -4032,8 +4458,8 @@ msgstr "Saldo disponibile"
 msgid "Your margin available for new positions. Available Balance = (Margin Balance - Order Margin - Position Margin)"
 msgstr "Il margine disponibile per le nuove posizioni. Saldo disponibile (Saldo margine - Margine ordine - Margine posizione)"
 
-msgid "Gross Position Value: {this.bitmexUserMargin.GrossPositionValue.FromSatoshi()?.RoundTo(BitmexVendor.USER_ASSET_PRECISION)} {BitmexVendor.USER_ASSET}"
-msgstr "Valore di posizione lordo: <a0>P:System.Windows.Data.BitmexUserMargin.GrossPositionValue.FromSatoshi()</a0> . RoundTo(BitmexVendor.USER_ASSET_PRECISION) : BitmexVendor.USER_ASSET"
+msgid "Gross Position Value: {RoundToCurrencyPrecision(ConvertToRealValue(userMargin.GrossPositionValue, currency), currency)} {currency}"
+msgstr "Valore della posizione lorda: {RoundToCurrencyPrecision(ConvertToRealValue(userMargin.GrossPositionValue, currency), currency)} {currency}"
 
 msgid "Display quantity"
 msgstr "Visualizza quantità"
@@ -4053,11 +4479,14 @@ msgstr "Profitto finale"
 msgid "Min price"
 msgstr "Prezzo minimo"
 
-msgid "Maker fee"
-msgstr "Tassa del produttore"
-
 msgid "Taker fee"
 msgstr "Tassa d'iscrizione"
+
+msgid "Long leverage"
+msgstr "Leva lunga"
+
+msgid "Short leverage"
+msgstr "Leva corta"
 
 msgid "Max leverage"
 msgstr "Leva massima"
@@ -4133,9 +4562,6 @@ msgstr "Impossibile trovare i parametri del tipo di connessione"
 
 msgid "Client id is empty"
 msgstr "L'ID client è vuoto"
-
-msgid "Secret id is empty"
-msgstr "L'id segreto è vuoto"
 
 msgid "Trade user"
 msgstr "Utente commerciale"
@@ -4317,6 +4743,9 @@ msgstr "PnL non realizzato (OTE)"
 msgid "Open trade equity, or potential profit (or loss) from futures and future-style options positions based on opening price of the position and the current future trade/best bid/best ask (regarding to the risk account settings) or settlement price if trade is not available. Included if purchasing power depends on it."
 msgstr "Open trade equity, o potenziale profitto (o perdita) da futures e posizioni di opzioni in stile futuro in base al prezzo di apertura della posizione e all'attuale scambio futuro / best bid / best ask (per quanto riguarda le impostazioni del conto di rischio) o prezzo di regolamento se il commercio non è disponibile. Incluso se il potere d'acquisto dipende da esso."
 
+msgid "Total PnL"
+msgstr "PnL totale"
+
 msgid "Margin credit"
 msgstr "Credito di margine"
 
@@ -4331,6 +4760,39 @@ msgstr "Requisito di margine calcolato nel peggiore dei casi in base a posizioni
 
 msgid "Margin requirement based on current positions only."
 msgstr "Requisito di margine basato solo sulle posizioni correnti."
+
+msgid "Spot"
+msgstr "Punto"
+
+msgid "Trade mode"
+msgstr "Modalità commerciale"
+
+msgid "Post only"
+msgstr "Solo post"
+
+msgid "Post Only"
+msgstr "Solo post"
+
+msgid "Margin trading is enabled"
+msgstr "Il trading a margine è abilitato"
+
+msgid "Margin order"
+msgstr "Ordine di margine"
+
+msgid "Spot order"
+msgstr "Ordine spot"
+
+msgid "Connect to exchange"
+msgstr "Connettiti allo scambio"
+
+msgid "Support margin trading"
+msgstr "Supporta il trading a margine"
+
+msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
+msgstr "Non ci sono scambi selezionati per connettersi. Apri \"Impostazioni di connessione\" e seleziona gli scambi richiesti."
+
+msgid "Market range"
+msgstr "Gamma di mercato"
 
 msgid "Open orders"
 msgstr "Ordini aperti"
@@ -4425,9 +4887,6 @@ msgstr "Rollower P/L"
 msgid "Order routing"
 msgstr "Instradamento degli ordini"
 
-msgid "Mode"
-msgstr "Modalità"
-
 msgid "Pre trade risk managment"
 msgstr "Gestione del rischio pre-commercio"
 
@@ -4496,9 +4955,6 @@ msgstr "Broker/FCM"
 
 msgid "Stop market"
 msgstr "Stop al mercato"
-
-msgid "Post Only"
-msgstr "Solo post"
 
 msgid "Post"
 msgstr "Inserisci"
@@ -4575,17 +5031,11 @@ msgstr "SenderCompId"
 msgid "TargetCompId"
 msgstr "TargetCompId"
 
-msgid "Orders history"
-msgstr "Cronologia degli ordini"
-
 msgid "Trades history"
 msgstr "Storia delle mestieri"
 
 msgid "Transactions history"
 msgstr "Storico transazioni"
-
-msgid "Order ID"
-msgstr "ID ordine"
 
 msgid "Account"
 msgstr "Account"
@@ -4604,9 +5054,6 @@ msgstr "Strumento"
 
 msgid "Stop price"
 msgstr "Prezzo di stop"
-
-msgid "Average price"
-msgstr "Prezzo medio"
 
 msgid "P&L"
 msgstr "P&amp;L"
@@ -4631,6 +5078,9 @@ msgstr "Utilizzato per il margine"
 
 msgid "Margin utilization"
 msgstr "Utilizzo del margine"
+
+msgid "Reduce-Only"
+msgstr "Riduci solo"
 
 msgid "Lower bound"
 msgstr "Limite inferiore"
@@ -4827,11 +5277,128 @@ msgstr "Fornire il tasso di liquidità"
 msgid "Fee currency"
 msgstr "Commissione valuta"
 
+msgid "Reduce only"
+msgstr "Riduci solo"
+
+msgid "Isolated"
+msgstr "isolato"
+
+msgid "Margin mode"
+msgstr "Modalità margine"
+
+msgid "Order price"
+msgstr "Prezzo dell'ordine"
+
+msgid "Optimal 5 price"
+msgstr "Prezzo ottimale 5"
+
+msgid "Optimal 10 price"
+msgstr "Prezzo ottimale 10"
+
+msgid "Optimal 20 price"
+msgstr "Prezzo ottimale 20"
+
+msgid "This week"
+msgstr "questa settimana"
+
+msgid "Next week"
+msgstr "La settimana prossima"
+
+msgid "Quarter"
+msgstr "quarto"
+
+msgid "Next quarter"
+msgstr "Prossimo trimestre"
+
+msgid "Delisting"
+msgstr "Delisting"
+
+msgid "Listing"
+msgstr "Elencazione"
+
+msgid "Pending listing"
+msgstr "Inserzione in sospeso"
+
+msgid "Suspension"
+msgstr "Sospensione"
+
+msgid "Suspending of listing"
+msgstr "Sospensione dell'inserzione"
+
+msgid "In settlement"
+msgstr "In insediamento"
+
+msgid "Delivering"
+msgstr "Consegna"
+
+msgid "Settlement completed"
+msgstr "Liquidazione completata"
+
+msgid "Delivered"
+msgstr "Consegnato"
+
+msgid "Suspending of trade"
+msgstr "Sospensione degli scambi"
+
+msgid "Otc"
+msgstr "Otc"
+
+msgid "Super margin"
+msgstr "Super margine"
+
+msgid "Investmnet"
+msgstr "Investmnet"
+
+msgid "Time out"
+msgstr "time out"
+
+msgid "Contract status"
+msgstr "Stato del contratto"
+
+msgid "Settlement time"
+msgstr "Tempo di liquidazione"
+
+msgid "Order price type"
+msgstr "Tipo di prezzo dell'ordine"
+
+msgid "Contract type"
+msgstr "Tipo di contratto"
+
+msgid "Isolated leverage"
+msgstr "Leva isolata"
+
+msgid "Cross leverage"
+msgstr "Leva incrociata"
+
+msgid "Spot exchange"
+msgstr "Scambio spot"
+
+msgid "Coin-M Futures"
+msgstr "Coin-M Futures"
+
+msgid "Coin-M Swaps"
+msgstr "Swap Coin-M"
+
+msgid "USDT-M Swaps"
+msgstr "Swap USDT-M"
+
+msgid "Load user orders history"
+msgstr "Carica la cronologia degli ordini degli utenti"
+
+msgid "There aren't selected exchanges to connect. Please, choose needed exchanges and try connect again."
+msgstr "Non ci sono scambi selezionati per connettersi. Per favore, scegli gli scambi necessari e riprova a connetterti."
+
 msgid "API key is empty"
 msgstr "Chiave API è vuota"
 
 msgid "Secret key is empty"
 msgstr "Chiave segreta è vuota"
+
+msgid "Limit on close"
+msgstr "Limite alla chiusura"
+
+msgid "Market on close"
+msgstr "Mercato in chiusura"
 
 msgid "Trader Workstation"
 msgstr "Trader workstation"
@@ -5058,6 +5625,12 @@ msgstr "Comprare a leva finanziaria"
 msgid "Leverage sell"
 msgstr "Vendere a leva finanziaria"
 
+msgid "Connect to spot exchange"
+msgstr "Connettiti allo scambio spot"
+
+msgid "Connect to futures exchange"
+msgstr "Connettiti allo scambio di futures"
+
 msgid "Margin requirements"
 msgstr "Requisiti di margine"
 
@@ -5227,44 +5800,17 @@ msgstr "Tipo di stop loss"
 msgid "SL trigger price"
 msgstr "Prezzo trigger SL"
 
-msgid "Reduce only"
-msgstr "Riduci solo"
-
-msgid "Isolated"
-msgstr "isolato"
-
 msgid "Order behaviour"
 msgstr "Comportamento dell'ordine"
 
-msgid "Trade mode"
-msgstr "Modalità commerciale"
-
 msgid "Margin currency"
 msgstr "Valuta di margine"
-
-msgid "Post only"
-msgstr "Solo post"
 
 msgid "Linear"
 msgstr "lineare"
 
 msgid "Inverse"
 msgstr "Inverso"
-
-msgid "This week"
-msgstr "questa settimana"
-
-msgid "Next week"
-msgstr "La settimana prossima"
-
-msgid "Quarter"
-msgstr "quarto"
-
-msgid "Next quarter"
-msgstr "Prossimo trimestre"
-
-msgid "Simple"
-msgstr "semplice"
 
 msgid "Single currency margin"
 msgstr "Margine della moneta unica"
@@ -5287,8 +5833,14 @@ msgstr "riuscito"
 msgid "Pending cancel"
 msgstr "Annullamento in sospeso"
 
+msgid "Canceled"
+msgstr "Annullato"
+
 msgid "Failed"
 msgstr "fallito"
+
+msgid "Pending"
+msgstr "in attesa di"
 
 msgid "Sending"
 msgstr "invio"
@@ -5346,9 +5898,6 @@ msgstr "Rapporto margine"
 
 msgid "Quantity of positions"
 msgstr "Quantità di posizioni"
-
-msgid "ApiKey is empty"
-msgstr "ApiKey è vuoto"
 
 msgid "Passphase is empty"
 msgstr "Passphase è vuota"
@@ -5533,9 +6082,6 @@ msgstr "NotGreaterThan"
 msgid "NotLessThan"
 msgstr "NotLessThan"
 
-msgid "Trade"
-msgstr "Commercio"
-
 msgid "Compare operator"
 msgstr "Operatore di confronto"
 
@@ -5586,6 +6132,9 @@ msgstr "Operatore sciopero"
 
 msgid "If applicable, the strike price operator of the instrument."
 msgstr "Se del caso, l'operatore del prezzo di sciopero dello strumento."
+
+msgid " (Full License)"
+msgstr " (Licenza completa)"
 
 msgid "The FCM (futures commission merchant) associated with this account."
 msgstr "L'FCM (future commission merchant) associato a questo account."
@@ -5676,6 +6225,9 @@ msgstr "Profitti/Perdite Aperti"
 
 msgid "Closed Profit/Loss"
 msgstr "Profitti/Perdite Chiusi"
+
+msgid "Total Profit/Loss"
+msgstr "Totale Profitti/Perdite"
 
 msgid "Intraday"
 msgstr "Intraday"
@@ -5914,57 +6466,6 @@ msgstr "Indirizzo Residential"
 msgid "Requesting client config..."
 msgstr "Richiesta di configurazione client in corso..."
 
-msgid "CfiCode"
-msgstr "Codice Cfi"
-
-msgid "ISO 10962 provides a global standard for these classifications in the form of specific codes."
-msgstr "ISO 10962 fornisce uno standard globale per queste classificazioni sotto forma di codici specifici."
-
-msgid "Auction number"
-msgstr "Numero asta"
-
-msgid "VaRMargin"
-msgstr "VaRMargin"
-
-msgid "Issued capital"
-msgstr "Capitale emesso"
-
-msgid "Tradeable"
-msgstr "Commerciabile"
-
-msgid "Series"
-msgstr "Serie"
-
-msgid "52 weeks high"
-msgstr "52 settimane di altezza"
-
-msgid "52 weeks low"
-msgstr "52 settimane di minimo"
-
-msgid "Initial"
-msgstr "Iniziale"
-
-msgid "Pre expiry"
-msgstr "Pre scadenza"
-
-msgid "Delivery"
-msgstr "Consegna"
-
-msgid "Special buy"
-msgstr "Acquisto speciale"
-
-msgid "Special sell"
-msgstr "Vendita speciale"
-
-msgid "Tender"
-msgstr "gara"
-
-msgid "ELM long"
-msgstr "ELM lungo"
-
-msgid "ELM short"
-msgstr "ELM breve"
-
 msgid "Expulsion date"
 msgstr "Data di espulsione"
 
@@ -6033,6 +6534,12 @@ msgstr "Annullare la richiesta d'ordine"
 
 msgid "Position convert request"
 msgstr "Richiesta di conversione posizione"
+
+msgid "Information"
+msgstr "Informazione"
+
+msgid "Refresh all data was requested."
+msgstr "È stato richiesto di aggiornare tutti i dati."
 
 msgid "History"
 msgstr "Storia"
@@ -6310,17 +6817,173 @@ msgstr "Fornisce dati simulati, consentendo di testare le funzionalità della pi
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "L'equità. Pari al saldo del conto + P/L non realizzato"
 
-msgid "Open positions count"
-msgstr "Conteggio delle posizioni aperte"
-
-msgid "Open orders count"
-msgstr "Conteggio degli ordini aperti"
+msgid "Unrealized net P/L"
+msgstr "P/L netto non realizzato"
 
 msgid "Realized P/L"
 msgstr "P / L realizzato"
 
-msgid "Time out"
-msgstr "time out"
+msgid "Classification"
+msgstr "Classificazione"
+
+msgid "Class of account. One of: individual, entity, individual, joint_survivor, joint_survivor, traditional_ira, roth_ira, rollover_ira, entity, sep_ira"
+msgstr "Classe di conto. Uno di: individuo, entità, individuo, joint_survivor, joint_survivor, traditional_ira, roth_ira, rollover_ira, entità, sep_ira"
+
+msgid "Date created"
+msgstr "Data di creazione"
+
+msgid "Date account was created"
+msgstr "Data di creazione dell'account"
+
+msgid "Day trader"
+msgstr "Day trader"
+
+msgid "Marked as day trader"
+msgstr "Contrassegnato come day trader"
+
+msgid "Option level"
+msgstr "Livello di opzione"
+
+msgid "Account option level (1-6)"
+msgstr "Livello di opzione dell'account (1-6)"
+
+msgid "Current status of the account: One of: active, closed"
+msgstr "Stato attuale dell'account: Uno dei: attivo, chiuso"
+
+msgid "Type of the account. One of: cash, margin"
+msgstr "Tipo di account. Uno di: contanti, margine"
+
+msgid "Last update date"
+msgstr "Data ultimo aggiornamento"
+
+msgid "Date account was last updated"
+msgstr "Data ultimo aggiornamento dell'account"
+
+msgid "User id"
+msgstr "ID utente"
+
+msgid "User name"
+msgstr "Nome utente"
+
+msgid "Option short value"
+msgstr "Opzione valore breve"
+
+msgid "Value of short option positions"
+msgstr "Valore delle posizioni short option"
+
+msgid "Total equity"
+msgstr "Patrimonio netto totale"
+
+msgid "Total account value"
+msgstr "Valore totale del conto"
+
+msgid "ClosePL"
+msgstr "ChiudiPL"
+
+msgid "Gain/Loss of current session's closed positions"
+msgstr "Guadagno/Perdita delle posizioni chiuse della sessione corrente"
+
+msgid "Current requirement"
+msgstr "Requisito attuale"
+
+msgid "Account's maintenance margin"
+msgstr "Margine di mantenimento del conto"
+
+msgid "Equity value"
+msgstr "Valore azionario"
+
+msgid "Market value"
+msgstr "Valore di mercato"
+
+msgid "OpenPL"
+msgstr "OpenPL"
+
+msgid "Total gain/loss of current account's positions"
+msgstr "Guadagno/perdita totale delle posizioni in conto corrente"
+
+msgid "Option long value"
+msgstr "Opzione valore lungo"
+
+msgid "Value of long option positions"
+msgstr "Valore delle posizioni long option"
+
+msgid "Option requirement"
+msgstr "Requisiti di opzione"
+
+msgid "Account's total option requirement"
+msgstr "Requisito di opzione totale dell'account"
+
+msgid "Pending orders count"
+msgstr "Conteggio degli ordini in sospeso"
+
+msgid "Count of all pending/open orders"
+msgstr "Conteggio di tutti gli ordini in sospeso/aperti"
+
+msgid "Stock long value"
+msgstr "Stock long value"
+
+msgid "Value of long equity positions"
+msgstr "Valore delle posizioni azionarie lunghe"
+
+msgid "Total cash in the account"
+msgstr "Totale contanti sul conto"
+
+msgid "Uncleared funds"
+msgstr "Fondi non liquidati"
+
+msgid "Cash unavailable for trading in the account"
+msgstr "Contanti non disponibili per il trading sul conto"
+
+msgid "Pending cash"
+msgstr "Contanti in sospeso"
+
+msgid "Amount of cash being held for open orders"
+msgstr "Importo di denaro trattenuto per gli ordini aperti"
+
+msgid "Fed Call"
+msgstr "Chiamata Fed"
+
+msgid "Amount that the account is in deficit for trades that have occurred but not been paid for"
+msgstr "Importo per il quale il conto è in disavanzo per le operazioni che si sono verificate ma non sono state pagate"
+
+msgid "Amount of funds available to purchase non-marginable securities"
+msgstr "Importo dei fondi disponibili per l'acquisto di titoli non marginali"
+
+msgid "Amount of funds available to purchase fully marginable securities"
+msgstr "Importo dei fondi disponibili per l'acquisto di titoli a piena marginalità"
+
+msgid "Stock short value"
+msgstr "Stock short value"
+
+msgid "Value of short stocks"
+msgstr "Valore delle azioni corte"
+
+msgid "Sweep"
+msgstr "Spazzare"
+
+msgid "CashAvailable"
+msgstr "ContantiDisponibile"
+
+msgid "Cash available"
+msgstr "Contanti disponibili"
+
+msgid "Unsettled funds"
+msgstr "Fondi non liquidati"
+
+msgid "Cash that is in the account from recent stock or option sales, but has not yet settled; cash from stock sales occurring during the last 3 trading days or from option sales occurring during the previous trading day"
+msgstr "Contanti che sono nel conto da recenti vendite di azioni o opzioni, ma non si sono ancora regolati; contanti da vendite di azioni avvenute negli ultimi 3 giorni di negoziazione o da vendite di opzioni avvenute durante il giorno di negoziazione precedente"
+
+msgid "Fed call"
+msgstr "Chiamata fed"
+
+msgid "Amount that the account is under the minimum equity required in the account to support the current positions"
+msgstr "Importo che il conto è al di sotto del patrimonio netto minimo richiesto nel conto per sostenere le posizioni correnti"
+
+msgid "OptionBuyingPower"
+msgstr "OpzioneAcquistapower"
+
+msgid "StockBuyingPower"
+msgstr "StockAcquistaPower"
 
 msgid "Alias"
 msgstr "alias"
@@ -6330,9 +6993,6 @@ msgstr "Serie A"
 
 msgid "Username is empty"
 msgstr "Il nome utente è vuoto"
-
-msgid "Spot"
-msgstr "Punto"
 
 msgid "Xena Listed Perpetuals"
 msgstr "Xena elencati perpetui"
@@ -6378,6 +7038,9 @@ msgstr "Indice basso"
 
 msgid "High index"
 msgstr "Indice elevato"
+
+msgid "Can't connect via socket"
+msgstr "Impossibile connettersi tramite socket"
 
 msgid "Free margin"
 msgstr "Margine libero"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 13:21+0300\n"
+"POT-Creation-Date: 2022-02-01 22:56+0200\n"
 "PO-Revision-Date: 2019-03-18 10:52+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -27,6 +27,12 @@ msgstr "रोका गया"
 
 msgid "Completed"
 msgstr "पूरा किया"
+
+msgid "Basic"
+msgstr "बुनियादी"
+
+msgid "Ln"
+msgstr "Ln"
 
 msgid "Limit if touched"
 msgstr "अगर छुआ सीमा"
@@ -115,9 +121,6 @@ msgstr "अनुगामी ऑफसेट"
 msgid "Unspecified"
 msgstr "अनिर्दिष्ट"
 
-msgid "Pending"
-msgstr "लंबित"
-
 msgid "Opened"
 msgstr "खोला"
 
@@ -127,20 +130,14 @@ msgstr "आंशिक रूप से भरा"
 msgid "Filled"
 msgstr "भरा"
 
-msgid "Canceled"
+msgid "Cancelled"
 msgstr "रद्द"
 
 msgid "Refused"
 msgstr "मना कर दिया"
 
-msgid "Modified"
-msgstr "संशोधित"
-
 msgid "Inactive"
 msgstr "निष्क्रिय"
-
-msgid "Working"
-msgstr "काम"
 
 msgid "Default"
 msgstr "चूक"
@@ -289,12 +286,6 @@ msgstr "डेमो"
 msgid "Real"
 msgstr "असली"
 
-msgid "SL"
-msgstr "Sl"
-
-msgid "TP"
-msgstr "Tp"
-
 #, csharp-format
 msgid "Data series #{0}"
 msgstr "डेटा श्रृंखला # {0}"
@@ -306,6 +297,12 @@ msgstr "' {0} ' डेटा श्रृंखला"
 #, csharp-format
 msgid "Level data series #{0}"
 msgstr "स्तर डेटा श्रृंखला # {0}"
+
+msgid "Instance name"
+msgstr "इंस्टेंस नाम"
+
+msgid "General"
+msgstr "सामान्य"
 
 msgid "Solid"
 msgstr "ठोस"
@@ -463,6 +460,9 @@ msgstr "लाइन लेबल दिखाएं"
 msgid "Font"
 msgstr "फ़ॉन्ट"
 
+msgid "Loading data..."
+msgstr "डेटा लोड हो रहा है..."
+
 msgid "Line style"
 msgstr "लाइन शैली"
 
@@ -538,6 +538,15 @@ msgstr "उच्च"
 msgid "Enable alert"
 msgstr "अलर्ट सक्षम"
 
+msgid "Data type"
+msgstr "डेटा प्रकार"
+
+msgid "Cumulative"
+msgstr "संचयी"
+
+msgid "Imbalance, %"
+msgstr "असंतुलन, %"
+
 msgid "Histogram colors"
 msgstr "हिस्टोग्राम रंग"
 
@@ -549,6 +558,51 @@ msgstr "मूल्यों को अधिक से अधिक हाइ�
 
 msgid "Color"
 msgstr "रंग"
+
+msgid "Stop loss"
+msgstr "नुकसान रोकें"
+
+msgid "Take profit"
+msgstr "लाभ लें"
+
+msgid "Is trailing"
+msgstr "पीछे चल रहा है"
+
+msgid "Simple"
+msgstr "सरल"
+
+msgid "Advanced"
+msgstr "उन्नत"
+
+msgid "Offset"
+msgstr "भरपाई"
+
+msgid "Percentage"
+msgstr "प्रतिशतता"
+
+msgid "Absolute"
+msgstr "पूर्ण"
+
+msgid "Measurement"
+msgstr "माप"
+
+msgid "Mode"
+msgstr "मोड"
+
+msgid "Used order type"
+msgstr "प्रयुक्त आदेश प्रकार"
+
+msgid "Initial"
+msgstr "प्रारंभिक"
+
+msgid "Whole position"
+msgstr "पूरी स्थिति"
+
+msgid "Close quantity"
+msgstr "मात्रा बंद करें"
+
+msgid "Release time"
+msgstr "रिलीज़ समय"
 
 msgid "MIS"
 msgstr "एमआईएस"
@@ -692,6 +746,9 @@ msgstr "टेम्पलेट लागू करें"
 msgid "Set as default"
 msgstr "डिफ़ॉल्ट के रूप में सेट करें"
 
+msgid "Always On Top"
+msgstr "हमेशा शीर्ष पर"
+
 msgid "Setup Actions"
 msgstr "सेटअप क्रियाएं"
 
@@ -706,9 +763,6 @@ msgstr "मदद"
 
 msgid "Settings"
 msgstr "सेटिंग्स"
-
-msgid "Always On Top"
-msgstr "हमेशा शीर्ष पर"
 
 msgid "Actions"
 msgstr "कार्यों"
@@ -847,9 +901,6 @@ msgstr "सत्र इतिहास से बाहर दिखाएं"
 
 msgid "Symbol"
 msgstr "प्रतीक"
-
-msgid "Data type"
-msgstr "डेटा प्रकार"
 
 msgid "Main scale"
 msgstr "मुख्य पैमाना"
@@ -990,9 +1041,6 @@ msgstr "फिट आदेश/"
 msgid "Fit drawings"
 msgstr "आरेखण फ़िट"
 
-msgid "Absolute"
-msgstr "पूर्ण"
-
 msgid "Relative"
 msgstr "रिश्तेदार"
 
@@ -1065,6 +1113,164 @@ msgstr "समय (अनुलंब)"
 msgid "Time scale"
 msgstr "समय स्केल"
 
+msgid "No level1 quote"
+msgstr "कोई स्तर 1 उद्धरण नहीं"
+
+#, csharp-format
+msgid "Buy {0} {1}"
+msgstr "{0} {1} खरीदें"
+
+#, csharp-format
+msgid "Sell {0} {1}"
+msgstr "{0} {1} बेचें"
+
+msgid "Synchronizing trades"
+msgstr "सिंक्रोनाइजिंग ट्रेड"
+
+msgid "Modify"
+msgstr "संशोधित"
+
+msgid "Modify SL to breakeven"
+msgstr "संशोधित SL breakeven को"
+
+msgid "Cancel"
+msgstr "रद्द करना"
+
+msgid "Change to Market"
+msgstr "बाजार में बदलें"
+
+msgid "Trade through Order entry"
+msgstr "आदेश प्रविष्टि के माध्यम से व्यापार"
+
+msgid "Single order"
+msgstr "एकल आदेश"
+
+msgid "Multiple orders"
+msgstr "कई आदेश"
+
+msgid "Mouse trading mode"
+msgstr "माउस ट्रेडिंग मोड"
+
+msgid "Trading zone color"
+msgstr "ट्रेडिंग ज़ोन रंग"
+
+msgid "Show orders"
+msgstr "आदेश दिखाएं"
+
+msgid "Show positions"
+msgstr "स्थितियां दिखाएं"
+
+msgid "Currency"
+msgstr "मुद्रा"
+
+msgid "PnL type:"
+msgstr "पीएनएल प्रकार:"
+
+msgid "Show Stop loss & Take profit"
+msgstr "स्टॉप लॉस दिखाएँ और लाभ लें"
+
+msgid "Tile background"
+msgstr "टाइल पृष्ठभूमि"
+
+msgid "Tile color"
+msgstr "टाइल रंग"
+
+msgid "Tile hovered color"
+msgstr "टाइल मंडराया रंग"
+
+msgid "Tile font color"
+msgstr "टाइल फ़ॉन्ट रंग"
+
+msgid "Text"
+msgstr "विषय वस्तु"
+
+msgid "Tile hovered text color"
+msgstr "टाइल मँडराया पाठ रंग"
+
+msgid "Show price label"
+msgstr "मूल्य लेबल दिखाएँ"
+
+msgid "Price label background"
+msgstr "मूल्य लेबल पृष्ठभूमि"
+
+msgid "Price label font color"
+msgstr "मूल्य लेबल फ़ॉन्ट रंग"
+
+msgid "Show price scale marker"
+msgstr "मूल्य स्केल मार्कर दिखाएँ"
+
+msgid "Price scale marker color"
+msgstr "मूल्य स्केल मार्कर रंग"
+
+msgid "Price scale marker font color"
+msgstr "मूल्य स्केल मार्कर फ़ॉन्ट रंग"
+
+msgid "Show price line"
+msgstr "मूल्य रेखा दिखाएँ"
+
+msgid "Price line style"
+msgstr "मूल्य रेखा शैली"
+
+msgid "Show trades"
+msgstr "ट्रेड दिखाएं"
+
+msgid "Marker color"
+msgstr "मार्कर रंग"
+
+msgid "Marker"
+msgstr "मार्कर"
+
+msgid "Marker + Label"
+msgstr "मार्कर + लेबल"
+
+msgid "Display type"
+msgstr "डिस्प्ले प्रकार"
+
+msgid "Small"
+msgstr "छोटा"
+
+msgid "Middle"
+msgstr "मध्य"
+
+msgid "Large"
+msgstr "विशाल"
+
+msgid "Size"
+msgstr "आकार"
+
+msgid "Label Buy style"
+msgstr "लेबल खरीदें शैली"
+
+msgid "Label Sell style"
+msgstr "लेबल बेचें शैली"
+
+msgid "Tile colors"
+msgstr "टाइल रंग"
+
+msgid "Tile hovered colors"
+msgstr "टाइल मंडराया रंग"
+
+msgid "Tile font colors"
+msgstr "टाइल फ़ॉन्ट रंग"
+
+msgid "Tile hovered text colors"
+msgstr "टाइल मँडरा पाठ रंग"
+
+msgid "Price label font"
+msgstr "मूल्य लेबल फ़ॉन्ट"
+
+msgid "Price scale marker colors"
+msgstr "मूल्य स्केल मार्कर रंग"
+
+msgid "Price scale marker font"
+msgstr "मूल्य स्केल मार्कर फ़ॉन्ट"
+
+msgid "Price scale marker font colors"
+msgstr "मूल्य स्केल मार्कर फ़ॉन्ट रंग"
+
+msgid "Price line colors"
+msgstr "मूल्य रेखा रंग"
+
 msgid "Stroke color"
 msgstr "स्ट्रोक रंग"
 
@@ -1095,94 +1301,44 @@ msgstr "स्थान अवरोधित करें"
 msgid "Font size"
 msgstr "फ़ॉंट आकार"
 
+msgid "Bars"
+msgstr "सलाखों"
+
+msgid "Price, %"
+msgstr "मूल्य, %"
+
+msgid "Price range"
+msgstr "प्राइस रेंज"
+
+msgid "Line"
+msgstr "लाइन"
+
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+msgid "Labels font"
+msgstr "लेबल फ़ॉन्ट"
+
+msgid "Values font"
+msgstr "मान फ़ॉन्ट"
+
+msgid "Info area backbround"
+msgstr "जानकारी क्षेत्र बैकब्राउंड"
+
+msgid "Labels"
+msgstr "लेबल"
+
+msgid "Values"
+msgstr "मान"
+
+msgid "Info area style"
+msgstr "जानकारी क्षेत्र शैली"
+
+msgid "Values to show"
+msgstr "दिखाने के लिए मान"
+
 msgid "Availability"
 msgstr "प्राप्‍यता"
-
-#, csharp-format
-msgid "Buy {0}"
-msgstr "{0} खरीदें"
-
-#, csharp-format
-msgid "Sell {0}"
-msgstr "{0} बेचें"
-
-msgid "Synchronizing trades"
-msgstr "सिंक्रोनाइजिंग ट्रेड"
-
-msgid "Modify"
-msgstr "संशोधित"
-
-msgid "Modify SL to breakeven"
-msgstr "संशोधित SL breakeven को"
-
-msgid "Cancel"
-msgstr "रद्द करना"
-
-msgid "Change to Market"
-msgstr "बाजार में बदलें"
-
-msgid "Show positions"
-msgstr "स्थितियां दिखाएं"
-
-msgid "Currency"
-msgstr "मुद्रा"
-
-msgid "PnL type:"
-msgstr "पीएनएल प्रकार:"
-
-msgid "Show orders"
-msgstr "आदेश दिखाएं"
-
-msgid "Trade through Order entry"
-msgstr "आदेश प्रविष्टि के माध्यम से व्यापार"
-
-msgid "Single order"
-msgstr "एकल आदेश"
-
-msgid "Multiple orders"
-msgstr "कई आदेश"
-
-msgid "Mouse trading mode"
-msgstr "माउस ट्रेडिंग मोड"
-
-msgid "Trades"
-msgstr "ट्रेडों"
-
-msgid "Show trades"
-msgstr "ट्रेड दिखाएं"
-
-msgid "Marker color"
-msgstr "मार्कर रंग"
-
-msgid "Marker"
-msgstr "मार्कर"
-
-msgid "Marker + Label"
-msgstr "मार्कर + लेबल"
-
-msgid "Display type"
-msgstr "डिस्प्ले प्रकार"
-
-msgid "Small"
-msgstr "छोटा"
-
-msgid "Middle"
-msgstr "मध्य"
-
-msgid "Large"
-msgstr "विशाल"
-
-msgid "Size"
-msgstr "आकार"
-
-msgid "Text"
-msgstr "विषय वस्तु"
-
-msgid "Label Buy style"
-msgstr "लेबल खरीदें शैली"
-
-msgid "Label Sell style"
-msgstr "लेबल बेचें शैली"
 
 msgid "Imbalance ratio"
 msgstr "असंतुलन अनुपात"
@@ -1268,9 +1424,6 @@ msgstr "डेल्टा परिकलन प्रकार"
 msgid "Cumulative Delta reset"
 msgstr "संचयी डेल्टा रीसेट"
 
-msgid "General"
-msgstr "सामान्य"
-
 msgid "Cluster"
 msgstr "क्लस्टर"
 
@@ -1310,14 +1463,20 @@ msgstr "OHLC/4"
 msgid "Price type"
 msgstr "मूल्य प्रकार"
 
+msgid "VWAP line"
+msgstr "वीडब्ल्यूएपी लाइन"
+
+msgid "Forward extensions"
+msgstr "एक्सटेंशन अग्रेषित करें"
+
+msgid "Enable forward extensions"
+msgstr "अग्रेषित एक्सटेंशन सक्षम करें"
+
 msgid "Forward extensions (past VWAPs)"
 msgstr "फॉरवर्ड एक्सटेंशन (पिछले VWAPs)"
 
 msgid "Forward extensions type"
 msgstr "फॉरवर्ड एक्सटेंशन प्रकार"
-
-msgid "VWAP line"
-msgstr "वीडब्ल्यूएपी लाइन"
 
 msgid "Standart deviation"
 msgstr "स्टैंडआर्ट विचलन"
@@ -1534,9 +1693,6 @@ msgstr "बाती रंग"
 msgid "Doji"
 msgstr "Doji"
 
-msgid "Line"
-msgstr "लाइन"
-
 msgid "Area"
 msgstr "क्षेत्र"
 
@@ -1735,9 +1891,6 @@ msgstr "फ़्लोटिंग बायां"
 msgid "Floating right"
 msgstr "फ्लोटिंग राइट"
 
-msgid "Background"
-msgstr "पृष्ठभूमि"
-
 msgid "Angles"
 msgstr "कोण"
 
@@ -1756,6 +1909,12 @@ msgstr "उपकरण रंग"
 msgid "Tool color"
 msgstr "उपकरण रंग"
 
+msgid "TP"
+msgstr "Tp"
+
+msgid "SL"
+msgstr "Sl"
+
 msgid "Long"
 msgstr "लंबी"
 
@@ -1773,12 +1932,6 @@ msgstr "लेबल की स्थिति"
 
 msgid "Center"
 msgstr "केंद्र"
-
-msgid "Take profit"
-msgstr "लाभ लें"
-
-msgid "Stop loss"
-msgstr "नुकसान रोकें"
 
 msgid "Regression Line"
 msgstr "प्रतीपगमन रेखा"
@@ -1868,9 +2021,6 @@ msgstr "poc रे"
 
 msgid "Waiting for data loading"
 msgstr "डेटा लोड िंग की प्रतीक्षा कर रहा है"
-
-msgid "Loading data..."
-msgstr "डेटा लोड हो रहा है..."
 
 msgid "No data"
 msgstr "कोई डेटा नहीं"
@@ -2087,6 +2237,12 @@ msgstr "अधिक ऑर्डर देने के लिए सीटी�
 msgid "Hold CTRL key to add more drawings"
 msgstr "अधिक चित्र जोड़ने के लिए सीटीआरएल कुंजी पकड़ो"
 
+msgid "Reduce-Only active"
+msgstr "केवल-कम करें सक्रिय"
+
+msgid "Reduce-Only not allowed"
+msgstr "Reduce-Only की अनुमति नहीं है"
+
 msgid "Data is loading..."
 msgstr "डेटा लोड हो रहा है.. ।"
 
@@ -2274,9 +2430,6 @@ msgstr "कस्टम वीडब्ल्यूएपी"
 msgid "Day high/low"
 msgstr "दिन उच्च कम/"
 
-msgid "Price range"
-msgstr "प्राइस रेंज"
-
 msgid "Grid time"
 msgstr "ग्रिड समय"
 
@@ -2354,14 +2507,35 @@ msgstr "डेटा गैप:"
 msgid "Waiting for quote..."
 msgstr "बोली के लिए इंतज़ार कर रहे ..."
 
+msgid "Histogram aligment"
+msgstr "हिस्टोग्राम एलिगमेंट"
+
+msgid "Custom back color"
+msgstr "कस्टम वापस रंग"
+
 msgid "Buy color"
 msgstr "रंग खरीदें"
 
 msgid "Sell color"
 msgstr "रंग बेचें"
 
+msgid "Cumulative aligment"
+msgstr "संचयी aligment"
+
+msgid "Cumulative Buy color"
+msgstr "संचयी खरीदें रंग"
+
+msgid "Cumulative Sell color"
+msgstr "संचयी बेचें रंग"
+
 msgid "Level2"
 msgstr "लेवल2"
+
+msgid "Trades"
+msgstr "ट्रेडों"
+
+msgid "Show DOM levels"
+msgstr "DOM स्तर दिखाएँ"
 
 msgid "Show Bid/Ask line"
 msgstr "शो बोली/पूछो लाइन"
@@ -2371,6 +2545,9 @@ msgstr "बोली लाइन रंग"
 
 msgid "Ask line color"
 msgstr "लाइन रंग पूछें"
+
+msgid "Extend price levels"
+msgstr "मूल्य स्तरों का विस्तार करें"
 
 msgid "DOM levels count"
 msgstr "डोम स्तर गिनती"
@@ -2405,8 +2582,35 @@ msgstr "रंग 4"
 msgid "Color 5"
 msgstr "रंग 5"
 
+msgid "HeatmapColorSet1"
+msgstr "हीटमैपकॉलरसेट1"
+
+msgid "HeatmapColorSet2"
+msgstr "हीटमैपकॉलरSet2"
+
+msgid "HeatmapColorSet3"
+msgstr "हीटमैपकॉलरSet3"
+
+msgid "HeatmapColorSet4"
+msgstr "हीटमैपकॉलरसेट4"
+
 msgid "Limit of points"
 msgstr "अंकों की सीमा"
+
+msgid "Marker size type"
+msgstr "मार्कर आकार प्रकार"
+
+msgid "Marker size (px)"
+msgstr "मार्कर आकार (px)"
+
+msgid "Markers maximal size (px)"
+msgstr "मार्करों अधिकतम आकार (px)"
+
+msgid "Maximal trade size"
+msgstr "अधिकतम व्यापार आकार"
+
+msgid "Custom trade size"
+msgstr "कस्टम व्यापार आकार"
 
 msgid "Show last line"
 msgstr "अंतिम पंक्ति दिखाएं"
@@ -2417,17 +2621,14 @@ msgstr "अंतिम पंक्ति का रंग"
 msgid "Markers opacity"
 msgstr "मार्कर अस्पष्टता"
 
-msgid "Markers maximum size (px)"
-msgstr "मार्कर अधिकतम आकार (px)"
-
-msgid "Maximal trade size"
-msgstr "अधिकतम व्यापार आकार"
-
-msgid "Custom trade size"
-msgstr "कस्टम व्यापार आकार"
-
 msgid "None color"
 msgstr "कोई रंग नहीं"
+
+msgid "Draw mode"
+msgstr "आरेखित मोड"
+
+msgid "Minimal volume width, px (aggregate mode)"
+msgstr "न्यूनतम मात्रा चौड़ाई, px (कुल मोड)"
 
 msgid "Scroll"
 msgstr "स्क्रॉल"
@@ -2636,17 +2837,38 @@ msgstr "सामांय सेटिंग्स"
 msgid "Model settings"
 msgstr "मॉडल सेटिंग्स"
 
+msgid "No centering"
+msgstr "कोई केंद्रीकरण नहीं"
+
+msgid "Auto centering"
+msgstr "ऑटो केंद्रीकरण"
+
+msgid "Keep in view"
+msgstr "दृश्य में रखें"
+
+msgid "Combined"
+msgstr "सम्मिलित"
+
+msgid "Implied"
+msgstr "निहित"
+
+msgid "Outright"
+msgstr "एकमुश्त"
+
 msgid "Short price format"
 msgstr "कम कीमत प्रारूप"
 
 msgid "Hide digits"
 msgstr "अंक छुपाएं"
 
-msgid "Auto center"
-msgstr "ऑटो सेंटर"
+msgid "Price centering mode"
+msgstr "मूल्य केंद्रीकरण मोड"
 
 msgid "Auto center type"
 msgstr "ऑटो केंद्र प्रकार"
+
+msgid "Book type"
+msgstr "पुस्तक प्रकार"
 
 msgid "Number of levels"
 msgstr "स्तरों की संख्या"
@@ -2861,6 +3083,9 @@ msgstr "ग्रिड रंग"
 msgid "All"
 msgstr "सभी"
 
+msgid "Center line"
+msgstr "केंद्र रेखा"
+
 msgid "Comments"
 msgstr "टिप्पणियाँ"
 
@@ -2869,15 +3094,6 @@ msgstr "स्पष्ट"
 
 msgid "Cumulative size"
 msgstr "संचयी आकार"
-
-msgid "Custom tick size:"
-msgstr "कस्टम टिक आकार:"
-
-msgid "Hide digits:"
-msgstr "अंक छुपाएं:"
-
-msgid "Disabled"
-msgstr "विकलांग"
 
 msgid "Show table header"
 msgstr "टेबल हेडर दिखाएं"
@@ -2894,8 +3110,71 @@ msgstr "हेडर ग्रिड रंग"
 msgid "Show day map"
 msgstr "दिन का नक्शा दिखाएं"
 
-msgid "Imbalance, %"
-msgstr "असंतुलन, %"
+msgid "Best bid"
+msgstr "सर्वश्रेष्ठ बोली"
+
+msgid "Best ask"
+msgstr "सबसे अच्छा पूछें"
+
+msgid "Spread"
+msgstr "फैलना"
+
+msgid "Marked price"
+msgstr "अंकित मूल्य"
+
+msgid "Current last"
+msgstr "वर्तमान अंतिम"
+
+msgid "Show last"
+msgstr "अंतिम दिखाएँ"
+
+msgid "Single color"
+msgstr "एकल रंग"
+
+msgid "By bid/ask"
+msgstr "बोली से / पूछें"
+
+msgid "By last change"
+msgstr "अंतिम परिवर्तन के अनुसार"
+
+msgid "Last coloring mode"
+msgstr "अंतिम रंग मोड"
+
+msgid "Show brackets"
+msgstr "कोष्ठक दिखाएँ"
+
+msgid "Ask border style"
+msgstr "बॉर्डर शैली पूछें"
+
+msgid "Ask custom style"
+msgstr "कस्टम शैली पूछें"
+
+msgid "Bid border style"
+msgstr "बोली बॉर्डर शैली"
+
+msgid "Bid custom style"
+msgstr "कस्टम शैली बोली लगाएं"
+
+msgid "Up border style"
+msgstr "ऊपर बॉर्डर शैली"
+
+msgid "Up custom style"
+msgstr "कस्टम शैली ऊपर"
+
+msgid "Down border style"
+msgstr "नीचे बॉर्डर शैली"
+
+msgid "Down custom style"
+msgstr "नीचे कस्टम शैली"
+
+msgid "Default border style"
+msgstr "डिफ़ॉल्ट बॉर्डर शैली"
+
+msgid "Default custom style"
+msgstr "डिफ़ॉल्ट कस्टम शैली"
+
+msgid "Position"
+msgstr "पद"
 
 msgid "Show position"
 msgstr "स्थिति दिखाएं"
@@ -2914,6 +3193,30 @@ msgstr "दिन उच्च"
 
 msgid "Day low"
 msgstr "दिन कम"
+
+msgid "Clear marked prices"
+msgstr "चिह्नित मूल्यों को साफ़ करें"
+
+msgid "Price marks"
+msgstr "मूल्य चिह्न"
+
+msgid "Add mark"
+msgstr "चिह्न जोड़ें"
+
+msgid "In profit range"
+msgstr "लाभ सीमा में"
+
+msgid "Profit text color"
+msgstr "लाभ पाठ रंग"
+
+msgid "In loss range"
+msgstr "हानि सीमा में"
+
+msgid "Loss text color"
+msgstr "हानि पाठ रंग"
+
+msgid "Profit & Loss"
+msgstr "लाभ और हानि"
 
 msgid "Bids/Asks"
 msgstr "बोलियां/पूछती हैं"
@@ -2948,6 +3251,18 @@ msgstr "दाएँ"
 msgid "Histogram Alignment"
 msgstr "हिस्टोग्राम अलाइनमेंट"
 
+msgid "Set price marker"
+msgstr "मूल्य मार्कर सेट करें"
+
+msgid "Custom tick size:"
+msgstr "कस्टम टिक आकार:"
+
+msgid "Hide digits:"
+msgstr "अंक छुपाएं:"
+
+msgid "Disabled"
+msgstr "विकलांग"
+
 msgid "Total font"
 msgstr "कुल फ़ॉन्ट"
 
@@ -2956,6 +3271,15 @@ msgstr "कुल रंग"
 
 msgid "Alignment"
 msgstr "संरेखण"
+
+msgid "Trade"
+msgstr "व्यापार"
+
+msgid "Delta Positive"
+msgstr "डेल्टा पॉजिटिव"
+
+msgid "Delta Negative"
+msgstr "डेल्टा नकारात्मक"
 
 msgid "Reload data (server)"
 msgstr "डेटा को फिर से लोड करें (सर्वर)"
@@ -3146,6 +3470,9 @@ msgstr "हटाएँ"
 msgid "Add selected symbols"
 msgstr "चयनित प्रतीक जोड़ें"
 
+msgid "Data latency"
+msgstr "डेटा विलंबता"
+
 msgid "'Or'"
 msgstr "'या'"
 
@@ -3160,54 +3487,6 @@ msgstr "सहेजी गई शर्तों को लागू करे�
 
 msgid "Are you sure you want to delete this condition?"
 msgstr "क्या आप सुनिश्चित हैं कि आप इस स्थिति को हटाना चाहते हैं?"
-
-msgid "Multiple per side"
-msgstr "प्रति पक्ष कई"
-
-msgid "One Position"
-msgstr "एक स्थिति"
-
-msgid "Absolute per lot"
-msgstr "निरपेक्ष प्रति लॉट"
-
-msgid "Per side"
-msgstr "प्रति पक्ष"
-
-msgid "Per round"
-msgstr "प्रति राउंड"
-
-msgid "Non marginal trading"
-msgstr "गैर सीमांत व्यापार"
-
-msgid "Netting type"
-msgstr "नेटिंग प्रकार"
-
-msgid "Fee value"
-msgstr "शुल्क मूल्य"
-
-msgid "Fee measurement"
-msgstr "शुल्क माप"
-
-msgid "Fee accrual"
-msgstr "शुल्क उपार्जन"
-
-msgid "Remove symbol"
-msgstr "प्रतीक निकालें"
-
-msgid "1 minute"
-msgstr "1 मिनट"
-
-msgid "Bid/Ask/Last"
-msgstr "बोली/पूछो/अंतिम"
-
-msgid "Bid/Ask/Mark"
-msgstr "बोली/पूछो/मार्क"
-
-msgid "Account performance"
-msgstr "खाता प्रदर्शन"
-
-msgid "DOM surface"
-msgstr "डोम सतह"
 
 msgid "Unpin from toolbar"
 msgstr "उपकरण पट्टी से अनपिन करना"
@@ -3489,6 +3768,9 @@ msgstr "थीम"
 msgid "Language (Beta)"
 msgstr "भाषा (बीटा)"
 
+msgid "Data latency limit, ms"
+msgstr "डेटा विलंबता सीमा, एमएस"
+
 msgid "Autosave settings (every 5 minutes)"
 msgstr "स्वतः सहेजें सेटिंग्स (हर 5 मिनट)"
 
@@ -3503,6 +3785,9 @@ msgstr "क्रिप्टो कीमतों को संक्षिप
 
 msgid "Unload inactive workspaces (reduces memory usage)"
 msgstr "निष्क्रिय कार्यस्थानों को अनलोड करें (स्मृति उपयोग को कम करता है)"
+
+msgid "Use software render mode (require application restart)"
+msgstr "सॉफ़्टवेयर रेंडर मोड का उपयोग करें (अनुप्रयोग पुनरारंभ करने की आवश्यकता है)"
 
 msgid "Hide part of Account name"
 msgstr "खाते के नाम का हिस्सा छिपाएं"
@@ -3666,8 +3951,20 @@ msgstr "अगले बाजार बंद समय"
 msgid "Gets nearest trading day close time"
 msgstr "निकटतम ट्रेडिंग दिन बंद समय हो जाता है"
 
+msgid "API key"
+msgstr "API कुंजी"
+
+msgid "Secret key"
+msgstr "गुप्त कुंजी"
+
 msgid "Can't find connection parameters"
 msgstr "कनेक्शन पैरामीटर्स नहीं ढूंढ सकता"
+
+msgid "ApiKey is empty"
+msgstr "एपीकी खाली है"
+
+msgid "Secret id is empty"
+msgstr "गुप्त आईडी खाली है"
 
 msgid "Use realtime data (Require many request to api)"
 msgstr "रियलटाइम डेटा का उपयोग करें (एपीआई के लिए कई अनुरोध की आवश्यकता है)"
@@ -3879,8 +4176,20 @@ msgstr "मार्क मूल्य"
 msgid "Last price"
 msgstr "अंतिम कीमत"
 
+msgid "Periodically"
+msgstr "आवधिक"
+
+msgid "Binance server"
+msgstr "Binance सर्वर"
+
+msgid "External server"
+msgstr "बाहरी सर्वर"
+
 msgid "Connection"
 msgstr "नाता"
+
+msgid "Bid/Ask update frequency"
+msgstr "बोली/पूछें अद्यतन आवृत्ति"
 
 msgid "Allow change leverage"
 msgstr "परिवर्तन का लाभ उठाने की अनुमति दें"
@@ -3903,29 +4212,152 @@ msgstr "स्थानीय स्तर पर पीएनएल की ग�
 msgid "PNL calculation basis"
 msgstr "पीएनएल गणना का आधार"
 
+msgid "Real-time trades source"
+msgstr "रीयल-टाइम ट्रेडों स्रोत"
+
+msgid "Account custom name"
+msgstr "खाता कस्टम नाम"
+
 msgid "Load user trades history"
 msgstr "लोड प्रयोक्ता ट्रेडों इतिहास"
-
-msgid "API key"
-msgstr "API कुंजी"
-
-msgid "Secret key"
-msgstr "गुप्त कुंजी"
 
 msgid "Rest api url not founded."
 msgstr "बाकी एपीआई यूआरएल की स्थापना नहीं की गई है।"
 
-msgid "Market data connection. Trading coming soon."
-msgstr "बाजार डेटा कनेक्शन । व्यापार जल्द ही आ रहा है ।"
+msgid "Reduce-only"
+msgstr "केवल-कम करें"
 
-msgid "Can't connect via socket"
-msgstr "सॉकेट के माध्यम से कनेक्ट नहीं कर सकता"
+msgid "Post-only"
+msgstr "केवल के बाद"
+
+msgid "OCO"
+msgstr "OCO"
+
+msgid "OCO Stop price"
+msgstr "OCO स्टॉप मूल्य"
+
+msgid "Can't connect."
+msgstr "कनेक्ट नहीं कर सकता."
 
 msgid "Allow margin trading"
 msgstr "मार्जिन ट्रेडिंग की अनुमति दें"
 
 msgid "Minimum margin"
 msgstr "न्यूनतम मार्जिन"
+
+msgid "Insurance fund balance"
+msgstr "बीमा निधि शेष"
+
+msgid "The balance available to the liquidation engine to absorb losses"
+msgstr "हानियों को अवशोषित करने के लिए परिसमापन इंजन के लिए उपलब्ध संतुलन"
+
+msgid "Next funding"
+msgstr "अगला वित्तपोषण"
+
+msgid "Timestamp of next funding event"
+msgstr "अगले वित्त पोषण घटना का टाइमस्टैम्प"
+
+msgid "Next funding accrued"
+msgstr "अगला धन अर्जित"
+
+msgid "Current accrued funding for next 8h period"
+msgstr "अगले 8h अवधि के लिए वर्तमान अर्जित धन"
+
+msgid "Next funding step"
+msgstr "अगला धन कदम"
+
+msgid "Incremental accrual counter"
+msgstr "वृद्धिशील उपार्जन काउंटर"
+
+msgid "Current funding"
+msgstr "वर्तमान वित्त पोषण"
+
+msgid "Funding applied in the current 8h period"
+msgstr "वर्तमान 8h अवधि में लागू धन"
+
+msgid "Clamp min"
+msgstr "क्लैंप मिनट"
+
+msgid "Range in the average spread that does not require a funding payment"
+msgstr "औसत प्रसार में वह श्रेणी जिसे धन भुगतान की आवश्यकता नहीं होती है"
+
+msgid "Clamp max"
+msgstr "अधिकतम क्लैंप करें"
+
+msgid "Funding payment cap"
+msgstr "फंडिंग भुगतान सीमा"
+
+msgid "Orders history"
+msgstr "आदेश इतिहास"
+
+msgid "Order ID"
+msgstr "ऑर्डर आईडी"
+
+msgid "Group ID"
+msgstr "समूह ID"
+
+msgid "Client Order ID"
+msgstr "क्लाइंट ऑर्डर आईडी"
+
+msgid "Creation time"
+msgstr "निर्माण समय"
+
+msgid "Update time"
+msgstr "अद्यतन समय"
+
+msgid "Amount"
+msgstr "राशि"
+
+msgid "Orig. amount"
+msgstr "ओरिग राशि"
+
+msgid "Average price"
+msgstr "औसत मूल्य"
+
+msgid "Trailing price"
+msgstr "अनुगामी मूल्य"
+
+msgid "Auxiliary Limit price"
+msgstr "सहायक सीमा मूल्य"
+
+msgid "Net margin"
+msgstr "निवल मार्जिन"
+
+msgid "User profit & loss"
+msgstr "उपयोगकर्ता लाभ और हानि"
+
+msgid "User swaps"
+msgstr "उपयोगकर्ता स्वैप"
+
+msgid "Verified"
+msgstr "सत्यापित"
+
+msgid "Verification level"
+msgstr "सत्यापन स्तर"
+
+msgid "Merchant enabled"
+msgstr "व्यापारी सक्षम किया गया"
+
+msgid "Maker fee"
+msgstr "निर्माता शुल्क"
+
+msgid "Derivative rebate"
+msgstr "व्युत्पन्न छूट"
+
+msgid "Taker fee to crypto"
+msgstr "Crypto के लिए Taker शुल्क"
+
+msgid "Taker fee to stable"
+msgstr "स्थिर करने के लिए लेने वाले शुल्क"
+
+msgid "Taker fee to fiat"
+msgstr "फिएट करने के लिए लेने वाले शुल्क"
+
+msgid "Derivative taker fee"
+msgstr "व्युत्पन्न लेने वाला शुल्क"
+
+msgid "Market data connection. Trading coming soon."
+msgstr "बाजार डेटा कनेक्शन । व्यापार जल्द ही आ रहा है ।"
 
 msgid "Index"
 msgstr "सूचकांक"
@@ -3941,9 +4373,6 @@ msgstr "व्यापार इतिहास"
 
 msgid "Order history"
 msgstr "आदेश इतिहास"
-
-msgid "Amount"
-msgstr "राशि"
 
 msgid "Fee"
 msgstr "शुल्क"
@@ -3996,9 +4425,6 @@ msgstr "स्टॉप प्राइस"
 msgid "Fill Price"
 msgstr "भरें मूल्य"
 
-msgid "Client Order ID"
-msgstr "क्लाइंट ऑर्डर आईडी"
-
 msgid "Risk limit"
 msgstr "जोखिम सीमा"
 
@@ -4032,8 +4458,8 @@ msgstr "उपलब्ध शेष राशि"
 msgid "Your margin available for new positions. Available Balance = (Margin Balance - Order Margin - Position Margin)"
 msgstr "नए पदों के लिए उपलब्ध आपका मार्जिन। उपलब्ध शेष = (मार्जिन बैलेंस - ऑर्डर मार्जिन - स्थिति मार्जिन)"
 
-msgid "Gross Position Value: {this.bitmexUserMargin.GrossPositionValue.FromSatoshi()?.RoundTo(BitmexVendor.USER_ASSET_PRECISION)} {BitmexVendor.USER_ASSET}"
-msgstr "सकल स्थिति मूल्य: {this.bitmexUserMargin. GrossPositionValue.fromSatoshi ()?. राउंडटो (BitmexVendor.USER_ASSET_PRECISION)} {BitmexVendor.USER_ASSET}"
+msgid "Gross Position Value: {RoundToCurrencyPrecision(ConvertToRealValue(userMargin.GrossPositionValue, currency), currency)} {currency}"
+msgstr "सकल स्थिति मान: {RoundToCurrencyPrecision (ConvertToRealValue (userMargin.GrossPositionValue, मुद्रा), मुद्रा)} {currency}"
 
 msgid "Display quantity"
 msgstr "प्रदर्शन की मात्रा"
@@ -4053,11 +4479,14 @@ msgstr "लाभ पीछे"
 msgid "Min price"
 msgstr "न्यूनतम मूल्य"
 
-msgid "Maker fee"
-msgstr "निर्माता शुल्क"
-
 msgid "Taker fee"
 msgstr "टेकर शुल्क"
+
+msgid "Long leverage"
+msgstr "लंबे समय तक उत्तोलन"
+
+msgid "Short leverage"
+msgstr "लघु उत्तोलन"
 
 msgid "Max leverage"
 msgstr "मैक्स लीवरेज"
@@ -4133,9 +4562,6 @@ msgstr "कनेक्शन प्रकार के पैरामीटर
 
 msgid "Client id is empty"
 msgstr "ग्राहक आईडी खाली है"
-
-msgid "Secret id is empty"
-msgstr "गुप्त आईडी खाली है"
 
 msgid "Trade user"
 msgstr "ट्रेड उपयोगकर्ता"
@@ -4317,6 +4743,9 @@ msgstr "अचेतन पीएनएल (ओटीई)"
 msgid "Open trade equity, or potential profit (or loss) from futures and future-style options positions based on opening price of the position and the current future trade/best bid/best ask (regarding to the risk account settings) or settlement price if trade is not available. Included if purchasing power depends on it."
 msgstr "ओपन ट्रेड इक्विटी, या संभावित लाभ (या हानि) वायदा और भविष्य शैली विकल्प पदों से स्थिति के उद्घाटन मूल्य और वर्तमान भविष्य के व्यापार के आधार पर/ यदि क्रय शक्ति इस पर निर्भर करती है तो शामिल हैं।"
 
+msgid "Total PnL"
+msgstr "कुल PnL"
+
 msgid "Margin credit"
 msgstr "मार्जिन क्रेडिट"
 
@@ -4331,6 +4760,39 @@ msgstr "मार्जिन आवश्यकता खुले पदों
 
 msgid "Margin requirement based on current positions only."
 msgstr "केवल वर्तमान पदों के आधार पर मार्जिन की आवश्यकता।"
+
+msgid "Spot"
+msgstr "जगह"
+
+msgid "Trade mode"
+msgstr "व्यापार मोड"
+
+msgid "Post only"
+msgstr "केवल पोस्ट करें"
+
+msgid "Post Only"
+msgstr "केवल पोस्ट करें"
+
+msgid "Margin trading is enabled"
+msgstr "मार्जिन ट्रेडिंग सक्षम है"
+
+msgid "Margin order"
+msgstr "हाशिये का क्रम"
+
+msgid "Spot order"
+msgstr "स्पॉट ऑर्डर"
+
+msgid "Connect to exchange"
+msgstr "Exchange से कनेक्ट करें"
+
+msgid "Support margin trading"
+msgstr "समर्थन मार्जिन ट्रेडिंग"
+
+msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
+msgstr "कनेक्ट करने के लिए चयनित एक्सचेंज नहीं हैं. कृपया 'कनेक्शन सेटिंग्स' खोलें और आवश्यक एक्सचेंजों का चयन करें।"
+
+msgid "Market range"
+msgstr "बाजार रेंज"
 
 msgid "Open orders"
 msgstr "खुला आदेश"
@@ -4425,9 +4887,6 @@ msgstr "पी/एल रोलवर"
 msgid "Order routing"
 msgstr "आदेश मार्ग"
 
-msgid "Mode"
-msgstr "मोड"
-
 msgid "Pre trade risk managment"
 msgstr "पूर्व व्यापार जोखिम प्रबंधन"
 
@@ -4496,9 +4955,6 @@ msgstr "ब्रोकर/एफसीएम"
 
 msgid "Stop market"
 msgstr "बाजार बंद करो"
-
-msgid "Post Only"
-msgstr "केवल पोस्ट करें"
 
 msgid "Post"
 msgstr "पोस्ट"
@@ -4575,17 +5031,11 @@ msgstr "प्रेंडरकॉम्पआईडी"
 msgid "TargetCompId"
 msgstr "लक्ष्यकॉम्पिड"
 
-msgid "Orders history"
-msgstr "आदेश इतिहास"
-
 msgid "Trades history"
 msgstr "ट्रेडों इतिहास"
 
 msgid "Transactions history"
 msgstr "लेन-देन का इतिहास"
-
-msgid "Order ID"
-msgstr "ऑर्डर आईडी"
 
 msgid "Account"
 msgstr "खाता"
@@ -4604,9 +5054,6 @@ msgstr "साधन"
 
 msgid "Stop price"
 msgstr "स्टॉप प्राइस"
-
-msgid "Average price"
-msgstr "औसत मूल्य"
 
 msgid "P&L"
 msgstr "पीएंडएल"
@@ -4631,6 +5078,9 @@ msgstr "मार्जिन के लिए उपयोग किया ज�
 
 msgid "Margin utilization"
 msgstr "मार्जिन यूटिलाइजेशन"
+
+msgid "Reduce-Only"
+msgstr "केवल-कम करें"
 
 msgid "Lower bound"
 msgstr "लोअर बाउंड"
@@ -4827,11 +5277,128 @@ msgstr "तरलता दर प्रदान"
 msgid "Fee currency"
 msgstr "शुल्क मुद्रा"
 
+msgid "Reduce only"
+msgstr "केवल कम करें"
+
+msgid "Isolated"
+msgstr "अकेला"
+
+msgid "Margin mode"
+msgstr "हाशिये मोड"
+
+msgid "Order price"
+msgstr "आदेश मूल्य"
+
+msgid "Optimal 5 price"
+msgstr "इष्टतम 5 मूल्य"
+
+msgid "Optimal 10 price"
+msgstr "इष्टतम 10 मूल्य"
+
+msgid "Optimal 20 price"
+msgstr "इष्टतम 20 मूल्य"
+
+msgid "This week"
+msgstr "इस सप्ताह"
+
+msgid "Next week"
+msgstr "अगले सप्ताह"
+
+msgid "Quarter"
+msgstr "दिशा"
+
+msgid "Next quarter"
+msgstr "अगली तिमाही"
+
+msgid "Delisting"
+msgstr "डीलिस्टिंग"
+
+msgid "Listing"
+msgstr "लिस्टिंग"
+
+msgid "Pending listing"
+msgstr "लंबित लिस्टिंग"
+
+msgid "Suspension"
+msgstr "निलंबन"
+
+msgid "Suspending of listing"
+msgstr "लिस्टिंग को निलंबित करना"
+
+msgid "In settlement"
+msgstr "निपटान में"
+
+msgid "Delivering"
+msgstr "देने"
+
+msgid "Settlement completed"
+msgstr "निपटान पूरा हुआ"
+
+msgid "Delivered"
+msgstr "दिया गया"
+
+msgid "Suspending of trade"
+msgstr "व्यापार को निलंबित करना"
+
+msgid "Otc"
+msgstr "ओटीसी"
+
+msgid "Super margin"
+msgstr "सुपर मार्जिन"
+
+msgid "Investmnet"
+msgstr "Investmnet"
+
+msgid "Time out"
+msgstr "टाइम आउट"
+
+msgid "Contract status"
+msgstr "अनुबंध स्थिति"
+
+msgid "Settlement time"
+msgstr "निपटान समय"
+
+msgid "Order price type"
+msgstr "आदेश मूल्य प्रकार"
+
+msgid "Contract type"
+msgstr "अनुबंध प्रकार"
+
+msgid "Isolated leverage"
+msgstr "पृथक उत्तोलन"
+
+msgid "Cross leverage"
+msgstr "क्रॉस उत्तोलन"
+
+msgid "Spot exchange"
+msgstr "स्पॉट एक्सचेंज"
+
+msgid "Coin-M Futures"
+msgstr "सिक्का-एम फ्यूचर्स"
+
+msgid "Coin-M Swaps"
+msgstr "सिक्का-एम स्वैप"
+
+msgid "USDT-M Swaps"
+msgstr "USDT-M स्वैप"
+
+msgid "Load user orders history"
+msgstr "लोड उपयोगकर्ता आदेश इतिहास"
+
+msgid "There aren't selected exchanges to connect. Please, choose needed exchanges and try connect again."
+msgstr "कनेक्ट करने के लिए चयनित एक्सचेंज नहीं हैं. कृपया, आवश्यक एक्सचेंज चुनें और पुन: कनेक्ट करने का प्रयास करें."
+
 msgid "API key is empty"
 msgstr "API कुंजी रिक्त है"
 
 msgid "Secret key is empty"
 msgstr "गुप्त कुंजी रिक्त है"
+
+msgid "Limit on close"
+msgstr "बंद होने पर सीमा"
+
+msgid "Market on close"
+msgstr "बाजार बंद होने पर"
 
 msgid "Trader Workstation"
 msgstr "व्यापारी वर्कस्टेशन"
@@ -5058,6 +5625,12 @@ msgstr "लाभ उठाने खरीदें"
 msgid "Leverage sell"
 msgstr "उत्तोलन बेचें"
 
+msgid "Connect to spot exchange"
+msgstr "स्पॉट एक्सचेंज से कनेक्ट करें"
+
+msgid "Connect to futures exchange"
+msgstr "वायदा विनिमय से कनेक्ट करें"
+
 msgid "Margin requirements"
 msgstr "मार्जिन आवश्यकताएं"
 
@@ -5227,44 +5800,17 @@ msgstr "नुकसान का प्रकार रोकें"
 msgid "SL trigger price"
 msgstr "एसएल ट्रिगर मूल्य"
 
-msgid "Reduce only"
-msgstr "केवल कम करें"
-
-msgid "Isolated"
-msgstr "अकेला"
-
 msgid "Order behaviour"
 msgstr "आदेश व्यवहार"
 
-msgid "Trade mode"
-msgstr "व्यापार मोड"
-
 msgid "Margin currency"
 msgstr "मार्जिन मुद्रा"
-
-msgid "Post only"
-msgstr "केवल पोस्ट करें"
 
 msgid "Linear"
 msgstr "रेखीय"
 
 msgid "Inverse"
 msgstr "उल्टा"
-
-msgid "This week"
-msgstr "इस सप्ताह"
-
-msgid "Next week"
-msgstr "अगले सप्ताह"
-
-msgid "Quarter"
-msgstr "दिशा"
-
-msgid "Next quarter"
-msgstr "अगली तिमाही"
-
-msgid "Simple"
-msgstr "सरल"
 
 msgid "Single currency margin"
 msgstr "सिंगल करेंसी मार्जिन"
@@ -5287,8 +5833,14 @@ msgstr "सफल"
 msgid "Pending cancel"
 msgstr "लंबित रद्द"
 
+msgid "Canceled"
+msgstr "रद्द"
+
 msgid "Failed"
 msgstr "असफल"
+
+msgid "Pending"
+msgstr "लंबित"
 
 msgid "Sending"
 msgstr "भेजने"
@@ -5346,9 +5898,6 @@ msgstr "मार्जिन रेशियो"
 
 msgid "Quantity of positions"
 msgstr "पदों की मात्रा"
-
-msgid "ApiKey is empty"
-msgstr "एपीकी खाली है"
 
 msgid "Passphase is empty"
 msgstr "पासफेज खाली है"
@@ -5533,9 +6082,6 @@ msgstr "नॉट ग्रेटरसेन"
 msgid "NotLessThan"
 msgstr "नोट्ससेन"
 
-msgid "Trade"
-msgstr "व्यापार"
-
 msgid "Compare operator"
 msgstr "ऑपरेटर की तुलना करें"
 
@@ -5586,6 +6132,9 @@ msgstr "हड़ताल ऑपरेटर"
 
 msgid "If applicable, the strike price operator of the instrument."
 msgstr "यदि लागू हो, तो साधन का स्ट्राइक प्राइस ऑपरेटर।"
+
+msgid " (Full License)"
+msgstr " (पूर्ण लाइसेंस)"
 
 msgid "The FCM (futures commission merchant) associated with this account."
 msgstr "इस खाते से जुड़े एफसीएम (वायदा कमीशन मर्चेंट)।"
@@ -5676,6 +6225,9 @@ msgstr "खुला लाभ/हानि"
 
 msgid "Closed Profit/Loss"
 msgstr "बंद लाभ/हानि"
+
+msgid "Total Profit/Loss"
+msgstr "कुल लाभ/हानि"
 
 msgid "Intraday"
 msgstr "इंट्राडे"
@@ -5914,57 +6466,6 @@ msgstr "आवासीय पोशाक"
 msgid "Requesting client config..."
 msgstr "ग्राहक कॉन्फ़िग का अनुरोध ..."
 
-msgid "CfiCode"
-msgstr "सीफ़ीकोड"
-
-msgid "ISO 10962 provides a global standard for these classifications in the form of specific codes."
-msgstr "आईएसओ 10962 विशिष्ट कोड के रूप में इन वर्गीकरण के लिए एक वैश्विक मानक प्रदान करता है।"
-
-msgid "Auction number"
-msgstr "नीलामी संख्या"
-
-msgid "VaRMargin"
-msgstr "वैरार्गिन"
-
-msgid "Issued capital"
-msgstr "जारी की गई पूंजी"
-
-msgid "Tradeable"
-msgstr "ट्रेडेबल"
-
-msgid "Series"
-msgstr "श्रृंखला"
-
-msgid "52 weeks high"
-msgstr "52 सप्ताह अधिक"
-
-msgid "52 weeks low"
-msgstr "52 सप्ताह कम"
-
-msgid "Initial"
-msgstr "प्रारंभिक"
-
-msgid "Pre expiry"
-msgstr "प्री एक्सपायरी"
-
-msgid "Delivery"
-msgstr "वितरण"
-
-msgid "Special buy"
-msgstr "विशेष खरीद"
-
-msgid "Special sell"
-msgstr "विशेष बिक्री"
-
-msgid "Tender"
-msgstr "निविदा"
-
-msgid "ELM long"
-msgstr "ईएलएम लंबा"
-
-msgid "ELM short"
-msgstr "ईएलएम शॉर्ट"
-
 msgid "Expulsion date"
 msgstr "निष्कासन की तारीख"
 
@@ -6033,6 +6534,12 @@ msgstr "आदेश अनुरोध रद्द करें"
 
 msgid "Position convert request"
 msgstr "स्थिति परिवर्तित अनुरोध"
+
+msgid "Information"
+msgstr "सूचना"
+
+msgid "Refresh all data was requested."
+msgstr "सभी डेटा ताज़ा करने का अनुरोध किया गया था."
 
 msgid "History"
 msgstr "इतिहास"
@@ -6310,17 +6817,173 @@ msgstr "मंच की कार्यक्षमता का परीक�
 msgid "Equity. Equal to Account Balance + Unrealized P/L"
 msgstr "इक्विटी. खाता शेष के बराबर + अचेतन P/"
 
-msgid "Open positions count"
-msgstr "खुले स्थानों की गिनती"
-
-msgid "Open orders count"
-msgstr "ऑर्डर गणना खोलें"
+msgid "Unrealized net P/L"
+msgstr "अप्राप्य शुद्ध P/L"
 
 msgid "Realized P/L"
 msgstr "एहसास पी एल/"
 
-msgid "Time out"
-msgstr "टाइम आउट"
+msgid "Classification"
+msgstr "वर्गीकरण"
+
+msgid "Class of account. One of: individual, entity, individual, joint_survivor, joint_survivor, traditional_ira, roth_ira, rollover_ira, entity, sep_ira"
+msgstr "खाते का वर्ग। में से एक: व्यक्ति, इकाई, व्यक्ति, joint_survivor, joint_survivor, traditional_ira, roth_ira, rollover_ira, इकाई, sep_ira"
+
+msgid "Date created"
+msgstr "बनाया गया दिनांक"
+
+msgid "Date account was created"
+msgstr "दिनांक खाता बनाया गया था"
+
+msgid "Day trader"
+msgstr "दिन व्यापारी"
+
+msgid "Marked as day trader"
+msgstr "दिन के व्यापारी के रूप में चिह्नित"
+
+msgid "Option level"
+msgstr "विकल्प स्तर"
+
+msgid "Account option level (1-6)"
+msgstr "खाता विकल्प स्तर (1-6)"
+
+msgid "Current status of the account: One of: active, closed"
+msgstr "खाते की वर्तमान स्थिति: में से एक: सक्रिय, बंद"
+
+msgid "Type of the account. One of: cash, margin"
+msgstr "खाते का प्रकार. में से एक: नकद, मार्जिन"
+
+msgid "Last update date"
+msgstr "अंतिम अद्यतन दिनांक"
+
+msgid "Date account was last updated"
+msgstr "दिनांक खाता अंतिम बार अद्यतन किया गया था"
+
+msgid "User id"
+msgstr "उपयोगकर्ता आईडी"
+
+msgid "User name"
+msgstr "उपयोगकर्ता नाम"
+
+msgid "Option short value"
+msgstr "विकल्प लघु मान"
+
+msgid "Value of short option positions"
+msgstr "लघु विकल्प पदों का मान"
+
+msgid "Total equity"
+msgstr "कुल इक्विटी"
+
+msgid "Total account value"
+msgstr "कुल खाता मान"
+
+msgid "ClosePL"
+msgstr "CLOSEPL"
+
+msgid "Gain/Loss of current session's closed positions"
+msgstr "वर्तमान सत्र की बंद स्थिति का लाभ/ हानि"
+
+msgid "Current requirement"
+msgstr "वर्तमान आवश्यकता"
+
+msgid "Account's maintenance margin"
+msgstr "खाते का रखरखाव मार्जिन"
+
+msgid "Equity value"
+msgstr "इक्विटी मूल्य"
+
+msgid "Market value"
+msgstr "बाज़ार भाव"
+
+msgid "OpenPL"
+msgstr "OpenPL"
+
+msgid "Total gain/loss of current account's positions"
+msgstr "चालू खाते की स्थिति का कुल लाभ/ हानि"
+
+msgid "Option long value"
+msgstr "विकल्प लंबा मान"
+
+msgid "Value of long option positions"
+msgstr "लंबे विकल्प पदों का मूल्य"
+
+msgid "Option requirement"
+msgstr "विकल्प आवश्यकता"
+
+msgid "Account's total option requirement"
+msgstr "खाते की कुल विकल्प आवश्यकता"
+
+msgid "Pending orders count"
+msgstr "लंबित आदेशों की गिनती"
+
+msgid "Count of all pending/open orders"
+msgstr "सभी लंबित/खुले आदेशों की गिनती"
+
+msgid "Stock long value"
+msgstr "स्टॉक लंबा मूल्य"
+
+msgid "Value of long equity positions"
+msgstr "लंबी इक्विटी पदों का मूल्य"
+
+msgid "Total cash in the account"
+msgstr "खाते में कुल नकदी"
+
+msgid "Uncleared funds"
+msgstr "अस्पष्ट धन"
+
+msgid "Cash unavailable for trading in the account"
+msgstr "खाते में व्यापार के लिए अनुपलब्ध नकदी"
+
+msgid "Pending cash"
+msgstr "लंबित नकदी"
+
+msgid "Amount of cash being held for open orders"
+msgstr "खुले आदेशों के लिए रखी जा रही नकदी की राशि"
+
+msgid "Fed Call"
+msgstr "फेड कॉल"
+
+msgid "Amount that the account is in deficit for trades that have occurred but not been paid for"
+msgstr "वह राशि जो खाता उन ट्रेडों के लिए घाटे में है जो हुए हैं लेकिन इसके लिए भुगतान नहीं किया गया है"
+
+msgid "Amount of funds available to purchase non-marginable securities"
+msgstr "गैर-मार्जिनेबल प्रतिभूतियों को खरीदने के लिए उपलब्ध निधियों की राशि"
+
+msgid "Amount of funds available to purchase fully marginable securities"
+msgstr "पूरी तरह से माजन योग्य प्रतिभूतियों को खरीदने के लिए उपलब्ध धन की राशि"
+
+msgid "Stock short value"
+msgstr "स्टॉक लघु मूल्य"
+
+msgid "Value of short stocks"
+msgstr "छोटे शेयरों का मूल्य"
+
+msgid "Sweep"
+msgstr "झाड़ू लगाना"
+
+msgid "CashAvailable"
+msgstr "नकद उपलब्ध"
+
+msgid "Cash available"
+msgstr "उपलब्ध नकदी"
+
+msgid "Unsettled funds"
+msgstr "अव्यवस्थित निधियाँ"
+
+msgid "Cash that is in the account from recent stock or option sales, but has not yet settled; cash from stock sales occurring during the last 3 trading days or from option sales occurring during the previous trading day"
+msgstr "नकदी जो हाल के स्टॉक या विकल्प बिक्री से खाते में है, लेकिन अभी तक तय नहीं हुई है; पिछले 3 ट्रेडिंग दिनों के दौरान होने वाली स्टॉक बिक्री से नकद या पिछले ट्रेडिंग दिन के दौरान होने वाली विकल्प बिक्री से"
+
+msgid "Fed call"
+msgstr "फेड कॉल"
+
+msgid "Amount that the account is under the minimum equity required in the account to support the current positions"
+msgstr "वह राशि जो खाता वर्तमान स्थिति का समर्थन करने के लिए खाते में आवश्यक न्यूनतम इक्विटी के तहत है"
+
+msgid "OptionBuyingPower"
+msgstr "OptionBuyingPower"
+
+msgid "StockBuyingPower"
+msgstr "StockBuyingPower"
 
 msgid "Alias"
 msgstr "उर्फ़"
@@ -6330,9 +6993,6 @@ msgstr "सेरी"
 
 msgid "Username is empty"
 msgstr "उपयोगकर्ता नाम खाली है"
-
-msgid "Spot"
-msgstr "जगह"
 
 msgid "Xena Listed Perpetuals"
 msgstr "xena सूचीबद्ध perpetuals"
@@ -6378,6 +7038,9 @@ msgstr "निम्न अनुक्रमणिका"
 
 msgid "High index"
 msgstr "उच्च सूचकांक"
+
+msgid "Can't connect via socket"
+msgstr "सॉकेट के माध्यम से कनेक्ट नहीं कर सकता"
 
 msgid "Free margin"
 msgstr "मुक् त हाशिया"
