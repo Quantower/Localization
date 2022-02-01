@@ -27,7 +27,7 @@ msgid "Symbol"
 msgstr "Символ"
 
 msgid "Symbol name"
-msgstr "Имя инструмента"
+msgstr "Имя символа"
 
 msgid "Description"
 msgstr "Описание"
@@ -96,16 +96,16 @@ msgid "Cancel"
 msgstr "Отмена"
 
 msgid "Brackets setup"
-msgstr "Настройка кронштейнов"
+msgstr "Настройка брэкетов"
 
 msgid "Quantity, %"
 msgstr "Количество, %"
 
 msgid "No brackets set up yet. Press the “Plus” button to create one"
-msgstr "Скобки еще не установлены. Нажмите кнопку «Плюс», чтобы создать его"
+msgstr "Брэкеты еще не установлены. Нажмите кнопку «Плюс», чтобы создать"
 
 msgid "Level {this.bracketItemsControllers.IndexOf(controller) + 1} is configured incorrectly: at least one order must be active"
-msgstr "Уровень {this.bracketItemsControllers.IndexOf(controller) + 1} настроен неправильно: хотя бы один заказ должен быть активным"
+msgstr "Уровень {this.bracketItemsControllers.IndexOf(controller) + 1} настроен неправильно: хотя бы один ордер должен быть активным"
 
 msgid "Current Total Quantity ({totalSum}%) is incorrect - should be less then 100%"
 msgstr "Текущее общее количество ({totalSum}%) некорректно - должно быть менее 100%"
@@ -132,16 +132,16 @@ msgid "Position was closed"
 msgstr "Позиция закрыта"
 
 msgid "Slim mode"
-msgstr "Тонкий режим"
+msgstr "Компактный вид"
 
 msgid "No labels"
-msgstr "Нет меток"
+msgstr "Без подписей"
 
 msgid "Show additional order parameters"
-msgstr "Показать дополнительные параметры заказа"
+msgstr "Показать дополнительные параметры ордера"
 
 msgid "OE qty buttons"
-msgstr "Кнопки OE кол-во"
+msgstr "Быстрые кнопки количества"
 
 #, csharp-format
 msgid "Are you sure want to close position and cancel all orders on {0}?"
@@ -200,13 +200,13 @@ msgid "Rename group"
 msgstr "Переименовать группу"
 
 msgid "Show account lookup"
-msgstr "Показать поиск учетной записи"
+msgstr "Показать выбор учетной записи"
 
 msgid "Show symbol lookup"
-msgstr "Показать поиск символов"
+msgstr "Показать выбор символов"
 
 msgid "Show margin info (if available)"
-msgstr "Показать информацию о поле (если доступно)"
+msgstr "Показать информацию о марже (если доступно)"
 
 msgid "Buy"
 msgstr "Покупка"
@@ -218,7 +218,7 @@ msgid "Add to basket"
 msgstr "Добавить в корзину"
 
 msgid "Show/hide order entry"
-msgstr "Показать/скрыть запись заказа"
+msgstr "Показать/скрыть форму создания ордера"
 
 msgid "Submit as OCO"
 msgstr "Отправить как OCO"
@@ -233,7 +233,7 @@ msgid "Exclude from group"
 msgstr "Исключить из группы"
 
 msgid "Move to"
-msgstr "Переезд в"
+msgstr "Перместить в"
 
 msgid "Rename"
 msgstr "Переименовать"
@@ -284,10 +284,10 @@ msgid "Multiple order entry"
 msgstr "Несколько входов заказов"
 
 msgid "Set order as default"
-msgstr "Установить порядок по умолчанию"
+msgstr "Задать как ордер по-умолчанию"
 
 msgid "Save order template"
-msgstr "Сохранить шаблон заказа"
+msgstr "Сохранить шаблон ордера"
 
 msgid "Create template"
 msgstr "Создание шаблона"
