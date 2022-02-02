@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:25+0200\n"
+"POT-Creation-Date: 2022-02-02 00:53+0200\n"
 "PO-Revision-Date: 2019-06-25 12:50+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,44 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "OHLC"
-msgstr "اولیا"
-
-msgid "Open"
-msgstr "باز"
-
-msgid "Close"
-msgstr "نزدیک"
-
-msgid "Modelling scheme"
-msgstr "طرح مدلسازی"
-
 msgid "General"
 msgstr "عمومی"
 
 msgid "Initial balance"
 msgstr "تعادل اولیه"
-
-msgid "None"
-msgstr "هیچ کدام"
-
-msgid "Fixed"
-msgstr "ثابت"
-
-msgid "Range"
-msgstr "محدوده"
-
-msgid "Execution delay"
-msgstr "تأخیر در اجرای حکم"
-
-msgid "Min (ms)"
-msgstr "دقیقه (خانم)"
-
-msgid "Max (ms)"
-msgstr "حداکثر (خانم)"
-
-msgid "Value (ms)"
-msgstr "ارزش (خانم)"
 
 msgid "Remove symbol"
 msgstr "حذف نماد"
@@ -61,38 +28,11 @@ msgstr "حذف نماد"
 msgid "Open panel"
 msgstr "باز کردن پانل"
 
-msgid "Order entry"
-msgstr "ورود سفارش"
-
-msgid "Chart"
-msgstr "نمودار"
-
-msgid "DOM Trader"
-msgstr "DOM تریدر"
-
-msgid "Market Depth"
-msgstr "عمق بازار"
-
-msgid "Time & Sales"
-msgstr "زمان فروش &"
-
-msgid "DOM surface"
-msgstr "سطح DOM"
-
-msgid "TPO Chart"
-msgstr "نمودار TPO"
-
-msgid "Symbol Info"
-msgstr "اطلاعات نماد"
-
-msgid "Account performance"
-msgstr "عملکرد حساب"
-
 msgid "Market Replay"
 msgstr "پخش مجدد بازار"
 
-msgid "Range of replay:"
-msgstr "محدوده پخش:"
+msgid "History range:"
+msgstr "محدوده تاریخچه:"
 
 msgid "Symbol"
 msgstr "نماد"
@@ -106,20 +46,29 @@ msgstr "نوع اجرا"
 msgid "Do you really want to stop Market Replay? This action will delete all test results."
 msgstr "آیا شما واقعا می خواهید برای جلوگیری از پخش بازار؟ این عمل تمام نتایج آزمون را حذف خواهد کرد."
 
-msgid "Symbols"
-msgstr "نمادها"
+msgid "No symbols to simulate"
+msgstr "بدون نمادها برای شبیه سازی"
+
+msgid "You need select symbols to start simulation"
+msgstr "شما باید نمادها را برای شروع شبیه سازی انتخاب کنید"
+
+msgid "Wrong history range"
+msgstr "محدوده تاریخ اشتباه"
+
+msgid "You need set history range, from < to"
+msgstr "شما نیاز به مجموعه محدوده تاریخ، از < به"
+
+msgid "Wrong start replaying from time"
+msgstr "شروع اشتباه پخش مجدد از زمان"
+
+msgid "You need set start replaying time inside history range"
+msgstr "شما نیاز به مجموعه شروع زمان پخش مجدد در داخل محدوده تاریخ"
 
 msgid "Ready to start simulation"
 msgstr "آماده برای شروع شبیه سازی"
 
 msgid "Start simulation with selected symbols"
 msgstr "شروع شبیه سازی با نمادهای انتخاب شده"
-
-msgid "No symbols to simulate"
-msgstr "بدون نمادها برای شبیه سازی"
-
-msgid "You need select symbols to start simulation"
-msgstr "شما باید نمادها را برای شروع شبیه سازی انتخاب کنید"
 
 msgid "START"
 msgstr "شروع"
@@ -162,3 +111,33 @@ msgstr "نماد شبیه سازی را اضافه کنید"
 
 msgid "Trading Simulator current state"
 msgstr "وضعیت شبیه ساز معاملاتی فعلی"
+
+msgid "Symbols"
+msgstr "نمادها"
+
+msgid "Order entry"
+msgstr "ورود سفارش"
+
+msgid "Chart"
+msgstr "نمودار"
+
+msgid "DOM Trader"
+msgstr "DOM تریدر"
+
+msgid "Market Depth"
+msgstr "عمق بازار"
+
+msgid "Time & Sales"
+msgstr "زمان فروش &"
+
+msgid "DOM surface"
+msgstr "سطح DOM"
+
+msgid "TPO Chart"
+msgstr "نمودار TPO"
+
+msgid "Symbol Info"
+msgstr "اطلاعات نماد"
+
+msgid "Account performance"
+msgstr "عملکرد حساب"

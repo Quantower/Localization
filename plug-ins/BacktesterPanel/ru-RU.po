@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:25+0200\n"
+"POT-Creation-Date: 2022-02-02 00:53+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,44 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "OHLC"
-msgstr "По ценам OHLC"
-
-msgid "Open"
-msgstr "По ценам открытия"
-
-msgid "Close"
-msgstr "По ценам закрытия"
-
-msgid "Modelling scheme"
-msgstr "Схема моделирования"
-
 msgid "General"
 msgstr "Общие"
 
 msgid "Initial balance"
 msgstr "Начальный баланс"
-
-msgid "None"
-msgstr "Не задано"
-
-msgid "Fixed"
-msgstr "Фиксированная"
-
-msgid "Range"
-msgstr "Диапазон"
-
-msgid "Execution delay"
-msgstr "Задержка исполнения"
-
-msgid "Min (ms)"
-msgstr "Минимальная (мс)"
-
-msgid "Max (ms)"
-msgstr "Максимальная (мс)"
-
-msgid "Value (ms)"
-msgstr "Значение (мс)"
 
 msgid "Remove symbol"
 msgstr "Удалить символ"
@@ -61,38 +28,11 @@ msgstr "Удалить символ"
 msgid "Open panel"
 msgstr "Открыть панель"
 
-msgid "Order entry"
-msgstr "Создать Ордер"
-
-msgid "Chart"
-msgstr "График"
-
-msgid "DOM Trader"
-msgstr "DOM Трейдер"
-
-msgid "Market Depth"
-msgstr "Стакан Ордеров"
-
-msgid "Time & Sales"
-msgstr "Лента Сделок"
-
-msgid "DOM surface"
-msgstr "Поверхность DOM"
-
-msgid "TPO Chart"
-msgstr "Диаграмма TPO"
-
-msgid "Symbol Info"
-msgstr "Информация о символах"
-
-msgid "Account performance"
-msgstr "Показатели Счета"
-
 msgid "Market Replay"
 msgstr "Рыночный повтор"
 
-msgid "Range of replay:"
-msgstr "Диапазон:"
+msgid "History range:"
+msgstr "Диапазон истории:"
 
 msgid "Symbol"
 msgstr "Символ"
@@ -106,20 +46,29 @@ msgstr "Тип исполнения"
 msgid "Do you really want to stop Market Replay? This action will delete all test results."
 msgstr "Вы действительно хотите, чтобы остановить рынок Replay? Это действие удалит все результаты теста."
 
-msgid "Symbols"
-msgstr "Символы"
+msgid "No symbols to simulate"
+msgstr "Символы отсутствуют"
+
+msgid "You need select symbols to start simulation"
+msgstr "Для запуска моделирования необходимо выбрать символы"
+
+msgid "Wrong history range"
+msgstr "Неправильный диапазон истории"
+
+msgid "You need set history range, from < to"
+msgstr "Вам нужно установить диапазон истории, от < до"
+
+msgid "Wrong start replaying from time"
+msgstr "Неправильно начать переигровку со времени"
+
+msgid "You need set start replaying time inside history range"
+msgstr "Вам нужно установить время начала воспроизведения в пределах диапазона истории"
 
 msgid "Ready to start simulation"
 msgstr "Готов к запуску моделирования"
 
 msgid "Start simulation with selected symbols"
 msgstr "Начать моделирование с выбранными символами"
-
-msgid "No symbols to simulate"
-msgstr "Символы отсутствуют"
-
-msgid "You need select symbols to start simulation"
-msgstr "Для запуска моделирования необходимо выбрать символы"
 
 msgid "START"
 msgstr "НАЧАТЬ"
@@ -162,3 +111,33 @@ msgstr "Добавить символ для моделирования"
 
 msgid "Trading Simulator current state"
 msgstr "Текущее состояние Торгового Симулятора"
+
+msgid "Symbols"
+msgstr "Символы"
+
+msgid "Order entry"
+msgstr "Создать Ордер"
+
+msgid "Chart"
+msgstr "График"
+
+msgid "DOM Trader"
+msgstr "DOM Трейдер"
+
+msgid "Market Depth"
+msgstr "Стакан Ордеров"
+
+msgid "Time & Sales"
+msgstr "Лента Сделок"
+
+msgid "DOM surface"
+msgstr "Поверхность DOM"
+
+msgid "TPO Chart"
+msgstr "Диаграмма TPO"
+
+msgid "Symbol Info"
+msgstr "Информация о символах"
+
+msgid "Account performance"
+msgstr "Показатели Счета"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 15:21+0300\n"
+"POT-Creation-Date: 2022-02-02 01:09+0200\n"
 "PO-Revision-Date: 2018-12-04 15:11+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -361,9 +361,6 @@ msgstr "Показати панель інструментів об'єкта"
 msgid "Show toolbar"
 msgstr "Показати панель інструментів"
 
-msgid "Show quick trade toolbar"
-msgstr "Відображати панель швидкого торгівлі"
-
 msgid "Show volume analysis toolbar"
 msgstr "Відображати панель інструментів \"аналіз гучності\""
 
@@ -385,6 +382,9 @@ msgstr "Видимість"
 msgid "Data type"
 msgstr "Тип даних"
 
+msgid "Show Order entry"
+msgstr "Показати запис замовлення"
+
 msgid "View"
 msgstr "Вид"
 
@@ -400,8 +400,23 @@ msgstr "Шкала ціни"
 msgid "Visual trading"
 msgstr "Візуальна торгівля"
 
+msgid "Positions"
+msgstr "Позиції"
+
+msgid "Orders"
+msgstr "Замовлення"
+
+msgid "Trades"
+msgstr "Торгів"
+
+msgid "SL/TP"
+msgstr "SL/TP"
+
 msgid "Order Entry"
 msgstr "Запис замовлення"
+
+msgid "Quick ruler"
+msgstr "Швидка лінійка"
 
 msgid "Info window"
 msgstr "Інформаційне вікно"
@@ -586,6 +601,9 @@ msgstr "Перерва навіть"
 msgid "Set Quantity to match position size"
 msgstr "Встановити кількість відповідно до розміру позиції"
 
+msgid "Toggle Reduce-Only"
+msgstr "Переключення лише на зменшення"
+
 msgid "Remove indicators"
 msgstr "Видалити індикатори"
 
@@ -676,6 +694,9 @@ msgstr "Показати менеджер об'єктів"
 msgid "Make screenshot"
 msgstr "Зробити Знімок екрану"
 
+msgid "OE qty button "
+msgstr "Кнопка \"QTY\" "
+
 msgid "Volume Analysis settings"
 msgstr "Параметри аналізу гучності"
 
@@ -691,14 +712,29 @@ msgstr "Увімкнути автоматичне центрування"
 msgid "Switch info window mode"
 msgstr "Перемкнути режим вікна інформації"
 
+msgid "Combined"
+msgstr "Поєднанні"
+
+msgid "Overlay"
+msgstr "Накладення"
+
+msgid "Mirror"
+msgstr "Дзеркало"
+
 msgid "Show Order Book"
 msgstr "Показати книгу замовлень"
+
+msgid "Size/Cumulative"
+msgstr "Розмір/кумулятивний"
 
 msgid "Cumulative size"
 msgstr "Кумулятивний розмір"
 
 msgid "General"
 msgstr "Загальне"
+
+msgid "Volume"
+msgstr "Обсяг"
 
 msgid "Monochome"
 msgstr "Монохомний"
@@ -741,6 +777,15 @@ msgstr "АНАЛІЗ ОБ'ЄМУ"
 
 msgid "Show/Hide TPO statistics"
 msgstr "Відображення або приховання статистики TPO"
+
+msgid "Draw angled line"
+msgstr "Малювання кутової лінії"
+
+msgid "Draw andrew's pitchfork"
+msgstr "Намалюйте вилами Андрія"
+
+msgid "Draw polygon"
+msgstr "Малювання багатокутника"
 
 msgid "Cluster"
 msgstr "Кластера"

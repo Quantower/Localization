@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:25+0200\n"
+"POT-Creation-Date: 2022-02-02 00:53+0200\n"
 "PO-Revision-Date: 2019-04-02 11:38+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,44 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "OHLC"
-msgstr "OHLC"
-
-msgid "Open"
-msgstr "खोलें"
-
-msgid "Close"
-msgstr "बंद करना"
-
-msgid "Modelling scheme"
-msgstr "मॉडलिंग योजना"
-
 msgid "General"
 msgstr "सामान्य"
 
 msgid "Initial balance"
 msgstr "प्रारंभिक शेष"
-
-msgid "None"
-msgstr "कोई नहीं"
-
-msgid "Fixed"
-msgstr "निश्चित"
-
-msgid "Range"
-msgstr "श्रेणी"
-
-msgid "Execution delay"
-msgstr "निष्पादन विलंब"
-
-msgid "Min (ms)"
-msgstr "Min (ms)"
-
-msgid "Max (ms)"
-msgstr "मैक्स (एमएस)"
-
-msgid "Value (ms)"
-msgstr "मान (ms)"
 
 msgid "Remove symbol"
 msgstr "प्रतीक निकालें"
@@ -61,38 +28,11 @@ msgstr "प्रतीक निकालें"
 msgid "Open panel"
 msgstr "खुला पैनल"
 
-msgid "Order entry"
-msgstr "आदेश प्रविष् टि"
-
-msgid "Chart"
-msgstr "चार्ट"
-
-msgid "DOM Trader"
-msgstr "डोम व्यापारी"
-
-msgid "Market Depth"
-msgstr "बाज़ार गहराई"
-
-msgid "Time & Sales"
-msgstr "समय और बिक्री"
-
-msgid "DOM surface"
-msgstr "डोम सतह"
-
-msgid "TPO Chart"
-msgstr "टीपीओ चार्ट"
-
-msgid "Symbol Info"
-msgstr "प्रतीक जानकारी"
-
-msgid "Account performance"
-msgstr "खाता प्रदर्शन"
-
 msgid "Market Replay"
 msgstr "बाजार पुनरावृत्ति"
 
-msgid "Range of replay:"
-msgstr "पुनरावृत्ति की श्रेणी:"
+msgid "History range:"
+msgstr "इतिहास श्रेणी:"
 
 msgid "Symbol"
 msgstr "प्रतीक"
@@ -106,20 +46,29 @@ msgstr "निष्पादन प्रकार"
 msgid "Do you really want to stop Market Replay? This action will delete all test results."
 msgstr "क्या आप वास्तव में मार्केट रीप्ले को रोकना चाहते हैं? यह कार्रवाई सभी परीक्षा परिणामों को हटा देगी।"
 
-msgid "Symbols"
-msgstr "प्रतीकों"
+msgid "No symbols to simulate"
+msgstr "कोई प्रतीक अनुकरण करने के लिए"
+
+msgid "You need select symbols to start simulation"
+msgstr "आप अनुकरण शुरू करने के लिए प्रतीकों का चयन की जरूरत"
+
+msgid "Wrong history range"
+msgstr "गलत इतिहास श्रेणी"
+
+msgid "You need set history range, from < to"
+msgstr "आपको < से लेकर इतिहास की सीमा निर्धारित करने की आवश्यकता है"
+
+msgid "Wrong start replaying from time"
+msgstr "गलत समय से replaying शुरू"
+
+msgid "You need set start replaying time inside history range"
+msgstr "आपको इतिहास श्रेणी के अंदर पुनरारंभ समय सेट करने की आवश्यकता है"
 
 msgid "Ready to start simulation"
 msgstr "सिमुलेशन शुरू करने के लिए तैयार"
 
 msgid "Start simulation with selected symbols"
 msgstr "चयनित प्रतीकों के साथ सिमुलेशन प्रारंभ करें"
-
-msgid "No symbols to simulate"
-msgstr "कोई प्रतीक अनुकरण करने के लिए"
-
-msgid "You need select symbols to start simulation"
-msgstr "आप अनुकरण शुरू करने के लिए प्रतीकों का चयन की जरूरत"
 
 msgid "START"
 msgstr "प्रारंभ"
@@ -162,3 +111,33 @@ msgstr "सिमुलेशन के लिए प्रतीक जोड�
 
 msgid "Trading Simulator current state"
 msgstr "ट्रेडिंग सिम्युलेटर वर्तमान स्थिति"
+
+msgid "Symbols"
+msgstr "प्रतीकों"
+
+msgid "Order entry"
+msgstr "आदेश प्रविष् टि"
+
+msgid "Chart"
+msgstr "चार्ट"
+
+msgid "DOM Trader"
+msgstr "डोम व्यापारी"
+
+msgid "Market Depth"
+msgstr "बाज़ार गहराई"
+
+msgid "Time & Sales"
+msgstr "समय और बिक्री"
+
+msgid "DOM surface"
+msgstr "डोम सतह"
+
+msgid "TPO Chart"
+msgstr "टीपीओ चार्ट"
+
+msgid "Symbol Info"
+msgstr "प्रतीक जानकारी"
+
+msgid "Account performance"
+msgstr "खाता प्रदर्शन"

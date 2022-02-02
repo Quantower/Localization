@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 15:20+0300\n"
+"POT-Creation-Date: 2022-02-02 00:53+0200\n"
 "PO-Revision-Date: 2021-01-12 16:06+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,44 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "OHLC"
-msgstr "OHLC"
-
-msgid "Open"
-msgstr "Aberto"
-
-msgid "Close"
-msgstr "Fechado"
-
-msgid "Modelling scheme"
-msgstr "Esquema de modelagem"
-
 msgid "General"
 msgstr "Geral"
 
 msgid "Initial balance"
 msgstr "Balanço inicial"
-
-msgid "None"
-msgstr "Nenhum"
-
-msgid "Fixed"
-msgstr "Fixo"
-
-msgid "Range"
-msgstr "Distancia"
-
-msgid "Execution delay"
-msgstr "Atraso de execução"
-
-msgid "Min (ms)"
-msgstr "Min (ms)"
-
-msgid "Max (ms)"
-msgstr "Max (ms)"
-
-msgid "Value (ms)"
-msgstr "Valor (ms)"
 
 msgid "Remove symbol"
 msgstr "Remover o símbolo"
@@ -61,38 +28,11 @@ msgstr "Remover o símbolo"
 msgid "Open panel"
 msgstr "Painel aberto"
 
-msgid "Order entry"
-msgstr "Boleta"
-
-msgid "Chart"
-msgstr "Gráfico"
-
-msgid "DOM Trader"
-msgstr "DOM Trader"
-
-msgid "Market Depth"
-msgstr "Book de Orders"
-
-msgid "Time & Sales"
-msgstr "Negociados"
-
-msgid "DOM surface"
-msgstr "DOM surface"
-
-msgid "TPO Chart"
-msgstr "TPO Gráfico"
-
-msgid "Symbol Info"
-msgstr "Info Ativos"
-
-msgid "Account performance"
-msgstr "Perfomance da Conta"
-
 msgid "Market Replay"
 msgstr "Replay de Mercado"
 
-msgid "Range of replay:"
-msgstr "Intervalo de replay:"
+msgid "History range:"
+msgstr "Faixa de história:"
 
 msgid "Symbol"
 msgstr "Ativo"
@@ -106,20 +46,29 @@ msgstr "Tipo de execução"
 msgid "Do you really want to stop Market Replay? This action will delete all test results."
 msgstr "Você realmente quer parar o Market Replay? Esta ação excluirá todos os resultados do teste."
 
-msgid "Symbols"
-msgstr "Ativos"
+msgid "No symbols to simulate"
+msgstr "Sem Ativos para simular"
+
+msgid "You need select symbols to start simulation"
+msgstr "Você precisa selecionar símbolos para iniciar a simulação"
+
+msgid "Wrong history range"
+msgstr "Alcance da história errada"
+
+msgid "You need set history range, from < to"
+msgstr "Você precisa definir o alcance da história, de < a"
+
+msgid "Wrong start replaying from time"
+msgstr "Início errado de repetição a partir do tempo"
+
+msgid "You need set start replaying time inside history range"
+msgstr "Você precisa definir o tempo de reprodução dentro do intervalo da história"
 
 msgid "Ready to start simulation"
 msgstr "Pronto para iniciar a simulação"
 
 msgid "Start simulation with selected symbols"
 msgstr "Iniciar simulação com Ativos selecionados"
-
-msgid "No symbols to simulate"
-msgstr "Sem Ativos para simular"
-
-msgid "You need select symbols to start simulation"
-msgstr "Você precisa selecionar símbolos para iniciar a simulação"
 
 msgid "START"
 msgstr "Começar"
@@ -162,3 +111,33 @@ msgstr "Adicionar Ativo para simulação"
 
 msgid "Trading Simulator current state"
 msgstr "Estado atual do Simulador"
+
+msgid "Symbols"
+msgstr "Ativos"
+
+msgid "Order entry"
+msgstr "Boleta"
+
+msgid "Chart"
+msgstr "Gráfico"
+
+msgid "DOM Trader"
+msgstr "DOM Trader"
+
+msgid "Market Depth"
+msgstr "Book de Orders"
+
+msgid "Time & Sales"
+msgstr "Negociados"
+
+msgid "DOM surface"
+msgstr "DOM surface"
+
+msgid "TPO Chart"
+msgstr "TPO Gráfico"
+
+msgid "Symbol Info"
+msgstr "Info Ativos"
+
+msgid "Account performance"
+msgstr "Perfomance da Conta"

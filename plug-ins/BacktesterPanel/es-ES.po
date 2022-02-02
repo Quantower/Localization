@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:25+0200\n"
+"POT-Creation-Date: 2022-02-02 00:53+0200\n"
 "PO-Revision-Date: 2018-12-04 14:58+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,44 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "OHLC"
-msgstr "OHLC"
-
-msgid "Open"
-msgstr "Abrir"
-
-msgid "Close"
-msgstr "Cerrar"
-
-msgid "Modelling scheme"
-msgstr "Esquema de modelo"
-
 msgid "General"
 msgstr "General"
 
 msgid "Initial balance"
 msgstr "Saldo inicial"
-
-msgid "None"
-msgstr "Ninguno"
-
-msgid "Fixed"
-msgstr "Fijo"
-
-msgid "Range"
-msgstr "Rango"
-
-msgid "Execution delay"
-msgstr "Retraso en la ejecución"
-
-msgid "Min (ms)"
-msgstr "Min (ms)"
-
-msgid "Max (ms)"
-msgstr "Max (ms)"
-
-msgid "Value (ms)"
-msgstr "Valor (ms)"
 
 msgid "Remove symbol"
 msgstr "Eliminar símbolo"
@@ -61,38 +28,11 @@ msgstr "Eliminar símbolo"
 msgid "Open panel"
 msgstr "Panel abierto"
 
-msgid "Order entry"
-msgstr "Entrada de orden"
-
-msgid "Chart"
-msgstr "Gráfico"
-
-msgid "DOM Trader"
-msgstr "DOM Trader"
-
-msgid "Market Depth"
-msgstr "Profundidad del mercado"
-
-msgid "Time & Sales"
-msgstr "&Tiempo & Ventas"
-
-msgid "DOM surface"
-msgstr "Superficie DOM"
-
-msgid "TPO Chart"
-msgstr "Gráfico TPO"
-
-msgid "Symbol Info"
-msgstr "Información del símbolo"
-
-msgid "Account performance"
-msgstr "Rendimiento de cuenta"
-
 msgid "Market Replay"
 msgstr "Repetición del mercado"
 
-msgid "Range of replay:"
-msgstr "Rango de repetición:"
+msgid "History range:"
+msgstr "Rango histórico:"
 
 msgid "Symbol"
 msgstr "Símbolo"
@@ -106,20 +46,29 @@ msgstr "Tipo de ejecución"
 msgid "Do you really want to stop Market Replay? This action will delete all test results."
 msgstr "¿Realmente quieres detener Market Replay? Esta acción eliminará todos los resultados de la prueba."
 
-msgid "Symbols"
-msgstr "Símbolos"
+msgid "No symbols to simulate"
+msgstr "Sin símbolos para simular"
+
+msgid "You need select symbols to start simulation"
+msgstr "Necesita seleccionar símbolos para comenzar la simulación"
+
+msgid "Wrong history range"
+msgstr "Rango de historial incorrecto"
+
+msgid "You need set history range, from < to"
+msgstr "Necesita establecer el rango de historial, desde < hasta"
+
+msgid "Wrong start replaying from time"
+msgstr "Inicio incorrecto de repetición de tiempo"
+
+msgid "You need set start replaying time inside history range"
+msgstr "Necesita establecer el tiempo de reproducción de inicio dentro del rango de historial"
 
 msgid "Ready to start simulation"
 msgstr "Listo para comenzar la simulación"
 
 msgid "Start simulation with selected symbols"
 msgstr "Comience la simulación con símbolos seleccionados"
-
-msgid "No symbols to simulate"
-msgstr "Sin símbolos para simular"
-
-msgid "You need select symbols to start simulation"
-msgstr "Necesita seleccionar símbolos para comenzar la simulación"
 
 msgid "START"
 msgstr "COMIENZO"
@@ -162,3 +111,33 @@ msgstr "Agregar símbolo para simulación"
 
 msgid "Trading Simulator current state"
 msgstr "Estado actual de Trading Simulator"
+
+msgid "Symbols"
+msgstr "Símbolos"
+
+msgid "Order entry"
+msgstr "Entrada de orden"
+
+msgid "Chart"
+msgstr "Gráfico"
+
+msgid "DOM Trader"
+msgstr "DOM Trader"
+
+msgid "Market Depth"
+msgstr "Profundidad del mercado"
+
+msgid "Time & Sales"
+msgstr "&Tiempo & Ventas"
+
+msgid "DOM surface"
+msgstr "Superficie DOM"
+
+msgid "TPO Chart"
+msgstr "Gráfico TPO"
+
+msgid "Symbol Info"
+msgstr "Información del símbolo"
+
+msgid "Account performance"
+msgstr "Rendimiento de cuenta"

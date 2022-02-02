@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:25+0200\n"
+"POT-Creation-Date: 2022-02-02 00:53+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,44 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "OHLC"
-msgstr "AYDK"
-
-msgid "Open"
-msgstr "Açılış"
-
-msgid "Close"
-msgstr "Kapat"
-
-msgid "Modelling scheme"
-msgstr "Modelleme şeması"
-
 msgid "General"
 msgstr "Genel"
 
 msgid "Initial balance"
 msgstr "Başlangıç bakiyesi"
-
-msgid "None"
-msgstr "Yok"
-
-msgid "Fixed"
-msgstr "Sabit"
-
-msgid "Range"
-msgstr "Aralık"
-
-msgid "Execution delay"
-msgstr "Yürütme gecikmesi"
-
-msgid "Min (ms)"
-msgstr "Min (ms)"
-
-msgid "Max (ms)"
-msgstr "Maks (ms)"
-
-msgid "Value (ms)"
-msgstr "Değer (ms)"
 
 msgid "Remove symbol"
 msgstr "Sembolü kaldır"
@@ -61,38 +28,11 @@ msgstr "Sembolü kaldır"
 msgid "Open panel"
 msgstr "Paneli aç"
 
-msgid "Order entry"
-msgstr "Emir girişi"
-
-msgid "Chart"
-msgstr "Grafik"
-
-msgid "DOM Trader"
-msgstr "DOM Trader"
-
-msgid "Market Depth"
-msgstr "Piyasa Derinliği"
-
-msgid "Time & Sales"
-msgstr "Saat & Satışlar"
-
-msgid "DOM surface"
-msgstr "DOM yüzeyi"
-
-msgid "TPO Chart"
-msgstr "TPO Grafiği"
-
-msgid "Symbol Info"
-msgstr "Sembol Bilgileri"
-
-msgid "Account performance"
-msgstr "Hesap performansı"
-
 msgid "Market Replay"
 msgstr "Piyasa Tekrarı"
 
-msgid "Range of replay:"
-msgstr "Tekrar aralığı:"
+msgid "History range:"
+msgstr "Geçmiş aralığı:"
 
 msgid "Symbol"
 msgstr "Sembol"
@@ -106,20 +46,29 @@ msgstr "Yürütme tipi"
 msgid "Do you really want to stop Market Replay? This action will delete all test results."
 msgstr "Piyasa Tekrarı'nı gerçekten durdurmak istiyor musun? Bu eylem tüm test sonuçlarını siler."
 
-msgid "Symbols"
-msgstr "Semboller"
+msgid "No symbols to simulate"
+msgstr "Simüle edilecek sembol yok"
+
+msgid "You need select symbols to start simulation"
+msgstr "Simülasyonu başlatmak için sembollere ihtiyacınız var"
+
+msgid "Wrong history range"
+msgstr "Yanlış geçmiş aralığı"
+
+msgid "You need set history range, from < to"
+msgstr "< kadar set geçmiş aralığına ihtiyacınız var"
+
+msgid "Wrong start replaying from time"
+msgstr "Yanlış başlatma zaman zaman yeniden oynatma"
+
+msgid "You need set start replaying time inside history range"
+msgstr "Tarih aralığında zamanı yeniden oynatmaya başlamayı ayarlamanız gerekir"
 
 msgid "Ready to start simulation"
 msgstr "Simülasyona başlamak için hazır"
 
 msgid "Start simulation with selected symbols"
 msgstr "Seçili sembollerle simülasyonu başlat"
-
-msgid "No symbols to simulate"
-msgstr "Simüle edilecek sembol yok"
-
-msgid "You need select symbols to start simulation"
-msgstr "Simülasyonu başlatmak için sembollere ihtiyacınız var"
 
 msgid "START"
 msgstr "BAŞLA"
@@ -162,3 +111,33 @@ msgstr "Simülasyon için sembol ekle"
 
 msgid "Trading Simulator current state"
 msgstr "AlSat Simülatörü mevcut durumu"
+
+msgid "Symbols"
+msgstr "Semboller"
+
+msgid "Order entry"
+msgstr "Emir girişi"
+
+msgid "Chart"
+msgstr "Grafik"
+
+msgid "DOM Trader"
+msgstr "DOM Trader"
+
+msgid "Market Depth"
+msgstr "Piyasa Derinliği"
+
+msgid "Time & Sales"
+msgstr "Saat & Satışlar"
+
+msgid "DOM surface"
+msgstr "DOM yüzeyi"
+
+msgid "TPO Chart"
+msgstr "TPO Grafiği"
+
+msgid "Symbol Info"
+msgstr "Sembol Bilgileri"
+
+msgid "Account performance"
+msgstr "Hesap performansı"

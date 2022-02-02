@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:25+0200\n"
+"POT-Creation-Date: 2022-02-02 00:53+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,44 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "OHLC"
-msgstr "OHLC"
-
-msgid "Open"
-msgstr "فتح"
-
-msgid "Close"
-msgstr "إغلاق"
-
-msgid "Modelling scheme"
-msgstr "نظام التصميم"
-
 msgid "General"
 msgstr "عام"
 
 msgid "Initial balance"
 msgstr "الرصيد الافتتاحي"
-
-msgid "None"
-msgstr "لا يوجد"
-
-msgid "Fixed"
-msgstr "ثابت"
-
-msgid "Range"
-msgstr "المدى"
-
-msgid "Execution delay"
-msgstr "تأخير التنفيذ"
-
-msgid "Min (ms)"
-msgstr "دقيقة (مللي ثانية)"
-
-msgid "Max (ms)"
-msgstr "ماكس (مللي)"
-
-msgid "Value (ms)"
-msgstr "القيمة (بالميلي ثانية)"
 
 msgid "Remove symbol"
 msgstr "إزالة الرمز"
@@ -61,38 +28,11 @@ msgstr "إزالة الرمز"
 msgid "Open panel"
 msgstr "افتح اللوحة"
 
-msgid "Order entry"
-msgstr "إدخال الأوامر"
-
-msgid "Chart"
-msgstr "الرسم البياني"
-
-msgid "DOM Trader"
-msgstr "DOM التاجر"
-
-msgid "Market Depth"
-msgstr "عمق السوق"
-
-msgid "Time & Sales"
-msgstr "الوقت والمبيعات"
-
-msgid "DOM surface"
-msgstr "سطح DOM"
-
-msgid "TPO Chart"
-msgstr "مخطط TPO"
-
-msgid "Symbol Info"
-msgstr "معلومات الرمز"
-
-msgid "Account performance"
-msgstr "أداء الحساب"
-
 msgid "Market Replay"
 msgstr "إعادة السوق"
 
-msgid "Range of replay:"
-msgstr "مجموعة من اعادتها:"
+msgid "History range:"
+msgstr "نطاق التاريخ:"
 
 msgid "Symbol"
 msgstr "الرمز"
@@ -106,20 +46,29 @@ msgstr "نوع التنفيذ"
 msgid "Do you really want to stop Market Replay? This action will delete all test results."
 msgstr "هل تريد حقا لوقف إعادة السوق؟ سيؤدي هذا الإجراء إلى حذف كافة نتائج الاختبار."
 
-msgid "Symbols"
-msgstr "الرموز"
+msgid "No symbols to simulate"
+msgstr "لا توجد رموز لمحاكاة"
+
+msgid "You need select symbols to start simulation"
+msgstr "تحتاج إلى تحديد الرموز لبدء المحاكاة"
+
+msgid "Wrong history range"
+msgstr "نطاق محفوظات خاطئ"
+
+msgid "You need set history range, from < to"
+msgstr "تحتاج مجموعة نطاق المحفوظات، من < إلى"
+
+msgid "Wrong start replaying from time"
+msgstr "بداية خاطئة في الإعادة من الوقت"
+
+msgid "You need set start replaying time inside history range"
+msgstr "تحتاج إلى تعيين بدء إعادة الوقت داخل نطاق التاريخ"
 
 msgid "Ready to start simulation"
 msgstr "على استعداد لبدء المحاكاة"
 
 msgid "Start simulation with selected symbols"
 msgstr "بدء المحاكاة مع الرموز المحددة"
-
-msgid "No symbols to simulate"
-msgstr "لا توجد رموز لمحاكاة"
-
-msgid "You need select symbols to start simulation"
-msgstr "تحتاج إلى تحديد الرموز لبدء المحاكاة"
 
 msgid "START"
 msgstr "بداية"
@@ -162,3 +111,33 @@ msgstr "أضف رمزًا للمحاكاة"
 
 msgid "Trading Simulator current state"
 msgstr "التجارة محاكي الحالة الحالية"
+
+msgid "Symbols"
+msgstr "الرموز"
+
+msgid "Order entry"
+msgstr "إدخال الأوامر"
+
+msgid "Chart"
+msgstr "الرسم البياني"
+
+msgid "DOM Trader"
+msgstr "DOM التاجر"
+
+msgid "Market Depth"
+msgstr "عمق السوق"
+
+msgid "Time & Sales"
+msgstr "الوقت والمبيعات"
+
+msgid "DOM surface"
+msgstr "سطح DOM"
+
+msgid "TPO Chart"
+msgstr "مخطط TPO"
+
+msgid "Symbol Info"
+msgstr "معلومات الرمز"
+
+msgid "Account performance"
+msgstr "أداء الحساب"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 15:21+0300\n"
+"POT-Creation-Date: 2022-02-02 01:09+0200\n"
 "PO-Revision-Date: 2018-12-04 15:12+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -361,9 +361,6 @@ msgstr "Show objects toolbar"
 msgid "Show toolbar"
 msgstr "Show toolbar"
 
-msgid "Show quick trade toolbar"
-msgstr "Show quick trade toolbar"
-
 msgid "Show volume analysis toolbar"
 msgstr "Show volume analysis toolbar"
 
@@ -385,6 +382,9 @@ msgstr "Visibility"
 msgid "Data type"
 msgstr "Data type"
 
+msgid "Show Order entry"
+msgstr "Show Order entry"
+
 msgid "View"
 msgstr "View"
 
@@ -400,8 +400,23 @@ msgstr "Price scale"
 msgid "Visual trading"
 msgstr "Visual trading"
 
+msgid "Positions"
+msgstr "Positions"
+
+msgid "Orders"
+msgstr "Orders"
+
+msgid "Trades"
+msgstr "Trades"
+
+msgid "SL/TP"
+msgstr "SL/TP"
+
 msgid "Order Entry"
 msgstr "Order Entry"
+
+msgid "Quick ruler"
+msgstr "Quick ruler"
 
 msgid "Info window"
 msgstr "Info window"
@@ -586,6 +601,9 @@ msgstr "Break even"
 msgid "Set Quantity to match position size"
 msgstr "Set Quantity to match position size"
 
+msgid "Toggle Reduce-Only"
+msgstr "Toggle Reduce-Only"
+
 msgid "Remove indicators"
 msgstr "Remove indicators"
 
@@ -676,6 +694,9 @@ msgstr "Show Object manager"
 msgid "Make screenshot"
 msgstr "Make screenshot"
 
+msgid "OE qty button "
+msgstr "OE qty button "
+
 msgid "Volume Analysis settings"
 msgstr "Volume Analysis settings"
 
@@ -691,14 +712,29 @@ msgstr "Enable auto centering"
 msgid "Switch info window mode"
 msgstr "Switch info window mode"
 
+msgid "Combined"
+msgstr "Combined"
+
+msgid "Overlay"
+msgstr "Overlay"
+
+msgid "Mirror"
+msgstr "Mirror"
+
 msgid "Show Order Book"
 msgstr "Show Order Book"
+
+msgid "Size/Cumulative"
+msgstr "Size/Cumulative"
 
 msgid "Cumulative size"
 msgstr "Cumulative size"
 
 msgid "General"
 msgstr "General"
+
+msgid "Volume"
+msgstr "Volume"
 
 msgid "Monochome"
 msgstr "Monochome"
@@ -741,6 +777,15 @@ msgstr "VOLUME ANALYSIS"
 
 msgid "Show/Hide TPO statistics"
 msgstr "Show/Hide TPO statistics"
+
+msgid "Draw angled line"
+msgstr "Draw angled line"
+
+msgid "Draw andrew's pitchfork"
+msgstr "Draw andrew's pitchfork"
+
+msgid "Draw polygon"
+msgstr "Draw polygon"
 
 msgid "Cluster"
 msgstr "Cluster"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 15:21+0300\n"
+"POT-Creation-Date: 2022-02-02 01:09+0200\n"
 "PO-Revision-Date: 2018-12-04 15:05+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -361,9 +361,6 @@ msgstr "Nesneleri araç çubuğunu göster"
 msgid "Show toolbar"
 msgstr "Araç çubuğunu göster"
 
-msgid "Show quick trade toolbar"
-msgstr "Hızlı işlem araç çubuğunu göster"
-
 msgid "Show volume analysis toolbar"
 msgstr "Hacim analizi araç çubuğunu göster"
 
@@ -385,6 +382,9 @@ msgstr "Görünürlük"
 msgid "Data type"
 msgstr "Veri türü"
 
+msgid "Show Order entry"
+msgstr "emir girişini göster"
+
 msgid "View"
 msgstr "Görüntüle"
 
@@ -400,8 +400,23 @@ msgstr "Fiyat ölçeği"
 msgid "Visual trading"
 msgstr "Görsel işlem"
 
+msgid "Positions"
+msgstr "Pozisyonlar"
+
+msgid "Orders"
+msgstr "Emirler"
+
+msgid "Trades"
+msgstr "İşlemler"
+
+msgid "SL/TP"
+msgstr "SL/TP"
+
 msgid "Order Entry"
 msgstr "Emir Girişi"
+
+msgid "Quick ruler"
+msgstr "Hızlı cetvel"
 
 msgid "Info window"
 msgstr "Bilgi penceresi"
@@ -586,6 +601,9 @@ msgstr "Ne kâr ne zarar etmek"
 msgid "Set Quantity to match position size"
 msgstr "Miktar'ı konum boyutuyla eşleşecek şekilde ayarlama"
 
+msgid "Toggle Reduce-Only"
+msgstr "Yalnızca Küçült'e geçiş yapma"
+
 msgid "Remove indicators"
 msgstr "Göstergeleri kaldır"
 
@@ -676,6 +694,9 @@ msgstr "Nesne yöneticisini göster"
 msgid "Make screenshot"
 msgstr "Ekran Görüntüsü Al"
 
+msgid "OE qty button "
+msgstr "OE miktarı düğmesi "
+
 msgid "Volume Analysis settings"
 msgstr "Hacim Analizi ayarları"
 
@@ -691,14 +712,29 @@ msgstr "Otomatik ortalamayı etkinleştir"
 msgid "Switch info window mode"
 msgstr "Bilgi penceresi modunu değiştir"
 
+msgid "Combined"
+msgstr "Birleşik"
+
+msgid "Overlay"
+msgstr "Katman"
+
+msgid "Mirror"
+msgstr "Ayna"
+
 msgid "Show Order Book"
 msgstr "Emir Defterini Göster"
+
+msgid "Size/Cumulative"
+msgstr "Boyut/Kümülatif"
 
 msgid "Cumulative size"
 msgstr "Kümülatif boyut"
 
 msgid "General"
 msgstr "Genel"
+
+msgid "Volume"
+msgstr "Hacim"
 
 msgid "Monochome"
 msgstr "Tek renkli"
@@ -741,6 +777,15 @@ msgstr "HACIM ANALIZI"
 
 msgid "Show/Hide TPO statistics"
 msgstr "TPO istatistiklerini göster/gizle"
+
+msgid "Draw angled line"
+msgstr "Açılı çizgi çizme"
+
+msgid "Draw andrew's pitchfork"
+msgstr "Andrew'un yabası çiz"
+
+msgid "Draw polygon"
+msgstr "Çokgen çizme"
 
 msgid "Cluster"
 msgstr "Küme"

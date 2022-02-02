@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 15:21+0300\n"
+"POT-Creation-Date: 2022-02-02 01:09+0200\n"
 "PO-Revision-Date: 2018-12-04 15:10+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -361,9 +361,6 @@ msgstr "Pokaż pasek narzędzi obiektów"
 msgid "Show toolbar"
 msgstr "Pokaż pasek narzędzi"
 
-msgid "Show quick trade toolbar"
-msgstr "Pokaż pasek narzędzi Szybki handel"
-
 msgid "Show volume analysis toolbar"
 msgstr "Pokaż pasek narzędzi analizy objętości"
 
@@ -385,6 +382,9 @@ msgstr "Widoczność"
 msgid "Data type"
 msgstr "Typ danych"
 
+msgid "Show Order entry"
+msgstr "Pokaż wpis zamówienia"
+
 msgid "View"
 msgstr "Widok"
 
@@ -400,8 +400,23 @@ msgstr "Skala cenowa"
 msgid "Visual trading"
 msgstr "Handel wizualny"
 
+msgid "Positions"
+msgstr "Pozycji"
+
+msgid "Orders"
+msgstr "Zlecenia"
+
+msgid "Trades"
+msgstr "Transakcji"
+
+msgid "SL/TP"
+msgstr "SL/TP"
+
 msgid "Order Entry"
 msgstr "Zapis zamówienia"
+
+msgid "Quick ruler"
+msgstr "Szybka linijka"
 
 msgid "Info window"
 msgstr "Okno danych"
@@ -586,6 +601,9 @@ msgstr "Złamać nawet"
 msgid "Set Quantity to match position size"
 msgstr "Ustawianie ilości w celu dopasowania rozmiaru pozycji"
 
+msgid "Toggle Reduce-Only"
+msgstr "Przełącz tylko redukcję"
+
 msgid "Remove indicators"
 msgstr "Usuwanie wskaźników"
 
@@ -676,6 +694,9 @@ msgstr "Pokaż menedżera obiektów"
 msgid "Make screenshot"
 msgstr "Utwórz zrzut ekranu"
 
+msgid "OE qty button "
+msgstr "Przycisk ilości OE "
+
 msgid "Volume Analysis settings"
 msgstr "Ustawienia analizy wolumenu"
 
@@ -691,14 +712,29 @@ msgstr "Włączanie automatycznego centrowania"
 msgid "Switch info window mode"
 msgstr "Przełączanie trybu okna informacyjnego"
 
+msgid "Combined"
+msgstr "Połączeniu"
+
+msgid "Overlay"
+msgstr "Nakładanie wykresu"
+
+msgid "Mirror"
+msgstr "Lustro"
+
 msgid "Show Order Book"
 msgstr "Pokaż księgę zamówień"
+
+msgid "Size/Cumulative"
+msgstr "Rozmiar/Skumulowany"
 
 msgid "Cumulative size"
 msgstr "Skumulowany rozmiar"
 
 msgid "General"
 msgstr "Ogólne"
+
+msgid "Volume"
+msgstr "Głośność"
 
 msgid "Monochome"
 msgstr "Monochome ( monochome )"
@@ -741,6 +777,15 @@ msgstr "ANALIZA OBJĘTOŚCI"
 
 msgid "Show/Hide TPO statistics"
 msgstr "Pokaż/Ukryj statystyki TPO"
+
+msgid "Draw angled line"
+msgstr "Rysowanie linii kątowej"
+
+msgid "Draw andrew's pitchfork"
+msgstr "Narysuj widły Andrzeja"
+
+msgid "Draw polygon"
+msgstr "Rysowanie wielokąta"
 
 msgid "Cluster"
 msgstr "Klastra"

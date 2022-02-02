@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 15:21+0300\n"
+"POT-Creation-Date: 2022-02-02 01:09+0200\n"
 "PO-Revision-Date: 2018-12-04 15:08+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -361,9 +361,6 @@ msgstr "显示对象工具栏"
 msgid "Show toolbar"
 msgstr "显示工具栏"
 
-msgid "Show quick trade toolbar"
-msgstr "显示快速交易工具栏"
-
 msgid "Show volume analysis toolbar"
 msgstr "显示卷分析工具栏"
 
@@ -385,6 +382,9 @@ msgstr "可视性"
 msgid "Data type"
 msgstr "来源"
 
+msgid "Show Order entry"
+msgstr "显示/隐藏下单界面"
+
 msgid "View"
 msgstr "查看"
 
@@ -400,8 +400,23 @@ msgstr "价格缩放"
 msgid "Visual trading"
 msgstr "交易指示"
 
+msgid "Positions"
+msgstr "仓位"
+
+msgid "Orders"
+msgstr "挂单"
+
+msgid "Trades"
+msgstr "成交"
+
+msgid "SL/TP"
+msgstr "止损/止盈"
+
 msgid "Order Entry"
 msgstr "订单输入"
+
+msgid "Quick ruler"
+msgstr "快速标尺"
 
 msgid "Info window"
 msgstr "信息窗"
@@ -586,6 +601,9 @@ msgstr "收支平衡"
 msgid "Set Quantity to match position size"
 msgstr "将数量设置为匹配位置大小"
 
+msgid "Toggle Reduce-Only"
+msgstr "切换\"仅减少\""
+
 msgid "Remove indicators"
 msgstr "删除指示器"
 
@@ -676,6 +694,9 @@ msgstr "显示对象管理器"
 msgid "Make screenshot"
 msgstr "屏幕截图"
 
+msgid "OE qty button "
+msgstr "OE 数量按钮"
+
 msgid "Volume Analysis settings"
 msgstr "成交量分析设置"
 
@@ -691,14 +712,29 @@ msgstr "启用自动居中"
 msgid "Switch info window mode"
 msgstr "切换信息窗口模式"
 
+msgid "Combined"
+msgstr "组合的"
+
+msgid "Overlay"
+msgstr "覆盖"
+
+msgid "Mirror"
+msgstr "镜子"
+
 msgid "Show Order Book"
 msgstr "显示订单簿"
+
+msgid "Size/Cumulative"
+msgstr "规模/累积"
 
 msgid "Cumulative size"
 msgstr "累计大小"
 
 msgid "General"
 msgstr "常规"
+
+msgid "Volume"
+msgstr "成交量"
 
 msgid "Monochome"
 msgstr "莫诺乔梅"
@@ -741,6 +777,15 @@ msgstr "体积分析"
 
 msgid "Show/Hide TPO statistics"
 msgstr "显示/隐藏 TPO 统计信息"
+
+msgid "Draw angled line"
+msgstr "绘制倾斜线"
+
+msgid "Draw andrew's pitchfork"
+msgstr "画安德鲁的干草叉"
+
+msgid "Draw polygon"
+msgstr "绘制多边形"
 
 msgid "Cluster"
 msgstr "集群"

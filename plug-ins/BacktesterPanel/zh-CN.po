@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:25+0200\n"
+"POT-Creation-Date: 2022-02-02 00:53+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,44 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "OHLC"
-msgstr "OHLC"
-
-msgid "Open"
-msgstr "今开"
-
-msgid "Close"
-msgstr "关"
-
-msgid "Modelling scheme"
-msgstr "模型结构"
-
 msgid "General"
 msgstr "常规"
 
 msgid "Initial balance"
 msgstr "初始余额"
-
-msgid "None"
-msgstr "无"
-
-msgid "Fixed"
-msgstr "固定"
-
-msgid "Range"
-msgstr "范围"
-
-msgid "Execution delay"
-msgstr "执行延迟"
-
-msgid "Min (ms)"
-msgstr "最小（ms）"
-
-msgid "Max (ms)"
-msgstr "最大（ms）"
-
-msgid "Value (ms)"
-msgstr "值（毫秒）"
 
 msgid "Remove symbol"
 msgstr "刪除产品"
@@ -61,38 +28,11 @@ msgstr "刪除产品"
 msgid "Open panel"
 msgstr "打开面板"
 
-msgid "Order entry"
-msgstr "显示下单"
-
-msgid "Chart"
-msgstr "图表"
-
-msgid "DOM Trader"
-msgstr "DOM Trader"
-
-msgid "Market Depth"
-msgstr "市场深度"
-
-msgid "Time & Sales"
-msgstr "& 分时交易明细"
-
-msgid "DOM surface"
-msgstr "DOM 表面"
-
-msgid "TPO Chart"
-msgstr "TPO 图表"
-
-msgid "Symbol Info"
-msgstr "符号信息"
-
-msgid "Account performance"
-msgstr "交易效益"
-
 msgid "Market Replay"
 msgstr "市场重播"
 
-msgid "Range of replay:"
-msgstr "重播范围："
+msgid "History range:"
+msgstr "历史范围："
 
 msgid "Symbol"
 msgstr "商品"
@@ -106,20 +46,29 @@ msgstr "执行类型"
 msgid "Do you really want to stop Market Replay? This action will delete all test results."
 msgstr "你真的想停止市场重播吗？此操作将删除所有测试结果。"
 
-msgid "Symbols"
-msgstr "商品"
+msgid "No symbols to simulate"
+msgstr "没有要模拟的符号"
+
+msgid "You need select symbols to start simulation"
+msgstr "您需要选择符号才能开始模拟"
+
+msgid "Wrong history range"
+msgstr "错误的历史记录范围"
+
+msgid "You need set history range, from < to"
+msgstr "您需要设置历史记录范围，从<到"
+
+msgid "Wrong start replaying from time"
+msgstr "错误开始重播"
+
+msgid "You need set start replaying time inside history range"
+msgstr "您需要在历史记录范围内设置开始重播时间"
 
 msgid "Ready to start simulation"
 msgstr "准备开始模拟"
 
 msgid "Start simulation with selected symbols"
 msgstr "使用所选符号开始模拟"
-
-msgid "No symbols to simulate"
-msgstr "没有要模拟的符号"
-
-msgid "You need select symbols to start simulation"
-msgstr "您需要选择符号才能开始模拟"
 
 msgid "START"
 msgstr "开始"
@@ -162,3 +111,33 @@ msgstr "添加符号进行模拟"
 
 msgid "Trading Simulator current state"
 msgstr "交易模拟器当前状态"
+
+msgid "Symbols"
+msgstr "商品"
+
+msgid "Order entry"
+msgstr "显示下单"
+
+msgid "Chart"
+msgstr "图表"
+
+msgid "DOM Trader"
+msgstr "DOM Trader"
+
+msgid "Market Depth"
+msgstr "市场深度"
+
+msgid "Time & Sales"
+msgstr "& 分时交易明细"
+
+msgid "DOM surface"
+msgstr "DOM 表面"
+
+msgid "TPO Chart"
+msgstr "TPO 图表"
+
+msgid "Symbol Info"
+msgstr "符号信息"
+
+msgid "Account performance"
+msgstr "交易效益"

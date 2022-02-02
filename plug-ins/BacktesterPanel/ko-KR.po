@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:25+0200\n"
+"POT-Creation-Date: 2022-02-02 00:53+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,44 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "OHLC"
-msgstr "OHLC"
-
-msgid "Open"
-msgstr "열다"
-
-msgid "Close"
-msgstr "종료"
-
-msgid "Modelling scheme"
-msgstr "모델링 계획"
-
 msgid "General"
 msgstr "일반"
 
 msgid "Initial balance"
 msgstr "초기 잔액"
-
-msgid "None"
-msgstr "없음"
-
-msgid "Fixed"
-msgstr "고정"
-
-msgid "Range"
-msgstr "범위"
-
-msgid "Execution delay"
-msgstr "실행 지연"
-
-msgid "Min (ms)"
-msgstr "최소 (ms)"
-
-msgid "Max (ms)"
-msgstr "최대 (밀리 초)"
-
-msgid "Value (ms)"
-msgstr "값 (밀리 초)"
 
 msgid "Remove symbol"
 msgstr "상품제거"
@@ -61,38 +28,11 @@ msgstr "상품제거"
 msgid "Open panel"
 msgstr "열린 패널"
 
-msgid "Order entry"
-msgstr "주문 엔트리"
-
-msgid "Chart"
-msgstr "차트"
-
-msgid "DOM Trader"
-msgstr "DOM Trader"
-
-msgid "Market Depth"
-msgstr "시장 심도"
-
-msgid "Time & Sales"
-msgstr "시간과 판매"
-
-msgid "DOM surface"
-msgstr "DOM 표면"
-
-msgid "TPO Chart"
-msgstr "TPO 차트"
-
-msgid "Symbol Info"
-msgstr "심볼 정보"
-
-msgid "Account performance"
-msgstr "계정 성능"
-
 msgid "Market Replay"
 msgstr "시장 리플레이"
 
-msgid "Range of replay:"
-msgstr "재생 범위 :"
+msgid "History range:"
+msgstr "기록 범위:"
 
 msgid "Symbol"
 msgstr "상징"
@@ -106,20 +46,29 @@ msgstr "실행 유형"
 msgid "Do you really want to stop Market Replay? This action will delete all test results."
 msgstr "당신은 정말 시장 리플레이를 중지 하시겠습니까? 이 작업은 모든 테스트 결과를 삭제합니다."
 
-msgid "Symbols"
-msgstr "심볼"
+msgid "No symbols to simulate"
+msgstr "시뮬레이션 할 심볼이 없습니다."
+
+msgid "You need select symbols to start simulation"
+msgstr "시뮬레이션을 시작하려면 선택 기호가 필요합니다."
+
+msgid "Wrong history range"
+msgstr "잘못된 기록 범위"
+
+msgid "You need set history range, from < to"
+msgstr "<"
+
+msgid "Wrong start replaying from time"
+msgstr "잘못된 시작 재생 시간"
+
+msgid "You need set start replaying time inside history range"
+msgstr "기록 범위 내에서 시작 시간을 설정해야 합니다."
 
 msgid "Ready to start simulation"
 msgstr "시뮬레이션 시작 준비 완료"
 
 msgid "Start simulation with selected symbols"
 msgstr "선택한 기호로 시뮬레이션 시작"
-
-msgid "No symbols to simulate"
-msgstr "시뮬레이션 할 심볼이 없습니다."
-
-msgid "You need select symbols to start simulation"
-msgstr "시뮬레이션을 시작하려면 선택 기호가 필요합니다."
 
 msgid "START"
 msgstr "스타트"
@@ -162,3 +111,33 @@ msgstr "시뮬레이션을위한 심볼 추가"
 
 msgid "Trading Simulator current state"
 msgstr "트레이딩 시뮬레이터 현재 상태"
+
+msgid "Symbols"
+msgstr "심볼"
+
+msgid "Order entry"
+msgstr "주문 엔트리"
+
+msgid "Chart"
+msgstr "차트"
+
+msgid "DOM Trader"
+msgstr "DOM Trader"
+
+msgid "Market Depth"
+msgstr "시장 심도"
+
+msgid "Time & Sales"
+msgstr "시간과 판매"
+
+msgid "DOM surface"
+msgstr "DOM 표면"
+
+msgid "TPO Chart"
+msgstr "TPO 차트"
+
+msgid "Symbol Info"
+msgstr "심볼 정보"
+
+msgid "Account performance"
+msgstr "계정 성능"

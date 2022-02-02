@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 15:21+0300\n"
+"POT-Creation-Date: 2022-02-02 01:09+0200\n"
 "PO-Revision-Date: 2018-12-04 15:08+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -361,9 +361,6 @@ msgstr "개체 도구 표시"
 msgid "Show toolbar"
 msgstr "도구 모음 표시"
 
-msgid "Show quick trade toolbar"
-msgstr "빠른 거래 도구 모음 표시"
-
 msgid "Show volume analysis toolbar"
 msgstr "볼륨 분석 도구 모음 표시"
 
@@ -385,6 +382,9 @@ msgstr "가시성"
 msgid "Data type"
 msgstr "소스 종류"
 
+msgid "Show Order entry"
+msgstr "주문 항목 표시"
+
 msgid "View"
 msgstr "전망"
 
@@ -400,8 +400,23 @@ msgstr "가격 규모"
 msgid "Visual trading"
 msgstr "시각적 거래"
 
+msgid "Positions"
+msgstr "위치"
+
+msgid "Orders"
+msgstr "주문"
+
+msgid "Trades"
+msgstr "거래"
+
+msgid "SL/TP"
+msgstr "SL/TP"
+
 msgid "Order Entry"
 msgstr "주문 항목"
+
+msgid "Quick ruler"
+msgstr "빠른 눈금자"
 
 msgid "Info window"
 msgstr "정보 창"
@@ -586,6 +601,9 @@ msgstr "본전치기를 하다"
 msgid "Set Quantity to match position size"
 msgstr "위치 크기에 맞게 수량 설정"
 
+msgid "Toggle Reduce-Only"
+msgstr "토글 감소 전용"
+
 msgid "Remove indicators"
 msgstr "표시기 제거"
 
@@ -676,6 +694,9 @@ msgstr "개체 관리자 표시"
 msgid "Make screenshot"
 msgstr "스냅샷 만들기"
 
+msgid "OE qty button "
+msgstr "OE qty 버튼 "
+
 msgid "Volume Analysis settings"
 msgstr "볼륨 분석 설정"
 
@@ -691,14 +712,29 @@ msgstr "자동 센터링 활성화"
 msgid "Switch info window mode"
 msgstr "정보 창 모드 전환"
 
+msgid "Combined"
+msgstr "결합"
+
+msgid "Overlay"
+msgstr "오버레이"
+
+msgid "Mirror"
+msgstr "거울"
+
 msgid "Show Order Book"
 msgstr "주문 책 표시"
+
+msgid "Size/Cumulative"
+msgstr "크기/누적"
 
 msgid "Cumulative size"
 msgstr "누적 크기"
 
 msgid "General"
 msgstr "일반"
+
+msgid "Volume"
+msgstr "음량"
 
 msgid "Monochome"
 msgstr "모노홈"
@@ -741,6 +777,15 @@ msgstr "볼륨 분석"
 
 msgid "Show/Hide TPO statistics"
 msgstr "TPO 통계 표시/숨기기"
+
+msgid "Draw angled line"
+msgstr "각진 선 그리기"
+
+msgid "Draw andrew's pitchfork"
+msgstr "앤드류의 피치포크 그리기"
+
+msgid "Draw polygon"
+msgstr "그리기 다각형"
 
 msgid "Cluster"
 msgstr "클러스터"

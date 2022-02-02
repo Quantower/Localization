@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:25+0200\n"
+"POT-Creation-Date: 2022-02-02 00:53+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,44 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "OHLC"
-msgstr "OHLC"
-
-msgid "Open"
-msgstr "Ціна відкриття"
-
-msgid "Close"
-msgstr "Ціна закриття"
-
-msgid "Modelling scheme"
-msgstr "Схема моделювання"
-
 msgid "General"
 msgstr "Загальні"
 
 msgid "Initial balance"
 msgstr "Початковий баланс"
-
-msgid "None"
-msgstr "Ні"
-
-msgid "Fixed"
-msgstr "Виправлено"
-
-msgid "Range"
-msgstr "Діапазон"
-
-msgid "Execution delay"
-msgstr "Затримка виконання"
-
-msgid "Min (ms)"
-msgstr "Мінімальний (мс)"
-
-msgid "Max (ms)"
-msgstr "Макс (мс)"
-
-msgid "Value (ms)"
-msgstr "Значення (мс)"
 
 msgid "Remove symbol"
 msgstr "Видалити символ"
@@ -61,38 +28,11 @@ msgstr "Видалити символ"
 msgid "Open panel"
 msgstr "Відкрита панель"
 
-msgid "Order entry"
-msgstr "Замовлення запису"
-
-msgid "Chart"
-msgstr "Діаграма"
-
-msgid "DOM Trader"
-msgstr "Трейдер DOM"
-
-msgid "Market Depth"
-msgstr "Глибина ринку"
-
-msgid "Time & Sales"
-msgstr "Час і продаж"
-
-msgid "DOM surface"
-msgstr "Поверхня DOM"
-
-msgid "TPO Chart"
-msgstr "Діаграма TPO"
-
-msgid "Symbol Info"
-msgstr "Відомості про символ"
-
-msgid "Account performance"
-msgstr "Продуктивність облікового запису"
-
 msgid "Market Replay"
 msgstr "Відтворення ринку"
 
-msgid "Range of replay:"
-msgstr "Діапазон відтворення:"
+msgid "History range:"
+msgstr "Діапазон історії:"
 
 msgid "Symbol"
 msgstr "Інструмент"
@@ -106,20 +46,29 @@ msgstr "Виконання типу"
 msgid "Do you really want to stop Market Replay? This action will delete all test results."
 msgstr "Ви дійсно хочете, щоб зупинити ринок replay? Ця дія видалить усі результати перевірки."
 
-msgid "Symbols"
-msgstr "Символи"
+msgid "No symbols to simulate"
+msgstr "Немає символів для симуляції"
+
+msgid "You need select symbols to start simulation"
+msgstr "Вам потрібно вибрати символи, щоб розпочати симуляцію"
+
+msgid "Wrong history range"
+msgstr "Неправильний діапазон історії"
+
+msgid "You need set history range, from < to"
+msgstr "Вам потрібен набір діапазону історії, від < до"
+
+msgid "Wrong start replaying from time"
+msgstr "Неправильний початок відтворення з часом"
+
+msgid "You need set start replaying time inside history range"
+msgstr "Вам потрібно встановити час відтворення в діапазоні історії"
 
 msgid "Ready to start simulation"
 msgstr "Готовий розпочати симуляцію"
 
 msgid "Start simulation with selected symbols"
 msgstr "Почніть моделювання з вибраними символами"
-
-msgid "No symbols to simulate"
-msgstr "Немає символів для симуляції"
-
-msgid "You need select symbols to start simulation"
-msgstr "Вам потрібно вибрати символи, щоб розпочати симуляцію"
 
 msgid "START"
 msgstr "Почати"
@@ -162,3 +111,33 @@ msgstr "Додати символ для моделювання"
 
 msgid "Trading Simulator current state"
 msgstr "Торгове симулятор поточного стану"
+
+msgid "Symbols"
+msgstr "Символи"
+
+msgid "Order entry"
+msgstr "Замовлення запису"
+
+msgid "Chart"
+msgstr "Діаграма"
+
+msgid "DOM Trader"
+msgstr "Трейдер DOM"
+
+msgid "Market Depth"
+msgstr "Глибина ринку"
+
+msgid "Time & Sales"
+msgstr "Час і продаж"
+
+msgid "DOM surface"
+msgstr "Поверхня DOM"
+
+msgid "TPO Chart"
+msgstr "Діаграма TPO"
+
+msgid "Symbol Info"
+msgstr "Відомості про символ"
+
+msgid "Account performance"
+msgstr "Продуктивність облікового запису"

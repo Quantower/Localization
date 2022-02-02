@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-01-12 14:25+0200\n"
+"POT-Creation-Date: 2022-02-02 00:53+0200\n"
 "PO-Revision-Date: 2018-12-04 14:59+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,44 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "OHLC"
-msgstr "OHLC"
-
-msgid "Open"
-msgstr "開く"
-
-msgid "Close"
-msgstr "閉じる"
-
-msgid "Modelling scheme"
-msgstr "モデリング手法"
-
 msgid "General"
 msgstr "一般"
 
 msgid "Initial balance"
 msgstr "初期残高"
-
-msgid "None"
-msgstr "なし"
-
-msgid "Fixed"
-msgstr "固定"
-
-msgid "Range"
-msgstr "範囲"
-
-msgid "Execution delay"
-msgstr "実行遅延"
-
-msgid "Min (ms)"
-msgstr "分（ms）"
-
-msgid "Max (ms)"
-msgstr "最大値（ミリ秒）"
-
-msgid "Value (ms)"
-msgstr "値（ミリ秒）"
 
 msgid "Remove symbol"
 msgstr "シンボルを削除する"
@@ -61,38 +28,11 @@ msgstr "シンボルを削除する"
 msgid "Open panel"
 msgstr "オープンパネル"
 
-msgid "Order entry"
-msgstr "注文エントリー"
-
-msgid "Chart"
-msgstr "チャート"
-
-msgid "DOM Trader"
-msgstr "DOMトレーダー"
-
-msgid "Market Depth"
-msgstr "市場の深さ"
-
-msgid "Time & Sales"
-msgstr "タイム・アンド・セールス"
-
-msgid "DOM surface"
-msgstr "DOM表面"
-
-msgid "TPO Chart"
-msgstr "TPO チャート"
-
-msgid "Symbol Info"
-msgstr "シンボル情報"
-
-msgid "Account performance"
-msgstr "新しい口座のパフォーマンス"
-
 msgid "Market Replay"
 msgstr "市場再生"
 
-msgid "Range of replay:"
-msgstr "リプレイの範囲："
+msgid "History range:"
+msgstr "履歴範囲:"
 
 msgid "Symbol"
 msgstr "シンボル"
@@ -106,20 +46,29 @@ msgstr "実行タイプ"
 msgid "Do you really want to stop Market Replay? This action will delete all test results."
 msgstr "あなたは本当に市場の再生を停止したいですか?この操作により、すべてのテスト結果が削除されます。"
 
-msgid "Symbols"
-msgstr "シンボル"
+msgid "No symbols to simulate"
+msgstr "シミュレートするシンボルはありません"
+
+msgid "You need select symbols to start simulation"
+msgstr "シミュレーションを開始するには選択されたシンボルが必要です"
+
+msgid "Wrong history range"
+msgstr "履歴範囲が正しくありません"
+
+msgid "You need set history range, from < to"
+msgstr "<から履歴範囲を設定する必要があります。"
+
+msgid "Wrong start replaying from time"
+msgstr "時間から再生を開始する"
+
+msgid "You need set start replaying time inside history range"
+msgstr "履歴範囲内で再生時間を開始する設定が必要"
 
 msgid "Ready to start simulation"
 msgstr "シミュレーションを開始する準備ができました"
 
 msgid "Start simulation with selected symbols"
 msgstr "選択したシンボルでシミュレーションを開始する"
-
-msgid "No symbols to simulate"
-msgstr "シミュレートするシンボルはありません"
-
-msgid "You need select symbols to start simulation"
-msgstr "シミュレーションを開始するには選択されたシンボルが必要です"
 
 msgid "START"
 msgstr "開始"
@@ -162,3 +111,33 @@ msgstr "シミュレーションのシンボルを追加する"
 
 msgid "Trading Simulator current state"
 msgstr "トレーディングシミュレータの現在の状態"
+
+msgid "Symbols"
+msgstr "シンボル"
+
+msgid "Order entry"
+msgstr "注文エントリー"
+
+msgid "Chart"
+msgstr "チャート"
+
+msgid "DOM Trader"
+msgstr "DOMトレーダー"
+
+msgid "Market Depth"
+msgstr "市場の深さ"
+
+msgid "Time & Sales"
+msgstr "タイム・アンド・セールス"
+
+msgid "DOM surface"
+msgstr "DOM表面"
+
+msgid "TPO Chart"
+msgstr "TPO チャート"
+
+msgid "Symbol Info"
+msgstr "シンボル情報"
+
+msgid "Account performance"
+msgstr "新しい口座のパフォーマンス"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 15:21+0300\n"
+"POT-Creation-Date: 2022-02-02 01:09+0200\n"
 "PO-Revision-Date: 2018-12-04 15:06+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -361,9 +361,6 @@ msgstr "オブジェクトを表示するツールバー"
 msgid "Show toolbar"
 msgstr "ツールバーを表示する"
 
-msgid "Show quick trade toolbar"
-msgstr "クイックトレードツールバーを表示する"
-
 msgid "Show volume analysis toolbar"
 msgstr "[ボリューム分析] ツールバーの表示"
 
@@ -385,6 +382,9 @@ msgstr "可視性"
 msgid "Data type"
 msgstr "ソースの種類"
 
+msgid "Show Order entry"
+msgstr "注文エントリーを表示する"
+
 msgid "View"
 msgstr "ビュー"
 
@@ -400,8 +400,23 @@ msgstr "価格スケール"
 msgid "Visual trading"
 msgstr "視覚的取引"
 
+msgid "Positions"
+msgstr "決済注文/ポジション一覧"
+
+msgid "Orders"
+msgstr "注文"
+
+msgid "Trades"
+msgstr "取引"
+
+msgid "SL/TP"
+msgstr "指定"
+
 msgid "Order Entry"
 msgstr "注文入力"
+
+msgid "Quick ruler"
+msgstr "クイックルーラー"
 
 msgid "Info window"
 msgstr "情報ウィンドウ"
@@ -586,6 +601,9 @@ msgstr "トントン"
 msgid "Set Quantity to match position size"
 msgstr "位置サイズに合わせて数量を設定"
 
+msgid "Toggle Reduce-Only"
+msgstr "減らすのみ切り替え"
+
 msgid "Remove indicators"
 msgstr "インジケーターの削除"
 
@@ -676,6 +694,9 @@ msgstr "オブジェクトマネージャを表示"
 msgid "Make screenshot"
 msgstr "画面を保存する"
 
+msgid "OE qty button "
+msgstr "OE 数量ボタン"
+
 msgid "Volume Analysis settings"
 msgstr "ボリューム分析の設定"
 
@@ -691,14 +712,29 @@ msgstr "自動中央揃えの有効化"
 msgid "Switch info window mode"
 msgstr "情報ウィンドウモードの切り替え"
 
+msgid "Combined"
+msgstr "複合"
+
+msgid "Overlay"
+msgstr "オーバーレイ"
+
+msgid "Mirror"
+msgstr "鏡"
+
 msgid "Show Order Book"
 msgstr "注文書の表示"
+
+msgid "Size/Cumulative"
+msgstr "サイズ/累積"
 
 msgid "Cumulative size"
 msgstr "累積サイズ"
 
 msgid "General"
 msgstr "一般"
+
+msgid "Volume"
+msgstr "出来高"
 
 msgid "Monochome"
 msgstr "モノクホーム"
@@ -741,6 +777,15 @@ msgstr "ボリューム分析"
 
 msgid "Show/Hide TPO statistics"
 msgstr "TPO 統計の表示/非表示"
+
+msgid "Draw angled line"
+msgstr "斜線を描画"
+
+msgid "Draw andrew's pitchfork"
+msgstr "アンドリューのピッチフォークを描く"
+
+msgid "Draw polygon"
+msgstr "多角形の描画"
 
 msgid "Cluster"
 msgstr "クラスター"
