@@ -23,10 +23,10 @@ msgid "Account name"
 msgstr "Назва рахунку"
 
 msgid "Symbol"
-msgstr "Інструмент"
+msgstr "Символ"
 
 msgid "Symbol name"
-msgstr "Найменування Інструмента"
+msgstr "Ім'я символу"
 
 msgid "Description"
 msgstr "Опис"
@@ -38,13 +38,13 @@ msgid "Side"
 msgstr "Сторона"
 
 msgid "The order side"
-msgstr "Сторона замовлення"
+msgstr "Сторона ордера"
 
 msgid "Order type"
-msgstr "Тип замовлення"
+msgstr "Тип ордера"
 
 msgid "The order type"
-msgstr "Тип замовлення"
+msgstr "Тип ордера"
 
 msgid "Quantity"
 msgstr "Об'єм"
@@ -56,16 +56,16 @@ msgid "Trigger price"
 msgstr "Ціна тригера"
 
 msgid "TIF"
-msgstr "Tif"
+msgstr "Термін дії"
 
 msgid "SL"
-msgstr "Sl"
+msgstr "СЛ"
 
 msgid "Stop loss"
 msgstr "Стоп лосс"
 
 msgid "TP"
-msgstr "Tp"
+msgstr "ТП"
 
 msgid "Take profit"
 msgstr "Тейк профіт"
@@ -95,28 +95,28 @@ msgid "Cancel"
 msgstr "Скасувати"
 
 msgid "Brackets setup"
-msgstr "Налаштування дужок"
+msgstr "Налаштування брекетів"
 
 msgid "Quantity, %"
 msgstr "Кількість, %"
 
 msgid "No brackets set up yet. Press the “Plus” button to create one"
-msgstr "Квадратні дужки ще не встановлено. Натисніть кнопку «Плюс», щоб створити"
+msgstr "Брекети ще не встановлено. Натисніть кнопку «Плюс», щоб створити"
 
 msgid "Level {this.bracketItemsControllers.IndexOf(controller) + 1} is configured incorrectly: at least one order must be active"
-msgstr "Рівень {this.bracketItemsControllers.IndexOf(контролер) + 1} настроєно неправильно: принаймні один порядок має бути активним"
+msgstr "Рівень {this.bracketItemsControllers.IndexOf(контролер) + 1} налаштовано невірно: принаймні один ордер має бути активним"
 
 msgid "Current Total Quantity ({totalSum}%) is incorrect - should be less then 100%"
-msgstr "Поточна загальна кількість ({totalsum}%) невірно - має бути менше 100%"
+msgstr "Поточна загальна кількість ({totalsum}%) не вірна - має бути менше 100%"
 
 msgid "Note: In case of multiple SL/TP levels, offset in ticks will be calculated from the price of the parent order, not the filled price."
-msgstr "Примітка: У випадку декількох рівнів SL / TP, зміщення в галочки буде розраховуватися від ціни батьківського замовлення, а не заповненої ціни."
+msgstr "Примітка: У випадку декількох рівнів SL/TP, зміщення в тіках буде розраховуватися від ціни батьківського ордера, а не від ціни виконання."
 
 msgid "Activate trailing {this.behavior.Name.ToLower()}"
-msgstr "Активувати кінцевий запис {this.behavior.Name.ToLower()}"
+msgstr "Активувати слідування {this.behavior.Name.ToLower()}"
 
 msgid "No {shortName}"
-msgstr "Немає {короткого імені}"
+msgstr "Ні {shortName}"
 
 msgid "Bid"
 msgstr "Бід"
@@ -125,30 +125,30 @@ msgid "Ask"
 msgstr "Аск"
 
 msgid "Order was cancelled"
-msgstr "Замовлення скасовано"
+msgstr "Ордер скасовано"
 
 msgid "Position was closed"
-msgstr "Позиція була закрита"
+msgstr "Позиція закрита"
 
 msgid "Slim mode"
-msgstr "Тонкий режим"
+msgstr "Компактний вигляд"
 
 msgid "No labels"
-msgstr "Без міток"
+msgstr "Без підписів"
 
 msgid "Show additional order parameters"
-msgstr "Показати додаткові параметри замовлення"
+msgstr "Показати додаткові параметри ордера"
 
 msgid "OE qty buttons"
-msgstr "Кнопки qty OE"
+msgstr "Швидкий об'єм"
 
 #, csharp-format
 msgid "Are you sure want to close position and cancel all orders on {0}?"
-msgstr "Ви дійсно хочете закрити позицію і скасувати всі замовлення на {0}?"
+msgstr "Ви дійсно хочете закрити позицію і скасувати всі ордери на {0}?"
 
 #, csharp-format
 msgid "Are you sure want to close all positions and cancel all orders on {0}?"
-msgstr "Ви дійсно хочете закрити всі позиції і скасувати всі замовлення на {0}?"
+msgstr "Ви дійсно хочете закрити всі позиції і скасувати всі ордери на {0}?"
 
 #, csharp-format
 msgid "Are you sure want to close position on {0}?"
@@ -160,31 +160,31 @@ msgstr "Ви дійсно хочете закрити всі позиції на
 
 #, csharp-format
 msgid "Are you sure want to reverse position on {0}?"
-msgstr "Ви справді бажаєте змінити позицію на {0}?"
+msgstr "Ви справді бажаєте перевернути позицію на {0}?"
 
 #, csharp-format
 msgid "Are you sure want to break even position on {0}?"
-msgstr "Ви дійсно хочете зламати навіть позицію на {0}?"
+msgstr "Ви дійсно хочете покрити витрати позиції на {0}?"
 
 #, csharp-format
 msgid "Are you sure want to cancel all orders on {0}?"
-msgstr "Ви дійсно бажаєте скасувати всі замовлення на {0}?"
+msgstr "Ви дійсно бажаєте скасувати всі ордери на {0}?"
 
 #, csharp-format
 msgid "Are you sure want to cancel all buy orders on {0}?"
-msgstr "Ви дійсно хочете скасувати всі замовлення на купівлю {0}?"
+msgstr "Ви дійсно хочете скасувати всі ордери на купівлю {0}?"
 
 #, csharp-format
 msgid "Are you sure want to cancel all sell orders on {0}?"
-msgstr "Ви дійсно хочете скасувати всі замовлення на продаж {0}?"
+msgstr "Ви дійсно хочете скасувати всі ордери на продаж {0}?"
 
 #, csharp-format
 msgid "Are you sure want to cancel all limit orders on {0}?"
-msgstr "Ви дійсно бажаєте скасувати всі граничні замовлення на {0}?"
+msgstr "Ви дійсно бажаєте скасувати всі лімітні ордери на {0}?"
 
 #, csharp-format
 msgid "Are you sure want to cancel all stop orders on {0}?"
-msgstr "Ви дійсно бажаєте скасувати всі зупинки замовлень на {0}?"
+msgstr "Ви дійсно бажаєте скасувати всі стоп-ордери на {0}?"
 
 msgid "Show OE"
 msgstr "Показати OE"
@@ -202,10 +202,10 @@ msgid "Show account lookup"
 msgstr "Показати підстановку облікового запису"
 
 msgid "Show symbol lookup"
-msgstr "Показати підстановку символів"
+msgstr "Показати вибір рахунку"
 
 msgid "Show margin info (if available)"
-msgstr "Відображення відомостей про поля (якщо доступно)"
+msgstr "Відображення відомостей про маржу (якщо є)"
 
 msgid "Buy"
 msgstr "Купити"
@@ -217,7 +217,7 @@ msgid "Add to basket"
 msgstr "Додати до кошика"
 
 msgid "Show/hide order entry"
-msgstr "Відобразити або приховати запис порядку"
+msgstr "Показати/сховати форму створення ордера"
 
 msgid "Submit as OCO"
 msgstr "Надіслати як OCO"
@@ -244,13 +244,13 @@ msgid "Portfolio"
 msgstr "Портфоліо"
 
 msgid "No order requests to show"
-msgstr "Немає запитів на замовлення для відображення"
+msgstr "Немає запитів на ордери"
 
 msgid "Add some order requests to watch them"
-msgstr "Додайте кілька запитів на замовлення, щоб переглянути їх"
+msgstr "Додайте кілька запитів на ордери для перегляду"
 
 msgid "reverse"
-msgstr "Зворотний"
+msgstr "обернути"
 
 msgid "+/-"
 msgstr "+/-"
@@ -259,7 +259,7 @@ msgid "Place order"
 msgstr "Розмістити ордер"
 
 msgid "Save"
-msgstr "рятувати"
+msgstr "Зберегти"
 
 msgid "Close position"
 msgstr "Закрити позицію"
@@ -268,25 +268,25 @@ msgid "Hide"
 msgstr "Сховати"
 
 msgid "View"
-msgstr "Переглянути"
+msgstr "Вид"
 
 msgid "Settings"
-msgstr "Кольори..."
+msgstr "Налаштування"
 
 msgid "Modify order"
-msgstr "Змінити порядок"
+msgstr "Змінити ордер"
 
 msgid "Modify position"
 msgstr "Змінити позицію"
 
 msgid "Multiple order entry"
-msgstr "Запис декількох замовлень"
+msgstr "Створення декількох ордерів"
 
 msgid "Set order as default"
-msgstr "Установити порядок за промовчанням"
+msgstr "Встановити як ордер за промовчанням"
 
 msgid "Save order template"
-msgstr "Зберегти шаблон замовлення"
+msgstr "Зберегти шаблон ордера"
 
 msgid "Create template"
 msgstr "Створити шаблон"
@@ -298,4 +298,4 @@ msgid "Order entry"
 msgstr "Створити ордер"
 
 msgid "Convert to {this.ViewModel.Product}"
-msgstr "Перетворення на {this. ПереглядМодель.Продукт}"
+msgstr "Перетворення на {this.ViewModel.Product}"
