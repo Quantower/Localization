@@ -38,10 +38,10 @@ msgid "Profile aggregation"
 msgstr "Агрегация профиля"
 
 msgid "Custom step (ticks)"
-msgstr "Пользовательский шаг (тики)"
+msgstr "Свой шаг (тики)"
 
 msgid "Initial balance"
-msgstr "Баланс инициализации"
+msgstr "Начальный баланс"
 
 msgid "Show singles"
 msgstr "Показать одиночные"
@@ -50,34 +50,34 @@ msgid "Midpoint"
 msgstr "Середина"
 
 msgid "Show value area"
-msgstr "Показать значение области"
+msgstr "Показать значимую область"
 
 msgid "Show POC"
-msgstr "Показать POC"
+msgstr "Показать ТК"
 
 msgid "Incorrect parameters: build from should be less than the profile."
-msgstr "Неправильные параметры: сборка должна быть меньше профиля."
+msgstr "Неправильные параметры: параметр «строить из» должен быть меньше профиля"
 
 msgid "Incorrect parameters: build from should be a multiple of the profile."
-msgstr "Неправильные параметры: сборка из должна быть кратной из профиля."
+msgstr "Неправильные параметры: параметр «строить из» должен быть кратным профилю"
 
 msgid "Boxes"
-msgstr "Коробки"
+msgstr "Ячейки"
 
 msgid "Letters"
-msgstr "Письма"
+msgstr "Буквы"
 
 msgid "Right Front"
-msgstr "Правый фронт"
+msgstr "Справа Вперёд"
 
 msgid "Right Rear"
-msgstr "Правая задняя часть"
+msgstr "Справа Назад"
 
 msgid "Left Rear"
-msgstr "Левая задняя часть"
+msgstr "Слева Назад"
 
 msgid "Single Color"
-msgstr "Одноместный цвет"
+msgstr "Цвет одиночных"
 
 msgid "Up/Down Profile"
 msgstr "Профиль вверх/вниз"
@@ -92,19 +92,19 @@ msgid "Delta Profile"
 msgstr "Профиль дельты"
 
 msgid "Delta Price"
-msgstr "Дельта Прайс"
+msgstr "Дельта Цена"
 
 msgid "Delta Bars"
-msgstr "Дельта Барс"
+msgstr "Дельта Бары"
 
 msgid "Volume Profile"
-msgstr "Профиль тома"
+msgstr "Профиль объёма"
 
 msgid "Volume Price"
-msgstr "Цена объема"
+msgstr "Цена объёма"
 
 msgid "Volume Bars"
-msgstr "Объем баров"
+msgstr "Бары объёма"
 
 msgid "None"
 msgstr "Не задано"
@@ -113,7 +113,7 @@ msgid "Final"
 msgstr "Окончательный"
 
 msgid "Migrating"
-msgstr "Перенос"
+msgstr "Мигрирующий"
 
 msgid "Minute"
 msgstr "Минута"
@@ -173,28 +173,28 @@ msgid "DOM levels count"
 msgstr "Количество уровней DOM"
 
 msgid "Maximal level2 size"
-msgstr "Максимальный размер уровня2"
+msgstr "Максимальный размер level2"
 
 msgid "Maximal trade size"
-msgstr "Максимальный размер торговли"
+msgstr "Максимальный размер трейда"
 
 msgid "DOM levels contrast"
 msgstr "Контраст уровней DOM"
 
 msgid "Trades marker size"
-msgstr "Размер торгового маркера"
+msgstr "Размер маркера трейдов"
 
 msgid "Trades marker opacity"
-msgstr "Торговля маркер непрозрачность"
+msgstr "Непрозрачность маркера трейдов"
 
 msgid "Use custom tick size"
-msgstr "Использование пользовательского размера тика"
+msgstr "Использование своего размера тика"
 
 msgid "Auto"
 msgstr "Авто"
 
 msgid "Custom"
-msgstr "Пользовательский"
+msgstr "Свой"
 
 msgid "Apply overlay"
 msgstr "Применить наложение"
@@ -242,7 +242,7 @@ msgid "Single"
 msgstr "Единичный"
 
 msgid "Double"
-msgstr "Двухместный"
+msgstr "Двойной"
 
 msgid "Imbalance"
 msgstr "Дисбаланс"
@@ -266,7 +266,7 @@ msgid "Asks"
 msgstr "Аски"
 
 msgid "Level 2"
-msgstr "Уровень 2"
+msgstr "Level 2"
 
 msgid "Level changed color"
 msgstr "Цвет измененного уровня"
@@ -293,13 +293,13 @@ msgid "Delta"
 msgstr "Дельта"
 
 msgid "Basis ratio, %"
-msgstr "Базисное соотношение,%"
+msgstr "Базисное соотношение, %"
 
 msgid "Basis ratio"
 msgstr "Базисное соотношение"
 
 msgid "Level2 ratio, %"
-msgstr "Коэффициент level2,%"
+msgstr "Коэффициент level2, %"
 
 msgid "Level2 ratio"
 msgstr "Коэффициент level2"
@@ -314,10 +314,10 @@ msgid "Price"
 msgstr "Цена"
 
 msgid "Imb. bar"
-msgstr "Имб. Бар"
+msgstr "Дисб. бар"
 
 msgid "Imbalance bar"
-msgstr "План-план кулачку"
+msgstr "Дисбаланс бар"
 
 msgid "Chart"
 msgstr "График"
@@ -332,16 +332,16 @@ msgid "Depth of history"
 msgstr "Глубина истории"
 
 msgid "Mouse trading"
-msgstr "Ручная торговля"
+msgstr "Торговля мышью"
 
 msgid "Enable keyboard trading"
-msgstr "Включить клавиатурную торговлю"
+msgstr "Включить торговлю с клавиатуры"
 
 msgid "Show/Hide Quick OE"
-msgstr "Показать / Скрыть Быстрый OE"
+msgstr "Показать/Скрыть быстрый OE"
 
 msgid "Show/Hide End of Bar"
-msgstr "Показать / Скрыть конец бара"
+msgstr "Показать/Скрыть конец бара"
 
 msgid "Show/Hide Volume Analysis toolbar"
 msgstr "Показать/скрыть панель объемного анализа"
@@ -413,7 +413,7 @@ msgid "SL/TP"
 msgstr "СЛ/ТП"
 
 msgid "Order Entry"
-msgstr "Запись заказа"
+msgstr "Создание ордера"
 
 msgid "Quick ruler"
 msgstr "Быстрая линейка"
@@ -467,10 +467,10 @@ msgid "Draw fibonacci retracement"
 msgstr "Нарисовать коррекцию по Фибоначчи"
 
 msgid "Draw fibonacci price extension"
-msgstr "Нарисуйте продление цены фибоначчи"
+msgstr "Нарисовать продление цены фибоначчи"
 
 msgid "Draw fibonacci price expansion"
-msgstr "Нарисуйте расширение цен фибоначчи"
+msgstr "Нарисовать расширение цены фибоначчи"
 
 msgid "Draw fibonacci arc"
 msgstr "Нарисовать дуги по Фибоначчи"
@@ -485,7 +485,7 @@ msgid "Draw fibonacci fans"
 msgstr "Нарисовать веер по Фибоначчи"
 
 msgid "Draw fibonacci phi-channel"
-msgstr "Нарисовать фи-канала по Фибоначчи"
+msgstr "Нарисовать фи-канал по Фибоначчи"
 
 msgid "Draw fibonacci time extension"
 msgstr "Нарисуйте продление времени фибоначчи"
@@ -521,10 +521,10 @@ msgid "Draw ruler"
 msgstr "Нарисовать линейку"
 
 msgid "Draw flag marker"
-msgstr "Нарисовать флаг-маркер"
+msgstr "Нарисовать флаг"
 
 msgid "Draw price targets"
-msgstr "Нарисовать целевые уровни"
+msgstr "Нарисовать ценовые уровни"
 
 msgid "Draw up arrow"
 msgstr "Нарисовать стрелку вверх"
@@ -545,16 +545,16 @@ msgid "Draw comment"
 msgstr "Нарисовать комментарий"
 
 msgid "Add custom profile"
-msgstr "Добавление пользовательского профиля"
+msgstr "Добавить свой профиля"
 
 msgid "Add custom VWAP"
-msgstr "Добавить пользовательские VWAP"
+msgstr "Добавить свой VWAP"
 
 msgid "Add alert"
-msgstr "Добавление оповещения"
+msgstr "Добавить оповещение"
 
 msgid "Sell Market"
-msgstr "Продать"
+msgstr "Продать по маркету"
 
 msgid "Sell Bid"
 msgstr "Продать Бид"
@@ -572,16 +572,16 @@ msgid "Buy Ask"
 msgstr "Купить Аск"
 
 msgid "Cancel Orders"
-msgstr "Отмена заказов"
+msgstr "Отмена ордеров"
 
 msgid "Cancel Buy orders"
-msgstr "Отмена заказов на покупку"
+msgstr "Отмена ордеров на покупку"
 
 msgid "Cancel Sell orders"
-msgstr "Отмена заказов на продажу"
+msgstr "Отмена ордеров на продажу"
 
 msgid "Close Positions"
-msgstr "Близкие позиции"
+msgstr "Закрыть позиции"
 
 msgid "Flatten"
 msgstr "Выровнять"
@@ -596,10 +596,10 @@ msgid "Reverse position"
 msgstr "Реверс позиции"
 
 msgid "Break even"
-msgstr "Оставаться при своих"
+msgstr "Безубыток"
 
 msgid "Set Quantity to match position size"
-msgstr "Установите количество, чтобы соответствовать размеру позиции"
+msgstr "Установить количество, соответствующее размеру позиции"
 
 msgid "Toggle Reduce-Only"
 msgstr "Переключение только для уменьшения"
@@ -611,7 +611,7 @@ msgid "Remove overlays"
 msgstr "Удалить наложения"
 
 msgid "Remove drawings"
-msgstr "Удалить инструменты рисования"
+msgstr "Удалить рисунки"
 
 msgid "Remove all chart objects"
 msgstr "Удалить все объекты на графике"
@@ -626,7 +626,7 @@ msgid "Show all drawings"
 msgstr "Показать все рисунки"
 
 msgid "Hide all drawings"
-msgstr "Скрыть все чертежи"
+msgstr "Скрыть все рисунки"
 
 msgid "Show all overlays"
 msgstr "Показать все наложения"
@@ -635,13 +635,13 @@ msgid "Hide all overlays"
 msgstr "Скрыть все наложения"
 
 msgid "Show all chart objects"
-msgstr "Показать все объекты диаграммы"
+msgstr "Показать все объекты графика"
 
 msgid "Hide all chart objects"
-msgstr "Скрыть все объекты диаграммы"
+msgstr "Скрыть все объекты графика"
 
 msgid "Set period (Tick)"
-msgstr "Установить период (тик)"
+msgstr "Установить период (тики)"
 
 msgid "Set period (1m)"
 msgstr "Установить период (1м)"
@@ -683,10 +683,10 @@ msgid "Change symbol"
 msgstr "Изменить символ"
 
 msgid "Copy selected tools"
-msgstr "Копирование выбранных инструментов"
+msgstr "Копировать выбранные инструменты"
 
 msgid "Paste tools"
-msgstr "Инструменты для вставки"
+msgstr "Вставить инструменты"
 
 msgid "Show Object manager"
 msgstr "Показать менеджер объектов"
@@ -695,7 +695,7 @@ msgid "Make screenshot"
 msgstr "Сделать снимок экрана"
 
 msgid "OE qty button "
-msgstr "Кнопка «Количество оригинального оборудования» "
+msgstr "Кнопки кол-ва в ОЕ "
 
 msgid "Volume Analysis settings"
 msgstr "Настройки объемного анализа"
@@ -704,16 +704,16 @@ msgid "Quick settings"
 msgstr "Быстрые настройки"
 
 msgid "Show/Hide Order Book"
-msgstr "Показать / Скрыть заказ книги"
+msgstr "Показать/Скрыть Книгу ордеров"
 
 msgid "Enable auto centering"
-msgstr "Включить автоматическое центрирование"
+msgstr "Включить авто-центрирование"
 
 msgid "Switch info window mode"
-msgstr "Режим окна коммутатора информации"
+msgstr "Режим инфо-окна"
 
 msgid "Combined"
-msgstr "Комбинированный"
+msgstr "Объединение"
 
 msgid "Overlay"
 msgstr "Наложение"
@@ -722,7 +722,7 @@ msgid "Mirror"
 msgstr "Зеркало"
 
 msgid "Show Order Book"
-msgstr "Показать Книгу Заказов"
+msgstr "Показать Книгу ордеров"
 
 msgid "Size/Cumulative"
 msgstr "Размер/Кумулятивный"
@@ -743,7 +743,7 @@ msgid "Bichrome"
 msgstr "Бихром"
 
 msgid "Order flow surface"
-msgstr "Поверхность потока заказа"
+msgstr "Поверхность потока ордеров"
 
 msgid "Last color"
 msgstr "Цвет ласта"
@@ -755,7 +755,7 @@ msgid "Add overlay"
 msgstr "Добавить наложение"
 
 msgid "Change visibility of all chart objects"
-msgstr "Изменение видимости всех объектов диаграммы"
+msgstr "Изменение видимости всех объектов графика"
 
 msgid "Show all objects"
 msgstr "Показать все объекты"
@@ -767,7 +767,7 @@ msgid "Remove all"
 msgstr "Удалить все"
 
 msgid "AGGREGATION"
-msgstr "Агрегации"
+msgstr "Агрегация"
 
 msgid "STYLE"
 msgstr "Стиль"
@@ -779,13 +779,13 @@ msgid "Show/Hide TPO statistics"
 msgstr "Показать/скрыть статистику TPO"
 
 msgid "Draw angled line"
-msgstr "Рисование угловой линии"
+msgstr "Нарисовать угловую линию"
 
 msgid "Draw andrew's pitchfork"
-msgstr "Нарисуйте вилы Андрея"
+msgstr "Нарисовать вилы Эндрюса"
 
 msgid "Draw polygon"
-msgstr "Полигон рисования"
+msgstr "Нарисовать прямоугольник"
 
 msgid "Cluster"
 msgstr "Кластер"
@@ -806,25 +806,25 @@ msgid "Time histogram"
 msgstr "Гистограмма по времени"
 
 msgid "T&S"
-msgstr "Т&С"
+msgstr "Лента сделок"
 
 msgid "Custom profile"
-msgstr "Пользовательский профиль"
+msgstr "Свой профиль"
 
 msgid "Custom VWAP"
-msgstr "Пользовательские VWAP"
+msgstr "Свой VWAP"
 
 msgid "Volume Analysis Settings"
-msgstr "Настройки объемного анализа"
+msgstr "Настройки Объемного анализа"
 
 msgid "Cluster chart settings"
 msgstr "Настройки кластерного графика"
 
 msgid "Time and sales"
-msgstr "Время и продажи"
+msgstr "Лента сделок"
 
 msgid "Custom profile tool"
-msgstr "Пользовательский профиль"
+msgstr "Свой профиль"
 
 msgid "Custom VWAP tool"
-msgstr "Пользовательский инструмент VWAP"
+msgstr "Свой VWAP"
