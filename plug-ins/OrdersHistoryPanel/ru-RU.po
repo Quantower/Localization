@@ -38,13 +38,13 @@ msgid "Symbol type"
 msgstr "Тип символа"
 
 msgid "Symbol’s asset class"
-msgstr "Класс актива для указанного символа"
+msgstr "Класс актива символа"
 
 msgid "Expiration date"
 msgstr "Дата экспирации"
 
 msgid "Expiration date of derivative symbol"
-msgstr "Срок действия производного финансового инструмента"
+msgstr "Срок действия дериватива"
 
 msgid "Strike price"
 msgstr "Страйк цена"
@@ -56,7 +56,7 @@ msgid "Side"
 msgstr "Сторона"
 
 msgid "The direction of the order"
-msgstr "Направление заказа"
+msgstr "Направление ордера"
 
 msgid "Order type"
 msgstr "Тип ордера"
@@ -80,7 +80,7 @@ msgid "Trigger price"
 msgstr "Триггер цена"
 
 msgid "Trigger price of the order, applicable for stop, stop-limit... orders"
-msgstr "Цена срабатывания ордера, применимого для стоп-, стоп-лимитных ордеров"
+msgstr "Цена срабатывания ордера; применимо для стоп-, стоп-лимит ордеров"
 
 msgid "TIF"
 msgstr "Время действия"
@@ -110,7 +110,7 @@ msgid "Order group ID"
 msgstr "ID группы ордеров"
 
 msgid "The ID of group combined orders, applicable in OCO"
-msgstr "ID групповых объединенных ордеров, применимых в OCO"
+msgstr "ID группы объединенных ордеров; применяется в OCO"
 
 msgid "Connection name"
 msgstr "Название подключения"
@@ -122,7 +122,7 @@ msgid "Original status"
 msgstr "Исходное состояние"
 
 msgid "Original order status from vendor"
-msgstr "Статус первоначального заказа от поставщика"
+msgstr "Первоначальный статус ордера от поставщика"
 
 msgid "Additional parameters"
 msgstr "Дополнительные параметры"
@@ -134,7 +134,7 @@ msgid "Exchange name"
 msgstr "Имя обмена"
 
 msgid "Comment"
-msgstr "Комментировать"
+msgstr "Комментарий"
 
 msgid "Order's comment"
 msgstr "Комментарий к заказу"
