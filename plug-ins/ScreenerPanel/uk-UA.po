@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Loading symbol {i + 1}/{Math.Min(filtrationMessage.MaxSymbolsLimit, filtrationMessage.SymbolIDs.Length)}..."
-msgstr "Завантаження символу {i + 1}/{Math.Min(фільтраціяMessage.MaxSymbolsLimit, фільтраціяMessage.SymbolIDs.Length)}..."
+msgstr "Завантаження символу {i + 1}/{Math.Min(filtrationMessage.MaxSymbolsLimit, filtrationMessage.SymbolIDs.Length)}..."
 
 #, csharp-format
 msgid "Too much symbols in result ({0}). First {1} symbols will be displayed."
-msgstr "Занадто багато символів в результаті ({0}). З{1}явиться перший раз, коли будуть відображатися символи."
+msgstr "Дуже багато символів в результаті ({0}). Буде показано перші {1} символів."
 
 msgid "In Symbols list"
 msgstr "У списку символів"
@@ -30,34 +30,34 @@ msgid "No symbols..."
 msgstr "Немає символів..."
 
 msgid "Wait to scan response..."
-msgstr "Зачекайте, щоб перевірити відповідь..."
+msgstr "Зачекайте відповіді сканування..."
 
 msgid "TimeOut"
-msgstr "Аут"
+msgstr "Тайм-аут"
 
 msgid "Error"
 msgstr "Помилка"
 
 msgid "Screener"
-msgstr "Екранний екран"
+msgstr "Скрінер"
 
 msgid "Screener filters"
-msgstr "Фільтри екранного екрана"
+msgstr "Фільтри скрінеру"
 
 msgid "Autoscan"
-msgstr "Автосканувати"
+msgstr "Автоскан"
 
 msgid "Auto scan"
 msgstr "Автоматичне сканування"
 
 msgid "Use auto scan"
-msgstr "Використовувати автоматичне сканування"
+msgstr "Використати авто-сканування"
 
 msgid "Time delay, in sec"
 msgstr "Затримка часу, сек"
 
 msgid "Apply"
-msgstr "застосовувати"
+msgstr "Застосовувати"
 
 msgid "Rename"
 msgstr "Перейменувати"
@@ -70,7 +70,7 @@ msgstr "Видалити"
 
 #, csharp-format
 msgid "Are you sure you want to delete '{0}'?"
-msgstr "Ви дійсно бажаєте видалити \"{0}\"?"
+msgstr "Ви дійсно бажаєте видалити '{0}'?"
 
 msgid "Create conditions set"
 msgstr "Створення набору умов"
