@@ -23,19 +23,19 @@ msgid "Show toolbar"
 msgstr "Показати панель інструментів"
 
 msgid "Load"
-msgstr "Навантаження"
+msgstr "Завантажити"
 
 msgid "Export to Journal"
 msgstr "Експорт до журналу"
 
 msgid "There are no trades to export."
-msgstr "Немає торгів на експорт."
+msgstr "Немає угод для експорту."
 
 msgid "Do you really want to export your trades into Trading Journal?"
 msgstr "Ви дійсно хочете експортувати свої угоди в торговий журнал?"
 
 msgid "Loading trades..."
-msgstr "Завантаження торгів..."
+msgstr "Завантаження угод..."
 
 msgid "Account"
 msgstr "Рахунок"
@@ -47,13 +47,13 @@ msgid "Date/Time"
 msgstr "Дата/Час"
 
 msgid "The date/time when trade was executed"
-msgstr "Дата/Час, коли торгівля була виконана"
+msgstr "Дата/Час виконання угоди"
 
 msgid "Symbol"
-msgstr "Інструмент"
+msgstr "Символ"
 
 msgid "Symbol name"
-msgstr "Найменування інструмента"
+msgstr "Ім'я символу"
 
 msgid "Description"
 msgstr "Опис"
@@ -62,7 +62,7 @@ msgid "The description of the symbol"
 msgstr "Опис символу"
 
 msgid "Symbol type"
-msgstr "Тип інструмента"
+msgstr "Тип символу"
 
 msgid "Symbol’s asset class"
 msgstr "Клас активів символу"
@@ -71,79 +71,79 @@ msgid "Expiration date"
 msgstr "Дата експірації"
 
 msgid "Expiration date of derivative symbol"
-msgstr "Термін придатності похідного символу"
+msgstr "Термін придатності деривативу"
 
 msgid "Strike price"
-msgstr "Ціна страйка"
+msgstr "Страйк-ціна"
 
 msgid "Option’s strike price"
-msgstr "Варіант вартістю"
+msgstr "Ціна виконання опціону"
 
 msgid "Side"
 msgstr "Сторона"
 
 msgid "The direction of the trade"
-msgstr "Напрямок торгівлі"
+msgstr "Напрямок угоди"
 
 msgid "Order type"
 msgstr "Тип ордера"
 
 msgid "The type of the order"
-msgstr "Тип замовлення"
+msgstr "Тип ордера"
 
 msgid "Quantity"
 msgstr "Об'єм"
 
 msgid "Trade’s quantity"
-msgstr "Кількість торгових операцій"
+msgstr "Об'єм угоди"
 
 msgid "Price"
 msgstr "Ціна"
 
 msgid "Trade’s price"
-msgstr "Торгова ціна"
+msgstr "Ціна угоди"
 
 msgid "Gross P/L"
-msgstr "Валовий П/З"
+msgstr "Валовий P/L"
 
 msgid "Trade’s profit/loss value, without fee/commission applying"
-msgstr "Торгова вартість прибутку / збитку, без застосування комісії / комісії"
+msgstr "Розмір прибутку/збитку за угодою, без застосування біржового збору/комісії"
 
 msgid "Fee"
 msgstr "Комісія"
 
 msgid "Fee value"
-msgstr "Вартість вартості"
+msgstr "Розмір комісії"
 
 msgid "Net P/L"
-msgstr "Чистий П/З"
+msgstr "Чистий P/L"
 
 msgid "Trade’s profit/loss value that includes fee/commission"
-msgstr "Торгова вартість прибутку / збитку, що включає плату / комісію"
+msgstr "Розмір прибутку/збитку за угодою, що включає біржовий збір/комісію"
 
 msgid "Trade value"
 msgstr "Вартість угоди"
 
 msgid "Intrinsic value of the trade"
-msgstr "Внутрішня вартість торгівлі"
+msgstr "Внутрішня вартість угоди"
 
 msgid "Trade ID"
 msgstr "ID угоди"
 
 msgid "ID of the trade"
-msgstr "ID торгівлі"
+msgstr "ID угоди"
 
 msgid "Order ID"
 msgstr "ID ордера"
 
 msgid "ID of the order"
-msgstr "ID замовлення"
+msgstr "ID ордера"
 
 msgid "Position ID"
-msgstr "Ід. Позиції"
+msgstr "ID Позиції"
 
 msgid "ID of the position"
-msgstr "ІДЕНТИФІКАТОР позиції"
+msgstr "Ідентифікатор позиції"
 
 msgid "Connection name"
 msgstr "Назва з'єднання"
@@ -155,10 +155,10 @@ msgid "Comment"
 msgstr "Коментар"
 
 msgid "Trade's comment"
-msgstr "Коментар торгівлі"
+msgstr "Коментар до угоди"
 
 msgid "Exchange"
-msgstr "Обмін"
+msgstr "Біржа"
 
 msgid "Exchange name"
 msgstr "Ім'я біржі"

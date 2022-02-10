@@ -44,73 +44,73 @@ msgid "Expiration date"
 msgstr "Дата експірації"
 
 msgid "Expiration date of derivative symbol"
-msgstr "Термін придатності похідного символу"
+msgstr "Термін придатності деривативу"
 
 msgid "Strike price"
 msgstr "Ціна страйка"
 
 msgid "Option’s strike price"
-msgstr "Варіант вартістю"
+msgstr "Ціна виконання опціону"
 
 msgid "Side"
 msgstr "Сторона"
 
 msgid "The direction of the order"
-msgstr "Напрямок замовлення"
+msgstr "Напрямок ордеру"
 
 msgid "Order type"
-msgstr "Тип ордера"
+msgstr "Тип ордеру"
 
 msgid "The type of the order"
-msgstr "Тип замовлення"
+msgstr "Тип ордеру"
 
 msgid "Quantity"
 msgstr "Об'єм"
 
 msgid "Order’s quantity"
-msgstr "Кількість замовлення"
+msgstr "Об'єм ордеру"
 
 msgid "Price"
 msgstr "Ціна"
 
 msgid "Order’s price"
-msgstr "Вартість замовлення"
+msgstr "Вартість ордеру"
 
 msgid "Trigger price"
 msgstr "Тригерна ціна"
 
 msgid "Trigger price of the order, applicable for stop, stop-limit... orders"
-msgstr "Тригерна ціна замовлення, застосовна для зупинки, зупинки... замовлень"
+msgstr "Ціна спрацювання ордера; застосовується для стоп-, стоп-ліміт ордерів"
 
 msgid "TIF"
 msgstr "Термін дії"
 
 msgid "Time in force of the order"
-msgstr "Час дії замовлення"
+msgstr "Час дії ордеру"
 
 msgid "Status"
 msgstr "Статус"
 
 msgid "The status of the order"
-msgstr "Статус замовлення"
+msgstr "Статус ордеру"
 
 msgid "Date/Time"
 msgstr "Дата/Час"
 
 msgid "The date/time when order was placed"
-msgstr "Дата / час, коли замовлення було розміщено"
+msgstr "Дата/час розміщення ордеру"
 
 msgid "Order ID"
 msgstr "ID ордера"
 
 msgid "The ID of the order"
-msgstr "ID замовлення"
+msgstr "ID ордеру"
 
 msgid "Order group ID"
 msgstr "ID групи ордерів"
 
 msgid "The ID of group combined orders, applicable in OCO"
-msgstr "ID групи об'єднаних замовлень, що застосовуються в OCO"
+msgstr "ID групи об'єднаних ордерів; застосовується в OCO"
 
 msgid "Connection name"
 msgstr "Назва з'єднання"
@@ -122,13 +122,13 @@ msgid "Original status"
 msgstr "Початковий стан"
 
 msgid "Original order status from vendor"
-msgstr "Початковий стан замовлення від виробника"
+msgstr "Початковий стан замовлення від постачальника"
 
 msgid "Additional parameters"
 msgstr "Додаткові параметри"
 
 msgid "Exchange"
-msgstr "Обмін"
+msgstr "Біржа"
 
 msgid "Exchange name"
 msgstr "Ім'я біржі"
@@ -137,10 +137,10 @@ msgid "Comment"
 msgstr "Коментар"
 
 msgid "Order's comment"
-msgstr "Коментар замовлення"
+msgstr "Коментар до ордеру"
 
 msgid "Average fill price"
-msgstr "Середня ціна заливки"
+msgstr "Середня ціна заповнення"
 
 msgid "Orders history"
 msgstr "Історія ордерів"
@@ -149,4 +149,4 @@ msgid "Show toolbar"
 msgstr "Показати панель інструментів"
 
 msgid "Load"
-msgstr "Навантаження"
+msgstr "Завантажити"

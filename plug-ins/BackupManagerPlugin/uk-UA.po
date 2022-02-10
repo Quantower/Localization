@@ -23,7 +23,7 @@ msgid "Copying panels settings"
 msgstr "Копіювання налаштувань панелей"
 
 msgid "Copying workspaces"
-msgstr "Копіювання робочих областей"
+msgstr "Копіювання воркспейсів"
 
 msgid "Collecting connections data"
 msgstr "Збирання даних з'єднань"
@@ -32,13 +32,13 @@ msgid "Creating backup file"
 msgstr "Створення файлу резервної копії"
 
 msgid "Backup my settings"
-msgstr "Резервне копіювання моїх установ"
+msgstr "Резервне копіювання налаштувань"
 
 msgid "Backup feature creates a file, containing all your general settings(including settings per each panel type), connection credentials, and workspaces"
-msgstr "Функція резервного копіювання створює файл, що містить усі ваші загальні параметри (включаючи налаштування для кожного типу панелі), облікові дані для підключення та робочі області"
+msgstr "Функція резервного копіювання створює файл, що містить усі ваші загальні параметри (включаючи налаштування для кожного типу панелі), облікові дані для підключення та воркспейси"
 
 msgid "Please wait for backup process being finished"
-msgstr "Будь ласка, зачекайте завершення процесу резервного копіювання"
+msgstr "Будь ласка, дочекайтесь завершення процесу резервування"
 
 msgid "Back"
 msgstr "Назад"
@@ -53,7 +53,7 @@ msgid "Settings backup was successful"
 msgstr "Резервування налаштувань було успішним"
 
 msgid "finish"
-msgstr "закінчити"
+msgstr "Закінчити"
 
 msgid "Backup process is not finished"
 msgstr "Процес резервного копіювання не завершений"
@@ -65,7 +65,7 @@ msgid "You may change a path for storing your backup file"
 msgstr "Ви можете змінити шлях для зберігання файлу резервної копії"
 
 msgid "Create Backup"
-msgstr "Створити резервну копію"
+msgstr "Створити копію"
 
 msgid "Backup to"
 msgstr "Шлях до архіву"
@@ -80,16 +80,16 @@ msgid "Rewriting panels settings"
 msgstr "Параметри перезапису панелей"
 
 msgid "Rewriting workspaces"
-msgstr "Переписування робочих областей"
+msgstr "Переписування воркспейсів"
 
 msgid "Rewriting connections"
 msgstr "Переписування з'єднань"
 
 msgid "Finish and restart"
-msgstr "Завершити і перезапустити"
+msgstr "Перезапуск терміналу"
 
 msgid "Settings was successfuly recovered"
-msgstr "Налаштування успішно відновлено"
+msgstr "Налаштування успішно відновлені"
 
 msgid "Provided backup file is not valid"
 msgstr "Наданий файл резервної копії недійсний"
@@ -98,34 +98,34 @@ msgid "Recover my settings"
 msgstr "Відновити мої налаштування"
 
 msgid "Settings recover will rewrite all your general settings (including settings per each panel type), connection credentials, and workspaces with the new ones, from the defined backup file"
-msgstr "Параметри відновлення перезаписують всі ваші загальні параметри (включаючи параметри для кожного типу панелі), облікові дані для підключення та робочі середовища на нові з визначеного файлу резервної копії"
+msgstr "Відновлення параметрів перезапише всі ваші загальні налаштування (включаючи параметри для кожного типу панелі), облікові дані для підключення та воркспейси на нові з визначеного файлу резервної копії"
 
 msgid "Please wait for recovery process being finished"
 msgstr "Будь ласка, зачекайте на завершення процесу відновлення"
 
 msgid "No backups found"
-msgstr "Не знайдено жодних копій"
+msgstr "Не знайдено жодних резервних копій"
 
 msgid "Please select the backup source to start a recovery"
-msgstr "Будь ласка, виберіть джерело резервного копіювання, щоб розпочати відновлення"
+msgstr "Будь ласка, оберіть джерело резервного копіювання, щоб розпочати відновлення"
 
 msgid "From backups folder"
 msgstr "З папки резервних копій"
 
 msgid "From custom file"
-msgstr "З користувальницького файлу"
+msgstr "Зі свого файлу"
 
 msgid "start recovery"
-msgstr "почати відновлення"
+msgstr "Почати відновлення"
 
 msgid "back"
 msgstr "назад"
 
 msgid "Backup manager"
-msgstr "Резервний менеджер"
+msgstr "Менеджер резервних копій"
 
 msgid "Welcome to backup & restore master"
-msgstr "Ласкаво просимо до головного архіву та відновлення"
+msgstr "Ласкаво просимо до мастеру резервного копіювання та відновлення"
 
 msgid "Please choose what operation you would like to perform"
 msgstr "Виберіть, яку операцію ви хочете виконати"
@@ -134,19 +134,19 @@ msgid "CLOSE"
 msgstr "ЗАКРИТИ"
 
 msgid "Backup settings"
-msgstr "Створити копію"
+msgstr "Створити бекап"
 
 msgid "Make a backup copy of all your settings, including workspaces and layouts, in few clicks. It helps you not to lose your customizations, if something goes wrong."
-msgstr "Зробіть резервну копію всіх ваших налаштувань, включаючи робочі області та макети, за кілька кліків."
+msgstr "Зробіть резервну копію всіх ваших налаштувань, включаючи воркспейсы та макети, за кілька кліків. Це допоможе вам зберегти налаштування на майбутнє"
 
 msgid "Recover settings"
 msgstr "Відновити налаштування"
 
 msgid "Restore all your settings from backup copy created before. You can use our daily automatic backups or your own, created manually."
-msgstr "Відновити всі налаштування з резервної копії, створеної раніше."
+msgstr "Відновити всі налаштування з резервної копії, створеної раніше. Ви можете використовувати щоденні автоматичні копії або створені вручну."
 
 msgid "Rollback version"
-msgstr "Версія відкату"
+msgstr "Відкат версії"
 
 msgid "Version rollback process allows you to rewrite Quantower’s core files (excluding your settings) to some previous version while keeping your settings, connections and workspaces"
-msgstr "Процес відкату версії дозволяє перезаписати основні файли Quantower (за винятком ваших налаштувань) на попередню версію, зберігаючи при цьому налаштування, з'єднання та робочі області"
+msgstr "Процес відкату версії дозволяє перезаписати основні файли Quantower (за винятком папки налаштувань) у стан попередньої версії, зберігаючи ваші налаштування, з'єднання та воркспейси"

@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Loading symbol {i + 1}/{Math.Min(filtrationMessage.MaxSymbolsLimit, filtrationMessage.SymbolIDs.Length)}..."
-msgstr "Символ загрузки «i » 1»/«Math.Min»(фильтрацияMessage.MaxSymbolsLimit, фильтрацияMessage.SymbolIDs.Length)..."
+msgstr "Загрузка символа {i + 1}/{Math.Min(filtrationMessage.MaxSymbolsLimit, filtrationMessage.SymbolIDs.Length)}..."
 
 #, csharp-format
 msgid "Too much symbols in result ({0}). First {1} symbols will be displayed."
-msgstr "Слишком много символов в результате ({0}). Сначала {1} будут отображаться символы."
+msgstr "Слишком много символов в результате ({0}). Будут показаны первые {1} символов."
 
 msgid "In Symbols list"
 msgstr "В списке символов"
@@ -30,10 +30,10 @@ msgid "No symbols..."
 msgstr "Нет символов..."
 
 msgid "Wait to scan response..."
-msgstr "Подождите, чтобы сканировать ответ ..."
+msgstr "Подождите ответа сканирования..."
 
 msgid "TimeOut"
-msgstr "Времени ожидания"
+msgstr "Тайм-аут"
 
 msgid "Error"
 msgstr "Ошибка"
@@ -51,10 +51,10 @@ msgid "Auto scan"
 msgstr "Автоматическое сканирование"
 
 msgid "Use auto scan"
-msgstr "Использование автоматического сканирования"
+msgstr "Использовать авто-сканирование"
 
 msgid "Time delay, in sec"
-msgstr "Задержка времени, в сек"
+msgstr "Задержка времени, сек"
 
 msgid "Apply"
 msgstr "Применить"
@@ -70,7 +70,7 @@ msgstr "Удалить"
 
 #, csharp-format
 msgid "Are you sure you want to delete '{0}'?"
-msgstr "Вы уверены, что хотите удалить \"{0}\"?"
+msgstr "Вы уверены, что хотите удалить '{0}'?"
 
 msgid "Create conditions set"
 msgstr "Создание набора условий"

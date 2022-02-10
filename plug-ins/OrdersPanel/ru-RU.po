@@ -29,7 +29,7 @@ msgid "Working orders"
 msgstr "Рабочие ордера"
 
 msgid "Identify the category of the order: MIS – for trading in intraday, NRML – for trading for overnight position"
-msgstr "Определите категорию заказа: MIS - для торговли внутридневной, NRML - для торговли на ночную позицию"
+msgstr "Определите категорию ордера: MIS - для внутридневной торговли, NRML - для торговли через ночь"
 
 msgid "Disclosed quantity"
 msgstr "Раскрытое количество"
@@ -65,7 +65,7 @@ msgid "Cancel order"
 msgstr "Отменить ордер"
 
 msgid "Link OCO"
-msgstr "Ссылка ОКО"
+msgstr "Связать ОСО"
 
 msgid "Cancel selected orders"
 msgstr "Отменить выбранные ордера"
@@ -98,7 +98,7 @@ msgid "Cancel Limit orders"
 msgstr "Отменить Лимитные ордера"
 
 msgid "Cancel Stops"
-msgstr "Отменить стоп"
+msgstr "Отменить стопы"
 
 msgid "Cancel Stop orders"
 msgstr "Отменить Стоп ордера"
@@ -110,7 +110,7 @@ msgid "Cancel Day orders"
 msgstr "Отменить дневные ордера"
 
 msgid "Cancel GTCs"
-msgstr "Отменить GTCs"
+msgstr "Отменить GTC"
 
 msgid "Cancel GTC orders"
 msgstr "Отменить GTC ордера"
@@ -149,13 +149,13 @@ msgid "Symbol type"
 msgstr "Тип символа"
 
 msgid "Symbol’s asset class"
-msgstr "Класс актива для указанного символа"
+msgstr "Класс актива символа"
 
 msgid "Expiration date"
 msgstr "Дата экспирации"
 
 msgid "Expiration date of derivative symbol"
-msgstr "Срок действия производного финансового инструмента"
+msgstr "Срок действия дериватива"
 
 msgid "Strike price"
 msgstr "Страйк цена"
@@ -200,10 +200,10 @@ msgid "Order’s price"
 msgstr "Цена ордера"
 
 msgid "Trigger price"
-msgstr "Триггер цена"
+msgstr "Цена срабатывания"
 
 msgid "Trigger price of the order, applicable for stop, stop-limit... orders"
-msgstr "Цена срабатывания ордера, применимого для стоп-, стоп-лимитных ордеров"
+msgstr "Цена срабатывания ордера; применимо для стоп-, стоп-лимитных ордеров"
 
 msgid "TIF"
 msgstr "Время действия"
@@ -221,7 +221,7 @@ msgid "Original status"
 msgstr "Исходное состояние"
 
 msgid "Original order status from vendor"
-msgstr "Статус первоначального заказа от поставщика"
+msgstr "Начальное состояние заказа от поставщика"
 
 msgid "Current price"
 msgstr "Текущая цена"
@@ -233,13 +233,13 @@ msgid "Stop loss"
 msgstr "Стоп лосс"
 
 msgid "Stop loss value"
-msgstr "Цена Стоп лосс"
+msgstr "Значение Стоп лосс"
 
 msgid "Take profit"
 msgstr "Тейк профит"
 
 msgid "Take profit value"
-msgstr "Цена Тейк профит"
+msgstr "Значение Тейк профит"
 
 msgid "Date/Time"
 msgstr "Дата/Время"
@@ -257,7 +257,7 @@ msgid "Order group ID"
 msgstr "ID группы ордеров"
 
 msgid "The ID of group combined orders, applicable in OCO"
-msgstr "ID групповых объединенных ордеров, применимых в OCO"
+msgstr "ID группы объединенных ордеров; применимо в OCO"
 
 msgid "Connection name"
 msgstr "Название подключения"
@@ -269,10 +269,10 @@ msgid "Additional parameters"
 msgstr "Дополнительные параметры"
 
 msgid "Comment"
-msgstr "Комментировать"
+msgstr "Комментарий"
 
 msgid "Order's comment"
-msgstr "Комментарий Ордена"
+msgstr "Комментарий ордера"
 
 msgid "Exchange"
 msgstr "Биржа"
@@ -293,77 +293,77 @@ msgid "Refresh All"
 msgstr "Обновить все"
 
 msgid "Place at Breakeven"
-msgstr "Место в безубыточности"
+msgstr "Разместить в безубыток"
 
 msgid "Convert to "
 msgstr "Преобразовать в "
 
 #, csharp-format
 msgid "Are you sure want to break even position on {0}?"
-msgstr "Вы уверены, что хотите выйти на безубыточную позицию по {0}?"
+msgstr "Вы уверены, что хотите вывести позицию в безубыток по {0}?"
 
 msgid "When placing an order, you need to select a product code. These product codes identify the category of the order. For example, you can place the below mentioned product code, CNC – For trading Equity in delivery MIS – For trading Equity & F&O in intraday NRML – For trading F&O, Currency and Commodities for overnight position. Since these positions are not intraday positions, the margin requirements for these will be as per the overnight margins. Also, they will not be squared off by our system at the end of the trading session."
-msgstr "При размещении заказа необходимо выбрать код продукта. Эти коды продуктов определяют категорию заказа. Например, вы можете разместить ниже упомянутый код продукта, CNC - Для торговли акциями в доставке MIS - Для торговли акциями и F'O во внутридневной NRML - Для торговли F'O, Валюты и сырьевых товаров для ночной позиции. Поскольку эти позиции не являются внутридневные позиции, маржинальные требования к ним будут в соответствии с ночной маржи. Кроме того, они не будут в квадрате от нашей системы в конце торговой сессии."
+msgstr "При оформлении ордера необходимо выбрать код товара. Эти коды продуктов определяют категорию ордера. Например, вы можете разместить указанный ниже код продукта: CNC — для торговли акциями с поставкой, MIS — для торговли акциями и F&O в течение дня, NRML — для торговли F&O, валютой и товарами для позиции овернайт. Поскольку эти позиции не являются внутридневными позициями, маржинальные требования для них будут соответствовать марже овернайт. Кроме того, они не будут устранены нашей системой в конце торговой сессии."
 
 msgid "Realized MTM"
 msgstr "Реализованный MTM"
 
 msgid "It's realized profit or loss which has been booked by client"
-msgstr "Это реализованная прибыль или убыток, который был забронирован клиентом"
+msgstr "Это реализованная прибыль или убыток, зафиксированные клиентом."
 
 msgid "MTM"
 msgstr "Mtm"
 
 msgid "It's profit or loss of position"
-msgstr "Это прибыль или потеря позиции"
+msgstr "Это прибыль или убыток позиции"
 
 msgid "Buy Quantity"
-msgstr "Купить количество"
+msgstr "Количество покупки"
 
 msgid "Total bought quantity"
 msgstr "Общее количество купленных"
 
 msgid "Buy Average Price"
-msgstr "Купить Средняя цена"
+msgstr "Средняя цена покупки"
 
 msgid "Average buy price of position"
-msgstr "Средняя цена покупки позиции"
+msgstr "Средняя цена покупки по позиции"
 
 msgid "Buy Value"
-msgstr "Купить значение"
+msgstr "Стоимость покупки"
 
 msgid "Total buy value of position in rupees"
 msgstr "Общая стоимость покупки позиции в рупиях"
 
 msgid "Sell Quantity"
-msgstr "Продажа количества"
+msgstr "Количество продаж"
 
 msgid "Total sold quantity"
-msgstr "Общее количество проданных"
+msgstr "Общее количество продаж"
 
 msgid "Sell AveragePrice"
-msgstr "Продать AveragePrice"
+msgstr "Средняя цена продажи"
 
 msgid "Average sell price of position"
-msgstr "Средняя цена продажи позиции"
+msgstr "Средняя цена продажи по позиции"
 
 msgid "Sell Value"
-msgstr "Продажа стоимости"
+msgstr "Стоимость продаж"
 
 msgid "Total sell value of position in rupees"
-msgstr "Общая стоимость продажи позиции в рупиях"
+msgstr "Общая стоимость продажи по позиции в рупиях"
 
 msgid "Settlement price"
 msgstr "Расчетная цена"
 
 msgid "Unsettled VM"
-msgstr "Несопоставленная ВИРТУАЛЬная машина"
+msgstr "Неоплаченный VM"
 
 msgid "Init. margin"
 msgstr "Нач. маржа"
 
 msgid "Maintenance"
-msgstr "Обслуживания"
+msgstr "Поддержка"
 
 msgid "Maint. margin"
 msgstr "Маржа поддержки"
@@ -399,16 +399,16 @@ msgid "Reverse all positions..."
 msgstr "Перевернуть все позиции"
 
 msgid "Are you sure want to reverse {selectedPositions.Single().Id}?"
-msgstr "Вы действительно хотите изменить {Селектедпоситионс. Single (). ID}?"
+msgstr "Вы действительно хотите перевернуть {selectedPositions.Single().Id}?"
 
 msgid "Are you sure want to reverse positions by {symbol.Name}?"
-msgstr "Вы действительно хотите обратить позиции по {Symbol. Имя}?"
+msgstr "Вы действительно хотите перевернуть позиции по {Symbol.Name}?"
 
 msgid "Are you sure want to reverse positions by {account}?"
-msgstr "Вы действительно хотите обратить позиции по {Account}?"
+msgstr "Вы действительно хотите перевернуть позиции по {account}?"
 
 msgid "Modify position #{position.Id} {position.Symbol} {OrderType.GetSLTPComfirmMessage(modifyOrderParameters)} for {position.Account}? "
-msgstr "Изменить положение # {положение. ID} {позиция. Symbol} {OrderType. Жетслтпкомфирммессаже (Модифйордерпараметерс)} для {Position. Аккаунт}? "
+msgstr "Изменить позицию {position.Id} {position.Symbol} {OrderType.GetSLTPComfirmMessage(modifyOrderParameters)} для {position.Account}? "
 
 msgid "Close selected positions"
 msgstr "Закрыть выбранные позиции"
@@ -429,7 +429,7 @@ msgid "Close all"
 msgstr "Закрыть все"
 
 msgid "Flatten all"
-msgstr "Сгладить все"
+msgstr "Выровнять все"
 
 msgid "Close all positions and cancel all orders"
 msgstr "Закрыть все позиции и отменить все ордера"
@@ -459,7 +459,7 @@ msgid "Close positions with Side=short"
 msgstr "Закрыть короткие позиции"
 
 msgid "Close all positions by selected (symbol + account)"
-msgstr "Закрыть позицию по выбранному (символу + счету)"
+msgstr "Закрыть все позиции по выбранному (символу + счету)"
 
 msgid "Close selected"
 msgstr "Закрыть выбранные"
@@ -474,7 +474,7 @@ msgid "The direction of the position"
 msgstr "Направление позиции"
 
 msgid "Position’s quantity"
-msgstr "Количество позиции"
+msgstr "Объём позиции"
 
 msgid "Open price"
 msgstr "Цена открытия"
@@ -540,16 +540,16 @@ msgid "Liquidation price"
 msgstr "Ликвидационная цена"
 
 msgid "State"
-msgstr "Штат"
+msgstr "Состояние"
 
 msgid "Open or closed"
-msgstr "Открыть или закрыть"
+msgstr "Открыта или закрыта"
 
 msgid "Gross P/L, %"
 msgstr "Валовый P/L, %"
 
 msgid "Current profit/loss percent value, before fee/commission applying"
-msgstr "Текущее значение процента прибыли/убытка, до применения комиссии/комиссии"
+msgstr "Текущее значение процента прибыли/убытка, до применения комиссии"
 
 msgid "Net P/L, %"
 msgstr "Чистый P/L, %"
@@ -564,7 +564,7 @@ msgid "Short"
 msgstr "Короткая"
 
 msgid "Closed"
-msgstr "Закрытый"
+msgstr "Закрыта"
 
 msgid "Open"
-msgstr "Открытие"
+msgstr "Открыта"
