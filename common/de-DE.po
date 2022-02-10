@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-01 22:56+0200\n"
+"POT-Creation-Date: 2022-02-10 14:02+0200\n"
 "PO-Revision-Date: 2018-12-04 15:58+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -439,11 +439,11 @@ msgstr "Täglich"
 msgid "Weekly"
 msgstr "Wöchentliche"
 
-msgid "Bar style"
-msgstr "Bar-Stil"
-
 msgid "Loading volume analysis data..."
 msgstr "Volumenanalysedaten werden geladen..."
+
+msgid "Bar style"
+msgstr "Bar-Stil"
 
 msgid "Histogram style"
 msgstr "Histogramm-Stil"
@@ -552,9 +552,6 @@ msgstr "Histogrammfarben"
 
 msgid "Area colors"
 msgstr "Bereichsfarben"
-
-msgid "Highlight values more than"
-msgstr "Markieren Sie Werte mehr als"
 
 msgid "Color"
 msgstr "Farbe"
@@ -2501,6 +2498,15 @@ msgstr "Handelspreis: "
 msgid "Trade Size: "
 msgstr "Handelsgröße: "
 
+msgid "Combined"
+msgstr "Kombiniert"
+
+msgid "Mirror"
+msgstr "Spiegel"
+
+msgid "Delta"
+msgstr "Delta"
+
 msgid "Data gap:"
 msgstr "Datenlücke:"
 
@@ -2546,8 +2552,8 @@ msgstr "Gebotslinienfarbe"
 msgid "Ask line color"
 msgstr "Fragen Linienfarbe"
 
-msgid "Extend price levels"
-msgstr "Preisniveaus verlängern"
+msgid "Extend DOM levels"
+msgstr "Erweitern von DOM-Ebenen"
 
 msgid "DOM levels count"
 msgstr "Dom-Ebenen zählen"
@@ -2581,18 +2587,6 @@ msgstr "Farbe 4"
 
 msgid "Color 5"
 msgstr "Farbe 5"
-
-msgid "HeatmapColorSet1"
-msgstr "HeatmapColorSet1"
-
-msgid "HeatmapColorSet2"
-msgstr "HeatmapColorSet2"
-
-msgid "HeatmapColorSet3"
-msgstr "HeatmapColorSet3"
-
-msgid "HeatmapColorSet4"
-msgstr "HeatmapColorSet4"
 
 msgid "Limit of points"
 msgstr "Punktegrenze"
@@ -2771,9 +2765,6 @@ msgstr "Mittelpunkt"
 msgid "RF"
 msgstr "Rf"
 
-msgid "Delta"
-msgstr "Delta"
-
 msgid "TPO Up"
 msgstr "TPO Nach Oben"
 
@@ -2845,9 +2836,6 @@ msgstr "Automatische Zentrierung"
 
 msgid "Keep in view"
 msgstr "Behalten Sie den Überblick"
-
-msgid "Combined"
-msgstr "Kombiniert"
 
 msgid "Implied"
 msgstr "Stillschweigend"
@@ -3109,6 +3097,9 @@ msgstr "Farbe des Kopfzeilenrasters"
 
 msgid "Show day map"
 msgstr "Zeige Tageskarte"
+
+msgid "Highlight values more than"
+msgstr "Markieren Sie Werte mehr als"
 
 msgid "Best bid"
 msgstr "Bestes Gebot"
@@ -5624,12 +5615,6 @@ msgstr "Hebel Kauf"
 
 msgid "Leverage sell"
 msgstr "Hebel Verkauf"
-
-msgid "Connect to spot exchange"
-msgstr "Mit Spotbörse verbinden"
-
-msgid "Connect to futures exchange"
-msgstr "Verbinden Sie sich mit futures exchange"
 
 msgid "Margin requirements"
 msgstr "Margenanforderungen"

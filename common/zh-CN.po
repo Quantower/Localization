@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-01 22:56+0200\n"
+"POT-Creation-Date: 2022-02-10 14:02+0200\n"
 "PO-Revision-Date: 2018-12-04 16:01+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -439,11 +439,11 @@ msgstr "每日"
 msgid "Weekly"
 msgstr "每周"
 
-msgid "Bar style"
-msgstr "酒吧风格"
-
 msgid "Loading volume analysis data..."
 msgstr "正在加载卷分析数据..."
+
+msgid "Bar style"
+msgstr "酒吧风格"
 
 msgid "Histogram style"
 msgstr "直方图样式"
@@ -552,9 +552,6 @@ msgstr "直方图颜色"
 
 msgid "Area colors"
 msgstr "区域颜色"
-
-msgid "Highlight values more than"
-msgstr "突出显示值超过"
 
 msgid "Color"
 msgstr "颜色"
@@ -2501,6 +2498,15 @@ msgstr "交易价格："
 msgid "Trade Size: "
 msgstr "交易规模："
 
+msgid "Combined"
+msgstr "组合的"
+
+msgid "Mirror"
+msgstr "镜子"
+
+msgid "Delta"
+msgstr "买卖差"
+
 msgid "Data gap:"
 msgstr "数据差距："
 
@@ -2546,8 +2552,8 @@ msgstr "投标线颜色"
 msgid "Ask line color"
 msgstr "询问线条颜色"
 
-msgid "Extend price levels"
-msgstr "扩展价格水平"
+msgid "Extend DOM levels"
+msgstr "扩展 DOM 级别"
 
 msgid "DOM levels count"
 msgstr "DOM 级别计数"
@@ -2581,18 +2587,6 @@ msgstr "颜色 4"
 
 msgid "Color 5"
 msgstr "颜色 5"
-
-msgid "HeatmapColorSet1"
-msgstr "热图颜色集1"
-
-msgid "HeatmapColorSet2"
-msgstr "热图颜色集2"
-
-msgid "HeatmapColorSet3"
-msgstr "热图颜色集3"
-
-msgid "HeatmapColorSet4"
-msgstr "热图颜色集4"
 
 msgid "Limit of points"
 msgstr "积分限制"
@@ -2771,9 +2765,6 @@ msgstr "中点"
 msgid "RF"
 msgstr "射频"
 
-msgid "Delta"
-msgstr "买卖差"
-
 msgid "TPO Up"
 msgstr "Tpo 向上"
 
@@ -2845,9 +2836,6 @@ msgstr "自动定心"
 
 msgid "Keep in view"
 msgstr "保持在视野中"
-
-msgid "Combined"
-msgstr "组合的"
 
 msgid "Implied"
 msgstr "暗示"
@@ -3109,6 +3097,9 @@ msgstr "标题网格颜色"
 
 msgid "Show day map"
 msgstr "显示日图"
+
+msgid "Highlight values more than"
+msgstr "突出显示值超过"
 
 msgid "Best bid"
 msgstr "最优卖价"
@@ -5624,12 +5615,6 @@ msgstr "杠杆买"
 
 msgid "Leverage sell"
 msgstr "杠杆卖"
-
-msgid "Connect to spot exchange"
-msgstr "连接到现货交易所"
-
-msgid "Connect to futures exchange"
-msgstr "连接到期货交易所"
 
 msgid "Margin requirements"
 msgstr "保证金需求"

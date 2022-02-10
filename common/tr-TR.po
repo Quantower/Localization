@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-01 22:56+0200\n"
+"POT-Creation-Date: 2022-02-10 14:02+0200\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -439,11 +439,11 @@ msgstr "Günlük"
 msgid "Weekly"
 msgstr "Hafta -lık"
 
-msgid "Bar style"
-msgstr "Çubuk stili"
-
 msgid "Loading volume analysis data..."
 msgstr "Hacim analizi verilerinin yüklenmesi..."
+
+msgid "Bar style"
+msgstr "Çubuk stili"
 
 msgid "Histogram style"
 msgstr "Histogram stili"
@@ -552,9 +552,6 @@ msgstr "Histogram renkleri"
 
 msgid "Area colors"
 msgstr "Alan renkleri"
-
-msgid "Highlight values more than"
-msgstr "Değerleri daha fazla vurgulama"
 
 msgid "Color"
 msgstr "Renk"
@@ -2501,6 +2498,15 @@ msgstr "Ticari Fiyat: "
 msgid "Trade Size: "
 msgstr "Ticaret Boyutu: "
 
+msgid "Combined"
+msgstr "Birleşik"
+
+msgid "Mirror"
+msgstr "Ayna"
+
+msgid "Delta"
+msgstr "Delta"
+
 msgid "Data gap:"
 msgstr "Veri boşluğu:"
 
@@ -2546,8 +2552,8 @@ msgstr "Teklif satırı rengi"
 msgid "Ask line color"
 msgstr "Satır rengini sor"
 
-msgid "Extend price levels"
-msgstr "Fiyat seviyelerini genişletme"
+msgid "Extend DOM levels"
+msgstr "DOM düzeylerini genişletme"
 
 msgid "DOM levels count"
 msgstr "DOM düzeyleri sayılır"
@@ -2581,18 +2587,6 @@ msgstr "Renk 4"
 
 msgid "Color 5"
 msgstr "Renk 5"
-
-msgid "HeatmapColorSet1"
-msgstr "HeatmapColorSet1"
-
-msgid "HeatmapColorSet2"
-msgstr "HeatmapColorSet2"
-
-msgid "HeatmapColorSet3"
-msgstr "HeatmapColorSet3"
-
-msgid "HeatmapColorSet4"
-msgstr "HeatmapColorSet4"
 
 msgid "Limit of points"
 msgstr "Puan sınırı"
@@ -2771,9 +2765,6 @@ msgstr "Orta"
 msgid "RF"
 msgstr "Rf"
 
-msgid "Delta"
-msgstr "Delta"
-
 msgid "TPO Up"
 msgstr "TPO Yukarı"
 
@@ -2845,9 +2836,6 @@ msgstr "Otomatik ortalama"
 
 msgid "Keep in view"
 msgstr "Göz önünde bulundur"
-
-msgid "Combined"
-msgstr "Birleşik"
 
 msgid "Implied"
 msgstr "Ima"
@@ -3109,6 +3097,9 @@ msgstr "Üstbilgi ızgarası rengi"
 
 msgid "Show day map"
 msgstr "Günü haritayı göster"
+
+msgid "Highlight values more than"
+msgstr "Değerleri daha fazla vurgulama"
 
 msgid "Best bid"
 msgstr "En iyi satış"
@@ -5624,12 +5615,6 @@ msgstr "Kaldıraç satın al"
 
 msgid "Leverage sell"
 msgstr "Kaldıraç satışı"
-
-msgid "Connect to spot exchange"
-msgstr "Spot değişime bağlanma"
-
-msgid "Connect to futures exchange"
-msgstr "Vadeli işlem değişimine bağlanın"
 
 msgid "Margin requirements"
 msgstr "Marj gereklilikleri"

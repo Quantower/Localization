@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-01 22:56+0200\n"
+"POT-Creation-Date: 2022-02-10 14:02+0200\n"
 "PO-Revision-Date: 2018-12-04 15:57+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -439,11 +439,11 @@ msgstr "Diario"
 msgid "Weekly"
 msgstr "Semanal"
 
-msgid "Bar style"
-msgstr "Estilo de barra"
-
 msgid "Loading volume analysis data..."
 msgstr "Cargando datos de análisis de volumen..."
+
+msgid "Bar style"
+msgstr "Estilo de barra"
 
 msgid "Histogram style"
 msgstr "Estilo de histograma"
@@ -552,9 +552,6 @@ msgstr "Colores del histograma"
 
 msgid "Area colors"
 msgstr "Colores de área"
-
-msgid "Highlight values more than"
-msgstr "Resalte valores más que"
 
 msgid "Color"
 msgstr "Color"
@@ -2501,6 +2498,15 @@ msgstr "Precio comercial: "
 msgid "Trade Size: "
 msgstr "Tamaño del comercio: "
 
+msgid "Combined"
+msgstr "Combinado"
+
+msgid "Mirror"
+msgstr "Espejo"
+
+msgid "Delta"
+msgstr "Delta"
+
 msgid "Data gap:"
 msgstr "Brecha de datos:"
 
@@ -2546,8 +2552,8 @@ msgstr "Color de la línea de puja"
 msgid "Ask line color"
 msgstr "Preguntar color de línea"
 
-msgid "Extend price levels"
-msgstr "Ampliar los niveles de precios"
+msgid "Extend DOM levels"
+msgstr "Ampliar los niveles de DOM"
 
 msgid "DOM levels count"
 msgstr "Los niveles DOM cuentan"
@@ -2581,18 +2587,6 @@ msgstr "Color 4"
 
 msgid "Color 5"
 msgstr "Color 5"
-
-msgid "HeatmapColorSet1"
-msgstr "Mapa de calorColorSet1"
-
-msgid "HeatmapColorSet2"
-msgstr "Mapa de calorColorSet2"
-
-msgid "HeatmapColorSet3"
-msgstr "Mapa de calorColorSet3"
-
-msgid "HeatmapColorSet4"
-msgstr "Mapa de calorColorSet4"
 
 msgid "Limit of points"
 msgstr "Límite de puntos"
@@ -2771,9 +2765,6 @@ msgstr "Puntomedio"
 msgid "RF"
 msgstr "Rf"
 
-msgid "Delta"
-msgstr "Delta"
-
 msgid "TPO Up"
 msgstr "TPO Up"
 
@@ -2845,9 +2836,6 @@ msgstr "Centrado automático"
 
 msgid "Keep in view"
 msgstr "Mantener a la vista"
-
-msgid "Combined"
-msgstr "Combinado"
 
 msgid "Implied"
 msgstr "Implícito"
@@ -3109,6 +3097,9 @@ msgstr "Color de la cuadrícula de encabezado"
 
 msgid "Show day map"
 msgstr "Mostrar mapa del día"
+
+msgid "Highlight values more than"
+msgstr "Resalte valores más que"
 
 msgid "Best bid"
 msgstr "Mejor venta"
@@ -5624,12 +5615,6 @@ msgstr "Apalancamiento comprar"
 
 msgid "Leverage sell"
 msgstr "Apalancamiento vender"
-
-msgid "Connect to spot exchange"
-msgstr "Conéctese al intercambio puntual"
-
-msgid "Connect to futures exchange"
-msgstr "Conéctese al intercambio de futuros"
 
 msgid "Margin requirements"
 msgstr "Requisitos de margen"
