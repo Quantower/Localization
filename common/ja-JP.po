@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-01 22:56+0200\n"
+"POT-Creation-Date: 2022-02-10 14:02+0200\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -439,11 +439,11 @@ msgstr "当日分を表示"
 msgid "Weekly"
 msgstr "毎 週"
 
-msgid "Bar style"
-msgstr "バースタイル"
-
 msgid "Loading volume analysis data..."
 msgstr "ボリューム分析データを読み込んでいます。"
+
+msgid "Bar style"
+msgstr "バースタイル"
 
 msgid "Histogram style"
 msgstr "ヒストグラムのスタイル"
@@ -552,9 +552,6 @@ msgstr "ヒストグラムの色"
 
 msgid "Area colors"
 msgstr "エリアの色"
-
-msgid "Highlight values more than"
-msgstr "次の値を強調表示"
 
 msgid "Color"
 msgstr "色"
@@ -2501,6 +2498,15 @@ msgstr "トレード価格:"
 msgid "Trade Size: "
 msgstr "取引サイズ:"
 
+msgid "Combined"
+msgstr "複合"
+
+msgid "Mirror"
+msgstr "鏡"
+
+msgid "Delta"
+msgstr "デルタ"
+
 msgid "Data gap:"
 msgstr "データギャップ:"
 
@@ -2546,8 +2552,8 @@ msgstr "入札ラインの色"
 msgid "Ask line color"
 msgstr "線の色を確認する"
 
-msgid "Extend price levels"
-msgstr "価格レベルの拡張"
+msgid "Extend DOM levels"
+msgstr "DOM レベルを拡張する"
 
 msgid "DOM levels count"
 msgstr "DOM レベルカウント"
@@ -2581,18 +2587,6 @@ msgstr "カラー4"
 
 msgid "Color 5"
 msgstr "カラー5"
-
-msgid "HeatmapColorSet1"
-msgstr "ヒートマップカラーセット1"
-
-msgid "HeatmapColorSet2"
-msgstr "ヒートマップカラーセット2"
-
-msgid "HeatmapColorSet3"
-msgstr "ヒートマップカラーセット3"
-
-msgid "HeatmapColorSet4"
-msgstr "ヒートマップカラーセット4"
 
 msgid "Limit of points"
 msgstr "ポイントの制限"
@@ -2771,9 +2765,6 @@ msgstr "中点"
 msgid "RF"
 msgstr "Rf"
 
-msgid "Delta"
-msgstr "デルタ"
-
 msgid "TPO Up"
 msgstr "TPOアップ"
 
@@ -2845,9 +2836,6 @@ msgstr "自動センタリング"
 
 msgid "Keep in view"
 msgstr "ビューに保持"
-
-msgid "Combined"
-msgstr "複合"
 
 msgid "Implied"
 msgstr "暗黙"
@@ -3109,6 +3097,9 @@ msgstr "ヘッダー グリッドの色"
 
 msgid "Show day map"
 msgstr "日の地図を表示する"
+
+msgid "Highlight values more than"
+msgstr "次の値を強調表示"
 
 msgid "Best bid"
 msgstr "ベストBid"
@@ -5624,12 +5615,6 @@ msgstr "レバレッジ購入"
 
 msgid "Leverage sell"
 msgstr "レバレッジ販売"
-
-msgid "Connect to spot exchange"
-msgstr "スポット交換に接続"
-
-msgid "Connect to futures exchange"
-msgstr "先物取引所への接続"
 
 msgid "Margin requirements"
 msgstr "取引証拠金"

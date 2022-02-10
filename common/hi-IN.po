@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-01 22:56+0200\n"
+"POT-Creation-Date: 2022-02-10 14:02+0200\n"
 "PO-Revision-Date: 2019-03-18 10:52+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -439,11 +439,11 @@ msgstr "दैनिक"
 msgid "Weekly"
 msgstr "साप्ताहिक"
 
-msgid "Bar style"
-msgstr "बार शैली"
-
 msgid "Loading volume analysis data..."
 msgstr "वॉल्यूम विश्लेषण डेटा लोड हो रहा है ..."
+
+msgid "Bar style"
+msgstr "बार शैली"
 
 msgid "Histogram style"
 msgstr "हिस्टोग्राम शैली"
@@ -552,9 +552,6 @@ msgstr "हिस्टोग्राम रंग"
 
 msgid "Area colors"
 msgstr "क्षेत्र के रंग"
-
-msgid "Highlight values more than"
-msgstr "मूल्यों को अधिक से अधिक हाइलाइट करें"
 
 msgid "Color"
 msgstr "रंग"
@@ -2501,6 +2498,15 @@ msgstr "व्यापार मूल्य: "
 msgid "Trade Size: "
 msgstr "व्यापार आकार: "
 
+msgid "Combined"
+msgstr "सम्मिलित"
+
+msgid "Mirror"
+msgstr "दर्पण"
+
+msgid "Delta"
+msgstr "डेल्टा"
+
 msgid "Data gap:"
 msgstr "डेटा गैप:"
 
@@ -2546,8 +2552,8 @@ msgstr "बोली लाइन रंग"
 msgid "Ask line color"
 msgstr "लाइन रंग पूछें"
 
-msgid "Extend price levels"
-msgstr "मूल्य स्तरों का विस्तार करें"
+msgid "Extend DOM levels"
+msgstr "डोम स्तरों का विस्तार करें"
 
 msgid "DOM levels count"
 msgstr "डोम स्तर गिनती"
@@ -2581,18 +2587,6 @@ msgstr "रंग 4"
 
 msgid "Color 5"
 msgstr "रंग 5"
-
-msgid "HeatmapColorSet1"
-msgstr "हीटमैपकॉलरसेट1"
-
-msgid "HeatmapColorSet2"
-msgstr "हीटमैपकॉलरSet2"
-
-msgid "HeatmapColorSet3"
-msgstr "हीटमैपकॉलरSet3"
-
-msgid "HeatmapColorSet4"
-msgstr "हीटमैपकॉलरसेट4"
 
 msgid "Limit of points"
 msgstr "अंकों की सीमा"
@@ -2771,9 +2765,6 @@ msgstr "मध्यबिंदु"
 msgid "RF"
 msgstr "आरएफ"
 
-msgid "Delta"
-msgstr "डेल्टा"
-
 msgid "TPO Up"
 msgstr "टीपीओ अप"
 
@@ -2845,9 +2836,6 @@ msgstr "ऑटो केंद्रीकरण"
 
 msgid "Keep in view"
 msgstr "दृश्य में रखें"
-
-msgid "Combined"
-msgstr "सम्मिलित"
 
 msgid "Implied"
 msgstr "निहित"
@@ -3109,6 +3097,9 @@ msgstr "हेडर ग्रिड रंग"
 
 msgid "Show day map"
 msgstr "दिन का नक्शा दिखाएं"
+
+msgid "Highlight values more than"
+msgstr "मूल्यों को अधिक से अधिक हाइलाइट करें"
 
 msgid "Best bid"
 msgstr "सर्वश्रेष्ठ बोली"
@@ -5624,12 +5615,6 @@ msgstr "लाभ उठाने खरीदें"
 
 msgid "Leverage sell"
 msgstr "उत्तोलन बेचें"
-
-msgid "Connect to spot exchange"
-msgstr "स्पॉट एक्सचेंज से कनेक्ट करें"
-
-msgid "Connect to futures exchange"
-msgstr "वायदा विनिमय से कनेक्ट करें"
 
 msgid "Margin requirements"
 msgstr "मार्जिन आवश्यकताएं"

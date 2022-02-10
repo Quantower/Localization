@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-01 22:56+0200\n"
+"POT-Creation-Date: 2022-02-10 14:02+0200\n"
 "PO-Revision-Date: 2019-06-25 11:42+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -439,11 +439,11 @@ msgstr "روزانه"
 msgid "Weekly"
 msgstr "هفتگی"
 
-msgid "Bar style"
-msgstr "سبک نوار"
-
 msgid "Loading volume analysis data..."
 msgstr "بارگذاری داده های تجزیه و تحلیل حجم..."
+
+msgid "Bar style"
+msgstr "سبک نوار"
 
 msgid "Histogram style"
 msgstr "سبک هستوگرام"
@@ -552,9 +552,6 @@ msgstr "رنگ های هستوگرام"
 
 msgid "Area colors"
 msgstr "رنگ های منطقه"
-
-msgid "Highlight values more than"
-msgstr "ارزش های برجسته بیش از"
 
 msgid "Color"
 msgstr "رنگ"
@@ -2501,6 +2498,15 @@ msgstr "قیمت تجارت: "
 msgid "Trade Size: "
 msgstr "اندازه تجارت: "
 
+msgid "Combined"
+msgstr "ترکیب"
+
+msgid "Mirror"
+msgstr "آینه"
+
+msgid "Delta"
+msgstr "دلتا"
+
 msgid "Data gap:"
 msgstr "شکاف داده ها:"
 
@@ -2546,8 +2552,8 @@ msgstr "رنگ خط پیشنهاد"
 msgid "Ask line color"
 msgstr "درخواست رنگ خط"
 
-msgid "Extend price levels"
-msgstr "گسترش سطح قیمت"
+msgid "Extend DOM levels"
+msgstr "گسترش سطح DOM"
 
 msgid "DOM levels count"
 msgstr "تعداد سطح DOM"
@@ -2581,18 +2587,6 @@ msgstr "رنگ 4"
 
 msgid "Color 5"
 msgstr "رنگ 5"
-
-msgid "HeatmapColorSet1"
-msgstr "HeatmapColorSet1"
-
-msgid "HeatmapColorSet2"
-msgstr "HeatmapColorSet2"
-
-msgid "HeatmapColorSet3"
-msgstr "HeatmapColorSet3"
-
-msgid "HeatmapColorSet4"
-msgstr "HeatmapColorSet4"
 
 msgid "Limit of points"
 msgstr "حد امتیاز"
@@ -2771,9 +2765,6 @@ msgstr "نقطه میانی"
 msgid "RF"
 msgstr "Rf"
 
-msgid "Delta"
-msgstr "دلتا"
-
 msgid "TPO Up"
 msgstr "TPO بالا"
 
@@ -2845,9 +2836,6 @@ msgstr "مرکز خودکار"
 
 msgid "Keep in view"
 msgstr "در نظر داشته باشد"
-
-msgid "Combined"
-msgstr "ترکیب"
 
 msgid "Implied"
 msgstr "ضمنی"
@@ -3109,6 +3097,9 @@ msgstr "رنگ شبکه سرصفحه"
 
 msgid "Show day map"
 msgstr "نمایش نقشه روز"
+
+msgid "Highlight values more than"
+msgstr "ارزش های برجسته بیش از"
 
 msgid "Best bid"
 msgstr "بهترین پیشنهاد"
@@ -5624,12 +5615,6 @@ msgstr "خرید اهرم"
 
 msgid "Leverage sell"
 msgstr "فروش اهرم"
-
-msgid "Connect to spot exchange"
-msgstr "اتصال به تبادل نقطه"
-
-msgid "Connect to futures exchange"
-msgstr "اتصال به تبادل آتی"
 
 msgid "Margin requirements"
 msgstr "الزامات مارجین"

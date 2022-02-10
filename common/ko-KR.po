@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-01 22:56+0200\n"
+"POT-Creation-Date: 2022-02-10 14:02+0200\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -439,11 +439,11 @@ msgstr "매일"
 msgid "Weekly"
 msgstr "주간"
 
-msgid "Bar style"
-msgstr "바 스타일"
-
 msgid "Loading volume analysis data..."
 msgstr "볼륨 분석 데이터 로딩..."
+
+msgid "Bar style"
+msgstr "바 스타일"
 
 msgid "Histogram style"
 msgstr "히스토그램 스타일"
@@ -552,9 +552,6 @@ msgstr "히스토그램 색상"
 
 msgid "Area colors"
 msgstr "영역 색상"
-
-msgid "Highlight values more than"
-msgstr "값 을 강조 표시하는 것 이상"
 
 msgid "Color"
 msgstr "색"
@@ -2501,6 +2498,15 @@ msgstr "무역 가격: "
 msgid "Trade Size: "
 msgstr "무역 규모: "
 
+msgid "Combined"
+msgstr "결합"
+
+msgid "Mirror"
+msgstr "거울"
+
+msgid "Delta"
+msgstr "델타"
+
 msgid "Data gap:"
 msgstr "데이터 격차:"
 
@@ -2546,8 +2552,8 @@ msgstr "입찰선 색상"
 msgid "Ask line color"
 msgstr "선 색상 요청"
 
-msgid "Extend price levels"
-msgstr "가격 수준 연장"
+msgid "Extend DOM levels"
+msgstr "DOM 레벨 확장"
 
 msgid "DOM levels count"
 msgstr "DOM 레벨 수"
@@ -2581,18 +2587,6 @@ msgstr "색상 4"
 
 msgid "Color 5"
 msgstr "색상 5"
-
-msgid "HeatmapColorSet1"
-msgstr "히트맵컬러셋1"
-
-msgid "HeatmapColorSet2"
-msgstr "히트맵컬러셋2"
-
-msgid "HeatmapColorSet3"
-msgstr "히트맵컬러셋3"
-
-msgid "HeatmapColorSet4"
-msgstr "히트맵컬러셋4"
 
 msgid "Limit of points"
 msgstr "포인트 제한"
@@ -2771,9 +2765,6 @@ msgstr "중간점"
 msgid "RF"
 msgstr "Rf"
 
-msgid "Delta"
-msgstr "델타"
-
 msgid "TPO Up"
 msgstr "TPO 업"
 
@@ -2845,9 +2836,6 @@ msgstr "자동 센터링"
 
 msgid "Keep in view"
 msgstr "보기 유지"
-
-msgid "Combined"
-msgstr "결합"
 
 msgid "Implied"
 msgstr "묵시적"
@@ -3109,6 +3097,9 @@ msgstr "헤더 그리드 색상"
 
 msgid "Show day map"
 msgstr "일일지도 표시"
+
+msgid "Highlight values more than"
+msgstr "값 을 강조 표시하는 것 이상"
 
 msgid "Best bid"
 msgstr "최고의 입찰가"
@@ -5624,12 +5615,6 @@ msgstr "레 버리지 구매"
 
 msgid "Leverage sell"
 msgstr "레 버리지 판매"
-
-msgid "Connect to spot exchange"
-msgstr "스팟 교환에 연결"
-
-msgid "Connect to futures exchange"
-msgstr "선물 거래소에 연결"
 
 msgid "Margin requirements"
 msgstr "마진 요구 사항"

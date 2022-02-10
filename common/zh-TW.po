@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-01 22:56+0200\n"
+"POT-Creation-Date: 2022-02-10 14:02+0200\n"
 "PO-Revision-Date: 2018-12-04 16:01+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -439,11 +439,11 @@ msgstr "每日"
 msgid "Weekly"
 msgstr "每周"
 
-msgid "Bar style"
-msgstr "酒吧風格"
-
 msgid "Loading volume analysis data..."
 msgstr "載入分析資料中..."
+
+msgid "Bar style"
+msgstr "酒吧風格"
 
 msgid "Histogram style"
 msgstr "直方圖樣式"
@@ -552,9 +552,6 @@ msgstr "直方圖顏色"
 
 msgid "Area colors"
 msgstr "區域顏色"
-
-msgid "Highlight values more than"
-msgstr "突出顯示值超過"
 
 msgid "Color"
 msgstr "顏色"
@@ -2501,6 +2498,15 @@ msgstr "交易價格:"
 msgid "Trade Size: "
 msgstr "交易規模:"
 
+msgid "Combined"
+msgstr "組合的"
+
+msgid "Mirror"
+msgstr "鏡子"
+
+msgid "Delta"
+msgstr "三角洲"
+
 msgid "Data gap:"
 msgstr "資料差距:"
 
@@ -2546,8 +2552,8 @@ msgstr "投標線顏色"
 msgid "Ask line color"
 msgstr "詢問線條顏色"
 
-msgid "Extend price levels"
-msgstr "擴展價格水準"
+msgid "Extend DOM levels"
+msgstr "擴展 DOM 級別"
 
 msgid "DOM levels count"
 msgstr "DOM 級別計數"
@@ -2581,18 +2587,6 @@ msgstr "顏色 4"
 
 msgid "Color 5"
 msgstr "顏色 5"
-
-msgid "HeatmapColorSet1"
-msgstr "熱圖顏色集1"
-
-msgid "HeatmapColorSet2"
-msgstr "熱圖顏色集2"
-
-msgid "HeatmapColorSet3"
-msgstr "熱圖顏色集3"
-
-msgid "HeatmapColorSet4"
-msgstr "熱圖顏色集4"
 
 msgid "Limit of points"
 msgstr "積分限制"
@@ -2771,9 +2765,6 @@ msgstr "中點"
 msgid "RF"
 msgstr "射頻"
 
-msgid "Delta"
-msgstr "三角洲"
-
 msgid "TPO Up"
 msgstr "Tpo 向上"
 
@@ -2845,9 +2836,6 @@ msgstr "自動定心"
 
 msgid "Keep in view"
 msgstr "保持在視野中"
-
-msgid "Combined"
-msgstr "組合的"
 
 msgid "Implied"
 msgstr "暗示"
@@ -3109,6 +3097,9 @@ msgstr "標題網格顏色"
 
 msgid "Show day map"
 msgstr "顯示日圖"
+
+msgid "Highlight values more than"
+msgstr "突出顯示值超過"
 
 msgid "Best bid"
 msgstr "最優賣價"
@@ -5624,12 +5615,6 @@ msgstr "杠杆收購"
 
 msgid "Leverage sell"
 msgstr "杠杆銷售"
-
-msgid "Connect to spot exchange"
-msgstr "連接到現貨交易所"
-
-msgid "Connect to futures exchange"
-msgstr "連接到期貨交易所"
 
 msgid "Margin requirements"
 msgstr "保證金需求"

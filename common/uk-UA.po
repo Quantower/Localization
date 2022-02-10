@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-01 22:56+0200\n"
+"POT-Creation-Date: 2022-02-10 14:02+0200\n"
 "PO-Revision-Date: 2018-12-04 16:03+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -439,11 +439,11 @@ msgstr "Щоденні"
 msgid "Weekly"
 msgstr "Щотижневий"
 
-msgid "Bar style"
-msgstr "Стиль смуги"
-
 msgid "Loading volume analysis data..."
 msgstr "Завантаження даних аналізу гучності..."
+
+msgid "Bar style"
+msgstr "Стиль смуги"
 
 msgid "Histogram style"
 msgstr "Стиль гістограми"
@@ -552,9 +552,6 @@ msgstr "Кольори гістограми"
 
 msgid "Area colors"
 msgstr "Площа кольорів"
-
-msgid "Highlight values more than"
-msgstr "Виділяти значення більше"
 
 msgid "Color"
 msgstr "Колір"
@@ -2501,6 +2498,15 @@ msgstr "Торгова ціна: "
 msgid "Trade Size: "
 msgstr "Розмір торгівлі: "
 
+msgid "Combined"
+msgstr "Поєднанні"
+
+msgid "Mirror"
+msgstr "Дзеркало"
+
+msgid "Delta"
+msgstr "Дельта"
+
 msgid "Data gap:"
 msgstr "Розрив даних:"
 
@@ -2546,8 +2552,8 @@ msgstr "Колір лінії ставки"
 msgid "Ask line color"
 msgstr "Запитати колір лінії"
 
-msgid "Extend price levels"
-msgstr "Розширення рівня цін"
+msgid "Extend DOM levels"
+msgstr "Розширення рівнів DOM"
 
 msgid "DOM levels count"
 msgstr "Кількість рівнів DOM"
@@ -2581,18 +2587,6 @@ msgstr "Колір 4"
 
 msgid "Color 5"
 msgstr "Колір 5"
-
-msgid "HeatmapColorSet1"
-msgstr "Теплова картаColorSet1"
-
-msgid "HeatmapColorSet2"
-msgstr "Теплова картаColorSet2"
-
-msgid "HeatmapColorSet3"
-msgstr "Теплова картаColorSet3"
-
-msgid "HeatmapColorSet4"
-msgstr "Теплова картаColorSet4"
 
 msgid "Limit of points"
 msgstr "Межа балів"
@@ -2771,9 +2765,6 @@ msgstr "Середнє"
 msgid "RF"
 msgstr "Рф"
 
-msgid "Delta"
-msgstr "Дельта"
-
 msgid "TPO Up"
 msgstr "TPO вгору"
 
@@ -2845,9 +2836,6 @@ msgstr "Автоматичне центрування"
 
 msgid "Keep in view"
 msgstr "Будьте в курсі"
-
-msgid "Combined"
-msgstr "Поєднанні"
 
 msgid "Implied"
 msgstr "Неявних"
@@ -3109,6 +3097,9 @@ msgstr "Колір сітки верхнього колонтитула"
 
 msgid "Show day map"
 msgstr "Показати карту дня"
+
+msgid "Highlight values more than"
+msgstr "Виділяти значення більше"
 
 msgid "Best bid"
 msgstr "Найкраща ставка"
@@ -5624,12 +5615,6 @@ msgstr "Плече купити"
 
 msgid "Leverage sell"
 msgstr "Плече продати"
-
-msgid "Connect to spot exchange"
-msgstr "Підключення до точковий обмін"
-
-msgid "Connect to futures exchange"
-msgstr "Підключитися до ф'ючерсної біржі"
 
 msgid "Margin requirements"
 msgstr "Позитивні вимоги"

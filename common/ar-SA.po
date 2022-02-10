@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-01 22:56+0200\n"
+"POT-Creation-Date: 2022-02-10 14:02+0200\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -439,11 +439,11 @@ msgstr "يومي"
 msgid "Weekly"
 msgstr "التنزيلات"
 
-msgid "Bar style"
-msgstr "نمط شريط"
-
 msgid "Loading volume analysis data..."
 msgstr "يتم الآن تحميل بيانات تحليل حجم الصوت..."
+
+msgid "Bar style"
+msgstr "نمط شريط"
 
 msgid "Histogram style"
 msgstr "نمط الرسم البياني"
@@ -552,9 +552,6 @@ msgstr "ألوان المدرج التكراري"
 
 msgid "Area colors"
 msgstr "ألوان المنطقة"
-
-msgid "Highlight values more than"
-msgstr "تمييز القيم أكثر من"
 
 msgid "Color"
 msgstr "اللون"
@@ -2501,6 +2498,15 @@ msgstr "سعر التداول: "
 msgid "Trade Size: "
 msgstr "حجم التداول: "
 
+msgid "Combined"
+msgstr "مجتمعه"
+
+msgid "Mirror"
+msgstr "مرآة"
+
+msgid "Delta"
+msgstr "دلتا"
+
 msgid "Data gap:"
 msgstr "فجوة البيانات:"
 
@@ -2546,8 +2552,8 @@ msgstr "لون بند عروض الأسعار"
 msgid "Ask line color"
 msgstr "طلب لون الخط"
 
-msgid "Extend price levels"
-msgstr "توسيع مستويات الأسعار"
+msgid "Extend DOM levels"
+msgstr "توسيع مستويات DOM"
 
 msgid "DOM levels count"
 msgstr "DOM مستويات العد"
@@ -2581,18 +2587,6 @@ msgstr "اللون 4"
 
 msgid "Color 5"
 msgstr "اللون 5"
-
-msgid "HeatmapColorSet1"
-msgstr "خريطة حراريةكولورست1"
-
-msgid "HeatmapColorSet2"
-msgstr "خريطة حراريةكولورسيت2"
-
-msgid "HeatmapColorSet3"
-msgstr "خريطة حراريةكولورست3"
-
-msgid "HeatmapColorSet4"
-msgstr "خريطة حراريةكولورست4"
 
 msgid "Limit of points"
 msgstr "حد النقاط"
@@ -2771,9 +2765,6 @@ msgstr "نقطه الوسط"
 msgid "RF"
 msgstr "الترددات اللاسلكيه"
 
-msgid "Delta"
-msgstr "دلتا"
-
 msgid "TPO Up"
 msgstr "TPO حتى"
 
@@ -2845,9 +2836,6 @@ msgstr "توسيط تلقائي"
 
 msgid "Keep in view"
 msgstr "الاحتفاظ في العرض"
-
-msgid "Combined"
-msgstr "مجتمعه"
 
 msgid "Implied"
 msgstr "ضمنيه"
@@ -3109,6 +3097,9 @@ msgstr "لون شبكة الرأس"
 
 msgid "Show day map"
 msgstr "عرض خريطة اليوم"
+
+msgid "Highlight values more than"
+msgstr "تمييز القيم أكثر من"
 
 msgid "Best bid"
 msgstr "أفضل سعر عرض"
@@ -5624,12 +5615,6 @@ msgstr "شراء الرافعة المالية"
 
 msgid "Leverage sell"
 msgstr "بيع الرافعة المالية"
-
-msgid "Connect to spot exchange"
-msgstr "الاتصال بالتبادل الفوري"
-
-msgid "Connect to futures exchange"
-msgstr "الاتصال ببورصة العقود الآجلة"
 
 msgid "Margin requirements"
 msgstr "متطلبات الهامش"
