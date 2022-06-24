@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-02 11:28+0200\n"
+"POT-Creation-Date: 2022-06-24 18:02+0300\n"
 "PO-Revision-Date: 2021-07-28 16:15+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -97,6 +97,9 @@ msgstr "關閉后恢復策略狀態"
 msgid "General"
 msgstr "通用"
 
+msgid "Are you sure you want to delete all selected strategies?"
+msgstr "是否確實要刪除所有選定的策略？"
+
 msgid "No running strategies yet"
 msgstr "尚未有運行策略"
 
@@ -115,6 +118,9 @@ msgstr "開始所有"
 msgid "Stop all"
 msgstr "停止所有"
 
+msgid "Update all"
+msgstr "全部更新"
+
 msgid "View"
 msgstr "查看"
 
@@ -124,6 +130,12 @@ msgstr "新增策略"
 msgid "Remove selected"
 msgstr "刪除選定的"
 
+msgid "Run selected"
+msgstr "運行選定項"
+
+msgid "Stop selected"
+msgstr "停止所選"
+
 msgid "Strategy settings"
 msgstr "策略設置"
 
@@ -132,6 +144,9 @@ msgstr "運行所有"
 
 msgid "Stop All"
 msgstr "停止所有"
+
+msgid "Update All"
+msgstr "全部更新"
 
 msgid "Backtest strategy"
 msgstr "回溯測試策略"
@@ -160,6 +175,10 @@ msgstr "顯示指標"
 msgid "Show logs"
 msgstr "顯示紀錄"
 
+#, csharp-format
+msgid "Are you sure you want to delete '{0}' script?"
+msgstr "您是否確定要刪除「{0}」腳本？"
+
 msgid "Save strategy template"
 msgstr "保存策略範本"
 
@@ -180,7 +199,3 @@ msgstr "日誌表設置"
 
 msgid "settings"
 msgstr "設置"
-
-#, csharp-format
-msgid "Are you sure you want to delete '{0}' script?"
-msgstr "您是否確定要刪除「{0}」腳本？"

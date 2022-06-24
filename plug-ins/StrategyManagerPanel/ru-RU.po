@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-02 11:28+0200\n"
+"POT-Creation-Date: 2022-06-24 18:02+0300\n"
 "PO-Revision-Date: 2021-07-28 16:18+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -97,6 +97,9 @@ msgstr "Восстанавливать состояние стратегий п�
 msgid "General"
 msgstr "Основное"
 
+msgid "Are you sure you want to delete all selected strategies?"
+msgstr "Вы уверены, что хотите удалить все выбранные стратегии?"
+
 msgid "No running strategies yet"
 msgstr "Пока нет запущенных стратегий"
 
@@ -115,6 +118,9 @@ msgstr "Начать все"
 msgid "Stop all"
 msgstr "Остановить все"
 
+msgid "Update all"
+msgstr "Обновить все"
+
 msgid "View"
 msgstr "Вид"
 
@@ -124,6 +130,12 @@ msgstr "Добавить стратегию"
 msgid "Remove selected"
 msgstr "Удалить выбранные"
 
+msgid "Run selected"
+msgstr "Запуск выбранного"
+
+msgid "Stop selected"
+msgstr "Остановить выбр. стратегию"
+
 msgid "Strategy settings"
 msgstr "Настройки стратегии"
 
@@ -132,6 +144,9 @@ msgstr "Запустить все"
 
 msgid "Stop All"
 msgstr "Остановить все"
+
+msgid "Update All"
+msgstr "Обновить все"
 
 msgid "Backtest strategy"
 msgstr "Бэктест стратегии"
@@ -160,6 +175,10 @@ msgstr "Показать показатели"
 msgid "Show logs"
 msgstr "Показать журнал"
 
+#, csharp-format
+msgid "Are you sure you want to delete '{0}' script?"
+msgstr "Вы уверены, что хотите удалить скрипт '{0}'?"
+
 msgid "Save strategy template"
 msgstr "Сохранение шаблона стратегии"
 
@@ -180,7 +199,3 @@ msgstr "Параметры таблицы журнала"
 
 msgid "settings"
 msgstr "Параметры"
-
-#, csharp-format
-msgid "Are you sure you want to delete '{0}' script?"
-msgstr "Вы уверены, что хотите удалить скрипт '{0}'?"

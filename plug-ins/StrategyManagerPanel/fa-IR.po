@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-02 11:28+0200\n"
+"POT-Creation-Date: 2022-06-24 18:02+0300\n"
 "PO-Revision-Date: 2021-07-28 16:23+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -97,6 +97,9 @@ msgstr "بازگرداندن حالت استراتژی ها پس از خاموش
 msgid "General"
 msgstr "عمومی"
 
+msgid "Are you sure you want to delete all selected strategies?"
+msgstr "آیا مطمئن هستید که می خواهید همه استراتژی های انتخاب شده را حذف کنید؟"
+
 msgid "No running strategies yet"
 msgstr "هیچ استراتژی در حال اجرا هنوز"
 
@@ -115,6 +118,9 @@ msgstr "همه چیز را شروع کنید"
 msgid "Stop all"
 msgstr "همه را متوقف کنید"
 
+msgid "Update all"
+msgstr "به روز رسانی همه"
+
 msgid "View"
 msgstr "مشاهده"
 
@@ -124,6 +130,12 @@ msgstr "اضافه کردن استراتژی"
 msgid "Remove selected"
 msgstr "حذف انتخاب شده"
 
+msgid "Run selected"
+msgstr "اجرای انتخاب شده"
+
+msgid "Stop selected"
+msgstr "توقف انتخاب شده"
+
 msgid "Strategy settings"
 msgstr "تنظیمات استراتژی"
 
@@ -132,6 +144,9 @@ msgstr "اجرای همه"
 
 msgid "Stop All"
 msgstr "توقف همه"
+
+msgid "Update All"
+msgstr "به روز رسانی همه"
 
 msgid "Backtest strategy"
 msgstr "Backtest استراتژی"
@@ -160,6 +175,10 @@ msgstr "نمایش متریک ها"
 msgid "Show logs"
 msgstr "نمایش سیاهههای مربوط"
 
+#, csharp-format
+msgid "Are you sure you want to delete '{0}' script?"
+msgstr "آیا مطمئن هستید که می خواهید اسکریپت '{0}' را حذف کنید؟"
+
 msgid "Save strategy template"
 msgstr "ذخیره قالب استراتژی"
 
@@ -180,7 +199,3 @@ msgstr "تنظیمات جدول سیاهههای مربوط"
 
 msgid "settings"
 msgstr "تنظیمات"
-
-#, csharp-format
-msgid "Are you sure you want to delete '{0}' script?"
-msgstr "آیا مطمئن هستید که می خواهید اسکریپت '{0}' را حذف کنید؟"

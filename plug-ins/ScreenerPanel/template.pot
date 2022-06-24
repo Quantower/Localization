@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-02 11:27+0200\n"
+"POT-Creation-Date: 2022-06-24 17:59+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid ""
-"Loading symbol {i + 1}/{Math.Min(filtrationMessage.MaxSymbolsLimit, "
-"filtrationMessage.SymbolIDs.Length)}..."
-msgstr ""
-
-#, csharp-format
-msgid "Too much symbols in result ({0}). First {1} symbols will be displayed."
+msgid "Loading symbol {i + 1}/{filtrationMessage.SymbolIDs.Length}..."
 msgstr ""
 
 msgid "In Symbols list"

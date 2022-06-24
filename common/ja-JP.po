@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-10 14:02+0200\n"
+"POT-Creation-Date: 2022-06-24 14:15+0300\n"
 "PO-Revision-Date: 2018-12-04 16:00+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -15,6 +15,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Main"
+msgstr "メイン"
+
+msgid "Pre-market"
+msgstr "プレマーケット"
+
+msgid "Post-market"
+msgstr "アフターマーケット"
 
 msgid "Active"
 msgstr "アクティブ"
@@ -205,6 +214,9 @@ msgstr "資産の読み込み."
 msgid "Loading accounts..."
 msgstr "アカウントを読み込んでいます..."
 
+msgid "Loading option series..."
+msgstr "オプション シリーズを読み込んでいます..."
+
 msgid "Loading symbols..."
 msgstr "シンボルを読み込んでいます..."
 
@@ -358,8 +370,8 @@ msgstr "入札"
 msgid "Ask"
 msgstr "尋ねる"
 
-msgid "Bid/Ask average"
-msgstr "BID/ASK平均"
+msgid "Midpoint"
+msgstr "中点"
 
 msgid "Last"
 msgstr "最後"
@@ -565,11 +577,11 @@ msgstr "利益を確定する"
 msgid "Is trailing"
 msgstr "トレーリング中"
 
-msgid "Simple"
-msgstr "シンプル"
+msgid "Simple SL/TP"
+msgstr "シンプルなSL/TP"
 
-msgid "Advanced"
-msgstr "アドバンスド"
+msgid "Multiple brackets"
+msgstr "複数の括弧"
 
 msgid "Offset"
 msgstr "オフセット"
@@ -580,14 +592,14 @@ msgstr "パーセンテージ"
 msgid "Absolute"
 msgstr "価格"
 
-msgid "Measurement"
-msgstr "測定"
+msgid "Order price specification"
+msgstr "注文価格指定"
 
-msgid "Mode"
-msgstr "モード"
+msgid "Type of closing orders"
+msgstr "決済注文の種類"
 
-msgid "Used order type"
-msgstr "使用済み注文タイプ"
+msgid "Orders placement mode"
+msgstr "発注モード"
 
 msgid "Initial"
 msgstr "初期"
@@ -595,11 +607,14 @@ msgstr "初期"
 msgid "Whole position"
 msgstr "全体の位置"
 
-msgid "Close quantity"
-msgstr "数量の決算"
+msgid "Closing quantity"
+msgstr "決算数量"
 
 msgid "Release time"
 msgstr "リリース時間"
+
+msgid "Time:"
+msgstr "時間："
 
 msgid "MIS"
 msgstr "Mis"
@@ -640,11 +655,38 @@ msgstr "取引のためのマージン"
 msgid "Lot"
 msgstr "ロット"
 
-msgid "Total long positions: "
-msgstr "総ロングポジション:"
+msgid "Place order"
+msgstr "注文を行う"
 
-msgid "Total short positions: "
-msgstr "ショートポジション合計:"
+msgid "Close all positions"
+msgstr "すべてのポジションをクローズする"
+
+msgid "Run order placement strategy"
+msgstr "注文発注戦略の実行"
+
+msgid "Run strategy"
+msgstr "ストラテジーを実行する"
+
+msgid "Change symbol"
+msgstr "シンボルを変える"
+
+msgid "Open template"
+msgstr "テンプレートを開く"
+
+msgid "Add indicator"
+msgstr "インジケーターを追加する"
+
+msgid "Apply symbol list"
+msgstr "シンボルリストの適用"
+
+msgid "Open plugin"
+msgstr "プラグインを開く"
+
+msgid "Apply aggregation"
+msgstr "集計の適用"
+
+msgid "Add drawing"
+msgstr "図面の追加"
 
 msgid "Name"
 msgstr "名前"
@@ -694,24 +736,6 @@ msgstr "{0}はイベント{1}をサポートしていません"
 
 msgid "Link"
 msgstr "リンク"
-
-msgid "Red"
-msgstr "赤色リンク"
-
-msgid "Yellow"
-msgstr "黄色リンク"
-
-msgid "Green"
-msgstr "緑色リンク"
-
-msgid "Blue"
-msgstr "青色リンク"
-
-msgid "Purple"
-msgstr "紫"
-
-msgid "Unlink"
-msgstr "リンク解除"
 
 msgid "Create bind"
 msgstr "バインドを作成する"
@@ -896,6 +920,18 @@ msgstr "タイムゾーン"
 msgid "Show out of session history"
 msgstr "セッション履歴を表示"
 
+msgid "Sessions template"
+msgstr "セッションテンプレート"
+
+msgid "Drawing template"
+msgstr "図面テンプレート"
+
+msgid "Indicator template"
+msgstr "指標テンプレート"
+
+msgid "Create template"
+msgstr "テンプレートの作成"
+
 msgid "Symbol"
 msgstr "シンボル"
 
@@ -984,6 +1020,12 @@ msgstr "未決済取引残高"
 msgid "Oi"
 msgstr "大井"
 
+msgid "Fr"
+msgstr "金曜日"
+
+msgid "Funding rates"
+msgstr "資金調達率"
+
 msgid "Hide"
 msgstr "隠す"
 
@@ -1013,6 +1055,15 @@ msgstr "削除"
 
 msgid "Edit"
 msgstr "編集"
+
+msgid "Source code"
+msgstr "ソースコード"
+
+msgid "Apply"
+msgstr "適用"
+
+msgid "Rename"
+msgstr "名前の変更"
 
 msgid "Set active"
 msgstr "アクティブな設定"
@@ -1442,6 +1493,12 @@ msgstr "時間ヒストグラム"
 msgid "VWAP"
 msgstr "VWAP"
 
+msgid "Single"
+msgstr "単一注文"
+
+msgid "Multiple"
+msgstr "倍数"
+
 msgid "Tick"
 msgstr "ティック"
 
@@ -1480,6 +1537,12 @@ msgstr "スタンダート偏差"
 
 msgid "Enable standard deviations"
 msgstr "標準偏差を有効にする"
+
+msgid "Calculation type"
+msgstr "計算のタイプ"
+
+msgid "Multiplier"
+msgstr "乗数"
 
 msgid "Deviations value"
 msgstr "偏差値"
@@ -1548,9 +1611,6 @@ msgstr "トレードで着色"
 msgid "Histogram"
 msgstr "ヒストグラム"
 
-msgid "Single"
-msgstr "単一注文"
-
 msgid "Double"
 msgstr "ダブル"
 
@@ -1579,6 +1639,9 @@ msgstr "POC を表示する"
 msgid "POC type"
 msgstr "POC タイプ"
 
+msgid "Draw grid"
+msgstr "グリッドの描画"
+
 msgid "Minute"
 msgstr "分"
 
@@ -1588,14 +1651,23 @@ msgstr "時間"
 msgid "Enabled"
 msgstr "有効"
 
-msgid "Default text color"
-msgstr "既定のテキストの色"
+msgid "Gradient"
+msgstr "勾配"
 
-msgid "Default Back color"
-msgstr "既定の背景色"
+msgid "Fixed"
+msgstr "固定"
+
+msgid "Coloring mode"
+msgstr "着色モード"
+
+msgid "Default colors"
+msgstr "既定の色"
 
 msgid "Coloring for various levels"
 msgstr "様々なレベルの着色"
+
+msgid "Default text color"
+msgstr "既定のテキストの色"
 
 msgid "Pos"
 msgstr "Pos"
@@ -1618,8 +1690,26 @@ msgstr "ヒストグラムラベルの位置"
 msgid "Trade color"
 msgstr "貿易色"
 
+msgid "Show profile"
+msgstr "プロフィールを表示"
+
+msgid "Extend POC until intersection"
+msgstr "交差点まで POC を延長する"
+
 msgid "Show POC ray"
 msgstr "POC レイを表示"
+
+msgid "Show secondary POC"
+msgstr "セカンダリ POC の表示"
+
+msgid "Secondary POC colors"
+msgstr "二次 POC カラー"
+
+msgid "Max allowed deviation from POC (%)"
+msgstr "POC からの最大許容偏差 (%)"
+
+msgid "Minimum deviation from POC (ticks)"
+msgstr "POC からの最小偏差 (ティック)"
 
 msgid "Show Value area"
 msgstr "値エリアの表示"
@@ -1762,9 +1852,6 @@ msgstr "バーごと"
 msgid "By Difference"
 msgstr "差分ごと"
 
-msgid "Fixed"
-msgstr "固定"
-
 msgid "Above/below the moving average"
 msgstr "移動平均を上回る/下回る"
 
@@ -1804,6 +1891,9 @@ msgstr "電力取引"
 msgid "Label colors"
 msgstr "ラベル色"
 
+msgid "Label position side"
+msgstr "ラベル位置側"
+
 msgid "Cross type"
 msgstr "クロスの種類"
 
@@ -1836,6 +1926,15 @@ msgstr "プロファイルコントローラのスタイル"
 
 msgid "Selection area"
 msgstr "選択領域"
+
+msgid "Mode"
+msgstr "モード"
+
+msgid "Left range"
+msgstr "左の範囲"
+
+msgid "Right range"
+msgstr "右範囲"
 
 msgid "Billet format type"
 msgstr "ビレット形式タイプ"
@@ -1897,6 +1996,39 @@ msgstr "ミラーリングされた"
 msgid "Custom text"
 msgstr "カスタムテキスト"
 
+msgid "Secondary POC line"
+msgstr "セカンダリ POC 回線"
+
+msgid "15 minutes"
+msgstr "15分"
+
+msgid "30 minutes"
+msgstr "30分"
+
+msgid "Today"
+msgstr "今日"
+
+msgid "Yesterday"
+msgstr "昨日"
+
+msgid "Current week"
+msgstr "今週"
+
+msgid "Previous week"
+msgstr "前の週"
+
+msgid "Week before previous"
+msgstr "前の週"
+
+msgid "Last week"
+msgstr "先週"
+
+msgid "Current month"
+msgstr "今月"
+
+msgid "Last month"
+msgstr "先月"
+
 msgid "Middle line style"
 msgstr "中間線のスタイル"
 
@@ -1929,6 +2061,9 @@ msgstr "ラベル位置"
 
 msgid "Center"
 msgstr "中央"
+
+msgid "Show price labels"
+msgstr "価格ラベルの表示"
 
 msgid "Regression Line"
 msgstr "回帰直線"
@@ -1987,6 +2122,48 @@ msgstr "ページのトップへ"
 msgid "Control buttons position"
 msgstr "コントロール ボタンの位置"
 
+msgid "Current Monday"
+msgstr "現在の月曜日"
+
+msgid "Current Tuesday"
+msgstr "現在の火曜日"
+
+msgid "Current Wednesday"
+msgstr "現在の水曜日"
+
+msgid "Current Thursday"
+msgstr "現在の木曜日"
+
+msgid "Current Friday"
+msgstr "現在の金曜日"
+
+msgid "Current Saturday"
+msgstr "現在の土曜日"
+
+msgid "Current Sunday"
+msgstr "現在の日曜日"
+
+msgid "Previous Monday"
+msgstr "前の月曜日"
+
+msgid "Previous Tuesday"
+msgstr "前の火曜日"
+
+msgid "Previous Wednesday"
+msgstr "前の水曜日"
+
+msgid "Previous Thursday"
+msgstr "前の木曜日"
+
+msgid "Previous Friday"
+msgstr "前の金曜日"
+
+msgid "Previous Saturday"
+msgstr "前の土曜日"
+
+msgid "Previous Sunday"
+msgstr "前の日曜日"
+
 msgid "Invalid price"
 msgstr "無効な価格"
 
@@ -2028,6 +2205,9 @@ msgstr "{0} ティック"
 
 msgid "Empty symbol"
 msgstr "空の記号"
+
+msgid "Futures"
+msgstr "先物"
 
 msgid "Full"
 msgstr "完全なフォーム"
@@ -2198,6 +2378,21 @@ msgstr "フィボナッチ時間拡大"
 msgid "Fibonacci price extension"
 msgstr "フィボナッチ価格延長"
 
+msgid "Minotauro Fibonacci price extension"
+msgstr "ミノタウロフィボナッチ価格延長"
+
+msgid "Minotauro Move Up"
+msgstr "ミノタウロ 上へ"
+
+msgid "Minotauro Move Down"
+msgstr "ミノタウロ 下へ移動"
+
+msgid "POC line"
+msgstr "ポックライン"
+
+msgid "Week POC line"
+msgstr "週の POC 行"
+
 msgid "Candle"
 msgstr "ローソク足"
 
@@ -2279,6 +2474,12 @@ msgstr "下部の背景色"
 
 msgid "Mouse wheel action"
 msgstr "マウスホイールアクション"
+
+msgid "Mouse wheel+CTRL action"
+msgstr "マウスホイール+CTRLアクション"
+
+msgid "Mouse wheel+SHIFT action"
+msgstr "マウスホイール+シフトアクション"
 
 msgid "Drawings default availablity"
 msgstr "図面のデフォルトの利用可能性"
@@ -2462,6 +2663,9 @@ msgstr "{0}の設定"
 msgid "Default by symbol ({0})"
 msgstr "デフォルトの記号（{0}）"
 
+msgid "Bid/Ask average"
+msgstr "BID/ASK平均"
+
 msgid "Time value: "
 msgstr "時間の値:"
 
@@ -2543,6 +2747,9 @@ msgstr "取引"
 msgid "Show DOM levels"
 msgstr "DOM レベルを表示する"
 
+msgid "Extend DOM levels"
+msgstr "DOM レベルを拡張する"
+
 msgid "Show Bid/Ask line"
 msgstr "入札/質問行を表示"
 
@@ -2551,9 +2758,6 @@ msgstr "入札ラインの色"
 
 msgid "Ask line color"
 msgstr "線の色を確認する"
-
-msgid "Extend DOM levels"
-msgstr "DOM レベルを拡張する"
 
 msgid "DOM levels count"
 msgstr "DOM レベルカウント"
@@ -2591,6 +2795,12 @@ msgstr "カラー5"
 msgid "Limit of points"
 msgstr "ポイントの制限"
 
+msgid "Show last line"
+msgstr "最後の行を表示"
+
+msgid "Last line color"
+msgstr "最後の線の色"
+
 msgid "Marker size type"
 msgstr "マーカーサイズタイプ"
 
@@ -2606,12 +2816,6 @@ msgstr "最大取引サイズ"
 msgid "Custom trade size"
 msgstr "カスタムトレードサイズ"
 
-msgid "Show last line"
-msgstr "最後の行を表示"
-
-msgid "Last line color"
-msgstr "最後の線の色"
-
 msgid "Markers opacity"
 msgstr "マーカーの不透明度"
 
@@ -2626,6 +2830,9 @@ msgstr "最小ボリューム幅、px(集計モード)"
 
 msgid "Scroll"
 msgstr "スクロール"
+
+msgid "Price Zoom"
+msgstr "価格ズーム"
 
 msgid "TPO: "
 msgstr "Tpo："
@@ -2680,9 +2887,6 @@ msgstr "表示スタイル"
 
 msgid "Show marker on each bar"
 msgstr "各バーにマーカーを表示する"
-
-msgid "Coloring mode"
-msgstr "着色モード"
 
 msgid "Delta none color"
 msgstr "デルタなしの色"
@@ -2759,9 +2963,6 @@ msgstr "ヴァル"
 msgid "POC"
 msgstr "Poc"
 
-msgid "Midpoint"
-msgstr "中点"
-
 msgid "RF"
 msgstr "Rf"
 
@@ -2813,8 +3014,11 @@ msgstr "量："
 msgid "Split size columns"
 msgstr "分割サイズ列"
 
-msgid "Type of last trade"
-msgstr "最終取引のタイプ"
+msgid "Split Buy/Sell column"
+msgstr "買い/売り列の分割"
+
+msgid "AutoSize of columns"
+msgstr "列の自動サイズ"
 
 msgid "No data to display"
 msgstr "表示するデータがありません"
@@ -3038,6 +3242,30 @@ msgstr "入札/確認リセット"
 msgid "Last trade size"
 msgstr "最終取引サイズ"
 
+msgid "Type of last trade"
+msgstr "最終取引のタイプ"
+
+msgid "Buy/Sell"
+msgstr "買い／売り"
+
+msgid "Buy order color"
+msgstr "買い注文の色"
+
+msgid "Buy SL/TP color"
+msgstr "SL / TPカラーを購入する"
+
+msgid "Sell order color"
+msgstr "売り注文の色"
+
+msgid "Sell SL/TP color"
+msgstr "SL / TPカラーを販売"
+
+msgid "Mixed (Buy/Sell) group color"
+msgstr "混合(買い/売り)グループカラー"
+
+msgid "Mixed (Buy/Sell) group SL/TP color"
+msgstr "混合(買い/売り)グループSL / TPカラー"
+
 msgid "Order color"
 msgstr "注文色"
 
@@ -3173,8 +3401,11 @@ msgstr "職位を表示"
 msgid "Position width"
 msgstr "位置幅"
 
-msgid "Position color"
-msgstr "位置の色"
+msgid "Long position color"
+msgstr "ロングポジションカラー"
+
+msgid "Short position color"
+msgstr "ショートポジションカラー"
 
 msgid "Show day high/low"
 msgstr "表示日高/低"
@@ -3184,6 +3415,12 @@ msgstr "一日の最高"
 
 msgid "Day low"
 msgstr "一日安い"
+
+msgid "Highlight daily high/low range"
+msgstr "毎日の高値/低域を強調表示する"
+
+msgid "High/Low range colors"
+msgstr "高/低範囲の色"
 
 msgid "Clear marked prices"
 msgstr "マークされた価格をクリア"
@@ -3224,14 +3461,8 @@ msgstr "Bidの色"
 msgid "Ask color"
 msgstr "Askの色"
 
-msgid "Gradient"
-msgstr "勾配"
-
-msgid "Gradient/Histogram"
-msgstr "グラデーション/ヒストグラム"
-
-msgid "Size coloring scheme"
-msgstr "サイズの色付け方法"
+msgid "Size bar type"
+msgstr "サイズバーの種類"
 
 msgid "Left"
 msgstr "左"
@@ -3241,6 +3472,24 @@ msgstr "右"
 
 msgid "Histogram Alignment"
 msgstr "ヒストグラムの配置"
+
+msgid "MBO"
+msgstr "ティッカー"
+
+msgid "Size coloring scheme"
+msgstr "サイズの色付け方法"
+
+msgid "Filter orders more than (MBO)"
+msgstr "次の値を超える注文をフィルター処理する (MBO)"
+
+msgid "Draw borders (MBO)"
+msgstr "罫線を描画する (MBO)"
+
+msgid "Custom Bids Back Color"
+msgstr "カスタムビッドバックカラー"
+
+msgid "Custom Asks Back Color"
+msgstr "カスタムはバックカラーを尋ねる"
 
 msgid "Set price marker"
 msgstr "価格マーカーの設定"
@@ -3272,32 +3521,11 @@ msgstr "デルタポジティブ"
 msgid "Delta Negative"
 msgstr "デルタネガティブ"
 
+msgid "Show Last Trade Size"
+msgstr "最後の取引サイズを表示"
+
 msgid "Reload data (server)"
 msgstr "データの再読み込み (サーバー)"
-
-msgid "15 minutes"
-msgstr "15分"
-
-msgid "30 minutes"
-msgstr "30分"
-
-msgid "Today"
-msgstr "今日"
-
-msgid "Yesterday"
-msgstr "昨日"
-
-msgid "Current week"
-msgstr "今週"
-
-msgid "Last week"
-msgstr "先週"
-
-msgid "Current month"
-msgstr "今月"
-
-msgid "Last month"
-msgstr "先月"
 
 msgid "LIFO"
 msgstr "後入先出法"
@@ -3332,9 +3560,6 @@ msgstr "隠蔽"
 msgid "Conditional Order"
 msgstr "条件付き順序"
 
-msgid "Place order"
-msgstr "注文を行う"
-
 msgid "Cancel order"
 msgstr "注文をキャンセルする"
 
@@ -3361,9 +3586,6 @@ msgstr "制限を取り消す"
 
 msgid "Cancel stops"
 msgstr "停止をキャンセル"
-
-msgid "Close all positions"
-msgstr "すべてのポジションをクローズする"
 
 msgid "Flatten"
 msgstr "平ら"
@@ -3452,9 +3674,6 @@ msgstr "ウォッチリストに追加"
 msgid "Replace watchlist"
 msgstr "ウォッチリストの置き換え"
 
-msgid "Rename"
-msgstr "名前の変更"
-
 msgid "Delete"
 msgstr "削除"
 
@@ -3484,6 +3703,12 @@ msgstr "ツールバーからのピン留め解除"
 
 msgid "Pin on toolbar"
 msgstr "ツールバーのピン"
+
+msgid "Panel-specific custom hotkeys"
+msgstr "パネル固有のカスタムホットキー"
+
+msgid "No custom hotkeys were set up"
+msgstr "カスタムホットキーが設定されていません"
 
 #, csharp-format
 msgid "{0}None{1}"
@@ -3542,15 +3767,6 @@ msgstr "ポイント座標"
 
 msgid "Point"
 msgstr "点"
-
-msgid "Custom sessions"
-msgstr "カスタム セッション"
-
-msgid "No custom sessions were set up."
-msgstr "カスタム セッションが設定されませんでした。"
-
-msgid "Incorrect sessions."
-msgstr "セッションが正しくありません。"
 
 msgid "Enable sounds"
 msgstr "使用可能音声"
@@ -3704,6 +3920,42 @@ msgstr "ワークスペース名: {0} が含まれています"
 msgid "Same workspace name already exist"
 msgstr "同じワークスペース名が既に存在します"
 
+msgid "Open OE Buy"
+msgstr "オープンOE購入"
+
+msgid "Open OE Sell"
+msgstr "オープンOE販売"
+
+msgid "Open Chart"
+msgstr "チャートを開く"
+
+msgid "Open DOM Trader"
+msgstr "オープンDOMトレーダー"
+
+msgid "Open Market Depth"
+msgstr "公開市場深度"
+
+msgid "Open Time Sales"
+msgstr "オープンタイム販売"
+
+msgid "Open DOM Surface"
+msgstr "DOM サーフェスを開く"
+
+msgid "Open TPO Chart"
+msgstr "TPOチャートを開く"
+
+msgid "Open Positions"
+msgstr "オープンポジション"
+
+msgid "Open Working Orders"
+msgstr "作業指示書を開く"
+
+msgid "Open Trades"
+msgstr "オープントレード"
+
+msgid "Open Symbol Info"
+msgstr "シンボル情報を開く"
+
 #, csharp-format
 msgid "Are you sure you want to delete {0}?"
 msgstr "{0} を削除してもよろしいですか?"
@@ -3828,6 +4080,9 @@ msgstr "取引チケットを表示する"
 msgid "Confirm hotbutton action"
 msgstr "hotbutton アクションの確認"
 
+msgid "Confirm multiple place order strategies"
+msgstr "複数の注文戦略を確認する"
+
 msgid "Enable Microsoft Excel RTD"
 msgstr "RTD を有効にする"
 
@@ -3836,6 +4091,12 @@ msgstr "カスタム RTD 数式名"
 
 msgid "Custom argument separator"
 msgstr "カスタム引数区切り記号"
+
+msgid "Socket port"
+msgstr "ソケットポート"
+
+msgid "Allow connection from Visual Studio (for scripts debugging)"
+msgstr "Visual Studio からの接続を許可する (スクリプトのデバッグ用)"
 
 msgid "Telegram"
 msgstr "電報"
@@ -3848,6 +4109,9 @@ msgstr "テレグラムへの重複取引通知"
 
 msgid "Excel RTD"
 msgstr "エクセル RTD"
+
+msgid "Algo"
+msgstr "アルゴ"
 
 msgid "Messengers"
 msgstr "メッセンジャー"
@@ -3972,53 +4236,23 @@ msgstr "パスワードが空です"
 msgid "Incorrect Login or Password"
 msgstr "不正なログインまたはパスワード"
 
-msgid "Mark Price"
-msgstr "マーク価格"
+msgid "Contract size"
+msgstr "取引サイズ"
 
-msgid "Last Price"
-msgstr "最終価格"
+msgid "Max price"
+msgstr "最大価格"
 
-msgid "CROSSED"
-msgstr "交差"
+msgid "Min notional"
+msgstr "最小概念的な"
 
-msgid "ISOLATED"
-msgstr "分離"
+msgid "Iceberg allowed"
+msgstr "氷山が許される"
 
-msgid "Transfer"
-msgstr "転送"
+msgid "Orders"
+msgstr "注文"
 
-msgid "Welcome bonus"
-msgstr "ウェルカムボーナス"
-
-msgid "Realized PnL"
-msgstr "実現されたPnL"
-
-msgid "Funding fee"
-msgstr "資金調達手数料"
-
-msgid "Commission"
-msgstr "委託手数料"
-
-msgid "Insurance clear"
-msgstr "保険クリア"
-
-msgid "Coin swap deposit"
-msgstr "コインスワップデポジット"
-
-msgid "Coin swap withdraw"
-msgstr "コインスワップの引き出し"
-
-msgid "Borrow"
-msgstr "借りる"
-
-msgid "Repay"
-msgstr "返済"
-
-msgid "IN"
-msgstr "インチ"
-
-msgid "OUT"
-msgstr "乙"
+msgid "Full license"
+msgstr "フルライセンス"
 
 msgid "Total Balance"
 msgstr "合計残高"
@@ -4031,6 +4265,93 @@ msgstr "自己資本"
 
 msgid "Margin level"
 msgstr "マージンレベル"
+
+msgid "Maintenance margin"
+msgstr "メンテナンス・マージン"
+
+msgid "Required margin"
+msgstr "必要なマージン"
+
+msgid "Leverage"
+msgstr "レバレッジ"
+
+msgid "Margin type"
+msgstr "マージンの種類"
+
+msgid "Positions"
+msgstr "決済注文/ポジション一覧"
+
+msgid "Hedge mode"
+msgstr "ヘッジモード"
+
+msgid "Wallet balance"
+msgstr "ウォレット残高"
+
+msgid "Available balance"
+msgstr "利用可能な残高"
+
+msgid "Initial margin"
+msgstr "イニシャル・マージン"
+
+msgid "Margin balance"
+msgstr "マージン残高"
+
+msgid "Crossed wallet balance"
+msgstr "クロスウォレット残高"
+
+msgid "Max withdraw amount"
+msgstr "最大引出金額"
+
+msgid "Open order initial margin"
+msgstr "オープン注文の初期マージン"
+
+msgid "Position initial margin"
+msgstr "位置の初期マージン"
+
+msgid "Unrealized PNL"
+msgstr "未実現 PNL"
+
+msgid "Crossed position Unrealized PNL"
+msgstr "交差位置 未実現 PNL"
+
+msgid "Margin available"
+msgstr "利用可能な証拠金"
+
+msgid "Available for Order"
+msgstr "注文に使用できる"
+
+msgid "Margin Ratio"
+msgstr "マージン比率"
+
+msgid "Callback Rate"
+msgstr "コールバック率"
+
+msgid "Trigger"
+msgstr "トリガー"
+
+msgid "Iceberg quantity"
+msgstr "氷山の量"
+
+msgid "Post-Only"
+msgstr "ポストオンリー"
+
+msgid "Behavior"
+msgstr "振舞い"
+
+msgid "Last Price"
+msgstr "最終価格"
+
+msgid "Mark Price"
+msgstr "マーク価格"
+
+msgid "Borrow"
+msgstr "借りる"
+
+msgid "Repay"
+msgstr "返済"
+
+msgid "Activation price"
+msgstr "アクティベーション価格"
 
 msgid "Open position"
 msgstr "オープンポジション"
@@ -4047,59 +4368,8 @@ msgstr "価格は正のゼロ以外の値でなければなりません"
 msgid "Stop price should be positive non-zero value"
 msgstr "ストップ価格は正のゼロ以外の値でなければなりません"
 
-msgid "Maintenance margin"
-msgstr "メンテナンス・マージン"
-
-msgid "Required margin"
-msgstr "必要なマージン"
-
-msgid "Contract size"
-msgstr "取引サイズ"
-
-msgid "Leverage"
-msgstr "レバレッジ"
-
-msgid "Margin type"
-msgstr "マージンの種類"
-
-msgid "Hedge mode"
-msgstr "ヘッジモード"
-
-msgid "Full license"
-msgstr "フルライセンス"
-
-msgid "Initial margin"
-msgstr "イニシャル・マージン"
-
-msgid "Margin balance"
-msgstr "マージン残高"
-
-msgid "Open order initial margin"
-msgstr "オープン注文の初期マージン"
-
-msgid "Position initial margin"
-msgstr "位置の初期マージン"
-
-msgid "Unrealized PNL"
-msgstr "未実現 PNL"
-
-msgid "Available for Order"
-msgstr "注文に使用できる"
-
-msgid "Margin Ratio"
-msgstr "マージン比率"
-
-msgid "Orders"
-msgstr "注文"
-
-msgid "Positions"
-msgstr "決済注文/ポジション一覧"
-
-msgid "Max withdraw amount"
-msgstr "最大引出金額"
-
-msgid "Wallet balance"
-msgstr "ウォレット残高"
+msgid "Margin call"
+msgstr "マージンコール"
 
 msgid "Adjust Leverage"
 msgstr "レバレッジの調整"
@@ -4107,32 +4377,14 @@ msgstr "レバレッジの調整"
 msgid "Adjust Margin Mode"
 msgstr "余白モードの調整"
 
-msgid "Allowed order types"
-msgstr "許容されるオーダータイプ"
-
-msgid "Max price"
-msgstr "最大価格"
-
-msgid "Min notional"
-msgstr "最小概念的な"
-
-msgid "Iceberg allowed"
-msgstr "氷山が許される"
-
 msgid "Volume analysis step (ticks)"
 msgstr "ボリューム分析ステップ(ティック)"
 
-msgid "Margin"
-msgstr "マージン"
+msgid "Account custom name"
+msgstr "アカウントのカスタム名"
 
-msgid "Account activity"
-msgstr "アカウントのアクティビティ"
-
-msgid "Info"
-msgstr "情報"
-
-msgid "Trading info"
-msgstr "取引情報"
+msgid "Check orders interval, sec"
+msgstr "注文間隔 (秒) の確認"
 
 msgid "Real-time"
 msgstr "リアルタイム"
@@ -4167,26 +4419,35 @@ msgstr "マーク価格"
 msgid "Last price"
 msgstr "終値"
 
-msgid "Periodically"
-msgstr "定期的"
-
 msgid "Binance server"
 msgstr "ビナンスサーバー"
 
 msgid "External server"
 msgstr "外部サーバー"
 
+msgid "By timer"
+msgstr "タイマー別"
+
+msgid "Periodically"
+msgstr "定期的"
+
 msgid "Connection"
 msgstr "接続"
+
+msgid "Allow load user trades history"
+msgstr "ユーザーの取引履歴の読み込みを許可する"
+
+msgid "Allow load user orders history"
+msgstr "ユーザー注文履歴の読み込みを許可する"
+
+msgid "Base endpoint"
+msgstr "基本エンドポイント"
 
 msgid "Bid/Ask update frequency"
 msgstr "入札/確認更新頻度"
 
-msgid "Allow change leverage"
-msgstr "変更レバレッジの許可"
-
-msgid "WebSocket endpoint"
-msgstr "ウェブソケットエンドポイント"
+msgid "Bid/Ask update timer interval, sec"
+msgstr "入札/質問更新タイマー間隔 (秒)"
 
 msgid "TP/SL trigger price"
 msgstr "TP/SLトリガ価格"
@@ -4200,20 +4461,14 @@ msgstr "オープン金利更新期間"
 msgid "Calculate PNL locally"
 msgstr "ローカルで PNL を計算する"
 
-msgid "PNL calculation basis"
-msgstr "PNL 計算基準"
+msgid "PnL calculation basis"
+msgstr "PnL 計算基準"
 
 msgid "Real-time trades source"
 msgstr "リアルタイム取引ソース"
 
-msgid "Account custom name"
-msgstr "アカウントのカスタム名"
-
-msgid "Load user trades history"
-msgstr "ユーザー取引履歴の読み込み"
-
-msgid "Rest api url not founded."
-msgstr "残りの API URL は設立されていません。"
+msgid "Load funding rates history"
+msgstr "資金調達率履歴の負荷"
 
 msgid "Reduce-only"
 msgstr "削減のみ"
@@ -4455,29 +4710,74 @@ msgstr "総ポジション値: {ラウンドトカレンシー精度(変換不�
 msgid "Display quantity"
 msgstr "数量の表示"
 
-msgid "Conditional limit"
-msgstr "条件付き制限"
+msgid "One way"
+msgstr "片道"
 
-msgid "Conditional market"
-msgstr "条件付き市場"
+msgid "Hedge"
+msgstr "垣根"
 
-msgid "Index price"
-msgstr "インデックス価格"
+msgid "Open orders"
+msgstr "未処理の注文"
 
-msgid "Trailing profit"
-msgstr "トレーリング利益"
-
-msgid "Min price"
-msgstr "最小価格"
+msgid "Open positions"
+msgstr "ポジションをオープンする"
 
 msgid "Taker fee"
 msgstr "受け手料金"
+
+msgid "Leverage type"
+msgstr "レバレッジの種類"
+
+msgid "Isolated"
+msgstr "分離"
+
+msgid "Position mode"
+msgstr "ポジションモード"
 
 msgid "Long leverage"
 msgstr "ロングレバレッジ"
 
 msgid "Short leverage"
 msgstr "ショートレバレッジ"
+
+msgid "Index price"
+msgstr "インデックス価格"
+
+msgid "Unique comment"
+msgstr "ユニークなコメント"
+
+msgid "Register account"
+msgstr "アカウントの登録"
+
+msgid "Spot exchange"
+msgstr "スポット交換"
+
+msgid "Inverse futures exchange"
+msgstr "逆先物交換"
+
+msgid "USDT perpetual exchange"
+msgstr "USDT永久交換"
+
+msgid "Load user trades history"
+msgstr "ユーザー取引履歴の読み込み"
+
+msgid "Can't find connection type parameters"
+msgstr "接続の種類のパラメーターが見つかりません"
+
+msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
+msgstr "接続する取引所が選択されていません。[接続設定] を開いて必要な交換を選択してください。"
+
+msgid "Conditional limit"
+msgstr "条件付き制限"
+
+msgid "Conditional market"
+msgstr "条件付き市場"
+
+msgid "Trailing profit"
+msgstr "トレーリング利益"
+
+msgid "Min price"
+msgstr "最小価格"
 
 msgid "Max leverage"
 msgstr "最大レバレッジ"
@@ -4499,9 +4799,6 @@ msgstr "条件付き注文"
 
 msgid "Equity"
 msgstr "エクイティ"
-
-msgid "Available balance"
-msgstr "利用可能な残高"
 
 msgid "Used margin"
 msgstr "使用されたマージン"
@@ -4539,17 +4836,11 @@ msgstr "蓄積された実現されたPnL"
 msgid "Accumulated realised profit and loss (all-time total)"
 msgstr "蓄積された実現損益(全時間合計)"
 
-msgid "Register account"
-msgstr "アカウントの登録"
-
 msgid "Client Id"
 msgstr "クライアント ID"
 
 msgid "Secret Id"
 msgstr "シークレット ID"
-
-msgid "Can't find connection type parameters"
-msgstr "接続の種類のパラメーターが見つかりません"
 
 msgid "Client id is empty"
 msgstr "クライアント ID が空です"
@@ -4734,6 +5025,9 @@ msgstr "未実現 PnL (OTE)"
 msgid "Open trade equity, or potential profit (or loss) from futures and future-style options positions based on opening price of the position and the current future trade/best bid/best ask (regarding to the risk account settings) or settlement price if trade is not available. Included if purchasing power depends on it."
 msgstr "ポジションの開始価格と現在の将来のトレード/ベストビッド/ベストアスク(リスク口座設定に関する)または取引が利用できない場合の決済価格に基づいて先物および将来スタイルのオプションポジションからの潜在的利益(または損失)を開きます。購買力が依存する場合に含まれます。"
 
+msgid "Realized PnL"
+msgstr "実現されたPnL"
+
 msgid "Total PnL"
 msgstr "合計 PnL"
 
@@ -4754,6 +5048,9 @@ msgstr "現在の職位のみに基づく証拠金の要件。"
 
 msgid "Spot"
 msgstr "スポット"
+
+msgid "Margin"
+msgstr "マージン"
 
 msgid "Trade mode"
 msgstr "トレードモード"
@@ -4779,17 +5076,11 @@ msgstr "交換に接続"
 msgid "Support margin trading"
 msgstr "サポート証拠金取引"
 
-msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
-msgstr "接続する取引所が選択されていません。[接続設定] を開いて必要な交換を選択してください。"
-
 msgid "Market range"
 msgstr "市場範囲"
 
-msgid "Open orders"
-msgstr "未処理の注文"
-
-msgid "Open positions"
-msgstr "ポジションをオープンする"
+msgid "Server region"
+msgstr "サーバー地域"
 
 msgid "Net P/L"
 msgstr "ネット損益"
@@ -5157,6 +5448,21 @@ msgstr "勘定スキーム"
 msgid "WARNING!!! This option can cause a significant delay during the trading"
 msgstr "警告！！！このオプションは、取引中に大幅な遅延を引き起こす可能性があります"
 
+msgid "History"
+msgstr "履歴"
+
+msgid "Funding rates mode"
+msgstr "資金調達レートモード"
+
+msgid "Account activity"
+msgstr "アカウントのアクティビティ"
+
+msgid "Info"
+msgstr "情報"
+
+msgid "Trading info"
+msgstr "取引情報"
+
 msgid "Token"
 msgstr "トークン"
 
@@ -5271,9 +5577,6 @@ msgstr "手数料通貨"
 msgid "Reduce only"
 msgstr "のみ減らす"
 
-msgid "Isolated"
-msgstr "分離"
-
 msgid "Margin mode"
 msgstr "マージン・モード"
 
@@ -5334,6 +5637,24 @@ msgstr "取引の中断"
 msgid "Otc"
 msgstr "店頭"
 
+msgid "Otc Options"
+msgstr "OTC オプション"
+
+msgid "Minepool"
+msgstr "マインプール"
+
+msgid "ETF"
+msgstr "ティッカー"
+
+msgid "Crypto Loans"
+msgstr "暗号ローン"
+
+msgid "Deposit Earning"
+msgstr "デポジット獲得"
+
+msgid "Grid Trading"
+msgstr "グリッド取引"
+
 msgid "Super margin"
 msgstr "スーパーマージン"
 
@@ -5360,9 +5681,6 @@ msgstr "分離されたレバレッジ"
 
 msgid "Cross leverage"
 msgstr "クロスレバレッジ"
-
-msgid "Spot exchange"
-msgstr "スポット交換"
 
 msgid "Coin-M Futures"
 msgstr "コイン・M先物"
@@ -5601,9 +5919,6 @@ msgstr "SEC によって発行された中央インデックス キー(すべて
 msgid "State"
 msgstr "県"
 
-msgid "Margin call"
-msgstr "マージンコール"
-
 msgid "Margin stop"
 msgstr "マージンストップ"
 
@@ -5616,14 +5931,101 @@ msgstr "レバレッジ購入"
 msgid "Leverage sell"
 msgstr "レバレッジ販売"
 
+msgid "Visible size"
+msgstr "可視サイズ"
+
+msgid "Iceberg qty"
+msgstr "アイスバーグ"
+
+msgid "Reverse contract"
+msgstr "逆契約"
+
+msgid "Enabled ADL"
+msgstr "有効な ADL"
+
+msgid "Type of the contract"
+msgstr "契約の種類"
+
+msgid "Maker fees, %"
+msgstr "メーカー手数料、%"
+
+msgid "Fixed maker fees"
+msgstr "固定メーカー料金"
+
+msgid "Maker fees"
+msgstr "メーカー手数料"
+
+msgid "Taker fees, %"
+msgstr "テイカー料金、%"
+
+msgid "Fixed taker fees"
+msgstr "固定テイカー料金"
+
+msgid "Derivative: Can't calculate spot-order direction."
+msgstr "派生: スポット オーダーの方向を計算できません。"
+
+msgid "Close order"
+msgstr "クローズ注文"
+
+msgid "Stop price type"
+msgstr "ストップ価格タイプ"
+
+msgid "Spot: Can't calculate spot-order direction."
+msgstr "スポット: スポット順の方向を計算できません。"
+
+msgid "Margin trade"
+msgstr "証拠金取引"
+
+msgid "API key (Spot)"
+msgstr "API キー (スポット)"
+
+msgid "Secret key (Spot)"
+msgstr "秘密鍵(スポット)"
+
+msgid "Password (Spot)"
+msgstr "パスワード (スポット)"
+
+msgid "API key (Derivative)"
+msgstr "API キー (派生)"
+
+msgid "Secret key (Derivative)"
+msgstr "秘密鍵 (派生)"
+
+msgid "Password (Derivative)"
+msgstr "パスワード (派生)"
+
+msgid "Connect to spot exchange"
+msgstr "スポット交換への接続"
+
+msgid "Connect to futures exchange"
+msgstr "先物取引所に接続する"
+
+msgid "Unified account"
+msgstr "統合アカウント"
+
+msgid "ApiKey is empty (Spot)"
+msgstr "ApiKey が空です (スポット)"
+
+msgid "Secret id is empty (Spot)"
+msgstr "シークレット ID が空です (スポット)"
+
+msgid "Password is empty (Spot)"
+msgstr "パスワードが空です (スポット)"
+
+msgid "ApiKey is empty (Derivative)"
+msgstr "ApiKey が空です (派生)"
+
+msgid "Secret id is empty (Derivative)"
+msgstr "シークレット ID が空です (派生)"
+
+msgid "Password is empty (Derivative)"
+msgstr "パスワードが空です (派生)"
+
 msgid "Margin requirements"
 msgstr "取引証拠金"
 
 msgid "Fees"
 msgstr "手数料"
-
-msgid "Session info"
-msgstr "セッション情報"
 
 msgid "Today results"
 msgstr "今日の結果"
@@ -5673,6 +6075,9 @@ msgstr "長いスワップポイント"
 msgid "Short swap points"
 msgstr "短いスワップポイント"
 
+msgid "Commission"
+msgstr "委託手数料"
+
 msgid "Crypto"
 msgstr "暗号"
 
@@ -5705,9 +6110,6 @@ msgstr "維持証拠金"
 
 msgid "Margin currently used for the Account"
 msgstr "アカウントで現在使用されているマージン"
-
-msgid "Margin available"
-msgstr "利用可能な証拠金"
 
 msgid "Margin available for the Account"
 msgstr "アカウントで使用可能なマージン"
@@ -5797,6 +6199,9 @@ msgstr "線形"
 msgid "Inverse"
 msgstr "あべこべ"
 
+msgid "Simple"
+msgstr "シンプル"
+
 msgid "Single currency margin"
 msgstr "単一通貨証拠金"
 
@@ -5856,9 +6261,6 @@ msgstr "引き出し履歴を取得する"
 
 msgid "Account level"
 msgstr "アカウント レベル"
-
-msgid "Position mode"
-msgstr "ポジションモード"
 
 msgid "Display type of Greeks"
 msgstr "ギリシャ語の表示タイプ"
@@ -6072,6 +6474,9 @@ msgstr "比較演算子"
 
 msgid "Compare price type"
 msgstr "価格タイプの比較"
+
+msgid "Enable 'Market by Order' (MBO) mode"
+msgstr "「注文による成行」(MBO)モードを有効にする"
 
 msgid "Single point value"
 msgstr "単一ポイント値"
@@ -6322,6 +6727,45 @@ msgstr "トレードソケットの初期化."
 msgid "CashMarginAvailable"
 msgstr "現金利益率利用可能"
 
+msgid "AdhocMargin"
+msgstr "アドホックマージン"
+
+msgid "NotinalCash"
+msgstr "ノティナルキャッシュ"
+
+msgid "PayInAmount"
+msgstr "支払額"
+
+msgid "PayOutAmount"
+msgstr "支払い金額"
+
+msgid "CNCSellBenifit"
+msgstr "CNCSellBenifit"
+
+msgid "DirectCollateral"
+msgstr "直接担保"
+
+msgid "HoldingCollateral"
+msgstr "ホールディング担保"
+
+msgid "ClientBranchAdhoc"
+msgstr "クライアントブランチアドホック"
+
+msgid "SellOptionsPremium"
+msgstr "セルオプションプレミアム"
+
+msgid "TotalBranchAdhoc"
+msgstr "TotalBranchAdhoc"
+
+msgid "AdhocFOMargin"
+msgstr "AdhocFOMargin"
+
+msgid "AdhocCurrencyMargin"
+msgstr "アドホック通貨マージン"
+
+msgid "AdhocCommodityMargin"
+msgstr "アドホックコモディティマージン"
+
 msgid "MTM"
 msgstr "Mtm"
 
@@ -6525,9 +6969,6 @@ msgstr "情報"
 
 msgid "Refresh all data was requested."
 msgstr "すべてのデータを更新する必要がありました。"
-
-msgid "History"
-msgstr "履歴"
 
 msgid "Market data app key"
 msgstr "市場データ アプリキー"
@@ -6807,6 +7248,21 @@ msgstr "未実現純額 P/L"
 
 msgid "Realized P/L"
 msgstr "損益を現金化する"
+
+msgid "Swaps"
+msgstr "スワップ"
+
+msgid "Fee per 1 lot per round"
+msgstr "1ラウンドあたり1ロットあたりの手数料"
+
+msgid "Fee per 1 lot per side"
+msgstr "1面1ロットあたりの料金"
+
+msgid "Fee per round"
+msgstr "ラウンドごとの料金"
+
+msgid "Fee per side"
+msgstr "片面料金"
 
 msgid "Classification"
 msgstr "分類"

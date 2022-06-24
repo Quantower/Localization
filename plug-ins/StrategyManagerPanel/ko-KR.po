@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-02 11:28+0200\n"
+"POT-Creation-Date: 2022-06-24 18:02+0300\n"
 "PO-Revision-Date: 2021-07-28 16:17+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -97,6 +97,9 @@ msgstr "종료 후 전략 상태 복원"
 msgid "General"
 msgstr "일반"
 
+msgid "Are you sure you want to delete all selected strategies?"
+msgstr "선택한 모든 전략을 삭제하시겠습니까?"
+
 msgid "No running strategies yet"
 msgstr "아직 실행 중인 전략 없음"
 
@@ -115,6 +118,9 @@ msgstr "모두 시작"
 msgid "Stop all"
 msgstr "모든 중지"
 
+msgid "Update all"
+msgstr "모두 업데이트"
+
 msgid "View"
 msgstr "보기"
 
@@ -124,6 +130,12 @@ msgstr "전략 추가"
 msgid "Remove selected"
 msgstr "선택된 제거"
 
+msgid "Run selected"
+msgstr "선택한 실행"
+
+msgid "Stop selected"
+msgstr "선택 중지"
+
 msgid "Strategy settings"
 msgstr "전략 설정"
 
@@ -132,6 +144,9 @@ msgstr "모두 실행"
 
 msgid "Stop All"
 msgstr "모두 중지"
+
+msgid "Update All"
+msgstr "모두 업데이트"
 
 msgid "Backtest strategy"
 msgstr "백테스트 전략"
@@ -160,6 +175,10 @@ msgstr "메트릭 표시"
 msgid "Show logs"
 msgstr "로그 표시"
 
+#, csharp-format
+msgid "Are you sure you want to delete '{0}' script?"
+msgstr "'{0}' 스크립트를 삭제하시겠습니까?"
+
 msgid "Save strategy template"
 msgstr "전략 템플릿 저장"
 
@@ -180,7 +199,3 @@ msgstr "테이블 설정 기록"
 
 msgid "settings"
 msgstr "설정"
-
-#, csharp-format
-msgid "Are you sure you want to delete '{0}' script?"
-msgstr "'{0}' 스크립트를 삭제하시겠습니까?"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 16:05+0300\n"
+"POT-Creation-Date: 2022-06-24 17:59+0300\n"
 "PO-Revision-Date: 2020-11-10 23:54+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,12 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Loading symbol {i + 1}/{Math.Min(filtrationMessage.MaxSymbolsLimit, filtrationMessage.SymbolIDs.Length)}..."
-msgstr "Yükleme sembolü {i + 1}/{Math.Min(filtrasyonMessage.MaxSymbolsLimit, filtrasyonMessage.SymbolIDs.Length)}..."
-
-#, csharp-format
-msgid "Too much symbols in result ({0}). First {1} symbols will be displayed."
-msgstr "Sonuç olarak çok fazla sembol ({0}). İlk {1} semboller görüntülenir."
+msgid "Loading symbol {i + 1}/{filtrationMessage.SymbolIDs.Length}..."
+msgstr "Yükleme sembolü {i + 1}/{filtrationMessage.SymbolIDs.Length}..."
 
 msgid "In Symbols list"
 msgstr "Semboller listesinde"

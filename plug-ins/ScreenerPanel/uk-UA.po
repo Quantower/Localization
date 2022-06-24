@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 16:05+0300\n"
+"POT-Creation-Date: 2022-06-24 17:59+0300\n"
 "PO-Revision-Date: 2020-11-10 23:58+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,12 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Loading symbol {i + 1}/{Math.Min(filtrationMessage.MaxSymbolsLimit, filtrationMessage.SymbolIDs.Length)}..."
-msgstr "Завантаження символу {i + 1}/{Math.Min(filtrationMessage.MaxSymbolsLimit, filtrationMessage.SymbolIDs.Length)}..."
-
-#, csharp-format
-msgid "Too much symbols in result ({0}). First {1} symbols will be displayed."
-msgstr "Дуже багато символів в результаті ({0}). Буде показано перші {1} символів."
+msgid "Loading symbol {i + 1}/{filtrationMessage.SymbolIDs.Length}..."
+msgstr "Символ завантаження {i + 1}/{filtrationMessage.SymbolIDs.Length}..."
 
 msgid "In Symbols list"
 msgstr "У списку символів"

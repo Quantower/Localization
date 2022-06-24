@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 16:05+0300\n"
+"POT-Creation-Date: 2022-06-24 17:59+0300\n"
 "PO-Revision-Date: 2020-11-10 23:55+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,12 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Loading symbol {i + 1}/{Math.Min(filtrationMessage.MaxSymbolsLimit, filtrationMessage.SymbolIDs.Length)}..."
-msgstr "載入符號 [i = 1]/[Math.min(過濾資訊.MaxsymbolsLimit, 過濾資訊.符號.長度)]..."
-
-#, csharp-format
-msgid "Too much symbols in result ({0}). First {1} symbols will be displayed."
-msgstr "結果中的符號太多({0})。將顯示{1}符號。"
+msgid "Loading symbol {i + 1}/{filtrationMessage.SymbolIDs.Length}..."
+msgstr "正在載入符號 {i + 1}/{filtrationMessage.SymbolIDs.Length}..."
 
 msgid "In Symbols list"
 msgstr "在符號清單中"

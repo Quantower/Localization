@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-10 14:02+0200\n"
+"POT-Creation-Date: 2022-06-24 14:15+0300\n"
 "PO-Revision-Date: 2018-12-04 16:01+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -15,6 +15,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Main"
+msgstr "主要"
+
+msgid "Pre-market"
+msgstr "市前交易"
+
+msgid "Post-market"
+msgstr "市後交易"
 
 msgid "Active"
 msgstr "活動"
@@ -205,6 +214,9 @@ msgstr "載入資產中..."
 msgid "Loading accounts..."
 msgstr "載入帳號..."
 
+msgid "Loading option series..."
+msgstr "裝載選項系列"
+
 msgid "Loading symbols..."
 msgstr "載入商品..."
 
@@ -358,8 +370,8 @@ msgstr "買價"
 msgid "Ask"
 msgstr "賣價"
 
-msgid "Bid/Ask average"
-msgstr "買賣均價"
+msgid "Midpoint"
+msgstr "中點"
 
 msgid "Last"
 msgstr "按交易"
@@ -565,11 +577,11 @@ msgstr "獲利"
 msgid "Is trailing"
 msgstr "尾隨"
 
-msgid "Simple"
-msgstr "簡單"
+msgid "Simple SL/TP"
+msgstr "簡單的止損/止盈"
 
-msgid "Advanced"
-msgstr "高深"
+msgid "Multiple brackets"
+msgstr "多個支架"
 
 msgid "Offset"
 msgstr "偏量"
@@ -580,14 +592,14 @@ msgstr "百分比"
 msgid "Absolute"
 msgstr "絕對值"
 
-msgid "Measurement"
-msgstr "測量"
+msgid "Order price specification"
+msgstr "訂單價格規格"
 
-msgid "Mode"
-msgstr "模式"
+msgid "Type of closing orders"
+msgstr "平倉訂單的類型"
 
-msgid "Used order type"
-msgstr "使用的訂單類型"
+msgid "Orders placement mode"
+msgstr "下單模式"
 
 msgid "Initial"
 msgstr "初始"
@@ -595,11 +607,14 @@ msgstr "初始"
 msgid "Whole position"
 msgstr "整個位置"
 
-msgid "Close quantity"
+msgid "Closing quantity"
 msgstr "關閉數量"
 
 msgid "Release time"
 msgstr "發佈時間"
+
+msgid "Time:"
+msgstr "時間："
 
 msgid "MIS"
 msgstr "Mis"
@@ -640,11 +655,38 @@ msgstr "停止交易金"
 msgid "Lot"
 msgstr "每單位"
 
-msgid "Total long positions: "
-msgstr "多頭倉位總數:"
+msgid "Place order"
+msgstr "下訂單"
 
-msgid "Total short positions: "
-msgstr "空頭頭寸總數:"
+msgid "Close all positions"
+msgstr "全部平倉"
+
+msgid "Run order placement strategy"
+msgstr "運行訂單下達策略"
+
+msgid "Run strategy"
+msgstr "執行策略"
+
+msgid "Change symbol"
+msgstr "新增產品"
+
+msgid "Open template"
+msgstr "打開範本"
+
+msgid "Add indicator"
+msgstr "新增技術指標"
+
+msgid "Apply symbol list"
+msgstr "應用符號清單"
+
+msgid "Open plugin"
+msgstr "打開外掛程式"
+
+msgid "Apply aggregation"
+msgstr "應用聚合"
+
+msgid "Add drawing"
+msgstr "添加圖形"
 
 msgid "Name"
 msgstr "名稱"
@@ -694,24 +736,6 @@ msgstr "{0}不支持{1}事件"
 
 msgid "Link"
 msgstr "鏈接到訂單的價格"
-
-msgid "Red"
-msgstr "紅"
-
-msgid "Yellow"
-msgstr "黃色"
-
-msgid "Green"
-msgstr "綠色"
-
-msgid "Blue"
-msgstr "藍色"
-
-msgid "Purple"
-msgstr "紫色"
-
-msgid "Unlink"
-msgstr "解鏈"
 
 msgid "Create bind"
 msgstr "創建綁定"
@@ -896,6 +920,18 @@ msgstr "時區"
 msgid "Show out of session history"
 msgstr "顯示出會話歷史記錄"
 
+msgid "Sessions template"
+msgstr "會話範本"
+
+msgid "Drawing template"
+msgstr "圖形範本"
+
+msgid "Indicator template"
+msgstr "指標範本"
+
+msgid "Create template"
+msgstr "創建範本"
+
 msgid "Symbol"
 msgstr "商品"
 
@@ -984,6 +1020,12 @@ msgstr "未平倉"
 msgid "Oi"
 msgstr "Oi"
 
+msgid "Fr"
+msgstr "法"
+
+msgid "Funding rates"
+msgstr "融資利率"
+
 msgid "Hide"
 msgstr "隱藏"
 
@@ -1013,6 +1055,15 @@ msgstr "移除"
 
 msgid "Edit"
 msgstr "編輯"
+
+msgid "Source code"
+msgstr "源碼"
+
+msgid "Apply"
+msgstr "應用"
+
+msgid "Rename"
+msgstr "重命名"
 
 msgid "Set active"
 msgstr "設置活動"
@@ -1442,6 +1493,12 @@ msgstr "時間長條圖"
 msgid "VWAP"
 msgstr "VWAP"
 
+msgid "Single"
+msgstr "獨立單"
+
+msgid "Multiple"
+msgstr "倍數"
+
 msgid "Tick"
 msgstr "蜱"
 
@@ -1480,6 +1537,12 @@ msgstr "立塔偏差"
 
 msgid "Enable standard deviations"
 msgstr "啟用標準偏差"
+
+msgid "Calculation type"
+msgstr "計算類型"
+
+msgid "Multiplier"
+msgstr "乘數"
 
 msgid "Deviations value"
 msgstr "偏差值"
@@ -1548,9 +1611,6 @@ msgstr "著色由貿易"
 msgid "Histogram"
 msgstr "直方圖"
 
-msgid "Single"
-msgstr "獨立單"
-
 msgid "Double"
 msgstr "雙"
 
@@ -1579,6 +1639,9 @@ msgstr "顯示 POC"
 msgid "POC type"
 msgstr "POC 類型"
 
+msgid "Draw grid"
+msgstr "繪製網格"
+
 msgid "Minute"
 msgstr "分鐘"
 
@@ -1588,14 +1651,23 @@ msgstr "時"
 msgid "Enabled"
 msgstr "啟用"
 
-msgid "Default text color"
-msgstr "預設文字顏色"
+msgid "Gradient"
+msgstr "漸層"
 
-msgid "Default Back color"
-msgstr "默認背面顏色"
+msgid "Fixed"
+msgstr "固定"
+
+msgid "Coloring mode"
+msgstr "方案"
+
+msgid "Default colors"
+msgstr "默認顏色"
 
 msgid "Coloring for various levels"
 msgstr "不同級別的著色"
+
+msgid "Default text color"
+msgstr "預設文字顏色"
 
 msgid "Pos"
 msgstr "Pos"
@@ -1618,8 +1690,26 @@ msgstr "長條圖標籤位置"
 msgid "Trade color"
 msgstr "貿易顏色"
 
+msgid "Show profile"
+msgstr "顯示個人資料"
+
+msgid "Extend POC until intersection"
+msgstr "將POC延長至交叉點"
+
 msgid "Show POC ray"
 msgstr "顯示 poc 射線"
+
+msgid "Show secondary POC"
+msgstr "顯示輔助POC"
+
+msgid "Secondary POC colors"
+msgstr "輔助POC顏色"
+
+msgid "Max allowed deviation from POC (%)"
+msgstr "允許的最大與 POC 的偏差 （%）"
+
+msgid "Minimum deviation from POC (ticks)"
+msgstr "與 POC 的最小偏差（逐筆報價）"
 
 msgid "Show Value area"
 msgstr "顯示值區域"
@@ -1762,9 +1852,6 @@ msgstr "按柱數"
 msgid "By Difference"
 msgstr "按漲跌"
 
-msgid "Fixed"
-msgstr "固定"
-
 msgid "Above/below the moving average"
 msgstr "高於/低於移動平均線"
 
@@ -1804,6 +1891,9 @@ msgstr "電力交易"
 msgid "Label colors"
 msgstr "標籤顏色"
 
+msgid "Label position side"
+msgstr "標籤位置側"
+
 msgid "Cross type"
 msgstr "交叉類型"
 
@@ -1836,6 +1926,15 @@ msgstr "設定檔控制器樣式"
 
 msgid "Selection area"
 msgstr "選擇區域"
+
+msgid "Mode"
+msgstr "模式"
+
+msgid "Left range"
+msgstr "左側範圍"
+
+msgid "Right range"
+msgstr "正確的範圍"
 
 msgid "Billet format type"
 msgstr "單點格式類型"
@@ -1897,6 +1996,39 @@ msgstr "鏡像"
 msgid "Custom text"
 msgstr "自定義文字"
 
+msgid "Secondary POC line"
+msgstr "二級 POC 管路"
+
+msgid "15 minutes"
+msgstr "15 分"
+
+msgid "30 minutes"
+msgstr "30 分"
+
+msgid "Today"
+msgstr "今天"
+
+msgid "Yesterday"
+msgstr "昨天"
+
+msgid "Current week"
+msgstr "當前周"
+
+msgid "Previous week"
+msgstr "上周"
+
+msgid "Week before previous"
+msgstr "前一周前一周"
+
+msgid "Last week"
+msgstr "上個星期"
+
+msgid "Current month"
+msgstr "當前月份"
+
+msgid "Last month"
+msgstr "上月"
+
 msgid "Middle line style"
 msgstr "中線風格"
 
@@ -1929,6 +2061,9 @@ msgstr "標籤位置"
 
 msgid "Center"
 msgstr "報價"
+
+msgid "Show price labels"
+msgstr "顯示價格標籤"
 
 msgid "Regression Line"
 msgstr "回歸線"
@@ -1987,6 +2122,48 @@ msgstr "返回頁首"
 msgid "Control buttons position"
 msgstr "控制按鈕位置"
 
+msgid "Current Monday"
+msgstr "當前星期一"
+
+msgid "Current Tuesday"
+msgstr "當前星期二"
+
+msgid "Current Wednesday"
+msgstr "當前星期三"
+
+msgid "Current Thursday"
+msgstr "當前星期四"
+
+msgid "Current Friday"
+msgstr "當前星期五"
+
+msgid "Current Saturday"
+msgstr "當前星期六"
+
+msgid "Current Sunday"
+msgstr "當前星期日"
+
+msgid "Previous Monday"
+msgstr "上個星期一"
+
+msgid "Previous Tuesday"
+msgstr "前一個星期二"
+
+msgid "Previous Wednesday"
+msgstr "前一個星期三"
+
+msgid "Previous Thursday"
+msgstr "上個星期四"
+
+msgid "Previous Friday"
+msgstr "前一個星期五"
+
+msgid "Previous Saturday"
+msgstr "前一個星期六"
+
+msgid "Previous Sunday"
+msgstr "前一個星期日"
+
 msgid "Invalid price"
 msgstr "無效價格"
 
@@ -2028,6 +2205,9 @@ msgstr "{0} 刻度"
 
 msgid "Empty symbol"
 msgstr "空的符號"
+
+msgid "Futures"
+msgstr "期貨"
 
 msgid "Full"
 msgstr "全屏"
@@ -2198,6 +2378,21 @@ msgstr "斐波那契時間擴展"
 msgid "Fibonacci price extension"
 msgstr "斐波那契價格延期"
 
+msgid "Minotauro Fibonacci price extension"
+msgstr "米諾陶羅斐波那契價格延伸"
+
+msgid "Minotauro Move Up"
+msgstr "牛頭座向上移動"
+
+msgid "Minotauro Move Down"
+msgstr "牛頭座下移"
+
+msgid "POC line"
+msgstr "POC 生產線"
+
+msgid "Week POC line"
+msgstr "周 POC 生產線"
+
 msgid "Candle"
 msgstr "磚形圖"
 
@@ -2279,6 +2474,12 @@ msgstr "背底顏色"
 
 msgid "Mouse wheel action"
 msgstr "鼠標滾輪動作"
+
+msgid "Mouse wheel+CTRL action"
+msgstr "滑鼠滾輪+CTRL 操作"
+
+msgid "Mouse wheel+SHIFT action"
+msgstr "滑鼠滾輪+移位操作"
 
 msgid "Drawings default availablity"
 msgstr "圖形預設可用性"
@@ -2462,6 +2663,9 @@ msgstr "{0}設置"
 msgid "Default by symbol ({0})"
 msgstr "默認為符號（{0}）"
 
+msgid "Bid/Ask average"
+msgstr "買賣均價"
+
 msgid "Time value: "
 msgstr "時間值:"
 
@@ -2543,6 +2747,9 @@ msgstr "交易"
 msgid "Show DOM levels"
 msgstr "顯示 DOM 級別"
 
+msgid "Extend DOM levels"
+msgstr "擴展 DOM 級別"
+
 msgid "Show Bid/Ask line"
 msgstr "顯示出價/詢問行"
 
@@ -2551,9 +2758,6 @@ msgstr "投標線顏色"
 
 msgid "Ask line color"
 msgstr "詢問線條顏色"
-
-msgid "Extend DOM levels"
-msgstr "擴展 DOM 級別"
 
 msgid "DOM levels count"
 msgstr "DOM 級別計數"
@@ -2591,6 +2795,12 @@ msgstr "顏色 5"
 msgid "Limit of points"
 msgstr "積分限制"
 
+msgid "Show last line"
+msgstr "顯示最後一行"
+
+msgid "Last line color"
+msgstr "最後一行顏色"
+
 msgid "Marker size type"
 msgstr "標記大小類型"
 
@@ -2606,12 +2816,6 @@ msgstr "最大貿易規模"
 msgid "Custom trade size"
 msgstr "定製交易規模"
 
-msgid "Show last line"
-msgstr "顯示最後一行"
-
-msgid "Last line color"
-msgstr "最後一行顏色"
-
 msgid "Markers opacity"
 msgstr "標記不透明度"
 
@@ -2626,6 +2830,9 @@ msgstr "最小卷寬，px（聚合模式）"
 
 msgid "Scroll"
 msgstr "滾動"
+
+msgid "Price Zoom"
+msgstr "價格縮放"
 
 msgid "TPO: "
 msgstr "Tpo:"
@@ -2680,9 +2887,6 @@ msgstr "顯示樣式"
 
 msgid "Show marker on each bar"
 msgstr "在每個條形上顯示標記"
-
-msgid "Coloring mode"
-msgstr "方案"
 
 msgid "Delta none color"
 msgstr "增量無顏色"
@@ -2759,9 +2963,6 @@ msgstr "瓦爾"
 msgid "POC"
 msgstr "Poc"
 
-msgid "Midpoint"
-msgstr "中點"
-
 msgid "RF"
 msgstr "射頻"
 
@@ -2813,8 +3014,11 @@ msgstr "Qty："
 msgid "Split size columns"
 msgstr "拆分大小列"
 
-msgid "Type of last trade"
-msgstr "最後交易類型"
+msgid "Split Buy/Sell column"
+msgstr "拆分買入/賣出列"
+
+msgid "AutoSize of columns"
+msgstr "列的自動調整大小"
 
 msgid "No data to display"
 msgstr "沒有數據顯示"
@@ -3038,6 +3242,30 @@ msgstr "出價/詢問重置"
 msgid "Last trade size"
 msgstr "最後交易規模"
 
+msgid "Type of last trade"
+msgstr "最後交易類型"
+
+msgid "Buy/Sell"
+msgstr "買入/賣出"
+
+msgid "Buy order color"
+msgstr "買單顏色"
+
+msgid "Buy SL/TP color"
+msgstr "購買止損/止盈顏色"
+
+msgid "Sell order color"
+msgstr "賣單顏色"
+
+msgid "Sell SL/TP color"
+msgstr "出售止損/止盈顏色"
+
+msgid "Mixed (Buy/Sell) group color"
+msgstr "混合（買入/賣出）組顏色"
+
+msgid "Mixed (Buy/Sell) group SL/TP color"
+msgstr "混合（買入/賣出）組止損/止盈顏色"
+
 msgid "Order color"
 msgstr "訂購顏色"
 
@@ -3173,8 +3401,11 @@ msgstr "顯示位置"
 msgid "Position width"
 msgstr "位置寬度"
 
-msgid "Position color"
-msgstr "位置顏色"
+msgid "Long position color"
+msgstr "長倉顏色"
+
+msgid "Short position color"
+msgstr "短倉顏色"
 
 msgid "Show day high/low"
 msgstr "顯示日高/低"
@@ -3184,6 +3415,12 @@ msgstr "天高"
 
 msgid "Day low"
 msgstr "天低"
+
+msgid "Highlight daily high/low range"
+msgstr "突出顯示每日最高價/最低價範圍"
+
+msgid "High/Low range colors"
+msgstr "高/低範圍顏色"
 
 msgid "Clear marked prices"
 msgstr "清除標記的價格"
@@ -3224,14 +3461,8 @@ msgstr "買價顏色"
 msgid "Ask color"
 msgstr "賣價顏色"
 
-msgid "Gradient"
-msgstr "漸層"
-
-msgid "Gradient/Histogram"
-msgstr "漸變/直方圖"
-
-msgid "Size coloring scheme"
-msgstr "著色"
+msgid "Size bar type"
+msgstr "尺寸條類型"
 
 msgid "Left"
 msgstr "左"
@@ -3241,6 +3472,24 @@ msgstr "右"
 
 msgid "Histogram Alignment"
 msgstr "直方圖對齊"
+
+msgid "MBO"
+msgstr "斷續器"
+
+msgid "Size coloring scheme"
+msgstr "著色"
+
+msgid "Filter orders more than (MBO)"
+msgstr "篩選訂單數超過 （MBO）"
+
+msgid "Draw borders (MBO)"
+msgstr "繪製邊框 （MBO）"
+
+msgid "Custom Bids Back Color"
+msgstr "自訂出價回溯顏色"
+
+msgid "Custom Asks Back Color"
+msgstr "自定義反問顏色"
 
 msgid "Set price marker"
 msgstr "設置價格標記"
@@ -3272,32 +3521,11 @@ msgstr "德爾塔正數"
 msgid "Delta Negative"
 msgstr "德爾塔負極"
 
+msgid "Show Last Trade Size"
+msgstr "顯示上次交易規模"
+
 msgid "Reload data (server)"
 msgstr "重新載入資料(伺服器)"
-
-msgid "15 minutes"
-msgstr "15 分"
-
-msgid "30 minutes"
-msgstr "30 分"
-
-msgid "Today"
-msgstr "今天"
-
-msgid "Yesterday"
-msgstr "昨天"
-
-msgid "Current week"
-msgstr "當前周"
-
-msgid "Last week"
-msgstr "上個星期"
-
-msgid "Current month"
-msgstr "當前月份"
-
-msgid "Last month"
-msgstr "上月"
 
 msgid "LIFO"
 msgstr "後進先出"
@@ -3332,9 +3560,6 @@ msgstr "藏"
 msgid "Conditional Order"
 msgstr "條件順序"
 
-msgid "Place order"
-msgstr "下訂單"
-
 msgid "Cancel order"
 msgstr "取消訂單"
 
@@ -3361,9 +3586,6 @@ msgstr "取消限制"
 
 msgid "Cancel stops"
 msgstr "取消停止"
-
-msgid "Close all positions"
-msgstr "全部平倉"
 
 msgid "Flatten"
 msgstr "扁平化"
@@ -3452,9 +3674,6 @@ msgstr "添加到觀察清單"
 msgid "Replace watchlist"
 msgstr "替換觀察清單"
 
-msgid "Rename"
-msgstr "重命名"
-
 msgid "Delete"
 msgstr "刪除"
 
@@ -3484,6 +3703,12 @@ msgstr "從工具列脫離"
 
 msgid "Pin on toolbar"
 msgstr "工具列上的 Pin"
+
+msgid "Panel-specific custom hotkeys"
+msgstr "特定於面板的自定義熱鍵"
+
+msgid "No custom hotkeys were set up"
+msgstr "未設置自定義熱鍵"
 
 #, csharp-format
 msgid "{0}None{1}"
@@ -3542,15 +3767,6 @@ msgstr "點座標"
 
 msgid "Point"
 msgstr "點圖"
-
-msgid "Custom sessions"
-msgstr "自定義會話"
-
-msgid "No custom sessions were set up."
-msgstr "未設置自定義會話。"
-
-msgid "Incorrect sessions."
-msgstr "會話不正確。"
 
 msgid "Enable sounds"
 msgstr "啟用聲音"
@@ -3704,6 +3920,42 @@ msgstr "工作區名稱可能包含: {0}"
 msgid "Same workspace name already exist"
 msgstr "已存在相同的工作區名稱"
 
+msgid "Open OE Buy"
+msgstr "開放式 OE 購買"
+
+msgid "Open OE Sell"
+msgstr "開放式原廠出賣"
+
+msgid "Open Chart"
+msgstr "打開圖表"
+
+msgid "Open DOM Trader"
+msgstr "開放多姆交易者"
+
+msgid "Open Market Depth"
+msgstr "公開市場深度"
+
+msgid "Open Time Sales"
+msgstr "開放時間銷售"
+
+msgid "Open DOM Surface"
+msgstr "開放式 DOM 表面"
+
+msgid "Open TPO Chart"
+msgstr "打開 TPO 圖表"
+
+msgid "Open Positions"
+msgstr "空缺職位"
+
+msgid "Open Working Orders"
+msgstr "未結工作訂單"
+
+msgid "Open Trades"
+msgstr "未平倉交易"
+
+msgid "Open Symbol Info"
+msgstr "打開符號資訊"
+
 #, csharp-format
 msgid "Are you sure you want to delete {0}?"
 msgstr "確實要刪除 {0} 嗎？"
@@ -3828,6 +4080,9 @@ msgstr "顯示倉位詳情"
 msgid "Confirm hotbutton action"
 msgstr "確認熱鍵操作"
 
+msgid "Confirm multiple place order strategies"
+msgstr "確認多個下單策略"
+
 msgid "Enable Microsoft Excel RTD"
 msgstr "啟用微軟 Excel RTD"
 
@@ -3836,6 +4091,12 @@ msgstr "自定義 RTD 公式名稱"
 
 msgid "Custom argument separator"
 msgstr "自定義參數分隔符"
+
+msgid "Socket port"
+msgstr "插座埠"
+
+msgid "Allow connection from Visual Studio (for scripts debugging)"
+msgstr "允許從 Visual Studio 進行連線（用於文稿除錯）"
 
 msgid "Telegram"
 msgstr "電報"
@@ -3848,6 +4109,9 @@ msgstr "重複交易通知電報"
 
 msgid "Excel RTD"
 msgstr "Excel RTD"
+
+msgid "Algo"
+msgstr "演算法"
 
 msgid "Messengers"
 msgstr "使者"
@@ -3972,53 +4236,23 @@ msgstr "密碼為空"
 msgid "Incorrect Login or Password"
 msgstr "登錄或密碼不正確"
 
-msgid "Mark Price"
-msgstr "標記價格"
+msgid "Contract size"
+msgstr "合約"
 
-msgid "Last Price"
-msgstr "最後價格"
+msgid "Max price"
+msgstr "最高價格"
 
-msgid "CROSSED"
-msgstr "越過"
+msgid "Min notional"
+msgstr "最小名義"
 
-msgid "ISOLATED"
-msgstr "孤立"
+msgid "Iceberg allowed"
+msgstr "允許冰山"
 
-msgid "Transfer"
-msgstr "轉送"
+msgid "Orders"
+msgstr "掛單"
 
-msgid "Welcome bonus"
-msgstr "歡迎獎金"
-
-msgid "Realized PnL"
-msgstr "實現Pnl"
-
-msgid "Funding fee"
-msgstr "資助費"
-
-msgid "Commission"
-msgstr "佣金"
-
-msgid "Insurance clear"
-msgstr "保險明確"
-
-msgid "Coin swap deposit"
-msgstr "硬幣掉期存款"
-
-msgid "Coin swap withdraw"
-msgstr "硬幣掉期取款"
-
-msgid "Borrow"
-msgstr "借"
-
-msgid "Repay"
-msgstr "償還"
-
-msgid "IN"
-msgstr "在"
-
-msgid "OUT"
-msgstr "出"
+msgid "Full license"
+msgstr "全許可證"
 
 msgid "Total Balance"
 msgstr "總餘額"
@@ -4031,6 +4265,93 @@ msgstr "帳戶凈值"
 
 msgid "Margin level"
 msgstr "保證金水準"
+
+msgid "Maintenance margin"
+msgstr "維持保證金"
+
+msgid "Required margin"
+msgstr "所需保證金"
+
+msgid "Leverage"
+msgstr "利用"
+
+msgid "Margin type"
+msgstr "保證金類型"
+
+msgid "Positions"
+msgstr "倉位"
+
+msgid "Hedge mode"
+msgstr "對沖模式"
+
+msgid "Wallet balance"
+msgstr "錢包餘額"
+
+msgid "Available balance"
+msgstr "可用餘額"
+
+msgid "Initial margin"
+msgstr "初始保證金"
+
+msgid "Margin balance"
+msgstr "保證金餘額"
+
+msgid "Crossed wallet balance"
+msgstr "交叉錢包餘額"
+
+msgid "Max withdraw amount"
+msgstr "最大取款金額"
+
+msgid "Open order initial margin"
+msgstr "開盤訂單初始保證金"
+
+msgid "Position initial margin"
+msgstr "定位初始保證金"
+
+msgid "Unrealized PNL"
+msgstr "未實現的PNL"
+
+msgid "Crossed position Unrealized PNL"
+msgstr "交叉倉位未實現PNL"
+
+msgid "Margin available"
+msgstr "可使用的保證金"
+
+msgid "Available for Order"
+msgstr "可供訂購"
+
+msgid "Margin Ratio"
+msgstr "保證金比率"
+
+msgid "Callback Rate"
+msgstr "回調率"
+
+msgid "Trigger"
+msgstr "觸發"
+
+msgid "Iceberg quantity"
+msgstr "冰山數量"
+
+msgid "Post-Only"
+msgstr "僅發佈"
+
+msgid "Behavior"
+msgstr "行為"
+
+msgid "Last Price"
+msgstr "最後價格"
+
+msgid "Mark Price"
+msgstr "標記價格"
+
+msgid "Borrow"
+msgstr "借"
+
+msgid "Repay"
+msgstr "償還"
+
+msgid "Activation price"
+msgstr "激活價格"
 
 msgid "Open position"
 msgstr "打開位置"
@@ -4047,59 +4368,8 @@ msgstr "價格應為正非零值"
 msgid "Stop price should be positive non-zero value"
 msgstr "止損價應為正非零值"
 
-msgid "Maintenance margin"
-msgstr "維持保證金"
-
-msgid "Required margin"
-msgstr "所需保證金"
-
-msgid "Contract size"
-msgstr "合約"
-
-msgid "Leverage"
-msgstr "利用"
-
-msgid "Margin type"
-msgstr "保證金類型"
-
-msgid "Hedge mode"
-msgstr "對沖模式"
-
-msgid "Full license"
-msgstr "全許可證"
-
-msgid "Initial margin"
-msgstr "初始保證金"
-
-msgid "Margin balance"
-msgstr "保證金餘額"
-
-msgid "Open order initial margin"
-msgstr "開盤訂單初始保證金"
-
-msgid "Position initial margin"
-msgstr "定位初始保證金"
-
-msgid "Unrealized PNL"
-msgstr "未實現的PNL"
-
-msgid "Available for Order"
-msgstr "可供訂購"
-
-msgid "Margin Ratio"
-msgstr "保證金比率"
-
-msgid "Orders"
-msgstr "掛單"
-
-msgid "Positions"
-msgstr "倉位"
-
-msgid "Max withdraw amount"
-msgstr "最大取款金額"
-
-msgid "Wallet balance"
-msgstr "錢包餘額"
+msgid "Margin call"
+msgstr "保證金追繳"
 
 msgid "Adjust Leverage"
 msgstr "調整槓桿"
@@ -4107,32 +4377,14 @@ msgstr "調整槓桿"
 msgid "Adjust Margin Mode"
 msgstr "調整邊距模式"
 
-msgid "Allowed order types"
-msgstr "允許的訂單類型"
-
-msgid "Max price"
-msgstr "最高價格"
-
-msgid "Min notional"
-msgstr "最小名義"
-
-msgid "Iceberg allowed"
-msgstr "允許冰山"
-
 msgid "Volume analysis step (ticks)"
 msgstr "體積分析步驟（勾選）"
 
-msgid "Margin"
-msgstr "保證金"
+msgid "Account custom name"
+msgstr "帳戶自定義名稱"
 
-msgid "Account activity"
-msgstr "帳戶活動"
-
-msgid "Info"
-msgstr "訊息"
-
-msgid "Trading info"
-msgstr "交易訊息"
+msgid "Check orders interval, sec"
+msgstr "檢查訂單間隔，秒"
 
 msgid "Real-time"
 msgstr "即時"
@@ -4167,26 +4419,35 @@ msgstr "標記價格"
 msgid "Last price"
 msgstr "最後價格"
 
-msgid "Periodically"
-msgstr "週期性地"
-
 msgid "Binance server"
 msgstr "幣安伺服器"
 
 msgid "External server"
 msgstr "外部伺服器"
 
+msgid "By timer"
+msgstr "按計時器"
+
+msgid "Periodically"
+msgstr "週期性地"
+
 msgid "Connection"
 msgstr "連接"
+
+msgid "Allow load user trades history"
+msgstr "允許載入使用者交易歷史記錄"
+
+msgid "Allow load user orders history"
+msgstr "允許載入使用者訂單歷史記錄"
+
+msgid "Base endpoint"
+msgstr "基本終結點"
 
 msgid "Bid/Ask update frequency"
 msgstr "買入價/賣出價更新頻率"
 
-msgid "Allow change leverage"
-msgstr "允許變更槓桿"
-
-msgid "WebSocket endpoint"
-msgstr "WebSocket 終結點"
+msgid "Bid/Ask update timer interval, sec"
+msgstr "買入價/賣出價更新計時器間隔，秒"
 
 msgid "TP/SL trigger price"
 msgstr "TP/SL 觸發價格"
@@ -4200,20 +4461,14 @@ msgstr "開放式利息更新期"
 msgid "Calculate PNL locally"
 msgstr "本地計算 PNL"
 
-msgid "PNL calculation basis"
-msgstr "PNL 計算基礎"
+msgid "PnL calculation basis"
+msgstr "PnL 計算基礎"
 
 msgid "Real-time trades source"
 msgstr "即時交易來源"
 
-msgid "Account custom name"
-msgstr "帳戶自定義名稱"
-
-msgid "Load user trades history"
-msgstr "載入使用者交易歷史記錄"
-
-msgid "Rest api url not founded."
-msgstr "休息 api url 未建立。"
+msgid "Load funding rates history"
+msgstr "載入融資利率歷史記錄"
 
 msgid "Reduce-only"
 msgstr "僅減少"
@@ -4455,29 +4710,74 @@ msgstr "總頭寸價值： {RoundToCurrencyPrecision（ConvertToRealValue（user
 msgid "Display quantity"
 msgstr "顯示數量"
 
-msgid "Conditional limit"
-msgstr "有條件限制"
+msgid "One way"
+msgstr "單程"
 
-msgid "Conditional market"
-msgstr "有條件市場"
+msgid "Hedge"
+msgstr "對沖"
 
-msgid "Index price"
-msgstr "指數價格"
+msgid "Open orders"
+msgstr "打開訂單"
 
-msgid "Trailing profit"
-msgstr "跟蹤利潤"
-
-msgid "Min price"
-msgstr "最低價格"
+msgid "Open positions"
+msgstr "持倉"
 
 msgid "Taker fee"
 msgstr "考生費用"
+
+msgid "Leverage type"
+msgstr "槓桿類型"
+
+msgid "Isolated"
+msgstr "孤立"
+
+msgid "Position mode"
+msgstr "位置模式"
 
 msgid "Long leverage"
 msgstr "長期槓桿"
 
 msgid "Short leverage"
 msgstr "短槓桿"
+
+msgid "Index price"
+msgstr "指數價格"
+
+msgid "Unique comment"
+msgstr "獨特的評論"
+
+msgid "Register account"
+msgstr "註冊帳戶"
+
+msgid "Spot exchange"
+msgstr "現貨交易"
+
+msgid "Inverse futures exchange"
+msgstr "逆期貨交易所"
+
+msgid "USDT perpetual exchange"
+msgstr "泰達幣永久兌換"
+
+msgid "Load user trades history"
+msgstr "載入使用者交易歷史記錄"
+
+msgid "Can't find connection type parameters"
+msgstr "找不到連接類型參數"
+
+msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
+msgstr "沒有要連接的選定交易所。請打開「連接設置」 並選擇所需的交換。"
+
+msgid "Conditional limit"
+msgstr "有條件限制"
+
+msgid "Conditional market"
+msgstr "有條件市場"
+
+msgid "Trailing profit"
+msgstr "跟蹤利潤"
+
+msgid "Min price"
+msgstr "最低價格"
 
 msgid "Max leverage"
 msgstr "最大槓桿"
@@ -4499,9 +4799,6 @@ msgstr "有條件訂單"
 
 msgid "Equity"
 msgstr "等於"
-
-msgid "Available balance"
-msgstr "可用餘額"
 
 msgid "Used margin"
 msgstr "保證金"
@@ -4539,17 +4836,11 @@ msgstr "累計實現的 Pnl"
 msgid "Accumulated realised profit and loss (all-time total)"
 msgstr "累計實現損益（總虧損）"
 
-msgid "Register account"
-msgstr "註冊帳戶"
-
 msgid "Client Id"
 msgstr "用戶端識別碼"
 
 msgid "Secret Id"
 msgstr "秘密識別"
-
-msgid "Can't find connection type parameters"
-msgstr "找不到連接類型參數"
 
 msgid "Client id is empty"
 msgstr "用戶端識別碼為空"
@@ -4734,6 +5025,9 @@ msgstr "未實現的 Pnl （OTE）"
 msgid "Open trade equity, or potential profit (or loss) from futures and future-style options positions based on opening price of the position and the current future trade/best bid/best ask (regarding to the risk account settings) or settlement price if trade is not available. Included if purchasing power depends on it."
 msgstr "開放式交易權益，或期貨和未來期權頭寸的潛在利潤（或虧損），基於頭寸的開盤價和當前期貨交易/最佳出價/最佳要求（有關風險賬戶設置）或結算價格（如果交易不可用）。包括購買力是否依賴於它。"
 
+msgid "Realized PnL"
+msgstr "實現Pnl"
+
 msgid "Total PnL"
 msgstr "總盈虧"
 
@@ -4754,6 +5048,9 @@ msgstr "僅基於當前職位的保證金要求。"
 
 msgid "Spot"
 msgstr "現貨"
+
+msgid "Margin"
+msgstr "保證金"
 
 msgid "Trade mode"
 msgstr "交易模式"
@@ -4779,17 +5076,11 @@ msgstr "連接到交易所"
 msgid "Support margin trading"
 msgstr "支持保證金交易"
 
-msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
-msgstr "沒有要連接的選定交易所。請打開「連接設置」 並選擇所需的交換。"
-
 msgid "Market range"
 msgstr "市場範圍"
 
-msgid "Open orders"
-msgstr "打開訂單"
-
-msgid "Open positions"
-msgstr "持倉"
+msgid "Server region"
+msgstr "伺服器區域"
 
 msgid "Net P/L"
 msgstr "淨額"
@@ -5157,6 +5448,21 @@ msgstr "賬戶計劃"
 msgid "WARNING!!! This option can cause a significant delay during the trading"
 msgstr "警告!!!此選項可能會在交易期間造成重大延遲"
 
+msgid "History"
+msgstr "請求完成"
+
+msgid "Funding rates mode"
+msgstr "注資費率模式"
+
+msgid "Account activity"
+msgstr "帳戶活動"
+
+msgid "Info"
+msgstr "訊息"
+
+msgid "Trading info"
+msgstr "交易訊息"
+
 msgid "Token"
 msgstr "令 牌"
 
@@ -5271,9 +5577,6 @@ msgstr "費用幣種"
 msgid "Reduce only"
 msgstr "僅減少"
 
-msgid "Isolated"
-msgstr "孤立"
-
 msgid "Margin mode"
 msgstr "保誠金模式"
 
@@ -5334,6 +5637,24 @@ msgstr "暫停交易"
 msgid "Otc"
 msgstr "場外交易"
 
+msgid "Otc Options"
+msgstr "場外期權"
+
+msgid "Minepool"
+msgstr "礦池"
+
+msgid "ETF"
+msgstr "交易所買賣基金"
+
+msgid "Crypto Loans"
+msgstr "加密貸款"
+
+msgid "Deposit Earning"
+msgstr "存款賺取"
+
+msgid "Grid Trading"
+msgstr "網格交易"
+
 msgid "Super margin"
 msgstr "超級保證金"
 
@@ -5360,9 +5681,6 @@ msgstr "隔離槓桿"
 
 msgid "Cross leverage"
 msgstr "交叉槓桿"
-
-msgid "Spot exchange"
-msgstr "現貨交易"
 
 msgid "Coin-M Futures"
 msgstr "硬幣-M期貨"
@@ -5601,9 +5919,6 @@ msgstr "SEC 頒發的中央索引密鑰,是所有擁有者申請的唯一標識�
 msgid "State"
 msgstr "省"
 
-msgid "Margin call"
-msgstr "保證金追繳"
-
 msgid "Margin stop"
 msgstr "邊距停止"
 
@@ -5616,14 +5931,101 @@ msgstr "杠杆收購"
 msgid "Leverage sell"
 msgstr "杠杆銷售"
 
+msgid "Visible size"
+msgstr "可見尺寸"
+
+msgid "Iceberg qty"
+msgstr "冰山數量"
+
+msgid "Reverse contract"
+msgstr "反向合約"
+
+msgid "Enabled ADL"
+msgstr "已啟用的ADL"
+
+msgid "Type of the contract"
+msgstr "合同類型"
+
+msgid "Maker fees, %"
+msgstr "製造商費用，%"
+
+msgid "Fixed maker fees"
+msgstr "固定製造商費用"
+
+msgid "Maker fees"
+msgstr "製造商費用"
+
+msgid "Taker fees, %"
+msgstr "接受者費用，%"
+
+msgid "Fixed taker fees"
+msgstr "固定的接受者費用"
+
+msgid "Derivative: Can't calculate spot-order direction."
+msgstr "導數：無法計算現貨訂單方向。"
+
+msgid "Close order"
+msgstr "關閉訂單"
+
+msgid "Stop price type"
+msgstr "止損價格類型"
+
+msgid "Spot: Can't calculate spot-order direction."
+msgstr "現貨：無法計算現貨訂單方向。"
+
+msgid "Margin trade"
+msgstr "保證金交易"
+
+msgid "API key (Spot)"
+msgstr "介面金鑰（點）"
+
+msgid "Secret key (Spot)"
+msgstr "金鑰（點）"
+
+msgid "Password (Spot)"
+msgstr "密碼（點）"
+
+msgid "API key (Derivative)"
+msgstr "介面金鑰（派生）"
+
+msgid "Secret key (Derivative)"
+msgstr "金鑰（派生）"
+
+msgid "Password (Derivative)"
+msgstr "密碼（派生）"
+
+msgid "Connect to spot exchange"
+msgstr "連接到現貨交易所"
+
+msgid "Connect to futures exchange"
+msgstr "連接到期貨交易所"
+
+msgid "Unified account"
+msgstr "統一帳戶"
+
+msgid "ApiKey is empty (Spot)"
+msgstr "ApiKey 是空的（Spot）"
+
+msgid "Secret id is empty (Spot)"
+msgstr "秘密 ID 為空（點）"
+
+msgid "Password is empty (Spot)"
+msgstr "密碼為空（點）"
+
+msgid "ApiKey is empty (Derivative)"
+msgstr "ApiKey 為空（派生值）"
+
+msgid "Secret id is empty (Derivative)"
+msgstr "秘密 ID 為空（派生值）"
+
+msgid "Password is empty (Derivative)"
+msgstr "密碼為空（派生）"
+
 msgid "Margin requirements"
 msgstr "保證金需求"
 
 msgid "Fees"
 msgstr "費用"
-
-msgid "Session info"
-msgstr "會話訊息"
 
 msgid "Today results"
 msgstr "今天結果"
@@ -5673,6 +6075,9 @@ msgstr "長交換點"
 msgid "Short swap points"
 msgstr "短交換點"
 
+msgid "Commission"
+msgstr "佣金"
+
 msgid "Crypto"
 msgstr "加密"
 
@@ -5705,9 +6110,6 @@ msgstr "佔用保證金"
 
 msgid "Margin currently used for the Account"
 msgstr "目前用於賬戶的保證金"
-
-msgid "Margin available"
-msgstr "可使用的保證金"
 
 msgid "Margin available for the Account"
 msgstr "可用於賬戶的保證金"
@@ -5797,6 +6199,9 @@ msgstr "線性"
 msgid "Inverse"
 msgstr "逆"
 
+msgid "Simple"
+msgstr "簡單"
+
 msgid "Single currency margin"
 msgstr "單一貨幣保證金"
 
@@ -5856,9 +6261,6 @@ msgstr "獲取取款歷史記錄"
 
 msgid "Account level"
 msgstr "帳戶級別"
-
-msgid "Position mode"
-msgstr "位置模式"
 
 msgid "Display type of Greeks"
 msgstr "顯示類型的希臘人"
@@ -6072,6 +6474,9 @@ msgstr "比較運算符"
 
 msgid "Compare price type"
 msgstr "比較價格類型"
+
+msgid "Enable 'Market by Order' (MBO) mode"
+msgstr "啟用「按訂單進市」（MBO） 模式"
 
 msgid "Single point value"
 msgstr "單點值"
@@ -6322,6 +6727,45 @@ msgstr "初始化交易Socket..."
 msgid "CashMarginAvailable"
 msgstr "現金馬吉納瓦利可"
 
+msgid "AdhocMargin"
+msgstr "AdhocMargin"
+
+msgid "NotinalCash"
+msgstr "NotinalCash"
+
+msgid "PayInAmount"
+msgstr "支付中超"
+
+msgid "PayOutAmount"
+msgstr "支付輸出下載"
+
+msgid "CNCSellBenifit"
+msgstr "數控銷售銀行"
+
+msgid "DirectCollateral"
+msgstr "直接膠合"
+
+msgid "HoldingCollateral"
+msgstr "控股膠合"
+
+msgid "ClientBranchAdhoc"
+msgstr "ClientBranchAdhoc"
+
+msgid "SellOptionsPremium"
+msgstr "SellOptionsPremium"
+
+msgid "TotalBranchAdhoc"
+msgstr "總分支跳躍"
+
+msgid "AdhocFOMargin"
+msgstr "AdhocFOMargin"
+
+msgid "AdhocCurrencyMargin"
+msgstr "臨時錢邊緣"
+
+msgid "AdhocCommodityMargin"
+msgstr "AdhocCommodityMargin"
+
 msgid "MTM"
 msgstr "Mtm"
 
@@ -6525,9 +6969,6 @@ msgstr "訊息"
 
 msgid "Refresh all data was requested."
 msgstr "刷新請求的所有數據。"
-
-msgid "History"
-msgstr "請求完成"
 
 msgid "Market data app key"
 msgstr "市場數據應用金鑰"
@@ -6807,6 +7248,21 @@ msgstr "未實現凈損益"
 
 msgid "Realized P/L"
 msgstr "平倉損益"
+
+msgid "Swaps"
+msgstr "換期"
+
+msgid "Fee per 1 lot per round"
+msgstr "每輪1手費用"
+
+msgid "Fee per 1 lot per side"
+msgstr "每邊1手的費用"
+
+msgid "Fee per round"
+msgstr "每輪費用"
+
+msgid "Fee per side"
+msgstr "每邊費用"
 
 msgid "Classification"
 msgstr "分類"

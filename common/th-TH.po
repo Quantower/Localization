@@ -1,0 +1,7490 @@
+# Language th-TH translations for Quantower package.
+# Copyright (C) 2022 Quantower LLC
+# This file is distributed under the same license as the Quantower package.
+# <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Quantower\n"
+"Report-Msgid-Bugs-To: info@quantower.com\n"
+"POT-Creation-Date: 2022-06-24 15:31+0300\n"
+"PO-Revision-Date: 2022-06-24 15:32+0300\n"
+"Last-Translator: info@quantower.com\n"
+"Language-Team: Quantower team\n"
+"Language: th-TH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+msgid "Main"
+msgstr "หลัก"
+
+msgid "Pre-market"
+msgstr "ก่อนออกสู่ตลาด"
+
+msgid "Post-market"
+msgstr "หลังการขาย"
+
+msgid "Active"
+msgstr "กระปรี้กระเปร่า"
+
+msgid "Paused"
+msgstr "หยุดชั่วคราว"
+
+msgid "Stopped"
+msgstr "หยุด"
+
+msgid "Completed"
+msgstr "เสร็จ สมบูรณ์"
+
+msgid "Basic"
+msgstr "พื้นฐาน"
+
+msgid "Ln"
+msgstr "Ln"
+
+msgid "Limit if touched"
+msgstr "จํากัดเมื่อสัมผัส"
+
+msgid "Trigger price"
+msgstr "ราคาทริกเกอร์"
+
+msgid "Price"
+msgstr "ราคา"
+
+msgid "Limit"
+msgstr "เขต"
+
+msgid "Stop loss price should be less then limit price"
+msgstr "ราคาหยุดการขาดทุนควรน้อยกว่านั้น จํากัด ราคา"
+
+msgid "Take profit price should be more then limit price"
+msgstr "ราคาทํากําไรควรมากกว่านี้แล้ว จํากัด ราคา"
+
+msgid "Stop loss price should be more then limit price"
+msgstr "ราคาหยุดการขาดทุนควรมากกว่านั้น จํากัด ราคา"
+
+msgid "Take profit price should be less then limit price"
+msgstr "ราคาทํากําไรควรน้อยกว่านั้น จํากัด ราคา"
+
+msgid "Market if touched"
+msgstr "ตลาดถ้าสัมผัส"
+
+msgid "Market"
+msgstr "ตลาด"
+
+msgid "Stop loss price should be less then market ask price"
+msgstr "ราคาหยุดการขาดทุนควรจะน้อยกว่าราคาเสนอขายในตลาด"
+
+msgid "Take profit price should be more then market ask price"
+msgstr "ราคาทํากําไรควรจะมากกว่าราคาตลาดถาม"
+
+msgid "Stop loss price should be more then market bid price"
+msgstr "ราคาหยุดการขาดทุนควรจะมากกว่าราคาเสนอซื้อในตลาด"
+
+msgid "Take profit price should be less then market bid price"
+msgstr "ราคาทํากําไรควรน้อยกว่าราคาเสนอซื้อในตลาด"
+
+msgid "Time in force"
+msgstr "เวลาที่ใช้บังคับ"
+
+msgid "Expiration"
+msgstr "การหายใจออก"
+
+msgid "Side"
+msgstr "ข้าง"
+
+msgid "lots"
+msgstr "จำนวนมาก"
+
+msgid "Quantity"
+msgstr "ปริมาณ"
+
+msgid "Total"
+msgstr "ทั้งหมด"
+
+msgid "Stop limit"
+msgstr "ขีดจํากัดการหยุด"
+
+msgid "Stop"
+msgstr "หยุด"
+
+msgid "Stop loss price should be less then trigger price"
+msgstr "ราคาหยุดการขาดทุนควรจะน้อยกว่าแล้วเรียกราคา"
+
+msgid "Take profit price should be more then trigger price"
+msgstr "ราคาทํากําไรควรจะมากขึ้นแล้วเรียกราคา"
+
+msgid "Stop loss price should be more then trigger price"
+msgstr "ราคาหยุดการขาดทุนควรจะมากขึ้นแล้วเรียกราคา"
+
+msgid "Take profit price should be less then trigger price"
+msgstr "ราคาทํากําไรควรน้อยกว่านั้นจึงเรียกราคา"
+
+msgid "Trailing Stop"
+msgstr "ต่อท้ายหยุด"
+
+msgid "Trailing offset"
+msgstr "ออฟเซ็ตต่อท้าย"
+
+msgid "Unspecified"
+msgstr "ระบุ"
+
+msgid "Opened"
+msgstr "เปิด"
+
+msgid "Partially Filled"
+msgstr "เต็มไปบางส่วน"
+
+msgid "Filled"
+msgstr "เติม"
+
+msgid "Cancelled"
+msgstr "ยก เลิก"
+
+msgid "Refused"
+msgstr "ถูก ปฏิเสธ"
+
+msgid "Inactive"
+msgstr "เกียจคร้าน"
+
+msgid "Default"
+msgstr "เริ่ม ต้น"
+
+msgid "Day"
+msgstr "วัน"
+
+msgid "Fill Or Kill"
+msgstr "เติมหรือฆ่า"
+
+msgid "Good Till Cancel"
+msgstr "ดีจนถึงยกเลิก"
+
+msgid "Immediate Or Cancel"
+msgstr "ทันทีหรือยกเลิก"
+
+msgid "Good Till Date"
+msgstr "ดีจนถึงวันที่"
+
+msgid "Good Till Time"
+msgstr "ดีจนถึงเวลา"
+
+msgid "Fill And Kill"
+msgstr "เติมและฆ่า"
+
+msgid "At The Open"
+msgstr "ที่โอเพ่น"
+
+msgid "At The Close"
+msgstr "ที่ปิด"
+
+msgid "Undefined"
+msgstr "ไม่ได้กําหนด"
+
+msgid "Multiple positions"
+msgstr "หลายตําแหน่ง"
+
+msgid "Multiple positions per side"
+msgstr "หลายตําแหน่งต่อด้าน"
+
+msgid "One position"
+msgstr "หนึ่งตําแหน่ง"
+
+msgid "Aggressor flag"
+msgstr "ธงผู้รุกราน"
+
+msgid "Tick direction"
+msgstr "ทิศทางติ๊ก"
+
+msgid "Loading sessions..."
+msgstr "กําลังโหลดเซสชัน..."
+
+msgid "Loading exchanges..."
+msgstr "กําลังโหลดการแลกเปลี่ยน..."
+
+msgid "Loading symbol groups..."
+msgstr "กําลังโหลดกลุ่มสัญลักษณ์..."
+
+msgid "Loading order types..."
+msgstr "กําลังโหลดประเภทคําสั่ง..."
+
+msgid "Loading assets..."
+msgstr "กําลังโหลดสินทรัพย์..."
+
+msgid "Loading accounts..."
+msgstr "กําลังโหลดบัญชี..."
+
+msgid "Loading option series..."
+msgstr "กําลังโหลดชุดตัวเลือก..."
+
+msgid "Loading symbols..."
+msgstr "กําลังโหลดสัญลักษณ์..."
+
+msgid "Loading rules..."
+msgstr "กําลังโหลดกฎ..."
+
+msgid "Loading positions..."
+msgstr "กําลังโหลดตําแหน่ง..."
+
+msgid "Loading closed positions..."
+msgstr "กําลังโหลดตําแหน่งที่ปิดไปแล้ว..."
+
+msgid "Loading reports..."
+msgstr "กําลังโหลดรายงาน..."
+
+msgid "Loading orders..."
+msgstr "กําลังโหลดคําสั่งซื้อ..."
+
+msgid "Loading account operations..."
+msgstr "กําลังโหลดการดําเนินการบัญชี..."
+
+msgid "Processing messages..."
+msgstr "กําลังประมวลผลข้อความ..."
+
+msgid "Value"
+msgstr "ค่า"
+
+msgid "Build from"
+msgstr "สร้างจาก"
+
+msgid "Box size"
+msgstr "ขนาดกล่อง"
+
+msgid "Reversal"
+msgstr "ย้อน กลับ"
+
+msgid "Style"
+msgstr "ลีลา"
+
+msgid "Classic"
+msgstr "คลาสสิก"
+
+msgid "High/Low"
+msgstr "สูง/ต่ํา"
+
+msgid "ticks"
+msgstr "เห็บ"
+
+msgid "s"
+msgstr "s"
+
+msgid "m"
+msgstr "m"
+
+msgid "H"
+msgstr "H"
+
+msgid "D"
+msgstr "D"
+
+msgid "W"
+msgstr "W"
+
+msgid "M"
+msgstr "M"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "User"
+msgstr "ผู้ใช้"
+
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+msgid "Demo"
+msgstr "สาธิต"
+
+msgid "Real"
+msgstr "จริง"
+
+#, csharp-format
+msgid "Data series #{0}"
+msgstr "ชุดข้อมูล #{0}"
+
+#, csharp-format
+msgid "'{0}' data series"
+msgstr "ชุดข้อมูล '{0}'"
+
+#, csharp-format
+msgid "Level data series #{0}"
+msgstr "ชุดข้อมูลระดับ #{0}"
+
+msgid "Instance name"
+msgstr "ชื่ออินสแตนซ์"
+
+msgid "General"
+msgstr "ทั่วไป"
+
+msgid "Solid"
+msgstr "ของแข็ง"
+
+msgid "Dash"
+msgstr "โผ"
+
+msgid "Dot"
+msgstr "จุด"
+
+msgid "Dash dot"
+msgstr "จุดประ"
+
+msgid "Histogramm"
+msgstr "ฮิสโตแกรม"
+
+msgid "Points"
+msgstr "แต้ม"
+
+msgid "Custom"
+msgstr "ธรรมเนียม"
+
+msgid "Input parameters"
+msgstr "พารามิเตอร์อินพุต"
+
+msgid "Connection finished"
+msgstr "การเชื่อมต่อเสร็จสิ้น"
+
+msgid "Connection lost"
+msgstr "การเชื่อมต่อขาดหาย"
+
+msgid "Order created/canceled/replaced"
+msgstr "สร้าง/ยกเลิก/แทนที่คําสั่งซื้อแล้ว"
+
+msgid "Order filled"
+msgstr "คําสั่งซื้อที่กรอกแล้ว"
+
+msgid "Order rejected"
+msgstr "คําสั่งซื้อถูกปฏิเสธ"
+
+msgid "Position closed"
+msgstr "ตําแหน่งที่ปิดแล้ว"
+
+msgid "Default alert"
+msgstr "การแจ้งเตือนเริ่มต้น"
+
+msgid "Update Available"
+msgstr "มีการอัปเดต"
+
+msgid "Bid"
+msgstr "ประมูล"
+
+msgid "Ask"
+msgstr "ถาม"
+
+msgid "Midpoint"
+msgstr "จุดกึ่งกลาง"
+
+msgid "Last"
+msgstr "สุดท้าย"
+
+msgid "Bid/Ask"
+msgstr "เสนอซื้อ/เสนอขาย"
+
+msgid "Mark"
+msgstr "รอย"
+
+msgid "Exception"
+msgstr "ข้อยกเว้น"
+
+msgid "None"
+msgstr "ไม่มีใคร"
+
+msgid "Buy"
+msgstr "ซื้อ"
+
+msgid "Sell"
+msgstr "ขาย"
+
+msgid "Not set"
+msgstr "ไม่ได้ตั้งค่า"
+
+msgid "Up"
+msgstr "ขึ้น"
+
+msgid "Down"
+msgstr "ลง"
+
+msgid "Compare to previous"
+msgstr "เปรียบเทียบกับก่อนหน้า"
+
+msgid "By sign"
+msgstr "โดยลงชื่อ"
+
+msgid "="
+msgstr "="
+
+msgid "!="
+msgstr "!="
+
+msgid "Contains"
+msgstr "ประกอบ ด้วย"
+
+msgid "Not contains"
+msgstr "ไม่มี"
+
+msgid ">"
+msgstr ">"
+
+msgid ">="
+msgstr ">="
+
+msgid "<"
+msgstr "<"
+
+msgid "<="
+msgstr "<="
+
+msgid "Cross"
+msgstr "ข้าม"
+
+msgid "Cross Above"
+msgstr "ข้ามด้านบน"
+
+msgid "Cross Below"
+msgstr "ข้ามด้านล่าง"
+
+msgid "Full chart range"
+msgstr "ช่วงแผนภูมิเต็ม"
+
+msgid "Daily"
+msgstr "ทุกวัน"
+
+msgid "Weekly"
+msgstr "รายสัปดาห์"
+
+msgid "Loading volume analysis data..."
+msgstr "กําลังโหลดข้อมูลการวิเคราะห์ปริมาณ..."
+
+msgid "Bar style"
+msgstr "สไตล์บาร์"
+
+msgid "Histogram style"
+msgstr "สไตล์ฮิสโตแกรม"
+
+msgid "Main line style"
+msgstr "สไตล์เส้นหลัก"
+
+msgid "Extend line style"
+msgstr "ขยายสไตล์เส้น"
+
+msgid "Show line label"
+msgstr "แสดงป้ายชื่อบรรทัด"
+
+msgid "Font"
+msgstr "แบบอักษร"
+
+msgid "Loading data..."
+msgstr "กําลังโหลดข้อมูล..."
+
+msgid "Line style"
+msgstr "สไตล์เส้น"
+
+msgid "Show labels"
+msgstr "แสดงป้ายชื่อ"
+
+msgid "Label font"
+msgstr "แบบอักษรป้ายชื่อ"
+
+msgid "Regular bullish line style"
+msgstr "สไตล์เส้นรั้นปกติ"
+
+msgid "Hidden bullish line style"
+msgstr "สไตล์เส้นรั้นที่ซ่อนอยู่"
+
+msgid "Regular bearish line style"
+msgstr "สไตล์เส้นขาลงปกติ"
+
+msgid "Hidden bearish line style"
+msgstr "สไตล์เส้นหมีที่ซ่อนอยู่"
+
+msgid "Oscillator"
+msgstr "ออสซิลเลเตอร์"
+
+msgid "Mode for the RSI line"
+msgstr "โหมดสําหรับสาย RSI"
+
+msgid "Volume Impact"
+msgstr "ผลกระทบปริมาณ"
+
+msgid "Back"
+msgstr "ย้อนกลับ"
+
+msgid "Visual style"
+msgstr "สไตล์ภาพ"
+
+msgid "Lines style"
+msgstr "สไตล์เส้น"
+
+msgid "Time frame"
+msgstr "กรอบเวลา"
+
+msgid "Enable alerts"
+msgstr "เปิดใช้งานการแจ้งเตือน"
+
+msgid "Enable sound alert"
+msgstr "เปิดใช้งานเสียงเตือน"
+
+msgid "Enable box alert"
+msgstr "เปิดใช้งานการแจ้งเตือนกล่อง"
+
+msgid "On high/low"
+msgstr "สูง/ต่ํา"
+
+msgid "On current bar"
+msgstr "บนแถบปัจจุบัน"
+
+msgid "Period"
+msgstr "ช่วง"
+
+msgid "Dev step left part"
+msgstr "ส่วนซ้ายของขั้นตอน Dev"
+
+msgid "Dev step right part"
+msgstr "ขั้นตอน Dev ส่วนขวา"
+
+msgid "Low"
+msgstr "ต่ํา"
+
+msgid "High"
+msgstr "สูง"
+
+msgid "Enable alert"
+msgstr "เปิดใช้งานการแจ้งเตือน"
+
+msgid "Data type"
+msgstr "ชนิดข้อมูล"
+
+msgid "Cumulative"
+msgstr "สะสม"
+
+msgid "Imbalance, %"
+msgstr "ความไม่สมดุล, %"
+
+msgid "Histogram colors"
+msgstr "สีฮิสโตแกรม"
+
+msgid "Area colors"
+msgstr "สีพื้นที่"
+
+msgid "Color"
+msgstr "สี"
+
+msgid "Stop loss"
+msgstr "หยุดการสูญเสีย"
+
+msgid "Take profit"
+msgstr "ทํากําไร"
+
+msgid "Is trailing"
+msgstr "กําลังตามหลัง"
+
+msgid "Simple SL/TP"
+msgstr "SL /TP อย่างง่าย"
+
+msgid "Multiple brackets"
+msgstr "วงเล็บเหลี่ยมหลายอัน"
+
+msgid "Offset"
+msgstr "ออฟเซ็ต"
+
+msgid "Percentage"
+msgstr "อัตราร้อยละ"
+
+msgid "Absolute"
+msgstr "สมบูรณ์"
+
+msgid "Order price specification"
+msgstr "ข้อกําหนดราคาสั่งซื้อ"
+
+msgid "Type of closing orders"
+msgstr "ประเภทของคําสั่งปิด"
+
+msgid "Orders placement mode"
+msgstr "โหมดการวางคําสั่งซื้อ"
+
+msgid "Initial"
+msgstr "เบื้องต้น"
+
+msgid "Whole position"
+msgstr "ทั้งตําแหน่ง"
+
+msgid "Closing quantity"
+msgstr "ปริมาณการปิดบัญชี"
+
+msgid "Release time"
+msgstr "เวลาวางจําหน่าย"
+
+msgid "Time:"
+msgstr "เวลา:"
+
+msgid "MIS"
+msgstr "มิส"
+
+msgid "CNC"
+msgstr "ซีเอ็นซี"
+
+msgid "NRNL"
+msgstr "เอ็นอาร์เอ็นแอล"
+
+msgid "Strategy is ready"
+msgstr "กลยุทธ์พร้อมแล้ว"
+
+msgid "Waiting for indicator calculation finished"
+msgstr "รอการคํานวณตัวบ่งชี้เสร็จสิ้น"
+
+msgid "Waiting for strategy start time"
+msgstr "รอเวลาเริ่มกลยุทธ์"
+
+msgid "Find entry point"
+msgstr "ค้นหาจุดเริ่มต้น"
+
+msgid "Waiting for the position to be placed"
+msgstr "รอตําแหน่งที่จะวาง"
+
+msgid "Control position. Check SL/TP/TS"
+msgstr "ตําแหน่งควบคุม ตรวจสอบ SL / TP / TS"
+
+msgid "Waiting for the position to be partially closed"
+msgstr "รอให้ตําแหน่งถูกปิดบางส่วน"
+
+msgid "Waiting for the position to be fully closed"
+msgstr "รอให้ตําแหน่งถูกปิดจนสุด"
+
+msgid "Stop trading"
+msgstr "หยุดการซื้อขาย"
+
+msgid "Lot"
+msgstr "ที่ดิน"
+
+msgid "Place order"
+msgstr "สั่งซื้อ"
+
+msgid "Close all positions"
+msgstr "ปิดทุกตําแหน่ง"
+
+msgid "Run order placement strategy"
+msgstr "เรียกใช้กลยุทธ์การวางคําสั่งซื้อ"
+
+msgid "Run strategy"
+msgstr "เรียกใช้กลยุทธ์"
+
+msgid "Change symbol"
+msgstr "เปลี่ยนสัญลักษณ์"
+
+msgid "Open template"
+msgstr "เปิดเทมเพลต"
+
+msgid "Add indicator"
+msgstr "เพิ่มตัวบ่งชี้"
+
+msgid "Apply symbol list"
+msgstr "นํารายการสัญลักษณ์ไปใช้"
+
+msgid "Open plugin"
+msgstr "เปิดปลั๊กอิน"
+
+msgid "Apply aggregation"
+msgstr "ใช้การรวม"
+
+msgid "Add drawing"
+msgstr "เพิ่มรูปวาด"
+
+msgid "Name"
+msgstr "ชื่อ"
+
+msgid "Group"
+msgstr "กลุ่ม"
+
+msgid "SortIndex"
+msgstr "เรียงลําดับดัชนี"
+
+msgid "Chart"
+msgstr "แผนภูมิ"
+
+msgid "OE (Buy)"
+msgstr "OE (ซื้อ)"
+
+msgid "OE (Sell)"
+msgstr "OE (ขาย)"
+
+msgid "Time & Sales"
+msgstr "เวลา & การขาย"
+
+msgid "Market Depth"
+msgstr "ความลึกของตลาด"
+
+msgid "DOM Trader"
+msgstr "DOM เทรดเดอร์"
+
+msgid "Open panel"
+msgstr "เปิดแผง"
+
+msgid "Button text"
+msgstr "ข้อความปุ่ม"
+
+msgid "Maximize"
+msgstr "เพิ่ม"
+
+msgid "Restore"
+msgstr "ซ่อมแซม"
+
+msgid "Custom title"
+msgstr "ชื่อที่กําหนดเอง"
+
+#, csharp-format
+msgid "{0} has not supported {1} event"
+msgstr "{0}ไม่รองรับกิจกรรม{1}"
+
+msgid "Link"
+msgstr "ลิงก์"
+
+msgid "Create bind"
+msgstr "สร้างการผูก"
+
+msgid "Create panel"
+msgstr "สร้างแผง"
+
+msgid "Order entry"
+msgstr "รายการสั่งซื้อ"
+
+msgid "DOM Surface"
+msgstr "พื้นผิว DOM"
+
+msgid "TPO Chart"
+msgstr "แผนภูมิ TPO"
+
+msgid "Symbol Info"
+msgstr "ข้อมูลสัญลักษณ์"
+
+msgid "Duplicate panel"
+msgstr "แผงที่ซ้ํากัน"
+
+msgid "Save as template"
+msgstr "บันทึกเป็นเทมเพลต"
+
+msgid "Apply template"
+msgstr "นําเทมเพลตไปใช้"
+
+msgid "Set as default"
+msgstr "ตั้งค่าเป็นค่าเริ่มต้น"
+
+msgid "Always On Top"
+msgstr "อยู่ด้านบนเสมอ"
+
+msgid "Setup Actions"
+msgstr "การดําเนินการตั้งค่า"
+
+msgid "Export Data"
+msgstr "ส่งออกข้อมูล"
+
+msgid "Make screenshot"
+msgstr "สร้างภาพหน้าจอ"
+
+msgid "Help"
+msgstr "วิธีใช้"
+
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+msgid "Actions"
+msgstr "การดําเนินการ"
+
+msgid "Duplicate action"
+msgstr "การกระทําที่ซ้ํากัน"
+
+msgid "Are you sure want to delete this item?"
+msgstr "คุณแน่ใจหรือว่าต้องการลบรายการนี้?"
+
+msgid "Remove action"
+msgstr "เอาการดําเนินการออก"
+
+msgid "Filter"
+msgstr "กรอง"
+
+msgid "Press Esc to exit Fullscreen mode"
+msgstr "กด Esc เพื่อออกจากโหมดเต็มหน้าจอ"
+
+msgid "HISTORICAL SYMBOL"
+msgstr "สัญลักษณ์ทางประวัติศาสตร์"
+
+msgid "EMULATOR"
+msgstr "จำลอง"
+
+msgid "SIMULATOR"
+msgstr "จำลอง"
+
+msgid "REPLAY"
+msgstr "เล่นซ้ํา"
+
+msgid "BACKTESTER"
+msgstr "แบ็คเทสเตอร์"
+
+msgid "Close {this.PluginInfo.Title} ?"
+msgstr "ปิด {นี้ ปลั๊กอินInfo.Title}?"
+
+msgid "Templates"
+msgstr "แม่ แบบ"
+
+msgid "Analytics"
+msgstr "วิเคราะห์"
+
+msgid "Trading"
+msgstr "การซื้อขาย"
+
+msgid "Portfolio"
+msgstr "ผลงาน"
+
+msgid "Informational"
+msgstr "ข้อมูล"
+
+msgid "Misc"
+msgstr "เบ็ดเตล็ด"
+
+msgid "Hidden"
+msgstr "ซ่อน"
+
+msgid "Hotkeys"
+msgstr "ปุ่มลัด"
+
+msgid "View"
+msgstr "ทิวทัศน์"
+
+msgid "Columns"
+msgstr "คอลัมน์"
+
+msgid "1 hour"
+msgstr "1 ชั่วโมง"
+
+msgid "3 hours"
+msgstr "3 ชั่วโมง"
+
+msgid "6 hours"
+msgstr "6 ชั่วโมง"
+
+msgid "12 hours"
+msgstr "12 ชั่วโมง"
+
+msgid "1 day"
+msgstr "1 วัน"
+
+msgid "3 days"
+msgstr "3 วัน"
+
+msgid "5 days"
+msgstr "5 วัน"
+
+msgid "10 days"
+msgstr "10 วัน"
+
+msgid "20 days"
+msgstr "20 วัน"
+
+msgid "1 month"
+msgstr "1 เดือน"
+
+msgid "3 month"
+msgstr "3 เดือน"
+
+msgid "6 month"
+msgstr "6 เดือน"
+
+msgid "1 year"
+msgstr "1 ปี"
+
+msgid "3 years"
+msgstr "3 ปี"
+
+msgid "5 years"
+msgstr "5 ปี"
+
+msgid "10 years"
+msgstr "10 ปี"
+
+msgid "20 years"
+msgstr "20 ปี"
+
+msgid "50 years"
+msgstr "50 ปี"
+
+msgid "Show"
+msgstr "แสดง"
+
+msgid "Use custom tick size"
+msgstr "ใช้ขนาดเห็บที่กําหนดเอง"
+
+msgid "Custom tick size"
+msgstr "ขนาดเห็บที่กําหนดเอง"
+
+msgid "Time zone"
+msgstr "เขตเวลา"
+
+msgid "Show out of session history"
+msgstr "แสดงประวัติเซสชันที่ไม่เต็ม"
+
+msgid "Sessions template"
+msgstr "เทมเพลตเซสชัน"
+
+msgid "Drawing template"
+msgstr "เทมเพลตการวาดรูป"
+
+msgid "Indicator template"
+msgstr "เทมเพลตตัวบ่งชี้"
+
+msgid "Create template"
+msgstr "สร้างเทมเพลต"
+
+msgid "Symbol"
+msgstr "สัญลักษณ์"
+
+msgid "Main scale"
+msgstr "มาตราส่วนหลัก"
+
+msgid "Separate scale"
+msgstr "เครื่องชั่งแยกต่างหาก"
+
+msgid "Price scaling"
+msgstr "การปรับขนาดราคา"
+
+msgid "Show price marker"
+msgstr "แสดงเครื่องหมายราคา"
+
+msgid "Over chart"
+msgstr "มากกว่าแผนภูมิ"
+
+msgid "On chart background"
+msgstr "บนพื้นหลังแผนภูมิ"
+
+#, csharp-format
+msgid "Sub window {0}"
+msgstr "{0}หน้าต่างย่อย"
+
+msgid "New sub window"
+msgstr "หน้าต่างย่อยใหม่"
+
+msgid "Position on chart"
+msgstr "ตําแหน่งบนแผนภูมิ"
+
+msgid "Bar"
+msgstr "บาร์"
+
+msgid "B"
+msgstr "B"
+
+msgid "Date"
+msgstr "วันที่"
+
+msgid "Time"
+msgstr "เวลา"
+
+msgid "T"
+msgstr "T"
+
+msgid "Open"
+msgstr "เปิด"
+
+msgid "O"
+msgstr "O"
+
+msgid "Close"
+msgstr "ปิด"
+
+msgid "C"
+msgstr "C"
+
+msgid "L"
+msgstr "L"
+
+msgid "Change, %"
+msgstr "เปลี่ยน, %"
+
+msgid "Ch"
+msgstr "ช."
+
+msgid "Ticks"
+msgstr "เห็บ"
+
+msgid "Tk"
+msgstr "ทีเค"
+
+msgid "Volume"
+msgstr "ปริมาตร"
+
+msgid "V"
+msgstr "V"
+
+msgid "A"
+msgstr "A"
+
+msgid "Open interest"
+msgstr "เปิดความสนใจ"
+
+msgid "Oi"
+msgstr "โออิ"
+
+msgid "Fr"
+msgstr "ฟ."
+
+msgid "Funding rates"
+msgstr "อัตราเงินทุน"
+
+msgid "Hide"
+msgstr "ซ่อน"
+
+msgid "Show in short mode"
+msgstr "แสดงในโหมดสั้น"
+
+msgid "Separate window"
+msgstr "หน้าต่างแยกต่างหาก"
+
+msgid "Display mode"
+msgstr "โหมดการแสดงผล"
+
+msgid "Info window"
+msgstr "หน้าต่างข้อมูล"
+
+msgid "Settlement"
+msgstr "นิคม"
+
+msgid "Visible"
+msgstr "ปรากฏ"
+
+msgid "Duplicate"
+msgstr "สำเนา"
+
+msgid "Remove"
+msgstr "ถอด"
+
+msgid "Edit"
+msgstr "แก้ไข"
+
+msgid "Source code"
+msgstr "ซอร์สโค้ด"
+
+msgid "Apply"
+msgstr "ใช้"
+
+msgid "Rename"
+msgstr "ตั้งชื่อใหม่"
+
+msgid "Set active"
+msgstr "ตั้งค่าใช้งานอยู่"
+
+msgid "Change visibility"
+msgstr "เปลี่ยนการมองเห็น"
+
+msgid "Auto"
+msgstr "รถ"
+
+msgid "Auto centered"
+msgstr "จัดกึ่งกลางอัตโนมัติ"
+
+msgid "Manual"
+msgstr "ด้วยตนเอง"
+
+msgid "Fit indicators"
+msgstr "อินดิเคเตอร์ความพอดี"
+
+msgid "Fit orders/positions"
+msgstr "พอดีกับคําสั่งซื้อ/ตําแหน่ง"
+
+msgid "Fit drawings"
+msgstr "พอดีภาพวาด"
+
+msgid "Relative"
+msgstr "ญาติ"
+
+msgid "Logarithmic"
+msgstr "ลอการิทึม"
+
+msgid "Grid"
+msgstr "ตาราง"
+
+msgid "Price (horizontal)"
+msgstr "ราคา (แนวนอน)"
+
+msgid "Appearance"
+msgstr "ลักษณะ"
+
+msgid "Text color"
+msgstr "สีข้อความ"
+
+msgid "Axis"
+msgstr "แกน"
+
+msgid "Axis background"
+msgstr "พื้นหลังแกน"
+
+msgid "Week"
+msgstr "อาทิตย์"
+
+msgid "Month"
+msgstr "เดือน"
+
+msgid "Year"
+msgstr "ปี"
+
+msgid "Show days separator"
+msgstr "แสดงตัวคั่นวัน"
+
+msgid "Show weeks separator"
+msgstr "แสดงตัวคั่นสัปดาห์"
+
+msgid "Show months separator"
+msgstr "แสดงตัวคั่นเดือน"
+
+msgid "Show years separator"
+msgstr "แสดงตัวคั่นปี"
+
+msgid "Important dates font"
+msgstr "แบบอักษรวันที่สําคัญ"
+
+msgid "Font color"
+msgstr "สีแบบอักษร"
+
+msgid "Highlight date"
+msgstr "วันที่ไฮไลต์"
+
+msgid "Day separators"
+msgstr "ตัวคั่นวัน"
+
+msgid "Week separators"
+msgstr "ตัวคั่นสัปดาห์"
+
+msgid "Month separators"
+msgstr "ตัวคั่นเดือน"
+
+msgid "Year separators"
+msgstr "ตัวคั่นปี"
+
+msgid "Time (vertical)"
+msgstr "เวลา (แนวตั้ง)"
+
+msgid "Time scale"
+msgstr "มาตราส่วนเวลา"
+
+msgid "No level1 quote"
+msgstr "ไม่มีใบเสนอราคาระดับ 1"
+
+#, csharp-format
+msgid "Buy {0} {1}"
+msgstr "ซื้อ{0} {1}"
+
+#, csharp-format
+msgid "Sell {0} {1}"
+msgstr "ขาย{0} {1}"
+
+msgid "Synchronizing trades"
+msgstr "การซิงโครไนซ์การซื้อขาย"
+
+msgid "Modify"
+msgstr "ดัดแปลง"
+
+msgid "Modify SL to breakeven"
+msgstr "แก้ไข SL เพื่อเบรกเว่น"
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid "Change to Market"
+msgstr "เปลี่ยนเป็นตลาด"
+
+msgid "Trade through Order entry"
+msgstr "เทรดผ่านรายการสั่งซื้อ"
+
+msgid "Single order"
+msgstr "ลําดับเดียว"
+
+msgid "Multiple orders"
+msgstr "คําสั่งซื้อหลายรายการ"
+
+msgid "Mouse trading mode"
+msgstr "โหมดการซื้อขายเมาส์"
+
+msgid "Trading zone color"
+msgstr "สีของโซนการซื้อขาย"
+
+msgid "Show orders"
+msgstr "แสดงคําสั่งซื้อ"
+
+msgid "Show positions"
+msgstr "แสดงตําแหน่ง"
+
+msgid "Currency"
+msgstr "เงินตรา"
+
+msgid "PnL type:"
+msgstr "ประเภท PnL:"
+
+msgid "Show Stop loss & Take profit"
+msgstr "แสดงหยุดการขาดทุน & ทํากําไร"
+
+msgid "Tile background"
+msgstr "พื้นหลังไทล์"
+
+msgid "Tile color"
+msgstr "สีกระเบื้อง"
+
+msgid "Tile hovered color"
+msgstr "สีที่โฮเวอร์ไทล์"
+
+msgid "Tile font color"
+msgstr "สีฟอนต์ของไทล์"
+
+msgid "Text"
+msgstr "ข้อความ"
+
+msgid "Tile hovered text color"
+msgstr "สีข้อความที่โฮเวอร์ไทล์"
+
+msgid "Show price label"
+msgstr "แสดงป้ายราคา"
+
+msgid "Price label background"
+msgstr "พื้นหลังป้ายชื่อราคา"
+
+msgid "Price label font color"
+msgstr "สีแบบอักษรป้ายชื่อราคา"
+
+msgid "Show price scale marker"
+msgstr "แสดงเครื่องหมายมาตราส่วนราคา"
+
+msgid "Price scale marker color"
+msgstr "สีมาร์กเกอร์มาตราส่วนราคา"
+
+msgid "Price scale marker font color"
+msgstr "สีแบบอักษรเครื่องหมายมาตราส่วนราคา"
+
+msgid "Show price line"
+msgstr "แสดงเส้นราคา"
+
+msgid "Price line style"
+msgstr "สไตล์เส้นราคา"
+
+msgid "Show trades"
+msgstr "แสดงการซื้อขาย"
+
+msgid "Marker color"
+msgstr "สีมาร์กเกอร์"
+
+msgid "Marker"
+msgstr "สัญลักษณ์"
+
+msgid "Marker + Label"
+msgstr "เครื่องหมาย + ฉลาก"
+
+msgid "Display type"
+msgstr "ประเภทการแสดงผล"
+
+msgid "Small"
+msgstr "เล็ก"
+
+msgid "Middle"
+msgstr "กลาง"
+
+msgid "Large"
+msgstr "ใหญ่"
+
+msgid "Size"
+msgstr "ขนาด"
+
+msgid "Label Buy style"
+msgstr "สไตล์การซื้อฉลาก"
+
+msgid "Label Sell style"
+msgstr "สไตล์การขายฉลาก"
+
+msgid "Tile colors"
+msgstr "สีกระเบื้อง"
+
+msgid "Tile hovered colors"
+msgstr "สีที่โฮเวอร์ไทล์"
+
+msgid "Tile font colors"
+msgstr "สีฟอนต์ของไทล์"
+
+msgid "Tile hovered text colors"
+msgstr "สีข้อความโฮเวอร์ไทล์"
+
+msgid "Price label font"
+msgstr "แบบอักษรป้ายชื่อราคา"
+
+msgid "Price scale marker colors"
+msgstr "สีมาร์กเกอร์มาตราส่วนราคา"
+
+msgid "Price scale marker font"
+msgstr "แบบอักษรเครื่องหมายมาตราส่วนราคา"
+
+msgid "Price scale marker font colors"
+msgstr "สีแบบอักษรเครื่องหมายมาตราส่วนราคา"
+
+msgid "Price line colors"
+msgstr "สีของเส้นราคา"
+
+msgid "Stroke color"
+msgstr "สีจังหวะ"
+
+msgid "Top color"
+msgstr "สีด้านบน"
+
+msgid "Bottom color"
+msgstr "สีด้านล่าง"
+
+msgid "Fill color"
+msgstr "สีเติม"
+
+msgid "Line type"
+msgstr "ประเภทเส้น"
+
+msgid "Line size"
+msgstr "ขนาดเส้น"
+
+msgid "Move to background"
+msgstr "ย้ายไปยังพื้นหลัง"
+
+msgid "Clone mode"
+msgstr "โหมดโคลน"
+
+msgid "Lock location"
+msgstr "ล็อคตําแหน่ง"
+
+msgid "Font size"
+msgstr "ขนาดตัวอักษร"
+
+msgid "Bars"
+msgstr "บาร์"
+
+msgid "Price, %"
+msgstr "ราคา, %"
+
+msgid "Price range"
+msgstr "ช่วงราคา"
+
+msgid "Line"
+msgstr "สาย"
+
+msgid "Background"
+msgstr "พื้นหลัง"
+
+msgid "Labels font"
+msgstr "แบบอักษรป้ายชื่อ"
+
+msgid "Values font"
+msgstr "แบบอักษรค่า"
+
+msgid "Info area backbround"
+msgstr "แบ็คบลัดพื้นที่ข้อมูล"
+
+msgid "Labels"
+msgstr "ป้าย ชื่อ"
+
+msgid "Values"
+msgstr "ค่า"
+
+msgid "Info area style"
+msgstr "สไตล์พื้นที่ข้อมูล"
+
+msgid "Values to show"
+msgstr "ค่าที่จะแสดง"
+
+msgid "Availability"
+msgstr "ความสะดวก"
+
+msgid "Imbalance ratio"
+msgstr "อัตราส่วนความไม่สมดุล"
+
+msgid "Show stacked imbalances"
+msgstr "แสดงความไม่สมดุลแบบเรียงซ้อน"
+
+msgid "Zones count"
+msgstr "จํานวนโซน"
+
+msgid "Filtered volume"
+msgstr "ปริมาณการกรอง"
+
+msgid "Highlight zeros"
+msgstr "เน้นศูนย์"
+
+msgid "Highlight unfinished auctions"
+msgstr "ไฮไลต์การประมูลที่ยังไม่เสร็จ"
+
+msgid "Show cluster volume"
+msgstr "แสดงระดับเสียงของคลัสเตอร์"
+
+msgid "Show cluster delta"
+msgstr "แสดงเดลต้าคลัสเตอร์"
+
+msgid "Show high/low ratio"
+msgstr "แสดงอัตราส่วนสูง/ต่ํา"
+
+msgid "Arrow direction"
+msgstr "ทิศทางลูกศร"
+
+msgid "Min trade volume"
+msgstr "ปริมาณการซื้อขายขั้นต่ํา"
+
+msgid "Max trade volume"
+msgstr "ปริมาณการซื้อขายสูงสุด"
+
+msgid "Total volume"
+msgstr "ปริมาณรวม"
+
+msgid "Time interval, sec"
+msgstr "ช่วงเวลา วินาที"
+
+msgid "Basis volume interval, sec"
+msgstr "ช่วงระดับเสียงพื้นฐาน วินาที"
+
+msgid "Max zone height, ticks"
+msgstr "ความสูงของโซนสูงสุดเห็บ"
+
+msgid "Min zone height, ticks"
+msgstr "ความสูงของโซนขั้นต่ําเห็บ"
+
+msgid "Filter by Delta, %"
+msgstr "กรองตามเดลต้า, %"
+
+msgid "Filter by Basis ratio, %"
+msgstr "กรองตามอัตราส่วนพื้นฐาน, %"
+
+msgid "Play alert sound"
+msgstr "เล่นเสียงเตือน"
+
+msgid "Area color"
+msgstr "สีพื้นที่"
+
+msgid "Highlight area color"
+msgstr "สีพื้นที่ไฮไลต์"
+
+msgid "Show Market depth"
+msgstr "แสดงความลึกของตลาด"
+
+msgid "Coloring style"
+msgstr "สไตล์การระบายสี"
+
+msgid "Level2 level count"
+msgstr "จํานวนระดับระดับ 2"
+
+msgid "Custom step (ticks)"
+msgstr "ขั้นตอนที่กําหนดเอง (เห็บ)"
+
+msgid "Delta calculation type"
+msgstr "ชนิดการคํานวณเดลต้า"
+
+msgid "Cumulative Delta reset"
+msgstr "การรีเซ็ตเดลต้าสะสม"
+
+msgid "Cluster"
+msgstr "พวง"
+
+msgid "Step profile"
+msgstr "โปรไฟล์ขั้นตอน"
+
+msgid "Left profile"
+msgstr "โปรไฟล์ด้านซ้าย"
+
+msgid "Right profile"
+msgstr "โปรไฟล์ขวา"
+
+msgid "Time statistics"
+msgstr "สถิติเวลา"
+
+msgid "Time histogram"
+msgstr "ฮิสโตแกรมเวลา"
+
+msgid "VWAP"
+msgstr "วีดับบลิวพี"
+
+msgid "Single"
+msgstr "โสด"
+
+msgid "Multiple"
+msgstr "หลายเท่า"
+
+msgid "Tick"
+msgstr "เห็บ"
+
+msgid "Current TF"
+msgstr "TF ปัจจุบัน"
+
+msgid "HL/2"
+msgstr "HL/2"
+
+msgid "HLC/3"
+msgstr "เอชแอลซี/3"
+
+msgid "OHLC/4"
+msgstr "โอเอชแอลซี/4"
+
+msgid "Price type"
+msgstr "ประเภทราคา"
+
+msgid "VWAP line"
+msgstr "สาย VWAP"
+
+msgid "Forward extensions"
+msgstr "ส่วนขยายไปข้างหน้า"
+
+msgid "Enable forward extensions"
+msgstr "เปิดใช้ส่วนขยายการส่งต่อ"
+
+msgid "Forward extensions (past VWAPs)"
+msgstr "ส่วนขยายไปข้างหน้า (VWAPs ที่ผ่านมา)"
+
+msgid "Forward extensions type"
+msgstr "ประเภทส่วนขยายไปข้างหน้า"
+
+msgid "Standart deviation"
+msgstr "ความเบี่ยงเบนแบบสแตนดาร์ต"
+
+msgid "Enable standard deviations"
+msgstr "เปิดใช้งานส่วนเบี่ยงเบนมาตรฐาน"
+
+msgid "Calculation type"
+msgstr "ชนิดการคํานวณ"
+
+msgid "Multiplier"
+msgstr "ตัวคูณ"
+
+msgid "Deviations value"
+msgstr "ค่าเบี่ยงเบน"
+
+msgid "Deviation line style"
+msgstr "สไตล์เส้นเบี่ยงเบน"
+
+msgid "Maximum permissible deviation"
+msgstr "ค่าเบี่ยงเบนสูงสุดที่อนุญาต"
+
+msgid "Enable permissible deviation"
+msgstr "เปิดใช้งานการเบี่ยงเบนที่อนุญาต"
+
+msgid "Volume aggregation does not support Time Statistic"
+msgstr "การรวมไดรฟ์ข้อมูลไม่รองรับสถิติเวลา"
+
+#, csharp-format
+msgid "{0} color"
+msgstr "สี{0}"
+
+msgid "Delta colors"
+msgstr "สีของเดลต้า"
+
+msgid "Width of histogram, %"
+msgstr "ความกว้างของฮิสโตแกรม, %"
+
+msgid "Periods"
+msgstr "รอบ ระยะ เวลา"
+
+msgid "Step period"
+msgstr "ระยะเวลาขั้นตอน"
+
+msgid "Step coefficient"
+msgstr "ค่าสัมประสิทธิ์ขั้นตอน"
+
+msgid "Volume aggregation does not support Time Histogram"
+msgstr "การรวมไดรฟ์ข้อมูลไม่สนับสนุนฮิสโตแกรมเวลา"
+
+msgid "Height of histogram, %"
+msgstr "ความสูงของฮิสโตแกรม, %"
+
+msgid "Value label"
+msgstr "ป้ายชื่อค่า"
+
+msgid "Volume color"
+msgstr "สีปริมาณ"
+
+msgid "Trades color"
+msgstr "สีการค้า"
+
+msgid "Volume aggregation does not support Cluster chart"
+msgstr "การรวมไดรฟ์ข้อมูลไม่สนับสนุนแผนภูมิคลัสเตอร์"
+
+msgid "Coloring by volume"
+msgstr "การระบายสีตามปริมาตร"
+
+msgid "Coloring by ticks"
+msgstr "ระบายสีตามเห็บ"
+
+msgid "Coloring by delta"
+msgstr "ระบายสีโดยเดลต้า"
+
+msgid "Coloring by trades"
+msgstr "ระบายสีโดยการซื้อขาย"
+
+msgid "Histogram"
+msgstr "ฮิสโตแกรม"
+
+msgid "Double"
+msgstr "คู่"
+
+msgid "Imbalance"
+msgstr "ความไม่สมดุล"
+
+#, csharp-format
+msgid "Enable {0} view"
+msgstr "เปิดใช้งานมุมมอง{0}"
+
+msgid "Type"
+msgstr "ประเภท"
+
+msgid "Data type #1"
+msgstr "ประเภทข้อมูล #1"
+
+msgid "Data type #2"
+msgstr "ประเภทข้อมูล #2"
+
+msgid "Cluster visualization"
+msgstr "การแสดงภาพคลัสเตอร์"
+
+msgid "Show POC"
+msgstr "แสดง POC"
+
+msgid "POC type"
+msgstr "ประเภท POC"
+
+msgid "Draw grid"
+msgstr "วาดเส้นตาราง"
+
+msgid "Minute"
+msgstr "นาที"
+
+msgid "Hour"
+msgstr "ชั่วโมง"
+
+msgid "Enabled"
+msgstr "เปิด"
+
+msgid "Gradient"
+msgstr "ไล่ ระดับ สี"
+
+msgid "Fixed"
+msgstr "ตายตัว"
+
+msgid "Coloring mode"
+msgstr "โหมดระบายสี"
+
+msgid "Default colors"
+msgstr "สีเริ่มต้น"
+
+msgid "Coloring for various levels"
+msgstr "การระบายสีสําหรับระดับต่างๆ"
+
+msgid "Default text color"
+msgstr "สีข้อความเริ่มต้น"
+
+msgid "Pos"
+msgstr "พอส"
+
+msgid "Neg"
+msgstr "เน็ก"
+
+msgid "Coloring for positive delta levels"
+msgstr "การระบายสีสําหรับระดับเดลต้าที่เป็นบวก"
+
+msgid "Coloring for negative levels"
+msgstr "การระบายสีสําหรับระดับลบ"
+
+msgid "Histogram position"
+msgstr "ตําแหน่งฮิสโตแกรม"
+
+msgid "Histogram label position"
+msgstr "ตําแหน่งฉลากฮิสโตแกรม"
+
+msgid "Trade color"
+msgstr "สีการค้า"
+
+msgid "Show profile"
+msgstr "แสดงโปรไฟล์"
+
+msgid "Extend POC until intersection"
+msgstr "ขยาย POC จนถึงทางแยก"
+
+msgid "Show POC ray"
+msgstr "แสดงรังสี POC"
+
+msgid "Show secondary POC"
+msgstr "แสดง POC รอง"
+
+msgid "Secondary POC colors"
+msgstr "สี POC รอง"
+
+msgid "Max allowed deviation from POC (%)"
+msgstr "ค่าเบี่ยงเบนสูงสุดที่อนุญาตจาก POC (%)"
+
+msgid "Minimum deviation from POC (ticks)"
+msgstr "ค่าเบี่ยงเบนขั้นต่ําจาก POC (เห็บ)"
+
+msgid "Show Value area"
+msgstr "แสดงพื้นที่ค่า"
+
+msgid "Value area height, %"
+msgstr "ความสูงของพื้นที่มูลค่า, %"
+
+msgid "Value area borders"
+msgstr "เส้นขอบพื้นที่ค่า"
+
+msgid "Show Totals"
+msgstr "แสดงยอดรวม"
+
+msgid "Crosshair"
+msgstr "เป้าเล็ง"
+
+msgid "Synchronize with other charts"
+msgstr "ซิงโครไนซ์กับแผนภูมิอื่นๆ"
+
+msgid "PrevSettlement"
+msgstr "PrevSettlement"
+
+msgid "Price limit"
+msgstr "จํากัดราคา"
+
+msgid "Highlight prices"
+msgstr "เน้นราคา"
+
+msgid "Day High/Low"
+msgstr "วันสูง/ต่ํา"
+
+msgid "Previous close"
+msgstr "ปิดก่อนหน้า"
+
+msgid "Price limits"
+msgstr "ขีดจํากัดราคา"
+
+msgid "End of Bar"
+msgstr "จุดสิ้นสุดของบาร์"
+
+msgid "From"
+msgstr "จาก"
+
+msgid "This bar Close"
+msgstr "แถบนี้ ปิด"
+
+msgid "This bar Open"
+msgstr "บาร์นี้เปิด"
+
+msgid "This bar High"
+msgstr "บาร์นี้สูง"
+
+msgid "This bar Low"
+msgstr "แถบนี้ต่ํา"
+
+msgid "New bar Open"
+msgstr "เปิดบาร์ใหม่"
+
+msgid "Body color"
+msgstr "สีผิวกาย"
+
+msgid "Border color"
+msgstr "สีเส้นขอบ"
+
+msgid "Wick color"
+msgstr "ไส้ตะเกียงสี"
+
+msgid "Doji"
+msgstr "โดจิ"
+
+msgid "Area"
+msgstr "บริเวณ"
+
+msgid "Line width"
+msgstr "ความกว้างของเส้น"
+
+msgid "Data style"
+msgstr "สไตล์ข้อมูล"
+
+msgid "Additional"
+msgstr "พิเศษ"
+
+msgid "Show scrollbar chart preview"
+msgstr "แสดงตัวอย่างแผนภูมิแถบเลื่อน"
+
+msgid "BUY"
+msgstr "ซื้อ"
+
+msgid "SELL"
+msgstr "ขาย"
+
+msgid "Scale marker"
+msgstr "เครื่องหมายมาตราส่วน"
+
+msgid "Scale marker with line"
+msgstr "เครื่องหมายมาตราส่วนพร้อมเส้น"
+
+msgid "Price indicator"
+msgstr "ตัวบ่งชี้ราคา"
+
+msgid "Bid marker style"
+msgstr "สไตล์เครื่องหมายราคาเสนอ"
+
+msgid "Ask marker style"
+msgstr "สไตล์เครื่องหมายถาม"
+
+msgid "Last marker style"
+msgstr "สไตล์เครื่องหมายสุดท้าย"
+
+msgid "Ask text style"
+msgstr "ถามสไตล์ข้อความ"
+
+msgid "Last text style"
+msgstr "สไตล์ข้อความล่าสุด"
+
+msgid "Bid text style"
+msgstr "รูปแบบข้อความเสนอราคา"
+
+msgid "Line with price"
+msgstr "เส้นที่มีราคา"
+
+msgid "Label"
+msgstr "ฉลาก"
+
+msgid "Spread type"
+msgstr "ประเภทสเปรด"
+
+msgid "Spread area color"
+msgstr "กระจายสีพื้นที่"
+
+msgid "Time to next bar"
+msgstr "เวลาไปยังแถบถัดไป"
+
+msgid "Height, %"
+msgstr "ความสูง, %"
+
+msgid "By bar"
+msgstr "โดยบาร์"
+
+msgid "By Difference"
+msgstr "ตามความแตกต่าง"
+
+msgid "Above/below the moving average"
+msgstr "เหนือ/ต่ํากว่าค่าเฉลี่ยเคลื่อนที่"
+
+msgid "Volume coloring scheme"
+msgstr "รูปแบบการระบายสีปริมาณ"
+
+msgid "Equal"
+msgstr "เท่ากัน"
+
+msgid "Positive"
+msgstr "โพสิทีฟ"
+
+msgid "Negative"
+msgstr "เนกาทีฟ"
+
+msgid "Show value marker on scale"
+msgstr "แสดงเครื่องหมายค่าบนมาตราส่วน"
+
+msgid "Show moving average"
+msgstr "แสดงค่าเฉลี่ยเคลื่อนที่"
+
+msgid "Line color"
+msgstr "สีเส้น"
+
+msgid "MA period"
+msgstr "ระยะเวลา MA"
+
+msgid "Zoom in"
+msgstr "ซูมเข้า"
+
+msgid "Zoom out"
+msgstr "ซูมออก"
+
+msgid "Power trades"
+msgstr "การซื้อขายพลังงาน"
+
+msgid "Label colors"
+msgstr "สีของป้ายชื่อ"
+
+msgid "Label position side"
+msgstr "ด้านตําแหน่งป้ายชื่อ"
+
+msgid "Cross type"
+msgstr "ประเภทข้าม"
+
+msgid "Disable"
+msgstr "เก"
+
+msgid "After execution"
+msgstr "หลังการประหารชีวิต"
+
+msgid "Alert text"
+msgstr "ข้อความแจ้งเตือน"
+
+msgid "Ray style"
+msgstr "สไตล์เรย์"
+
+msgid "Ray"
+msgstr "รังสี"
+
+msgid "Level options"
+msgstr "ตัวเลือกระดับ"
+
+msgid "Fibonacci levels"
+msgstr "ระดับฟีโบนักชี"
+
+msgid "Show total"
+msgstr "แสดงยอดรวม"
+
+msgid "Profile controllers style"
+msgstr "สไตล์ตัวควบคุมโปรไฟล์"
+
+msgid "Selection area"
+msgstr "พื้นที่การเลือก"
+
+msgid "Mode"
+msgstr "โหมด"
+
+msgid "Left range"
+msgstr "ช่วงซ้าย"
+
+msgid "Right range"
+msgstr "ช่วงที่เหมาะสม"
+
+msgid "Billet format type"
+msgstr "ประเภทรูปแบบบิลเล็ต"
+
+msgid "Show full arc"
+msgstr "แสดงส่วนโค้งเต็ม"
+
+msgid "Data format"
+msgstr "รูปแบบข้อมูล"
+
+msgid "Percent"
+msgstr "ร้อยละ"
+
+msgid "Fixed top"
+msgstr "ด้านบนคงที่"
+
+msgid "Fixed bottom"
+msgstr "ด้านล่างคงที่"
+
+msgid "Floating top"
+msgstr "ลอยด้านบน"
+
+msgid "Floating bottom"
+msgstr "ด้านล่างลอย"
+
+msgid "Label location"
+msgstr "ตําแหน่งป้ายกํากับ"
+
+msgid "Degree"
+msgstr "องศา"
+
+msgid "Left ray"
+msgstr "รังสีซ้าย"
+
+msgid "Right ray"
+msgstr "รังสีขวา"
+
+msgid "Reverse"
+msgstr "พลิกกลับ"
+
+msgid "Fixed left"
+msgstr "แก้ไขซ้าย"
+
+msgid "Fixed right"
+msgstr "ขวาคงที่"
+
+msgid "Floating left"
+msgstr "ลอยไปทางซ้าย"
+
+msgid "Floating right"
+msgstr "ลอยขวา"
+
+msgid "Angles"
+msgstr "มุม"
+
+msgid "Mirrored"
+msgstr "มิ เรอร์"
+
+msgid "Custom text"
+msgstr "ข้อความที่กําหนดเอง"
+
+msgid "Secondary POC line"
+msgstr "สาย POC รอง"
+
+msgid "15 minutes"
+msgstr "15 นาที"
+
+msgid "30 minutes"
+msgstr "30 นาที"
+
+msgid "Today"
+msgstr "วันนี้"
+
+msgid "Yesterday"
+msgstr "เมื่อวานนี้"
+
+msgid "Current week"
+msgstr "สัปดาห์ปัจจุบัน"
+
+msgid "Previous week"
+msgstr "สัปดาห์ก่อน"
+
+msgid "Week before previous"
+msgstr "สัปดาห์ก่อนก่อนหน้า"
+
+msgid "Last week"
+msgstr "สัปดาห์ที่แล้ว"
+
+msgid "Current month"
+msgstr "เดือนปัจจุบัน"
+
+msgid "Last month"
+msgstr "เมื่อเดือนที่แล้ว"
+
+msgid "Middle line style"
+msgstr "สไตล์เส้นกลาง"
+
+msgid "Tool colors"
+msgstr "สีของเครื่องมือ"
+
+msgid "Tool color"
+msgstr "สีของเครื่องมือ"
+
+msgid "TP"
+msgstr "กระดาษชำระ"
+
+msgid "SL"
+msgstr "เอสแอล"
+
+msgid "Long"
+msgstr "ยาว"
+
+msgid "Short"
+msgstr "สั้น"
+
+msgid "Tool mode"
+msgstr "โหมดเครื่องมือ"
+
+msgid "View labels"
+msgstr "ดูป้ายกํากับ"
+
+msgid "Label Position"
+msgstr "ตําแหน่งฉลาก"
+
+msgid "Center"
+msgstr "ศูนย์กลาง"
+
+msgid "Show price labels"
+msgstr "แสดงป้ายราคา"
+
+msgid "Regression Line"
+msgstr "เส้นถดถอย"
+
+msgid "Upper deviation"
+msgstr "ส่วนเบี่ยงเบนบน"
+
+msgid "Lower deviation"
+msgstr "ค่าเบี่ยงเบนที่ต่ํากว่า"
+
+msgid "Typical"
+msgstr "ธรรมดา"
+
+msgid "Medium"
+msgstr "ปานกลาง"
+
+msgid "Weighted"
+msgstr "ถ่วง น้ำหนัก"
+
+msgid "Top line"
+msgstr "บรรทัดบนสุด"
+
+msgid "Bottom line"
+msgstr "ใจความสำคัญ"
+
+msgid "Top area"
+msgstr "พื้นที่ด้านบน"
+
+msgid "Bottom area"
+msgstr "พื้นที่ด้านล่าง"
+
+msgid "Add custom text"
+msgstr "เพิ่มข้อความที่กําหนดเอง"
+
+msgid "Fix text area"
+msgstr "แก้ไขพื้นที่ข้อความ"
+
+msgid "Text location"
+msgstr "ตําแหน่งข้อความ"
+
+msgid "Text area"
+msgstr "พื้นที่ข้อความ"
+
+msgid "Font style"
+msgstr "สไตล์ฟอนต์"
+
+msgid "Border"
+msgstr "ชายแดน"
+
+msgid "Bottom"
+msgstr "ก้น"
+
+msgid "Top"
+msgstr "ด้านบน"
+
+msgid "Control buttons position"
+msgstr "ตําแหน่งปุ่มควบคุม"
+
+msgid "Current Monday"
+msgstr "วันจันทร์ปัจจุบัน"
+
+msgid "Current Tuesday"
+msgstr "วันอังคารปัจจุบัน"
+
+msgid "Current Wednesday"
+msgstr "วันพุธปัจจุบัน"
+
+msgid "Current Thursday"
+msgstr "วันพฤหัสบดีปัจจุบัน"
+
+msgid "Current Friday"
+msgstr "วันศุกร์ปัจจุบัน"
+
+msgid "Current Saturday"
+msgstr "วันเสาร์ปัจจุบัน"
+
+msgid "Current Sunday"
+msgstr "วันอาทิตย์ปัจจุบัน"
+
+msgid "Previous Monday"
+msgstr "วันจันทร์ก่อนหน้า"
+
+msgid "Previous Tuesday"
+msgstr "วันอังคารก่อนหน้า"
+
+msgid "Previous Wednesday"
+msgstr "วันพุธก่อนหน้า"
+
+msgid "Previous Thursday"
+msgstr "วันพฤหัสบดีก่อนหน้า"
+
+msgid "Previous Friday"
+msgstr "วันศุกร์ก่อนหน้า"
+
+msgid "Previous Saturday"
+msgstr "วันเสาร์ก่อนหน้า"
+
+msgid "Previous Sunday"
+msgstr "วันอาทิตย์ก่อนหน้า"
+
+msgid "Invalid price"
+msgstr "ราคาไม่ถูกต้อง"
+
+msgid "Net:"
+msgstr "ตาข่าย:"
+
+msgid "Gross:"
+msgstr "รวม:"
+
+#, csharp-format
+msgid "TP price: {0}"
+msgstr "ราคา TP: {0}"
+
+msgid "Tr.Stop"
+msgstr "ต.สต็อป"
+
+msgid "SL price"
+msgstr "ราคา SL"
+
+#, csharp-format
+msgid "{0} TP price: {1}"
+msgstr "ราคา TP {0}: {1}"
+
+msgid "VA"
+msgstr "วา"
+
+msgid "POC ray"
+msgstr "รังสี POC"
+
+msgid "Waiting for data loading"
+msgstr "กําลังรอการโหลดข้อมูล"
+
+msgid "No data"
+msgstr "ไม่มีข้อมูล"
+
+#, csharp-format
+msgid "{0} ticks"
+msgstr "เห็บ{0}"
+
+msgid "Empty symbol"
+msgstr "สัญลักษณ์ว่าง"
+
+msgid "Futures"
+msgstr "อนาคต"
+
+msgid "Full"
+msgstr "เต็ม"
+
+msgid "Sup"
+msgstr "ศ.น."
+
+msgid "Res"
+msgstr "เรส"
+
+msgid "TP&SL"
+msgstr "ทีพีและเอสแอล"
+
+#, csharp-format
+msgid "{0} %"
+msgstr "{0} %"
+
+msgid "Trading tool"
+msgstr "เครื่องมือการซื้อขาย"
+
+msgid "Horizontal line"
+msgstr "เส้นแนวนอน"
+
+msgid "Vertical line"
+msgstr "เส้นแนวตั้ง"
+
+msgid "Rectangle"
+msgstr "สี่เหลี่ยมผืนผ้า"
+
+msgid "Triangle"
+msgstr "สามเหลี่ยม"
+
+msgid "Poligon"
+msgstr "โปลิกอน"
+
+msgid "Circle"
+msgstr "วงกลม"
+
+msgid "Ellipse"
+msgstr "วงรี"
+
+msgid "Andrew's pitchfork"
+msgstr "โกยของแอนดรูว์"
+
+msgid "Price channel"
+msgstr "ช่องทางราคา"
+
+msgid "Fibonacci retracement"
+msgstr "การย้อนกลับของฟีโบนักชี"
+
+msgid "Fibonacci price expansion"
+msgstr "การขยายตัวของราคาฟีโบนักชี"
+
+msgid "Fibonacci arc"
+msgstr "ฟีโบนักชีอาร์ค"
+
+msgid "Fibonacci spiral"
+msgstr "เกลียวฟีโบนักชี"
+
+msgid "Fibonacci ellipse"
+msgstr "ฟีโบนักชีวงรี"
+
+msgid "Fibonacci fans"
+msgstr "แฟนๆ ฟีโบนักชี"
+
+msgid "Fibonacci phi-channel"
+msgstr "ฟีโบนักชีฟีแชนแนล"
+
+msgid "Fibonacci time extension"
+msgstr "การขยายเวลาฟีโบนักชี"
+
+msgid "Fibonacci time zone"
+msgstr "โซนเวลาฟีโบนักชี"
+
+msgid "Gann line"
+msgstr "สายแกนน์"
+
+msgid "Gann fan"
+msgstr "แฟนแกนน์"
+
+msgid "Gann grid"
+msgstr "กริดแกนน์"
+
+msgid "Ruler"
+msgstr "ไม้บรรทัด"
+
+msgid "Up arrow"
+msgstr "ลูกศรขึ้น"
+
+msgid "Down arrow"
+msgstr "ลูกศรลง"
+
+msgid "Uncpecified"
+msgstr "ไม่ได้รับการแก้ไข"
+
+msgid "Line by angle"
+msgstr "เส้นต่อมุม"
+
+msgid "Regression channel"
+msgstr "ช่องทางการถดถอย"
+
+msgid "ABC Pattern"
+msgstr "รูปแบบเอบีซี"
+
+msgid "PPZ"
+msgstr "พีพีซี"
+
+msgid "Top bottom pattern"
+msgstr "รูปแบบด้านล่างบน"
+
+msgid "Gartley Butterfly"
+msgstr "การ์ทลีย์ บัตเตอร์ฟลาย"
+
+msgid "Custom profile"
+msgstr "โปรไฟล์ที่กําหนดเอง"
+
+msgid "Line arrow"
+msgstr "ลูกศรเส้น"
+
+msgid "Head&Shoulders"
+msgstr "หัวและไหล่"
+
+msgid "Gann box"
+msgstr "กล่องแกนน์"
+
+msgid "Price targets"
+msgstr "เป้าหมายราคา"
+
+msgid "Flag marker"
+msgstr "เครื่องหมายสถานะ"
+
+msgid "Price marker"
+msgstr "เครื่องหมายราคา"
+
+msgid "Note"
+msgstr "โน้ต"
+
+msgid "Comment"
+msgstr "ติชม"
+
+msgid "Angled line"
+msgstr "เส้นมุม"
+
+msgid "Alert"
+msgstr "เตือน"
+
+msgid "Elliot triangle wave"
+msgstr "คลื่นสามเหลี่ยมเอลเลียต"
+
+msgid "Three drives pattern"
+msgstr "รูปแบบไดรฟ์สามแบบ"
+
+msgid "Triangle pattern"
+msgstr "รูปแบบสามเหลี่ยม"
+
+msgid "TPA Strategy"
+msgstr "กลยุทธ์ TPA"
+
+msgid "Anchor VWAP"
+msgstr "สมอ VWAP"
+
+msgid "Whale Splash"
+msgstr "ปลาวาฬสาด"
+
+msgid "Fibonacci time expansion"
+msgstr "การขยายเวลาฟีโบนักชี"
+
+msgid "Fibonacci price extension"
+msgstr "การขยายราคาฟีโบนักชี"
+
+msgid "Minotauro Fibonacci price extension"
+msgstr "มิโนทาโร่ ฟิโบนักชี ต่อราคา"
+
+msgid "Minotauro Move Up"
+msgstr "มิโนทาโรโระเลื่อนขึ้น"
+
+msgid "Minotauro Move Down"
+msgstr "มิโนทาโร่ ย้ายลง"
+
+msgid "POC line"
+msgstr "สาย POC"
+
+msgid "Week POC line"
+msgstr "บรรทัด POC สัปดาห์"
+
+msgid "Candle"
+msgstr "เทียน"
+
+msgid "Dotes"
+msgstr "จุด"
+
+msgid "Dotted line"
+msgstr "เส้นประ"
+
+msgid "Quantower"
+msgstr "ควอนโตเวอร์"
+
+msgid "P&F"
+msgstr "พีเอฟ"
+
+msgid "Kagi line"
+msgstr "สายคากิ"
+
+msgid "Lines break"
+msgstr "เส้นแบ่ง"
+
+msgid "Renko"
+msgstr "เร็นโกะ"
+
+msgid "Profile"
+msgstr "โปรไฟล์"
+
+msgid "Keyboard trading is active"
+msgstr "การซื้อขายแป้นพิมพ์มีการใช้งาน"
+
+msgid "Hold CTRL key to place more orders"
+msgstr "กดปุ่ม CTRL ค้างไว้เพื่อสั่งซื้อเพิ่มเติม"
+
+msgid "Hold CTRL key to add more drawings"
+msgstr "กดแป้น CTRL ค้างไว้เพื่อเพิ่มรูปวาดเพิ่มเติม"
+
+msgid "Reduce-Only active"
+msgstr "ลดการใช้งานอย่างเดียว"
+
+msgid "Reduce-Only not allowed"
+msgstr "ลด-เท่านั้นไม่ได้รับอนุญาต"
+
+msgid "Data is loading..."
+msgstr "ข้อมูลกําลังโหลด..."
+
+#, csharp-format
+msgid "Please wait, it can{0} take some time."
+msgstr "กรุณารอสักครู่ก็อาจ{0}อาจใช้เวลาสักครู่"
+
+#, csharp-format
+msgid "No data for {0}"
+msgstr "ไม่มีข้อมูลสําหรับ{0}"
+
+#, csharp-format
+msgid "Your current connection{0}does not provide such data"
+msgstr "การเชื่อมต่อปัจจุบันของคุณ{0}ไม่ได้ให้ข้อมูลดังกล่าว"
+
+msgid "No data to display on chart"
+msgstr "ไม่มีข้อมูลที่จะแสดงบนแผนภูมิ"
+
+#, csharp-format
+msgid "Please check your connection{0} or symbol availability"
+msgstr "โปรดตรวจสอบการเชื่อมต่อของคุณ{0}หรือสัญลักษณ์ที่พร้อมใช้งาน"
+
+msgid "Current chart"
+msgstr "แผนภูมิปัจจุบัน"
+
+msgid "All charts with same symbol"
+msgstr "แผนภูมิทั้งหมดที่มีสัญลักษณ์เดียวกัน"
+
+msgid "Window colors"
+msgstr "สีของหน้าต่าง"
+
+msgid "Back top color"
+msgstr "สีด้านบนด้านหลัง"
+
+msgid "Back bottom color"
+msgstr "สีด้านล่างด้านหลัง"
+
+msgid "Mouse wheel action"
+msgstr "การกระทําของล้อเลื่อนของเมาส์"
+
+msgid "Mouse wheel+CTRL action"
+msgstr "การทํางานของล้อเลื่อนของเมาส์+CTRL"
+
+msgid "Mouse wheel+SHIFT action"
+msgstr "การทํางานของล้อเลื่อนของเมาส์+SHIFT"
+
+msgid "Drawings default availablity"
+msgstr "ความพร้อมใช้งานเริ่มต้นของภาพวาด"
+
+msgid "Scale type"
+msgstr "ประเภทมาตราส่วน"
+
+msgid "Begin of the data"
+msgstr "จุดเริ่มต้นของข้อมูล"
+
+msgid "Begin of the day"
+msgstr "เริ่มต้นวันใหม่"
+
+msgid "Begin of the screen"
+msgstr "จุดเริ่มต้นของหน้าจอ"
+
+msgid "Start price"
+msgstr "ราคาเริ่มต้น"
+
+msgid "Log base"
+msgstr "ฐานบันทึก"
+
+msgid "Zoom"
+msgstr "ซูม"
+
+msgid "Auto scale"
+msgstr "สเกลอัตโนมัติ"
+
+msgid "Manual scale"
+msgstr "เครื่องชั่งแบบแมนนวล"
+
+msgid "Scale behavior"
+msgstr "พฤติกรรมมาตราส่วน"
+
+msgid "Fit Indicators"
+msgstr "ตัวชี้วัดความพอดี"
+
+msgid "Vertical"
+msgstr "ซึ่งตั้งตรง"
+
+msgid "Horizontal"
+msgstr "แนวราบ"
+
+msgid "Plates alignment mode"
+msgstr "โหมดการจัดตําแหน่งเพลต"
+
+msgid "Symbols lookup"
+msgstr "การค้นหาสัญลักษณ์"
+
+msgid "Object manager"
+msgstr "ตัวจัดการวัตถุ"
+
+msgid "Aggregation"
+msgstr "การรวมกัน"
+
+msgid "Range"
+msgstr "เทือก"
+
+msgid "Overlay"
+msgstr "ทับ"
+
+msgid "Add overlay…"
+msgstr "เพิ่มการวางซ้อน..."
+
+msgid "Show all"
+msgstr "แสดงทั้งหมด"
+
+msgid "Hide all"
+msgstr "ซ่อนทั้งหมด"
+
+msgid "Remove all"
+msgstr "ลบทั้งหมด"
+
+msgid "Indicators"
+msgstr "ตัว ชี้ วัด"
+
+msgid "Add indicator…"
+msgstr "เพิ่มอินดิเคเตอร์..."
+
+msgid "Drawing tools"
+msgstr "เครื่องมือวาดภาพ"
+
+msgid "Trend"
+msgstr "แนว"
+
+msgid "Arrow"
+msgstr "ลูกศร"
+
+msgid "Geometry"
+msgstr "เรขาคณิต"
+
+msgid "Polygon"
+msgstr "รูปหลายเหลี่ยม"
+
+msgid "Fibonacci"
+msgstr "ฟีโบนักชี"
+
+msgid "Gann"
+msgstr "แกนน์"
+
+msgid "Gann Box"
+msgstr "กล่องแกนน์"
+
+msgid "Patterns"
+msgstr "รูป แบบ"
+
+msgid "Head & Shoulders"
+msgstr "ศีรษะและไหล่"
+
+msgid "Other"
+msgstr "อื่น"
+
+msgid "Remove selected"
+msgstr "เอารายการที่เลือกออก"
+
+msgid "Copy selected"
+msgstr "คัดลอกที่เลือก"
+
+msgid "Paste"
+msgstr "แปะ"
+
+msgid "Volume Analysis"
+msgstr "การวิเคราะห์ปริมาณ"
+
+msgid "Show toolbar"
+msgstr "แถบเครื่องมือแสดง"
+
+msgid "Left Profile"
+msgstr "โปรไฟล์ด้านซ้าย"
+
+msgid "Right Profile"
+msgstr "โปรไฟล์ขวา"
+
+msgid "Time Statistics"
+msgstr "สถิติเวลา"
+
+msgid "Time Histogram"
+msgstr "ฮิสโตแกรมเวลา"
+
+msgid "Custom Profile"
+msgstr "โปรไฟล์ที่กําหนดเอง"
+
+msgid "Custom VWAP"
+msgstr "VWAP แบบกําหนดเอง"
+
+msgid "Day high/low"
+msgstr "วันสูง/ต่ําสุด"
+
+msgid "Grid time"
+msgstr "เวลากริด"
+
+msgid "Grid price"
+msgstr "ราคากริด"
+
+msgid "Toolbar"
+msgstr "แถบเครื่องมือ"
+
+msgid "Quick OE"
+msgstr "OE ด่วน"
+
+msgid "Trading toolbar"
+msgstr "แถบเครื่องมือการซื้อขาย"
+
+msgid "Objects toolbar"
+msgstr "แถบเครื่องมือวัตถุ"
+
+msgid "Symbol description"
+msgstr "คําอธิบายสัญลักษณ์"
+
+msgid "Reload history (server)"
+msgstr "โหลดประวัติ (เซิร์ฟเวอร์)"
+
+msgid "Refresh"
+msgstr "ฟื้นฟู"
+
+#, csharp-format
+msgid "{0} settings"
+msgstr "การตั้งค่า{0}"
+
+#, csharp-format
+msgid "Default by symbol ({0})"
+msgstr "ค่าเริ่มต้นตามสัญลักษณ์ ({0})"
+
+msgid "Bid/Ask average"
+msgstr "ค่าเฉลี่ยราคาเสนอซื้อ/เสนอขาย"
+
+msgid "Time value: "
+msgstr "ค่าเวลา: "
+
+msgid "Inner value: "
+msgstr "ค่าภายใน: "
+
+msgid "Delta: "
+msgstr "เดลตา: "
+
+msgid "Gamma: "
+msgstr "แกมมา: "
+
+msgid "Theta: "
+msgstr "เทต้า: "
+
+msgid "Vega: "
+msgstr "เวก้า: "
+
+msgid "Rho: "
+msgstr "โร: "
+
+msgid "Time: "
+msgstr "เวลา: "
+
+msgid "Price: "
+msgstr "ราคา: "
+
+msgid "Size: "
+msgstr "ขนาด: "
+
+msgid "Trade Price: "
+msgstr "ราคาการค้า: "
+
+msgid "Trade Size: "
+msgstr "ขนาดการค้า: "
+
+msgid "Combined"
+msgstr "รวม"
+
+msgid "Mirror"
+msgstr "กระจก"
+
+msgid "Delta"
+msgstr "เดลตา"
+
+msgid "Data gap:"
+msgstr "ช่องว่างของข้อมูล:"
+
+msgid "Waiting for quote..."
+msgstr "รอใบเสนอราคา..."
+
+msgid "Histogram aligment"
+msgstr "ฮิสโตแกรม aligment"
+
+msgid "Custom back color"
+msgstr "สีหลังที่กําหนดเอง"
+
+msgid "Buy color"
+msgstr "ซื้อสี"
+
+msgid "Sell color"
+msgstr "ขายสี"
+
+msgid "Cumulative aligment"
+msgstr "อลิกสะสม"
+
+msgid "Cumulative Buy color"
+msgstr "สีซื้อสะสม"
+
+msgid "Cumulative Sell color"
+msgstr "สีขายสะสม"
+
+msgid "Level2"
+msgstr "ระดับ 2"
+
+msgid "Trades"
+msgstr "ค้า"
+
+msgid "Show DOM levels"
+msgstr "แสดงระดับ DOM"
+
+msgid "Extend DOM levels"
+msgstr "ขยายระดับ DOM"
+
+msgid "Show Bid/Ask line"
+msgstr "แสดงบรรทัดราคาเสนอ/เสนอขาย"
+
+msgid "Bid line color"
+msgstr "สีของเส้นประมูล"
+
+msgid "Ask line color"
+msgstr "ถามสีเส้น"
+
+msgid "DOM levels count"
+msgstr "นับระดับ DOM"
+
+msgid "DOM levels contrast, %"
+msgstr "ความคมชัดระดับ DOM, %"
+
+msgid "Maximal level2 size"
+msgstr "ขนาดระดับสูงสุด2"
+
+msgid "Custom level2 min size"
+msgstr "ระดับที่กําหนดเอง2 ขนาดนาที"
+
+msgid "Custom level2 max size"
+msgstr "กําหนดระดับ 2 ขนาดสูงสุดที่กําหนดเอง"
+
+msgid "Level2 coloring mode"
+msgstr "โหมดระบายสีระดับ 2"
+
+msgid "Color 1"
+msgstr "สี 1"
+
+msgid "Color 2"
+msgstr "สี 2"
+
+msgid "Color 3"
+msgstr "สี 3"
+
+msgid "Color 4"
+msgstr "สี 4"
+
+msgid "Color 5"
+msgstr "สี 5"
+
+msgid "Limit of points"
+msgstr "ขีด จํากัด ของคะแนน"
+
+msgid "Show last line"
+msgstr "แสดงบรรทัดสุดท้าย"
+
+msgid "Last line color"
+msgstr "สีเส้นสุดท้าย"
+
+msgid "Marker size type"
+msgstr "ประเภทขนาดมาร์กเกอร์"
+
+msgid "Marker size (px)"
+msgstr "ขนาดเครื่องหมาย (px)"
+
+msgid "Markers maximal size (px)"
+msgstr "เครื่องหมายขนาดสูงสุด (px)"
+
+msgid "Maximal trade size"
+msgstr "ขนาดการเทรดสูงสุด"
+
+msgid "Custom trade size"
+msgstr "ขนาดการเทรดแบบกําหนดเอง"
+
+msgid "Markers opacity"
+msgstr "เครื่องหมายความทึบแสง"
+
+msgid "None color"
+msgstr "ไม่มีสี"
+
+msgid "Draw mode"
+msgstr "โหมดวาด"
+
+msgid "Minimal volume width, px (aggregate mode)"
+msgstr "ความกว้างของไดรฟ์ข้อมูลน้อยที่สุด px (โหมดรวม)"
+
+msgid "Scroll"
+msgstr "เลื่อน"
+
+msgid "Price Zoom"
+msgstr "ซูมราคา"
+
+msgid "TPO: "
+msgstr "ทีพีโอ: "
+
+msgid "VAH: "
+msgstr "VAH: "
+
+msgid "VAL: "
+msgstr "วาล: "
+
+msgid "POC: "
+msgstr "POC: "
+
+msgid "MidPoint: "
+msgstr "จุดกึ่งกลาง: "
+
+msgid "RF: "
+msgstr "RF: "
+
+msgid "Volume: "
+msgstr "ปริมาตร: "
+
+msgid "Trades: "
+msgstr "ค้า: "
+
+msgid "Custom step: "
+msgstr "ขั้นตอนที่กําหนดเอง: "
+
+msgid "Incorrect parameters"
+msgstr "พารามิเตอร์ไม่ถูกต้อง"
+
+msgid "Split"
+msgstr "ผ่า"
+
+msgid "Merge left"
+msgstr "ผสานด้านซ้าย"
+
+msgid "Merge right"
+msgstr "ผสานขวา"
+
+msgid "Divide at bar"
+msgstr "หารที่บาร์"
+
+msgid "Reset all"
+msgstr "รีเซ็ตทั้งหมด"
+
+msgid "POC Ray"
+msgstr "POC เรย์"
+
+msgid "Display style"
+msgstr "สไตล์การแสดงผล"
+
+msgid "Show marker on each bar"
+msgstr "แสดงเครื่องหมายบนแต่ละแถบ"
+
+msgid "Delta none color"
+msgstr "เดลต้าไม่มีสี"
+
+msgid "Bar colors"
+msgstr "สีแท่ง"
+
+msgid "Bar none color"
+msgstr "แถบไม่มีสี"
+
+msgid "Plot symbol"
+msgstr "สัญลักษณ์พล็อต"
+
+msgid "Show value area"
+msgstr "แสดงพื้นที่ค่า"
+
+msgid "Value Area, %"
+msgstr "พื้นที่มูลค่า, %"
+
+msgid "Extend VAL/VAH until intesection"
+msgstr "ขยาย VAL/VAH จนกว่าจะมีการตรวจพบ"
+
+msgid "Show singles"
+msgstr "แสดงซิงเกิ้ล"
+
+msgid "Show bar"
+msgstr "แถบแสดง"
+
+msgid "Extend POC until intesection"
+msgstr "ขยาย POC จนกว่าจะมีการตรวจพบ"
+
+msgid "POC color"
+msgstr "สี POC"
+
+msgid "Show midpoint"
+msgstr "แสดงจุดกึ่งกลาง"
+
+msgid "Midpoint color"
+msgstr "สีจุดกึ่งกลาง"
+
+msgid "Initial Balance"
+msgstr "ยอดเงินเริ่มต้น"
+
+msgid "Show initial balance"
+msgstr "แสดงยอดเงินเริ่มต้น"
+
+msgid "Initial balance"
+msgstr "ยอดเงินเริ่มต้น"
+
+msgid "Volume analysis"
+msgstr "การวิเคราะห์ปริมาณ"
+
+msgid "Show volume analysis"
+msgstr "แสดงการวิเคราะห์ปริมาณ"
+
+msgid "Synhronize VA/TPO custom step"
+msgstr "สังเคราะห์ขั้นตอนที่กําหนดเอง VA / TPO"
+
+msgid "VA position type"
+msgstr "ประเภทตําแหน่ง VA"
+
+msgid "Histogram width, %"
+msgstr "ความกว้างของฮิสโตแกรม, %"
+
+msgid "TPO"
+msgstr "ทีพีโอ"
+
+msgid "VAH"
+msgstr "วีเอเอช"
+
+msgid "VAL"
+msgstr "วาล"
+
+msgid "POC"
+msgstr "ป.ป.ช."
+
+msgid "RF"
+msgstr "รฟท."
+
+msgid "TPO Up"
+msgstr "TPO ขึ้น"
+
+msgid "TPO Down"
+msgstr "ทีพีโอดาวน์"
+
+msgid "POC Count"
+msgstr "จํานวน POC"
+
+msgid "VA Volume"
+msgstr "ปริมาณ VA"
+
+msgid "Range (ticks)"
+msgstr "ช่วง (เห็บ)"
+
+msgid "VA range"
+msgstr "ช่วง VA"
+
+msgid "VA range (ticks)"
+msgstr "ช่วง VA (เห็บ)"
+
+msgid "IB High"
+msgstr "ไอบีไฮ"
+
+msgid "IB Low"
+msgstr "IB ต่ํา"
+
+msgid "IB range"
+msgstr "ช่วง IB"
+
+msgid "IB range (ticks)"
+msgstr "ช่วง IB (เครื่องหมายขีด)"
+
+msgid "TPO statistics"
+msgstr "สถิติทีพีโอ"
+
+msgid "Show TPO statistics"
+msgstr "แสดงสถิติ TPO"
+
+msgid "General color"
+msgstr "สีทั่วไป"
+
+msgid "Quantity:"
+msgstr "ปริมาณ:"
+
+msgid "Split size columns"
+msgstr "คอลัมน์ขนาดแยก"
+
+msgid "Split Buy/Sell column"
+msgstr "คอลัมน์แยกซื้อ/ขาย"
+
+msgid "AutoSize of columns"
+msgstr "ปรับขนาดคอลัมน์โดยอัตโนมัติ"
+
+msgid "No data to display"
+msgstr "ไม่มีข้อมูลที่จะแสดง"
+
+msgid "Please check your connection or symbol availability"
+msgstr "โปรดตรวจสอบความพร้อมใช้งานของการเชื่อมต่อหรือสัญลักษณ์ของคุณ"
+
+msgid "General Settings"
+msgstr "การตั้งค่าทั่วไป"
+
+msgid "Model settings"
+msgstr "การตั้งค่ารุ่น"
+
+msgid "No centering"
+msgstr "ไม่มีการจัดกึ่งกลาง"
+
+msgid "Auto centering"
+msgstr "การตั้งศูนย์อัตโนมัติ"
+
+msgid "Keep in view"
+msgstr "อยู่ในมุมมอง"
+
+msgid "Implied"
+msgstr "โดยนัย"
+
+msgid "Outright"
+msgstr "ทันที"
+
+msgid "Short price format"
+msgstr "รูปแบบราคาสั้น"
+
+msgid "Hide digits"
+msgstr "ซ่อนตัวเลข"
+
+msgid "Price centering mode"
+msgstr "โหมดตั้งกึ่งกลางราคา"
+
+msgid "Auto center type"
+msgstr "ประเภทศูนย์อัตโนมัติ"
+
+msgid "Book type"
+msgstr "ประเภทหนังสือ"
+
+msgid "Number of levels"
+msgstr "จํานวนระดับ"
+
+msgid "Collapse spread"
+msgstr "ยุบสเปรด"
+
+msgid "Reset cumulative Bid/Ask Trades, sec"
+msgstr "รีเซ็ตการซื้อขาย Bid/Ask สะสม วินาที"
+
+msgid "By time"
+msgstr "ตามเวลา"
+
+msgid "By ticks"
+msgstr "โดยเห็บ"
+
+msgid "Liquidity changes reset type"
+msgstr "ประเภทการรีเซ็ตการเปลี่ยนแปลงสภาพคล่อง"
+
+msgid "Reset liquidity changes, sec"
+msgstr "รีเซ็ตการเปลี่ยนแปลงสภาพคล่อง วินาที"
+
+msgid "Reset liquidity changes, ticks"
+msgstr "รีเซ็ตการเปลี่ยนแปลงสภาพคล่องเห็บ"
+
+msgid "Order side"
+msgstr "ด้านคําสั่งซื้อ"
+
+msgid "Default row"
+msgstr "แถวเริ่มต้น"
+
+msgid "Tier"
+msgstr "ชั้น"
+
+msgid "value"
+msgstr "ค่า"
+
+msgid "Most saturated Ask color"
+msgstr "สีถามอิ่มตัวมากที่สุด"
+
+msgid "Most saturated Bid color"
+msgstr "สีประมูลอิ่มตัวมากที่สุด"
+
+msgid "Max volume"
+msgstr "ระดับเสียงสูงสุด"
+
+msgid "Aggregate size by price"
+msgstr "ขนาดรวมตามราคา"
+
+msgid "Coloring method"
+msgstr "วิธีการระบายสี"
+
+msgid "Table colors"
+msgstr "สีของตาราง"
+
+msgid "Cancellation priority"
+msgstr "ลําดับความสําคัญในการยกเลิก"
+
+msgid "Allow new SLTP"
+msgstr "อนุญาต SLTP ใหม่"
+
+msgid "Use stop instead limit"
+msgstr "ใช้ขีดจํากัดการหยุดแทน"
+
+msgid "Refresh rate (ms)"
+msgstr "อัตราการรีเฟรช (ms)"
+
+msgid "Cumulative changes"
+msgstr "การเปลี่ยนแปลงสะสม"
+
+msgid "Unknown"
+msgstr "ไม่คุ้นเคย"
+
+msgid "Reset"
+msgstr "รี เซ็ต"
+
+msgid "Changes color"
+msgstr "เปลี่ยนสี"
+
+msgid "Number of changes"
+msgstr "จํานวนการเปลี่ยนแปลง"
+
+msgid "Liquidity changes"
+msgstr "การเปลี่ยนแปลงสภาพคล่อง"
+
+msgid "Broker"
+msgstr "นายหน้า"
+
+msgid "Ask price"
+msgstr "ราคาเสนอขาย"
+
+msgid "Bid price"
+msgstr "ราคาเสนอซื้อ"
+
+msgid "Ask size"
+msgstr "ถามขนาด"
+
+msgid "Bid size"
+msgstr "ขนาดราคาประมูล"
+
+msgid "Time ask"
+msgstr "เวลาถาม"
+
+msgid "Time bid"
+msgstr "การเสนอราคาเวลา"
+
+msgid "Last updated ask time"
+msgstr "เวลาถามที่อัปเดตล่าสุด"
+
+msgid "Last updated bid time"
+msgstr "เวลาเสนอราคาที่อัปเดตล่าสุด"
+
+msgid "Cumulative size ask"
+msgstr "ถามขนาดสะสม"
+
+msgid "Cumulative size bid"
+msgstr "ราคาเสนอขนาดสะสม"
+
+msgid "Cumulative size of every ask price level"
+msgstr "ขนาดสะสมของทุกระดับราคาเสนอขาย"
+
+msgid "Cumulative size of every bid price level"
+msgstr "ขนาดสะสมของทุกระดับราคาเสนอซื้อ"
+
+msgid "VWAP ask"
+msgstr "ถาม VWAP"
+
+msgid "VWAP bid"
+msgstr "เสนอราคา VWAP"
+
+msgid "Volume weighted average ask price"
+msgstr "ปริมาณถ่วงน้ําหนักราคาเสนอขายเฉลี่ย"
+
+msgid "Volume weighted average bid price"
+msgstr "ราคาเสนอซื้อเฉลี่ยถ่วงน้ําหนักตามปริมาณ"
+
+msgid "Net Profit / Loss"
+msgstr "กําไร / ขาดทุนสุทธิ"
+
+msgid "Gross Profit / Loss"
+msgstr "กําไรขั้นต้น / ขาดทุน"
+
+msgid "Average open price"
+msgstr "ราคาเปิดเฉลี่ย"
+
+msgid "Break even level"
+msgstr "ทําลายระดับที่สม่ําเสมอ"
+
+msgid "Quantity long"
+msgstr "ปริมาณยาว"
+
+msgid "Quantity short"
+msgstr "ปริมาณสั้น"
+
+msgid "Liquidation price"
+msgstr "ราคาชําระบัญชี"
+
+msgid "N/A"
+msgstr "ไม่ระบุ"
+
+msgid "Show position bar"
+msgstr "แสดงแถบตําแหน่ง"
+
+msgid "Net Profit"
+msgstr "กําไรสุทธิ"
+
+msgid "Net Loss"
+msgstr "ขาดทุนสุทธิ"
+
+msgid "Ask trade size"
+msgstr "ถามขนาดการเทรด"
+
+msgid "Bid trade size"
+msgstr "ขนาดการเทรดประมูล"
+
+msgid "Bid/Ask reset"
+msgstr "รีเซ็ตราคาเสนอ/ถาม"
+
+msgid "Last trade size"
+msgstr "ขนาดการเทรดล่าสุด"
+
+msgid "Type of last trade"
+msgstr "ประเภทของการเทรดครั้งล่าสุด"
+
+msgid "Buy/Sell"
+msgstr "ซื้อ/ขาย"
+
+msgid "Buy order color"
+msgstr "สีสั่งซื้อ"
+
+msgid "Buy SL/TP color"
+msgstr "ซื้อสี SL/TP"
+
+msgid "Sell order color"
+msgstr "ขายสีคําสั่ง"
+
+msgid "Sell SL/TP color"
+msgstr "ขายสี SL / TP"
+
+msgid "Mixed (Buy/Sell) group color"
+msgstr "สีกลุ่มผสม (ซื้อ/ขาย)"
+
+msgid "Mixed (Buy/Sell) group SL/TP color"
+msgstr "สีผสม (ซื้อ/ขาย) กลุ่ม SL/TP"
+
+msgid "Order color"
+msgstr "สั่งซื้อสี"
+
+msgid "SL/TP color"
+msgstr "สี SL / TP"
+
+msgid "Column font"
+msgstr "ฟอนต์ของคอลัมน์"
+
+msgid "Text alignment"
+msgstr "การจัดแนวข้อความ"
+
+msgid "Custom colors"
+msgstr "สีที่กําหนดเอง"
+
+msgid "Custom Back Color"
+msgstr "สีกลับที่กําหนดเอง"
+
+msgid "Total value"
+msgstr "มูลค่ารวม"
+
+msgid "Highlight total value more than"
+msgstr "เน้นมูลค่ารวมมากกว่า"
+
+msgid "Highlight total value less than"
+msgstr "เน้นมูลค่ารวมน้อยกว่า"
+
+msgid "Grid color"
+msgstr "สีเส้นตาราง"
+
+msgid "All"
+msgstr "ทั้งหมด"
+
+msgid "Center line"
+msgstr "เส้นกึ่งกลาง"
+
+msgid "Comments"
+msgstr "ความ คิด เห็น"
+
+msgid "Clear"
+msgstr "ใส"
+
+msgid "Cumulative size"
+msgstr "ขนาดสะสม"
+
+msgid "Show table header"
+msgstr "แสดงส่วนหัวของตาราง"
+
+msgid "Header font"
+msgstr "แบบอักษรส่วนหัว"
+
+msgid "Header colors"
+msgstr "สีของส่วนหัว"
+
+msgid "Header grid color"
+msgstr "สีตารางส่วนหัว"
+
+msgid "Show day map"
+msgstr "แสดงแผนที่วัน"
+
+msgid "Highlight values more than"
+msgstr "เน้นค่ามากกว่า"
+
+msgid "Best bid"
+msgstr "ราคาเสนอที่ดีที่สุด"
+
+msgid "Best ask"
+msgstr "ถามที่ดีที่สุด"
+
+msgid "Spread"
+msgstr "กระจาย"
+
+msgid "Marked price"
+msgstr "ราคาที่ทําเครื่องหมายไว้"
+
+msgid "Current last"
+msgstr "ปัจจุบันล่าสุด"
+
+msgid "Show last"
+msgstr "แสดงล่าสุด"
+
+msgid "Single color"
+msgstr "สีเดียว"
+
+msgid "By bid/ask"
+msgstr "โดยการเสนอราคา/เสนอขาย"
+
+msgid "By last change"
+msgstr "โดยการเปลี่ยนแปลงครั้งล่าสุด"
+
+msgid "Last coloring mode"
+msgstr "โหมดระบายสีล่าสุด"
+
+msgid "Show brackets"
+msgstr "แสดงวงเล็บเหลี่ยม"
+
+msgid "Ask border style"
+msgstr "ถามสไตล์เส้นขอบ"
+
+msgid "Ask custom style"
+msgstr "ถามสไตล์ที่กําหนดเอง"
+
+msgid "Bid border style"
+msgstr "สไตล์เส้นขอบราคาเสนอ"
+
+msgid "Bid custom style"
+msgstr "สไตล์การเสนอราคาที่กําหนดเอง"
+
+msgid "Up border style"
+msgstr "สไตล์เส้นขอบขึ้น"
+
+msgid "Up custom style"
+msgstr "เพิ่มสไตล์ที่กําหนดเอง"
+
+msgid "Down border style"
+msgstr "สไตล์เส้นขอบลง"
+
+msgid "Down custom style"
+msgstr "ลงสไตล์ที่กําหนดเอง"
+
+msgid "Default border style"
+msgstr "สไตล์เส้นขอบเริ่มต้น"
+
+msgid "Default custom style"
+msgstr "สไตล์แบบกําหนดเองเริ่มต้น"
+
+msgid "Position"
+msgstr "ฐานะ"
+
+msgid "Show position"
+msgstr "แสดงตําแหน่ง"
+
+msgid "Position width"
+msgstr "ความกว้างของตําแหน่ง"
+
+msgid "Long position color"
+msgstr "สีตําแหน่งยาว"
+
+msgid "Short position color"
+msgstr "สีตําแหน่งสั้น"
+
+msgid "Show day high/low"
+msgstr "แสดงวันสูง/ต่ํา"
+
+msgid "Day high"
+msgstr "วันสูงสุด"
+
+msgid "Day low"
+msgstr "ต่ําสุดของวัน"
+
+msgid "Highlight daily high/low range"
+msgstr "เน้นช่วงสูง/ต่ํารายวัน"
+
+msgid "High/Low range colors"
+msgstr "สีช่วงสูง/ต่ํา"
+
+msgid "Clear marked prices"
+msgstr "ล้างราคาที่ทําเครื่องหมายไว้"
+
+msgid "Price marks"
+msgstr "เครื่องหมายราคา"
+
+msgid "Add mark"
+msgstr "เพิ่มเครื่องหมาย"
+
+msgid "In profit range"
+msgstr "ในช่วงกําไร"
+
+msgid "Profit text color"
+msgstr "สีข้อความกําไร"
+
+msgid "In loss range"
+msgstr "ในช่วงการสูญเสีย"
+
+msgid "Loss text color"
+msgstr "สีข้อความสูญหาย"
+
+msgid "Profit & Loss"
+msgstr "กําไรและขาดทุน"
+
+msgid "Bids/Asks"
+msgstr "ราคาเสนอ/เสนอขาย"
+
+msgid "Bids"
+msgstr "ราคาเสนอ"
+
+msgid "Asks"
+msgstr "ถาม"
+
+msgid "Bid color"
+msgstr "สีประมูล"
+
+msgid "Ask color"
+msgstr "ถามสี"
+
+msgid "Size bar type"
+msgstr "ประเภทแถบขนาด"
+
+msgid "Left"
+msgstr "ซ้าย"
+
+msgid "Right"
+msgstr "ขวา"
+
+msgid "Histogram Alignment"
+msgstr "การจัดตําแหน่งฮิสโตแกรม"
+
+msgid "MBO"
+msgstr "เอ็มบีโอ"
+
+msgid "Size coloring scheme"
+msgstr "รูปแบบการระบายสีขนาด"
+
+msgid "Filter orders more than (MBO)"
+msgstr "กรองคําสั่งซื้อมากกว่า (MBO)"
+
+msgid "Draw borders (MBO)"
+msgstr "วาดเส้นขอบ (MBO)"
+
+msgid "Custom Bids Back Color"
+msgstr "สีกลับของราคาเสนอที่กําหนดเอง"
+
+msgid "Custom Asks Back Color"
+msgstr "กําหนดเองถามกลับสี"
+
+msgid "Set price marker"
+msgstr "ตั้งค่าเครื่องหมายราคา"
+
+msgid "Custom tick size:"
+msgstr "ขนาดเห็บที่กําหนดเอง:"
+
+msgid "Hide digits:"
+msgstr "ซ่อนตัวเลข:"
+
+msgid "Disabled"
+msgstr "พิการ"
+
+msgid "Total font"
+msgstr "แบบอักษรทั้งหมด"
+
+msgid "Total colors"
+msgstr "สีทั้งหมด"
+
+msgid "Alignment"
+msgstr "การวางแนว"
+
+msgid "Trade"
+msgstr "การค้า"
+
+msgid "Delta Positive"
+msgstr "เดลต้าบวก"
+
+msgid "Delta Negative"
+msgstr "เดลต้าลบ"
+
+msgid "Show Last Trade Size"
+msgstr "แสดงขนาดการเทรดล่าสุด"
+
+msgid "Reload data (server)"
+msgstr "โหลดข้อมูลใหม่ (เซิร์ฟเวอร์)"
+
+msgid "LIFO"
+msgstr "ลิโฟ"
+
+msgid "FIFO"
+msgstr "ฟีเอฟโอ"
+
+msgid "By price level"
+msgstr "ตามระดับราคา"
+
+msgid "Relative to volume"
+msgstr "เมื่อเทียบกับปริมาณ"
+
+msgid "Step to max volume"
+msgstr "ขั้นตอนสู่ระดับเสียงสูงสุด"
+
+msgid "Message"
+msgstr "ข้อความ"
+
+msgid "Sound"
+msgstr "เสียง"
+
+msgid "Email"
+msgstr "อีเมล"
+
+msgid "Coloring cell"
+msgstr "การระบายสีเซลล์"
+
+msgid "Hiding"
+msgstr "การซ่อน"
+
+msgid "Conditional Order"
+msgstr "คําสั่งซื้อแบบมีเงื่อนไข"
+
+msgid "Cancel order"
+msgstr "ยกเลิกคําสั่งซื้อ"
+
+msgid "Close position"
+msgstr "ปิดตําแหน่ง"
+
+msgid "Coloring row"
+msgstr "แถวสี"
+
+msgid "Telegram message"
+msgstr "ข้อความโทรเลข"
+
+msgid "Cancel orders"
+msgstr "ยกเลิกคําสั่งซื้อ"
+
+msgid "Cancel buy orders"
+msgstr "ยกเลิกใบสั่งซื้อ"
+
+msgid "Cancel sell orders"
+msgstr "ยกเลิกคําสั่งขาย"
+
+msgid "Cancel limits"
+msgstr "ยกเลิกขีดจํากัด"
+
+msgid "Cancel stops"
+msgstr "ยกเลิกการหยุด"
+
+msgid "Flatten"
+msgstr "ทําให้เรียบ"
+
+msgid "Close negative positions"
+msgstr "ปิดสถานะติดลบ"
+
+msgid "Close positive positions"
+msgstr "ปิดสถานะที่เป็นบวก"
+
+msgid "Close long positions"
+msgstr "ปิดสถานะซื้อ"
+
+msgid "Close short positions"
+msgstr "ปิดสถานะขาย"
+
+msgid "Place Buy Market order"
+msgstr "วางคําสั่งซื้อในตลาด"
+
+msgid "Place Sell Market order"
+msgstr "วางคําสั่งขายในตลาด"
+
+msgid "Close position by symbol"
+msgstr "ปิดตําแหน่งตามสัญลักษณ์"
+
+msgid "Compact"
+msgstr "ข้อตกลง"
+
+msgid "Normal"
+msgstr "ปกติ"
+
+msgid "Line Spacing"
+msgstr "ระยะห่างบรรทัด"
+
+msgid "Grid Color"
+msgstr "สีกริด"
+
+msgid "Sort order"
+msgstr "เรียงลําดับการจัดเรียง"
+
+msgid "Autosize of columns"
+msgstr "ปรับขนาดคอลัมน์โดยอัตโนมัติ"
+
+msgid "Auto re-sorting"
+msgstr "การเรียงลําดับใหม่อัตโนมัติ"
+
+msgid "Empty"
+msgstr "เปล่า"
+
+msgid "Group by"
+msgstr "จัดกลุ่มตาม"
+
+msgid "Columns visibility"
+msgstr "การมองเห็นคอลัมน์"
+
+msgid "Header text"
+msgstr "ข้อความส่วนหัว"
+
+msgid "Header alignment"
+msgstr "การจัดแนวส่วนหัว"
+
+msgid "Column alignment"
+msgstr "การจัดแนวคอลัมน์"
+
+msgid "Column color"
+msgstr "สีของคอลัมน์"
+
+msgid "Value up color"
+msgstr "เพิ่มมูลค่าของสี"
+
+msgid "Value down color"
+msgstr "ค่าลงสี"
+
+msgid "Rename list"
+msgstr "เปลี่ยนชื่อรายการ"
+
+msgid "List name"
+msgstr "ชื่อรายการ"
+
+msgid "Save current watchlist"
+msgstr "บันทึกรายการเฝ้าดูปัจจุบัน"
+
+msgid "Add to watchlist"
+msgstr "เพิ่มในรายการเฝ้าดู"
+
+msgid "Replace watchlist"
+msgstr "แทนที่รายการเฝ้าดู"
+
+msgid "Delete"
+msgstr "ลบ"
+
+msgid "Add selected symbols"
+msgstr "เพิ่มสัญลักษณ์ที่เลือก"
+
+msgid "Data latency"
+msgstr "เวลาแฝงของข้อมูล"
+
+msgid "'Or'"
+msgstr "'หรือ'"
+
+msgid "Parameters"
+msgstr "พารามิเตอร์"
+
+msgid "Save conditions"
+msgstr "บันทึกเงื่อนไข"
+
+msgid "Apply saved conditions"
+msgstr "ใช้เงื่อนไขที่บันทึกไว้"
+
+msgid "Are you sure you want to delete this condition?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบเงื่อนไขนี้"
+
+msgid "Unpin from toolbar"
+msgstr "ถอนการตรึงจากแถบเครื่องมือ"
+
+msgid "Pin on toolbar"
+msgstr "ปักหมุดบนแถบเครื่องมือ"
+
+msgid "Panel-specific custom hotkeys"
+msgstr "ปุ่มลัดแบบกําหนดเองเฉพาะแผง"
+
+msgid "No custom hotkeys were set up"
+msgstr "ไม่มีการตั้งค่าปุ่มลัดที่กําหนดเอง"
+
+#, csharp-format
+msgid "{0}None{1}"
+msgstr "{0} ไม่มี{1}"
+
+msgid "This Hotkey is reserved by the Core. Please use another one."
+msgstr "ปุ่มลัดนี้สงวนไว้โดยแกนกลาง โปรดใช้อีกอันหนึ่ง"
+
+#, csharp-format
+msgid "This Hotkey combination is already used for \"{0}\". Please use another one."
+msgstr "ชุดปุ่มลัดนี้ใช้สําหรับ \"{0}\" แล้ว โปรดใช้อีกอันหนึ่ง"
+
+#, csharp-format
+msgid "Are you sure want to remove {0}?"
+msgstr "คุณแน่ใจหรือว่าต้องการลบ{0}?"
+
+msgid "You have no selected symbols yet"
+msgstr "คุณยังไม่ได้เลือกสัญลักษณ์"
+
+msgid "Exchanges & Assets"
+msgstr "การแลกเปลี่ยนและสินทรัพย์"
+
+msgid "Add symbols"
+msgstr "เพิ่มสัญลักษณ์"
+
+msgid "No symbols selected."
+msgstr "ไม่มีสัญลักษณ์ที่เลือก"
+
+msgid "Choose the first symbol"
+msgstr "เลือกสัญลักษณ์แรก"
+
+msgid "Such aggregation type already added"
+msgstr "ประเภทการรวมดังกล่าวได้เพิ่มไว้แล้ว"
+
+msgid "Add new level"
+msgstr "เพิ่มระดับใหม่"
+
+#, csharp-format
+msgid "Level {0}"
+msgstr "ระดับ{0}"
+
+msgid "Remove level"
+msgstr "เอาระดับออก"
+
+msgid "Are you sure want to remove this level?"
+msgstr "คุณแน่ใจหรือว่าต้องการลบระดับนี้?"
+
+msgid "Use saved tokens"
+msgstr "ใช้โทเค็นที่บันทึกไว้"
+
+msgid "Alert target in $"
+msgstr "เป้าหมายการแจ้งเตือนใน $"
+
+msgid "Point coordinates"
+msgstr "พิกัดจุด"
+
+msgid "Point"
+msgstr "จุด"
+
+msgid "Enable sounds"
+msgstr "เปิดใช้งานเสียง"
+
+msgid "Reset to default"
+msgstr "รีเซ็ตเป็นค่าเริ่มต้น"
+
+msgid "Select sound file"
+msgstr "เลือกไฟล์เสียง"
+
+msgid "Play sound"
+msgstr "เล่นเสียง"
+
+msgid "Time in seconds"
+msgstr "เวลาเป็นวินาที"
+
+msgid "Positions P/L"
+msgstr "ตําแหน่ง P / L"
+
+msgid "Remove task"
+msgstr "เอางานออก"
+
+msgid "Task type"
+msgstr "ชนิดงาน"
+
+msgid "Enable/Disable task"
+msgstr "เปิด/ปิดใช้งานงาน"
+
+msgid "Add new task"
+msgstr "เพิ่มงานใหม่"
+
+msgid "Add 'Action'"
+msgstr "เพิ่ม 'การกระทํา'"
+
+msgid "To do"
+msgstr "สิ่งที่ต้องทํา"
+
+msgid "Collapse tasks"
+msgstr "ยุบงาน"
+
+msgid "Add task"
+msgstr "เพิ่มงาน"
+
+msgid "No tasks yet. "
+msgstr "ยังไม่มีงานทํา "
+
+#, csharp-format
+msgid "Add new '{0}' condition"
+msgstr "เพิ่มเงื่อนไข \"{0}\" ใหม่"
+
+msgid "AND"
+msgstr "และ"
+
+msgid "Remove condition"
+msgstr "เอาเงื่อนไขออก"
+
+msgid "Add 'OR'"
+msgstr "เพิ่ม 'หรือ'"
+
+msgid "OR"
+msgstr "หรือ"
+
+msgid "Conditions"
+msgstr "เงื่อนไข"
+
+msgid "Collapse conditions"
+msgstr "เงื่อนไขการล่มสลาย"
+
+msgid "Add condition"
+msgstr "เพิ่มเงื่อนไข"
+
+msgid "No conditions yet."
+msgstr "ยังไม่มีเงื่อนไข"
+
+msgid "Order parameters"
+msgstr "พารามิเตอร์การสั่งซื้อ"
+
+msgid "No order request"
+msgstr "ไม่มีคําขอสั่งซื้อ"
+
+msgid "Repeat this task continuously"
+msgstr "ทํางานนี้ซ้ําอย่างต่อเนื่อง"
+
+msgid "Enable filtering"
+msgstr "เปิดใช้งานการกรอง"
+
+msgid "Action name"
+msgstr "ชื่อการกระทํา"
+
+msgid "Enable action"
+msgstr "เปิดใช้งานการดําเนินการ"
+
+msgid "Enable filter"
+msgstr "เปิดใช้งานตัวกรอง"
+
+msgid "Confirm each trading operation"
+msgstr "ยืนยันการดําเนินการซื้อขายแต่ละครั้ง"
+
+msgid "Enable / disable action"
+msgstr "เปิด / ปิดการดําเนินการ"
+
+msgid "You need to add at least one condition and one task to enable action"
+msgstr "คุณต้องเพิ่มเงื่อนไขอย่างน้อยหนึ่งเงื่อนไขและงานหนึ่งอย่างเพื่อเปิดใช้งานการดําเนินการ"
+
+msgid "Enable / disable filter"
+msgstr "เปิด / ปิดใช้งานตัวกรอง"
+
+msgid "To enable filter add task"
+msgstr "เมื่อต้องการเปิดใช้งานตัวกรอง เพิ่มงาน"
+
+msgid "Select account"
+msgstr "เลือกบัญชี"
+
+msgid "Disconnect"
+msgstr "ยก เลิก"
+
+msgid "Connect"
+msgstr "ติด"
+
+msgid "Hide from toolbar"
+msgstr "ซ่อนจากแถบเครื่องมือ"
+
+msgid "Connected"
+msgstr "เชื่อม ต่อ"
+
+msgid "Connecting..."
+msgstr "เชื่อม ต่อ   "
+
+msgid "Connection error"
+msgstr "ข้อผิดพลาดในการเชื่อมต่อ"
+
+msgid "Disconnected"
+msgstr "เชื่อม ต่อ"
+
+msgid "Save password"
+msgstr "บันทึกรหัสผ่าน"
+
+msgid "Recover"
+msgstr "ฟื้นตัว"
+
+msgid "Select symbol"
+msgstr "เลือกสัญลักษณ์"
+
+msgid "Workspace name can not be empty"
+msgstr "ชื่อพื้นที่ทํางานไม่สามารถเว้นว่างได้"
+
+#, csharp-format
+msgid "Workspace name could contains: {0}"
+msgstr "ชื่อพื้นที่ทํางานอาจมี: {0}"
+
+msgid "Same workspace name already exist"
+msgstr "มีชื่อพื้นที่ทํางานเดียวกันอยู่แล้ว"
+
+msgid "Open OE Buy"
+msgstr "เปิดซื้อ OE"
+
+msgid "Open OE Sell"
+msgstr "เปิดขาย OE"
+
+msgid "Open Chart"
+msgstr "เปิดแผนภูมิ"
+
+msgid "Open DOM Trader"
+msgstr "เปิด DOM เทรดเดอร์"
+
+msgid "Open Market Depth"
+msgstr "ความลึกของตลาดเปิด"
+
+msgid "Open Time Sales"
+msgstr "ยอดขายเวลาเปิดทําการ"
+
+msgid "Open DOM Surface"
+msgstr "เปิดพื้นผิว DOM"
+
+msgid "Open TPO Chart"
+msgstr "เปิดแผนภูมิ TPO"
+
+msgid "Open Positions"
+msgstr "ตําแหน่งที่เปิดรับสมัคร"
+
+msgid "Open Working Orders"
+msgstr "เปิดคําสั่งทํางาน"
+
+msgid "Open Trades"
+msgstr "เปิดการซื้อขาย"
+
+msgid "Open Symbol Info"
+msgstr "เปิดข้อมูลสัญลักษณ์"
+
+#, csharp-format
+msgid "Are you sure you want to delete {0}?"
+msgstr "คุณแน่ใจหรือว่าต้องการลบ{0}?"
+
+msgid "is locked"
+msgstr "ถูกล็อค"
+
+msgid "is unlocked"
+msgstr "ถูกปลดล็อค"
+
+msgid "Sounds"
+msgstr "เสียง"
+
+msgid "Control center"
+msgstr "ศูนย์ควบคุม"
+
+msgid "Trading defaults"
+msgstr "ค่าเริ่มต้นการซื้อขาย"
+
+msgid "Confirmations & Warnings"
+msgstr "การยืนยันและคําเตือน"
+
+msgid "Mail server"
+msgstr "เซิร์ฟเวอร์จดหมาย"
+
+msgid "Synthetic"
+msgstr "สังเคราะห์"
+
+msgid "Licence settings"
+msgstr "การตั้งค่าสิทธิ์การใช้งาน"
+
+msgid "Telemetry settings"
+msgstr "การตั้งค่าการวัดและส่งข้อมูลทางไกล"
+
+msgid "General settings"
+msgstr "การตั้งค่าทั่วไป"
+
+msgid "Connection settings"
+msgstr "การตั้งค่าการเชื่อมต่อ"
+
+msgid "Plugin settings"
+msgstr "การตั้งค่าปลั๊กอิน"
+
+msgid "Time zone settings"
+msgstr "การตั้งค่าเขตเวลา"
+
+msgid "Symbols lists"
+msgstr "รายการสัญลักษณ์"
+
+msgid "Theme"
+msgstr "หัวข้อ"
+
+msgid "Language (Beta)"
+msgstr "ภาษา (เบต้า)"
+
+msgid "Data latency limit, ms"
+msgstr "ขีด จํากัด เวลาแฝงของข้อมูล ms"
+
+msgid "Autosave settings (every 5 minutes)"
+msgstr "การตั้งค่าการบันทึกอัตโนมัติ (ทุก 5 นาที)"
+
+msgid "Display quantity in lots"
+msgstr "แสดงปริมาณเป็นล็อต"
+
+msgid "Abbreviate volume & ticks"
+msgstr "ปริมาณย่อ &ticks"
+
+msgid "Abbreviate crypto prices"
+msgstr "ย่อราคา crypto"
+
+msgid "Unload inactive workspaces (reduces memory usage)"
+msgstr "ยกเลิกการโหลดพื้นที่ทํางานที่ไม่ได้ใช้งาน (ลดการใช้หน่วยความจํา)"
+
+msgid "Use software render mode (require application restart)"
+msgstr "ใช้โหมดการแสดงผลซอฟต์แวร์ (ต้องรีสตาร์ทแอปพลิเคชัน)"
+
+msgid "Hide part of Account name"
+msgstr "ซ่อนส่วนหนึ่งของชื่อบัญชี"
+
+msgid "Symbols to hide"
+msgstr "สัญลักษณ์ที่จะซ่อน"
+
+msgid "Default symbol"
+msgstr "สัญลักษณ์เริ่มต้น"
+
+msgid "Timeout (min)"
+msgstr "หมดเวลา (นาที)"
+
+msgid "PIN"
+msgstr "เข็มกลัด"
+
+msgid "Slippage, ticks"
+msgstr "การลื่นไถลเห็บเห็บ"
+
+msgid "Confirm order placement"
+msgstr "ยืนยันการสั่งซื้อสินค้า"
+
+msgid "Confirm order cancellation"
+msgstr "ยืนยันการยกเลิกคําสั่งซื้อ"
+
+msgid "Confirm order/position modification"
+msgstr "ยืนยันการปรับเปลี่ยนคําสั่งซื้อ/ตําแหน่ง"
+
+msgid "Confirm position reversing"
+msgstr "ยืนยันการกลับตําแหน่ง"
+
+msgid "Confirm application close"
+msgstr "ยืนยันการปิดรับสมัคร"
+
+msgid "Confirm bind close"
+msgstr "ยืนยันการผูกปิด"
+
+msgid "Warn if close TSL with active strategies"
+msgstr "เตือนหากปิด TSL ด้วยกลยุทธ์ที่ใช้งานอยู่"
+
+msgid "Warn if order quantity exceeds"
+msgstr "เตือนหากปริมาณการสั่งซื้อเกิน"
+
+msgid "Show deal tickets"
+msgstr "แสดงตั๋วดีล"
+
+msgid "Confirm hotbutton action"
+msgstr "ยืนยันการทํางานของปุ่มร้อน"
+
+msgid "Confirm multiple place order strategies"
+msgstr "ยืนยันกลยุทธ์การสั่งซื้อหลายสถานที่"
+
+msgid "Enable Microsoft Excel RTD"
+msgstr "เปิดใช้งานไมโครซอฟต์เอ็กเซล RTD"
+
+msgid "Custom RTD formula name"
+msgstr "ชื่อสูตร RTD แบบกําหนดเอง"
+
+msgid "Custom argument separator"
+msgstr "ตัวคั่นอาร์กิวเมนต์แบบกําหนดเอง"
+
+msgid "Socket port"
+msgstr "พอร์ตซ็อกเก็ต"
+
+msgid "Allow connection from Visual Studio (for scripts debugging)"
+msgstr "อนุญาตการเชื่อมต่อจาก Visual Studio (สําหรับการดีบักสคริปต์)"
+
+msgid "Telegram"
+msgstr "โทรเลข"
+
+msgid "Duplicate alerts to Telegram"
+msgstr "การแจ้งเตือนซ้ําไปยังโทรเลข"
+
+msgid "Duplicate trading notifications to Telegram"
+msgstr "การแจ้งเตือนการซื้อขายซ้ําไปยัง Telegram"
+
+msgid "Excel RTD"
+msgstr "เอ็กเซล RTD"
+
+msgid "Algo"
+msgstr "อัลโก"
+
+msgid "Messengers"
+msgstr "ผู้ส่งสาร"
+
+msgid "P/L alerts"
+msgstr "การแจ้งเตือน P/L"
+
+msgid "Connecting was cancelled"
+msgstr "การเชื่อมต่อถูกยกเลิก"
+
+msgid "Network does not available"
+msgstr "เครือข่ายไม่พร้อมใช้งาน"
+
+msgid "User is empty."
+msgstr "ผู้ใช้ว่างเปล่า"
+
+msgid "Password is empty."
+msgstr "รหัสผ่านว่างเปล่า"
+
+msgid "Fundamental equity name"
+msgstr "ชื่อหุ้นพื้นฐาน"
+
+msgid "Sector"
+msgstr "ด้าน"
+
+msgid "Industry"
+msgstr "อุตสาหกรรม"
+
+msgid "Execute in premarket/afterhours"
+msgstr "ดําเนินการล่วงหน้า/หลังเลิกงาน"
+
+msgid "Class"
+msgstr "ประเภท"
+
+msgid "Status"
+msgstr "สถานะ"
+
+msgid "Is tradable"
+msgstr "สามารถซื้อขายได้"
+
+msgid "Is marginable"
+msgstr "มีขอบ"
+
+msgid "is easy-to-borrow"
+msgstr "ยืมง่าย"
+
+msgid "Execute in ext. hours"
+msgstr "ดําเนินการในหน่วยชั่วโมงต่อ"
+
+msgid "Last maintenance margin requirement (previous day)"
+msgstr "ข้อกําหนดระยะขอบการบํารุงรักษาล่าสุด (วันก่อนหน้า)"
+
+msgid "Your maintenance margin requirement on the previous trading day"
+msgstr "ข้อกําหนดมาร์จิ้นค่าบํารุงรักษาของคุณในวันซื้อขายก่อนหน้า"
+
+msgid "Maintenance margin requirement"
+msgstr "ข้อกําหนดอัตรากําไรขั้นต้นในการบํารุงรักษา"
+
+msgid "Initial margin requirement"
+msgstr "ข้อกําหนดมาร์จิ้นเริ่มต้น"
+
+msgid "Reg T initial margin requirement"
+msgstr "ข้อกําหนดมาร์จิ้นเริ่มต้น Reg T"
+
+msgid "Equity as of previous trading day"
+msgstr "อิควิตี้ ณ วันซื้อขายก่อนหน้า"
+
+msgid "Buying power"
+msgstr "กําลังซื้อ"
+
+msgid "Current available buying power"
+msgstr "กําลังซื้อที่มีอยู่ในปัจจุบัน"
+
+msgid "Regulation buying power"
+msgstr "ควบคุมกําลังซื้อ"
+
+msgid "The account is permitted to short"
+msgstr "บัญชีได้รับอนุญาตให้สั้น"
+
+msgid "Is market open"
+msgstr "เปิดตลาดหรือไม่"
+
+msgid "Next market open time"
+msgstr "เวลาเปิดตลาดถัดไป"
+
+msgid "Gets nearest trading day open time"
+msgstr "รับเวลาเปิดทําการของวันซื้อขายที่ใกล้ที่สุด"
+
+msgid "Next market close time"
+msgstr "เวลาปิดตลาดถัดไป"
+
+msgid "Gets nearest trading day close time"
+msgstr "รับเวลาปิดทําการของวันซื้อขายที่ใกล้ที่สุด"
+
+msgid "API key"
+msgstr "คีย์ API"
+
+msgid "Secret key"
+msgstr "รหัสลับ"
+
+msgid "Can't find connection parameters"
+msgstr "ไม่พบพารามิเตอร์การเชื่อมต่อ"
+
+msgid "ApiKey is empty"
+msgstr "ApiKey ว่างเปล่า"
+
+msgid "Secret id is empty"
+msgstr "รหัสลับว่างเปล่า"
+
+msgid "Use realtime data (Require many request to api)"
+msgstr "ใช้ข้อมูลแบบเรียลไทม์ (ต้องมีคําขอจํานวนมากเพื่อ api)"
+
+msgid "Api key is empty"
+msgstr "คีย์ Api ว่างเปล่า"
+
+msgid "Login is empty"
+msgstr "การเข้าสู่ระบบว่างเปล่า"
+
+msgid "Password is empty"
+msgstr "รหัสผ่านว่างเปล่า"
+
+msgid "Incorrect Login or Password"
+msgstr "ล็อกอินหรือรหัสผ่านไม่ถูกต้อง"
+
+msgid "Contract size"
+msgstr "ขนาดสัญญา"
+
+msgid "Max price"
+msgstr "ราคาสูงสุด"
+
+msgid "Min notional"
+msgstr "สัญญาขั้นต่ํา"
+
+msgid "Iceberg allowed"
+msgstr "ภูเขาน้ําแข็งได้รับอนุญาต"
+
+msgid "Orders"
+msgstr "ใบ สั่ง"
+
+msgid "Full license"
+msgstr "ใบอนุญาตเต็มรูปแบบ"
+
+msgid "Total Balance"
+msgstr "ยอดรวม"
+
+msgid "Total Debt"
+msgstr "หนี้สินรวม"
+
+msgid "Account Equity"
+msgstr "อิควิตี้ของบัญชี"
+
+msgid "Margin level"
+msgstr "ระดับมาร์จิ้น"
+
+msgid "Maintenance margin"
+msgstr "อัตรากําไรขั้นต้นในการบํารุงรักษา"
+
+msgid "Required margin"
+msgstr "มาร์จิ้นที่ต้องการ"
+
+msgid "Leverage"
+msgstr "เลเวอเรจ"
+
+msgid "Margin type"
+msgstr "ประเภทมาร์จิ้น"
+
+msgid "Positions"
+msgstr "ตำแหน่ง"
+
+msgid "Hedge mode"
+msgstr "โหมดป้องกันความเสี่ยง"
+
+msgid "Wallet balance"
+msgstr "ยอดคงเหลือในกระเป๋าเงิน"
+
+msgid "Available balance"
+msgstr "ยอดเงินคงเหลือ"
+
+msgid "Initial margin"
+msgstr "มาร์จิ้นเริ่มต้น"
+
+msgid "Margin balance"
+msgstr "ยอดมาร์จิ้นคงเหลือ"
+
+msgid "Crossed wallet balance"
+msgstr "ยอดคงเหลือในกระเป๋าเงินข้าม"
+
+msgid "Max withdraw amount"
+msgstr "จํานวนเงินที่ถอนได้สูงสุด"
+
+msgid "Open order initial margin"
+msgstr "เปิดคําสั่งมาร์จิ้นเริ่มต้น"
+
+msgid "Position initial margin"
+msgstr "มาร์จิ้นเริ่มต้นตําแหน่ง"
+
+msgid "Unrealized PNL"
+msgstr "PNL ที่ยังไม่เกิดขึ้นจริง"
+
+msgid "Crossed position Unrealized PNL"
+msgstr "ตําแหน่งข้าม PNL ที่ยังไม่เกิดขึ้นจริง"
+
+msgid "Margin available"
+msgstr "มีมาร์จิ้น"
+
+msgid "Available for Order"
+msgstr "มีให้สําหรับการสั่งซื้อ"
+
+msgid "Margin Ratio"
+msgstr "อัตราส่วนมาร์จิ้น"
+
+msgid "Callback Rate"
+msgstr "อัตราการเรียกกลับ"
+
+msgid "Trigger"
+msgstr "ไกปืน"
+
+msgid "Iceberg quantity"
+msgstr "ปริมาณ ภูเขาน้ําแข็ง"
+
+msgid "Post-Only"
+msgstr "โพสต์อย่างเดียว"
+
+msgid "Behavior"
+msgstr "พฤติกรรม"
+
+msgid "Last Price"
+msgstr "ราคาล่าสุด"
+
+msgid "Mark Price"
+msgstr "มาร์ค ไพรซ์"
+
+msgid "Borrow"
+msgstr "ยืม"
+
+msgid "Repay"
+msgstr "ตอบแทน"
+
+msgid "Activation price"
+msgstr "ราคาเปิดใช้งาน"
+
+msgid "Open position"
+msgstr "ตําแหน่งที่เปิดรับ"
+
+msgid "Trigger price|Stop limit"
+msgstr "ราคาทริกเกอร์| ขีดจํากัดการหยุด"
+
+msgid "Limit|Stop limit"
+msgstr "วงเงิน| ขีดจํากัดการหยุด"
+
+msgid "Price should be positive non-zero value"
+msgstr "ราคาควรเป็นบวกไม่ใช่ค่าศูนย์"
+
+msgid "Stop price should be positive non-zero value"
+msgstr "ราคาหยุดควรเป็นบวกค่าที่ไม่ใช่ศูนย์"
+
+msgid "Margin call"
+msgstr "การเรียกหลักประกันเพิ่ม"
+
+msgid "Adjust Leverage"
+msgstr "ปรับเลเวอเรจ"
+
+msgid "Adjust Margin Mode"
+msgstr "ปรับโหมดมาร์จิ้น"
+
+msgid "Volume analysis step (ticks)"
+msgstr "ขั้นตอนการวิเคราะห์ปริมาณ (เห็บ)"
+
+msgid "Account custom name"
+msgstr "ชื่อบัญชีที่กําหนดเอง"
+
+msgid "Check orders interval, sec"
+msgstr "ตรวจสอบช่วงเวลาของคําสั่งซื้อวินาที"
+
+msgid "Real-time"
+msgstr "เรียลไทม์"
+
+msgid "Real-time and history"
+msgstr "เรียลไทม์และประวัติศาสตร์"
+
+msgid "Once per minute"
+msgstr "หนึ่งครั้งต่อนาที"
+
+msgid "Once per 2 minutes"
+msgstr "หนึ่งครั้งต่อ 2 นาที"
+
+msgid "Once per 3 minutes"
+msgstr "หนึ่งครั้งต่อ 3 นาที"
+
+msgid "Once per 5 minutes"
+msgstr "หนึ่งครั้งต่อ 5 นาที"
+
+msgid "Once per 15 minutes"
+msgstr "หนึ่งครั้งต่อ 15 นาที"
+
+msgid "Once per 30 minutes"
+msgstr "หนึ่งครั้งต่อ 30 นาที"
+
+msgid "Once per hour"
+msgstr "หนึ่งครั้งต่อชั่วโมง"
+
+msgid "Mark price"
+msgstr "ทําเครื่องหมายราคา"
+
+msgid "Last price"
+msgstr "ราคาล่าสุด"
+
+msgid "Binance server"
+msgstr "เซิร์ฟเวอร์ Binance"
+
+msgid "External server"
+msgstr "เซิร์ฟเวอร์ภายนอก"
+
+msgid "By timer"
+msgstr "ตามตัวจับเวลา"
+
+msgid "Periodically"
+msgstr "เป็น ระยะๆ"
+
+msgid "Connection"
+msgstr "การเชื่อมต่อ"
+
+msgid "Allow load user trades history"
+msgstr "อนุญาตให้โหลดประวัติการซื้อขายของผู้ใช้"
+
+msgid "Allow load user orders history"
+msgstr "อนุญาตให้โหลดประวัติคําสั่งซื้อของผู้ใช้"
+
+msgid "Base endpoint"
+msgstr "จุดสิ้นสุดฐาน"
+
+msgid "Bid/Ask update frequency"
+msgstr "ความถี่ในการอัปเดตราคาเสนอ/เสนอขาย"
+
+msgid "Bid/Ask update timer interval, sec"
+msgstr "ช่วงเวลาของการอัปเดตการเสนอราคา/ถาม, วินาที"
+
+msgid "TP/SL trigger price"
+msgstr "ราคาทริกเกอร์ TP / SL"
+
+msgid "Open interest mode"
+msgstr "เปิดโหมดความสนใจ"
+
+msgid "Open interest update period"
+msgstr "เปิดระยะเวลาอัปเดตดอกเบี้ย"
+
+msgid "Calculate PNL locally"
+msgstr "คํานวณ PNL ภายในเครื่อง"
+
+msgid "PnL calculation basis"
+msgstr "พื้นฐานการคํานวณ PnL"
+
+msgid "Real-time trades source"
+msgstr "แหล่งการซื้อขายแบบเรียลไทม์"
+
+msgid "Load funding rates history"
+msgstr "โหลดประวัติอัตราเงินทุน"
+
+msgid "Reduce-only"
+msgstr "ลดอย่างเดียว"
+
+msgid "Post-only"
+msgstr "โพสต์อย่างเดียว"
+
+msgid "OCO"
+msgstr "โอโค"
+
+msgid "OCO Stop price"
+msgstr "ราคาหยุด OCO"
+
+msgid "Can't connect."
+msgstr "เชื่อมต่อไม่ได้"
+
+msgid "Allow margin trading"
+msgstr "อนุญาตการซื้อขายมาร์จิ้น"
+
+msgid "Minimum margin"
+msgstr "มาร์จิ้นขั้นต่ํา"
+
+msgid "Insurance fund balance"
+msgstr "ยอดเงินกองทุนประกันภัย"
+
+msgid "The balance available to the liquidation engine to absorb losses"
+msgstr "ความสมดุลที่มีให้สําหรับเครื่องยนต์การชําระบัญชีเพื่อดูดซับการสูญเสีย"
+
+msgid "Next funding"
+msgstr "เงินทุนก้อนต่อไป"
+
+msgid "Timestamp of next funding event"
+msgstr "การประทับเวลาของเหตุการณ์การระดมทุนครั้งต่อไป"
+
+msgid "Next funding accrued"
+msgstr "เงินทุนถัดไปที่เกิดขึ้น"
+
+msgid "Current accrued funding for next 8h period"
+msgstr "เงินทุนคงค้างปัจจุบันสําหรับงวด 8 ชั่วโมงถัดไป"
+
+msgid "Next funding step"
+msgstr "ขั้นตอนการระดมทุนขั้นต่อไป"
+
+msgid "Incremental accrual counter"
+msgstr "ตัวนับยอดคงค้างที่เพิ่มขึ้น"
+
+msgid "Current funding"
+msgstr "เงินทุนปัจจุบัน"
+
+msgid "Funding applied in the current 8h period"
+msgstr "เงินทุนที่ใช้ในช่วง 8 ชั่วโมงปัจจุบัน"
+
+msgid "Clamp min"
+msgstr "แคลมป์นาที"
+
+msgid "Range in the average spread that does not require a funding payment"
+msgstr "ช่วงของสเปรดเฉลี่ยที่ไม่ต้องชําระเงินด้วยเงินทุน"
+
+msgid "Clamp max"
+msgstr "แคลมป์สูงสุด"
+
+msgid "Funding payment cap"
+msgstr "วงเงินการชําระเงินเงินทุน"
+
+msgid "Orders history"
+msgstr "ประวัติการสั่งซื้อ"
+
+msgid "Order ID"
+msgstr "รหัสคําสั่งซื้อ"
+
+msgid "Group ID"
+msgstr "รหัสกลุ่ม"
+
+msgid "Client Order ID"
+msgstr "รหัสคําสั่งซื้อของลูกค้า"
+
+msgid "Creation time"
+msgstr "เวลาในการสร้าง"
+
+msgid "Update time"
+msgstr "เวลาอัปเดต"
+
+msgid "Amount"
+msgstr "ปริมาณ"
+
+msgid "Orig. amount"
+msgstr "จํานวนโอริก"
+
+msgid "Average price"
+msgstr "ราคาเฉลี่ย"
+
+msgid "Trailing price"
+msgstr "ราคาต่อท้าย"
+
+msgid "Auxiliary Limit price"
+msgstr "ราคา จํากัด เสริม"
+
+msgid "Net margin"
+msgstr "อัตรากําไรขั้นต้นสุทธิ"
+
+msgid "User profit & loss"
+msgstr "กําไรและขาดทุนของผู้ใช้"
+
+msgid "User swaps"
+msgstr "สวอปผู้ใช้"
+
+msgid "Verified"
+msgstr "จริง"
+
+msgid "Verification level"
+msgstr "ระดับการยืนยัน"
+
+msgid "Merchant enabled"
+msgstr "เปิดใช้งานร้านค้าแล้ว"
+
+msgid "Maker fee"
+msgstr "ค่าชง"
+
+msgid "Derivative rebate"
+msgstr "รีเบตอนุพันธ์"
+
+msgid "Taker fee to crypto"
+msgstr "ค่าธรรมเนียม Taker เพื่อเข้ารหัสลับ"
+
+msgid "Taker fee to stable"
+msgstr "ค่าธรรมเนียมผู้รับเพื่อความมั่นคง"
+
+msgid "Taker fee to fiat"
+msgstr "ค่าธรรมเนียมผู้รับเพื่อคําสั่ง"
+
+msgid "Derivative taker fee"
+msgstr "ค่าธรรมเนียมผู้รับอนุพันธ์"
+
+msgid "Market data connection. Trading coming soon."
+msgstr "การเชื่อมต่อข้อมูลตลาด การซื้อขายเร็ว ๆ นี้"
+
+msgid "Index"
+msgstr "ดัชนี"
+
+msgid "Spot symbol"
+msgstr "สัญลักษณ์สปอต"
+
+msgid "Transaction History"
+msgstr "ประวัติการทํารายการ"
+
+msgid "Trade history"
+msgstr "ประวัติการค้า"
+
+msgid "Order history"
+msgstr "ประวัติการสั่งซื้อ"
+
+msgid "Fee"
+msgstr "ค่าธรรมเนียม"
+
+msgid "Address"
+msgstr "ที่อยู่"
+
+msgid "Wallet Balance"
+msgstr "ยอดคงเหลือในกระเป๋าเงิน"
+
+msgid "Exec Type"
+msgstr "ประเภทผู้บริหาร"
+
+msgid "Exec Qty"
+msgstr "เอ็กเซ็กซิคจํานวน"
+
+msgid "Exec Price"
+msgstr "เอ็กเซ็กซ์ ราคา"
+
+msgid "Fee Rate"
+msgstr "อัตราค่าธรรมเนียม"
+
+msgid "Fee Paid"
+msgstr "ค่าธรรมเนียมที่ชําระแล้ว"
+
+msgid "Order Type"
+msgstr "ประเภทคําสั่ง"
+
+msgid "Order Qty"
+msgstr "สั่งซื้อจํานวน"
+
+msgid "Qty Left"
+msgstr "จํานวนซ้าย"
+
+msgid "Order Price"
+msgstr "ราคาสั่งซื้อ"
+
+msgid "OrderID"
+msgstr "รหัสคําสั่งซื้อ"
+
+msgid "Qty"
+msgstr "ปริมาณ"
+
+msgid "Remaining"
+msgstr "เหลือ"
+
+msgid "Stop Price"
+msgstr "ราคาหยุด"
+
+msgid "Fill Price"
+msgstr "เติมราคา"
+
+msgid "Risk limit"
+msgstr "ขีดจํากัดความเสี่ยง"
+
+msgid "Wallet Balance = (Deposits - Withdrawals + Realized PNL)"
+msgstr "ยอดคงเหลือในกระเป๋าเงิน = (การฝาก - การถอนเงิน + PNL ที่รับรู้)"
+
+msgid "Current profit and loss from all open positions"
+msgstr "กําไรและขาดทุนปัจจุบันจากตําแหน่งที่เปิดอยู่ทั้งหมด"
+
+msgid "Margin Balance"
+msgstr "ยอดคงเหลือมาร์จิ้น"
+
+msgid "Your total equity held with the exchange. Margin balance = (Balance + Unrealized PNL)"
+msgstr "ส่วนของผู้ถือหุ้นทั้งหมดของคุณที่ถืออยู่กับการแลกเปลี่ยน ยอดคงเหลือมาร์จิ้น = (ยอดคงเหลือ + PNL ที่ยังไม่เกิดขึ้นจริง)"
+
+msgid "Position Margin"
+msgstr "ระยะขอบตําแหน่ง"
+
+msgid "The minimum equity you must retain with the exchange to keep your positions. "
+msgstr "ส่วนของผู้ถือหุ้นขั้นต่ําที่คุณต้องเก็บไว้กับการแลกเปลี่ยนเพื่อรักษาตําแหน่งของคุณ "
+
+msgid "Order Margin"
+msgstr "มาร์จิ้นคําสั่งซื้อ"
+
+msgid "The minimum equity you must retain with the exchange to keep your open orders. "
+msgstr "อิควิตี้ขั้นต่ําที่คุณต้องเก็บไว้กับการแลกเปลี่ยนเพื่อรักษาคําสั่งซื้อที่เปิดอยู่ของคุณ "
+
+msgid "Available Balance"
+msgstr "ยอดเงินคงเหลือ"
+
+msgid "Your margin available for new positions. Available Balance = (Margin Balance - Order Margin - Position Margin)"
+msgstr "มาร์จิ้นของคุณพร้อมสําหรับตําแหน่งใหม่ ยอดคงเหลือที่ใช้ได้ = (ยอดคงเหลือมาร์จิ้น - มาร์จิ้นของคําสั่งซื้อ - มาร์จิ้นของตําแหน่ง)"
+
+msgid "Gross Position Value: {RoundToCurrencyPrecision(ConvertToRealValue(userMargin.GrossPositionValue, currency), currency)} {currency}"
+msgstr "มูลค่าตําแหน่งรวม: {RoundToCurrencyPrecision(ConvertToRealValue(userMargin.GrossPositionValue, currency), currency)} {currency}"
+
+msgid "Display quantity"
+msgstr "แสดงปริมาณ"
+
+msgid "One way"
+msgstr "ทางเดียว"
+
+msgid "Hedge"
+msgstr "บ่ายเบี่ยง"
+
+msgid "Open orders"
+msgstr "เปิดคําสั่งซื้อขาย"
+
+msgid "Open positions"
+msgstr "ตําแหน่งที่เปิดรับ"
+
+msgid "Taker fee"
+msgstr "ค่าธรรมเนียมผู้รับ"
+
+msgid "Leverage type"
+msgstr "ประเภทเลเวอเรจ"
+
+msgid "Isolated"
+msgstr "เปลี่ยว"
+
+msgid "Position mode"
+msgstr "โหมดตําแหน่ง"
+
+msgid "Long leverage"
+msgstr "เลเวอเรจระยะยาว"
+
+msgid "Short leverage"
+msgstr "เลเวอเรจสั้น"
+
+msgid "Index price"
+msgstr "ราคาดัชนี"
+
+msgid "Unique comment"
+msgstr "ความคิดเห็นที่ไม่ซ้ํา"
+
+msgid "Register account"
+msgstr "ลงทะเบียนบัญชี"
+
+msgid "Spot exchange"
+msgstr "จุดแลกเปลี่ยน"
+
+msgid "Inverse futures exchange"
+msgstr "การแลกเปลี่ยนฟิวเจอร์สผกผัน"
+
+msgid "USDT perpetual exchange"
+msgstr "USDT การแลกเปลี่ยนถาวร"
+
+msgid "Load user trades history"
+msgstr "โหลดประวัติการซื้อขายของผู้ใช้"
+
+msgid "Can't find connection type parameters"
+msgstr "ไม่พบพารามิเตอร์ชนิดการเชื่อมต่อ"
+
+msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
+msgstr "ไม่มีการแลกเปลี่ยนที่เลือกเพื่อเชื่อมต่อ โปรดเปิด 'การตั้งค่าการเชื่อมต่อ' และเลือกการแลกเปลี่ยนที่ต้องการ"
+
+msgid "Conditional limit"
+msgstr "ขีดจํากัดตามเงื่อนไข"
+
+msgid "Conditional market"
+msgstr "ตลาดแบบมีเงื่อนไข"
+
+msgid "Trailing profit"
+msgstr "กําไรต่อท้าย"
+
+msgid "Min price"
+msgstr "ราคาขั้นต่ํา"
+
+msgid "Max leverage"
+msgstr "เลเวอเรจสูงสุด"
+
+msgid "Min leverage"
+msgstr "เลเวอเรจขั้นต่ํา"
+
+msgid "Leverage step"
+msgstr "ขั้นตอนเลเวอเรจ"
+
+msgid "Asset exchange records"
+msgstr "บันทึกการแลกเปลี่ยนสินทรัพย์"
+
+msgid "Active orders"
+msgstr "คําสั่งซื้อที่ใช้งานอยู่"
+
+msgid "Conditional orders"
+msgstr "คําสั่งซื้อแบบมีเงื่อนไข"
+
+msgid "Equity"
+msgstr "ความเที่ยงธรรม"
+
+msgid "Used margin"
+msgstr "มาร์จิ้นที่ใช้แล้ว"
+
+msgid "Order margin"
+msgstr "มาร์จิ้นของคําสั่งซื้อ"
+
+msgid "Pre-occupied order margin"
+msgstr "ระยะขอบคําสั่งซื้อที่ถูกครอบครองล่วงหน้า"
+
+msgid "Position margin"
+msgstr "ระยะขอบของตําแหน่ง"
+
+msgid "Position closing fee occupied"
+msgstr "ค่าธรรมเนียมการปิดตําแหน่งที่ครอบครอง"
+
+msgid "Pre-occupied funding fee"
+msgstr "ค่าธรรมเนียมการระดมทุนที่ครอบครองล่วงหน้า"
+
+msgid "Daily realized PnL"
+msgstr "รายวันตระหนักถึง PnL"
+
+msgid "Daily realized profit and loss"
+msgstr "กําไรขาดทุนที่รับรู้รายวัน"
+
+msgid "Daily unrealized PnL"
+msgstr "PnL ที่ยังไม่เกิดขึ้นจริงรายวัน"
+
+msgid "Daily unrealized profit and loss"
+msgstr "กําไรและขาดทุนที่ยังไม่เกิดขึ้นจริงรายวัน"
+
+msgid "Accumulated realised PnL"
+msgstr "สะสม PnL รับรู้"
+
+msgid "Accumulated realised profit and loss (all-time total)"
+msgstr "กําไรขาดทุนสะสมที่เกิดขึ้นจริง (รวมเป็นประวัติการณ์)"
+
+msgid "Client Id"
+msgstr "รหัสลูกค้า"
+
+msgid "Secret Id"
+msgstr "รหัสลับ"
+
+msgid "Client id is empty"
+msgstr "รหัสลูกค้าว่างเปล่า"
+
+msgid "Trade user"
+msgstr "ผู้ใช้การค้า"
+
+msgid "Trade password"
+msgstr "รหัสผ่านการซื้อขาย"
+
+msgid "Wrong password"
+msgstr "รหัสผ่านไม่ถูกต้อง"
+
+msgid "Wrong username"
+msgstr "ชื่อผู้ใช้ไม่ถูกต้อง"
+
+msgid "Blocked user"
+msgstr "ผู้ใช้ที่ถูกบล็อก"
+
+msgid "Session in use"
+msgstr "เซสชันที่ใช้งานอยู่"
+
+msgid "Application not found"
+msgstr "ไม่พบแอปพลิเคชัน"
+
+msgid "Permission denied"
+msgstr "การอนุญาตถูกปฏิเสธ"
+
+msgid "Password have not expired"
+msgstr "รหัสผ่านยังไม่หมดอายุ"
+
+msgid "New password failed"
+msgstr "รหัสผ่านใหม่ล้มเหลว"
+
+msgid "Must change password"
+msgstr "ต้องเปลี่ยนรหัสผ่าน"
+
+msgid "Cedro Market data license is required to use this connection."
+msgstr "จําเป็นต้องมีใบอนุญาตข้อมูล Cedro Market เพื่อใช้การเชื่อมต่อนี้"
+
+msgid "Primary"
+msgstr "ประถม"
+
+msgid "Collateral Value"
+msgstr "มูลค่าหลักประกัน"
+
+msgid "Open P/L"
+msgstr "เปิด P / L"
+
+msgid "Available Margin"
+msgstr "มาร์จิ้นที่ใช้ได้"
+
+msgid "Used"
+msgstr "ใช้แล้ว"
+
+msgid "Reserved"
+msgstr "สำรอง"
+
+msgid "Free"
+msgstr "ฟรี"
+
+msgid "Ratio"
+msgstr "สัดส่วน"
+
+msgid "Market data only"
+msgstr "ข้อมูลตลาดเท่านั้น"
+
+msgid "Demo trading"
+msgstr "การซื้อขายสาธิต"
+
+msgid "Real trading"
+msgstr "การซื้อขายจริง"
+
+msgid "Login"
+msgstr "เข้า สู่ ระบบ"
+
+msgid "Two-Factor Authentication code"
+msgstr "รหัสการตรวจสอบสิทธิ์แบบสองปัจจัย"
+
+msgid "Use saved token"
+msgstr "ใช้โทเค็นที่บันทึกไว้"
+
+msgid "AON"
+msgstr "อานนท์"
+
+msgid "ICEBERG"
+msgstr "ภูเขาน้ำแข็ง"
+
+msgid "QT"
+msgstr "คิวที"
+
+msgid "TRAIL"
+msgstr "ทางเดิน"
+
+msgid "FUNARI"
+msgstr "ฟุนาริ"
+
+msgid "MIT"
+msgstr "เอ็มไอที"
+
+msgid "MLM"
+msgstr "เอ็มแอลเอ็ม"
+
+msgid "POSTONLY"
+msgstr "โพสต์โพสตันลี"
+
+msgid "User name is empty."
+msgstr "ชื่อผู้ใช้ว่างเปล่า"
+
+msgid "FCM id"
+msgstr "รหัส FCM"
+
+msgid "Brokerage firm ID in CQG trade routing system."
+msgstr "รหัส บริษัท นายหน้าซื้อขายหลักทรัพย์ในระบบเส้นทางการค้า CQG"
+
+msgid "FCM name"
+msgstr "ชื่อ FCM"
+
+msgid "Brokerage firm name."
+msgstr "ชื่อบริษัทนายหน้าซื้อขายหลักทรัพย์"
+
+msgid "FCM account id"
+msgstr "รหัสบัญชี FCM"
+
+msgid "Account ID in Brokerage Firm."
+msgstr "รหัสบัญชีในบริษัทนายหน้าซื้อขายหลักทรัพย์"
+
+msgid "View only"
+msgstr "ดูอย่างเดียว"
+
+msgid "True if user can only monitor this account without trading."
+msgstr "จริงถ้าผู้ใช้สามารถตรวจสอบบัญชีนี้โดยไม่ต้องซื้อขาย"
+
+msgid "Sales series name"
+msgstr "ชื่อชุดการขาย"
+
+msgid "Sales series number"
+msgstr "หมายเลขชุดการขาย"
+
+msgid "Sales series number in CQG trade routing system."
+msgstr "หมายเลขชุดการขายในระบบการกําหนดเส้นทางการค้า CQG"
+
+msgid "Collateral"
+msgstr "หลักประกัน"
+
+msgid "Collateral on Deposit."
+msgstr "หลักประกันในการฝากเงิน"
+
+msgid "Open Trade Equity"
+msgstr "เปิดเทรดอิควิตี้"
+
+msgid "Open Trade Equity for Futures."
+msgstr "เปิดเทรดอิควิตี้สําหรับฟิวเจอร์ส"
+
+msgid "Initial Margin Requirements."
+msgstr "ข้อกําหนดมาร์จิ้นเริ่มต้น"
+
+msgid "Cash excess"
+msgstr "เงินสดส่วนเกิน"
+
+msgid "Purchasing power"
+msgstr "กําลังซื้อ"
+
+msgid "Available account funds including balance, realized profit (or loss), collateral and credits. OTE and MVO are included regarding the account risk parameters."
+msgstr "เงินในบัญชีที่มีอยู่รวมถึงยอดคงเหลือกําไร (หรือขาดทุน) ที่รับรู้หลักประกันและเครดิต OTE และ MVO รวมอยู่ในพารามิเตอร์ความเสี่ยงของบัญชี"
+
+msgid "Market value of futures"
+msgstr "มูลค่าตลาดของฟิวเจอร์ส"
+
+msgid "Market value of futures calculated as the current market trade/best bid/best ask (regarding to the risk account settings) times the number of futures (positive for long and negative for short) in the portfolio."
+msgstr "มูลค่าตลาดของฟิวเจอร์สที่คํานวณเป็นการซื้อขายในตลาดปัจจุบัน/การเสนอราคาที่ดีที่สุด/คําถามที่ดีที่สุด (เกี่ยวกับการตั้งค่าบัญชีความเสี่ยง) คูณจํานวนฟิวเจอร์ส (บวกสําหรับระยะยาวและลบในระยะสั้น) ในพอร์ตโฟลิโอ"
+
+msgid "Market value of options"
+msgstr "มูลค่าตลาดของออปชั่น"
+
+msgid "Market value of options calculated as the current market trade/best bid/best ask of the option (regarding to the risk account settings) times the number of options (positive for long options and negative for short options) in the portfolio. Included if purchasing power depends on it."
+msgstr "มูลค่าตลาดของออปชั่นที่คํานวณเป็นการซื้อขายในตลาดปัจจุบัน/การเสนอราคาที่ดีที่สุด/ราคาเสนอขายที่ดีที่สุด/คําถามที่ดีที่สุดของออปชั่น (เกี่ยวกับการตั้งค่าบัญชีความเสี่ยง) คูณจํานวนออปชั่น (บวกสําหรับออปชั่นระยะยาวและลบสําหรับออปชั่นสั้น) ในพอร์ตโฟลิโอ รวมถ้ากําลังซื้อขึ้นอยู่กับมัน"
+
+msgid "Unrealized PnL (OTE)"
+msgstr "PnL ที่ยังไม่เกิดขึ้นจริง (OTE)"
+
+msgid "Open trade equity, or potential profit (or loss) from futures and future-style options positions based on opening price of the position and the current future trade/best bid/best ask (regarding to the risk account settings) or settlement price if trade is not available. Included if purchasing power depends on it."
+msgstr "เปิดส่วนของการซื้อขายหรือกําไร (หรือขาดทุน) ที่อาจเกิดขึ้นจากฟิวเจอร์สและตําแหน่งตัวเลือกในอนาคตตามราคาเปิดของตําแหน่งและการซื้อขายในอนาคตปัจจุบัน / การเสนอราคาที่ดีที่สุด / ถามที่ดีที่สุด (เกี่ยวกับการตั้งค่าบัญชีความเสี่ยง) หรือราคาชําระบัญชีหากไม่มีการซื้อขาย รวมถ้ากําลังซื้อขึ้นอยู่กับมัน"
+
+msgid "Realized PnL"
+msgstr "ตระหนักถึง PnL"
+
+msgid "Total PnL"
+msgstr "รวม PnL"
+
+msgid "Margin credit"
+msgstr "เครดิตมาร์จิ้น"
+
+msgid "Allowable margin credit of the account"
+msgstr "เครดิตมาร์จิ้นที่อนุญาตของบัญชี"
+
+msgid "Total margin"
+msgstr "มาร์จิ้นทั้งหมด"
+
+msgid "Margin requirement calculated for worst-case based on open positions and working orders."
+msgstr "ข้อกําหนดมาร์จิ้นที่คํานวณสําหรับกรณีที่เลวร้ายที่สุดโดยพิจารณาจากตําแหน่งที่เปิดอยู่และคําสั่งทํางาน"
+
+msgid "Margin requirement based on current positions only."
+msgstr "ข้อกําหนดมาร์จิ้นตามตําแหน่งปัจจุบันเท่านั้น"
+
+msgid "Spot"
+msgstr "จุด"
+
+msgid "Margin"
+msgstr "ขอบ"
+
+msgid "Trade mode"
+msgstr "โหมดการค้า"
+
+msgid "Post only"
+msgstr "โพสต์เท่านั้น"
+
+msgid "Post Only"
+msgstr "โพสต์เท่านั้น"
+
+msgid "Margin trading is enabled"
+msgstr "เปิดใช้งานการซื้อขายมาร์จิ้น"
+
+msgid "Margin order"
+msgstr "คําสั่งมาร์จิ้น"
+
+msgid "Spot order"
+msgstr "สั่งซื้อเฉพาะจุด"
+
+msgid "Connect to exchange"
+msgstr "เชื่อมต่อกับการแลกเปลี่ยน"
+
+msgid "Support margin trading"
+msgstr "สนับสนุนการซื้อขายมาร์จิ้น"
+
+msgid "Market range"
+msgstr "ช่วงตลาด"
+
+msgid "Server region"
+msgstr "ภูมิภาคเซิร์ฟเวอร์"
+
+msgid "Net P/L"
+msgstr "สุทธิ P / L"
+
+msgid "The total unrealized profit/loss for all positions currently open in the Account"
+msgstr "กําไร/ขาดทุนที่ยังไม่เกิดขึ้นจริงทั้งหมดสําหรับตําแหน่งทั้งหมดที่เปิดบัญชีอยู่ในปัจจุบัน"
+
+msgid "Net P/L, %"
+msgstr "สุทธิ P / L, %"
+
+msgid "Unrealised P/L shown as a percentage of the balance"
+msgstr "P/L ที่ยังไม่เกิดขึ้นจริงซึ่งแสดงเป็นเปอร์เซ็นต์ของยอดคงเหลือ"
+
+msgid "Realized Fee"
+msgstr "ค่าธรรมเนียมที่รับรู้"
+
+msgid "The total amount of realized fee paid over the lifetime of the Account"
+msgstr "จํานวนเงินทั้งหมดของค่าธรรมเนียมที่รับรู้ได้จ่ายตลอดอายุของบัญชี"
+
+msgid "Realised P/L"
+msgstr "ตระหนักถึง P / L"
+
+msgid "The total profit/loss realized over the lifetime of the Account"
+msgstr "กําไร/ขาดทุนทั้งหมดที่เกิดขึ้นตลอดอายุบัญชี"
+
+msgid "Account type"
+msgstr "ประเภทบัญชี"
+
+msgid "Swap free"
+msgstr "สวอปฟรี"
+
+msgid "Trader account type"
+msgstr "ประเภทบัญชีเทรดเดอร์"
+
+msgid "Account registration date"
+msgstr "วันที่ลงทะเบียนบัญชี"
+
+msgid "Three days Swaps"
+msgstr "สวอปสามวัน"
+
+msgid "Swap long"
+msgstr "สวอปยาว"
+
+msgid "Swap short"
+msgstr "สวอปสั้น ๆ"
+
+msgid "Trading is enabled"
+msgstr "เปิดใช้งานการซื้อขายแล้ว"
+
+msgid "Firm"
+msgstr "มั่นคง"
+
+msgid "Firm is empty."
+msgstr "บริษัท ว่างเปล่า"
+
+msgid "Server have not supported"
+msgstr "เซิร์ฟเวอร์ไม่ได้รับการสนับสนุน"
+
+msgid "Strategy type"
+msgstr "ประเภทกลยุทธ์"
+
+msgid "Strategy ratio"
+msgstr "อัตราส่วนกลยุทธ์"
+
+msgid "Available cash"
+msgstr "เงินสดที่มีอยู่"
+
+msgid "Total unrelised P/L"
+msgstr "P/L ที่ไม่มีสีทั้งหมด"
+
+msgid "Total unrealised overnight P/L"
+msgstr "P/L ข้ามคืนที่ยังไม่เกิดขึ้นจริงทั้งหมด"
+
+msgid "Total realised P/L"
+msgstr "P/L ที่รับรู้ทั้งหมด"
+
+msgid "Total P/L"
+msgstr "P / L ทั้งหมด"
+
+msgid "Position rollover"
+msgstr "โรลโอเวอร์ตําแหน่ง"
+
+msgid "P/L rollower"
+msgstr "ม้วน P / L"
+
+msgid "Order routing"
+msgstr "การกําหนดเส้นทางคําสั่งซื้อ"
+
+msgid "Pre trade risk managment"
+msgstr "การบริหารความเสี่ยงก่อนการซื้อขาย"
+
+msgid "Trading start time"
+msgstr "เวลาเริ่มต้นเทรด"
+
+msgid "Trading stop time"
+msgstr "เวลาหยุดการซื้อขาย"
+
+msgid "Loss limit(excluding overnight)"
+msgstr "ขีดจํากัดการสูญเสีย (ไม่รวมข้ามคืน)"
+
+msgid "Loss limit"
+msgstr "ขีดจํากัดการสูญเสีย"
+
+msgid "Max account position size"
+msgstr "ขนาดตําแหน่งบัญชีสูงสุด"
+
+msgid "Max account order size"
+msgstr "ขนาดการสั่งซื้อบัญชีสูงสุด"
+
+msgid "Max position size"
+msgstr "ขนาดตําแหน่งสูงสุด"
+
+msgid "Max strategy position size"
+msgstr "ขนาดตําแหน่งกลยุทธ์สูงสุด"
+
+msgid "Max strategy order size"
+msgstr "ขนาดการสั่งซื้อกลยุทธ์สูงสุด"
+
+msgid "Minimal balance"
+msgstr "สมดุลน้อยที่สุด"
+
+msgid "Intraday margin rate"
+msgstr "อัตรามาร์จิ้นระหว่างวัน"
+
+msgid "Overnight margin rate"
+msgstr "อัตรามาร์จิ้นข้ามคืน"
+
+msgid "Warning loss limit"
+msgstr "ขีดจํากัดการสูญเสียคําเตือน"
+
+msgid "Warning margin"
+msgstr "ระยะขอบเตือน"
+
+msgid "Warning P/L"
+msgstr "คําเตือน P / L"
+
+msgid "Warning threshold loss limit"
+msgstr "ขีดจํากัดการสูญเสียเกณฑ์การเตือน"
+
+msgid "Warning threshold margin"
+msgstr "ระยะขอบเกณฑ์คําเตือน"
+
+msgid "Warning threshold P/L"
+msgstr "เกณฑ์การเตือน P / L"
+
+msgid "Account number"
+msgstr "หมายเลขบัญชี"
+
+msgid "Description"
+msgstr "การบรรยาย"
+
+msgid "Broker/FCM"
+msgstr "โบรกเกอร์/FCM"
+
+msgid "Stop market"
+msgstr "หยุดตลาด"
+
+msgid "Post"
+msgstr "ประกาศ"
+
+msgid "Reduce Only"
+msgstr "ลดเท่านั้น"
+
+msgid "Reduce"
+msgstr "ลด"
+
+msgid "Invalid credentials"
+msgstr "ข้อมูลรับรองไม่ถูกต้อง"
+
+msgid "Connection data server is missing"
+msgstr "เซิร์ฟเวอร์ข้อมูลการเชื่อมต่อหายไป"
+
+msgid "Authorization endpoint is missing"
+msgstr "ปลายทางการอนุญาตหายไป"
+
+msgid "Stop Limit"
+msgstr "หยุดขีด จํากัด"
+
+msgid "Trailing stop"
+msgstr "หยุดต่อท้าย"
+
+msgid "Iceberg"
+msgstr "ภูเขาน้ำแข็ง"
+
+msgid "TWAP"
+msgstr "ทท.ท.ทวีศิลป์"
+
+msgid "GTC"
+msgstr "จีทีซี"
+
+msgid "IOC"
+msgstr "ไอโอซี"
+
+msgid "FOK"
+msgstr "FOK"
+
+msgid "ATO"
+msgstr "เอทีโอ"
+
+msgid "ATC"
+msgstr "เอทีซี"
+
+msgid "Credentials"
+msgstr "ข้อมูลประจําตัว"
+
+msgid "FIX trade"
+msgstr "แก้ไขการค้า"
+
+msgid "FIX feed"
+msgstr "ฟีดการแก้ไข"
+
+msgid "Displayed currency"
+msgstr "สกุลเงินที่แสดง"
+
+msgid "Client ID"
+msgstr "รหัสลูกค้า"
+
+msgid "Application ID"
+msgstr "รหัสแอปพลิเคชัน"
+
+msgid "Shared key"
+msgstr "คีย์ที่แชร์"
+
+msgid "Port"
+msgstr "ท่า"
+
+msgid "SenderCompId"
+msgstr "ผู้ส่งCompId"
+
+msgid "TargetCompId"
+msgstr "TargetCompId"
+
+msgid "Trades history"
+msgstr "ประวัติการซื้อขาย"
+
+msgid "Transactions history"
+msgstr "ประวัติการทําธุรกรรม"
+
+msgid "Account"
+msgstr "บัญชี"
+
+msgid "Created"
+msgstr "สร้าง"
+
+msgid "Updated"
+msgstr "ปรับ ปรุง"
+
+msgid "Duration"
+msgstr "ระยะเวลา"
+
+msgid "Instrument"
+msgstr "เครื่องมือ"
+
+msgid "Stop price"
+msgstr "ราคาหยุด"
+
+msgid "P&L"
+msgstr "พีแอล"
+
+msgid "Asset"
+msgstr "ทรัพย์สิน"
+
+msgid "Id"
+msgstr "รหัส"
+
+msgid "Contract multiplier"
+msgstr "ตัวคูณสัญญา"
+
+msgid "Account value"
+msgstr "มูลค่าทางบัญชี"
+
+msgid "Available"
+msgstr "มีอยู่"
+
+msgid "Used for margin"
+msgstr "ใช้สําหรับมาร์จิ้น"
+
+msgid "Margin utilization"
+msgstr "การใช้มาร์จิ้น"
+
+msgid "Reduce-Only"
+msgstr "ลดอย่างเดียว"
+
+msgid "Lower bound"
+msgstr "ขอบเขตล่าง"
+
+msgid "Upper bound"
+msgstr "ขอบเขตบน"
+
+msgid "Subaccount name"
+msgstr "ชื่อบัญชีย่อย"
+
+msgid "Subaccount"
+msgstr "บัญชีย่อย"
+
+msgid "Source Account"
+msgstr "บัญชีต้นทาง"
+
+msgid "Destination Account"
+msgstr "บัญชีปลายทาง"
+
+msgid "Coin"
+msgstr "เหรียญ"
+
+msgid "Deposit history"
+msgstr "ประวัติการฝากเงิน"
+
+msgid "Withdrawal history"
+msgstr "ประวัติการถอนเงิน"
+
+msgid "Filled size"
+msgstr "ขนาดที่เต็มไปหมด"
+
+msgid "Order size"
+msgstr "ขนาดการสั่งซื้อ"
+
+msgid "Avg Fill Price"
+msgstr "ราคาเติมเฉลี่ย"
+
+msgid "Trigger Price"
+msgstr "ราคาทริกเกอร์"
+
+msgid "Fee rate"
+msgstr "อัตราค่าธรรมเนียม"
+
+msgid "Liquidity"
+msgstr "สภาพคล่อง"
+
+msgid "Sent time"
+msgstr "เวลาที่ส่ง"
+
+msgid "Confirmed time"
+msgstr "เวลาที่ยืนยันแล้ว"
+
+msgid "Confirmations"
+msgstr "ยืนยัน"
+
+msgid "Notes"
+msgstr "หมาย เหตุ"
+
+msgid "Destination"
+msgstr "จุดหมาย"
+
+msgid "Free collateral"
+msgstr "หลักประกันฟรี"
+
+msgid "Init margin req."
+msgstr "Init margin req."
+
+msgid "Maint. margin req."
+msgstr "Maint. margin req."
+
+msgid "Position limit"
+msgstr "ขีดจํากัดตําแหน่ง"
+
+msgid "Position limit used"
+msgstr "ขีดจํากัดตําแหน่งที่ใช้"
+
+msgid "API secret"
+msgstr "ข้อมูลลับเกี่ยวกับ API"
+
+msgid "Account scheme"
+msgstr "รูปแบบบัญชี"
+
+msgid "WARNING!!! This option can cause a significant delay during the trading"
+msgstr "คำเตือน!!! ตัวเลือกนี้อาจทําให้เกิดความล่าช้าอย่างมากในระหว่างการซื้อขาย"
+
+msgid "History"
+msgstr "ประวัติศาสตร์"
+
+msgid "Funding rates mode"
+msgstr "โหมดอัตราเงินทุน"
+
+msgid "Account activity"
+msgstr "กิจกรรมในบัญชี"
+
+msgid "Info"
+msgstr "ข้อมูล"
+
+msgid "Trading info"
+msgstr "ข้อมูลการซื้อขาย"
+
+msgid "Token"
+msgstr "สัญลักษณ์"
+
+msgid "Access token is empty."
+msgstr "โทเค็นการเข้าถึงว่างเปล่า"
+
+msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
+msgstr "จํานวนเงินในบัญชีรวมถึงกําไรและขาดทุนของตําแหน่งที่เปิดอยู่ทั้งหมด (ยอดคงเหลือลอยตัวของบัญชี)"
+
+msgid "The amount of funds used to maintain all open positions on the account."
+msgstr "จํานวนเงินที่ใช้ในการรักษาตําแหน่งที่เปิดอยู่ทั้งหมดในบัญชี"
+
+msgid "Usable margin"
+msgstr "มาร์จิ้นที่ใช้งานได้"
+
+msgid "The amount of funds available to open new positions or to absorb losses of the existing positions."
+msgstr "จํานวนเงินที่มีให้ในการเปิดตําแหน่งใหม่หรือดูดซับการสูญเสียของตําแหน่งที่มีอยู่"
+
+msgid "Usable margin,%"
+msgstr "มาร์จิ้นที่ใช้งานได้,%"
+
+msgid "Three level Used margin"
+msgstr "ระยะขอบที่ใช้แล้วสามระดับ"
+
+msgid "Three level Usable margin"
+msgstr "ระยะขอบที่ใช้งานได้สามระดับ"
+
+msgid "Three level Usable margin, %"
+msgstr "มาร์จิ้นที่ใช้งานได้สามระดับ, %"
+
+msgid "Margin call status"
+msgstr "สถานะการเรียกหลักประกันเพิ่ม"
+
+msgid "Gross P/L"
+msgstr "ขั้นต้น P / L"
+
+msgid "Day P/L"
+msgstr "วัน P / L"
+
+msgid "Hedging type"
+msgstr "ประเภทการป้องกันความเสี่ยง"
+
+msgid "Value date"
+msgstr "วันที่ค่า"
+
+msgid "The simulated delivery date. The date and time when the position opened in the instrument could be automatically closed."
+msgstr "วันที่จัดส่งจําลอง วันที่และเวลาที่ตําแหน่งที่เปิดในตราสารสามารถปิดได้โดยอัตโนมัติ"
+
+msgid "Allow to sell"
+msgstr "อนุญาตให้ขาย"
+
+msgid "The usage of the sell price. It defines whether the sell price of the instrument is available for trading or not."
+msgstr "การใช้ราคาขาย มันกําหนดว่าราคาขายของตราสารนั้นพร้อมสําหรับการซื้อขายหรือไม่"
+
+msgid "Allow to buy"
+msgstr "อนุญาตให้ซื้อ"
+
+msgid "The usage of the buy price. It defines whether the buy price of the instrument is available for trading or not"
+msgstr "การใช้ราคาซื้อ มันกําหนดว่าราคาซื้อของตราสารพร้อมสําหรับการซื้อขายหรือไม่"
+
+msgid "Long swap"
+msgstr "สวอปยาว"
+
+msgid "The interest amount added to the account balance for holding a one lot long (buy) position overnight. "
+msgstr "จํานวนดอกเบี้ยที่เพิ่มเข้าไปในยอดคงเหลือในบัญชีสําหรับการถือครองตําแหน่ง Long (ซื้อ) หนึ่งล็อตข้ามคืน "
+
+msgid "Short swap"
+msgstr "สวอปสั้น ๆ"
+
+msgid "The interest amount added to the account balance for holding a one lot short (sell) position overnight. "
+msgstr "จํานวนดอกเบี้ยที่เพิ่มเข้าไปในยอดคงเหลือในบัญชีสําหรับการถือตําแหน่ง Short (ขาย) หนึ่งล็อตข้ามคืน "
+
+msgid "Maintenance margin level"
+msgstr "ระดับอัตรากําไรขั้นต้นในการบํารุงรักษา"
+
+msgid "Entry margin level"
+msgstr "ระดับระยะขอบเริ่มต้น"
+
+msgid "Limitation margin level"
+msgstr "ระดับมาร์จิ้นที่จํากัด"
+
+msgid "Currencies"
+msgstr "สกุล เงิน"
+
+msgid "FX Indices"
+msgstr "ดัชนี FX"
+
+msgid "Indices"
+msgstr "ดัชนี"
+
+msgid "Commodities"
+msgstr "สินค้า โภคภัณฑ์"
+
+msgid "Treasuries"
+msgstr "คลัง"
+
+msgid "Shares"
+msgstr "หุ้น"
+
+msgid "Bullions"
+msgstr "ทองคําแท่ง"
+
+msgid "Take liquidity rate"
+msgstr "ใช้อัตราสภาพคล่อง"
+
+msgid "Provide liquidity rate"
+msgstr "ให้อัตราสภาพคล่อง"
+
+msgid "Fee currency"
+msgstr "สกุลเงินค่าธรรมเนียม"
+
+msgid "Reduce only"
+msgstr "ลดเท่านั้น"
+
+msgid "Margin mode"
+msgstr "โหมดมาร์จิ้น"
+
+msgid "Order price"
+msgstr "ราคาสั่งซื้อ"
+
+msgid "Optimal 5 price"
+msgstr "ราคา 5 ที่เหมาะสมที่สุด"
+
+msgid "Optimal 10 price"
+msgstr "ราคา 10 ที่เหมาะสมที่สุด"
+
+msgid "Optimal 20 price"
+msgstr "ราคาที่ดีที่สุด 20"
+
+msgid "This week"
+msgstr "สัปดาห์นี้"
+
+msgid "Next week"
+msgstr "อาทิตย์หน้า"
+
+msgid "Quarter"
+msgstr "ย่าน"
+
+msgid "Next quarter"
+msgstr "ไตรมาสหน้า"
+
+msgid "Delisting"
+msgstr "การเพิกถอน"
+
+msgid "Listing"
+msgstr "รายการ"
+
+msgid "Pending listing"
+msgstr "รายชื่อที่รอดําเนินการ"
+
+msgid "Suspension"
+msgstr "สารแขวนลอย"
+
+msgid "Suspending of listing"
+msgstr "การระงับรายชื่อ"
+
+msgid "In settlement"
+msgstr "ในการตั้งถิ่นฐาน"
+
+msgid "Delivering"
+msgstr "นำ เสนอ"
+
+msgid "Settlement completed"
+msgstr "การชําระเงินเสร็จสมบูรณ์"
+
+msgid "Delivered"
+msgstr "จัด ส่ง"
+
+msgid "Suspending of trade"
+msgstr "การระงับการค้า"
+
+msgid "Otc"
+msgstr "โอ๊กซ์"
+
+msgid "Otc Options"
+msgstr "ตัวเลือก OTC"
+
+msgid "Minepool"
+msgstr "ไมน์พูล"
+
+msgid "ETF"
+msgstr "อีทีเอฟ"
+
+msgid "Crypto Loans"
+msgstr "สินเชื่อคริปโต"
+
+msgid "Deposit Earning"
+msgstr "รายได้จากการฝากเงิน"
+
+msgid "Grid Trading"
+msgstr "การซื้อขายแบบกริด"
+
+msgid "Super margin"
+msgstr "ซูเปอร์มาร์จิ้น"
+
+msgid "Investmnet"
+msgstr "อินเวสเท็มเน็ต"
+
+msgid "Time out"
+msgstr "หมดเวลา"
+
+msgid "Contract status"
+msgstr "สถานะสัญญา"
+
+msgid "Settlement time"
+msgstr "เวลาชําระราคา"
+
+msgid "Order price type"
+msgstr "ประเภทราคาคําสั่งซื้อ"
+
+msgid "Contract type"
+msgstr "ประเภทสัญญา"
+
+msgid "Isolated leverage"
+msgstr "เลเวอเรจที่แยกได้"
+
+msgid "Cross leverage"
+msgstr "เลเวอเรจข้าม"
+
+msgid "Coin-M Futures"
+msgstr "ฟิวเจอร์สเหรียญ M"
+
+msgid "Coin-M Swaps"
+msgstr "สวอปเหรียญ-M"
+
+msgid "USDT-M Swaps"
+msgstr "USDT-M สวอป"
+
+msgid "Load user orders history"
+msgstr "โหลดประวัติคําสั่งซื้อของผู้ใช้"
+
+msgid "There aren't selected exchanges to connect. Please, choose needed exchanges and try connect again."
+msgstr "ไม่มีการแลกเปลี่ยนที่เลือกเพื่อเชื่อมต่อ โปรดเลือกการแลกเปลี่ยนที่จําเป็นแล้วลองเชื่อมต่ออีกครั้ง"
+
+msgid "API key is empty"
+msgstr "คีย์ API ว่างเปล่า"
+
+msgid "Secret key is empty"
+msgstr "รหัสลับว่างเปล่า"
+
+msgid "Limit on close"
+msgstr "จํากัดเมื่อปิด"
+
+msgid "Market on close"
+msgstr "ตลาดปิดทําการ"
+
+msgid "Trader Workstation"
+msgstr "เวิร์กสเตชันของเทรดเดอร์"
+
+msgid "IB Gateway"
+msgstr "เกตเวย์ IB"
+
+msgid "Host"
+msgstr "เจ้าภาพ"
+
+msgid "Connection port type"
+msgstr "ประเภทพอร์ตการเชื่อมต่อ"
+
+msgid "Custom port value"
+msgstr "ค่าพอร์ตที่กําหนดเอง"
+
+msgid "Market Depth levels count"
+msgstr "นับระดับความลึกของตลาด"
+
+msgid "Smart Market Depth"
+msgstr "ความลึกของตลาดอัจฉริยะ"
+
+msgid "Net liquidation value"
+msgstr "มูลค่าการชําระบัญชีสุทธิ"
+
+msgid "The basis for determining the price of the assets in your account. Total cash value + stock value + options value + bond value"
+msgstr "พื้นฐานสําหรับการกําหนดราคาของสินทรัพย์ในบัญชีของคุณ มูลค่าเงินสดรวม + มูลค่าหุ้น + มูลค่าออปชั่น + มูลค่าพันธบัตร"
+
+msgid "Net liquidation value uncertainty"
+msgstr "ความไม่แน่นอนของมูลค่าการชําระบัญชีสุทธิ"
+
+msgid "Equity with loan"
+msgstr "ส่วนของผู้ถือหุ้นที่มีเงินกู้ยืม"
+
+msgid "Forms the basis for determining whether a client has the necessary assets to either initiate or maintain security positions. Cash + stocks + bonds + mutual funds"
+msgstr "เป็นพื้นฐานสําหรับการพิจารณาว่าลูกค้ามีสินทรัพย์ที่จําเป็นในการเริ่มต้นหรือรักษาตําแหน่งความปลอดภัยหรือไม่ เงินสด + หุ้น + พันธบัตร + กองทุนรวม"
+
+msgid "Prev. day equity with loan"
+msgstr "ก่อนหน้า ส่วนของผู้ถือหุ้นวันก่อนหน้ากับเงินกู้"
+
+msgid "Reg T equity with loan"
+msgstr "ส่วนของ Reg T กับเงินกู้ยืม"
+
+msgid "Regulation T equity for universal account"
+msgstr "ระเบียบ T ส่วนของผู้ถือหุ้นสําหรับบัญชีสากล"
+
+msgid "Security gross position value"
+msgstr "มูลค่าฐานะรวมด้านความปลอดภัย"
+
+msgid "The sum of the absolute value of all stock and equity option positions"
+msgstr "ผลรวมของมูลค่าสัมบูรณ์ของตําแหน่งตัวเลือกหุ้นและตราสารทุนทั้งหมด"
+
+msgid "Cash"
+msgstr "เงินสด"
+
+msgid "Total cash balance recognized at the time of trade + futures PNL"
+msgstr "ยอดเงินสดคงเหลือทั้งหมดที่รับรู้ณ เวลาของการซื้อขาย + ฟิวเจอร์ส PNL"
+
+msgid "Available  funds"
+msgstr "เงินทุนที่มีอยู่"
+
+msgid "This value tells what you have available for trading"
+msgstr "ค่านี้บอกสิ่งที่คุณมีให้สําหรับการซื้อขาย"
+
+msgid "Excess liquidity"
+msgstr "สภาพคล่องส่วนเกิน"
+
+msgid "This value shows your margin cushion, before liquidation"
+msgstr "ค่านี้แสดงเบาะมาร์จิ้นของคุณก่อนการชําระบัญชี"
+
+msgid "Post-expiry excess (predicted)"
+msgstr "ส่วนเกินหลังหมดอายุ (คาดการณ์ไว้)"
+
+msgid "Special memorandum account"
+msgstr "บัญชีบันทึกข้อตกลงพิเศษ"
+
+msgid "Look ahead available funds"
+msgstr "มองไปข้างหน้ากองทุนที่มีอยู่"
+
+msgid "This value reflects your available funds at the next margin change"
+msgstr "ค่านี้สะท้อนถึงเงินทุนที่มีอยู่ของคุณเมื่อมีการเปลี่ยนแปลงมาร์จิ้นครั้งต่อไป"
+
+msgid "Look ahead excess liquidity"
+msgstr "มองไปข้างหน้าสภาพคล่องส่วนเกิน"
+
+msgid "This value reflects your excess liquidity at the next margin change"
+msgstr "ค่านี้สะท้อนถึงสภาพคล่องส่วนเกินของคุณในการเปลี่ยนแปลงมาร์จิ้นครั้งต่อไป"
+
+msgid "Buying power serves as a measurement of the dollar value of securities that one may purchase in a securities account without depositing additional funds"
+msgstr "กําลังซื้อทําหน้าที่เป็นการวัดมูลค่าดอลลาร์ของหลักทรัพย์ที่หนึ่งอาจซื้อในบัญชีหลักทรัพย์โดยไม่ต้องฝากเงินเพิ่มเติม"
+
+msgid "Securities leverage"
+msgstr "การใช้ประโยชน์หลักทรัพย์"
+
+msgid "GrossPositionValue / NetLiquidation"
+msgstr "GrossPositionValue / NetLiquidation"
+
+msgid "Look ahead next change"
+msgstr "มองไปข้างหน้าการเปลี่ยนแปลงถัดไป"
+
+msgid "Time when look-ahead values take effect"
+msgstr "เวลาที่ค่ามองไปข้างหน้ามีผล"
+
+msgid "Day trades left (T..T+4)"
+msgstr "การซื้อขายวันซ้าย (T.. ต+4)"
+
+msgid "The Number of Open/Close trades a user could put on before Pattern Day Trading is detected. A value of \"-1\" means that the user can put on unlimited day trades."
+msgstr "จํานวนการซื้อขายที่เปิดและปิดที่ผู้ใช้สามารถใส่ได้ก่อนที่จะตรวจพบการซื้อขายวันรูปแบบ ค่าของ \"-1\" หมายความว่าผู้ใช้สามารถซื้อขายวันได้ไม่ จํากัด"
+
+msgid "Month to date interest"
+msgstr "ดอกเบี้ยเดือนจนถึงปัจจุบัน"
+
+msgid "Total accrued cash value of stock, commodities and securities"
+msgstr "มูลค่าเงินสดคงค้างรวมของหุ้น สินค้าโภคภัณฑ์ และหลักทรัพย์"
+
+msgid "Accrued dividends"
+msgstr "เงินปันผลค้างรับ"
+
+msgid "Initial Margin requirement of whole portfolio"
+msgstr "ข้อกําหนดมาร์จิ้นเริ่มต้นของพอร์ตโฟลิโอทั้งหมด"
+
+msgid "Maintenance Margin requirement of whole portfolio"
+msgstr "ข้อกําหนดมาร์จิ้นการบํารุงรักษาของพอร์ตโฟลิโอทั้งหมด"
+
+msgid "Reg T margin"
+msgstr "อัตรากําไรขั้นต้น Reg T"
+
+msgid "Regulation T margin for universal account"
+msgstr "ระเบียบ T มาร์จิ้นสําหรับบัญชีสากล"
+
+msgid "Post-expiry margin (predicted)"
+msgstr "ระยะขอบหลังหมดอายุ (ที่คาดการณ์ไว้)"
+
+msgid "Pending debit card charges"
+msgstr "ค่าบริการบัตรเดบิตที่รอดําเนินการ"
+
+msgid "Identifies the IB account structure"
+msgstr "ระบุโครงสร้างบัญชี IB"
+
+msgid "Token is empty"
+msgstr "โทเค็นว่างเปล่า"
+
+msgid "Update frequency"
+msgstr "ความถี่ในการอัปเดต"
+
+msgid "How often the Index is updated"
+msgstr "ความถี่ที่ดัชนีมีการอัปเดต"
+
+msgid "Continent"
+msgstr "ทวีป"
+
+msgid "The continent of the country of focus for the Index"
+msgstr "ทวีปของประเทศที่มุ่งเน้นสําหรับดัชนี"
+
+msgid "Country"
+msgstr "ประเทศ"
+
+msgid "The country of focus for the Index"
+msgstr "ประเทศที่มุ่งเน้นสําหรับดัชนี"
+
+msgid "Share class"
+msgstr "แชร์ชั้นเรียน"
+
+msgid "The Security's share class (if applicable)"
+msgstr "คลาสการแชร์ของความปลอดภัย (ถ้ามี)"
+
+msgid "Exchange ticker"
+msgstr "ทิกเกอร์แลกเปลี่ยน"
+
+msgid "The exchange-level ticker"
+msgstr "ทิกเกอร์ระดับการแลกเปลี่ยน"
+
+msgid "Composite  ticker"
+msgstr "ทิกเกอร์คอมโพสิต"
+
+msgid "The country-composite ticker"
+msgstr "ทิกเกอร์ผสมประเทศ"
+
+msgid "Figi"
+msgstr "ฟิจิ"
+
+msgid "The exchange-level OpenFIGI identifier"
+msgstr "ตัวระบุ OpenFIGI ระดับการแลกเปลี่ยน"
+
+msgid "Composite  Figi"
+msgstr "ฟิจิคอมโพสิต"
+
+msgid "The country-composite OpenFIGI identifier"
+msgstr "ตัวระบุ OpenFIGI แบบรวมประเทศ"
+
+msgid "Share class Figi"
+msgstr "แชร์คลาส Figi"
+
+msgid "The global-composite OpenFIGI identifier"
+msgstr "ตัวระบุ OpenFIGI แบบรวมส่วนกลาง"
+
+msgid "Figi unique id"
+msgstr "รหัสที่ไม่ซ้ํากันของ Figi"
+
+msgid "The OpenFIGI unique ID  "
+msgstr "รหัสเฉพาะของ OpenFIGI  "
+
+msgid "Cik"
+msgstr "ซิก"
+
+msgid "Central Index Key issued by the SEC, which is the unique identifier for all owner filings"
+msgstr "คีย์ดัชนีกลางที่ออกโดยสํานักงาน ก.ล.ต. ซึ่งเป็นตัวระบุที่ไม่ซ้ํากันสําหรับการยื่นแบบของเจ้าของทั้งหมด"
+
+msgid "State"
+msgstr "สภาพ"
+
+msgid "Margin stop"
+msgstr "หยุดมาร์จิ้น"
+
+msgid "Fee volume currency"
+msgstr "สกุลเงินปริมาณค่าธรรมเนียม"
+
+msgid "Leverage buy"
+msgstr "ซื้อเลเวอเรจ"
+
+msgid "Leverage sell"
+msgstr "เลเวอเรจการขาย"
+
+msgid "Visible size"
+msgstr "ขนาดที่มองเห็นได้"
+
+msgid "Iceberg qty"
+msgstr "จํานวนภูเขาน้ําแข็ง"
+
+msgid "Reverse contract"
+msgstr "ย้อนกลับสัญญา"
+
+msgid "Enabled ADL"
+msgstr "เปิดใช้งาน ADL"
+
+msgid "Type of the contract"
+msgstr "ประเภทของสัญญา"
+
+msgid "Maker fees, %"
+msgstr "ค่าธรรมเนียมผู้ผลิต, %"
+
+msgid "Fixed maker fees"
+msgstr "ค่าธรรมเนียมผู้ผลิตคงที่"
+
+msgid "Maker fees"
+msgstr "ค่าธรรมเนียมผู้ผลิต"
+
+msgid "Taker fees, %"
+msgstr "ค่าธรรมเนียมผู้รับ, %"
+
+msgid "Fixed taker fees"
+msgstr "ค่าธรรมเนียมผู้รับคงที่"
+
+msgid "Derivative: Can't calculate spot-order direction."
+msgstr "อนุพันธ์: ไม่สามารถคํานวณทิศทางการสั่งซื้อเฉพาะจุดได้"
+
+msgid "Close order"
+msgstr "ปิดคําสั่งซื้อขาย"
+
+msgid "Stop price type"
+msgstr "ประเภทราคาหยุด"
+
+msgid "Spot: Can't calculate spot-order direction."
+msgstr "จุด: ไม่สามารถคํานวณทิศทางการสั่งซื้อเฉพาะจุดได้"
+
+msgid "Margin trade"
+msgstr "การซื้อขายมาร์จิ้น"
+
+msgid "API key (Spot)"
+msgstr "คีย์ API (สปอต)"
+
+msgid "Secret key (Spot)"
+msgstr "รหัสลับ (สปอต)"
+
+msgid "Password (Spot)"
+msgstr "รหัสผ่าน (สปอต)"
+
+msgid "API key (Derivative)"
+msgstr "คีย์ API (อนุพันธ์)"
+
+msgid "Secret key (Derivative)"
+msgstr "รหัสลับ (อนุพันธ์)"
+
+msgid "Password (Derivative)"
+msgstr "รหัสผ่าน (อนุพันธ์)"
+
+msgid "Connect to spot exchange"
+msgstr "เชื่อมต่อกับจุดแลกเปลี่ยน"
+
+msgid "Connect to futures exchange"
+msgstr "เชื่อมต่อกับการแลกเปลี่ยนฟิวเจอร์ส"
+
+msgid "Unified account"
+msgstr "บัญชีแบบรวม"
+
+msgid "ApiKey is empty (Spot)"
+msgstr "ApiKey ว่างเปล่า (สปอต)"
+
+msgid "Secret id is empty (Spot)"
+msgstr "รหัสลับว่างเปล่า (สปอต)"
+
+msgid "Password is empty (Spot)"
+msgstr "รหัสผ่านว่างเปล่า (สปอต)"
+
+msgid "ApiKey is empty (Derivative)"
+msgstr "ApiKey ว่างเปล่า (อนุพันธ์)"
+
+msgid "Secret id is empty (Derivative)"
+msgstr "รหัสลับว่างเปล่า (อนุพันธ์)"
+
+msgid "Password is empty (Derivative)"
+msgstr "รหัสผ่านว่างเปล่า (อนุพันธ์)"
+
+msgid "Margin requirements"
+msgstr "ข้อกําหนดมาร์จิ้น"
+
+msgid "Fees"
+msgstr "ค่า ธรรมเนียม"
+
+msgid "Today results"
+msgstr "ผลวันนี้"
+
+msgid "Data source type"
+msgstr "ชนิดแหล่งข้อมูล"
+
+msgid "Available to trade"
+msgstr "มีให้ซื้อขาย"
+
+msgid "P/L"
+msgstr "ป/ล"
+
+msgid "# Positions"
+msgstr "# ตําแหน่ง"
+
+msgid "# Orders"
+msgstr "# คําสั่งซื้อ"
+
+msgid "Today's volume"
+msgstr "ปริมาณวันนี้"
+
+msgid "# Today's trades"
+msgstr "# การซื้อขายของวันนี้"
+
+msgid "Trading days"
+msgstr "วันซื้อขาย"
+
+msgid "Volatility band"
+msgstr "แถบความผันผวน"
+
+msgid "Margin req."
+msgstr "มาร์จิ้น req"
+
+msgid "Minimum commission"
+msgstr "ค่าคอมมิชชั่นขั้นต่ํา"
+
+msgid "Long financing rate"
+msgstr "อัตราการจัดหาเงินทุนระยะยาว"
+
+msgid "Short financing rate"
+msgstr "อัตราการจัดหาเงินทุนระยะสั้น"
+
+msgid "Long swap points"
+msgstr "จุดสวอปยาว"
+
+msgid "Short swap points"
+msgstr "จุดสวอปสั้น ๆ"
+
+msgid "Commission"
+msgstr "คณะกรรมการ"
+
+msgid "Crypto"
+msgstr "คริปโต"
+
+msgid "ISIN"
+msgstr "ไอซิน"
+
+msgid "International Securities Identification Number"
+msgstr "หมายเลขประจําตัวหลักทรัพย์ระหว่างประเทศ"
+
+msgid "Net asset value"
+msgstr "มูลค่าสินทรัพย์สุทธิ"
+
+msgid "The net asset value of the Account. Equal to Account Balance + Unrealized P/L"
+msgstr "มูลค่าทรัพย์สินสุทธิของบัญชี เท่ากับยอดคงเหลือในบัญชี + P/L ที่ยังไม่เกิดขึ้นจริง"
+
+msgid "Withdrawal limit"
+msgstr "วงเงินถอน"
+
+msgid "The current Withdrawal Limit for the account which will be zero or a positive value indicating how much can be withdrawn from the account"
+msgstr "วงเงินถอนปัจจุบันสําหรับบัญชีซึ่งจะเป็นศูนย์หรือค่าบวกที่ระบุจํานวนเงินที่สามารถถอนออกจากบัญชีได้"
+
+msgid "Position value"
+msgstr "มูลค่าตําแหน่ง"
+
+msgid "The value of the Account’s open positions"
+msgstr "มูลค่าของสถานะที่เปิดอยู่ของบัญชี"
+
+msgid "Margin used"
+msgstr "มาร์จิ้นที่ใช้"
+
+msgid "Margin currently used for the Account"
+msgstr "มาร์จิ้นที่ใช้ในปัจจุบันสําหรับบัญชี"
+
+msgid "Margin available for the Account"
+msgstr "มาร์จิ้นที่ใช้ได้สําหรับบัญชี"
+
+msgid "Margin closeout value"
+msgstr "ค่าระยะใกล้ของมาร์จิ้น"
+
+msgid "The Account’s margin closeout NAV"
+msgstr "การปิดระยะขอบของบัญชี NAV"
+
+msgid "Margin closeout percent"
+msgstr "เปอร์เซ็นต์การปิดการขายมาร์จิ้น"
+
+msgid "The Account’s margin closeout percentage. When this value is 100% or above the Account is in a margin closeout situation"
+msgstr "เปอร์เซ็นต์การปิดการขายมาร์จิ้นของบัญชี เมื่อค่านี้เป็น 100% หรือสูงกว่าบัญชีอยู่ในสถานการณ์ Closeout มาร์จิ้น"
+
+msgid "Unrealised P/L"
+msgstr "P/L ที่ยังไม่เกิดขึ้นจริง"
+
+msgid "Unrealised P/L,%"
+msgstr "P / L ที่ยังไม่เกิดขึ้นจริง%"
+
+msgid "The number of positions currently open in the Account"
+msgstr "จํานวนตําแหน่งที่เปิดอยู่ในบัญชีในปัจจุบัน"
+
+msgid "The number of orders currently pending in the Account"
+msgstr "จํานวนคําสั่งซื้อที่รอดําเนินการในบัญชีในปัจจุบัน"
+
+msgid "The total amount of commission paid over the lifetime of the Account"
+msgstr "จํานวนค่าคอมมิชชั่นทั้งหมดที่จ่ายตลอดอายุบัญชี"
+
+msgid "Financing"
+msgstr "เงิน"
+
+msgid "Financing is paid/charged for open positions in the Account"
+msgstr "การจัดหาเงินทุนจะจ่าย / เรียกเก็บเงินสําหรับตําแหน่งที่เปิดในบัญชี"
+
+msgid "Smooth candlesticks"
+msgstr "เชิงเทียนเรียบ"
+
+msgid "Tick size"
+msgstr "ขนาดเห็บ"
+
+msgid "Max. tr.stop distance"
+msgstr "แม็กซ์ ระยะ tr.stop"
+
+msgid "Min. tr.stop distance"
+msgstr "ระยะหยุดรถขั้นต่ํา"
+
+#, csharp-format
+msgid "Per {0}"
+msgstr "ต่อ{0}"
+
+msgid "Minimum comission"
+msgstr "ค่าคอมมิชชั่นขั้นต่ํา"
+
+msgid "Bonds"
+msgstr "พันธบัตร"
+
+msgid "Metals"
+msgstr "โลหะ"
+
+msgid "Take profit type"
+msgstr "ประเภทการทํากําไร"
+
+msgid "TP trigger price"
+msgstr "ราคาทริกเกอร์ TP"
+
+msgid "TP price"
+msgstr "ราคา TP"
+
+msgid "Stop loss type"
+msgstr "ประเภทการหยุดการขาดทุน"
+
+msgid "SL trigger price"
+msgstr "ราคาทริกเกอร์ SL"
+
+msgid "Order behaviour"
+msgstr "พฤติกรรมการสั่งซื้อ"
+
+msgid "Margin currency"
+msgstr "สกุลเงินมาร์จิ้น"
+
+msgid "Linear"
+msgstr "เชิงเส้น"
+
+msgid "Inverse"
+msgstr "ผกผัน"
+
+msgid "Simple"
+msgstr "ง่าย"
+
+msgid "Single currency margin"
+msgstr "มาร์จิ้นสกุลเงินเดียว"
+
+msgid "Multi currency margin"
+msgstr "มาร์จิ้นหลายสกุลเงิน"
+
+msgid "Long/Short"
+msgstr "ยาว/สั้น"
+
+msgid "Net"
+msgstr "ตาข่าย"
+
+msgid "Waiting for confirmation"
+msgstr "รอการยืนยัน"
+
+msgid "Successful"
+msgstr "สำเร็จ"
+
+msgid "Pending cancel"
+msgstr "รอการยกเลิก"
+
+msgid "Canceled"
+msgstr "ยก เลิก"
+
+msgid "Failed"
+msgstr "ล้ม เหลว"
+
+msgid "Pending"
+msgstr "รอ"
+
+msgid "Sending"
+msgstr "การส่ง"
+
+msgid "Sent"
+msgstr "ส่ง"
+
+msgid "Awaiting email verification"
+msgstr "กําลังรอการยืนยันอีเมล"
+
+msgid "Awaiting manual verification"
+msgstr "รอการตรวจสอบด้วยตนเอง"
+
+msgid "Awaiting identity verification"
+msgstr "รอการยืนยันตัวตน"
+
+msgid "Get orders history"
+msgstr "รับประวัติการสั่งซื้อ"
+
+msgid "Get algo orders history"
+msgstr "รับประวัติการสั่งซื้อ algo"
+
+msgid "Get deposit history"
+msgstr "รับประวัติการฝากเงิน"
+
+msgid "Get withdrawal history"
+msgstr "รับประวัติการถอนเงิน"
+
+msgid "Account level"
+msgstr "ระดับบัญชี"
+
+msgid "Display type of Greeks"
+msgstr "ประเภทการแสดงผลของชาวกรีก"
+
+msgid "User level of the real trading volume"
+msgstr "ระดับผู้ใช้ของปริมาณการซื้อขายจริง"
+
+msgid "Temporary experience user level"
+msgstr "ระดับผู้ใช้ประสบการณ์ชั่วคราว"
+
+msgid "Isolated margin equity"
+msgstr "ส่วนของมาร์จิ้นที่แยกได้"
+
+msgid "Adjusted/Effective equity"
+msgstr "ส่วนของผู้ถือหุ้นที่ปรับปรุงแล้ว/มีประสิทธิภาพ"
+
+msgid "Margin frozen for pending orders"
+msgstr "มาร์จิ้นที่ถูกแช่แข็งสําหรับคําสั่งซื้อที่รอดําเนินการ"
+
+msgid "Margin ratio"
+msgstr "อัตราส่วนมาร์จิ้น"
+
+msgid "Quantity of positions"
+msgstr "จํานวนตําแหน่ง"
+
+msgid "Passphase is empty"
+msgstr "เฟสว่าง"
+
+msgid "12 words key is empty."
+msgstr "คีย์ 12 คําว่างเปล่า"
+
+msgid "Unconfirmed balances"
+msgstr "ยอดดุลที่ยังไม่ได้รับการยืนยัน"
+
+msgid "Virtual balances"
+msgstr "ยอดคงเหลือเสมือน"
+
+msgid "Balance"
+msgstr "ตาชั่ง"
+
+msgid "Deposit"
+msgstr "ฝาก"
+
+msgid "Widthrawal"
+msgstr "ไวด์วิวาล"
+
+msgid "Balances"
+msgstr "ยอด ดุล"
+
+msgid "Fee info"
+msgstr "ข้อมูลค่าธรรมเนียม"
+
+msgid "Secret"
+msgstr "ลับ"
+
+msgid "Thirty day volume"
+msgstr "ปริมาณสามสิบวัน"
+
+msgid "Next tier"
+msgstr "ระดับถัดไป"
+
+msgid "Open gross P/L"
+msgstr "เปิด P / L ขั้นต้น"
+
+msgid "Total Margin Value"
+msgstr "มูลค่ามาร์จิ้นรวม"
+
+msgid "Unrealized P/L"
+msgstr "P / L ที่ยังไม่เกิดขึ้นจริง"
+
+msgid "Unrealized Lending Fees"
+msgstr "ค่าธรรมเนียมการให้กู้ยืมที่ยังไม่เกิดขึ้นจริง"
+
+msgid "Net Value"
+msgstr "มูลค่าสุทธิ"
+
+msgid "Total Borrowed Value"
+msgstr "มูลค่ารวมที่ยืมมา"
+
+msgid "Current margin"
+msgstr "มาร์จิ้นปัจจุบัน"
+
+msgid "Delayed"
+msgstr "ล่า ช้า"
+
+msgid "Real time"
+msgstr "เวลาจริง"
+
+msgid "Central Index Key"
+msgstr "คีย์ดัชนีกลาง"
+
+msgid "A Central Index Key or CIK number is a number given to an individual, company, or foreign government by the United States Securities and Exchange Commission. The number is used to identify its filings in several online databases, including EDGAR."
+msgstr "คีย์ดัชนีกลางหรือหมายเลข CIK คือหมายเลขที่กําหนดให้กับบุคคล บริษัท หรือรัฐบาลต่างประเทศโดยสํานักงานคณะกรรมการกํากับหลักทรัพย์และตลาดหลักทรัพย์แห่งสหรัฐอเมริกา หมายเลขนี้ใช้เพื่อระบุการยื่นเอกสารในฐานข้อมูลออนไลน์หลายแห่งรวมถึง EDGAR"
+
+msgid "The Financial Instrument Global Identifier"
+msgstr "ตัวระบุส่วนกลางของเครื่องมือทางการเงิน"
+
+msgid "The Financial Instrument Global Identifier (FIGI) is an established global standard issued under the guidelines of the Object Management Group (OMG.org, an international, non-profit standards organization)"
+msgstr "เครื่องมือทางการเงิน Global Identifier (FIGI) เป็นมาตรฐานระดับโลกที่จัดตั้งขึ้นซึ่งออกภายใต้แนวทางของกลุ่มการจัดการวัตถุ (OMG.org ซึ่งเป็นองค์กรมาตรฐานระหว่างประเทศที่ไม่แสวงหาผลกําไร)"
+
+msgid "Legal Entity Identifier"
+msgstr "ตัวระบุนิติบุคคล"
+
+msgid "Legal Entity Identifier (LEI) guid for symbol"
+msgstr "ตัวระบุนิติบุคคล (LEI) guid สําหรับสัญลักษณ์"
+
+msgid "SIC"
+msgstr "ซีไอซี"
+
+msgid "Standard Industrial Classification (SIC) id for symbol"
+msgstr "รหัสการจําแนกประเภทอุตสาหกรรมมาตรฐาน (SIC) สําหรับสัญลักษณ์"
+
+msgid "Bloomberg guid"
+msgstr "บลูมเบิร์ก guid"
+
+msgid "Bloomberg guid for this symbol"
+msgstr "บลูมเบิร์กแนะนําสัญลักษณ์นี้"
+
+msgid "Company name"
+msgstr "ชื่อบริษัท"
+
+msgid "Name of the company/entity"
+msgstr "ชื่อบริษัท/นิติบุคคล"
+
+msgid "Company description"
+msgstr "รายละเอียด บริษัท"
+
+msgid "A description of the company and what they do/offer"
+msgstr "คําอธิบายของ บริษัท และสิ่งที่พวกเขาทํา / เสนอ"
+
+msgid "Industry this company operates in"
+msgstr "อุตสาหกรรมที่บริษัทนี้ดําเนินธุรกิจอยู่"
+
+msgid "Sector of the industry in which this symbol operates in"
+msgstr "ภาคอุตสาหกรรมที่สัญลักษณ์นี้ดําเนินงานใน"
+
+msgid "Company website"
+msgstr "เว็บไซต์บริษัท"
+
+msgid "URL of the companies website"
+msgstr "URL ของเว็บไซต์บริษัท"
+
+msgid "Phone number"
+msgstr "หมายเลขโทรศัพท์"
+
+msgid "Phone number for this company. Usually corporate contact number."
+msgstr "หมายเลขโทรศัพท์สําหรับบริษัทนี้ โดยปกติหมายเลขติดต่อขององค์กร"
+
+msgid "Headquarter address"
+msgstr "ที่อยู่สํานักงานใหญ่"
+
+msgid "Headquarter state"
+msgstr "รัฐสํานักงานใหญ่"
+
+msgid "Headquarter country"
+msgstr "ประเทศสํานักงานใหญ่"
+
+msgid "CEO"
+msgstr "ซีอีโอ"
+
+msgid "Name of the companies current CEO"
+msgstr "ชื่อบริษัทปัจจุบัน CEO"
+
+msgid "Market cap"
+msgstr "มูลค่าตามราคาตลาด"
+
+msgid "Current market cap for this company"
+msgstr "มูลค่าตามราคาตลาดปัจจุบันสําหรับบริษัทนี้"
+
+msgid "Employees"
+msgstr "พนักงาน"
+
+msgid "Approximate number of employees"
+msgstr "จํานวนพนักงานโดยประมาณ"
+
+msgid "Unknown error while connect"
+msgstr "ข้อผิดพลาดที่ไม่รู้จักขณะเชื่อมต่อ"
+
+msgid "Username"
+msgstr "ยูสเซอร์เนม"
+
+msgid "Wmid"
+msgstr "วิมิด"
+
+msgid "EqualTo"
+msgstr "เท่ากับโต"
+
+msgid "GreaterThan"
+msgstr "มหานคร"
+
+msgid "GreaterThanOrEqualTo"
+msgstr "มหานครนคร"
+
+msgid "LessThan"
+msgstr "เลสธาน"
+
+msgid "LessThanOrEqualTo"
+msgstr "LessThanOrEqualTo"
+
+msgid "NotEqualTo"
+msgstr "NotEqualTo"
+
+msgid "NotGreaterThan"
+msgstr "NotGreaterThan"
+
+msgid "NotLessThan"
+msgstr "ไม่เลสธาน"
+
+msgid "Compare operator"
+msgstr "เปรียบเทียบโอเปอเรเตอร์"
+
+msgid "Compare price type"
+msgstr "เปรียบเทียบประเภทราคา"
+
+msgid "Enable 'Market by Order' (MBO) mode"
+msgstr "เปิดใช้งานโหมด 'ตลาดตามคําสั่ง' (MBO)"
+
+msgid "Single point value"
+msgstr "ค่าจุดเดียว"
+
+msgid "Single point value of the instrument's trading price."
+msgstr "มูลค่าจุดเดียวของราคาซื้อขายของตราสาร"
+
+msgid "Cap price"
+msgstr "ราคาสูงสุด"
+
+msgid "If applicable, the binary contract type of the instrument."
+msgstr "ถ้ามี ประเภทสัญญาไบนารีของตราสาร"
+
+msgid "Floor price"
+msgstr "ราคาตั้งพื้น"
+
+msgid "If applicable, the floor price of the instrument."
+msgstr "ถ้ามี ราคาพื้นของตราสาร"
+
+msgid "If specified, indicates whether this instrument is tradable or not."
+msgstr "หากระบุให้ระบุว่าเครื่องมือนี้สามารถซื้อขายได้หรือไม่"
+
+msgid "Max price variation"
+msgstr "การเปลี่ยนแปลงราคาสูงสุด"
+
+msgid "If applicable, the differential static value for price banding."
+msgstr "ถ้ามี ค่าคงที่ที่แตกต่างกันสําหรับแถบราคา"
+
+msgid "Open time"
+msgstr "เวลาเปิดทําการ"
+
+msgid "If applicable, the open time of the instrument."
+msgstr "เวลาเปิดทําการของตราสาร (ถ้ามี)"
+
+msgid "Period code"
+msgstr "รหัสตัวพิมพ์"
+
+msgid "If applicable, the period code of the instrument."
+msgstr "รหัสช่วงเวลาของตราสาร (ถ้ามี)"
+
+msgid "Strike operator"
+msgstr "ตัวดําเนินการนัดหยุดงาน"
+
+msgid "If applicable, the strike price operator of the instrument."
+msgstr "หากมี ให้ผู้ดําเนินการราคาใช้สิทธิของตราสาร"
+
+msgid " (Full License)"
+msgstr " (ใบอนุญาตเต็มรูปแบบ)"
+
+msgid "The FCM (futures commission merchant) associated with this account."
+msgstr "FCM (ผู้ค้าคอมมิชชั่นฟิวเจอร์ส) ที่เชื่อมโยงกับบัญชีนี้"
+
+msgid "IB id"
+msgstr "รหัส IB"
+
+msgid "The IB (introducing broker) associated with this account."
+msgstr "IB (โบรกเกอร์แนะนํา) ที่เชื่อมโยงกับบัญชีนี้"
+
+msgid "Status of the account, usually \"active\" or \"inactive\"."
+msgstr "สถานะของบัญชีมักจะ \"ใช้งานอยู่\" หรือ \"ไม่ได้ใช้งาน\""
+
+msgid "Algorithm"
+msgstr "อัลกอริทึม"
+
+msgid "The risk management algorithm used for the account."
+msgstr "อัลกอริทึมการจัดการความเสี่ยงที่ใช้สําหรับบัญชี"
+
+msgid "Min account balance"
+msgstr "ยอดเงินในบัญชีขั้นต่ํา"
+
+msgid "If applicable, the minimum account balance."
+msgstr "หากมี ยอดคงเหลือในบัญชีขั้นต่ํา"
+
+msgid "Min margin balance"
+msgstr "ยอดมาร์จิ้นขั้นต่ํา"
+
+msgid "If applicable, the minimum margin balance."
+msgstr "หากมี ยอดคงเหลือมาร์จิ้นขั้นต่ํา (ถ้ามี)"
+
+msgid "If applicable, the loss limit."
+msgstr "หากมี ขีดจํากัดการสูญเสีย"
+
+msgid "Buy limit"
+msgstr "ขีดจํากัดการซื้อ"
+
+msgid "The maximum quantity allowed for buy orders."
+msgstr "ปริมาณสูงสุดที่อนุญาตสําหรับคําสั่งซื้อ"
+
+msgid "Sell limit"
+msgstr "จํากัดการขาย"
+
+msgid "The maximum quantity allowed for sell orders."
+msgstr "ปริมาณสูงสุดที่อนุญาตสําหรับใบสั่งขาย"
+
+msgid "Max order qty"
+msgstr "จํานวนสั่งซื้อสูงสุด"
+
+msgid "The maximum quantity allowed for any orders."
+msgstr "ปริมาณสูงสุดที่อนุญาตสําหรับคําสั่งซื้อใด ๆ"
+
+msgid "Available buying power"
+msgstr "กําลังซื้อที่มีอยู่"
+
+msgid "The available buying power for the account."
+msgstr "กําลังซื้อที่มีอยู่สําหรับบัญชี"
+
+msgid "Reserved buying power"
+msgstr "กําลังซื้อที่จองไว้"
+
+msgid "The reserved buying power for the account."
+msgstr "กําลังซื้อที่สงวนไว้สําหรับบัญชี"
+
+msgid "Used buying power"
+msgstr "กําลังซื้อที่ใช้แล้ว"
+
+msgid "The used buying power for the account."
+msgstr "กําลังซื้อที่ใช้แล้วสําหรับบัญชี"
+
+msgid "Cash on hand"
+msgstr "เงินสดในมือ"
+
+msgid "Cash on hand for this account."
+msgstr "เงินสดในมือสําหรับบัญชีนี้"
+
+msgid "The margin balance on the account."
+msgstr "ยอดคงเหลือมาร์จิ้นในบัญชี"
+
+msgid "Reserved margin"
+msgstr "มาร์จิ้นที่จองไว้"
+
+msgid "The reserved margin for the account."
+msgstr "มาร์จิ้นที่จองไว้สําหรับบัญชี"
+
+msgid "Open Profit/Loss"
+msgstr "เปิดกําไร/ขาดทุน"
+
+msgid "Closed Profit/Loss"
+msgstr "กําไร/ขาดทุนที่ปิดแล้ว"
+
+msgid "Total Profit/Loss"
+msgstr "กําไร/ขาดทุนทั้งหมด"
+
+msgid "Intraday"
+msgstr "ระหว่างวัน"
+
+msgid "Cash and Carry"
+msgstr "เงินสดและพกพา"
+
+msgid "Cover"
+msgstr "คลุม"
+
+msgid "Bracket"
+msgstr "วงเล็บ"
+
+msgid "2FA"
+msgstr "2เอฟเอ"
+
+msgid "Fail to connect"
+msgstr "ไม่สามารถเชื่อมต่อได้"
+
+msgid "REGULAR"
+msgstr "ธรรมดา"
+
+msgid "BO"
+msgstr "บ่อ"
+
+msgid "CO"
+msgstr "ร่วม"
+
+msgid "AMO"
+msgstr "เอเอ็มโอ"
+
+msgid "Use saved credentials"
+msgstr "ใช้ข้อมูลรับรองที่บันทึกไว้"
+
+msgid "Opening balance"
+msgstr "ยอดเงินเปิด"
+
+msgid "Payin"
+msgstr "ปายิน"
+
+msgid "SPAN"
+msgstr "ช่วง"
+
+msgid "Realised profit"
+msgstr "กําไรที่เกิดขึ้นจริง"
+
+msgid "Unrealised profit"
+msgstr "กําไรที่ยังไม่เกิดขึ้นจริง"
+
+msgid "Adhoc margin"
+msgstr "ระยะขอบเฉพาะกิจ"
+
+msgid "Exposure"
+msgstr "การเปิดเผย"
+
+msgid "Options premium"
+msgstr "ตัวเลือกพรีเมี่ยม"
+
+msgid "Access Token"
+msgstr "โทเค็นการเข้าถึง"
+
+msgid "Access token is not valid."
+msgstr "โทเค็นการเข้าถึงไม่ถูกต้อง"
+
+msgid "Invalid client key"
+msgstr "คีย์ไคลเอ็นต์ไม่ถูกต้อง"
+
+msgid "Stop (Market)"
+msgstr "หยุด (ตลาด)"
+
+msgid "NRML"
+msgstr "เอ็นอาร์เอ็มแอล"
+
+msgid "Reading master file..."
+msgstr "กําลังอ่านไฟล์หลัก..."
+
+msgid "Loading master file..."
+msgstr "กําลังโหลดไฟล์หลัก..."
+
+msgid "Loading indices from {exch.Value}..."
+msgstr "กําลังโหลดดัชนีจาก {exch ค่า}..."
+
+msgid "Server url is empty"
+msgstr "URL ของเซิร์ฟเวอร์ว่างเปล่า"
+
+msgid "MarketData public key is empty"
+msgstr "คีย์สาธารณะ MarketData ว่างเปล่า"
+
+msgid "MarketData secret Key is empty"
+msgstr "คีย์ลับของ MarketData ว่างเปล่า"
+
+msgid "Trading app key is empty"
+msgstr "คีย์แอปการซื้อขายว่างเปล่า"
+
+msgid "Requesting token from market data API..."
+msgstr "การขอโทเค็นจาก API ข้อมูลตลาด..."
+
+msgid "Requesting token from trading API..."
+msgstr "การขอโทเค็นจาก API การซื้อขาย..."
+
+msgid "Initializing quotes socket..."
+msgstr "การเริ่มต้นซ็อกเก็ตใบเสนอราคา..."
+
+msgid "Initializing trade socket..."
+msgstr "เริ่มต้นซ็อกเก็ตการค้า..."
+
+msgid "CashMarginAvailable"
+msgstr "แคชมาร์กินพร้อมใช้งาน"
+
+msgid "AdhocMargin"
+msgstr "แอดฮอคมาร์กิน"
+
+msgid "NotinalCash"
+msgstr "โนตินาลแคช"
+
+msgid "PayInAmount"
+msgstr "เพย์อินเมาท์"
+
+msgid "PayOutAmount"
+msgstr "PayOutAmount"
+
+msgid "CNCSellBenifit"
+msgstr "ซีเอ็นซีเซลเบนิฟิต"
+
+msgid "DirectCollateral"
+msgstr "ไดเร็คคัลไซด์"
+
+msgid "HoldingCollateral"
+msgstr "โฮลดิ้งคอลไซด์"
+
+msgid "ClientBranchAdhoc"
+msgstr "ClientBranchAdhoc"
+
+msgid "SellOptionsPremium"
+msgstr "ขายออปชั่นพรีเมียม"
+
+msgid "TotalBranchAdhoc"
+msgstr "โททาลแบรนช์แอดฮอค"
+
+msgid "AdhocFOMargin"
+msgstr "แอดฮอคเอฟโอมาร์กิน"
+
+msgid "AdhocCurrencyMargin"
+msgstr "แอดฮอคมิวสิคัลมาร์กิน"
+
+msgid "AdhocCommodityMargin"
+msgstr "แอดฮอคคอมโมดิตี้มาร์กิน"
+
+msgid "MTM"
+msgstr "เอ็มทีเอ็ม"
+
+msgid "RealizedMTM"
+msgstr "ตระหนักMTM"
+
+msgid "UnrealizedMTM"
+msgstr "ยังไม่เกิดขึ้นจริงMTM"
+
+msgid "cashAvailable"
+msgstr "เงินสดพร้อมใช้งาน"
+
+msgid "collateral"
+msgstr "หลักประกัน"
+
+msgid "marginUtilized"
+msgstr "มาร์จิ้นใช้ประโยชน์"
+
+msgid "netMarginAvailable"
+msgstr "เน็ตมาร์จินพร้อมใช้งาน"
+
+msgid "BuyExposureFuturesLimit"
+msgstr "ซื้อเอ็กซ์โปชัวร์ฟูตูร์ลิมิท"
+
+msgid "BuyExposureLimit"
+msgstr "ซื้อเอ็กซ์โปสัวร์ลิมิท"
+
+msgid "BuyExposureOptionsLimit"
+msgstr "ซื้อตัวเลือกประสบการณ์Limit"
+
+msgid "CNCLimit"
+msgstr "ซีเอ็นซีลิมิท"
+
+msgid "GrossExposureDerivativesLimit"
+msgstr "GrossExposureDerivativesLimit"
+
+msgid "GrossExposureLimit"
+msgstr "กรอสเอ็กซ์โปชัวร์ลิมิท"
+
+msgid "MTMLossLimitPresent"
+msgstr "MTMLossLimitPresent"
+
+msgid "SellExposureFuturesLimit"
+msgstr "SellExposureFuturesLimit"
+
+msgid "SellExposureLimit"
+msgstr "ขายเอ็กซ์โปชัวร์ลิมิท"
+
+msgid "SellExposureOptionsLimit"
+msgstr "SellExposureOptionsLimit"
+
+msgid "TurnoverLimitPresent"
+msgstr "การหมุนเวียนLimitPresent"
+
+msgid "BuyExposureLimitPresent"
+msgstr "BuyExposureLimitPresent"
+
+msgid "CNCAmountUsed"
+msgstr "CNCAmountUsed"
+
+msgid "CNCLimitUsed"
+msgstr "CNCLimitUsed"
+
+msgid "ExposureMarginPresent"
+msgstr "การเปิดรับแสงมาร์จินพรีเซนท์"
+
+msgid "GrossExposureLimitPresent"
+msgstr "GrossExposureLimitPresent"
+
+msgid "LimitUsed"
+msgstr "ขีด จํากัดใช้แล้ว"
+
+msgid "MarginUsed"
+msgstr "มาร์จิ้นUsed"
+
+msgid "SellExposureLimitPresent"
+msgstr "SellExposureLimitPresent"
+
+msgid "TotalSpanMargin"
+msgstr "โททาลสแปนมาร์กิน"
+
+msgid "BranchId"
+msgstr "แบรนช์ไอดี"
+
+msgid "SEBI"
+msgstr "เซบี"
+
+msgid "ClientId"
+msgstr "รหัสลูกค้า"
+
+msgid "ClientName"
+msgstr "ชื่อไคลเอ็นต์"
+
+msgid "ClientType"
+msgstr "ประเภทลูกค้า"
+
+msgid "CreatedBy"
+msgstr "สร้างโดย"
+
+msgid "CreatedOn"
+msgstr "สร้างแล้วบน"
+
+msgid "EmailId"
+msgstr "อีเมลId"
+
+msgid "IsInvestorClient"
+msgstr "IsInvestorClient"
+
+msgid "LastUpdatedBy"
+msgstr "ล่าสุดอัพเดทโดย"
+
+msgid "LastUpdatedOn"
+msgstr "ล่าสุดอัปเดตแล้ว"
+
+msgid "MobileNo"
+msgstr "มือถือไม่มี"
+
+msgid "OfficeAddress"
+msgstr "สํานักงานผู้ช่วย"
+
+msgid "PAN"
+msgstr "กระทะ"
+
+msgid "ResidentialAddress"
+msgstr "ที่อยู่อาศัยที่อยู่"
+
+msgid "Requesting client config..."
+msgstr "ขอการกําหนดค่าไคลเอ็นต์..."
+
+msgid "Expulsion date"
+msgstr "วันที่ขับไล่"
+
+msgid "Issue maturity date"
+msgstr "วันที่ครบกําหนดออก"
+
+msgid "Re-admission date"
+msgstr "วันที่กลับเข้าประเทศ"
+
+msgid "Corporate action"
+msgstr "การดําเนินการขององค์กร"
+
+msgid "Issue rate"
+msgstr "อัตราการออก"
+
+msgid "Interest payment date"
+msgstr "วันที่ชําระดอกเบี้ย"
+
+msgid "Listing date"
+msgstr "วันที่ลงประกาศ"
+
+msgid "Unique key"
+msgstr "คีย์ที่ไม่ซ้ํากัน"
+
+msgid "Credit rating"
+msgstr "อันดับเครดิต"
+
+msgid "Record date"
+msgstr "วันกําหนดรายชื่อผู้มีสิทธิได้รับปันผล"
+
+msgid "No-delivery start date"
+msgstr "วันที่เริ่มไม่มีการจัดส่ง"
+
+msgid "No-delivery end date"
+msgstr "วันที่สิ้นสุดการไม่จัดส่ง"
+
+msgid "Market type"
+msgstr "ประเภทตลาด"
+
+msgid "Book closure start date"
+msgstr "วันที่ปิดสมุดทะเบียนพักการโอนหน่วยลงทุน"
+
+msgid "Book closure end date"
+msgstr "วันที่สิ้นสุดการปิดสมุดทะเบียน"
+
+msgid "Ex-date"
+msgstr "อดีตเดท"
+
+msgid "Warning  percent"
+msgstr "เปอร์เซ็นต์การเตือน"
+
+msgid "Issue start date"
+msgstr "วันที่เริ่มออก"
+
+msgid "Remarks"
+msgstr "หมาย เหตุ"
+
+msgid "Place order request"
+msgstr "ส่งคําขอสั่งซื้อ"
+
+msgid "Modify order request"
+msgstr "แก้ไขคําขอคําสั่งซื้อ"
+
+msgid "Cancel order request"
+msgstr "ยกเลิกคําขอคําสั่งซื้อ"
+
+msgid "Position convert request"
+msgstr "คําขอแปลงตําแหน่ง"
+
+msgid "Information"
+msgstr "ข้อมูล"
+
+msgid "Refresh all data was requested."
+msgstr "มีการร้องขอการรีเฟรชข้อมูลทั้งหมด"
+
+msgid "Market data app key"
+msgstr "คีย์แอปข้อมูลตลาด"
+
+msgid "Market data secret key"
+msgstr "คีย์ลับข้อมูลตลาด"
+
+msgid "Trading app key"
+msgstr "คีย์แอปการซื้อขาย"
+
+msgid "Trading secret key"
+msgstr "รหัสลับการซื้อขาย"
+
+msgid "You need to have valid Broker API access and Quantower License to use History mode"
+msgstr "คุณต้องมีการเข้าถึง API ของโบรกเกอร์ที่ถูกต้องและสิทธิ์ใช้งาน Quantower เพื่อใช้โหมดประวัติ"
+
+msgid "User principals..."
+msgstr "อาจารย์ใหญ่ของผู้ใช้..."
+
+msgid "Connect to socket..."
+msgstr "เชื่อมต่อกับซ็อกเก็ต..."
+
+msgid "Login to socket..."
+msgstr "เข้าสู่ระบบซ็อกเก็ต..."
+
+msgid "High52"
+msgstr "สูง52"
+
+msgid "Low52"
+msgstr "ต่ํา52"
+
+msgid "Dividend amount"
+msgstr "จํานวนเงินปันผล"
+
+msgid "Dividend yield"
+msgstr "อัตราเงินปันผลตอบแทน"
+
+msgid "Dividend date"
+msgstr "วันที่จ่ายเงินปันผล"
+
+msgid "Pe ratio"
+msgstr "อัตราส่วน PE"
+
+msgid "Peg ratio"
+msgstr "อัตราส่วนหมุด"
+
+msgid "Pb ratio"
+msgstr "อัตราส่วน Pb"
+
+msgid "Pr ratio"
+msgstr "อัตราส่วน PR"
+
+msgid "Pcf ratio"
+msgstr "อัตราส่วน PCF"
+
+msgid "Gross margin TTM"
+msgstr "อัตรากําไรขั้นต้น TTM"
+
+msgid "Gross margin MRQ"
+msgstr "อัตรากําไรขั้นต้น MRQ"
+
+msgid "Net profit margin TTM"
+msgstr "อัตรากําไรสุทธิ TTM"
+
+msgid "Net profit margin MRQ"
+msgstr "อัตรากําไรสุทธิ MRQ"
+
+msgid "Operating margin TTM"
+msgstr "อัตรากําไรจากการดําเนินงาน TTM"
+
+msgid "Operating margin MRQ"
+msgstr "อัตรากําไรจากการดําเนินงาน MRQ"
+
+msgid "Return on equity"
+msgstr "ผลตอบแทนต่อผู้ถือหุ้น"
+
+msgid "Return on assets"
+msgstr "ผลตอบแทนจากสินทรัพย์"
+
+msgid "Return on investment"
+msgstr "ผลตอบแทนจากการลงทุน"
+
+msgid "Quick ratio"
+msgstr "อัตราส่วนด่วน"
+
+msgid "Current ratio"
+msgstr "อัตราส่วนเงินทุนหมุนเวียน"
+
+msgid "Interest coverage"
+msgstr "ความคุ้มครองดอกเบี้ย"
+
+msgid "Total debt to capital"
+msgstr "หนี้สินรวมต่อทุน"
+
+msgid "Lt debt to equity"
+msgstr "หนี้ต่อส่วนของผู้ถือหุ้น"
+
+msgid "Total debt to equity"
+msgstr "หนี้สินรวมต่อส่วนของผู้ถือหุ้น"
+
+msgid "Eps TTM"
+msgstr "กําไรต่อหุ้น TTM"
+
+msgid "Eps change percent TTM"
+msgstr "EPS เปลี่ยนเปอร์เซ็นต์ TTM"
+
+msgid "Eps change year"
+msgstr "Eps เปลี่ยนปี"
+
+msgid "Eps change"
+msgstr "เปลี่ยน EPS"
+
+msgid "Rev change year"
+msgstr "Rev เปลี่ยนปี"
+
+msgid "Rev change TTM"
+msgstr "เปลี่ยนกลับ TTM"
+
+msgid "Rev change in"
+msgstr "เปลี่ยนรอบใน"
+
+msgid "Shares outstanding"
+msgstr "หุ้นคงค้าง"
+
+msgid "Market cap float"
+msgstr "มูลค่าหลักทรัพย์ตามราคาตลาดลอยตัว"
+
+msgid "Book value per share"
+msgstr "มูลค่าตามบัญชีต่อหุ้น"
+
+msgid "Short int to float"
+msgstr "สั้น int เพื่อลอย"
+
+msgid "Short int day to cover"
+msgstr "วัน int สั้น ๆ ที่จะครอบคลุม"
+
+msgid "Div growth rate 3year"
+msgstr "อัตราการเติบโตของ Div 3 ปี"
+
+msgid "Dividend pay amount"
+msgstr "จํานวนเงินที่จ่ายเงินปันผล"
+
+msgid "Dividend pay date"
+msgstr "วันที่จ่ายเงินปันผล"
+
+msgid "Beta"
+msgstr "Beta"
+
+msgid "Vol 1day avg"
+msgstr "ปริมาณเฉลี่ย 1 วัน"
+
+msgid "Vol 10day avg"
+msgstr "ปริมาณเฉลี่ย 10 วัน"
+
+msgid "Vol 3month avg"
+msgstr "Vol 3 เดือนเฉลี่ย"
+
+msgid "Accrued interest"
+msgstr "ดอกเบี้ยค้างรับ"
+
+msgid "Available funds non marginable trade"
+msgstr "เงินทุนที่มีอยู่การซื้อขายที่ไม่สามารถมาร์จิ้นได้"
+
+msgid "Bond value"
+msgstr "มูลค่าพันธบัตร"
+
+msgid "Cash balance"
+msgstr "ยอดเงินสดคงเหลือ"
+
+msgid "Cash available for trading"
+msgstr "เงินสดที่สามารถซื้อขายได้"
+
+msgid "Cash receipts"
+msgstr "ใบเสร็จรับเงิน"
+
+msgid "Day trading buying power"
+msgstr "กําลังซื้อการซื้อขายวัน"
+
+msgid "Day trading buying power call"
+msgstr "การซื้อขายวันซื้ออํานาจโทร"
+
+msgid "Day trading equity call"
+msgstr "การเรียกหุ้นการซื้อขายวัน"
+
+msgid "Equity percentage"
+msgstr "เปอร์เซ็นต์ส่วนของผู้ถือหุ้น"
+
+msgid "Liquidation value"
+msgstr "มูลค่าการชําระบัญชี"
+
+msgid "Long margin value"
+msgstr "มูลค่ามาร์จิ้นระยะยาว"
+
+msgid "Long option market value"
+msgstr "มูลค่าตลาดออปชั่นยาว"
+
+msgid "Long stock value"
+msgstr "มูลค่าหุ้นระยะยาว"
+
+msgid "Maintenance call"
+msgstr "การซ่อมบํารุงโทร"
+
+msgid "Maintenance requirement"
+msgstr "ข้อกําหนดการบํารุงรักษา"
+
+msgid "Margin equity"
+msgstr "ส่วนของมาร์จิ้น"
+
+msgid "Money market fund"
+msgstr "กองทุนรวมตลาดเงิน"
+
+msgid "Mutual fund value"
+msgstr "มูลค่ากองทุนรวม"
+
+msgid "RegTCall"
+msgstr "เรกท์คอล"
+
+msgid "Short margin value"
+msgstr "มูลค่ามาร์จิ้นระยะสั้น"
+
+msgid "Short option market value"
+msgstr "มูลค่าตลาดออปชั่นระยะสั้น"
+
+msgid "Short stock value"
+msgstr "มูลค่าหุ้นชอร์ต"
+
+msgid "Total cash"
+msgstr "เงินสดทั้งหมด"
+
+msgid "Is in call"
+msgstr "อยู่ในสาย"
+
+msgid "Unsettled cash"
+msgstr "เงินสดที่ยังไม่สงบ"
+
+msgid "Pending deposits"
+msgstr "เงินฝากที่รอดําเนินการ"
+
+msgid "Short balance"
+msgstr "ยอดคงเหลือสั้น"
+
+msgid "Long market value"
+msgstr "มูลค่าตลาดที่ยาวนาน"
+
+msgid "Money market Fund"
+msgstr "กองทุนรวมตลาดเงิน"
+
+msgid "Savings"
+msgstr "ประหยัด"
+
+msgid "Short market value"
+msgstr "มูลค่าตลาดระยะสั้น"
+
+msgid "Available funds"
+msgstr "เงินทุนที่มีอยู่"
+
+msgid "Buying power non marginable trade"
+msgstr "กําลังซื้อการค้าที่ไม่สามารถหักล้างได้"
+
+msgid "sma"
+msgstr "สมา"
+
+msgid "Stock buying power"
+msgstr "กําลังซื้อหุ้น"
+
+msgid "Option buying power"
+msgstr "กําลังซื้อออปชั่น"
+
+msgid "Provides simulated data, allowing to test platform’s functionality"
+msgstr "ให้ข้อมูลจําลองทําให้สามารถทดสอบการทํางานของแพลตฟอร์มได้"
+
+msgid "Equity. Equal to Account Balance + Unrealized P/L"
+msgstr "ความเที่ยงธรรม  เท่ากับยอดคงเหลือในบัญชี + P/L ที่ยังไม่เกิดขึ้นจริง"
+
+msgid "Unrealized net P/L"
+msgstr "P/ L สุทธิที่ยังไม่เกิดขึ้นจริง"
+
+msgid "Realized P/L"
+msgstr "ตระหนักถึง P / L"
+
+msgid "Swaps"
+msgstr "สวอป"
+
+msgid "Fee per 1 lot per round"
+msgstr "ค่าธรรมเนียมต่อ 1 ล็อตต่อรอบ"
+
+msgid "Fee per 1 lot per side"
+msgstr "ค่าธรรมเนียมต่อ 1 ล็อตต่อด้าน"
+
+msgid "Fee per round"
+msgstr "ค่าธรรมเนียมต่อรอบ"
+
+msgid "Fee per side"
+msgstr "ค่าธรรมเนียมต่อด้าน"
+
+msgid "Classification"
+msgstr "การจัดประเภท"
+
+msgid "Class of account. One of: individual, entity, individual, joint_survivor, joint_survivor, traditional_ira, roth_ira, rollover_ira, entity, sep_ira"
+msgstr "คลาสของบัญชี หนึ่งใน: บุคคล, นิติบุคคล, บุคคล, joint_survivor, joint_survivor, traditional_ira, roth_ira, rollover_ira, นิติบุคคล, sep_ira"
+
+msgid "Date created"
+msgstr "วันที่สร้าง"
+
+msgid "Date account was created"
+msgstr "บัญชีวันที่ถูกสร้างขึ้น"
+
+msgid "Day trader"
+msgstr "เดย์เทรดเดอร์"
+
+msgid "Marked as day trader"
+msgstr "ทําเครื่องหมายเป็นเดย์เทรดเดอร์"
+
+msgid "Option level"
+msgstr "ระดับตัวเลือก"
+
+msgid "Account option level (1-6)"
+msgstr "ระดับตัวเลือกบัญชี (1-6)"
+
+msgid "Current status of the account: One of: active, closed"
+msgstr "สถานะปัจจุบันของบัญชี: หนึ่งใน: ใช้งานอยู่, ปิด"
+
+msgid "Type of the account. One of: cash, margin"
+msgstr "ชนิดของบัญชี หนึ่งใน: เงินสดมาร์จิ้น"
+
+msgid "Last update date"
+msgstr "วันที่อัพเดตล่าสุด"
+
+msgid "Date account was last updated"
+msgstr "บัญชีวันที่ได้รับการปรับปรุงล่าสุด"
+
+msgid "User id"
+msgstr "รหัสผู้ใช้"
+
+msgid "User name"
+msgstr "ชื่อผู้ใช้"
+
+msgid "Option short value"
+msgstr "ค่าสั้นของตัวเลือก"
+
+msgid "Value of short option positions"
+msgstr "มูลค่าของตําแหน่งออปชั่นระยะสั้น"
+
+msgid "Total equity"
+msgstr "ส่วนของผู้ถือหุ้นทั้งหมด"
+
+msgid "Total account value"
+msgstr "มูลค่ารวมของบัญชี"
+
+msgid "ClosePL"
+msgstr "โคลสพีแอล"
+
+msgid "Gain/Loss of current session's closed positions"
+msgstr "กําไร/ขาดทุนจากสถานะปิดของเซสชั่นปัจจุบัน"
+
+msgid "Current requirement"
+msgstr "ความต้องการปัจจุบัน"
+
+msgid "Account's maintenance margin"
+msgstr "อัตรากําไรขั้นต้นในการบํารุงรักษาบัญชี"
+
+msgid "Equity value"
+msgstr "มูลค่าส่วนของผู้ถือหุ้น"
+
+msgid "Market value"
+msgstr "มูลค่าตลาด"
+
+msgid "OpenPL"
+msgstr "โอเพนพีแอล"
+
+msgid "Total gain/loss of current account's positions"
+msgstr "กําไร/ขาดทุนรวมของตําแหน่งในบัญชีกระแสรายวัน"
+
+msgid "Option long value"
+msgstr "ค่าตัวตัวเลือกแบบยาว"
+
+msgid "Value of long option positions"
+msgstr "มูลค่าของตําแหน่งตัวเลือกแบบยาว"
+
+msgid "Option requirement"
+msgstr "ข้อกําหนดตัวเลือก"
+
+msgid "Account's total option requirement"
+msgstr "ข้อกําหนดตัวเลือกทั้งหมดของบัญชี"
+
+msgid "Pending orders count"
+msgstr "จํานวนคําสั่งซื้อที่รอดําเนินการ"
+
+msgid "Count of all pending/open orders"
+msgstr "จํานวนคําสั่งซื้อที่รอดําเนินการ/เปิดทั้งหมด"
+
+msgid "Stock long value"
+msgstr "มูลค่าหุ้นยาว"
+
+msgid "Value of long equity positions"
+msgstr "มูลค่าของตําแหน่งผู้ถือหุ้นระยะยาว"
+
+msgid "Total cash in the account"
+msgstr "เงินสดทั้งหมดในบัญชี"
+
+msgid "Uncleared funds"
+msgstr "กองทุนที่ไม่ชัดเจน"
+
+msgid "Cash unavailable for trading in the account"
+msgstr "เงินสดไม่พร้อมใช้งานสําหรับการซื้อขายในบัญชี"
+
+msgid "Pending cash"
+msgstr "เงินสดที่รอดําเนินการ"
+
+msgid "Amount of cash being held for open orders"
+msgstr "จํานวนเงินสดที่ถือไว้สําหรับคําสั่งซื้อที่เปิดอยู่"
+
+msgid "Fed Call"
+msgstr "การโทรเฟด"
+
+msgid "Amount that the account is in deficit for trades that have occurred but not been paid for"
+msgstr "จํานวนเงินที่บัญชีขาดดุลสําหรับการซื้อขายที่เกิดขึ้น แต่ไม่ได้รับการชําระเงิน"
+
+msgid "Amount of funds available to purchase non-marginable securities"
+msgstr "จํานวนเงินที่สามารถซื้อหลักทรัพย์ที่ไม่สามารถซื้อขายได้"
+
+msgid "Amount of funds available to purchase fully marginable securities"
+msgstr "จํานวนเงินที่สามารถซื้อหลักทรัพย์ที่มีหลักประกันได้เต็มจํานวน"
+
+msgid "Stock short value"
+msgstr "มูลค่าชอร์ตหุ้น"
+
+msgid "Value of short stocks"
+msgstr "มูลค่าของหุ้นชอร์ต"
+
+msgid "Sweep"
+msgstr "กวาด"
+
+msgid "CashAvailable"
+msgstr "เงินสดพร้อมจําหน่าย"
+
+msgid "Cash available"
+msgstr "มีเงินสด"
+
+msgid "Unsettled funds"
+msgstr "กองทุนที่ยังไม่มั่นคง"
+
+msgid "Cash that is in the account from recent stock or option sales, but has not yet settled; cash from stock sales occurring during the last 3 trading days or from option sales occurring during the previous trading day"
+msgstr "เงินสดที่อยู่ในบัญชีจากการขายหุ้นหรือออปชั่นล่าสุด แต่ยังไม่ได้ชําระ เงินสดจากการขายหุ้นที่เกิดขึ้นในช่วง 3 วันทําการซื้อขายที่ผ่านมาหรือจากการขายออปชั่นที่เกิดขึ้นในช่วงวันซื้อขายก่อนหน้า"
+
+msgid "Fed call"
+msgstr "การเรียกเฟด"
+
+msgid "Amount that the account is under the minimum equity required in the account to support the current positions"
+msgstr "จํานวนเงินที่บัญชีอยู่ภายใต้อิควิตี้ขั้นต่ําที่จําเป็นในบัญชีเพื่อรองรับตําแหน่งปัจจุบัน"
+
+msgid "OptionBuyingPower"
+msgstr "ตัวเลือกซื้อพลังงาน"
+
+msgid "StockBuyingPower"
+msgstr "หุ้นซื้อไฟฟ้า"
+
+msgid "Alias"
+msgstr "สมญานาม"
+
+msgid "Serie"
+msgstr "เซเรีย"
+
+msgid "Username is empty"
+msgstr "ชื่อผู้ใช้ว่างเปล่า"
+
+msgid "Xena Listed Perpetuals"
+msgstr "ซีนาจดทะเบียนถาวร"
+
+msgid "Positions and orders"
+msgstr "ตําแหน่งและคําสั่ง"
+
+msgid "Maintenance"
+msgstr "การบํารุงรักษา"
+
+msgid "Maximal deviation from mid price"
+msgstr "ค่าเบี่ยงเบนสูงสุดจากราคากลาง"
+
+msgid "Settlement currency"
+msgstr "สกุลเงินที่ชําระราคา"
+
+msgid "Max position volume"
+msgstr "ปริมาณตําแหน่งสูงสุด"
+
+msgid "Contract value"
+msgstr "มูลค่าสัญญา"
+
+msgid "Contract currency"
+msgstr "สกุลเงินของสัญญา"
+
+msgid "Netting"
+msgstr "ตาข่าย"
+
+msgid "Rates:"
+msgstr "ราคา:"
+
+msgid "Distance"
+msgstr "ระยะทาง"
+
+msgid "Moving boundary"
+msgstr "การเคลื่อนย้ายขอบเขต"
+
+msgid "Moving time"
+msgstr "เวลาเคลื่อนที่"
+
+msgid "Low index"
+msgstr "ดัชนีต่ํา"
+
+msgid "High index"
+msgstr "ดัชนีสูง"
+
+msgid "Can't connect via socket"
+msgstr "ไม่สามารถเชื่อมต่อผ่านซ็อกเก็ตได้"
+
+msgid "Free margin"
+msgstr "ฟรีมาร์จิ้น"
+
+msgid "Maint. margin"
+msgstr "หลัก ระยะขอบ"

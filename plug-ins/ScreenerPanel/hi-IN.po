@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2021-07-28 16:05+0300\n"
+"POT-Creation-Date: 2022-06-24 17:59+0300\n"
 "PO-Revision-Date: 2020-11-10 23:58+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -16,12 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Loading symbol {i + 1}/{Math.Min(filtrationMessage.MaxSymbolsLimit, filtrationMessage.SymbolIDs.Length)}..."
-msgstr "लोडिंग प्रतीक {i + 1}{Math.Min (filtrationMessage.MaxSymbolsLimit, छाननेमMessage.SymbolIDs.लंबाई)}..."
-
-#, csharp-format
-msgid "Too much symbols in result ({0}). First {1} symbols will be displayed."
-msgstr "परिणाम में बहुत अधिक प्रतीक ({0})। सबसे पहले {1} प्रतीक प्रदर्शित किए जाएंगे।"
+msgid "Loading symbol {i + 1}/{filtrationMessage.SymbolIDs.Length}..."
+msgstr "प्रतीक {i + 1}/{निस्पंदनMessage.SymbolIDs.Length} लोड हो रहा है..."
 
 msgid "In Symbols list"
 msgstr "प्रतीक सूची में"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-02 11:28+0200\n"
+"POT-Creation-Date: 2022-06-24 18:02+0300\n"
 "PO-Revision-Date: 2021-07-28 16:14+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -97,6 +97,9 @@ msgstr "シャットダウン後の復元戦略の状態"
 msgid "General"
 msgstr "一般"
 
+msgid "Are you sure you want to delete all selected strategies?"
+msgstr "選択したすべての戦略を削除してもよろしいですか?"
+
 msgid "No running strategies yet"
 msgstr "まだ実行戦略がありません"
 
@@ -115,6 +118,9 @@ msgstr "すべて開始"
 msgid "Stop all"
 msgstr "すべて停止"
 
+msgid "Update all"
+msgstr "すべて更新"
+
 msgid "View"
 msgstr "ビュー"
 
@@ -124,6 +130,12 @@ msgstr "ストラテジーを追加する"
 msgid "Remove selected"
 msgstr "選択されたものを削除する"
 
+msgid "Run selected"
+msgstr "選択済みの実行"
+
+msgid "Stop selected"
+msgstr "選択されたものをストップする"
+
 msgid "Strategy settings"
 msgstr "戦略の設定"
 
@@ -132,6 +144,9 @@ msgstr "すべて実行"
 
 msgid "Stop All"
 msgstr "すべて停止"
+
+msgid "Update All"
+msgstr "すべて更新"
 
 msgid "Backtest strategy"
 msgstr "バックテスト戦略"
@@ -160,6 +175,10 @@ msgstr "指標を表示する"
 msgid "Show logs"
 msgstr "ログを表示する"
 
+#, csharp-format
+msgid "Are you sure you want to delete '{0}' script?"
+msgstr "スクリプトを {0}削除しますか?"
+
 msgid "Save strategy template"
 msgstr "戦略テンプレートの保存"
 
@@ -180,7 +199,3 @@ msgstr "ログ テーブルの設定"
 
 msgid "settings"
 msgstr "設定"
-
-#, csharp-format
-msgid "Are you sure you want to delete '{0}' script?"
-msgstr "スクリプトを {0}削除しますか?"

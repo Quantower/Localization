@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-10 14:02+0200\n"
+"POT-Creation-Date: 2022-06-24 14:15+0300\n"
 "PO-Revision-Date: 2019-06-25 11:42+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -15,6 +15,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Main"
+msgstr "اصلی"
+
+msgid "Pre-market"
+msgstr "پیش بازار"
+
+msgid "Post-market"
+msgstr "پس از بازار"
 
 msgid "Active"
 msgstr "فعال"
@@ -205,6 +214,9 @@ msgstr "داريم دارايي ها رو بار ميکنيم..."
 msgid "Loading accounts..."
 msgstr "بارگیری حساب ها..."
 
+msgid "Loading option series..."
+msgstr "بارگذاری سری گزینه..."
+
 msgid "Loading symbols..."
 msgstr "بارگذاری نمادها..."
 
@@ -358,8 +370,8 @@ msgstr "پیشنهاد"
 msgid "Ask"
 msgstr "بپرسید"
 
-msgid "Bid/Ask average"
-msgstr "به طور متوسط Bid/Ask"
+msgid "Midpoint"
+msgstr "نقطه میانی"
 
 msgid "Last"
 msgstr "آخرین"
@@ -565,11 +577,11 @@ msgstr "سود بگير"
 msgid "Is trailing"
 msgstr "دنباله دار است"
 
-msgid "Simple"
-msgstr "ساده"
+msgid "Simple SL/TP"
+msgstr "SL/TP ساده"
 
-msgid "Advanced"
-msgstr "پیشرفته"
+msgid "Multiple brackets"
+msgstr "پرانتز متعدد"
 
 msgid "Offset"
 msgstr "افست"
@@ -580,14 +592,14 @@ msgstr "درصد"
 msgid "Absolute"
 msgstr "مطلق"
 
-msgid "Measurement"
-msgstr "اندازه گیری"
+msgid "Order price specification"
+msgstr "مشخصات قیمت سفارش"
 
-msgid "Mode"
-msgstr "حالت"
+msgid "Type of closing orders"
+msgstr "نوع دستورات اختتامیه"
 
-msgid "Used order type"
-msgstr "نوع سفارش مورد استفاده"
+msgid "Orders placement mode"
+msgstr "دستور حالت قرار دادن"
 
 msgid "Initial"
 msgstr "اولیه"
@@ -595,11 +607,14 @@ msgstr "اولیه"
 msgid "Whole position"
 msgstr "کل موقعیت"
 
-msgid "Close quantity"
-msgstr "کمیت نزدیک"
+msgid "Closing quantity"
+msgstr "کمیت بسته شدن"
 
 msgid "Release time"
 msgstr "زمان انتشار"
+
+msgid "Time:"
+msgstr "زمان:"
 
 msgid "MIS"
 msgstr "Mis"
@@ -640,11 +655,38 @@ msgstr "توقف معاملات"
 msgid "Lot"
 msgstr "بسیاری"
 
-msgid "Total long positions: "
-msgstr "مجموع پوزیشن های بلند: "
+msgid "Place order"
+msgstr "ترتیب مکان"
 
-msgid "Total short positions: "
-msgstr "مجموع پوزیشن های کوتاه: "
+msgid "Close all positions"
+msgstr "بستن تمام موقعیت ها"
+
+msgid "Run order placement strategy"
+msgstr "اجرای استراتژی قرار دادن سفارش"
+
+msgid "Run strategy"
+msgstr "اجرای استراتژی"
+
+msgid "Change symbol"
+msgstr "تغییر نماد"
+
+msgid "Open template"
+msgstr "قالب باز"
+
+msgid "Add indicator"
+msgstr "اضافه کردن شاخص"
+
+msgid "Apply symbol list"
+msgstr "اعمال لیست نماد"
+
+msgid "Open plugin"
+msgstr "پلاگین باز"
+
+msgid "Apply aggregation"
+msgstr "اعمال جماعت"
+
+msgid "Add drawing"
+msgstr "اضافه کردن نقاشی"
 
 msgid "Name"
 msgstr "نام"
@@ -694,24 +736,6 @@ msgstr "{0} پشتيباني نمي شود {0} رویداد"
 
 msgid "Link"
 msgstr "لینک"
-
-msgid "Red"
-msgstr "قرمز"
-
-msgid "Yellow"
-msgstr "زرد"
-
-msgid "Green"
-msgstr "سبز"
-
-msgid "Blue"
-msgstr "آبی"
-
-msgid "Purple"
-msgstr "بنفش"
-
-msgid "Unlink"
-msgstr "لغو پیوند"
 
 msgid "Create bind"
 msgstr "ایجاد اتصال"
@@ -896,6 +920,18 @@ msgstr "منطقه زمانی"
 msgid "Show out of session history"
 msgstr "نمایش خارج از سابقه جلسه"
 
+msgid "Sessions template"
+msgstr "قالب جلسات"
+
+msgid "Drawing template"
+msgstr "قالب نقاشی"
+
+msgid "Indicator template"
+msgstr "قالب شاخص"
+
+msgid "Create template"
+msgstr "ایجاد قالب"
+
 msgid "Symbol"
 msgstr "نماد"
 
@@ -984,6 +1020,12 @@ msgstr "علاقه باز"
 msgid "Oi"
 msgstr "Oi"
 
+msgid "Fr"
+msgstr "Fr"
+
+msgid "Funding rates"
+msgstr "نرخ بودجه"
+
 msgid "Hide"
 msgstr "مخفی کردن"
 
@@ -1013,6 +1055,15 @@ msgstr "حذف"
 
 msgid "Edit"
 msgstr "ویرایش"
+
+msgid "Source code"
+msgstr "کد منبع"
+
+msgid "Apply"
+msgstr "درخواست"
+
+msgid "Rename"
+msgstr "نام"
 
 msgid "Set active"
 msgstr "تنظیم فعال"
@@ -1442,6 +1493,12 @@ msgstr "هیستوگرام زمان"
 msgid "VWAP"
 msgstr "VWAP"
 
+msgid "Single"
+msgstr "تک"
+
+msgid "Multiple"
+msgstr "متعدد"
+
 msgid "Tick"
 msgstr "تیک"
 
@@ -1480,6 +1537,12 @@ msgstr "انحراف استندارت"
 
 msgid "Enable standard deviations"
 msgstr "فعال کردن انحرافات استاندارد"
+
+msgid "Calculation type"
+msgstr "نوع محاسبه"
+
+msgid "Multiplier"
+msgstr "ضرب کننده"
 
 msgid "Deviations value"
 msgstr "ارزش انحرافات"
@@ -1548,9 +1611,6 @@ msgstr "رنگ آمیزی توسط معاملات"
 msgid "Histogram"
 msgstr "هیستوگرام"
 
-msgid "Single"
-msgstr "تک"
-
 msgid "Double"
 msgstr "دو"
 
@@ -1579,6 +1639,9 @@ msgstr "نمایش POC"
 msgid "POC type"
 msgstr "نوع POC"
 
+msgid "Draw grid"
+msgstr "رسم شبکه"
+
 msgid "Minute"
 msgstr "دقیقه"
 
@@ -1588,14 +1651,23 @@ msgstr "ساعت"
 msgid "Enabled"
 msgstr "فعال"
 
-msgid "Default text color"
-msgstr "رنگ متن پیش فرض"
+msgid "Gradient"
+msgstr "شیب"
 
-msgid "Default Back color"
-msgstr "رنگ بازگشت پیش فرض"
+msgid "Fixed"
+msgstr "ثابت"
+
+msgid "Coloring mode"
+msgstr "حالت رنگ آمیزی"
+
+msgid "Default colors"
+msgstr "رنگ های پیش فرض"
 
 msgid "Coloring for various levels"
 msgstr "رنگ آمیزی برای سطوح مختلف"
+
+msgid "Default text color"
+msgstr "رنگ متن پیش فرض"
 
 msgid "Pos"
 msgstr "اعتباری"
@@ -1618,8 +1690,26 @@ msgstr "موقعيت برچسب هیستوگرام"
 msgid "Trade color"
 msgstr "رنگ تجارت"
 
+msgid "Show profile"
+msgstr "نمایش نمایه"
+
+msgid "Extend POC until intersection"
+msgstr "گسترش POC تا تقاطع"
+
 msgid "Show POC ray"
 msgstr "نمایش ray POC"
+
+msgid "Show secondary POC"
+msgstr "نمایش POC ثانویه"
+
+msgid "Secondary POC colors"
+msgstr "رنگ های ثانویه POC"
+
+msgid "Max allowed deviation from POC (%)"
+msgstr "حداکثر اجازه انحراف از POC (٪)"
+
+msgid "Minimum deviation from POC (ticks)"
+msgstr "حداقل انحراف از POC (کنه)"
 
 msgid "Show Value area"
 msgstr "نمایش محدوده مقدار"
@@ -1762,9 +1852,6 @@ msgstr "بر اساس نوار"
 msgid "By Difference"
 msgstr "بر اساس تفاوت"
 
-msgid "Fixed"
-msgstr "ثابت"
-
 msgid "Above/below the moving average"
 msgstr "بالا/پایین میانگین متحرک"
 
@@ -1804,6 +1891,9 @@ msgstr "تجارت برق"
 msgid "Label colors"
 msgstr "رنگ برچسب"
 
+msgid "Label position side"
+msgstr "سمت موقعیت برچسب"
+
 msgid "Cross type"
 msgstr "نوع صلیب"
 
@@ -1836,6 +1926,15 @@ msgstr "کنترل کننده مشخصات سبک"
 
 msgid "Selection area"
 msgstr "منطقه انتخاب"
+
+msgid "Mode"
+msgstr "حالت"
+
+msgid "Left range"
+msgstr "محدوده چپ"
+
+msgid "Right range"
+msgstr "محدوده راست"
 
 msgid "Billet format type"
 msgstr "نوع قالب بیلت"
@@ -1897,6 +1996,39 @@ msgstr "آینه"
 msgid "Custom text"
 msgstr "متن سفارشی"
 
+msgid "Secondary POC line"
+msgstr "خط POC ثانویه"
+
+msgid "15 minutes"
+msgstr "15 دقیقه"
+
+msgid "30 minutes"
+msgstr "30 دقیقه"
+
+msgid "Today"
+msgstr "امروز"
+
+msgid "Yesterday"
+msgstr "دیروز"
+
+msgid "Current week"
+msgstr "هفته جاری"
+
+msgid "Previous week"
+msgstr "هفته قبل"
+
+msgid "Week before previous"
+msgstr "هفته قبل از قبل"
+
+msgid "Last week"
+msgstr "هفته ی قبل"
+
+msgid "Current month"
+msgstr "ماه جاری"
+
+msgid "Last month"
+msgstr "ماه گذشته"
+
 msgid "Middle line style"
 msgstr "سبک خط میانی"
 
@@ -1929,6 +2061,9 @@ msgstr "موقعیت برچسب"
 
 msgid "Center"
 msgstr "مرکز"
+
+msgid "Show price labels"
+msgstr "نشان دادن برچسب قیمت"
 
 msgid "Regression Line"
 msgstr "خط تولید رگرسیون"
@@ -1987,6 +2122,48 @@ msgstr "بالا"
 msgid "Control buttons position"
 msgstr "موقعیت دکمه های کنترل"
 
+msgid "Current Monday"
+msgstr "دوشنبه جاری"
+
+msgid "Current Tuesday"
+msgstr "سه شنبه جاری"
+
+msgid "Current Wednesday"
+msgstr "چهارشنبه جاری"
+
+msgid "Current Thursday"
+msgstr "پنج شنبه جاری"
+
+msgid "Current Friday"
+msgstr "جمعه فعلی"
+
+msgid "Current Saturday"
+msgstr "شنبه جاری"
+
+msgid "Current Sunday"
+msgstr "یکشنبه فعلی"
+
+msgid "Previous Monday"
+msgstr "دوشنبه قبلی"
+
+msgid "Previous Tuesday"
+msgstr "سه شنبه قبلی"
+
+msgid "Previous Wednesday"
+msgstr "چهارشنبه قبلی"
+
+msgid "Previous Thursday"
+msgstr "پنجشنبه قبلی"
+
+msgid "Previous Friday"
+msgstr "جمعه قبلی"
+
+msgid "Previous Saturday"
+msgstr "شنبه قبلی"
+
+msgid "Previous Sunday"
+msgstr "یکشنبه قبلی"
+
 msgid "Invalid price"
 msgstr "قیمت نامعتبر"
 
@@ -2028,6 +2205,9 @@ msgstr "{0} کنه"
 
 msgid "Empty symbol"
 msgstr "نماد خالی"
+
+msgid "Futures"
+msgstr "آینده"
 
 msgid "Full"
 msgstr "کامل"
@@ -2198,6 +2378,21 @@ msgstr "گسترش زمان فیبوناچی"
 msgid "Fibonacci price extension"
 msgstr "تمدید قیمت فیبوناچی"
 
+msgid "Minotauro Fibonacci price extension"
+msgstr "تمدید قیمت مینوتوارو فیبوناچی"
+
+msgid "Minotauro Move Up"
+msgstr "Minotauro حرکت به بالا"
+
+msgid "Minotauro Move Down"
+msgstr "Minotauro حرکت به پایین"
+
+msgid "POC line"
+msgstr "خط POC"
+
+msgid "Week POC line"
+msgstr "هفته خط POC"
+
 msgid "Candle"
 msgstr "شمع"
 
@@ -2279,6 +2474,12 @@ msgstr "رنگ پایین پشت"
 
 msgid "Mouse wheel action"
 msgstr "ماوس عمل چرخ"
+
+msgid "Mouse wheel+CTRL action"
+msgstr "ماوس چرخ +عمل CTRL"
+
+msgid "Mouse wheel+SHIFT action"
+msgstr "چرخ ماوس +عمل SHIFT"
 
 msgid "Drawings default availablity"
 msgstr "نقاشی ها به طور پیش فرض availablity"
@@ -2462,6 +2663,9 @@ msgstr "تنظیمات {0}"
 msgid "Default by symbol ({0})"
 msgstr "نماد پیش فرض ({0})"
 
+msgid "Bid/Ask average"
+msgstr "به طور متوسط Bid/Ask"
+
 msgid "Time value: "
 msgstr "مقدار زمان: "
 
@@ -2543,6 +2747,9 @@ msgstr "معاملات"
 msgid "Show DOM levels"
 msgstr "نمایش سطح DOM"
 
+msgid "Extend DOM levels"
+msgstr "گسترش سطح DOM"
+
 msgid "Show Bid/Ask line"
 msgstr "نشان دادن پیشنهاد / درخواست خط"
 
@@ -2551,9 +2758,6 @@ msgstr "رنگ خط پیشنهاد"
 
 msgid "Ask line color"
 msgstr "درخواست رنگ خط"
-
-msgid "Extend DOM levels"
-msgstr "گسترش سطح DOM"
 
 msgid "DOM levels count"
 msgstr "تعداد سطح DOM"
@@ -2591,6 +2795,12 @@ msgstr "رنگ 5"
 msgid "Limit of points"
 msgstr "حد امتیاز"
 
+msgid "Show last line"
+msgstr "نمایش خط آخر"
+
+msgid "Last line color"
+msgstr "رنگ خط آخر"
+
 msgid "Marker size type"
 msgstr "نوع اندازه نشانگر"
 
@@ -2606,12 +2816,6 @@ msgstr "حداکثر اندازه تجارت"
 msgid "Custom trade size"
 msgstr "اندازه تجارت سفارشی"
 
-msgid "Show last line"
-msgstr "نمایش خط آخر"
-
-msgid "Last line color"
-msgstr "رنگ خط آخر"
-
 msgid "Markers opacity"
 msgstr "opacity نشانگرها"
 
@@ -2626,6 +2830,9 @@ msgstr "حداقل عرض حجم، px (حالت تجمیع)"
 
 msgid "Scroll"
 msgstr "حرکت"
+
+msgid "Price Zoom"
+msgstr "زوم قیمت"
 
 msgid "TPO: "
 msgstr "TPO: "
@@ -2680,9 +2887,6 @@ msgstr "سبک نمایش"
 
 msgid "Show marker on each bar"
 msgstr "نشان دادن نشانگر در هر نوار"
-
-msgid "Coloring mode"
-msgstr "حالت رنگ آمیزی"
 
 msgid "Delta none color"
 msgstr "دلتا هیچ رنگی"
@@ -2759,9 +2963,6 @@ msgstr "وال"
 msgid "POC"
 msgstr "POC"
 
-msgid "Midpoint"
-msgstr "نقطه میانی"
-
 msgid "RF"
 msgstr "Rf"
 
@@ -2813,8 +3014,11 @@ msgstr "مقدار:"
 msgid "Split size columns"
 msgstr "ستون های اندازه تقسیم"
 
-msgid "Type of last trade"
-msgstr "نوع آخرین تجارت"
+msgid "Split Buy/Sell column"
+msgstr "تقسیم خرید / فروش ستون"
+
+msgid "AutoSize of columns"
+msgstr "اندازه خودکار ستون ها"
 
 msgid "No data to display"
 msgstr "هیچ داده ای برای نمایش وجود ندارد"
@@ -3038,6 +3242,30 @@ msgstr "پیشنهاد / درخواست تنظیم مجدد"
 msgid "Last trade size"
 msgstr "آخرین اندازه تجارت"
 
+msgid "Type of last trade"
+msgstr "نوع آخرین تجارت"
+
+msgid "Buy/Sell"
+msgstr "خرید / فروش"
+
+msgid "Buy order color"
+msgstr "خرید سفارش رنگ"
+
+msgid "Buy SL/TP color"
+msgstr "خرید SL / TP رنگ"
+
+msgid "Sell order color"
+msgstr "فروش سفارش رنگ"
+
+msgid "Sell SL/TP color"
+msgstr "فروش SL / TP رنگ"
+
+msgid "Mixed (Buy/Sell) group color"
+msgstr "مخلوط (خرید / فروش) رنگ گروه"
+
+msgid "Mixed (Buy/Sell) group SL/TP color"
+msgstr "مخلوط (خرید / فروش) گروه SL / TP رنگ"
+
 msgid "Order color"
 msgstr "رنگ سفارش"
 
@@ -3173,8 +3401,11 @@ msgstr "نشان دادن موقعیت"
 msgid "Position width"
 msgstr "عرض موقعیت"
 
-msgid "Position color"
-msgstr "رنگ موقعیت"
+msgid "Long position color"
+msgstr "رنگ موقعیت بلند"
+
+msgid "Short position color"
+msgstr "رنگ موقعیت کوتاه"
 
 msgid "Show day high/low"
 msgstr "نمایش روز بالا / کم"
@@ -3184,6 +3415,12 @@ msgstr "روز بالا"
 
 msgid "Day low"
 msgstr "روز کم"
+
+msgid "Highlight daily high/low range"
+msgstr "برجسته روزانه محدوده بالا / پایین"
+
+msgid "High/Low range colors"
+msgstr "رنگ های برد بالا/پایین"
 
 msgid "Clear marked prices"
 msgstr "پاک کردن قیمت های مشخص شده"
@@ -3224,14 +3461,8 @@ msgstr "رنگ بید"
 msgid "Ask color"
 msgstr "رنگ بپرسید"
 
-msgid "Gradient"
-msgstr "شیب"
-
-msgid "Gradient/Histogram"
-msgstr "گرادیانت/Histogram"
-
-msgid "Size coloring scheme"
-msgstr "طرح رنگ آمیزی اندازه"
+msgid "Size bar type"
+msgstr "نوع نوار اندازه"
 
 msgid "Left"
 msgstr "چپ"
@@ -3241,6 +3472,24 @@ msgstr "راست"
 
 msgid "Histogram Alignment"
 msgstr "هم ترازی هستوگرام"
+
+msgid "MBO"
+msgstr "MBO"
+
+msgid "Size coloring scheme"
+msgstr "طرح رنگ آمیزی اندازه"
+
+msgid "Filter orders more than (MBO)"
+msgstr "سفارشات فیلتر بیش از (MBO)"
+
+msgid "Draw borders (MBO)"
+msgstr "قرعه کشی مرزها (MBO)"
+
+msgid "Custom Bids Back Color"
+msgstr "پیشنهادهای سفارشی رنگ بازگشت"
+
+msgid "Custom Asks Back Color"
+msgstr "سفارشی می پرسد رنگ بازگشت"
 
 msgid "Set price marker"
 msgstr "تعیین نشانگر قیمت"
@@ -3272,32 +3521,11 @@ msgstr "دلتا مثبت"
 msgid "Delta Negative"
 msgstr "دلتا منفی"
 
+msgid "Show Last Trade Size"
+msgstr "نمایش آخرین اندازه تجارت"
+
 msgid "Reload data (server)"
 msgstr "بارگذاری مجدد داده ها (سرور)"
-
-msgid "15 minutes"
-msgstr "15 دقیقه"
-
-msgid "30 minutes"
-msgstr "30 دقیقه"
-
-msgid "Today"
-msgstr "امروز"
-
-msgid "Yesterday"
-msgstr "دیروز"
-
-msgid "Current week"
-msgstr "هفته جاری"
-
-msgid "Last week"
-msgstr "هفته ی قبل"
-
-msgid "Current month"
-msgstr "ماه جاری"
-
-msgid "Last month"
-msgstr "ماه گذشته"
 
 msgid "LIFO"
 msgstr "LIFO"
@@ -3332,9 +3560,6 @@ msgstr "مخفی"
 msgid "Conditional Order"
 msgstr "ترتیب مشروط"
 
-msgid "Place order"
-msgstr "ترتیب مکان"
-
 msgid "Cancel order"
 msgstr "لغو سفارش"
 
@@ -3361,9 +3586,6 @@ msgstr "لغو محدودیت ها"
 
 msgid "Cancel stops"
 msgstr "لغو توقف"
-
-msgid "Close all positions"
-msgstr "بستن تمام موقعیت ها"
 
 msgid "Flatten"
 msgstr "صاف"
@@ -3452,9 +3674,6 @@ msgstr "اضافه کردن به لیست دیده بان"
 msgid "Replace watchlist"
 msgstr "جایگزین لیست دیده بان"
 
-msgid "Rename"
-msgstr "نام"
-
 msgid "Delete"
 msgstr "حذف"
 
@@ -3484,6 +3703,12 @@ msgstr "برداشتن پین از نوار ابزار"
 
 msgid "Pin on toolbar"
 msgstr "پین در نوار ابزار"
+
+msgid "Panel-specific custom hotkeys"
+msgstr "کلید های سفارشی مخصوص پانل"
+
+msgid "No custom hotkeys were set up"
+msgstr "هیچ کلید فوری سفارشی راه اندازی شد"
 
 #, csharp-format
 msgid "{0}None{1}"
@@ -3542,15 +3767,6 @@ msgstr "مختصات نقطه ای"
 
 msgid "Point"
 msgstr "نقطه"
-
-msgid "Custom sessions"
-msgstr "جلسات سفارشی"
-
-msgid "No custom sessions were set up."
-msgstr "هیچ جلسه سفارشی راه اندازی شد."
-
-msgid "Incorrect sessions."
-msgstr "جلسات نادرست ."
 
 msgid "Enable sounds"
 msgstr "فعال کردن صداها"
@@ -3704,6 +3920,42 @@ msgstr "نام فضای کار می تواند شامل: {0}"
 msgid "Same workspace name already exist"
 msgstr "نام مشابه فضای کار در حال حاضر وجود دارد"
 
+msgid "Open OE Buy"
+msgstr "OE باز خرید"
+
+msgid "Open OE Sell"
+msgstr "باز OE فروش"
+
+msgid "Open Chart"
+msgstr "نمودار باز"
+
+msgid "Open DOM Trader"
+msgstr "باز کردن معامله گر DOM"
+
+msgid "Open Market Depth"
+msgstr "عمق بازار باز"
+
+msgid "Open Time Sales"
+msgstr "فروش زمان باز"
+
+msgid "Open DOM Surface"
+msgstr "سطح DOM باز"
+
+msgid "Open TPO Chart"
+msgstr "باز کردن نمودار TPO"
+
+msgid "Open Positions"
+msgstr "باز کردن موقعیت ها"
+
+msgid "Open Working Orders"
+msgstr "باز کردن سفارشات کار"
+
+msgid "Open Trades"
+msgstr "معاملات باز"
+
+msgid "Open Symbol Info"
+msgstr "باز کردن اطلاعات نماد"
+
 #, csharp-format
 msgid "Are you sure you want to delete {0}?"
 msgstr "آیا مطمئنید که می خواهید {0} را حذف کنید ؟"
@@ -3828,6 +4080,9 @@ msgstr "نمایش بلیط های معامله"
 msgid "Confirm hotbutton action"
 msgstr "تایید عملکرد hotbutton"
 
+msgid "Confirm multiple place order strategies"
+msgstr "تایید استراتژی های سفارش مکان چندگانه"
+
 msgid "Enable Microsoft Excel RTD"
 msgstr "فعال کردن مایکروسافت اکسل RTD"
 
@@ -3836,6 +4091,12 @@ msgstr "سفارشی RTD نام فرمول"
 
 msgid "Custom argument separator"
 msgstr "جداکننده استدلال سفارشی"
+
+msgid "Socket port"
+msgstr "پورت سوکت"
+
+msgid "Allow connection from Visual Studio (for scripts debugging)"
+msgstr "اجازه اتصال از Visual Studio (برای اشکال زدایی اسکریپت ها)"
 
 msgid "Telegram"
 msgstr "تلگراف"
@@ -3848,6 +4109,9 @@ msgstr "اعلان های تجاری تکراری به تلگرام"
 
 msgid "Excel RTD"
 msgstr "اکسل RTD"
+
+msgid "Algo"
+msgstr "آلگو"
 
 msgid "Messengers"
 msgstr "رسولان"
@@ -3972,53 +4236,23 @@ msgstr "رمز عبور خالی است"
 msgid "Incorrect Login or Password"
 msgstr "ورود یا کلمه عبور نادرست"
 
-msgid "Mark Price"
-msgstr "مارک پرایس"
+msgid "Contract size"
+msgstr "اندازه قرارداد"
 
-msgid "Last Price"
-msgstr "آخرین قیمت"
+msgid "Max price"
+msgstr "حداکثر قیمت"
 
-msgid "CROSSED"
-msgstr "عبور"
+msgid "Min notional"
+msgstr "حداقل مفهومی"
 
-msgid "ISOLATED"
-msgstr "جدا"
+msgid "Iceberg allowed"
+msgstr "کوه یخ مجاز"
 
-msgid "Transfer"
-msgstr "انتقال"
+msgid "Orders"
+msgstr "سفارشات"
 
-msgid "Welcome bonus"
-msgstr "پاداش خوش آمدید"
-
-msgid "Realized PnL"
-msgstr "پی ان ال تحقق یافته"
-
-msgid "Funding fee"
-msgstr "هزینه بودجه"
-
-msgid "Commission"
-msgstr "کمیسیون"
-
-msgid "Insurance clear"
-msgstr "بیمه روشن"
-
-msgid "Coin swap deposit"
-msgstr "سپرده مبادله سکه"
-
-msgid "Coin swap withdraw"
-msgstr "برداشت مبادله سکه"
-
-msgid "Borrow"
-msgstr "قرض"
-
-msgid "Repay"
-msgstr "بازپرداخت"
-
-msgid "IN"
-msgstr "در"
-
-msgid "OUT"
-msgstr "خارج"
+msgid "Full license"
+msgstr "مجوز کامل"
 
 msgid "Total Balance"
 msgstr "تعادل کل"
@@ -4031,6 +4265,93 @@ msgstr "حقوق صاحبان سهام حساب"
 
 msgid "Margin level"
 msgstr "سطح مارجین"
+
+msgid "Maintenance margin"
+msgstr "حاشیه نگهداری"
+
+msgid "Required margin"
+msgstr "حاشیه مورد نیاز"
+
+msgid "Leverage"
+msgstr "اهرم"
+
+msgid "Margin type"
+msgstr "نوع حاشیه"
+
+msgid "Positions"
+msgstr "موقعیت"
+
+msgid "Hedge mode"
+msgstr "حالت پرچین"
+
+msgid "Wallet balance"
+msgstr "تعادل کیف پول"
+
+msgid "Available balance"
+msgstr "تعادل موجود"
+
+msgid "Initial margin"
+msgstr "حاشیه اولیه"
+
+msgid "Margin balance"
+msgstr "تعادل حاشیه"
+
+msgid "Crossed wallet balance"
+msgstr "تعادل کیف پول عبوری"
+
+msgid "Max withdraw amount"
+msgstr "حداکثر مقدار برداشت"
+
+msgid "Open order initial margin"
+msgstr "حاشیه اولیه نظم باز"
+
+msgid "Position initial margin"
+msgstr "حاشیه اولیه موقعیت"
+
+msgid "Unrealized PNL"
+msgstr "PNL تحقق نیافته"
+
+msgid "Crossed position Unrealized PNL"
+msgstr "موقعیت عبوری PNL تحقق نیافته"
+
+msgid "Margin available"
+msgstr "مارجین در دسترس"
+
+msgid "Available for Order"
+msgstr "در دسترس برای سفارش"
+
+msgid "Margin Ratio"
+msgstr "نسبت حاشیه"
+
+msgid "Callback Rate"
+msgstr "نرخ تماس"
+
+msgid "Trigger"
+msgstr "ماشه"
+
+msgid "Iceberg quantity"
+msgstr "کمیت کوه یخ"
+
+msgid "Post-Only"
+msgstr "پس از تنها"
+
+msgid "Behavior"
+msgstr "رفتار"
+
+msgid "Last Price"
+msgstr "آخرین قیمت"
+
+msgid "Mark Price"
+msgstr "مارک پرایس"
+
+msgid "Borrow"
+msgstr "قرض"
+
+msgid "Repay"
+msgstr "بازپرداخت"
+
+msgid "Activation price"
+msgstr "قیمت فعال سازی"
 
 msgid "Open position"
 msgstr "موقعیت باز"
@@ -4047,59 +4368,8 @@ msgstr "قیمت باید ارزش مثبت غیر صفر باشد"
 msgid "Stop price should be positive non-zero value"
 msgstr "قیمت توقف باید ارزش مثبت غیر صفر باشد"
 
-msgid "Maintenance margin"
-msgstr "حاشیه نگهداری"
-
-msgid "Required margin"
-msgstr "حاشیه مورد نیاز"
-
-msgid "Contract size"
-msgstr "اندازه قرارداد"
-
-msgid "Leverage"
-msgstr "اهرم"
-
-msgid "Margin type"
-msgstr "نوع حاشیه"
-
-msgid "Hedge mode"
-msgstr "حالت پرچین"
-
-msgid "Full license"
-msgstr "مجوز کامل"
-
-msgid "Initial margin"
-msgstr "حاشیه اولیه"
-
-msgid "Margin balance"
-msgstr "تعادل حاشیه"
-
-msgid "Open order initial margin"
-msgstr "حاشیه اولیه نظم باز"
-
-msgid "Position initial margin"
-msgstr "حاشیه اولیه موقعیت"
-
-msgid "Unrealized PNL"
-msgstr "PNL تحقق نیافته"
-
-msgid "Available for Order"
-msgstr "در دسترس برای سفارش"
-
-msgid "Margin Ratio"
-msgstr "نسبت حاشیه"
-
-msgid "Orders"
-msgstr "سفارشات"
-
-msgid "Positions"
-msgstr "موقعیت"
-
-msgid "Max withdraw amount"
-msgstr "حداکثر مقدار برداشت"
-
-msgid "Wallet balance"
-msgstr "تعادل کیف پول"
+msgid "Margin call"
+msgstr "تماس حاشیه"
 
 msgid "Adjust Leverage"
 msgstr "تنظیم اهرم"
@@ -4107,32 +4377,14 @@ msgstr "تنظیم اهرم"
 msgid "Adjust Margin Mode"
 msgstr "تنظیم حالت حاشیه"
 
-msgid "Allowed order types"
-msgstr "انواع سفارش مجاز"
-
-msgid "Max price"
-msgstr "حداکثر قیمت"
-
-msgid "Min notional"
-msgstr "حداقل مفهومی"
-
-msgid "Iceberg allowed"
-msgstr "کوه یخ مجاز"
-
 msgid "Volume analysis step (ticks)"
 msgstr "مرحله تجزیه و تحلیل حجم (کنه)"
 
-msgid "Margin"
-msgstr "حاشیه"
+msgid "Account custom name"
+msgstr "نام سفارشی حساب"
 
-msgid "Account activity"
-msgstr "فعالیت حساب"
-
-msgid "Info"
-msgstr "اطلاعات"
-
-msgid "Trading info"
-msgstr "اطلاعات معاملاتی"
+msgid "Check orders interval, sec"
+msgstr "بررسی فاصله سفارشات، ثانیه"
 
 msgid "Real-time"
 msgstr "زمان واقعی"
@@ -4167,26 +4419,35 @@ msgstr "قیمت علامت گذاری"
 msgid "Last price"
 msgstr "آخرین قیمت"
 
-msgid "Periodically"
-msgstr "دوره"
-
 msgid "Binance server"
 msgstr "سرور بایننس"
 
 msgid "External server"
 msgstr "سرور خارجی"
 
+msgid "By timer"
+msgstr "توسط تایکر"
+
+msgid "Periodically"
+msgstr "دوره"
+
 msgid "Connection"
 msgstr "اتصال"
+
+msgid "Allow load user trades history"
+msgstr "اجازه دادن به سابقه معاملات کاربر بار"
+
+msgid "Allow load user orders history"
+msgstr "اجازه دادن به سابقه سفارشات کاربر بار"
+
+msgid "Base endpoint"
+msgstr "نقطه پایانی پایه"
 
 msgid "Bid/Ask update frequency"
 msgstr "پیشنهاد / درخواست فرکانس به روز رسانی"
 
-msgid "Allow change leverage"
-msgstr "اجازه دادن به اهرم تغییر"
-
-msgid "WebSocket endpoint"
-msgstr "نقطه پایانی WebSocket"
+msgid "Bid/Ask update timer interval, sec"
+msgstr "پیشنهاد / درخواست فاصله زمان به روز رسانی ، ثانیه"
 
 msgid "TP/SL trigger price"
 msgstr "قیمت ماشه TP/SL"
@@ -4200,20 +4461,14 @@ msgstr "دوره به روز رسانی بهره باز"
 msgid "Calculate PNL locally"
 msgstr "محاسبه PNL به صورت محلی"
 
-msgid "PNL calculation basis"
-msgstr "اساس محاسبه PNL"
+msgid "PnL calculation basis"
+msgstr "اساس محاسبه PnL"
 
 msgid "Real-time trades source"
 msgstr "منبع معاملات بی در زمان"
 
-msgid "Account custom name"
-msgstr "نام سفارشی حساب"
-
-msgid "Load user trades history"
-msgstr "بارگذاری تاریخچه معاملات کاربر"
-
-msgid "Rest api url not founded."
-msgstr "Rest api url تأسیس نشده است."
+msgid "Load funding rates history"
+msgstr "سابقه نرخ بودجه بار"
 
 msgid "Reduce-only"
 msgstr "کاهش تنها"
@@ -4455,29 +4710,74 @@ msgstr "ارزش موقعیت ناخالص: {RoundToCurrencyPrecision(ConvertToR
 msgid "Display quantity"
 msgstr "کمیت نمایش"
 
-msgid "Conditional limit"
-msgstr "حد مشروط"
+msgid "One way"
+msgstr "یک راه"
 
-msgid "Conditional market"
-msgstr "بازار مشروط"
+msgid "Hedge"
+msgstr "پرچین"
 
-msgid "Index price"
-msgstr "قیمت شاخص"
+msgid "Open orders"
+msgstr "سفارشات باز"
 
-msgid "Trailing profit"
-msgstr "سود دنباله دار"
-
-msgid "Min price"
-msgstr "قیمت مین"
+msgid "Open positions"
+msgstr "پوزیشن های باز"
 
 msgid "Taker fee"
 msgstr "هزینه یادداشت برداری"
+
+msgid "Leverage type"
+msgstr "نوع اهرم"
+
+msgid "Isolated"
+msgstr "جدا"
+
+msgid "Position mode"
+msgstr "حالت موقعیت"
 
 msgid "Long leverage"
 msgstr "اهرم طولانی"
 
 msgid "Short leverage"
 msgstr "اهرم کوتاه"
+
+msgid "Index price"
+msgstr "قیمت شاخص"
+
+msgid "Unique comment"
+msgstr "نظر منحصر به فرد"
+
+msgid "Register account"
+msgstr "ثبت حساب"
+
+msgid "Spot exchange"
+msgstr "تبادل نقطه"
+
+msgid "Inverse futures exchange"
+msgstr "تبادل آتی معکوس"
+
+msgid "USDT perpetual exchange"
+msgstr "USDT تبادل همیشگی"
+
+msgid "Load user trades history"
+msgstr "بارگذاری تاریخچه معاملات کاربر"
+
+msgid "Can't find connection type parameters"
+msgstr "پارامترهای نوع اتصال را نمی توان پیدا کرد"
+
+msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
+msgstr "مبادلات انتخاب شده ای برای اتصال وجود نداره. لطفا \"تنظیمات اتصال\" را باز کنید و تبادلات مورد نیاز را انتخاب کنید."
+
+msgid "Conditional limit"
+msgstr "حد مشروط"
+
+msgid "Conditional market"
+msgstr "بازار مشروط"
+
+msgid "Trailing profit"
+msgstr "سود دنباله دار"
+
+msgid "Min price"
+msgstr "قیمت مین"
 
 msgid "Max leverage"
 msgstr "اهرم حداکثر"
@@ -4499,9 +4799,6 @@ msgstr "دستورات مشروط"
 
 msgid "Equity"
 msgstr "سهام"
-
-msgid "Available balance"
-msgstr "تعادل موجود"
 
 msgid "Used margin"
 msgstr "مارجین استفاده شده"
@@ -4539,17 +4836,11 @@ msgstr "انباشته متوجه PnL"
 msgid "Accumulated realised profit and loss (all-time total)"
 msgstr "انباشته متوجه سود و زیان (کل تمام وقت)"
 
-msgid "Register account"
-msgstr "ثبت حساب"
-
 msgid "Client Id"
 msgstr "شناسه مشتری"
 
 msgid "Secret Id"
 msgstr "شناسه مخفی"
-
-msgid "Can't find connection type parameters"
-msgstr "پارامترهای نوع اتصال را نمی توان پیدا کرد"
 
 msgid "Client id is empty"
 msgstr "شناسه مشتری خالی است"
@@ -4734,6 +5025,9 @@ msgstr "PnL تحقق نیافته (OTE)"
 msgid "Open trade equity, or potential profit (or loss) from futures and future-style options positions based on opening price of the position and the current future trade/best bid/best ask (regarding to the risk account settings) or settlement price if trade is not available. Included if purchasing power depends on it."
 msgstr "سهام تجارت باز، یا سود بالقوه (یا زیان) از موقعیت های آتی و گزینه های به سبک آینده بر اساس قیمت باز از موقعیت و تجارت آینده فعلی / بهترین پیشنهاد / بهترین بپرسید (در مورد تنظیمات حساب ریسک) و یا قیمت حل و فصل در صورتی که تجارت در دسترس نیست. شامل اگر قدرت خرید بستگی به آن دارد."
 
+msgid "Realized PnL"
+msgstr "پی ان ال تحقق یافته"
+
 msgid "Total PnL"
 msgstr "مجموع PnL"
 
@@ -4754,6 +5048,9 @@ msgstr "شرط حاشیه تنها بر اساس موقعیت های فعلی."
 
 msgid "Spot"
 msgstr "نقطه"
+
+msgid "Margin"
+msgstr "حاشیه"
 
 msgid "Trade mode"
 msgstr "حالت تجارت"
@@ -4779,17 +5076,11 @@ msgstr "اتصال به مبادله"
 msgid "Support margin trading"
 msgstr "پشتیبانی از معاملات حاشیه"
 
-msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
-msgstr "مبادلات انتخاب شده ای برای اتصال وجود نداره. لطفا \"تنظیمات اتصال\" را باز کنید و تبادلات مورد نیاز را انتخاب کنید."
-
 msgid "Market range"
 msgstr "محدوده بازار"
 
-msgid "Open orders"
-msgstr "سفارشات باز"
-
-msgid "Open positions"
-msgstr "پوزیشن های باز"
+msgid "Server region"
+msgstr "منطقه سرور"
 
 msgid "Net P/L"
 msgstr "خالص P/L"
@@ -5157,6 +5448,21 @@ msgstr "طرح حساب"
 msgid "WARNING!!! This option can cause a significant delay during the trading"
 msgstr "هشدار!!! این گزینه می تواند باعث تاخیر قابل توجهی در طول معاملات"
 
+msgid "History"
+msgstr "تاریخ"
+
+msgid "Funding rates mode"
+msgstr "حالت نرخ بودجه"
+
+msgid "Account activity"
+msgstr "فعالیت حساب"
+
+msgid "Info"
+msgstr "اطلاعات"
+
+msgid "Trading info"
+msgstr "اطلاعات معاملاتی"
+
 msgid "Token"
 msgstr "نشانه"
 
@@ -5271,9 +5577,6 @@ msgstr "هزینه ارز"
 msgid "Reduce only"
 msgstr "فقط کاهش"
 
-msgid "Isolated"
-msgstr "جدا"
-
 msgid "Margin mode"
 msgstr "حالت حاشیه"
 
@@ -5334,6 +5637,24 @@ msgstr "تعلیق تجارت"
 msgid "Otc"
 msgstr "Otc"
 
+msgid "Otc Options"
+msgstr "گزینه های Otc"
+
+msgid "Minepool"
+msgstr "مین پول"
+
+msgid "ETF"
+msgstr "ETF"
+
+msgid "Crypto Loans"
+msgstr "وام های کریپتو"
+
+msgid "Deposit Earning"
+msgstr "درآمد سپرده"
+
+msgid "Grid Trading"
+msgstr "تجارت شبکه"
+
 msgid "Super margin"
 msgstr "حاشیه فوق العاده"
 
@@ -5360,9 +5681,6 @@ msgstr "اهرم جدا شده"
 
 msgid "Cross leverage"
 msgstr "اهرم عبور"
-
-msgid "Spot exchange"
-msgstr "تبادل نقطه"
 
 msgid "Coin-M Futures"
 msgstr "سکه - M آینده"
@@ -5601,9 +5919,6 @@ msgstr "کلید شاخص مرکزی صادر شده توسط SEC، که شنا�
 msgid "State"
 msgstr "دولت"
 
-msgid "Margin call"
-msgstr "تماس حاشیه"
-
 msgid "Margin stop"
 msgstr "توقف مارجین"
 
@@ -5616,14 +5931,101 @@ msgstr "خرید اهرم"
 msgid "Leverage sell"
 msgstr "فروش اهرم"
 
+msgid "Visible size"
+msgstr "اندازه قابل مشاهده"
+
+msgid "Iceberg qty"
+msgstr "کوه یخ قتی"
+
+msgid "Reverse contract"
+msgstr "قرارداد معکوس"
+
+msgid "Enabled ADL"
+msgstr "فعال کردن ADL"
+
+msgid "Type of the contract"
+msgstr "نوع قرارداد"
+
+msgid "Maker fees, %"
+msgstr "هزینه های سازنده، ٪"
+
+msgid "Fixed maker fees"
+msgstr "هزینه های ساز ثابت"
+
+msgid "Maker fees"
+msgstr "هزینه های ساز"
+
+msgid "Taker fees, %"
+msgstr "هزینه های Taker، ٪"
+
+msgid "Fixed taker fees"
+msgstr "هزینه های ثابت taker"
+
+msgid "Derivative: Can't calculate spot-order direction."
+msgstr "مشتق: نمی تواند جهت دستور نقطه را محاسبه کند."
+
+msgid "Close order"
+msgstr "نظم نزدیک"
+
+msgid "Stop price type"
+msgstr "توقف نوع قیمت"
+
+msgid "Spot: Can't calculate spot-order direction."
+msgstr "نقطه: نمی تواند جهت دستور نقطه را محاسبه کند."
+
+msgid "Margin trade"
+msgstr "تجارت حاشیه"
+
+msgid "API key (Spot)"
+msgstr "کلید API (نقطه)"
+
+msgid "Secret key (Spot)"
+msgstr "کلید مخفی (نقطه)"
+
+msgid "Password (Spot)"
+msgstr "رمز عبور (نقطه)"
+
+msgid "API key (Derivative)"
+msgstr "کلید API (مشتق)"
+
+msgid "Secret key (Derivative)"
+msgstr "کلید مخفی (مشتق)"
+
+msgid "Password (Derivative)"
+msgstr "رمز عبور (مشتق)"
+
+msgid "Connect to spot exchange"
+msgstr "اتصال به تبادل نقطه"
+
+msgid "Connect to futures exchange"
+msgstr "اتصال به تبادل آتی"
+
+msgid "Unified account"
+msgstr "حساب متحد"
+
+msgid "ApiKey is empty (Spot)"
+msgstr "ApiKey خالی است (نقطه)"
+
+msgid "Secret id is empty (Spot)"
+msgstr "شناسه مخفی خالی است (نقطه)"
+
+msgid "Password is empty (Spot)"
+msgstr "رمز عبور خالی است (نقطه)"
+
+msgid "ApiKey is empty (Derivative)"
+msgstr "ApiKey خالی است (مشتق)"
+
+msgid "Secret id is empty (Derivative)"
+msgstr "شناسه مخفی خالی است (مشتق)"
+
+msgid "Password is empty (Derivative)"
+msgstr "رمز خالی است (مشتق)"
+
 msgid "Margin requirements"
 msgstr "الزامات مارجین"
 
 msgid "Fees"
 msgstr "هزینه"
-
-msgid "Session info"
-msgstr "اطلاعات جلسه"
 
 msgid "Today results"
 msgstr "نتایج امروز"
@@ -5673,6 +6075,9 @@ msgstr "نقاط مبادله طولانی"
 msgid "Short swap points"
 msgstr "نقاط مبادله کوتاه"
 
+msgid "Commission"
+msgstr "کمیسیون"
+
 msgid "Crypto"
 msgstr "رمزنگاری"
 
@@ -5705,9 +6110,6 @@ msgstr "مارجین استفاده شده"
 
 msgid "Margin currently used for the Account"
 msgstr "مارجین استفاده شده در حال حاضر برای حساب"
-
-msgid "Margin available"
-msgstr "مارجین در دسترس"
 
 msgid "Margin available for the Account"
 msgstr "مارجین موجود برای حساب"
@@ -5797,6 +6199,9 @@ msgstr "خطی"
 msgid "Inverse"
 msgstr "معکوس"
 
+msgid "Simple"
+msgstr "ساده"
+
 msgid "Single currency margin"
 msgstr "حاشیه واحد پول"
 
@@ -5856,9 +6261,6 @@ msgstr "دریافت سابقه برداشت"
 
 msgid "Account level"
 msgstr "سطح حساب"
-
-msgid "Position mode"
-msgstr "حالت موقعیت"
 
 msgid "Display type of Greeks"
 msgstr "نوع نمایش یونانیان"
@@ -6072,6 +6474,9 @@ msgstr "مقایسه اپراتور"
 
 msgid "Compare price type"
 msgstr "مقایسه نوع قیمت"
+
+msgid "Enable 'Market by Order' (MBO) mode"
+msgstr "فعال کردن 'بازار بر اساس سفارش' (MBO) حالت"
 
 msgid "Single point value"
 msgstr "مقدار تک نقطه ای"
@@ -6322,6 +6727,45 @@ msgstr "آغاز سوکت تجاری..."
 msgid "CashMarginAvailable"
 msgstr "CashMarginAvailable"
 
+msgid "AdhocMargin"
+msgstr "اهوک ماژین"
+
+msgid "NotinalCash"
+msgstr "NotinalCash"
+
+msgid "PayInAmount"
+msgstr "PayInAmount"
+
+msgid "PayOutAmount"
+msgstr "PayOutAmount"
+
+msgid "CNCSellBenifit"
+msgstr "CNCSellBenifit"
+
+msgid "DirectCollateral"
+msgstr "دایرکت کولاترال"
+
+msgid "HoldingCollateral"
+msgstr "هولدینگ کولترال"
+
+msgid "ClientBranchAdhoc"
+msgstr "ClientBranchAdhoc"
+
+msgid "SellOptionsPremium"
+msgstr "SellOptionsPremium"
+
+msgid "TotalBranchAdhoc"
+msgstr "توتال برانچ آدهوک"
+
+msgid "AdhocFOMargin"
+msgstr "AdhocFOMargin"
+
+msgid "AdhocCurrencyMargin"
+msgstr "AdhocCurrencyMargin"
+
+msgid "AdhocCommodityMargin"
+msgstr "AdhocCommodityMargin"
+
 msgid "MTM"
 msgstr "Mtm"
 
@@ -6525,9 +6969,6 @@ msgstr "اطلاعات"
 
 msgid "Refresh all data was requested."
 msgstr "تازه کردن تمام داده ها درخواست شد."
-
-msgid "History"
-msgstr "تاریخ"
 
 msgid "Market data app key"
 msgstr "کلید برنامه داده های بازار"
@@ -6807,6 +7248,21 @@ msgstr "خالص تحقق نیافته P/L"
 
 msgid "Realized P/L"
 msgstr "P/L متوجه شدم"
+
+msgid "Swaps"
+msgstr "سوآپ ها"
+
+msgid "Fee per 1 lot per round"
+msgstr "هزینه در هر 1 لات در هر دور"
+
+msgid "Fee per 1 lot per side"
+msgstr "هزینه در هر 1 لات در هر طرف"
+
+msgid "Fee per round"
+msgstr "هزینه در هر دور"
+
+msgid "Fee per side"
+msgstr "هزینه در هر طرف"
 
 msgid "Classification"
 msgstr "طبقه بندی"

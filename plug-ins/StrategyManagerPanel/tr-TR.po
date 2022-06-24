@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-02 11:28+0200\n"
+"POT-Creation-Date: 2022-06-24 18:02+0300\n"
 "PO-Revision-Date: 2021-07-28 16:13+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -97,6 +97,9 @@ msgstr "Kapatmadan sonra strateji durumunu geri yükle"
 msgid "General"
 msgstr "Genel"
 
+msgid "Are you sure you want to delete all selected strategies?"
+msgstr "Seçilen tüm stratejileri silmek istediğinizden emin misiniz?"
+
 msgid "No running strategies yet"
 msgstr "Henüz çalışan strateji yok"
 
@@ -115,6 +118,9 @@ msgstr "Tümlerini başlat"
 msgid "Stop all"
 msgstr "Tüm bunları durdurun"
 
+msgid "Update all"
+msgstr "Tümünü güncelle"
+
 msgid "View"
 msgstr "Görüntüle"
 
@@ -124,6 +130,12 @@ msgstr "Strateji ekle"
 msgid "Remove selected"
 msgstr "Seçiliyi sil"
 
+msgid "Run selected"
+msgstr "Seçileni çalıştır"
+
+msgid "Stop selected"
+msgstr "Seçili işlemi durdur"
+
 msgid "Strategy settings"
 msgstr "Strateji ayarları"
 
@@ -132,6 +144,9 @@ msgstr "Tümlerini Çalıştır"
 
 msgid "Stop All"
 msgstr "Tümlerini Durdur"
+
+msgid "Update All"
+msgstr "Tümünü Güncelle"
 
 msgid "Backtest strategy"
 msgstr "Backtest stratejisi"
@@ -160,6 +175,10 @@ msgstr "Ölçümleri göster"
 msgid "Show logs"
 msgstr "Günlükleri göster"
 
+#, csharp-format
+msgid "Are you sure you want to delete '{0}' script?"
+msgstr "'{0}' komut dosyasını silmek istediğinizden emin misiniz?"
+
 msgid "Save strategy template"
 msgstr "Strateji şablonlarını kaydet"
 
@@ -180,7 +199,3 @@ msgstr "Günlük tablosu ayarları"
 
 msgid "settings"
 msgstr "Ayarlar"
-
-#, csharp-format
-msgid "Are you sure you want to delete '{0}' script?"
-msgstr "'{0}' komut dosyasını silmek istediğinizden emin misiniz?"

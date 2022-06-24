@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-10 14:02+0200\n"
+"POT-Creation-Date: 2022-06-24 14:15+0300\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -15,6 +15,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Main"
+msgstr "메인"
+
+msgid "Pre-market"
+msgstr "프리마켓"
+
+msgid "Post-market"
+msgstr "포스트 마켓"
 
 msgid "Active"
 msgstr "활동하는"
@@ -205,6 +214,9 @@ msgstr "자산 로드..."
 msgid "Loading accounts..."
 msgstr "로드 계정..."
 
+msgid "Loading option series..."
+msgstr "로딩 옵션 시리즈 중..."
+
 msgid "Loading symbols..."
 msgstr "기호 로드..."
 
@@ -358,8 +370,8 @@ msgstr "매기다"
 msgid "Ask"
 msgstr "청하다"
 
-msgid "Bid/Ask average"
-msgstr "호가(매입)/호가(상대방) 평균"
+msgid "Midpoint"
+msgstr "중간점"
 
 msgid "Last"
 msgstr "마지막"
@@ -565,11 +577,11 @@ msgstr "이익 수취"
 msgid "Is trailing"
 msgstr "후행"
 
-msgid "Simple"
-msgstr "단순"
+msgid "Simple SL/TP"
+msgstr "간단한 SL / TP"
 
-msgid "Advanced"
-msgstr "고급"
+msgid "Multiple brackets"
+msgstr "여러 브래킷"
 
 msgid "Offset"
 msgstr "오프셋"
@@ -580,14 +592,14 @@ msgstr "퍼센트"
 msgid "Absolute"
 msgstr "절대"
 
-msgid "Measurement"
-msgstr "측량"
+msgid "Order price specification"
+msgstr "주문 가격 사양"
 
-msgid "Mode"
-msgstr "모드"
+msgid "Type of closing orders"
+msgstr "마감 주문 유형"
 
-msgid "Used order type"
-msgstr "사용 된 주문 유형"
+msgid "Orders placement mode"
+msgstr "주문 배치 모드"
 
 msgid "Initial"
 msgstr "초기"
@@ -595,11 +607,14 @@ msgstr "초기"
 msgid "Whole position"
 msgstr "전체 위치"
 
-msgid "Close quantity"
-msgstr "수량 닫기"
+msgid "Closing quantity"
+msgstr "마감 수량"
 
 msgid "Release time"
 msgstr "릴리스 시간"
+
+msgid "Time:"
+msgstr "시간:"
 
 msgid "MIS"
 msgstr "Mis"
@@ -640,11 +655,38 @@ msgstr "거래 중지"
 msgid "Lot"
 msgstr "많은"
 
-msgid "Total long positions: "
-msgstr "총 롱 포지션: "
+msgid "Place order"
+msgstr "주문 하기"
 
-msgid "Total short positions: "
-msgstr "총 짧은 위치: "
+msgid "Close all positions"
+msgstr "모든 위치 닫기"
+
+msgid "Run order placement strategy"
+msgstr "주문 배치 전략 실행"
+
+msgid "Run strategy"
+msgstr "실행 전략"
+
+msgid "Change symbol"
+msgstr "상품 추가"
+
+msgid "Open template"
+msgstr "템플릿 열기"
+
+msgid "Add indicator"
+msgstr "지표 더하기"
+
+msgid "Apply symbol list"
+msgstr "기호 목록 적용"
+
+msgid "Open plugin"
+msgstr "플러그인 열기"
+
+msgid "Apply aggregation"
+msgstr "집계 적용"
+
+msgid "Add drawing"
+msgstr "그리기 추가"
 
 msgid "Name"
 msgstr "이름"
@@ -694,24 +736,6 @@ msgstr "{0}은 (는) {1} 이벤트를 지원하지 않았습니다."
 
 msgid "Link"
 msgstr "링크"
-
-msgid "Red"
-msgstr "붉은색 연결"
-
-msgid "Yellow"
-msgstr "노랑"
-
-msgid "Green"
-msgstr "녹색 연결"
-
-msgid "Blue"
-msgstr "푸른색 연결"
-
-msgid "Purple"
-msgstr "자"
-
-msgid "Unlink"
-msgstr "풀리다"
 
 msgid "Create bind"
 msgstr "바인드 만들기"
@@ -896,6 +920,18 @@ msgstr "시간대"
 msgid "Show out of session history"
 msgstr "세션 기록 중 표시"
 
+msgid "Sessions template"
+msgstr "세션 템플릿"
+
+msgid "Drawing template"
+msgstr "드로잉 템플릿"
+
+msgid "Indicator template"
+msgstr "표시기 템플릿"
+
+msgid "Create template"
+msgstr "템플릿 만들기"
+
 msgid "Symbol"
 msgstr "상징"
 
@@ -984,6 +1020,12 @@ msgstr "공개 이자"
 msgid "Oi"
 msgstr "Oi"
 
+msgid "Fr"
+msgstr "증권 시세 표시기"
+
+msgid "Funding rates"
+msgstr "자금 조달 비율"
+
 msgid "Hide"
 msgstr "숨는 장소"
 
@@ -1013,6 +1055,15 @@ msgstr "제거"
 
 msgid "Edit"
 msgstr "편집하다"
+
+msgid "Source code"
+msgstr "소스 코드"
+
+msgid "Apply"
+msgstr "적용하다"
+
+msgid "Rename"
+msgstr "이름 바꾸기"
 
 msgid "Set active"
 msgstr "활성 설정"
@@ -1442,6 +1493,12 @@ msgstr "시간 히스토그램"
 msgid "VWAP"
 msgstr "VWAP"
 
+msgid "Single"
+msgstr "단일"
+
+msgid "Multiple"
+msgstr "배수"
+
 msgid "Tick"
 msgstr "틱"
 
@@ -1480,6 +1537,12 @@ msgstr "스탠드아트 편차"
 
 msgid "Enable standard deviations"
 msgstr "표준 편차 사용"
+
+msgid "Calculation type"
+msgstr "계산 유형"
+
+msgid "Multiplier"
+msgstr "승수"
 
 msgid "Deviations value"
 msgstr "편차 값"
@@ -1548,9 +1611,6 @@ msgstr "무역에 의해 착 색"
 msgid "Histogram"
 msgstr "Gistogramm"
 
-msgid "Single"
-msgstr "단일"
-
 msgid "Double"
 msgstr "더블"
 
@@ -1579,6 +1639,9 @@ msgstr "POC 표시"
 msgid "POC type"
 msgstr "POC 유형"
 
+msgid "Draw grid"
+msgstr "그리드 그리기"
+
 msgid "Minute"
 msgstr "1 분"
 
@@ -1588,14 +1651,23 @@ msgstr "시간"
 msgid "Enabled"
 msgstr "사용"
 
-msgid "Default text color"
-msgstr "기본 텍스트 색상"
+msgid "Gradient"
+msgstr "증감율"
 
-msgid "Default Back color"
-msgstr "기본 백 색상"
+msgid "Fixed"
+msgstr "고정"
+
+msgid "Coloring mode"
+msgstr "색칠 모드"
+
+msgid "Default colors"
+msgstr "기본 색상"
 
 msgid "Coloring for various levels"
 msgstr "다양한 레벨의 색칠"
+
+msgid "Default text color"
+msgstr "기본 텍스트 색상"
 
 msgid "Pos"
 msgstr "Pos"
@@ -1618,8 +1690,26 @@ msgstr "히스토그램 레이블 위치"
 msgid "Trade color"
 msgstr "무역 색상"
 
+msgid "Show profile"
+msgstr "프로필 표시"
+
+msgid "Extend POC until intersection"
+msgstr "교차점까지 POC 확장"
+
 msgid "Show POC ray"
 msgstr "POC 레이 표시"
+
+msgid "Show secondary POC"
+msgstr "보조 POC 표시"
+
+msgid "Secondary POC colors"
+msgstr "보조 POC 색상"
+
+msgid "Max allowed deviation from POC (%)"
+msgstr "POC로부터의 최대 허용 편차 (%)"
+
+msgid "Minimum deviation from POC (ticks)"
+msgstr "POC로부터의 최소 편차 (틱)"
 
 msgid "Show Value area"
 msgstr "값 영역 표시"
@@ -1762,9 +1852,6 @@ msgstr "막대기로"
 msgid "By Difference"
 msgstr "차이로"
 
-msgid "Fixed"
-msgstr "고정"
-
 msgid "Above/below the moving average"
 msgstr "이동 평균 위 / 아래"
 
@@ -1804,6 +1891,9 @@ msgstr "전력 거래"
 msgid "Label colors"
 msgstr "라벨 색상"
 
+msgid "Label position side"
+msgstr "레이블 위치 측면"
+
 msgid "Cross type"
 msgstr "교차 종류"
 
@@ -1836,6 +1926,15 @@ msgstr "프로 파일 제어기 스타일"
 
 msgid "Selection area"
 msgstr "선택 영역"
+
+msgid "Mode"
+msgstr "모드"
+
+msgid "Left range"
+msgstr "왼쪽 범위"
+
+msgid "Right range"
+msgstr "올바른 범위"
 
 msgid "Billet format type"
 msgstr "빌릿 형식 유형"
@@ -1897,6 +1996,39 @@ msgstr "미러 됨"
 msgid "Custom text"
 msgstr "사용자 정의 텍스트"
 
+msgid "Secondary POC line"
+msgstr "보조 POC 라인"
+
+msgid "15 minutes"
+msgstr "15분"
+
+msgid "30 minutes"
+msgstr "30분"
+
+msgid "Today"
+msgstr "오늘"
+
+msgid "Yesterday"
+msgstr "어제"
+
+msgid "Current week"
+msgstr "현재 주"
+
+msgid "Previous week"
+msgstr "지난 주"
+
+msgid "Week before previous"
+msgstr "이전 주 전"
+
+msgid "Last week"
+msgstr "지난주"
+
+msgid "Current month"
+msgstr "현재 월"
+
+msgid "Last month"
+msgstr "지난 달"
+
 msgid "Middle line style"
 msgstr "미들 라인 스타일"
 
@@ -1929,6 +2061,9 @@ msgstr "레이블 위치"
 
 msgid "Center"
 msgstr "센터"
+
+msgid "Show price labels"
+msgstr "가격 레이블 표시"
 
 msgid "Regression Line"
 msgstr "회귀선"
@@ -1987,6 +2122,48 @@ msgstr "맨 위로"
 msgid "Control buttons position"
 msgstr "버튼 위치 제어"
 
+msgid "Current Monday"
+msgstr "현재 월요일"
+
+msgid "Current Tuesday"
+msgstr "현재 화요일"
+
+msgid "Current Wednesday"
+msgstr "현재 수요일"
+
+msgid "Current Thursday"
+msgstr "현재 목요일"
+
+msgid "Current Friday"
+msgstr "현재 금요일"
+
+msgid "Current Saturday"
+msgstr "현재 토요일"
+
+msgid "Current Sunday"
+msgstr "현재 일요일"
+
+msgid "Previous Monday"
+msgstr "이전 월요일"
+
+msgid "Previous Tuesday"
+msgstr "지난 화요일"
+
+msgid "Previous Wednesday"
+msgstr "이전 수요일"
+
+msgid "Previous Thursday"
+msgstr "지난 목요일"
+
+msgid "Previous Friday"
+msgstr "지난 금요일"
+
+msgid "Previous Saturday"
+msgstr "이전 토요일"
+
+msgid "Previous Sunday"
+msgstr "지난 일요일"
+
 msgid "Invalid price"
 msgstr "잘못된 가격"
 
@@ -2028,6 +2205,9 @@ msgstr "{0} 틱"
 
 msgid "Empty symbol"
 msgstr "빈 기호"
+
+msgid "Futures"
+msgstr "선물"
 
 msgid "Full"
 msgstr "전체"
@@ -2198,6 +2378,21 @@ msgstr "피보나치 시간 확장"
 msgid "Fibonacci price extension"
 msgstr "피보나치 가격 연장"
 
+msgid "Minotauro Fibonacci price extension"
+msgstr "미노타우로 피보나치 가격 연장"
+
+msgid "Minotauro Move Up"
+msgstr "미노타우로 위로 이동"
+
+msgid "Minotauro Move Down"
+msgstr "미노타우로 아래로 이동"
+
+msgid "POC line"
+msgstr "POC 라인"
+
+msgid "Week POC line"
+msgstr "주 POC 라인"
+
 msgid "Candle"
 msgstr "초"
 
@@ -2279,6 +2474,12 @@ msgstr "뒷 색상"
 
 msgid "Mouse wheel action"
 msgstr "마우스 휠 동작"
+
+msgid "Mouse wheel+CTRL action"
+msgstr "마우스 휠+CTRL 동작"
+
+msgid "Mouse wheel+SHIFT action"
+msgstr "마우스 휠+시프트 액션"
 
 msgid "Drawings default availablity"
 msgstr "도면 기본 사용 가능한"
@@ -2462,6 +2663,9 @@ msgstr "{0} 설정"
 msgid "Default by symbol ({0})"
 msgstr "기호 ({0})로 기본값"
 
+msgid "Bid/Ask average"
+msgstr "호가(매입)/호가(상대방) 평균"
+
 msgid "Time value: "
 msgstr "시간 값: "
 
@@ -2543,6 +2747,9 @@ msgstr "거래"
 msgid "Show DOM levels"
 msgstr "DOM 레벨 표시"
 
+msgid "Extend DOM levels"
+msgstr "DOM 레벨 확장"
+
 msgid "Show Bid/Ask line"
 msgstr "입찰 표시/줄 요청"
 
@@ -2551,9 +2758,6 @@ msgstr "입찰선 색상"
 
 msgid "Ask line color"
 msgstr "선 색상 요청"
-
-msgid "Extend DOM levels"
-msgstr "DOM 레벨 확장"
 
 msgid "DOM levels count"
 msgstr "DOM 레벨 수"
@@ -2591,6 +2795,12 @@ msgstr "색상 5"
 msgid "Limit of points"
 msgstr "포인트 제한"
 
+msgid "Show last line"
+msgstr "마지막 줄 표시"
+
+msgid "Last line color"
+msgstr "마지막 줄 색상"
+
 msgid "Marker size type"
 msgstr "마커 크기 유형"
 
@@ -2606,12 +2816,6 @@ msgstr "최대 거래 규모"
 msgid "Custom trade size"
 msgstr "맞춤형 거래 규모"
 
-msgid "Show last line"
-msgstr "마지막 줄 표시"
-
-msgid "Last line color"
-msgstr "마지막 줄 색상"
-
 msgid "Markers opacity"
 msgstr "마커 불투명도"
 
@@ -2626,6 +2830,9 @@ msgstr "최소 볼륨 너비, px(집계 모드)"
 
 msgid "Scroll"
 msgstr "스크롤"
+
+msgid "Price Zoom"
+msgstr "가격 줌"
 
 msgid "TPO: "
 msgstr "Tpo: "
@@ -2680,9 +2887,6 @@ msgstr "디스플레이 스타일"
 
 msgid "Show marker on each bar"
 msgstr "각 막대에 마커 표시"
-
-msgid "Coloring mode"
-msgstr "색칠 모드"
 
 msgid "Delta none color"
 msgstr "델타 없음 색상"
@@ -2759,9 +2963,6 @@ msgstr "발"
 msgid "POC"
 msgstr "Poc"
 
-msgid "Midpoint"
-msgstr "중간점"
-
 msgid "RF"
 msgstr "Rf"
 
@@ -2813,8 +3014,11 @@ msgstr "Qty.:"
 msgid "Split size columns"
 msgstr "분할 크기 열"
 
-msgid "Type of last trade"
-msgstr "마지막 거래의 종류"
+msgid "Split Buy/Sell column"
+msgstr "분할 구매/판매 열"
+
+msgid "AutoSize of columns"
+msgstr "열의 자동 크기 조정"
 
 msgid "No data to display"
 msgstr "표시 할 내용이 없습니다"
@@ -3038,6 +3242,30 @@ msgstr "입찰/재설정 요청"
 msgid "Last trade size"
 msgstr "마지막 거래 규모"
 
+msgid "Type of last trade"
+msgstr "마지막 거래의 종류"
+
+msgid "Buy/Sell"
+msgstr "매입/매도"
+
+msgid "Buy order color"
+msgstr "주문 색상 구매"
+
+msgid "Buy SL/TP color"
+msgstr "SL / TP 색상 구매"
+
+msgid "Sell order color"
+msgstr "판매 순서 색깔"
+
+msgid "Sell SL/TP color"
+msgstr "SL / TP 색상 판매"
+
+msgid "Mixed (Buy/Sell) group color"
+msgstr "혼합(구매/판매) 그룹 색상"
+
+msgid "Mixed (Buy/Sell) group SL/TP color"
+msgstr "혼합 (구매 / 판매) 그룹 SL / TP 색상"
+
 msgid "Order color"
 msgstr "주문 색상"
 
@@ -3173,8 +3401,11 @@ msgstr "위치 표시"
 msgid "Position width"
 msgstr "위치 너비"
 
-msgid "Position color"
-msgstr "위치 색상"
+msgid "Long position color"
+msgstr "긴 위치 색상"
+
+msgid "Short position color"
+msgstr "짧은 위치 색상"
 
 msgid "Show day high/low"
 msgstr "낮 최고/최저 표시"
@@ -3184,6 +3415,12 @@ msgstr "낮 최고"
 
 msgid "Day low"
 msgstr "낮게"
+
+msgid "Highlight daily high/low range"
+msgstr "매일 높음/낮음 범위 강조 표시"
+
+msgid "High/Low range colors"
+msgstr "높음/낮음 범위 색상"
 
 msgid "Clear marked prices"
 msgstr "명확한 표시 가격"
@@ -3224,14 +3461,8 @@ msgstr "호가(매입) 색"
 msgid "Ask color"
 msgstr "호가 색"
 
-msgid "Gradient"
-msgstr "증감율"
-
-msgid "Gradient/Histogram"
-msgstr "그라데이션/히스토그램"
-
-msgid "Size coloring scheme"
-msgstr "크기 색상 지정 체계"
+msgid "Size bar type"
+msgstr "크기 막대 유형"
 
 msgid "Left"
 msgstr "왼쪽"
@@ -3241,6 +3472,24 @@ msgstr "오른쪽"
 
 msgid "Histogram Alignment"
 msgstr "히스토그램 정렬"
+
+msgid "MBO"
+msgstr "증권 시세 표시기"
+
+msgid "Size coloring scheme"
+msgstr "크기 색상 지정 체계"
+
+msgid "Filter orders more than (MBO)"
+msgstr "필터 주문이 MBO(MBO) 이상"
+
+msgid "Draw borders (MBO)"
+msgstr "테두리 그리기(MBO)"
+
+msgid "Custom Bids Back Color"
+msgstr "사용자 정의 입찰 백 컬러"
+
+msgid "Custom Asks Back Color"
+msgstr "사용자 정의가 다시 색상을 묻습니다."
 
 msgid "Set price marker"
 msgstr "설정 가격 마커"
@@ -3272,32 +3521,11 @@ msgstr "델타 포지티브"
 msgid "Delta Negative"
 msgstr "델타 네거티브"
 
+msgid "Show Last Trade Size"
+msgstr "마지막 거래 크기 표시"
+
 msgid "Reload data (server)"
 msgstr "데이터 재장전(서버)"
-
-msgid "15 minutes"
-msgstr "15분"
-
-msgid "30 minutes"
-msgstr "30분"
-
-msgid "Today"
-msgstr "오늘"
-
-msgid "Yesterday"
-msgstr "어제"
-
-msgid "Current week"
-msgstr "현재 주"
-
-msgid "Last week"
-msgstr "지난주"
-
-msgid "Current month"
-msgstr "현재 월"
-
-msgid "Last month"
-msgstr "지난 달"
 
 msgid "LIFO"
 msgstr "LIFO"
@@ -3332,9 +3560,6 @@ msgstr "숨김"
 msgid "Conditional Order"
 msgstr "조건부 주문"
 
-msgid "Place order"
-msgstr "주문 하기"
-
 msgid "Cancel order"
 msgstr "주문을 취소하다"
 
@@ -3361,9 +3586,6 @@ msgstr "제한 취소"
 
 msgid "Cancel stops"
 msgstr "중지 취소"
-
-msgid "Close all positions"
-msgstr "모든 위치 닫기"
 
 msgid "Flatten"
 msgstr "평평"
@@ -3452,9 +3674,6 @@ msgstr "관심 목록에 추가"
 msgid "Replace watchlist"
 msgstr "관심 목록 바꾸기"
 
-msgid "Rename"
-msgstr "이름 바꾸기"
-
 msgid "Delete"
 msgstr "삭제"
 
@@ -3484,6 +3703,12 @@ msgstr "도구 모음에서 고정 해제"
 
 msgid "Pin on toolbar"
 msgstr "도구 모음에 고정"
+
+msgid "Panel-specific custom hotkeys"
+msgstr "패널별 사용자 지정 단축키"
+
+msgid "No custom hotkeys were set up"
+msgstr "사용자 지정 단축키가 설정되지 않았습니다."
 
 #, csharp-format
 msgid "{0}None{1}"
@@ -3542,15 +3767,6 @@ msgstr "점 좌표"
 
 msgid "Point"
 msgstr "지점"
-
-msgid "Custom sessions"
-msgstr "사용자 지정 세션"
-
-msgid "No custom sessions were set up."
-msgstr "사용자 지정 세션이 설정되지 않았습니다."
-
-msgid "Incorrect sessions."
-msgstr "잘못된 세션입니다."
 
 msgid "Enable sounds"
 msgstr "사운드 가능하게 함"
@@ -3704,6 +3920,42 @@ msgstr "작업 영역 이름에 다음이 포함 될 수 있습니다."
 msgid "Same workspace name already exist"
 msgstr "동일한 작업 공간 이름이 이미 존재 합니다."
 
+msgid "Open OE Buy"
+msgstr "오픈 OE 구매"
+
+msgid "Open OE Sell"
+msgstr "오픈 OE 판매"
+
+msgid "Open Chart"
+msgstr "차트 열기"
+
+msgid "Open DOM Trader"
+msgstr "오픈 돔 트레이더"
+
+msgid "Open Market Depth"
+msgstr "오픈 마켓 깊이"
+
+msgid "Open Time Sales"
+msgstr "오픈 타임 판매"
+
+msgid "Open DOM Surface"
+msgstr "DOM 서피스 열기"
+
+msgid "Open TPO Chart"
+msgstr "TPO 차트 열기"
+
+msgid "Open Positions"
+msgstr "오픈 포지션"
+
+msgid "Open Working Orders"
+msgstr "작업 주문 열기"
+
+msgid "Open Trades"
+msgstr "공개 거래"
+
+msgid "Open Symbol Info"
+msgstr "기호 정보 열기"
+
 #, csharp-format
 msgid "Are you sure you want to delete {0}?"
 msgstr "{0}을 (를) 삭제 하 시겠습니까?"
@@ -3828,6 +4080,9 @@ msgstr "거래 티켓 보기"
 msgid "Confirm hotbutton action"
 msgstr "핫 버튼 동작 확인"
 
+msgid "Confirm multiple place order strategies"
+msgstr "여러 장소 주문 전략 확인"
+
 msgid "Enable Microsoft Excel RTD"
 msgstr "마이크로소프트 엑셀 RTD 사용"
 
@@ -3836,6 +4091,12 @@ msgstr "사용자 지정 RTD 수식 이름"
 
 msgid "Custom argument separator"
 msgstr "사용자 지정 인수 분리기"
+
+msgid "Socket port"
+msgstr "소켓 포트"
+
+msgid "Allow connection from Visual Studio (for scripts debugging)"
+msgstr "Visual Studio에서 연결 허용(스크립트 디버깅용)"
 
 msgid "Telegram"
 msgstr "전보"
@@ -3848,6 +4109,9 @@ msgstr "텔레그램에 대한 중복 거래 알림"
 
 msgid "Excel RTD"
 msgstr "엑셀 RTD"
+
+msgid "Algo"
+msgstr "알고어"
 
 msgid "Messengers"
 msgstr "메신저"
@@ -3972,53 +4236,23 @@ msgstr "암호가 비어 있습니다."
 msgid "Incorrect Login or Password"
 msgstr "잘못 된 로그인 또는 암호"
 
-msgid "Mark Price"
-msgstr "마크 프라이스"
+msgid "Contract size"
+msgstr "계약 규모"
 
-msgid "Last Price"
-msgstr "마지막 가격"
+msgid "Max price"
+msgstr "최대 가격"
 
-msgid "CROSSED"
-msgstr "넘어"
+msgid "Min notional"
+msgstr "명목상의 최소값"
 
-msgid "ISOLATED"
-msgstr "격리"
+msgid "Iceberg allowed"
+msgstr "빙산 허용"
 
-msgid "Transfer"
-msgstr "교환"
+msgid "Orders"
+msgstr "주문"
 
-msgid "Welcome bonus"
-msgstr "환영 보너스"
-
-msgid "Realized PnL"
-msgstr "실현 된 PnL"
-
-msgid "Funding fee"
-msgstr "자금 조달 수수료"
-
-msgid "Commission"
-msgstr "수수료"
-
-msgid "Insurance clear"
-msgstr "보험 클리어"
-
-msgid "Coin swap deposit"
-msgstr "코인 스왑 예금"
-
-msgid "Coin swap withdraw"
-msgstr "코인 스왑 인출"
-
-msgid "Borrow"
-msgstr "빌릴"
-
-msgid "Repay"
-msgstr "상환"
-
-msgid "IN"
-msgstr "에서"
-
-msgid "OUT"
-msgstr "OUT"
+msgid "Full license"
+msgstr "전체 라이센스"
 
 msgid "Total Balance"
 msgstr "총 잔액"
@@ -4031,6 +4265,93 @@ msgstr "계정 자본"
 
 msgid "Margin level"
 msgstr "마진 레벨"
+
+msgid "Maintenance margin"
+msgstr "유지 보수 마진"
+
+msgid "Required margin"
+msgstr "필요한 마진"
+
+msgid "Leverage"
+msgstr "레버리지"
+
+msgid "Margin type"
+msgstr "마진 유형"
+
+msgid "Positions"
+msgstr "위치"
+
+msgid "Hedge mode"
+msgstr "헤지 모드"
+
+msgid "Wallet balance"
+msgstr "지갑 잔액"
+
+msgid "Available balance"
+msgstr "사용 가능한 잔액"
+
+msgid "Initial margin"
+msgstr "초기 마진"
+
+msgid "Margin balance"
+msgstr "마진 잔액"
+
+msgid "Crossed wallet balance"
+msgstr "교차 지갑 잔액"
+
+msgid "Max withdraw amount"
+msgstr "최대 인출 금액"
+
+msgid "Open order initial margin"
+msgstr "열기 주문 초기 마진"
+
+msgid "Position initial margin"
+msgstr "위치 초기 마진"
+
+msgid "Unrealized PNL"
+msgstr "실현되지 않은 PNL"
+
+msgid "Crossed position Unrealized PNL"
+msgstr "교차 위치 실현되지 않은 PNL"
+
+msgid "Margin available"
+msgstr "사용 가능한 여백"
+
+msgid "Available for Order"
+msgstr "주문 가능"
+
+msgid "Margin Ratio"
+msgstr "마진 비율"
+
+msgid "Callback Rate"
+msgstr "콜백 속도"
+
+msgid "Trigger"
+msgstr "방아쇠"
+
+msgid "Iceberg quantity"
+msgstr "빙산 수량"
+
+msgid "Post-Only"
+msgstr "포스트-전용"
+
+msgid "Behavior"
+msgstr "행동"
+
+msgid "Last Price"
+msgstr "마지막 가격"
+
+msgid "Mark Price"
+msgstr "마크 프라이스"
+
+msgid "Borrow"
+msgstr "빌릴"
+
+msgid "Repay"
+msgstr "상환"
+
+msgid "Activation price"
+msgstr "활성화 가격"
 
 msgid "Open position"
 msgstr "열린 위치"
@@ -4047,59 +4368,8 @@ msgstr "가격은 0이 아닌 양수 값이어야 합니다."
 msgid "Stop price should be positive non-zero value"
 msgstr "정지 가격은 0이 아닌 양수 값이어야 합니다."
 
-msgid "Maintenance margin"
-msgstr "유지 보수 마진"
-
-msgid "Required margin"
-msgstr "필요한 마진"
-
-msgid "Contract size"
-msgstr "계약 규모"
-
-msgid "Leverage"
-msgstr "레버리지"
-
-msgid "Margin type"
-msgstr "마진 유형"
-
-msgid "Hedge mode"
-msgstr "헤지 모드"
-
-msgid "Full license"
-msgstr "전체 라이센스"
-
-msgid "Initial margin"
-msgstr "초기 마진"
-
-msgid "Margin balance"
-msgstr "마진 잔액"
-
-msgid "Open order initial margin"
-msgstr "열기 주문 초기 마진"
-
-msgid "Position initial margin"
-msgstr "위치 초기 마진"
-
-msgid "Unrealized PNL"
-msgstr "실현되지 않은 PNL"
-
-msgid "Available for Order"
-msgstr "주문 가능"
-
-msgid "Margin Ratio"
-msgstr "마진 비율"
-
-msgid "Orders"
-msgstr "주문"
-
-msgid "Positions"
-msgstr "위치"
-
-msgid "Max withdraw amount"
-msgstr "최대 인출 금액"
-
-msgid "Wallet balance"
-msgstr "지갑 잔액"
+msgid "Margin call"
+msgstr "마진 콜"
 
 msgid "Adjust Leverage"
 msgstr "레버리지 조정"
@@ -4107,32 +4377,14 @@ msgstr "레버리지 조정"
 msgid "Adjust Margin Mode"
 msgstr "여백 모드 조정"
 
-msgid "Allowed order types"
-msgstr "허용 된 주문 유형"
-
-msgid "Max price"
-msgstr "최대 가격"
-
-msgid "Min notional"
-msgstr "명목상의 최소값"
-
-msgid "Iceberg allowed"
-msgstr "빙산 허용"
-
 msgid "Volume analysis step (ticks)"
 msgstr "볼륨 분석 단계(틱)"
 
-msgid "Margin"
-msgstr "여유"
+msgid "Account custom name"
+msgstr "계정 사용자 지정 이름"
 
-msgid "Account activity"
-msgstr "계정 활동"
-
-msgid "Info"
-msgstr "정보"
-
-msgid "Trading info"
-msgstr "거래 정보"
+msgid "Check orders interval, sec"
+msgstr "주문 간격, 초 확인"
 
 msgid "Real-time"
 msgstr "실시간"
@@ -4167,26 +4419,35 @@ msgstr "마크 가격"
 msgid "Last price"
 msgstr "마지막 가격"
 
-msgid "Periodically"
-msgstr "정기적 으로"
-
 msgid "Binance server"
 msgstr "바이넌스 서버"
 
 msgid "External server"
 msgstr "외부 서버"
 
+msgid "By timer"
+msgstr "타이머 기준"
+
+msgid "Periodically"
+msgstr "정기적 으로"
+
 msgid "Connection"
 msgstr "연결"
+
+msgid "Allow load user trades history"
+msgstr "로드 사용자 거래 내역 허용"
+
+msgid "Allow load user orders history"
+msgstr "로드 사용자 주문 기록 허용"
+
+msgid "Base endpoint"
+msgstr "기본 끝점"
 
 msgid "Bid/Ask update frequency"
 msgstr "입찰/문의 업데이트 빈도"
 
-msgid "Allow change leverage"
-msgstr "변경 레버리지 허용"
-
-msgid "WebSocket endpoint"
-msgstr "웹소켓 끝점"
+msgid "Bid/Ask update timer interval, sec"
+msgstr "입찰/요청 업데이트 타이머 간격, 초"
 
 msgid "TP/SL trigger price"
 msgstr "TP/SL 트리거 가격"
@@ -4200,20 +4461,14 @@ msgstr "오픈 이자 업데이트 기간"
 msgid "Calculate PNL locally"
 msgstr "로컬로 PNL 계산"
 
-msgid "PNL calculation basis"
-msgstr "PNL 계산 기준"
+msgid "PnL calculation basis"
+msgstr "PnL 계산 기준"
 
 msgid "Real-time trades source"
 msgstr "실시간 거래 소스"
 
-msgid "Account custom name"
-msgstr "계정 사용자 지정 이름"
-
-msgid "Load user trades history"
-msgstr "사용자 거래 내역 로드"
-
-msgid "Rest api url not founded."
-msgstr "나머지 API URL이 생성되지 않았습니다."
+msgid "Load funding rates history"
+msgstr "로드 펀딩 비율 기록"
 
 msgid "Reduce-only"
 msgstr "감소 전용"
@@ -4455,29 +4710,74 @@ msgstr "총 위치 가치: {RoundToCurrencyPrecision(컨버터리얼밸(사용�
 msgid "Display quantity"
 msgstr "표시 수량"
 
-msgid "Conditional limit"
-msgstr "조건부 제한"
+msgid "One way"
+msgstr "편도"
 
-msgid "Conditional market"
-msgstr "조건부 시장"
+msgid "Hedge"
+msgstr "울타리"
 
-msgid "Index price"
-msgstr "인덱스 가격"
+msgid "Open orders"
+msgstr "미결 주문"
 
-msgid "Trailing profit"
-msgstr "후행 이익"
-
-msgid "Min price"
-msgstr "최소 가격"
+msgid "Open positions"
+msgstr "채용 공고"
 
 msgid "Taker fee"
 msgstr "수취인 수수료"
+
+msgid "Leverage type"
+msgstr "레버리지 유형"
+
+msgid "Isolated"
+msgstr "격리"
+
+msgid "Position mode"
+msgstr "위치 모드"
 
 msgid "Long leverage"
 msgstr "긴 레버리지"
 
 msgid "Short leverage"
 msgstr "짧은 레버리지"
+
+msgid "Index price"
+msgstr "인덱스 가격"
+
+msgid "Unique comment"
+msgstr "독특한 댓글"
+
+msgid "Register account"
+msgstr "계정 등록"
+
+msgid "Spot exchange"
+msgstr "스팟 교환"
+
+msgid "Inverse futures exchange"
+msgstr "역선물 거래소"
+
+msgid "USDT perpetual exchange"
+msgstr "USDT 영구 교환"
+
+msgid "Load user trades history"
+msgstr "사용자 거래 내역 로드"
+
+msgid "Can't find connection type parameters"
+msgstr "연결 유형 매개 변수를 찾을 수 없습니다."
+
+msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
+msgstr "연결할 교환이 선택되지 않습니다. '연결 설정'을 열고 필요한 교환을 선택하십시오."
+
+msgid "Conditional limit"
+msgstr "조건부 제한"
+
+msgid "Conditional market"
+msgstr "조건부 시장"
+
+msgid "Trailing profit"
+msgstr "후행 이익"
+
+msgid "Min price"
+msgstr "최소 가격"
 
 msgid "Max leverage"
 msgstr "최대 레버리지"
@@ -4499,9 +4799,6 @@ msgstr "조건부 주문"
 
 msgid "Equity"
 msgstr "공평"
-
-msgid "Available balance"
-msgstr "사용 가능한 잔액"
 
 msgid "Used margin"
 msgstr "중고 여백"
@@ -4539,17 +4836,11 @@ msgstr "축적 된 실현 PnL"
 msgid "Accumulated realised profit and loss (all-time total)"
 msgstr "누적된 실현손익(사상 총)"
 
-msgid "Register account"
-msgstr "계정 등록"
-
 msgid "Client Id"
 msgstr "클라이언트 ID"
 
 msgid "Secret Id"
 msgstr "비밀 ID"
-
-msgid "Can't find connection type parameters"
-msgstr "연결 유형 매개 변수를 찾을 수 없습니다."
 
 msgid "Client id is empty"
 msgstr "클라이언트 ID가 비어 있습니다."
@@ -4734,6 +5025,9 @@ msgstr "실현되지 않은 PnL (OTE)"
 msgid "Open trade equity, or potential profit (or loss) from futures and future-style options positions based on opening price of the position and the current future trade/best bid/best ask (regarding to the risk account settings) or settlement price if trade is not available. Included if purchasing power depends on it."
 msgstr "오픈 트레이드 주식, 또는 선물 및 미래 스타일의 옵션 포지션에서 발생할 수 있는 잠재적 이익(또는 손실)은 포지션의 개장 가격과 현재 미래의 거래/베스트 입찰/최저가(위험 계정 설정에 관한) 또는 거래가 제공되지 않을 경우 정산 가격을 기준으로 합니다. 구매력이 면한 것이 포함됩니다."
 
+msgid "Realized PnL"
+msgstr "실현 된 PnL"
+
 msgid "Total PnL"
 msgstr "총 PnL"
 
@@ -4754,6 +5048,9 @@ msgstr "현재 위치에만 대한 마진 요구 사항입니다."
 
 msgid "Spot"
 msgstr "자리"
+
+msgid "Margin"
+msgstr "여유"
 
 msgid "Trade mode"
 msgstr "무역 모드"
@@ -4779,17 +5076,11 @@ msgstr "교환에 연결"
 msgid "Support margin trading"
 msgstr "지원 마진 거래"
 
-msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
-msgstr "연결할 교환이 선택되지 않습니다. '연결 설정'을 열고 필요한 교환을 선택하십시오."
-
 msgid "Market range"
 msgstr "시장 범위"
 
-msgid "Open orders"
-msgstr "미결 주문"
-
-msgid "Open positions"
-msgstr "채용 공고"
+msgid "Server region"
+msgstr "서버 지역"
 
 msgid "Net P/L"
 msgstr "순 P/L"
@@ -5157,6 +5448,21 @@ msgstr "계정 제도"
 msgid "WARNING!!! This option can cause a significant delay during the trading"
 msgstr "경고!!! 이 옵션은 거래 중에 상당한 지연을 일으킬 수 있습니다."
 
+msgid "History"
+msgstr "역사"
+
+msgid "Funding rates mode"
+msgstr "자금 조달 요금 모드"
+
+msgid "Account activity"
+msgstr "계정 활동"
+
+msgid "Info"
+msgstr "정보"
+
+msgid "Trading info"
+msgstr "거래 정보"
+
 msgid "Token"
 msgstr "토큰"
 
@@ -5271,9 +5577,6 @@ msgstr "요금 통화"
 msgid "Reduce only"
 msgstr "만 감소"
 
-msgid "Isolated"
-msgstr "격리"
-
 msgid "Margin mode"
 msgstr "증거금 모드"
 
@@ -5334,6 +5637,24 @@ msgstr "무역 중단"
 msgid "Otc"
 msgstr "오크 (주)"
 
+msgid "Otc Options"
+msgstr "Otc 옵션"
+
+msgid "Minepool"
+msgstr "마인풀"
+
+msgid "ETF"
+msgstr "증권 시세 표시기"
+
+msgid "Crypto Loans"
+msgstr "암호화 대출"
+
+msgid "Deposit Earning"
+msgstr "보증금 적립"
+
+msgid "Grid Trading"
+msgstr "그리드 거래"
+
 msgid "Super margin"
 msgstr "슈퍼 마진"
 
@@ -5360,9 +5681,6 @@ msgstr "격리된 레버리지"
 
 msgid "Cross leverage"
 msgstr "크로스 레버리지"
-
-msgid "Spot exchange"
-msgstr "스팟 교환"
 
 msgid "Coin-M Futures"
 msgstr "코인-M 선물"
@@ -5601,9 +5919,6 @@ msgstr "SEC가 발행한 중앙 색인 키는 모든 소유자 서류에 대한 
 msgid "State"
 msgstr "상태"
 
-msgid "Margin call"
-msgstr "마진 콜"
-
 msgid "Margin stop"
 msgstr "여백 정지"
 
@@ -5616,14 +5931,101 @@ msgstr "레 버리지 구매"
 msgid "Leverage sell"
 msgstr "레 버리지 판매"
 
+msgid "Visible size"
+msgstr "보이는 크기"
+
+msgid "Iceberg qty"
+msgstr "빙산 수량"
+
+msgid "Reverse contract"
+msgstr "역계약"
+
+msgid "Enabled ADL"
+msgstr "ADL 사용"
+
+msgid "Type of the contract"
+msgstr "계약 유형"
+
+msgid "Maker fees, %"
+msgstr "메이커 수수료, %"
+
+msgid "Fixed maker fees"
+msgstr "고정 메이커 수수료"
+
+msgid "Maker fees"
+msgstr "메이커 수수료"
+
+msgid "Taker fees, %"
+msgstr "테이커 수수료, %"
+
+msgid "Fixed taker fees"
+msgstr "고정 테이커 수수료"
+
+msgid "Derivative: Can't calculate spot-order direction."
+msgstr "파생 상품: 스팟 순서 방향을 계산할 수 없습니다."
+
+msgid "Close order"
+msgstr "주문 마감"
+
+msgid "Stop price type"
+msgstr "정지 가격 유형"
+
+msgid "Spot: Can't calculate spot-order direction."
+msgstr "스팟: 스팟 주문 방향을 계산할 수 없습니다."
+
+msgid "Margin trade"
+msgstr "마진 거래"
+
+msgid "API key (Spot)"
+msgstr "API 키(스팟)"
+
+msgid "Secret key (Spot)"
+msgstr "비밀 키(스팟)"
+
+msgid "Password (Spot)"
+msgstr "암호(스팟)"
+
+msgid "API key (Derivative)"
+msgstr "API 키(파생)"
+
+msgid "Secret key (Derivative)"
+msgstr "비밀 키(파생)"
+
+msgid "Password (Derivative)"
+msgstr "암호(파생)"
+
+msgid "Connect to spot exchange"
+msgstr "스팟 교환에 연결"
+
+msgid "Connect to futures exchange"
+msgstr "선물 거래소에 연결"
+
+msgid "Unified account"
+msgstr "통합 계정"
+
+msgid "ApiKey is empty (Spot)"
+msgstr "ApiKey가 비어 있습니다 (스팟)"
+
+msgid "Secret id is empty (Spot)"
+msgstr "비밀 ID가 비어 있음(스팟)"
+
+msgid "Password is empty (Spot)"
+msgstr "암호가 비어 있음(스팟)"
+
+msgid "ApiKey is empty (Derivative)"
+msgstr "ApiKey가 비어 있습니다 (파생 상품)"
+
+msgid "Secret id is empty (Derivative)"
+msgstr "비밀 ID가 비어 있음(파생)"
+
+msgid "Password is empty (Derivative)"
+msgstr "암호가 비어 있음(파생)"
+
 msgid "Margin requirements"
 msgstr "마진 요구 사항"
 
 msgid "Fees"
 msgstr "수수료"
-
-msgid "Session info"
-msgstr "세션 정보"
 
 msgid "Today results"
 msgstr "오늘 결과"
@@ -5673,6 +6075,9 @@ msgstr "긴 스왑 포인트"
 msgid "Short swap points"
 msgstr "짧은 스왑 포인트"
 
+msgid "Commission"
+msgstr "수수료"
+
 msgid "Crypto"
 msgstr "암호"
 
@@ -5705,9 +6110,6 @@ msgstr "사용한 증거금"
 
 msgid "Margin currently used for the Account"
 msgstr "계정에 현재 사용 된 여백"
-
-msgid "Margin available"
-msgstr "사용 가능한 여백"
 
 msgid "Margin available for the Account"
 msgstr "계정에서 사용할 수있는 증거금"
@@ -5797,6 +6199,9 @@ msgstr "선형"
 msgid "Inverse"
 msgstr "역"
 
+msgid "Simple"
+msgstr "단순"
+
 msgid "Single currency margin"
 msgstr "단일 통화 마진"
 
@@ -5856,9 +6261,6 @@ msgstr "인출 기록 받기"
 
 msgid "Account level"
 msgstr "계정 수준"
-
-msgid "Position mode"
-msgstr "위치 모드"
 
 msgid "Display type of Greeks"
 msgstr "그리스의 디스플레이 유형"
@@ -6072,6 +6474,9 @@ msgstr "연산자 비교"
 
 msgid "Compare price type"
 msgstr "가격 유형 비교"
+
+msgid "Enable 'Market by Order' (MBO) mode"
+msgstr "'주문별 마켓'(MBO) 모드 활성화"
 
 msgid "Single point value"
 msgstr "단일 점 값"
@@ -6322,6 +6727,45 @@ msgstr "초기화 무역 소켓..."
 msgid "CashMarginAvailable"
 msgstr "캐시마진 사용 가능"
 
+msgid "AdhocMargin"
+msgstr "애드혹마진"
+
+msgid "NotinalCash"
+msgstr "NotinalCash"
+
+msgid "PayInAmount"
+msgstr "지급액"
+
+msgid "PayOutAmount"
+msgstr "지불금 금액"
+
+msgid "CNCSellBenifit"
+msgstr "CNCSellBenifit"
+
+msgid "DirectCollateral"
+msgstr "직접 담보"
+
+msgid "HoldingCollateral"
+msgstr "보유담보"
+
+msgid "ClientBranchAdhoc"
+msgstr "ClientBranchAdhoc"
+
+msgid "SellOptionsPremium"
+msgstr "셀옵션프리미엄"
+
+msgid "TotalBranchAdhoc"
+msgstr "TotalBranchAdhoc"
+
+msgid "AdhocFOMargin"
+msgstr "AdhocFOMargin"
+
+msgid "AdhocCurrencyMargin"
+msgstr "AdhocCurrencyMargin"
+
+msgid "AdhocCommodityMargin"
+msgstr "AdhocCommodityMargin"
+
 msgid "MTM"
 msgstr "Mtm"
 
@@ -6525,9 +6969,6 @@ msgstr "정보"
 
 msgid "Refresh all data was requested."
 msgstr "모든 데이터를 새로 고치기 위해 요청되었습니다."
-
-msgid "History"
-msgstr "역사"
 
 msgid "Market data app key"
 msgstr "시장 데이터 앱 키"
@@ -6807,6 +7248,21 @@ msgstr "미실현 순 P/L"
 
 msgid "Realized P/L"
 msgstr "실현이익"
+
+msgid "Swaps"
+msgstr "스왑"
+
+msgid "Fee per 1 lot per round"
+msgstr "라운드 당 1 로트 당 수수료"
+
+msgid "Fee per 1 lot per side"
+msgstr "측면 당 1 로트 당 수수료"
+
+msgid "Fee per round"
+msgstr "라운드당 수수료"
+
+msgid "Fee per side"
+msgstr "측당 수수료"
 
 msgid "Classification"
 msgstr "분류"

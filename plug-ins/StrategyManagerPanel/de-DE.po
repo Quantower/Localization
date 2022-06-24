@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-02 11:28+0200\n"
+"POT-Creation-Date: 2022-06-24 18:02+0300\n"
 "PO-Revision-Date: 2021-07-28 16:08+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -97,6 +97,9 @@ msgstr "Status von Wiederherstellungsstrategien nach dem Herunterfahren"
 msgid "General"
 msgstr "Allgemein"
 
+msgid "Are you sure you want to delete all selected strategies?"
+msgstr "Sind Sie sicher, dass Sie alle ausgewählten Strategien löschen möchten?"
+
 msgid "No running strategies yet"
 msgstr "Noch keine Laufstrategien"
 
@@ -115,6 +118,9 @@ msgstr "Alle starten"
 msgid "Stop all"
 msgstr "Alle stoppen"
 
+msgid "Update all"
+msgstr "Alle aktualisieren"
+
 msgid "View"
 msgstr "ansehen"
 
@@ -124,6 +130,12 @@ msgstr "Strategie hinzufügen"
 msgid "Remove selected"
 msgstr "Ausgewählte entfernen"
 
+msgid "Run selected"
+msgstr "Ausgewählte ausführen"
+
+msgid "Stop selected"
+msgstr "Ausgewählte Stopps"
+
 msgid "Strategy settings"
 msgstr "Strategieeinstellungen"
 
@@ -132,6 +144,9 @@ msgstr "Alle ausführen"
 
 msgid "Stop All"
 msgstr "Alle stoppen"
+
+msgid "Update All"
+msgstr "Alle aktualisieren"
 
 msgid "Backtest strategy"
 msgstr "Backtest-Strategie"
@@ -160,6 +175,10 @@ msgstr "Metriken anzeigen"
 msgid "Show logs"
 msgstr "Protokolle anzeigen"
 
+#, csharp-format
+msgid "Are you sure you want to delete '{0}' script?"
+msgstr "Möchten Sie das Skript \"{0}\" wirklich löschen?"
+
 msgid "Save strategy template"
 msgstr "Strategievorlage speichern"
 
@@ -180,7 +199,3 @@ msgstr "Protokolliert Tabelleneinstellungen"
 
 msgid "settings"
 msgstr "Einstellungen"
-
-#, csharp-format
-msgid "Are you sure you want to delete '{0}' script?"
-msgstr "Möchten Sie das Skript \"{0}\" wirklich löschen?"

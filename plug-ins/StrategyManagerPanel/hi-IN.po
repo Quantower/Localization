@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-02 11:28+0200\n"
+"POT-Creation-Date: 2022-06-24 18:02+0300\n"
 "PO-Revision-Date: 2021-07-28 16:21+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -97,6 +97,9 @@ msgstr "शटडाउन के बाद रणनीतियाँ स्�
 msgid "General"
 msgstr "सामान्य"
 
+msgid "Are you sure you want to delete all selected strategies?"
+msgstr "क्या आप वाकई सभी चयनित रणनीतियों को हटाना चाहते हैं?"
+
 msgid "No running strategies yet"
 msgstr "अभी तक कोई चल रही रणनीति नहीं"
 
@@ -115,6 +118,9 @@ msgstr "सभी शुरू करें"
 msgid "Stop all"
 msgstr "सभी बंद करो"
 
+msgid "Update all"
+msgstr "सभी अद्यतन करें"
+
 msgid "View"
 msgstr "देखना"
 
@@ -124,6 +130,12 @@ msgstr "रणनीति जोड़ें"
 msgid "Remove selected"
 msgstr "चयनित निकालें"
 
+msgid "Run selected"
+msgstr "चयनित चलाएँ"
+
+msgid "Stop selected"
+msgstr "चयनित रोकें"
+
 msgid "Strategy settings"
 msgstr "रणनीति सेटिंग्स"
 
@@ -132,6 +144,9 @@ msgstr "सभी भागो"
 
 msgid "Stop All"
 msgstr "सभी बंद करो"
+
+msgid "Update All"
+msgstr "सभी अद्यतन करें"
 
 msgid "Backtest strategy"
 msgstr "Backtest रणनीति"
@@ -160,6 +175,10 @@ msgstr "मेट्रिक दिखाएं"
 msgid "Show logs"
 msgstr "लॉग दिखाएं"
 
+#, csharp-format
+msgid "Are you sure you want to delete '{0}' script?"
+msgstr "क्या आप सुनिश्चित हैं कि आप '{0}' स्क्रिप्ट को हटाना चाहते हैं?"
+
 msgid "Save strategy template"
 msgstr "रणनीति टेम्पलेट को सहेजें"
 
@@ -180,7 +199,3 @@ msgstr "लॉग टेबल सेटिंग्स"
 
 msgid "settings"
 msgstr "सेटिंग्स"
-
-#, csharp-format
-msgid "Are you sure you want to delete '{0}' script?"
-msgstr "क्या आप सुनिश्चित हैं कि आप '{0}' स्क्रिप्ट को हटाना चाहते हैं?"

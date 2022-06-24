@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-02-02 01:09+0200\n"
+"POT-Creation-Date: 2022-06-24 16:55+0300\n"
 "PO-Revision-Date: 2018-12-04 15:09+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -424,6 +424,33 @@ msgstr "نافذة المعلومات"
 msgid "Volume bars"
 msgstr "حجم الأشرطة"
 
+msgid "Set period (tick)"
+msgstr "تعيين الفترة (علامة)"
+
+msgid "Set period (1m)"
+msgstr "ضبط الفترة (1 م)"
+
+msgid "Set period (5m)"
+msgstr "ضبط الفترة (5 م)"
+
+msgid "Set period (15m)"
+msgstr "ضبط الفترة (15 م)"
+
+msgid "Set period (30m)"
+msgstr "ضبط الفترة (30 م)"
+
+msgid "Set period (1H)"
+msgstr "تعيين الفترة (1H)"
+
+msgid "Set period (4H)"
+msgstr "تعيين الفترة (4H)"
+
+msgid "Set period (1D)"
+msgstr "ضبط الفترة (1 د)"
+
+msgid "Set period (1W)"
+msgstr "ضبط الفترة (1 وات)"
+
 msgid "Draw horizontal line"
 msgstr "ارسم خطًا أفقيًا"
 
@@ -640,41 +667,14 @@ msgstr "إظهار كافة كائنات المخطط"
 msgid "Hide all chart objects"
 msgstr "إخفاء كافة كائنات المخطط"
 
-msgid "Set period (Tick)"
-msgstr "ضبط الفترة (حركة السعر)"
-
-msgid "Set period (1m)"
-msgstr "ضبط الفترة (1 م)"
-
-msgid "Set period (5m)"
-msgstr "ضبط الفترة (5 م)"
-
-msgid "Set period (15m)"
-msgstr "ضبط الفترة (15 م)"
-
-msgid "Set period (30m)"
-msgstr "ضبط الفترة (30 م)"
-
-msgid "Set period (1H)"
-msgstr "تعيين الفترة (1H)"
-
-msgid "Set period (4H)"
-msgstr "تعيين الفترة (4H)"
-
-msgid "Set period (1D)"
-msgstr "ضبط الفترة (1 د)"
-
-msgid "Set period (1W)"
-msgstr "ضبط الفترة (1 وات)"
-
 msgid "Zoom in"
 msgstr "تكبير"
 
 msgid "Zoom out"
 msgstr "تصغير"
 
-msgid "Add indicator"
-msgstr "إضافة مؤشر"
+msgid "Open Indicators Lookup"
+msgstr "البحث عن المؤشرات المفتوحة"
 
 msgid "Bar by bar moving"
 msgstr "شريط بواسطة شريط تتحرك"
@@ -712,15 +712,6 @@ msgstr "تمكين توسيط تلقائي"
 msgid "Switch info window mode"
 msgstr "تبديل وضع نافذة المعلومات"
 
-msgid "Combined"
-msgstr "مجتمعه"
-
-msgid "Overlay"
-msgstr "التراكب"
-
-msgid "Mirror"
-msgstr "مرآة"
-
 msgid "Show Order Book"
 msgstr "إظهار دفتر الطلبات"
 
@@ -750,6 +741,9 @@ msgstr "اللون الأخير"
 
 msgid "Drawings library"
 msgstr "مكتبة الرسومات"
+
+msgid "Add indicator"
+msgstr "إضافة مؤشر"
 
 msgid "Add overlay"
 msgstr "إضافة تراكب"
