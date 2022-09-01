@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 16:53+0300\n"
+"POT-Creation-Date: 2022-09-01 17:38+0300\n"
 "PO-Revision-Date: 2022-02-02 01:01+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -52,6 +52,9 @@ msgstr "目標値の終了日"
 msgid "Iterations count"
 msgstr "イテレーション数"
 
+msgid "Initial balance"
+msgstr "初期残高"
+
 msgid "Backtest id"
 msgstr "バックテスト ID"
 
@@ -94,17 +97,20 @@ msgstr "再生を開始"
 msgid "Backtest & Optimize (Beta)"
 msgstr "Backtest & Optimize (Beta) シングル"
 
+msgid "Add live strategy with same parameters"
+msgstr "同じパラメータを使用してライブ戦略を追加"
+
 msgid "Apply environment settings"
 msgstr "環境設定の適用"
 
 msgid "Apply strategy settings"
 msgstr "戦略設定の適用"
 
-msgid "Add live strategy with same parameters"
-msgstr "同じパラメータを使用してライブ戦略を追加"
-
 msgid "Remove all"
 msgstr "すべて削除する"
+
+msgid "Are you sure you want to remove all backtesting results?"
+msgstr "バックテストの結果をすべて削除してもよろしいですか?"
 
 msgid "No backtest results yet"
 msgstr "バックテスト結果はまだありません"
@@ -118,5 +124,11 @@ msgstr "選択したバックテスト結果のメトリック"
 msgid "Logs for selected backtest result"
 msgstr "選択したバックテスト結果のログ"
 
+msgid "Max logs count"
+msgstr "最大ログ数"
+
 msgid "Optimization process has been stopped, because strategy script has been modified."
 msgstr "ストラテジースクリプトが変更されたため、最適化プロセスは停止されました。"
+
+msgid "Are you sure you want to remove this backtesting result?"
+msgstr "このバックテスト結果を削除してもよろしいですか?"

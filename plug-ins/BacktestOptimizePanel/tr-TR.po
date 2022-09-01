@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 16:53+0300\n"
+"POT-Creation-Date: 2022-09-01 17:38+0300\n"
 "PO-Revision-Date: 2022-02-02 01:01+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -52,6 +52,9 @@ msgstr "Hedef değeri bitir"
 msgid "Iterations count"
 msgstr "Yineleme sayısı"
 
+msgid "Initial balance"
+msgstr "Başlangıç bakiyesi"
+
 msgid "Backtest id"
 msgstr "Backtest kimliği"
 
@@ -94,17 +97,20 @@ msgstr "Yeniden yürütmeye başla"
 msgid "Backtest & Optimize (Beta)"
 msgstr "Backtest & Optimize (Beta)"
 
+msgid "Add live strategy with same parameters"
+msgstr "Aynı parametrelerle canlı strateji ekleme"
+
 msgid "Apply environment settings"
 msgstr "Ortam ayarlarını uygulama"
 
 msgid "Apply strategy settings"
 msgstr "Strateji ayarlarını uygulama"
 
-msgid "Add live strategy with same parameters"
-msgstr "Aynı parametrelerle canlı strateji ekleme"
-
 msgid "Remove all"
 msgstr "Tümünü sil"
+
+msgid "Are you sure you want to remove all backtesting results?"
+msgstr "Tüm geri test sonuçlarını kaldırmak istediğinizden emin misiniz?"
 
 msgid "No backtest results yet"
 msgstr "Henüz geri test sonucu yok"
@@ -118,5 +124,11 @@ msgstr "Seçili geri test sonucu için ölçümler"
 msgid "Logs for selected backtest result"
 msgstr "Seçili geri test sonucu için günlükler"
 
+msgid "Max logs count"
+msgstr "Maksimum günlük sayısı"
+
 msgid "Optimization process has been stopped, because strategy script has been modified."
 msgstr "Strateji komut dosyası değiştirildiğinden en iyi duruma getirme işlemi durduruldu."
+
+msgid "Are you sure you want to remove this backtesting result?"
+msgstr "Bu geri test sonucunu kaldırmak istediğinizden emin misiniz?"

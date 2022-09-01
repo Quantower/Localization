@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 16:53+0300\n"
+"POT-Creation-Date: 2022-09-01 17:38+0300\n"
 "PO-Revision-Date: 2022-06-24 16:54+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: th-TH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Chart"
 msgstr "แผนภูมิ"
@@ -51,6 +51,9 @@ msgstr "เสร็จสิ้นค่าเป้าหมาย"
 
 msgid "Iterations count"
 msgstr "จํานวนการทําซ้ํา"
+
+msgid "Initial balance"
+msgstr "ยอดเงินเริ่มต้น"
 
 msgid "Backtest id"
 msgstr "รหัสการทดสอบย้อนหลัง"
@@ -94,17 +97,20 @@ msgstr "เริ่มเล่นซ้ําจาก"
 msgid "Backtest & Optimize (Beta)"
 msgstr "การทดสอบย้อนหลัง & เพิ่มประสิทธิภาพ (เบต้า)"
 
+msgid "Add live strategy with same parameters"
+msgstr "เพิ่มกลยุทธ์แบบสดด้วยพารามิเตอร์เดียวกัน"
+
 msgid "Apply environment settings"
 msgstr "ใช้การตั้งค่าสภาพแวดล้อม"
 
 msgid "Apply strategy settings"
 msgstr "ใช้การตั้งค่ากลยุทธ์"
 
-msgid "Add live strategy with same parameters"
-msgstr "เพิ่มกลยุทธ์แบบสดด้วยพารามิเตอร์เดียวกัน"
-
 msgid "Remove all"
 msgstr "ลบทั้งหมด"
+
+msgid "Are you sure you want to remove all backtesting results?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบผลลัพธ์การทดสอบย้อนหลังทั้งหมด"
 
 msgid "No backtest results yet"
 msgstr "ยังไม่มีผลการทดสอบย้อนหลัง"
@@ -118,5 +124,11 @@ msgstr "เมตริกสําหรับผลการทดสอบย
 msgid "Logs for selected backtest result"
 msgstr "บันทึกสําหรับผลการทดสอบย้อนหลังที่เลือก"
 
+msgid "Max logs count"
+msgstr "จํานวนบันทึกสูงสุด"
+
 msgid "Optimization process has been stopped, because strategy script has been modified."
 msgstr "กระบวนการเพิ่มประสิทธิภาพถูกหยุดลง เนื่องจากมีการปรับเปลี่ยนสคริปต์กลยุทธ์"
+
+msgid "Are you sure you want to remove this backtesting result?"
+msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องการลบผลการทดสอบย้อนหลังนี้ออก"

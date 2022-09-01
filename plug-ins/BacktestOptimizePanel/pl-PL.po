@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 16:53+0300\n"
+"POT-Creation-Date: 2022-09-01 17:38+0300\n"
 "PO-Revision-Date: 2022-02-02 01:05+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -52,6 +52,9 @@ msgstr "Zakończ wartość docelową"
 msgid "Iterations count"
 msgstr "Liczba iteracji"
 
+msgid "Initial balance"
+msgstr "Saldo początkowe"
+
 msgid "Backtest id"
 msgstr "Identyfikator testu wstecznego"
 
@@ -94,17 +97,20 @@ msgstr "Rozpocznij odtwarzanie od"
 msgid "Backtest & Optimize (Beta)"
 msgstr "Backtest & Optimize (Beta)"
 
+msgid "Add live strategy with same parameters"
+msgstr "Dodaj strategię na żywo z tymi samymi parametrami"
+
 msgid "Apply environment settings"
 msgstr "Stosowanie ustawień środowiska"
 
 msgid "Apply strategy settings"
 msgstr "Stosowanie ustawień strategii"
 
-msgid "Add live strategy with same parameters"
-msgstr "Dodaj strategię na żywo z tymi samymi parametrami"
-
 msgid "Remove all"
 msgstr "Usuń wszystko"
+
+msgid "Are you sure you want to remove all backtesting results?"
+msgstr "Czy na pewno chcesz usunąć wszystkie wyniki testów historycznych?"
 
 msgid "No backtest results yet"
 msgstr "Brak jeszcze wyników testów historycznych"
@@ -118,5 +124,11 @@ msgstr "Metryki dla wybranego wyniku testu wstecznego"
 msgid "Logs for selected backtest result"
 msgstr "Dzienniki dla wybranego wyniku testu wstecznego"
 
+msgid "Max logs count"
+msgstr "Maksymalna liczba dzienników"
+
 msgid "Optimization process has been stopped, because strategy script has been modified."
 msgstr "Proces optymalizacji został zatrzymany, ponieważ zmodyfikowano skrypt strategii."
+
+msgid "Are you sure you want to remove this backtesting result?"
+msgstr "Czy na pewno chcesz usunąć ten wynik testu wstecznego?"

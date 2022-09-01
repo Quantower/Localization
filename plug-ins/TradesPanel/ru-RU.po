@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 18:13+0300\n"
+"POT-Creation-Date: 2022-09-01 18:13+0300\n"
 "PO-Revision-Date: 2018-12-04 15:52+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -39,6 +39,9 @@ msgstr "Вы действительно хотите экспортироват�
 
 msgid "Loading trades..."
 msgstr "Загрузка сделок..."
+
+msgid "Total amount of trades ({trades.Count}) is more than current limit for Trades panel ({this.table.RowsLimit}). Only first {this.table.RowsLimit} trades will be displayed."
+msgstr "Общее количество сделок ({trades. Count}) превышает текущее ограничение для панели «Сделки» ({this.table.RowsLimit}). Будут отображаться только первые сделки {this.table.RowsLimit}."
 
 msgid "Account"
 msgstr "Счет"

@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 18:13+0300\n"
+"POT-Creation-Date: 2022-09-01 18:13+0300\n"
 "PO-Revision-Date: 2022-06-24 18:14+0300\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
 "Language: th-TH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Trades"
 msgstr "ค้า"
@@ -39,6 +39,9 @@ msgstr "คุณต้องการส่งออกการซื้อข
 
 msgid "Loading trades..."
 msgstr "กําลังโหลดการเทรด..."
+
+msgid "Total amount of trades ({trades.Count}) is more than current limit for Trades panel ({this.table.RowsLimit}). Only first {this.table.RowsLimit} trades will be displayed."
+msgstr "จํานวนการเทรดทั้งหมด ({การซื้อขาย) Count}) มากกว่าขีดจํากัดปัจจุบันสําหรับแผงการซื้อขาย ({this.table.RowsLimit}) เฉพาะการซื้อขาย {this.table.rowsLimit} ครั้งแรกเท่านั้นที่จะแสดงขึ้น"
 
 msgid "Account"
 msgstr "บัญชี"

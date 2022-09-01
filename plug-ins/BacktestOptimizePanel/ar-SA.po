@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 16:53+0300\n"
+"POT-Creation-Date: 2022-09-01 17:38+0300\n"
 "PO-Revision-Date: 2022-02-02 01:04+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -52,6 +52,9 @@ msgstr "إنهاء قيمة الهدف"
 msgid "Iterations count"
 msgstr "عدد التكرارات"
 
+msgid "Initial balance"
+msgstr "الرصيد الأولي"
+
 msgid "Backtest id"
 msgstr "معرف الاختبار الخلفي"
 
@@ -94,17 +97,20 @@ msgstr "بدء الإعادة من"
 msgid "Backtest & Optimize (Beta)"
 msgstr "Backtest & Optimize (بيتا)"
 
+msgid "Add live strategy with same parameters"
+msgstr "إضافة إستراتيجية مباشرة بنفس المعلمات"
+
 msgid "Apply environment settings"
 msgstr "تطبيق إعدادات البيئة"
 
 msgid "Apply strategy settings"
 msgstr "تطبيق إعدادات الاستراتيجية"
 
-msgid "Add live strategy with same parameters"
-msgstr "إضافة إستراتيجية مباشرة بنفس المعلمات"
-
 msgid "Remove all"
 msgstr "حذف الكل"
+
+msgid "Are you sure you want to remove all backtesting results?"
+msgstr "هل أنت متأكد من أنك تريد إزالة جميع نتائج الاختبار الخلفي؟"
 
 msgid "No backtest results yet"
 msgstr "لا نتائج اختبار الظهر حتى الآن"
@@ -118,5 +124,11 @@ msgstr "مقاييس نتيجة الاختبار الخلفي المحددة"
 msgid "Logs for selected backtest result"
 msgstr "سجلات نتيجة الاختبار الخلفي المحددة"
 
+msgid "Max logs count"
+msgstr "الحد الأقصى لعدد السجلات"
+
 msgid "Optimization process has been stopped, because strategy script has been modified."
 msgstr "تم إيقاف عملية التحسين، لأنه تم تعديل برنامج نصي الاستراتيجية."
+
+msgid "Are you sure you want to remove this backtesting result?"
+msgstr "هل أنت متأكد من أنك تريد إزالة نتيجة الاختبار الخلفي هذه؟"

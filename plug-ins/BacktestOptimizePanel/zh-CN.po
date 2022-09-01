@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 16:53+0300\n"
+"POT-Creation-Date: 2022-09-01 17:38+0300\n"
 "PO-Revision-Date: 2022-02-02 01:03+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -52,6 +52,9 @@ msgstr "完成目标值"
 msgid "Iterations count"
 msgstr "迭代计数"
 
+msgid "Initial balance"
+msgstr "初始余额"
+
 msgid "Backtest id"
 msgstr "回溯测试 ID"
 
@@ -94,17 +97,20 @@ msgstr "开始重播自"
 msgid "Backtest & Optimize (Beta)"
 msgstr "Backtest & Optimize （Beta）"
 
+msgid "Add live strategy with same parameters"
+msgstr "添加具有相同参数的实时策略"
+
 msgid "Apply environment settings"
 msgstr "应用环境设置"
 
 msgid "Apply strategy settings"
 msgstr "应用策略设置"
 
-msgid "Add live strategy with same parameters"
-msgstr "添加具有相同参数的实时策略"
-
 msgid "Remove all"
 msgstr "全部删除"
+
+msgid "Are you sure you want to remove all backtesting results?"
+msgstr "是否确实要删除所有回溯测试结果？"
 
 msgid "No backtest results yet"
 msgstr "尚无回溯测试结果"
@@ -118,5 +124,11 @@ msgstr "所选回溯测试结果的指标"
 msgid "Logs for selected backtest result"
 msgstr "所选回溯测试结果的日志"
 
+msgid "Max logs count"
+msgstr "最大日志计数"
+
 msgid "Optimization process has been stopped, because strategy script has been modified."
 msgstr "优化过程已停止，因为策略脚本已被修改。"
+
+msgid "Are you sure you want to remove this backtesting result?"
+msgstr "是否确实要删除此回溯测试结果？"

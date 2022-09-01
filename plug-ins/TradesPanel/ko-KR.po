@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 18:13+0300\n"
+"POT-Creation-Date: 2022-09-01 18:13+0300\n"
 "PO-Revision-Date: 2018-12-04 15:52+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -39,6 +39,9 @@ msgstr "당신은 정말 거래 저널에 거래를 수출 하시겠습니까?"
 
 msgid "Loading trades..."
 msgstr "로딩 거래..."
+
+msgid "Total amount of trades ({trades.Count}) is more than current limit for Trades panel ({this.table.RowsLimit}). Only first {this.table.RowsLimit} trades will be displayed."
+msgstr "총 거래 금액 ({거래. Count})는 거래 패널({this.table.RowsLimit})의 현재 한도보다 큽니다. 첫 번째 {this.table.RowsLimit} 거래만 표시됩니다."
 
 msgid "Account"
 msgstr "계정"

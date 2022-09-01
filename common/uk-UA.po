@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 14:15+0300\n"
+"POT-Creation-Date: 2022-09-01 17:27+0300\n"
 "PO-Revision-Date: 2018-12-04 16:03+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -610,6 +610,24 @@ msgstr "Вся позиція"
 msgid "Closing quantity"
 msgstr "Кількість закриття"
 
+msgid "Ticks"
+msgstr "Тіки"
+
+msgid "Orders count"
+msgstr "Кількість замовлень"
+
+msgid "Price step measurement"
+msgstr "Вимірювання кроку ціни"
+
+msgid "Price step"
+msgstr "крок ціни"
+
+msgid "Place SL"
+msgstr "Місце SL"
+
+msgid "SL price"
+msgstr "Ціна СЛ"
+
 msgid "Release time"
 msgstr "Release time"
 
@@ -842,6 +860,12 @@ msgstr "Різне"
 msgid "Hidden"
 msgstr "Приховані"
 
+msgid "Right"
+msgstr "Праворуч"
+
+msgid "Left"
+msgstr "Ліворуч"
+
 msgid "Hotkeys"
 msgstr "Гарячі клавіши"
 
@@ -947,6 +971,12 @@ msgstr "Масштабування ціни"
 msgid "Show price marker"
 msgstr "Показати маркер ціни"
 
+msgid "panel.PerformanceInfoCtrl.chartPnL.Return"
+msgstr "Панелі. PerformanceInfoCtrl.chartPnL.Return"
+
+msgid "panel.PerformanceInfoCtrl.chartPnL.Volume"
+msgstr "Панелі. PerformanceInfoCtrl.chartPnL.Volume"
+
 msgid "Over chart"
 msgstr "Над графіком"
 
@@ -962,6 +992,9 @@ msgstr "Створити дод. вікно"
 
 msgid "Position on chart"
 msgstr "Позиція на графіку"
+
+msgid "Allow fit auto"
+msgstr "Дозволити підгонку авто"
 
 msgid "Bar"
 msgstr "Бар"
@@ -999,9 +1032,6 @@ msgstr "Зміна, %"
 msgid "Ch"
 msgstr "Зм"
 
-msgid "Ticks"
-msgstr "Тіки"
-
 msgid "Tk"
 msgstr "Т"
 
@@ -1037,6 +1067,15 @@ msgstr "Окреме вікно"
 
 msgid "Display mode"
 msgstr "Режим відображення"
+
+msgid "property.VisibilitySeparatorGroup"
+msgstr "власність. ВидимістьСепараторГрупа"
+
+msgid "property.ViewSeparatorGroup"
+msgstr "власність. ViewSeparatorGroup"
+
+msgid "property.ColorsSeparatorGroup"
+msgstr "власність. КольориСепараторГрупа"
 
 msgid "Info window"
 msgstr "Інфо-вікно"
@@ -1088,6 +1127,9 @@ msgstr "Підігнати під ордери/позиції"
 
 msgid "Fit drawings"
 msgstr "Підігнати під малюнки"
+
+msgid "Fit VWAP"
+msgstr "Підходить для VWAP"
 
 msgid "Relative"
 msgstr "Відносна"
@@ -1454,14 +1496,23 @@ msgstr "Колір області"
 msgid "Highlight area color"
 msgstr "Колір області виділення"
 
-msgid "Show Market depth"
-msgstr "Показати Стакан ордерів"
+msgid "Sidebar view mode"
+msgstr "Режим перегляду бічної панелі"
 
 msgid "Coloring style"
 msgstr "Стиль фарбування"
 
 msgid "Level2 level count"
 msgstr "Кількість рівнів Level2"
+
+msgid "Full"
+msgstr "Повний"
+
+msgid "Table result"
+msgstr "Результат таблиці"
+
+msgid "Market depth"
+msgstr "Стакан"
 
 msgid "Custom step (ticks)"
 msgstr "Свій крок (тіки)"
@@ -1584,14 +1635,14 @@ msgstr "Агрегація об'єму не підтримує Гістогра�
 msgid "Height of histogram, %"
 msgstr "Висота гістограми, %"
 
-msgid "Value label"
-msgstr "Підпис значення"
+msgid "Delta visual mode"
+msgstr "Дельта-візуальний режим"
 
-msgid "Volume color"
-msgstr "Колір об'єму"
+msgid "Mirror"
+msgstr "Дзеркало"
 
-msgid "Trades color"
-msgstr "Колір угод"
+msgid "Standard"
+msgstr "Стандарт"
 
 msgid "Volume aggregation does not support Cluster chart"
 msgstr "Агрегація обсягу не підтримує Кластерний графік"
@@ -1630,8 +1681,14 @@ msgstr "Тип даних #1"
 msgid "Data type #2"
 msgstr "Тип даних #2"
 
+msgid "Aggregate profiles on chart price scaling"
+msgstr "Агрегування профілів на діаграмі масштабування цін"
+
 msgid "Cluster visualization"
 msgstr "Візуалізація кластера"
+
+msgid "Value label"
+msgstr "Підпис значення"
 
 msgid "Show POC"
 msgstr "Показати POC"
@@ -1651,6 +1708,108 @@ msgstr "Година"
 msgid "Enabled"
 msgstr "Увімкнено"
 
+msgid "Trades"
+msgstr "Угоди"
+
+msgid "Buy trades"
+msgstr "Купити торги"
+
+msgid "Sell trades"
+msgstr "Продати торги"
+
+msgid "Buy volume"
+msgstr "Купити обсяг"
+
+msgid "Up ticks"
+msgstr "Вгору кліщі"
+
+msgid "Buy volume, %"
+msgstr "Обсяг покупки, %"
+
+msgid "Up ticks, %"
+msgstr "До кліщів, %"
+
+msgid "Sell volume"
+msgstr "Обсяг продажу"
+
+msgid "Down ticks"
+msgstr "Пухові кліщі"
+
+msgid "Sell volume, %"
+msgstr "Обсяг продажу, %"
+
+msgid "Down ticks, %"
+msgstr "Пух кліщів, %"
+
+msgid "Buy/Sell volume"
+msgstr "Обсяг купівлі/продажу"
+
+msgid "Up/Down ticks"
+msgstr "Кліщі вгору/вниз"
+
+msgid "Delta"
+msgstr "Дельта"
+
+msgid "Delta ticks"
+msgstr "Дельта-кліщі"
+
+msgid "Delta, %"
+msgstr "Дельта, %"
+
+msgid "Delta ticks, %"
+msgstr "Дельта-кліщі, %"
+
+msgid "Min delta"
+msgstr "Мінімальна дельта"
+
+msgid "Min delta ticks"
+msgstr "Мін дельта кліщів"
+
+msgid "Max delta"
+msgstr "Максимальна дельта"
+
+msgid "Max delta ticks"
+msgstr "Макс дельта кліщі"
+
+msgid "Cumulative delta"
+msgstr "Кумулятивна дельта"
+
+msgid "Cumulative delta ticks"
+msgstr "Кумулятивні дельта-кліщі"
+
+msgid "Average size"
+msgstr "Середній розмір"
+
+msgid "Average buy size"
+msgstr "Середній розмір покупки"
+
+msgid "Average sell size"
+msgstr "Середній розмір продажу"
+
+msgid "Max one trade Vol."
+msgstr "Макс один торговий Вол."
+
+msgid "Max one trade Vol, %"
+msgstr "Max one trade Vol, %"
+
+msgid "Filt. volume"
+msgstr "Фільтр. обсяг"
+
+msgid "Filt. volume, %"
+msgstr "Фільтр. об'єм, %"
+
+msgid "Filt. buy volume"
+msgstr "Фільтр. купити обсяг"
+
+msgid "Filt. buy volume, %"
+msgstr "Фільтр. обсяг купити, %"
+
+msgid "Filt. sell volume"
+msgstr "Фільтр. обсяг продажу"
+
+msgid "Filt. sell volume, %"
+msgstr "Фільтр. обсяг продажу, %"
+
 msgid "Gradient"
 msgstr "Градієнт"
 
@@ -1659,6 +1818,9 @@ msgstr "Фіксована"
 
 msgid "Coloring mode"
 msgstr "Режим фарбування"
+
+msgid "Level value type"
+msgstr "Тип значення рівня"
 
 msgid "Default colors"
 msgstr "Кольори за замовчуванням"
@@ -1681,11 +1843,17 @@ msgstr "Фарбування для позитивних рівнів дельт
 msgid "Coloring for negative levels"
 msgstr "Фарбування для негативних рівнів"
 
+msgid "Percent"
+msgstr "Відсоток"
+
 msgid "Histogram position"
 msgstr "Положення гістограми"
 
 msgid "Histogram label position"
 msgstr "Позиція підпису гістограми"
+
+msgid "Volume color"
+msgstr "Колір об'єму"
 
 msgid "Trade color"
 msgstr "Колір угоди"
@@ -1800,6 +1968,12 @@ msgstr "КУПИТИ"
 
 msgid "SELL"
 msgstr "ПРОДАТИ"
+
+msgid "chart.DateRangeRenderer.UnCollapse"
+msgstr "Діаграми. DateRangeRenderer.UnCollapse"
+
+msgid "chart.DateRangeRenderer.Collapse"
+msgstr "Діаграми. DateRangeRenderer.Collapse"
 
 msgid "Scale marker"
 msgstr "Зачення ціни на шкалі"
@@ -1944,9 +2118,6 @@ msgstr "Показати повну дугу"
 
 msgid "Data format"
 msgstr "Формат даних"
-
-msgid "Percent"
-msgstr "Відсоток"
 
 msgid "Fixed top"
 msgstr "Фіксований вгорі"
@@ -2122,6 +2293,9 @@ msgstr "Верх"
 msgid "Control buttons position"
 msgstr "Розташування кнопок керування"
 
+msgid "Current Week"
+msgstr "Поточний тиждень"
+
 msgid "Current Monday"
 msgstr "Поточний понеділок"
 
@@ -2142,6 +2316,9 @@ msgstr "Поточна субота"
 
 msgid "Current Sunday"
 msgstr "Поточна неділя"
+
+msgid "Last 7 days"
+msgstr "Останні 7 днів"
 
 msgid "Previous Monday"
 msgstr "Попередній понеділок"
@@ -2173,15 +2350,15 @@ msgstr "Чистий прибуток:"
 msgid "Gross:"
 msgstr "Загальний прибуток:"
 
+msgid "Ticks and P/L"
+msgstr "Кліщі і П/л"
+
 #, csharp-format
 msgid "TP price: {0}"
 msgstr "Ціна ТП: {0}"
 
 msgid "Tr.Stop"
 msgstr "Tр. Стоп"
-
-msgid "SL price"
-msgstr "Ціна СЛ"
 
 #, csharp-format
 msgid "{0} TP price: {1}"
@@ -2209,8 +2386,11 @@ msgstr "Порожній символ"
 msgid "Futures"
 msgstr "Ф'ючерси"
 
-msgid "Full"
-msgstr "Повний"
+msgid "chart.ppz.incorrectData"
+msgstr "chart.ppz.incorrectData"
+
+msgid "chart.ppz.noPPZ"
+msgstr "chart.ppz.noPPZ"
 
 msgid "Sup"
 msgstr "Sup"
@@ -2393,6 +2573,9 @@ msgstr "Лінія POC"
 msgid "Week POC line"
 msgstr "Тижнева лінія POC"
 
+msgid "VIP Analysis"
+msgstr "VIP-аналіз"
+
 msgid "Candle"
 msgstr "Свічка"
 
@@ -2419,6 +2602,21 @@ msgstr "Ренко"
 
 msgid "Profile"
 msgstr "Профіль"
+
+msgid "chart.chartWindowManager.clickToExpand.Tooltip"
+msgstr "chart.chartWindowManager.clickToExpand.Tooltip"
+
+msgid "chart.chartWindowManager.clickToCollapse.Tooltip"
+msgstr "chart.chartWindowManager.clickToCollapse.Tooltip"
+
+msgid "chart.chartWindowManager.expandOrResize.Tooltip"
+msgstr "chart.chartWindowManager.expandOrResize.Tooltip"
+
+msgid "chart.chartWindowManager.dragToResize.Tooltip"
+msgstr "chart.chartWindowManager.dragToResize.Tooltip"
+
+msgid "chart.loadingTickData"
+msgstr "chart.loadTickData"
 
 msgid "Keyboard trading is active"
 msgstr "Торгівля клавіатурою активна"
@@ -2705,12 +2903,6 @@ msgstr "Розмір угоди: "
 msgid "Combined"
 msgstr "Комбінований"
 
-msgid "Mirror"
-msgstr "Дзеркало"
-
-msgid "Delta"
-msgstr "Дельта"
-
 msgid "Data gap:"
 msgstr "Розрив даних:"
 
@@ -2740,9 +2932,6 @@ msgstr "Cumulative Sell color"
 
 msgid "Level2"
 msgstr "Level2"
-
-msgid "Trades"
-msgstr "Угоди"
 
 msgid "Show DOM levels"
 msgstr "Показати рівні DOM"
@@ -3116,6 +3305,9 @@ msgstr "Метод фарбування"
 msgid "Table colors"
 msgstr "Кольори таблиці"
 
+msgid "Mouse right click"
+msgstr "Клацніть правою кнопкою миші"
+
 msgid "Cancellation priority"
 msgstr "Пріоритет скасування"
 
@@ -3239,6 +3431,30 @@ msgstr "Розмір угоди Бід"
 msgid "Bid/Ask reset"
 msgstr "Скидання Бід/Аск"
 
+msgid "Item color"
+msgstr "Колір елемента"
+
+msgid "Highlight last trade"
+msgstr "Виділення останньої торгівлі"
+
+msgid "Unchanged item color"
+msgstr "Незмінний колір елемента"
+
+msgid "Unchanged border color"
+msgstr "Незмінний колір межі"
+
+msgid "Up item color"
+msgstr "Збільшення кольору елемента"
+
+msgid "Up border color"
+msgstr "Колір догори межі"
+
+msgid "Down item color"
+msgstr "Колір елемента вниз"
+
+msgid "Down border color"
+msgstr "Колір низхідної межі"
+
 msgid "Last trade size"
 msgstr "Розмір угоди Ласт"
 
@@ -3272,6 +3488,15 @@ msgstr "Колір ордеру"
 msgid "SL/TP color"
 msgstr "Колір СЛ/ТП"
 
+msgid "Set column width... [{(int)this.WidthCoeff} px]"
+msgstr "Установлення ширини стовпця... [{(int)this. WidthCoeff} px]"
+
+msgid "Fit column width to content"
+msgstr "Припасування ширини стовпця до вмісту"
+
+msgid "Fit all columns width to content"
+msgstr "Припасування ширини всіх стовпців до вмісту"
+
 msgid "Column font"
 msgstr "Шрифт стовпця"
 
@@ -3283,6 +3508,12 @@ msgstr "Свої кольори"
 
 msgid "Custom Back Color"
 msgstr "Свій колір фону"
+
+msgid "Width, px"
+msgstr "Ширина, px"
+
+msgid "Minimal width, px (on autofit)"
+msgstr "Мінімальна ширина, px (на автодобірнику)"
 
 msgid "Total value"
 msgstr "Загальне значення"
@@ -3410,6 +3641,15 @@ msgstr "Колір короткого положення"
 msgid "Show day high/low"
 msgstr "Показувати денний макс/мін"
 
+msgid "Calculate High/Low by session"
+msgstr "Обчислення високого/низького за сеансом"
+
+msgid "Default by symbol"
+msgstr "За замовчуванням за символом"
+
+msgid "History type"
+msgstr "Тип історії"
+
 msgid "Day high"
 msgstr "Денний макс."
 
@@ -3427,9 +3667,6 @@ msgstr "Очистити позначені ціни"
 
 msgid "Price marks"
 msgstr "Мітки цін"
-
-msgid "Add mark"
-msgstr "Додати мітку"
 
 msgid "In profit range"
 msgstr "У діапазоні прибутку"
@@ -3463,12 +3700,6 @@ msgstr "Колір Аск"
 
 msgid "Size bar type"
 msgstr "Тип розмірної планки"
-
-msgid "Left"
-msgstr "Ліворуч"
-
-msgid "Right"
-msgstr "Праворуч"
 
 msgid "Histogram Alignment"
 msgstr "Вирівнювання гістограми"
@@ -3524,6 +3755,9 @@ msgstr "Негативна Дельта"
 msgid "Show Last Trade Size"
 msgstr "Показати останній розмір торгівлі"
 
+msgid "Text Alignment"
+msgstr "Вирівнювання тексту"
+
 msgid "Reload data (server)"
 msgstr "Перезавантажити дані (сервер)"
 
@@ -3532,6 +3766,15 @@ msgstr "LIFO"
 
 msgid "FIFO"
 msgstr "FIFO"
+
+msgid "Cancel all"
+msgstr "Скасувати все"
+
+msgid "Cancel first"
+msgstr "Скасувати спочатку"
+
+msgid "Cancel last"
+msgstr "Скасувати останнє"
 
 msgid "By price level"
 msgstr "За рівнем ціни"
@@ -3682,6 +3925,120 @@ msgstr "Додати вибрані символи"
 
 msgid "Data latency"
 msgstr "Затримка даних"
+
+msgid "primaryBGColor"
+msgstr "первиннийБГКолір"
+
+msgid "primaryBorderColor"
+msgstr "первиннийБордерКолор"
+
+msgid "secondaryBGColor"
+msgstr "вториннийБГКолір"
+
+msgid "secondaryBorderColor"
+msgstr "вториннийБордерКолор"
+
+msgid "middleBGColor"
+msgstr "middleBGColor"
+
+msgid "primaryTextColor"
+msgstr "Первинний текстКолір"
+
+msgid "secondaryTextColor"
+msgstr "вториннийТекстКолор"
+
+msgid "activeTextColor"
+msgstr "ActiveTextColor"
+
+msgid "accentTextColor"
+msgstr "AccentTextColor"
+
+msgid "disabledTextColor"
+msgstr "disabledTextColor"
+
+msgid "infoColor"
+msgstr "інфоКолор"
+
+msgid "dangerColor"
+msgstr "небезпекаКольор"
+
+msgid "warningColor"
+msgstr "попередженняКолір"
+
+msgid "successColor"
+msgstr "успіхколір"
+
+msgid "successHoverColor"
+msgstr "успіхАвторколор"
+
+msgid "accentColor"
+msgstr "акцентКолор"
+
+msgid "accentHoverColor"
+msgstr "акцентХортовий колір"
+
+msgid "buyColor"
+msgstr "купитиКолір"
+
+msgid "buyColorHover"
+msgstr "купитиКолірХовер"
+
+msgid "buyColorActive"
+msgstr "купитиКолорАктив"
+
+msgid "sellColor"
+msgstr "ПродатиКолір"
+
+msgid "sellColorHover"
+msgstr "продатиКолірХовер"
+
+msgid "sellColorActive"
+msgstr "SellColorActive"
+
+msgid "statusWarningColor"
+msgstr "статусПеревага кольору"
+
+msgid "statusActiveColor"
+msgstr "СтанАктивнийКолір"
+
+msgid "contextMenuBGColor"
+msgstr "контекстМенуБГКолір"
+
+msgid "contextMenuBGHoverColor"
+msgstr "контекстМенуБГХоверКолір"
+
+msgid "contextMenuTextColor"
+msgstr "контекстМенуТекстКолір"
+
+msgid "contextMenuTextDisabledColor"
+msgstr "contextMenuTextDisabledColor"
+
+msgid "windowBorderExternalColor"
+msgstr "вікноКордонЕкстернальнийкольор"
+
+msgid "windowBorderInternalColor"
+msgstr "вікноКордонінтернатальнийколір"
+
+msgid "windowBGColor"
+msgstr "вікноBGColor"
+
+msgid "windowBorderFocusedColor"
+msgstr "вікноБордерФокусованийкольор"
+
+msgid "link1Color"
+msgstr "посилання1Колір"
+
+msgid "link2Color"
+msgstr "посилання2Колір"
+
+msgid "link3Color"
+msgstr "посилання3Кольор"
+
+msgid "link4Color"
+msgstr "посилання4Колір"
+
+msgid "link5Color"
+msgstr "посилання5Колір"
 
 msgid "'Or'"
 msgstr "'Або'"
@@ -3904,6 +4261,9 @@ msgstr "Відключений"
 msgid "Save password"
 msgstr "Зберегти пароль"
 
+msgid "View password"
+msgstr "Переглянути пароль"
+
 msgid "Recover"
 msgstr "Відновити"
 
@@ -4034,6 +4394,9 @@ msgstr "Використання режиму програмного ренде�
 
 msgid "Hide part of Account name"
 msgstr "Приховати частину імені рахунку"
+
+msgid "Countdown direction"
+msgstr "Напрямок зворотного відліку"
 
 msgid "Symbols to hide"
 msgstr "Скільки символів приховати"
@@ -4380,11 +4743,20 @@ msgstr "Налаштувати режим маржі"
 msgid "Volume analysis step (ticks)"
 msgstr "Крок об'ємного аналізу (тіки)"
 
+msgid "Native (.NET)"
+msgstr "Рідний (.NET)"
+
+msgid "WebSocket4Net"
+msgstr "WebSocket4Net"
+
 msgid "Account custom name"
 msgstr "Своє ім'я рахунку"
 
 msgid "Check orders interval, sec"
 msgstr "Інтервал перевірки замовлень, сек"
+
+msgid "Stream connector library"
+msgstr "Бібліотека з'єднувача потоку"
 
 msgid "Real-time"
 msgstr "У реальному часі"
@@ -4761,89 +5133,14 @@ msgstr "Usdt безстроковий обмін"
 msgid "Load user trades history"
 msgstr "Завантажити історію угод користувача"
 
+msgid "Load user orders history"
+msgstr "Завантаження журналу ордерів користувача"
+
 msgid "Can't find connection type parameters"
 msgstr "Не вдалося знайти параметри типу підключення"
 
 msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
 msgstr "Немає вибраних бірж для підключення. Будь ласка, відкрийте «Налаштування підключення» та виберіть потрібні біржі."
-
-msgid "Conditional limit"
-msgstr "Умовний Ліміт"
-
-msgid "Conditional market"
-msgstr "Умовний Маркет"
-
-msgid "Trailing profit"
-msgstr "Трейлінг-прибуток"
-
-msgid "Min price"
-msgstr "Мінімальна ціна"
-
-msgid "Max leverage"
-msgstr "Макс. кредитне плече"
-
-msgid "Min leverage"
-msgstr "Мін. кредитне плече"
-
-msgid "Leverage step"
-msgstr "Крок кредитного плеча"
-
-msgid "Asset exchange records"
-msgstr "Записи про обмін активами"
-
-msgid "Active orders"
-msgstr "Активні ордери"
-
-msgid "Conditional orders"
-msgstr "Умовні ордери"
-
-msgid "Equity"
-msgstr "Капітал"
-
-msgid "Used margin"
-msgstr "Використана маржа"
-
-msgid "Order margin"
-msgstr "Маржа ордеру"
-
-msgid "Pre-occupied order margin"
-msgstr "Попередньо зайнята маржа ордеру"
-
-msgid "Position margin"
-msgstr "Маржа позиції"
-
-msgid "Position closing fee occupied"
-msgstr "Зайнята комісія за закриття позиції"
-
-msgid "Pre-occupied funding fee"
-msgstr "Плата за попередньо зайняте фінансування"
-
-msgid "Daily realized PnL"
-msgstr "Денний реалізований PnL"
-
-msgid "Daily realized profit and loss"
-msgstr "Денний реалізований прибуток і збиток"
-
-msgid "Daily unrealized PnL"
-msgstr "Денний нереалізований PnL"
-
-msgid "Daily unrealized profit and loss"
-msgstr "Денний нереалізований прибуток і збиток"
-
-msgid "Accumulated realised PnL"
-msgstr "Накопичений реалізований PnL"
-
-msgid "Accumulated realised profit and loss (all-time total)"
-msgstr "Накопичений реалізований прибуток і збиток (підсумок за весь час)"
-
-msgid "Client Id"
-msgstr "ID клієнта"
-
-msgid "Secret Id"
-msgstr "Секретний ID"
-
-msgid "Client id is empty"
-msgstr "ID клієнта пустий"
 
 msgid "Trade user"
 msgstr "Торговий користувач"
@@ -4880,6 +5177,84 @@ msgstr "Потрібно змінити пароль"
 
 msgid "Cedro Market data license is required to use this connection."
 msgstr "Для використання цього підключення потрібна ліцензія даних Cedro Market."
+
+msgid "DAY"
+msgstr "День"
+
+msgid "GTC"
+msgstr "GTC"
+
+msgid "MARKET"
+msgstr "РИНОК"
+
+msgid "LIMIT"
+msgstr "МЕЖА"
+
+msgid "STOP"
+msgstr "ЗУПИНИТИ"
+
+msgid "STOP_LIMIT"
+msgstr "STOP_LIMIT"
+
+msgid "Total equity"
+msgstr "Загальний власний капітал"
+
+msgid "Net liquidity"
+msgstr "Чиста ліквідність"
+
+msgid "The current value of the account, assuming that open positions are closed at their current value."
+msgstr "Поточне значення рахунку за умови закриття відкритих позицій за їх поточним значенням."
+
+msgid "Yesterday's commissions"
+msgstr "Вчорашні комісії"
+
+msgid "Yesterday's commissions for the start of day account balance."
+msgstr "Вчорашні комісії за початок дня залишок на рахунку."
+
+msgid "Yesterday's fees"
+msgstr "Вчорашні збори"
+
+msgid "Yesterday's fees for the start of day account balance."
+msgstr "Вчорашня плата за початок дня залишок на рахунку."
+
+msgid "Open trade equity"
+msgstr "Відкритий торговий капітал"
+
+msgid "the profit and loss due to open futures positions"
+msgstr "прибуток і збиток за рахунок відкритих ф'ючерсних позицій"
+
+msgid "Margin error"
+msgstr "Похибка маржі"
+
+msgid "Initial total margin"
+msgstr "Початкова загальна маржа"
+
+msgid "Maintenance total margin"
+msgstr "Загальна маржа обслуговування"
+
+msgid "Initial risk margin"
+msgstr "Початкова маржа ризику"
+
+msgid "Maintenance risk margin"
+msgstr "Маржа ризику обслуговування"
+
+msgid "Estimated"
+msgstr "За оцінками"
+
+msgid "Yes"
+msgstr "Так"
+
+msgid "No"
+msgstr "Ні"
+
+msgid "As of time"
+msgstr "Станом на час"
+
+msgid "Username"
+msgstr "Користувач"
+
+msgid "Username is empty"
+msgstr "Ім'я користувача пусте"
 
 msgid "Primary"
 msgstr "Основний"
@@ -4946,6 +5321,9 @@ msgstr "MLM"
 
 msgid "POSTONLY"
 msgstr "POSTONLY"
+
+msgid "Request continuation history"
+msgstr "Запросити історію продовження"
 
 msgid "User name is empty."
 msgstr "Ім'я користувача пусте."
@@ -5042,6 +5420,9 @@ msgstr "Загальна маржа"
 
 msgid "Margin requirement calculated for worst-case based on open positions and working orders."
 msgstr "Маржинальна вимога розраховується для найгіршого випадку на основі відкритих позицій та робочих ордерів."
+
+msgid "Position margin"
+msgstr "Маржа позиції"
 
 msgid "Margin requirement based on current positions only."
 msgstr "Маржинальна вимога лише на основі поточних позицій."
@@ -5247,6 +5628,15 @@ msgstr "Лише зменшення"
 msgid "Reduce"
 msgstr "Зменшити"
 
+msgid "Client Id"
+msgstr "ID клієнта"
+
+msgid "Secret Id"
+msgstr "Секретний ID"
+
+msgid "Client id is empty"
+msgstr "ID клієнта пустий"
+
 msgid "Invalid credentials"
 msgstr "Неприпустимі облікові дані"
 
@@ -5267,9 +5657,6 @@ msgstr "Iceberg"
 
 msgid "TWAP"
 msgstr "TWAP"
-
-msgid "GTC"
-msgstr "GTC"
 
 msgid "IOC"
 msgstr "IOC"
@@ -5469,8 +5856,14 @@ msgstr "Токен"
 msgid "Access token is empty."
 msgstr "Токен доступу пустий."
 
+msgid "Equity"
+msgstr "Капітал"
+
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "Сума коштів на рахунку, включаючи прибуток та збитки за всіма відкритими позиціями (плаваючий залишок на рахунку)."
+
+msgid "Used margin"
+msgstr "Використана маржа"
 
 msgid "The amount of funds used to maintain all open positions on the account."
 msgstr "Сума коштів, використовувана підтримки всіх відкритих позицій на рахунку."
@@ -5691,8 +6084,11 @@ msgstr "Coin-M Свопи"
 msgid "USDT-M Swaps"
 msgstr "USDT-M Свопи"
 
-msgid "Load user orders history"
-msgstr "Завантаження журналу ордерів користувача"
+msgid "Spot account custom name"
+msgstr "Вибіркове ім'я облікового запису"
+
+msgid "Derivative account custom name"
+msgstr "Настроюване ім'я похідного рахунку"
 
 msgid "There aren't selected exchanges to connect. Please, choose needed exchanges and try connect again."
 msgstr "Немає вибраних бірж для підключення. Будь ласка, виберіть потрібні біржі та спробуйте підключитися ще раз."
@@ -6439,9 +6835,6 @@ msgstr "Приблизна кількість співробітників"
 msgid "Unknown error while connect"
 msgstr "Невідома помилка під час підключення"
 
-msgid "Username"
-msgstr "Користувач"
-
 msgid "Wmid"
 msgstr "Wmid"
 
@@ -6576,6 +6969,102 @@ msgstr "Макс об'єм ордеру"
 
 msgid "The maximum quantity allowed for any orders."
 msgstr "Максимальна кількість, дозволена для будь-яких ордерів."
+
+msgid "UserType"
+msgstr "Тип користувача"
+
+msgid "FirstName"
+msgstr "Ім'я"
+
+msgid "LastName"
+msgstr "Прізвище"
+
+msgid "Address1"
+msgstr "Адреса1"
+
+msgid "Address2"
+msgstr "Адреса2"
+
+msgid "City"
+msgstr "Місто"
+
+msgid "StateProvinceRegion"
+msgstr "Державнийрегіон"
+
+msgid "PostalCode"
+msgstr "Поштовий індекс"
+
+msgid "ResidencePhone"
+msgstr "Телефон для проживання"
+
+msgid "WorkPhone"
+msgstr "Робочий телефон"
+
+msgid "MobilePhone"
+msgstr "Мобільні телефони"
+
+msgid "FaxPhone"
+msgstr "Факсфон"
+
+msgid "CurrentHistorySessionCount"
+msgstr "ПоточнаІсторіяРозрахунок"
+
+msgid "CurrentMarketDataSessionCount"
+msgstr "Поточний ринокДаніРозрахунок даних"
+
+msgid "CurrentOrdersSessionCount"
+msgstr "ПоточнізамовленняПерерахунок"
+
+msgid "CurrentPnlSessionCount"
+msgstr "Поточний рахунок PpnlSession"
+
+msgid "CurrentRepositorySessionCount"
+msgstr "ПоточнийрепозиторійСциплінка"
+
+msgid "PeakHistorySessionCount"
+msgstr "ПікІсторіяРозрахунок"
+
+msgid "PeakMarketDataSessionCount"
+msgstr "PeakMarketDataSessionCount"
+
+msgid "PeakOrdersSessionCount"
+msgstr "PeakOrdersSessionCount"
+
+msgid "PeakPnlSessionCount"
+msgstr "PeakPnlSessionCount"
+
+msgid "PeakRepositorySessionCount"
+msgstr "PeakRepositorySessionCount"
+
+msgid "MaxHistorySessionCount"
+msgstr "МаксІсторіяРозрахунок"
+
+msgid "MaxMarketDataSessionCount"
+msgstr "MaxMarketDataSessionCount"
+
+msgid "MaxOrdersSessionCount"
+msgstr "MaxOrdersSessionCount"
+
+msgid "MaxPnlSessionCount"
+msgstr "MaxPnlSessionCount"
+
+msgid "MaxRepositorySessionCount"
+msgstr "MaxRepositorySessionCount"
+
+msgid "Auto liquidate"
+msgstr "Авто ліквідувати"
+
+msgid "Auto liquidate criteria"
+msgstr "Критерії автоматичної ліквідації"
+
+msgid "Auto liquidate Max/Min account balance"
+msgstr "Автоматична ліквідація залишку на рахунку Макс/Хв"
+
+msgid "Auto liquidate threshold"
+msgstr "Поріг автоматичної ліквідації"
+
+msgid "Disable on auto liquidate"
+msgstr "Відключення на автолікації"
 
 msgid "Available buying power"
 msgstr "Доступна купівельна спроможність"
@@ -7312,9 +7801,6 @@ msgstr "Коротке значення параметра"
 msgid "Value of short option positions"
 msgstr "Значення коротких позицій опціонів"
 
-msgid "Total equity"
-msgstr "Загальний власний капітал"
-
 msgid "Total account value"
 msgstr "Загальна вартість рахунку"
 
@@ -7431,9 +7917,6 @@ msgstr "Псевдонім"
 
 msgid "Serie"
 msgstr "Серія"
-
-msgid "Username is empty"
-msgstr "Ім'я користувача пусте"
 
 msgid "Xena Listed Perpetuals"
 msgstr "Xena перераховані, що закріплює"

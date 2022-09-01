@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 14:15+0300\n"
+"POT-Creation-Date: 2022-09-01 17:27+0300\n"
 "PO-Revision-Date: 2018-12-04 16:02+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -610,6 +610,24 @@ msgstr "الموضع الكامل"
 msgid "Closing quantity"
 msgstr "كمية الإغلاق"
 
+msgid "Ticks"
+msgstr "حركات الأسعار"
+
+msgid "Orders count"
+msgstr "عدد الأوامر"
+
+msgid "Price step measurement"
+msgstr "قياس خطوة السعر"
+
+msgid "Price step"
+msgstr "خطوة السعر"
+
+msgid "Place SL"
+msgstr "مكان SL"
+
+msgid "SL price"
+msgstr "إيقاف الخسارة"
+
 msgid "Release time"
 msgstr "وقت الإصدار"
 
@@ -842,6 +860,12 @@ msgstr "متفرقات"
 msgid "Hidden"
 msgstr "مخفي"
 
+msgid "Right"
+msgstr "اليمين"
+
+msgid "Left"
+msgstr "اليسار"
+
 msgid "Hotkeys"
 msgstr "الاختصارات"
 
@@ -947,6 +971,12 @@ msgstr "مقياس السعر"
 msgid "Show price marker"
 msgstr "عرض علامة السعر"
 
+msgid "panel.PerformanceInfoCtrl.chartPnL.Return"
+msgstr "خشب. PerformanceInfoCtrl.chartPnL.Return"
+
+msgid "panel.PerformanceInfoCtrl.chartPnL.Volume"
+msgstr "خشب. PerformanceInfoCtrl.chartPnL.Volume"
+
 msgid "Over chart"
 msgstr "فوق الرسم البياني"
 
@@ -962,6 +992,9 @@ msgstr "نافذه فرعيه جديده"
 
 msgid "Position on chart"
 msgstr "الصفقات علي الرسم البياني"
+
+msgid "Allow fit auto"
+msgstr "السماح بملاءمة تلقائية"
 
 msgid "Bar"
 msgstr "شريط"
@@ -999,9 +1032,6 @@ msgstr "التغيّر"
 msgid "Ch"
 msgstr "الفصل"
 
-msgid "Ticks"
-msgstr "حركات الأسعار"
-
 msgid "Tk"
 msgstr "المعارف التقليديه"
 
@@ -1037,6 +1067,15 @@ msgstr "نافذة منفصلة"
 
 msgid "Display mode"
 msgstr "وضع العرض"
+
+msgid "property.VisibilitySeparatorGroup"
+msgstr "مال. الرؤيةفاصل المجموعة"
+
+msgid "property.ViewSeparatorGroup"
+msgstr "مال. فيوفاصل المجموعةالمجموعة"
+
+msgid "property.ColorsSeparatorGroup"
+msgstr "مال. الألوانفاصل المجموعة"
 
 msgid "Info window"
 msgstr "نافذة المعلومات"
@@ -1088,6 +1127,9 @@ msgstr "اظهر الطلبات/الصفقات "
 
 msgid "Fit drawings"
 msgstr "اظهر الرسوم"
+
+msgid "Fit VWAP"
+msgstr "صالح VWAP"
 
 msgid "Relative"
 msgstr "نسبي"
@@ -1454,14 +1496,23 @@ msgstr "لون المنطقة"
 msgid "Highlight area color"
 msgstr "لون منطقه التمييز"
 
-msgid "Show Market depth"
-msgstr "إظهار عمق السوق"
+msgid "Sidebar view mode"
+msgstr "وضع عرض الشريط الجانبي"
 
 msgid "Coloring style"
 msgstr "نمط التلوين"
 
 msgid "Level2 level count"
 msgstr "Level2 مستوي العد"
+
+msgid "Full"
+msgstr "كامل"
+
+msgid "Table result"
+msgstr "نتيجة الجدول"
+
+msgid "Market depth"
+msgstr "عمق السوق"
 
 msgid "Custom step (ticks)"
 msgstr "Custom step (ticks)"
@@ -1584,14 +1635,14 @@ msgstr "لا يعتمد تجميع حجم الصوت الرسم البياني �
 msgid "Height of histogram, %"
 msgstr "ارتفاع الرسم البياني ، ٪"
 
-msgid "Value label"
-msgstr "تسميه القيمة"
+msgid "Delta visual mode"
+msgstr "وضع دلتا المرئي"
 
-msgid "Volume color"
-msgstr "لون السيولة"
+msgid "Mirror"
+msgstr "مرآة"
 
-msgid "Trades color"
-msgstr "لون الصفقات"
+msgid "Standard"
+msgstr "المقياس"
 
 msgid "Volume aggregation does not support Cluster chart"
 msgstr "تجميع حجم لا يعتمد مخطط الكتلة"
@@ -1630,8 +1681,14 @@ msgstr "نوع البيانات #1"
 msgid "Data type #2"
 msgstr "نوع البيانات #2"
 
+msgid "Aggregate profiles on chart price scaling"
+msgstr "ملفات تعريف مجمعة على قياس سعر الرسم البياني"
+
 msgid "Cluster visualization"
 msgstr "Cluster visualization"
+
+msgid "Value label"
+msgstr "تسميه القيمة"
 
 msgid "Show POC"
 msgstr "إظهار POC"
@@ -1651,6 +1708,108 @@ msgstr "ساعة"
 msgid "Enabled"
 msgstr "مفعّل"
 
+msgid "Trades"
+msgstr "التداولات"
+
+msgid "Buy trades"
+msgstr "بحسب التداولات"
+
+msgid "Sell trades"
+msgstr "تداولات البيع"
+
+msgid "Buy volume"
+msgstr "حجم الشراء"
+
+msgid "Up ticks"
+msgstr "القراد حتى"
+
+msgid "Buy volume, %"
+msgstr "حجم الشراء, %"
+
+msgid "Up ticks, %"
+msgstr "ارتفاع القراد ، ٪"
+
+msgid "Sell volume"
+msgstr "حجم البيع"
+
+msgid "Down ticks"
+msgstr "القراد لأسفل"
+
+msgid "Sell volume, %"
+msgstr "حجم البيع, %"
+
+msgid "Down ticks, %"
+msgstr "القراد أسفل، ٪"
+
+msgid "Buy/Sell volume"
+msgstr "حجم الشراء/البيع"
+
+msgid "Up/Down ticks"
+msgstr "القراد لأعلى/لأسفل"
+
+msgid "Delta"
+msgstr "دلتا"
+
+msgid "Delta ticks"
+msgstr "دلتا القراد"
+
+msgid "Delta, %"
+msgstr "دلتا %"
+
+msgid "Delta ticks, %"
+msgstr "القراد دلتا ، ٪"
+
+msgid "Min delta"
+msgstr "مين دلتا"
+
+msgid "Min delta ticks"
+msgstr "مين دلتا القراد"
+
+msgid "Max delta"
+msgstr "ماكس دلتا"
+
+msgid "Max delta ticks"
+msgstr "ماكس دلتا القراد"
+
+msgid "Cumulative delta"
+msgstr "دلتا تراكمية"
+
+msgid "Cumulative delta ticks"
+msgstr "علامات دلتا التراكمية"
+
+msgid "Average size"
+msgstr "متوسط الحجم"
+
+msgid "Average buy size"
+msgstr "حجم متوسط الشراء"
+
+msgid "Average sell size"
+msgstr "حجم متوسط البيع"
+
+msgid "Max one trade Vol."
+msgstr "الحد الأقصى لحجم التجارة الواحدة."
+
+msgid "Max one trade Vol, %"
+msgstr "الحد الأقصى لحجم التداول الواحد، ٪"
+
+msgid "Filt. volume"
+msgstr "شعر. حجم"
+
+msgid "Filt. volume, %"
+msgstr "شعر. حجم, ٪"
+
+msgid "Filt. buy volume"
+msgstr "شعر. حجم الشراء"
+
+msgid "Filt. buy volume, %"
+msgstr "شعر. حجم الشراء، ٪"
+
+msgid "Filt. sell volume"
+msgstr "شعر. حجم البيع"
+
+msgid "Filt. sell volume, %"
+msgstr "شعر. حجم البيع، ٪"
+
 msgid "Gradient"
 msgstr "الانحدار"
 
@@ -1659,6 +1818,9 @@ msgstr "ثابت"
 
 msgid "Coloring mode"
 msgstr "وضع التلوين"
+
+msgid "Level value type"
+msgstr "نوع قيمة المستوى"
 
 msgid "Default colors"
 msgstr "الألوان الافتراضية"
@@ -1681,11 +1843,17 @@ msgstr "تلوين لمستويات دلتا إيجابية"
 msgid "Coloring for negative levels"
 msgstr "التلوين لمستويات سلبية"
 
+msgid "Percent"
+msgstr "نسبه مئويه"
+
 msgid "Histogram position"
 msgstr "موضع الرسم البياني"
 
 msgid "Histogram label position"
 msgstr "موضع تسميه الرسم البياني"
+
+msgid "Volume color"
+msgstr "لون السيولة"
 
 msgid "Trade color"
 msgstr "لون الصفقة"
@@ -1800,6 +1968,12 @@ msgstr "شراء"
 
 msgid "SELL"
 msgstr "بيع"
+
+msgid "chart.DateRangeRenderer.UnCollapse"
+msgstr "جدول. DateRangeRenderer.UnCollapse"
+
+msgid "chart.DateRangeRenderer.Collapse"
+msgstr "جدول. DateRangeRenderer.Collapse"
 
 msgid "Scale marker"
 msgstr "مظلل المقياس"
@@ -1944,9 +2118,6 @@ msgstr "إظهار القوس كاملاً"
 
 msgid "Data format"
 msgstr "تنسيق البيانات"
-
-msgid "Percent"
-msgstr "نسبه مئويه"
 
 msgid "Fixed top"
 msgstr "أعلى ثابت"
@@ -2122,6 +2293,9 @@ msgstr "أعلى"
 msgid "Control buttons position"
 msgstr "التحكم في موضع أزرار"
 
+msgid "Current Week"
+msgstr "الأسبوع الحالي"
+
 msgid "Current Monday"
 msgstr "الاثنين الحالي"
 
@@ -2142,6 +2316,9 @@ msgstr "السبت الحالي"
 
 msgid "Current Sunday"
 msgstr "الأحد الحالي"
+
+msgid "Last 7 days"
+msgstr "آخر 7 أيام"
 
 msgid "Previous Monday"
 msgstr "الاثنين السابق"
@@ -2173,15 +2350,15 @@ msgstr "الصافي:"
 msgid "Gross:"
 msgstr "الإجمالي:"
 
+msgid "Ticks and P/L"
+msgstr "حركات الأسعار و ر/خ"
+
 #, csharp-format
 msgid "TP price: {0}"
 msgstr "سعر TP: {0}"
 
 msgid "Tr.Stop"
 msgstr "Tr.Stop"
-
-msgid "SL price"
-msgstr "إيقاف الخسارة"
 
 #, csharp-format
 msgid "{0} TP price: {1}"
@@ -2209,8 +2386,11 @@ msgstr "رمز فارغ"
 msgid "Futures"
 msgstr "المستقبلية"
 
-msgid "Full"
-msgstr "كامل"
+msgid "chart.ppz.incorrectData"
+msgstr "chart.ppz.incorrectData"
+
+msgid "chart.ppz.noPPZ"
+msgstr "chart.ppz.noPPZ"
 
 msgid "Sup"
 msgstr "سوب"
@@ -2393,6 +2573,9 @@ msgstr "خط POC"
 msgid "Week POC line"
 msgstr "أسبوع خط POC"
 
+msgid "VIP Analysis"
+msgstr "تحليل كبار الشخصيات"
+
 msgid "Candle"
 msgstr "شمعة"
 
@@ -2419,6 +2602,21 @@ msgstr "رينكو"
 
 msgid "Profile"
 msgstr "الملف الشخصي"
+
+msgid "chart.chartWindowManager.clickToExpand.Tooltip"
+msgstr "chart.chartWindowManager.clickToExpand.Tooltip"
+
+msgid "chart.chartWindowManager.clickToCollapse.Tooltip"
+msgstr "chart.chartWindowManager.clickToCollapse.Tooltip"
+
+msgid "chart.chartWindowManager.expandOrResize.Tooltip"
+msgstr "chart.chartWindowManager.expandOrResize.Tooltip"
+
+msgid "chart.chartWindowManager.dragToResize.Tooltip"
+msgstr "chart.chartWindowManager.dragToResize.Tooltip"
+
+msgid "chart.loadingTickData"
+msgstr "chart.loadingTickData"
 
 msgid "Keyboard trading is active"
 msgstr "تداول لوحة المفاتيح نشط"
@@ -2705,12 +2903,6 @@ msgstr "حجم التداول: "
 msgid "Combined"
 msgstr "مجتمعه"
 
-msgid "Mirror"
-msgstr "مرآة"
-
-msgid "Delta"
-msgstr "دلتا"
-
 msgid "Data gap:"
 msgstr "فجوة البيانات:"
 
@@ -2740,9 +2932,6 @@ msgstr "لون البيع التراكمي"
 
 msgid "Level2"
 msgstr "المستوى 2"
-
-msgid "Trades"
-msgstr "التداولات"
 
 msgid "Show DOM levels"
 msgstr "إظهار مستويات DOM"
@@ -3116,6 +3305,9 @@ msgstr "طريقة التلوين"
 msgid "Table colors"
 msgstr "ألوان الجدول"
 
+msgid "Mouse right click"
+msgstr "انقر بزر الماوس الأيمن"
+
 msgid "Cancellation priority"
 msgstr "أولوية الإلغاء"
 
@@ -3239,6 +3431,30 @@ msgstr "حجم تجارة العطاء"
 msgid "Bid/Ask reset"
 msgstr "إعادة تعيين عرض الأسعار/الطلب"
 
+msgid "Item color"
+msgstr "لون البند"
+
+msgid "Highlight last trade"
+msgstr "تسليط الضوء على التجارة الأخيرة"
+
+msgid "Unchanged item color"
+msgstr "لون العنصر دون تغيير"
+
+msgid "Unchanged border color"
+msgstr "لون الحدود دون تغيير"
+
+msgid "Up item color"
+msgstr "لون العنصر لأعلى"
+
+msgid "Up border color"
+msgstr "لون الحدود لأعلى"
+
+msgid "Down item color"
+msgstr "لون العنصر لأسفل"
+
+msgid "Down border color"
+msgstr "لون الحدود لأسفل"
+
 msgid "Last trade size"
 msgstr "حجم التداول الأخير"
 
@@ -3272,6 +3488,15 @@ msgstr "ترتيب اللون"
 msgid "SL/TP color"
 msgstr "SL / TP اللون"
 
+msgid "Set column width... [{(int)this.WidthCoeff} px]"
+msgstr "تعيين عرض العمود... [{(int)this. WidthCoeff} px]"
+
+msgid "Fit column width to content"
+msgstr "احتواء عرض العمود على المحتوى"
+
+msgid "Fit all columns width to content"
+msgstr "احتواء عرض جميع الأعمدة على المحتوى"
+
 msgid "Column font"
 msgstr "خط العمود"
 
@@ -3283,6 +3508,12 @@ msgstr "ألوان مخصصة"
 
 msgid "Custom Back Color"
 msgstr "لون الظهر المخصص"
+
+msgid "Width, px"
+msgstr "العرض، بكسل"
+
+msgid "Minimal width, px (on autofit)"
+msgstr "الحد الأدنى من العرض، px (على autofit)"
 
 msgid "Total value"
 msgstr "القيمة الإجمالية"
@@ -3410,6 +3641,15 @@ msgstr "لون المركز القصير"
 msgid "Show day high/low"
 msgstr "إظهار يوم مرتفع/منخفض"
 
+msgid "Calculate High/Low by session"
+msgstr "حساب أعلى/أدنى مستوى حسب الجلسة"
+
+msgid "Default by symbol"
+msgstr "افتراضي بالرمز"
+
+msgid "History type"
+msgstr "نوع السجّل"
+
 msgid "Day high"
 msgstr "ارتفاع اليوم"
 
@@ -3427,9 +3667,6 @@ msgstr "مسح الأسعار المميزة"
 
 msgid "Price marks"
 msgstr "علامات الأسعار"
-
-msgid "Add mark"
-msgstr "إضافة علامة"
 
 msgid "In profit range"
 msgstr "في نطاق الربح"
@@ -3463,12 +3700,6 @@ msgstr "اطلب اللون"
 
 msgid "Size bar type"
 msgstr "نوع شريط الحجم"
-
-msgid "Left"
-msgstr "اليسار"
-
-msgid "Right"
-msgstr "اليمين"
 
 msgid "Histogram Alignment"
 msgstr "محاذاة الرسم البياني"
@@ -3524,6 +3755,9 @@ msgstr "دلتا سالب"
 msgid "Show Last Trade Size"
 msgstr "إظهار آخر حجم تداول"
 
+msgid "Text Alignment"
+msgstr "محاذاة النص"
+
 msgid "Reload data (server)"
 msgstr "إعادة تحميل البيانات (الخادم)"
 
@@ -3532,6 +3766,15 @@ msgstr "الوارد أخيراً"
 
 msgid "FIFO"
 msgstr "الوارد أولاً"
+
+msgid "Cancel all"
+msgstr "إلغاء الكل"
+
+msgid "Cancel first"
+msgstr "الإلغاء أولا"
+
+msgid "Cancel last"
+msgstr "إلغاء آخر مرة"
 
 msgid "By price level"
 msgstr "بحسب مستوى السعر"
@@ -3682,6 +3925,120 @@ msgstr "إضافة الرموز المحددة"
 
 msgid "Data latency"
 msgstr "زمن وصول البيانات"
+
+msgid "primaryBGColor"
+msgstr "الابتدائيةBGColor"
+
+msgid "primaryBorderColor"
+msgstr "أساسيالحدودلون"
+
+msgid "secondaryBGColor"
+msgstr "الثانويةBGColor"
+
+msgid "secondaryBorderColor"
+msgstr "ثانويحدودلون"
+
+msgid "middleBGColor"
+msgstr "ميدلب جي كولور"
+
+msgid "primaryTextColor"
+msgstr "أساسيالنصلون"
+
+msgid "secondaryTextColor"
+msgstr "ثانويتكستكسلونون"
+
+msgid "activeTextColor"
+msgstr "أكتيف تكستكولور"
+
+msgid "accentTextColor"
+msgstr "لكنةنصاللونلون"
+
+msgid "disabledTextColor"
+msgstr "disabledTextColor"
+
+msgid "infoColor"
+msgstr "انفوكولور"
+
+msgid "dangerColor"
+msgstr "خطراللون"
+
+msgid "warningColor"
+msgstr "تحذيراللون"
+
+msgid "successColor"
+msgstr "النجاحاللون"
+
+msgid "successHoverColor"
+msgstr "النجاحHoverColor"
+
+msgid "accentColor"
+msgstr "أكسنتلونور"
+
+msgid "accentHoverColor"
+msgstr "أكسنت هوفر كولور"
+
+msgid "buyColor"
+msgstr "شراء اللون"
+
+msgid "buyColorHover"
+msgstr "شراءكولور هوفر"
+
+msgid "buyColorActive"
+msgstr "شراءكولور أكتيف"
+
+msgid "sellColor"
+msgstr "بيع اللون"
+
+msgid "sellColorHover"
+msgstr "بيع كولور هوفر"
+
+msgid "sellColorActive"
+msgstr "بيع كولور أكتيف"
+
+msgid "statusWarningColor"
+msgstr "الحالةتحذيراللون"
+
+msgid "statusActiveColor"
+msgstr "الحالةأكتيف كولور"
+
+msgid "contextMenuBGColor"
+msgstr "contextMenuBGColor"
+
+msgid "contextMenuBGHoverColor"
+msgstr "السياقالقائمةBGHoverColor"
+
+msgid "contextMenuTextColor"
+msgstr "السياقالقائمةالنصاللون"
+
+msgid "contextMenuTextDisabledColor"
+msgstr "السياقالقائمةالنصمعطل اللوناللون"
+
+msgid "windowBorderExternalColor"
+msgstr "نافذةالحدودخارجيةاللون"
+
+msgid "windowBorderInternalColor"
+msgstr "نافذةالحدودالداخليةاللون"
+
+msgid "windowBGColor"
+msgstr "windowBGColor"
+
+msgid "windowBorderFocusedColor"
+msgstr "نافذةالحدودالتركيز اللوني"
+
+msgid "link1Color"
+msgstr "link1Color"
+
+msgid "link2Color"
+msgstr "link2Color"
+
+msgid "link3Color"
+msgstr "link3Color"
+
+msgid "link4Color"
+msgstr "link4Color"
+
+msgid "link5Color"
+msgstr "link5Color"
 
 msgid "'Or'"
 msgstr "'أو'"
@@ -3904,6 +4261,9 @@ msgstr "انقطع الاتصال"
 msgid "Save password"
 msgstr "حفظ كلمة المرور"
 
+msgid "View password"
+msgstr "عرض كلمة المرور"
+
 msgid "Recover"
 msgstr "استعادة"
 
@@ -4034,6 +4394,9 @@ msgstr "استخدام وضع تقديم البرامج (تتطلب إعادة �
 
 msgid "Hide part of Account name"
 msgstr "إخفاء جزء من اسم الحساب"
+
+msgid "Countdown direction"
+msgstr "اتجاه العد التنازلي"
 
 msgid "Symbols to hide"
 msgstr "رموز للاختباء"
@@ -4380,11 +4743,20 @@ msgstr "ضبط وضع الهامش"
 msgid "Volume analysis step (ticks)"
 msgstr "خطوة تحليل الحجم (علامات)"
 
+msgid "Native (.NET)"
+msgstr "أصلي (.NET)"
+
+msgid "WebSocket4Net"
+msgstr "WebSocket4Net"
+
 msgid "Account custom name"
 msgstr "اسم الحساب المخصص"
 
 msgid "Check orders interval, sec"
 msgstr "التحقق من الفاصل الزمني للأوامر ، ثانية"
+
+msgid "Stream connector library"
+msgstr "مكتبة موصل الدفق"
 
 msgid "Real-time"
 msgstr "في الوقت الحقيقي"
@@ -4761,89 +5133,14 @@ msgstr "USDT التبادل الدائم"
 msgid "Load user trades history"
 msgstr "تحميل تاريخ صفقات المستخدم"
 
+msgid "Load user orders history"
+msgstr "تحميل سجل أوامر المستخدم"
+
 msgid "Can't find connection type parameters"
 msgstr "لا يمكن العثور على معلمات نوع الاتصال"
 
 msgid "There aren't selected exchanges to connect. Please open 'Connection settings' and select required exchanges."
 msgstr "لا توجد عمليات تبادل محددة للاتصال. الرجاء فتح \"إعدادات الاتصال\" وتحديد التبادلات المطلوبة."
-
-msgid "Conditional limit"
-msgstr "حد شرطي"
-
-msgid "Conditional market"
-msgstr "السوق المشروط"
-
-msgid "Trailing profit"
-msgstr "أرباح زائدة"
-
-msgid "Min price"
-msgstr "الحد الأدنى للسعر"
-
-msgid "Max leverage"
-msgstr "أقصى رافعة مالية"
-
-msgid "Min leverage"
-msgstr "الحد الأدنى للرافعة المالية"
-
-msgid "Leverage step"
-msgstr "خطوة الرافعة المالية"
-
-msgid "Asset exchange records"
-msgstr "سجلات تبادل الأصول"
-
-msgid "Active orders"
-msgstr "أوامر نشطة"
-
-msgid "Conditional orders"
-msgstr "أوامر مشروطة"
-
-msgid "Equity"
-msgstr "الأسهم"
-
-msgid "Used margin"
-msgstr "الهامش المستخدم"
-
-msgid "Order margin"
-msgstr "هامش الأمر"
-
-msgid "Pre-occupied order margin"
-msgstr "هامش الطلبات قبل الاحتلال"
-
-msgid "Position margin"
-msgstr "هامش المركز"
-
-msgid "Position closing fee occupied"
-msgstr "رسوم إغلاق المركز مشغولة"
-
-msgid "Pre-occupied funding fee"
-msgstr "رسوم تمويل مشغولة مسبقا"
-
-msgid "Daily realized PnL"
-msgstr "PnL تتحقق يوميا"
-
-msgid "Daily realized profit and loss"
-msgstr "الأرباح والخسائر اليومية المحققة"
-
-msgid "Daily unrealized PnL"
-msgstr "PnL اليومي غير المتحقق"
-
-msgid "Daily unrealized profit and loss"
-msgstr "الأرباح والخسائر اليومية غير المحققة"
-
-msgid "Accumulated realised PnL"
-msgstr "PnL المتجمعة"
-
-msgid "Accumulated realised profit and loss (all-time total)"
-msgstr "الأرباح والخسائر المتراكمة المتحققة (إجمالي على الإطلاق)"
-
-msgid "Client Id"
-msgstr "معرف العميل"
-
-msgid "Secret Id"
-msgstr "معرف سري"
-
-msgid "Client id is empty"
-msgstr "هوية العميل فارغة"
 
 msgid "Trade user"
 msgstr "مستخدم التجارة"
@@ -4880,6 +5177,84 @@ msgstr "يجب تغيير كلمة المرور"
 
 msgid "Cedro Market data license is required to use this connection."
 msgstr "مطلوب ترخيص بيانات سوق Cedro لاستخدام هذا الاتصال."
+
+msgid "DAY"
+msgstr "اليوم"
+
+msgid "GTC"
+msgstr "GTC"
+
+msgid "MARKET"
+msgstr "سوق"
+
+msgid "LIMIT"
+msgstr "حد"
+
+msgid "STOP"
+msgstr "وقف"
+
+msgid "STOP_LIMIT"
+msgstr "STOP_LIMIT"
+
+msgid "Total equity"
+msgstr "إجمالي حقوق الملكية"
+
+msgid "Net liquidity"
+msgstr "صافي السيولة"
+
+msgid "The current value of the account, assuming that open positions are closed at their current value."
+msgstr "القيمة الحالية للحساب، على افتراض أن المراكز المفتوحة مغلقة بقيمتها الحالية."
+
+msgid "Yesterday's commissions"
+msgstr "لجان الأمس"
+
+msgid "Yesterday's commissions for the start of day account balance."
+msgstr "عمولات الأمس لبداية رصيد الحساب."
+
+msgid "Yesterday's fees"
+msgstr "رسوم الأمس"
+
+msgid "Yesterday's fees for the start of day account balance."
+msgstr "رسوم يوم أمس لبداية رصيد الحساب."
+
+msgid "Open trade equity"
+msgstr "الأسهم التجارية المفتوحة"
+
+msgid "the profit and loss due to open futures positions"
+msgstr "الربح والخسارة بسبب المراكز الآجلة المفتوحة"
+
+msgid "Margin error"
+msgstr "خطأ الهامش"
+
+msgid "Initial total margin"
+msgstr "الهامش الإجمالي الأولي"
+
+msgid "Maintenance total margin"
+msgstr "هامش إجمالي الصيانة"
+
+msgid "Initial risk margin"
+msgstr "هامش المخاطر الأولي"
+
+msgid "Maintenance risk margin"
+msgstr "هامش مخاطر الصيانة"
+
+msgid "Estimated"
+msgstr "مقدر"
+
+msgid "Yes"
+msgstr "نعم"
+
+msgid "No"
+msgstr "لا"
+
+msgid "As of time"
+msgstr "اعتبارا من الوقت"
+
+msgid "Username"
+msgstr "المستخدم"
+
+msgid "Username is empty"
+msgstr "اسم المستخدم فارغ"
 
 msgid "Primary"
 msgstr "الاساسي"
@@ -4946,6 +5321,9 @@ msgstr "الامتيازات"
 
 msgid "POSTONLY"
 msgstr "البريد فقط"
+
+msgid "Request continuation history"
+msgstr "طلب سجل المتابعة"
 
 msgid "User name is empty."
 msgstr "اسم المستخدم فارغ."
@@ -5042,6 +5420,9 @@ msgstr "إجمالي الهامش"
 
 msgid "Margin requirement calculated for worst-case based on open positions and working orders."
 msgstr "متطلبات الهامش المحسوبة لأسوأ الحالات استنادا إلى المراكز المفتوحة وأوامر العمل."
+
+msgid "Position margin"
+msgstr "هامش المركز"
 
 msgid "Margin requirement based on current positions only."
 msgstr "متطلبات الهامش استنادا إلى المراكز الحالية فقط."
@@ -5247,6 +5628,15 @@ msgstr "تقليل فقط"
 msgid "Reduce"
 msgstr "الحد"
 
+msgid "Client Id"
+msgstr "معرف العميل"
+
+msgid "Secret Id"
+msgstr "معرف سري"
+
+msgid "Client id is empty"
+msgstr "هوية العميل فارغة"
+
 msgid "Invalid credentials"
 msgstr "بيانات اعتماد غير صحيحة"
 
@@ -5267,9 +5657,6 @@ msgstr "فيض"
 
 msgid "TWAP"
 msgstr "TWAP"
-
-msgid "GTC"
-msgstr "GTC"
 
 msgid "IOC"
 msgstr "IOC"
@@ -5469,8 +5856,14 @@ msgstr "الرمز المميز"
 msgid "Access token is empty."
 msgstr "الرمز المميز للوصول فارغ."
 
+msgid "Equity"
+msgstr "الأسهم"
+
 msgid "The amount of funds on the account, including profits and losses of all open positions (the floating balance of the account)."
 msgstr "مبلغ الأموال في الحساب ، بما في ذلك الأرباح والخسائر لجميع المراكز المفتوحة (الرصيد العائم للحساب)."
+
+msgid "Used margin"
+msgstr "الهامش المستخدم"
 
 msgid "The amount of funds used to maintain all open positions on the account."
 msgstr "مبلغ الأموال المستخدمة للحفاظ على جميع المراكز المفتوحة على الحساب."
@@ -5691,8 +6084,11 @@ msgstr "مبادلات العملة-M"
 msgid "USDT-M Swaps"
 msgstr "مقايضات USDT-M"
 
-msgid "Load user orders history"
-msgstr "تحميل سجل أوامر المستخدم"
+msgid "Spot account custom name"
+msgstr "الاسم المخصص لحساب Spot"
+
+msgid "Derivative account custom name"
+msgstr "الاسم المخصص للحساب المشتق"
 
 msgid "There aren't selected exchanges to connect. Please, choose needed exchanges and try connect again."
 msgstr "لا توجد عمليات تبادل محددة للاتصال. من فضلك، اختر التبادلات المطلوبة وحاول الاتصال مرة أخرى."
@@ -6439,9 +6835,6 @@ msgstr "العدد التقريبي للموظفين"
 msgid "Unknown error while connect"
 msgstr "خطا غير معروف اثناء الاتصال"
 
-msgid "Username"
-msgstr "المستخدم"
-
 msgid "Wmid"
 msgstr "Wmid"
 
@@ -6576,6 +6969,102 @@ msgstr "الحد الأقصى لكمة الطلب"
 
 msgid "The maximum quantity allowed for any orders."
 msgstr "الحد الأقصى للكمية المسموح بها لأي أوامر."
+
+msgid "UserType"
+msgstr "نوع المستخدم"
+
+msgid "FirstName"
+msgstr "الاسم الأول"
+
+msgid "LastName"
+msgstr "اسم العائلة"
+
+msgid "Address1"
+msgstr "العنوان1"
+
+msgid "Address2"
+msgstr "العنوان2"
+
+msgid "City"
+msgstr "المدينة"
+
+msgid "StateProvinceRegion"
+msgstr "ولايةإقليمإقليمي"
+
+msgid "PostalCode"
+msgstr "الرمز البريدي"
+
+msgid "ResidencePhone"
+msgstr "ريزيدنس الهاتف"
+
+msgid "WorkPhone"
+msgstr "هاتف العمل"
+
+msgid "MobilePhone"
+msgstr "الهاتف المحمول"
+
+msgid "FaxPhone"
+msgstr "فاكسالهاتف"
+
+msgid "CurrentHistorySessionCount"
+msgstr "الحاليالتاريخعدد الجلسات"
+
+msgid "CurrentMarketDataSessionCount"
+msgstr "CurrentMarketDataSessionCount"
+
+msgid "CurrentOrdersSessionCount"
+msgstr "CurrentOrdersSessionCount"
+
+msgid "CurrentPnlSessionCount"
+msgstr "CurrentPnlSessionCount"
+
+msgid "CurrentRepositorySessionCount"
+msgstr "المستودع الحاليعدد الجلسات"
+
+msgid "PeakHistorySessionCount"
+msgstr "الذروةالتاريخعدد الجلسات"
+
+msgid "PeakMarketDataSessionCount"
+msgstr "PeakMarketDataSessionCount"
+
+msgid "PeakOrdersSessionCount"
+msgstr "الذروةالأوامرجلةالعد"
+
+msgid "PeakPnlSessionCount"
+msgstr "PeakPnlSessionCount"
+
+msgid "PeakRepositorySessionCount"
+msgstr "PeakRepositorySessionCount"
+
+msgid "MaxHistorySessionCount"
+msgstr "MaxHistorySessionCount"
+
+msgid "MaxMarketDataSessionCount"
+msgstr "ماكس ماركتداتاسيشنتاكت"
+
+msgid "MaxOrdersSessionCount"
+msgstr "MaxOrdersSessionCount"
+
+msgid "MaxPnlSessionCount"
+msgstr "MaxPnlSessionCount"
+
+msgid "MaxRepositorySessionCount"
+msgstr "MaxRepositorySessionCount"
+
+msgid "Auto liquidate"
+msgstr "تصفية تلقائية"
+
+msgid "Auto liquidate criteria"
+msgstr "معايير التصفية التلقائية"
+
+msgid "Auto liquidate Max/Min account balance"
+msgstr "التصفية التلقائية لرصيد الحساب بحد أقصى/دقيقة"
+
+msgid "Auto liquidate threshold"
+msgstr "عتبة التصفية التلقائية"
+
+msgid "Disable on auto liquidate"
+msgstr "تعطيل على تصفية السيارات"
 
 msgid "Available buying power"
 msgstr "القوة الشرائية المتاحة"
@@ -7312,9 +7801,6 @@ msgstr "قيمة قصيرة للخيار"
 msgid "Value of short option positions"
 msgstr "قيمة مراكز الخيارات القصيرة"
 
-msgid "Total equity"
-msgstr "إجمالي حقوق الملكية"
-
 msgid "Total account value"
 msgstr "إجمالي قيمة الحساب"
 
@@ -7431,9 +7917,6 @@ msgstr "اسم مستعار"
 
 msgid "Serie"
 msgstr "سلسلة"
-
-msgid "Username is empty"
-msgstr "اسم المستخدم فارغ"
 
 msgid "Xena Listed Perpetuals"
 msgstr "xena المدرجة بيربيتوالس"

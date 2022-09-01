@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 16:53+0300\n"
+"POT-Creation-Date: 2022-09-01 17:38+0300\n"
 "PO-Revision-Date: 2022-02-02 01:07+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -52,6 +52,9 @@ msgstr "लक्ष्य मान समाप्त करें"
 msgid "Iterations count"
 msgstr "पुनरावृत्तियों की गिनती"
 
+msgid "Initial balance"
+msgstr "प्रारंभिक संतुलन"
+
 msgid "Backtest id"
 msgstr "Backtest id"
 
@@ -94,17 +97,20 @@ msgstr "से replaying प्रारंभ करें"
 msgid "Backtest & Optimize (Beta)"
 msgstr "Backtest & Optimize (बीटा)"
 
+msgid "Add live strategy with same parameters"
+msgstr "एक ही पैरामीटर के साथ लाइव रणनीति जोड़ें"
+
 msgid "Apply environment settings"
 msgstr "वातावरण सेटिंग्स लागू करें"
 
 msgid "Apply strategy settings"
 msgstr "रणनीति सेटिंग्स लागू करें"
 
-msgid "Add live strategy with same parameters"
-msgstr "एक ही पैरामीटर के साथ लाइव रणनीति जोड़ें"
-
 msgid "Remove all"
 msgstr "सभी निकालें"
+
+msgid "Are you sure you want to remove all backtesting results?"
+msgstr "क्या आप वाकई सभी बैकटेस्टिंग परिणाम निकालना चाहते हैं?"
 
 msgid "No backtest results yet"
 msgstr "अभी तक कोई backtest परिणाम नहीं"
@@ -118,5 +124,11 @@ msgstr "चयनित बैकटेस्ट परिणाम के ल�
 msgid "Logs for selected backtest result"
 msgstr "चयनित बैकटेस्ट परिणाम के लिए लॉग"
 
+msgid "Max logs count"
+msgstr "अधिकतम लॉग गिनती"
+
 msgid "Optimization process has been stopped, because strategy script has been modified."
 msgstr "ऑप्टिमाइज़ेशन प्रक्रिया रोक दी गई है, क्योंकि रणनीति स्क्रिप्ट संशोधित की गई है."
+
+msgid "Are you sure you want to remove this backtesting result?"
+msgstr "क्या आप वाकई इस बैकटेस्टिंग परिणाम को निकालना चाहते हैं?"

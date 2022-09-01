@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 16:53+0300\n"
+"POT-Creation-Date: 2022-09-01 17:38+0300\n"
 "PO-Revision-Date: 2022-02-02 01:03+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -52,6 +52,9 @@ msgstr "목표 값 완료"
 msgid "Iterations count"
 msgstr "반복 횟수"
 
+msgid "Initial balance"
+msgstr "초기 잔액"
+
 msgid "Backtest id"
 msgstr "백스터 ID"
 
@@ -94,17 +97,20 @@ msgstr "재생 시작"
 msgid "Backtest & Optimize (Beta)"
 msgstr "Backtest & Optimize (베타)"
 
+msgid "Add live strategy with same parameters"
+msgstr "동일한 매개 변수로 라이브 전략 추가"
+
 msgid "Apply environment settings"
 msgstr "환경 설정 적용"
 
 msgid "Apply strategy settings"
 msgstr "전략 설정 적용"
 
-msgid "Add live strategy with same parameters"
-msgstr "동일한 매개 변수로 라이브 전략 추가"
-
 msgid "Remove all"
 msgstr "모두 제거"
+
+msgid "Are you sure you want to remove all backtesting results?"
+msgstr "모든 백테스팅 결과를 제거하시겠습니까?"
 
 msgid "No backtest results yet"
 msgstr "아직 백테스트 결과가 없습니다."
@@ -118,5 +124,11 @@ msgstr "선택한 백테스트 결과에 대한 메트릭"
 msgid "Logs for selected backtest result"
 msgstr "선택한 백테스트 결과에 대한 로그"
 
+msgid "Max logs count"
+msgstr "최대 로그 수"
+
 msgid "Optimization process has been stopped, because strategy script has been modified."
 msgstr "전략 스크립트가 수정되었기 때문에 최적화 프로세스가 중지되었습니다."
+
+msgid "Are you sure you want to remove this backtesting result?"
+msgstr "이 백 테스트 결과를 제거하시겠습니까?"

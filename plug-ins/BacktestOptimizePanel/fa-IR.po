@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 16:53+0300\n"
+"POT-Creation-Date: 2022-09-01 17:38+0300\n"
 "PO-Revision-Date: 2022-02-02 01:08+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -52,6 +52,9 @@ msgstr "پایان ارزش هدف"
 msgid "Iterations count"
 msgstr "شمارش آندره ها"
 
+msgid "Initial balance"
+msgstr "تعادل اولیه"
+
 msgid "Backtest id"
 msgstr "Backtest id"
 
@@ -94,17 +97,20 @@ msgstr "شروع به پخش مجدد از"
 msgid "Backtest & Optimize (Beta)"
 msgstr "Backtest & Optimize (Beta)"
 
+msgid "Add live strategy with same parameters"
+msgstr "اضافه کردن استراتژی زنده با پارامترهای مشابه"
+
 msgid "Apply environment settings"
 msgstr "اعمال تنظیمات محیط"
 
 msgid "Apply strategy settings"
 msgstr "اعمال تنظیمات استراتژی"
 
-msgid "Add live strategy with same parameters"
-msgstr "اضافه کردن استراتژی زنده با پارامترهای مشابه"
-
 msgid "Remove all"
 msgstr "حذف همه"
+
+msgid "Are you sure you want to remove all backtesting results?"
+msgstr "آیا مطمئن هستید که می خواهید تمام نتایج backtesting را حذف کنید؟"
 
 msgid "No backtest results yet"
 msgstr "هیچ نتایج backtest هنوز"
@@ -118,5 +124,11 @@ msgstr "متریک برای انتخاب نتیجه backtest"
 msgid "Logs for selected backtest result"
 msgstr "سیاهههای مربوط به نتیجه backtest انتخاب شده"
 
+msgid "Max logs count"
+msgstr "تعداد سیاهههای مربوط به حداکثر"
+
 msgid "Optimization process has been stopped, because strategy script has been modified."
 msgstr "فرایند بهینه سازی متوقف شده است، زیرا اسکریپت استراتژی اصلاح شده است."
+
+msgid "Are you sure you want to remove this backtesting result?"
+msgstr "آیا مطمئن هستید که می خواهید این نتیجه backtesting را حذف کنید؟"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quantower\n"
 "Report-Msgid-Bugs-To: info@quantower.com\n"
-"POT-Creation-Date: 2022-06-24 16:53+0300\n"
+"POT-Creation-Date: 2022-09-01 17:38+0300\n"
 "PO-Revision-Date: 2022-02-02 01:05+0200\n"
 "Last-Translator: info@quantower.com\n"
 "Language-Team: Quantower team\n"
@@ -52,6 +52,9 @@ msgstr "Конечное целевое значение"
 msgid "Iterations count"
 msgstr "Количество итераций"
 
+msgid "Initial balance"
+msgstr "Баланс инициализации"
+
 msgid "Backtest id"
 msgstr "ID бэктеста"
 
@@ -94,17 +97,20 @@ msgstr "Начните повтор с"
 msgid "Backtest & Optimize (Beta)"
 msgstr "Backtest & Optimize (Beta)"
 
+msgid "Add live strategy with same parameters"
+msgstr "Добавить реальную стратегию с такими параметрами"
+
 msgid "Apply environment settings"
 msgstr "Применение параметров среды"
 
 msgid "Apply strategy settings"
 msgstr "Применение настроек стратегии"
 
-msgid "Add live strategy with same parameters"
-msgstr "Добавить реальную стратегию с такими параметрами"
-
 msgid "Remove all"
 msgstr "Удалить все"
+
+msgid "Are you sure you want to remove all backtesting results?"
+msgstr "Вы уверены, что хотите удалить все результаты тестирования?"
 
 msgid "No backtest results yet"
 msgstr "Результатов бэктеста пока нет"
@@ -118,5 +124,11 @@ msgstr "Показатели выбранного результата бэкт�
 msgid "Logs for selected backtest result"
 msgstr "Журналы для выбранного результата бэктеста"
 
+msgid "Max logs count"
+msgstr "Максимальное количество журналов"
+
 msgid "Optimization process has been stopped, because strategy script has been modified."
 msgstr "Процесс оптимизации остановлен, так как изменен код стратегии."
+
+msgid "Are you sure you want to remove this backtesting result?"
+msgstr "Вы уверены, что хотите удалить этот результат тестирования?"
