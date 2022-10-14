@@ -56,34 +56,34 @@ msgid "Limit"
 msgstr "Limite"
 
 msgid "Stop loss price should be less then limit price"
-msgstr "Le Stop loss prix devrait être inférieur au prix limite"
+msgstr "Le Stop loss prix doit être inférieur au prix limite"
 
 msgid "Take profit price should be more then limit price"
-msgstr "Le Take profit devrait être supérieur au prix limite"
+msgstr "Le Take profit doit être supérieur au prix limite"
 
 msgid "Stop loss price should be more then limit price"
-msgstr "Le Stop loss prix devrait être supérieur au prix limite"
+msgstr "Le Stop loss prix doit être supérieur au prix limite"
 
 msgid "Take profit price should be less then limit price"
-msgstr "Le Take profit devrait être inférieur au prix limite"
+msgstr "Le Take profit doit être inférieur au prix limite"
 
 msgid "Market if touched"
-msgstr "Ordre Marché s’il est touché"
+msgstr "Ordre Marché si le prix est touché"
 
 msgid "Market"
 msgstr "Ordre au prix du Marché"
 
 msgid "Stop loss price should be less then market ask price"
-msgstr "le Stop loss le prix devrait être inférieur au prix demandé"
+msgstr "le Stop loss doit être inférieur au prix demandé"
 
 msgid "Take profit price should be more then market ask price"
-msgstr "Le Take profit devrait être supérieur au prix demandé"
+msgstr "Le Take profit doit être supérieur au prix demandé"
 
 msgid "Stop loss price should be more then market bid price"
-msgstr "Le Stop loss prix devrait être supérieur au prix du marché"
+msgstr "Le Stop loss prix doit être supérieur au prix du marché"
 
 msgid "Take profit price should be less then market bid price"
-msgstr "Le Take profit devrait être inférieur au prix de l'offre du marché"
+msgstr "Le Take profit doit être inférieur au prix de l'offre du marché"
 
 msgid "Time in force"
 msgstr "Temps en vigueur"
@@ -110,22 +110,22 @@ msgid "Stop"
 msgstr "Arrêter"
 
 msgid "Stop loss price should be less then trigger price"
-msgstr "Le Stop loss devrait être inférieur au prix déclencheur"
+msgstr "Le Stop loss doit être inférieur au prix déclencheur"
 
 msgid "Take profit price should be more then trigger price"
-msgstr "Prendre le prix de profit devrait être plus alors déclencher le prix"
+msgstr "Le take profit doit être supérieur au prix déclencheur"
 
 msgid "Stop loss price should be more then trigger price"
-msgstr "Arrêter le prix de perte devrait être plus alors déclencher le prix"
+msgstr "Le stop loss doit être supérieur au prix déclencheur"
 
 msgid "Take profit price should be less then trigger price"
-msgstr "Prendre le prix de profit devrait être moins alors déclencher le prix"
+msgstr "Le take profit doit être inférieur au prix déclencheur"
 
 msgid "Trailing Stop"
 msgstr "Stop suiveur"
 
 msgid "Trailing offset"
-msgstr "Décalage de fuite"
+msgstr "Distance du stop suiveur"
 
 msgid "Unspecified"
 msgstr "Non spécifié"
@@ -197,7 +197,7 @@ msgid "Tick direction"
 msgstr "Direction des ticks"
 
 msgid "Loading sessions..."
-msgstr "Chargement de la sessiont..."
+msgstr "Chargement de la session..."
 
 msgid "Loading exchanges..."
 msgstr "Chargement des places de marché..."
@@ -350,7 +350,7 @@ msgid "Order created/canceled/replaced"
 msgstr "Ordre créé/annulé/remplacé"
 
 msgid "Order filled"
-msgstr "Ordre complété"
+msgstr "Ordre executé"
 
 msgid "Order rejected"
 msgstr "Ordre refusé"
@@ -482,7 +482,7 @@ msgid "Show labels"
 msgstr "Afficher les étiquettes"
 
 msgid "Label font"
-msgstr "Police"
+msgstr "Police de l'étiquette"
 
 msgid "Regular bullish line style"
 msgstr "Style de ligne haussière régulière"
