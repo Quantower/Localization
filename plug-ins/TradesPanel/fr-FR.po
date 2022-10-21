@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Trades"
-msgstr "Métiers"
+msgstr "Transactions"
 
 msgid "Show toolbar"
 msgstr "Afficher la barre d’outils"
@@ -32,13 +32,13 @@ msgid "Export to Journal"
 msgstr "Exporter vers le journal"
 
 msgid "There are no trades to export."
-msgstr "Il n’y a pas de métiers à exporter."
+msgstr "Il n’y a pas de transactions à exporter."
 
 msgid "Do you really want to export your trades into Trading Journal?"
-msgstr "Voulez-vous vraiment exporter vos transactions dans Trading Journal?"
+msgstr "Voulez-vous vraiment exporter vos transactions dans le Journal de trading?"
 
 msgid "Loading trades..."
-msgstr "Chargement des trades..."
+msgstr "Chargement des transactions..."
 
 msgid "Total amount of trades ({trades.Count}) is more than current limit for Trades panel ({this.table.RowsLimit}). Only first {this.table.RowsLimit} trades will be displayed."
 msgstr "Montant total des transactions ({trades. Count}) est supérieur à la limite actuelle pour le panneau Trades ({this.table.RowsLimit}). Seuls les premiers trades {this.table.RowsLimit} seront affichés."
@@ -86,34 +86,34 @@ msgid "Option’s strike price"
 msgstr "Prix ​​d'exercice de l'option"
 
 msgid "Side"
-msgstr "Côté"
+msgstr "Sens"
 
 msgid "The direction of the trade"
-msgstr "La direction du commerce"
+msgstr "Le sens de la transaction"
 
 msgid "Order type"
 msgstr "Type d'ordre"
 
 msgid "The type of the order"
-msgstr "Le type de la commande"
+msgstr "Le type d'ordre"
 
 msgid "Quantity"
 msgstr "Quantité"
 
 msgid "Trade’s quantity"
-msgstr "Quantité de commerce"
+msgstr "Quantité d'ordres"
 
 msgid "Price"
 msgstr "Prix"
 
 msgid "Trade’s price"
-msgstr "Le prix du commerce"
+msgstr "Le prix de l'ordre"
 
 msgid "Gross P/L"
 msgstr "Perte/profit bruts"
 
 msgid "Trade’s profit/loss value, without fee/commission applying"
-msgstr "Profit / perte du commerce, sans frais / commission"
+msgstr "Gain/perte sur la transaction, sans les frais/commissions"
 
 msgid "Fee"
 msgstr "Frais"
@@ -122,28 +122,28 @@ msgid "Fee value"
 msgstr "Valeur de la commission"
 
 msgid "Net P/L"
-msgstr "Profit/Perte net"
+msgstr "Gains/Pertes net"
 
 msgid "Trade’s profit/loss value that includes fee/commission"
-msgstr "Profit / perte du commerce qui comprend les frais / commissions"
+msgstr "Gains/Pertes incluant les frais/commissions"
 
 msgid "Trade value"
-msgstr "Valeur commerciale"
+msgstr "Valeur de la transaction"
 
 msgid "Intrinsic value of the trade"
-msgstr "Valeur intrinsèque du commerce"
+msgstr "Valeur intrinsèque de la transaction"
 
 msgid "Trade ID"
-msgstr "ID du trade"
+msgstr "ID transaction"
 
 msgid "ID of the trade"
-msgstr "ID du commerce"
+msgstr "ID de la transaction"
 
 msgid "Order ID"
 msgstr "ID de l'ordre"
 
 msgid "ID of the order"
-msgstr "ID de la commande"
+msgstr "ID de l'ordre"
 
 msgid "Position ID"
 msgstr "ID de la position"
@@ -161,10 +161,10 @@ msgid "Comment"
 msgstr "Faire un commentaire"
 
 msgid "Trade's comment"
-msgstr "Commentaire du commerce"
+msgstr "Commentaire sur la transaction"
 
 msgid "Exchange"
-msgstr "Échange"
+msgstr "Place boursière"
 
 msgid "Exchange name"
-msgstr "Nom d’échange"
+msgstr "Nom de la place boursière"
